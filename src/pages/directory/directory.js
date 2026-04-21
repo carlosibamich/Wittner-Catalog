@@ -45,34 +45,34 @@ import ViolinAngel from '../../assets/images/main-room-north/32-violin-angel.web
 import PriestessThumb from '../../assets/images/main-room-north/33-high-priestess-tarot.webp';
 import SmileThumb from '../../assets/images/main-room-north/34-the-smile.webp';
 import IceCreamThumb from '../../assets/images/main-room-north/35-still-ice-cream.webp';
-// import DrowningDevilThumb from '../../assets/images/main-north/36-drowning-out-devil.webp';
-// import RetellingExodusThumb from '../../assets/images/main-north/37-retelling-exodus.webp';
-// import YouGoDown from '../../assets/images/main-north/38-you-go-down.webp';
-// import Jaded from '../../assets/images/main-north/39-jaded.webp';
-// import BlackRabbi from '../../assets/images/main-north/40-black-rabbi.webp';
-// import NeverFeel from '../../assets/images/main-north/41-never-feel.webp';
-// import Mystic from '../../assets/images/main-north/42-mystic.webp';
-// import LiftOff from '../../assets/images/main-north/43-lift-off.webp';
-// import Parallel from '../../assets/images/main-north/44-parallel-universe.webp';
-// import GoldenEgg from '../../assets/images/main-north/45-golden-egg-arrives.webp';
-// import SearchIdentity from '../../assets/images/main-north/46-search-for-identity.webp';
-// import Summer from '../../assets/images/main-north/47-summer-2022.webp';
-// import Actor from '../../assets/images/main-north/48-actor.webp';
-// import HeKissedMe from '../../assets/images/main-north/49-he-kissed-me.webp';
-// import Remembering from '../../assets/images/main-north/50-remembering.webp';
-// import FirstJob from '../../assets/images/main-north/51-first-on-the-job.webp';
-// import FirstNote from '../../assets/images/main-north/52-first-note.webp';
-// import YourVacation from '../../assets/images/main-north/53-coming-for-your-vacation.webp';
-// import JadedClown from '../../assets/images/main-north/54-another-jaded-clown.webp';
-// import Premonition from '../../assets/images/main-north/55-stop-premonition.webp';
-// import DessertChef from '../../assets/images/main-north/56-dessert-chef.webp';
-// import WhiteClown from '../../assets/images/main-north/57-white-clown.webp';
-// import GalleryHeaven from '../../assets/images/main-north/58-gallery-heaven.webp';
-// import StopFollowing from '../../assets/images/main-north/59-stop-following.webp';
-// import Caryatids from '../../assets/images/main-north/60-revolt-of-caryatids.webp';
-// import TitlePending60 from '../../assets/images/main-north/61-title-pending.webp';
+import DrowningDevilThumb from '../../assets/images/main-room-north/36-drowning-out-devil.webp';
+import RetellingExodusThumb from '../../assets/images/main-room-north/37-retelling-exodus.webp';
+import YouGoDown from '../../assets/images/main-room-north/38-you-go-down.webp';
+import Jaded from '../../assets/images/main-room-north/39-jaded.webp';
+import BlackRabbi from '../../assets/images/main-room-north/40-black-rabbi.webp';
+import NeverFeel from '../../assets/images/main-room-north/41-never-feel.webp';
+import Mystic from '../../assets/images/main-room-north/42-mystic.webp';
+import LiftOff from '../../assets/images/main-room-north/43-lift-off.webp';
+import Parallel from '../../assets/images/main-room-north/44-parallel-universe.webp';
+import GoldenEgg from '../../assets/images/main-room-north/45-golden-egg-arrives.webp';
+import SearchIdentity from '../../assets/images/main-room-north/46-search-for-identity.webp';
+import Summer from '../../assets/images/main-room-north/47-summer-2002.webp';
+import Actor from '../../assets/images/main-room-north/48-actor.webp';
+import HeKissedMe from '../../assets/images/main-room-north/49-he-kissed-me.webp';
+import Remembering from '../../assets/images/main-room-north/50-remembering.webp';
+import FirstJob from '../../assets/images/main-room-north/51-first-on-the-job.webp';
+import FirstNote from '../../assets/images/main-room-north/52-first-note.webp';
+import YourVacation from '../../assets/images/main-room-north/53-coming-for-your-vacation.webp';
+import JadedClown from '../../assets/images/main-room-north/54-another-jaded-clown.webp';
+import Premonition from '../../assets/images/main-room-north/55-stop-premonition.webp';
+import DessertChef from '../../assets/images/main-room-north/56-dessert-chef.webp';
+import WhiteClown from '../../assets/images/main-room-north/57-white-clown.webp';
+import GalleryHeaven from '../../assets/images/main-room-north/58-gallery-heaven.webp';
+import StopFollowing from '../../assets/images/main-room-north/59-stop-following.webp';
+import Caryatids from '../../assets/images/main-room-north/60-revolt-of-caryatids.webp';
+import DadAndThreeEggs from '../../assets/images/main-room-north/61-dad-and-three-eggs.webp';
 
-// // ----------------- Main Room North/Exit ------------------- //
+// ----------------- Main Room North/Exit ------------------- //
 
 // import TitlePending61 from '../../assets/images/main-north-exit/62-title-pending.png';
 // import LookAtMe from '../../assets/images/main-north-exit/63-look-at-me.png';
@@ -327,216 +327,216 @@ export const directory = [
       title: "Enter Cupid",
       audio: null,
     },
-  //   {
-  //     id: 27,
-  //     imgSrc: Magician,
-  //     title: "The Magician (from the Tarot)",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 28,
-  //     imgSrc: Ed,
-  //     title: "Ed",
-  //     audio: null,
-  //  },
-  //  {
-  //     id: 29,
-  //     imgSrc: Crayolas,
-  //     title: "The Crayolas Were Amazed by Their Own Skill",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 30,
-  //     imgSrc: Launch,
-  //     title: "Ready for Launch",
-  //     audio: null,
-  //  },
-  //   {
-  //     id: 31,
-  //     imgSrc: Reflection,
-  //     title: "Upon reflection",
-  //     audio: null,
-  //   },
-  //  {
-  //     id: 32,
-  //     imgSrc: ViolinAngel,
-  //     title: "Violin Angel",
-  //     audio: null,
-  //  },
-  //   {
-  //     id: 33,
-  //     imgSrc: PriestessThumb,
-  //     title: "The High Priestess (from the Tarot)",
-  //     audio: null,
-  //   },
-  // {
-  //     id: 34,
-  //     imgSrc: SmileThumb,
-  //     title: "Happiness",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 35,
-  //     imgSrc: IceCreamThumb,
-  //     title: "We Still Have Ice Cream (Eat Before Melting)",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 36,
-  //     imgSrc: DrowningDevilThumb,
-  //     title: "Drowning Out the Devil",
-  //     audio: "pending",
-  //  },
-  //   {
-  //     id: 37,
-  //     imgSrc: RetellingExodusThumb,
-  //     title: "Retelling the Story of Exodus",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 38,
-  //     imgSrc: YouGoDown,
-  //     title: "I Watch You Go Down",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 39,
-  //     imgSrc: Jaded,
-  //     title: "Jaded",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 40,
-  //     imgSrc: BlackRabbi,
-  //     title: "Black Rabbi",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 41,
-  //     imgSrc: NeverFeel,
-  //     title: "I Never Used to Feel This Way",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 42,
-  //     imgSrc: Mystic,
-  //     title: "Mystic",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 43,
-  //     imgSrc: LiftOff,
-  //     title: "Lift Off",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 44,
-  //     imgSrc: Parallel,
-  //     title: "Parallel Universe",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 45,
-  //     imgSrc: GoldenEgg,
-  //     title: "The Golden Egg Arrives in the Nick of Time",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 46,
-  //     imgSrc: SearchIdentity,
-  //     title: "In the Search for Identity",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 47,
-  //     imgSrc: Summer,
-  //     title: "The Summer of 2002",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 48,
-  //     imgSrc: Actor,
-  //     title: "Actor",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 49,
-  //     imgSrc: HeKissedMe,
-  //     title: "He Kissed (Loves?) Me!",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 50,
-  //     imgSrc: Remembering,
-  //     title: "Remembering",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 51,
-  //     imgSrc: FirstJob,
-  //     title: "First Day on the Job",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 52,
-  //     imgSrc: FirstNote,
-  //     title: "The First Note",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 53,
-  //     imgSrc: YourVacation,
-  //     title: "They're Coming for Your Vacation",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 54,
-  //     imgSrc: JadedClown,
-  //     title: "Another Jaded Clown",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 55,
-  //     imgSrc: Premonition,
-  //     title: "Stop (The Premonition?)",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 56,
-  //     imgSrc: DessertChef,
-  //     title: "Dessert Chef",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 57,
-  //     imgSrc: WhiteClown,
-  //     title: "White Clown",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 58,
-  //     imgSrc: GalleryHeaven,
-  //     title: "A Gallery in Heaven",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 59,
-  //     imgSrc: StopFollowing,
-  //     title: "Stop Following Me",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 60,
-  //     imgSrc: Caryatids,
-  //     title: "The Revolt of the Caryatids",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 61,
-  //     imgSrc: DadAndThreeEggs,
-  //     title: "Dad and Three Eggs",
-  //     audio: null,
-  //   },
+    {
+      id: 27,
+      imgSrc: Magician,
+      title: "The Magician (from the Tarot)",
+      audio: null,
+    },
+    {
+      id: 28,
+      imgSrc: Ed,
+      title: "Ed",
+      audio: null,
+   },
+   {
+      id: 29,
+      imgSrc: Crayolas,
+      title: "The Crayolas Were Amazed by Their Own Skill",
+      audio: null,
+    },
+    {
+      id: 30,
+      imgSrc: Launch,
+      title: "Ready for Launch",
+      audio: null,
+   },
+    {
+      id: 31,
+      imgSrc: Reflection,
+      title: "Upon reflection",
+      audio: null,
+    },
+   {
+      id: 32,
+      imgSrc: ViolinAngel,
+      title: "Violin Angel",
+      audio: null,
+   },
+    {
+      id: 33,
+      imgSrc: PriestessThumb,
+      title: "The High Priestess (from the Tarot)",
+      audio: null,
+    },
+  {
+      id: 34,
+      imgSrc: SmileThumb,
+      title: "Happiness",
+      audio: "pending",
+    },
+    {
+      id: 35,
+      imgSrc: IceCreamThumb,
+      title: "We Still Have Ice Cream (Eat Before Melting)",
+      audio: "pending",
+    },
+    {
+      id: 36,
+      imgSrc: DrowningDevilThumb,
+      title: "Drowning Out the Devil",
+      audio: "pending",
+   },
+    {
+      id: 37,
+      imgSrc: RetellingExodusThumb,
+      title: "Retelling the Story of Exodus",
+      audio: "pending",
+    },
+    {
+      id: 38,
+      imgSrc: YouGoDown,
+      title: "I Watch You Go Down",
+      audio: null,
+    },
+    {
+      id: 39,
+      imgSrc: Jaded,
+      title: "Jaded",
+      audio: null,
+    },
+    {
+      id: 40,
+      imgSrc: BlackRabbi,
+      title: "Black Rabbi",
+      audio: null,
+    },
+    {
+      id: 41,
+      imgSrc: NeverFeel,
+      title: "I Never Used to Feel This Way",
+      audio: null,
+    },
+    {
+      id: 42,
+      imgSrc: Mystic,
+      title: "Mystic",
+      audio: null,
+    },
+    {
+      id: 43,
+      imgSrc: LiftOff,
+      title: "Lift Off",
+      audio: "pending",
+    },
+    {
+      id: 44,
+      imgSrc: Parallel,
+      title: "Parallel Universe",
+      audio: "pending",
+    },
+    {
+      id: 45,
+      imgSrc: GoldenEgg,
+      title: "The Golden Egg Arrives in the Nick of Time",
+      audio: "pending",
+    },
+    {
+      id: 46,
+      imgSrc: SearchIdentity,
+      title: "In the Search for Identity",
+      audio: "pending",
+    },
+    {
+      id: 47,
+      imgSrc: Summer,
+      title: "The Summer of 2002",
+      audio: null,
+    },
+    {
+      id: 48,
+      imgSrc: Actor,
+      title: "Actor",
+      audio: null,
+    },
+    {
+      id: 49,
+      imgSrc: HeKissedMe,
+      title: "He Kissed (Loves?) Me!",
+      audio: null,
+    },
+    {
+      id: 50,
+      imgSrc: Remembering,
+      title: "Remembering",
+      audio: null,
+    },
+    {
+      id: 51,
+      imgSrc: FirstJob,
+      title: "First Day on the Job",
+      audio: null,
+    },
+    {
+      id: 52,
+      imgSrc: FirstNote,
+      title: "The First Note",
+      audio: null,
+    },
+    {
+      id: 53,
+      imgSrc: YourVacation,
+      title: "They're Coming for Your Vacation",
+      audio: null,
+    },
+    {
+      id: 54,
+      imgSrc: JadedClown,
+      title: "Another Jaded Clown",
+      audio: null,
+    },
+    {
+      id: 55,
+      imgSrc: Premonition,
+      title: "Stop (The Premonition?)",
+      audio: null,
+    },
+    {
+      id: 56,
+      imgSrc: DessertChef,
+      title: "Dessert Chef",
+      audio: null,
+    },
+    {
+      id: 57,
+      imgSrc: WhiteClown,
+      title: "White Clown",
+      audio: null,
+    },
+    {
+      id: 58,
+      imgSrc: GalleryHeaven,
+      title: "A Gallery in Heaven",
+      audio: "pending",
+    },
+    {
+      id: 59,
+      imgSrc: StopFollowing,
+      title: "Stop Following Me",
+      audio: null,
+    },
+    {
+      id: 60,
+      imgSrc: Caryatids,
+      title: "The Revolt of the Caryatids",
+      audio: null,
+    },
+    {
+      id: 61,
+      imgSrc: DadAndThreeEggs,
+      title: "Dad and Three Eggs",
+      audio: null,
+    },
   //   {
   //     id: 62,
   //     imgSrc: America,
