@@ -1,0 +1,50 @@
+  .modal-backdrop.show {
+    opacity: 0.6;
+  }
+
+.custom-modal-width {
+  max-width: fit-content !important;
+  width: auto !important;
+  display: flex;
+  justify-content: center;
+
+  .modal-content {
+    background-color: #262626;
+    border-radius: 12px;
+  }
+
+  .modal-img-constrained {
+    height: 80vh;
+    width: auto;
+    max-width: 90vw;
+    object-fit: contain;
+    display: block;
+    margin: 0 0.5rem;
+  }
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modal-title {
+    font-family: 'Outfit',sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-left: 0.5rem;
+    color: #dbdbdb;
+  }
+
+  a {
+    background: none;
+    margin: 0 0.8rem;
+
+    .audio {
+      margin: 0 0.8rem;
+      color: #DCA738;
+      font-size: 2.3rem;
+    }
+  }   
+}

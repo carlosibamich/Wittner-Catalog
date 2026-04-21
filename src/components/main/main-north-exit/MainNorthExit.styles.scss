@@ -1,0 +1,239 @@
+.main-room-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  .main-room-north-exit-grid {
+    width: 80%;
+    height: 640px;
+    display: grid;
+    grid-template-columns: 2.2fr 3.9fr 2.1fr 2.2fr 3.5fr;
+
+    // .section {
+    //   background-color: #fff;
+    //   border: 1px solid #f3f3f3;
+    // }
+
+    // -------------------- Column 1 --------------------- //
+
+    .north-exit-column-1 {
+      position: relative;
+      display: flex;
+      opacity: 0.4;
+
+     // ---------- Premonition --------- //
+      .sub-section-1-1 {
+        position: absolute;
+        top: 47px;
+        left: 5px;
+        width: 118px;
+        height: auto;
+      }
+      
+      // ---------- DessertChef --------- //
+      .sub-section-1-2 {
+        position: absolute;
+        top: 193px;
+        left: 15px;
+        width: 42px;
+        height: auto;
+      }
+      
+      // ---------- WhiteClown --------- //
+      .sub-section-1-3 {
+        position: absolute;
+        top: 176px;
+        left: 69px;
+        width: 42px;
+        height: auto;
+      }
+
+      // ---------- GalleryHeaven --------- //
+      .sub-section-1-4 {
+        position: absolute;
+        top: 260px;
+        left: -13px;
+        width: 165px;
+        height: auto;
+      }
+
+      // ---------- StopFollowing --------- //
+      .sub-section-1-5 {
+        position: absolute;
+        bottom: 60px;
+        left: 0;
+        width: 66px;
+        height: auto;
+      }
+
+      // ---------- Caryatids --------- //
+      .sub-section-1-6 {
+        position: absolute;
+        bottom: 70px;
+        left: 78px;
+        width: 98px;
+        height: auto;
+      }
+
+      // ---------- 46 Title Pending --------- //
+      .sub-section-1-7 {
+        position: absolute;
+        bottom: 200px;
+        left: 172px;
+        width: 52px;
+        height: auto;
+      }
+    }
+
+    // -------------------- Column 2 --------------------- //
+
+    .north-exit-column-2 {
+      position: relative;
+      // display: flex;
+      // flex-direction: column;
+      border-right: 2px solid #eaeaea;
+    
+      .exit-door-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        // width: 500px;
+        height:100%;
+        // background-color: #c3c3c3;
+
+
+        .exit-sign {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 80px;
+          height:52px;
+          margin-bottom: 46px;
+          margin-right: 46px;
+          background-color: #fdfdfd;
+          border-radius: 8px;
+          box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.1);
+          color: #dadada;
+          font-size: 1.8rem;
+          font-weight: 600;
+        }
+
+        .door-frame {
+          width: 228px;
+          height: 475px;
+          margin-right: 46px;
+          // border: 2px solid #333;
+          background-color: #fdfdfd;
+          box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.08);
+        }
+      }
+    }
+
+    // -------------------- Column 3 --------------------- //
+
+    .north-exit-column-3 {
+      position: relative;
+      display: flex;
+
+      // ---------- 46 Title Pending --------- //
+      .sub-section-3-1 {
+        position: absolute;
+        top: 72px;
+        right: 45px;
+        width: 135px;
+        height: auto;
+      }
+
+      // ---------- Look At Me! --------- //  
+      .sub-section-3-2 {
+        position: absolute;
+        top: 225px;
+        right: 27px;
+        width: 170px;
+        height: auto;
+      }
+    }
+
+    // -------------------- Column 4 --------------------- //
+
+    .north-exit-column-4 {
+      position: relative;
+      display: flex;
+      align-items: center;
+      border-left: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+
+
+      // ---------- The Captain --------- //
+      .sub-section-4-1 {
+        position: absolute;
+        top: 83px;
+        left: 40px;
+        width: 122px;
+        height: auto;
+      }
+        
+      // ---------- House of Cards --------- //
+      .sub-section-4-2 {
+        position: absolute;
+        top: 221px;
+        left: 28px;
+        width: 148px;
+        height: auto;
+        // opacity: 0.5;
+      }
+    }
+
+    // -------------------- Column 5 --------------------- //
+
+    .north-exit-column-5 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      opacity: 0.4;
+
+
+      // ---------- 51 Title Pending --------- //
+      .sub-section-5-1 {
+        position: absolute;
+        top: 30px;
+        left: 90px;
+        width: 62px;
+        height: auto;
+      }
+
+      // ---------- 52 Title Pending --------- //
+      .sub-section-5-2 {
+        position: absolute;
+        top: 30px;
+        left: 183px;
+        width: 48px;
+        height: auto;
+      }
+
+      // ---------- 53 Title Pending --------- //
+      .sub-section-5-3 {
+        position: absolute;
+        top: 30px;
+        left: 260px;
+        width: 62px;
+        height: auto;
+      }
+        
+      // ---------- Different Realities --------- //
+      .sub-section-5-4 {
+        position: absolute;
+        top: 138px;
+        left: 84px;
+        width: 245px;
+        height: auto;
+      }
+    }
+  }
+}

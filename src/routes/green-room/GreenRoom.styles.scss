@@ -1,0 +1,19 @@
+.green-room-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+
+  h2 {
+    font-family: 'Outfit',sans-serif;
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #afafaf;
+  }
+
+  .hammer-icon {
+    font-size: 6.3rem;
+    color: #cdcdcd;
+  }
+}

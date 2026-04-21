@@ -1,0 +1,449 @@
+// ------------ Utility Classes ----------- //
+.border-shadow-sm {
+  border: 1px solid #bbb;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.border-shadow-lg {
+  border: 1px solid #bbb;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+// ------------ Main Room ----------- //
+.main-room-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  .main-room-north-grid {
+    width: 88%;
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 1.9fr 5.6fr 5.9fr 5.6fr 6fr 4.9fr 1.5fr 3.9fr;
+    gap: 12px;
+
+    // .section {
+    //   background-color: #fff;
+    //   border: 1px solid #f3f3f3;
+    // }
+
+    //----------------- COLUMN 1 ------------------//
+
+    .north-column-1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+      // ---------- Face One --------- //
+      .sub-section-1-1 {
+        position: absolute;
+        top: 72px;
+        left: 19px;
+        width: 50px;
+      }
+
+      // ---------- Face Two --------- //  
+      .sub-section-1-2 {
+        position: absolute;
+        top: 145px;
+        left: 19px;
+        width: 50px;
+      }
+
+      // ---------- Strength --------- //
+      .sub-section-1-3 {
+        position: absolute;
+        top: 218px;
+        right: 0;
+        width: 70px;
+      }
+
+      // ---------- Working --------- //
+      .sub-section-1-4 {
+        position: absolute;
+        top: 299px;
+        right: 0;
+        width: 55px;
+      }
+
+      // ---------- Dispatch --------- //
+      .sub-section-1-5 {
+        position: absolute;
+        top: 379px;
+        right: 0;
+        width: 84px;
+      }
+    }
+
+    //----------------- COLUMN 2 ------------------//
+
+    .north-column-2 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      // ---------- Chicken --------- //
+      .sub-section-2-1 {
+        position: absolute;
+        top: 0;
+        width: 220px;
+      }
+        
+      // ---------- Hermit --------- //
+      .sub-section-2-2 {
+        position: absolute;
+        top: 290px;
+        left: 10px;
+        width: 65px;
+      }
+        
+      // ---------- Empress --------- //
+      .sub-section-2-3 {
+        position: absolute;
+        top: 294px;
+        width: 60px;
+      }
+        
+      // ---------- Emperor --------- //
+      .sub-section-2-4 {
+        position: absolute;
+        top: 292px;
+        right: 10px;
+        width: 70px;
+      }
+      
+      // ---------- Divine --------- //
+      .sub-section-2-5 {
+        position: absolute;
+        bottom: 12px;
+        width: 249px;
+     }  
+    }
+    
+    //----------------- COLUMN 3 ------------------//
+    
+    .north-column-3 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      // ---------- Cupid --------- //
+      .sub-section-3-1 {
+        position: absolute;
+        top: 0;
+        width: 258px;
+      }
+        
+      // ---------- Magician --------- //
+      .sub-section-3-2 {
+        position: absolute;
+        top: 227px;
+        left: 0;
+        width: 60px;
+      }
+        
+      // ---------- Ed --------- //
+      .sub-section-3-3 {
+        position: absolute;
+        top: 297px;
+        left: 11px;
+        width: 40px;
+      }
+        
+      // ---------- Crayolas --------- //
+      .sub-section-3-4 {
+        position: absolute;
+        top: 360px;
+        left: 0;
+        width: 60px;
+      }
+        
+      // ---------- Launch --------- //
+      .sub-section-3-5 {
+        position: absolute;
+        top: 237px;
+        width: 110px;
+      }
+        
+      // ---------- Reflection --------- //
+       .sub-section-3-6 {
+        position: absolute;
+        top: 227px;
+        right: 0;
+        width: 52px;
+      }
+        
+      // ---------- Violin Angel --------- //
+      .sub-section-3-7 {
+        position: absolute;
+        top: 294px;
+        right: 8px;
+        width: 40px;
+      }
+        
+      // ---------- Priestess --------- //
+      .sub-section-3-8 {
+        position: absolute;
+        top: 357px;
+        right: 0;
+        width: 58px;
+      }
+      
+      // ---------- Smile --------- //
+      .sub-section-3-9 {
+        position: absolute;
+        bottom: 0;
+        width: 260px;
+      }
+    }
+    
+    //----------------- COLUMN 4 ------------------//
+    
+    .north-column-4 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      // ---------- IceCream --------- //
+      .sub-section-4-1 {
+        position: absolute;
+        top: 0;
+        width: 228px;
+      }
+      
+      // ---------- DrowningDevil --------- //
+      .sub-section-4-2 {
+        position: absolute;
+        top: 191px;
+        width: 250px;
+      }
+      
+      // ---------- RetellingExodus --------- //
+      .sub-section-4-3 {
+        position: absolute;
+        bottom: 0;
+        width: 230px;
+      }
+    }
+    
+    //----------------- COLUMN 5 ------------------/
+    
+    .north-column-5 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        
+      // ---------- Down --------- //
+      .sub-section-5-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 112px;
+      }
+        
+      // ---------- Jaded --------- //
+      .sub-section-5-2 {
+        position: absolute;
+        top: 0;
+        left: 121px;
+        width: 71px;
+      }
+        
+      // ---------- BlackRabbi --------- //
+      .sub-section-5-3 {
+        position: absolute;
+        top: 104px;
+        left: 128px;
+        width: 58px;
+      }
+        
+      // ---------- NeverFeel --------- //
+      .sub-section-5-4 {
+        position: absolute;
+        top: 14px;
+        right: 7px;
+        width: 56px;
+      }
+        
+      // ---------- Mystic --------- //
+      .sub-section-5-5 {
+        position: absolute;
+        top: 86px;
+        right: 0;
+        width: 67px;
+      }
+      
+      // ---------- LiftOff --------- //
+      .sub-section-5-6 {
+        position: absolute;
+        top: 192px;
+        width: 266px;
+      }
+      
+      // ---------- Parallel --------- //
+      .sub-section-5-7 {
+        position: absolute;
+        bottom: 12px;
+        width: 247px;
+      }
+    }
+
+    //----------------- COLUMN 6 ------------------/
+
+    .north-column-6 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      // ---------- GoldenEgg --------- //
+      .sub-section-6-1 {
+        position: absolute;
+        width: 217px;
+      }
+      
+      // ---------- Identity --------- //
+      .sub-section-6-2 {
+        position: absolute;
+        top: 178px;
+        width: 217px;
+      }
+      
+      // ---------- Summer --------- //
+      .sub-section-6-3 {
+        position: absolute;
+        bottom: 0;
+        width: 193px;
+      }
+    }
+
+    //----------------- COLUMN 7 ------------------/
+
+    .north-column-7 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      // ---------- Actor --------- //
+      .sub-section-7-1 {
+        position: absolute;
+        top: 0;
+        width: 66px;
+      }
+      
+      // ---------- KissMe --------- //
+      .sub-section-7-2 {
+        position: absolute;
+        top: 96px;
+        width: 50px;
+      }
+      
+      // ---------- Remembering --------- //
+      .sub-section-7-3 {
+        position: absolute;
+        top: 165px;
+        width: 66px;
+      }
+
+      // ---------- TheFirstJob --------- //
+      .sub-section-7-4 {
+        position: absolute;
+        top: 262px;
+        left: 0;
+        width: 49px;
+      }
+
+      // ---------- FirstNote --------- //
+      .sub-section-7-5 {
+        position: absolute;
+        top: 330px;
+        left: 0;
+        width: 53px;
+      }
+
+      // ---------- Vacation --------- //
+      .sub-section-7-6 {
+        position: absolute;
+        top: 402px;
+        left: 0;
+        width: 50px;
+      }
+
+      // ---------- JadedClown --------- //
+      .sub-section-7-7 {
+        position: absolute;
+        bottom: 61px;
+        width: 66px;
+      }
+    }
+
+
+    //----------------- COLUMN 8 ------------------/
+
+    .north-column-8 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      // ---------- Premonition --------- //
+      .sub-section-8-1 {
+        position: absolute;
+        top: 47px;
+        left: 5px;
+        width: 118px;
+      }
+      
+      // ---------- DessertChef --------- //
+      .sub-section-8-2 {
+        position: absolute;
+        top: 193px;
+        left: 15px;
+        width: 42px;
+      }
+      
+      // ---------- WhiteClown --------- //
+      .sub-section-8-3 {
+        position: absolute;
+        top: 176px;
+        right: 65px;
+        width: 42px;
+      }
+
+      // ---------- GalleryHeaven --------- //
+      .sub-section-8-4 {
+        position: absolute;
+        top: 260px;
+        left: -13px;
+        width: 165px;
+      }
+
+      // ---------- StopFollowing --------- //
+      .sub-section-8-5 {
+        position: absolute;
+        bottom: 60px;
+        left: 0;
+        width: 66px;
+      }
+
+      // ---------- Caryatids --------- //
+      .sub-section-8-6 {
+        position: absolute;
+        bottom: 70px;
+        right: -1px;
+        width: 98px;
+      }
+    }
+  }
+}

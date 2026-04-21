@@ -1,0 +1,147 @@
+// ------------- Utility Classes ----------- //
+
+.window-frame-n {
+  position: absolute;
+  bottom: 1rem;
+  width: 33.8rem;
+  height: 21rem;
+  background-color: #b8b8b8;
+
+
+  .window-pane-n {
+    position: absolute;
+    bottom: 0.9rem;
+    width: 15.7rem;
+    height: 19.3rem;
+    background-color: #fdfdfd;
+    box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .pane-n-left {
+    left: 0.8rem;
+  }
+
+  .pane-n-right {
+    right: 0.8rem;
+  }
+}
+
+// ---------------------------------------------------------- //
+
+.entry-room-container {
+  display: flex;
+  justify-content: center;
+
+  .entry-north-grid {
+    width: 86%;
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 2fr 1.4fr 2fr;
+
+    // .section {
+    //   background-color: #fff;
+    //   border: 1px solid #f3f3f3;
+    // }
+
+    // -------------------- Column 1 --------------------- //
+
+    .entry-north-column-1 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      filter: blur(1.2px);
+      opacity: 0.4;
+
+
+     // ---------- Art--------- //
+      .sub-section-1-1 {
+        position: absolute;
+        top: 0;
+        left: 1.2rem;
+        width: 12.6rem;
+        
+        img {
+          cursor: auto;
+        }
+      }
+
+     // ---------- Mother's Turn --------- //
+      .sub-section-1-2 {
+        position: absolute;
+        top: 0;
+        right: 2rem;
+        width: 17.6rem;
+        
+        img {
+          cursor: auto;
+        }
+      }
+
+      .window-frame-n {
+        left: 0;
+      }
+    }
+
+    // -------------------- Column 2 --------------------- //
+
+   .entry-north-column-2 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      border-right: 2px solid #d8d8d8;
+      border-left: 2px solid #d8d8d8;
+
+     // ---------- Intelligence, Beauty, Love --------- //
+      .sub-section-2-1 {
+        position: absolute;
+        top: 4.6rem;
+        width: 14rem;
+      }
+
+     // ---------- Dogs Rule the World --------- //
+      .sub-section-2-2 {
+        position: absolute;
+        top: 21.2rem;
+        width: 12.8rem;
+      }
+    }
+
+    // -------------------- Column 3 --------------------- //
+
+    .entry-north-column-3 {
+      position: relative;
+      display: flex;
+      filter: blur(1.2px);
+      opacity: 0.4;
+
+      // ---------- Challenges --------- //
+      .sub-section-3-1 {
+        position: absolute;
+        top: 0;
+        left: 2rem;
+        width: 12.6rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      // ---------- Marriage of Art and Science --------- //
+      .sub-section-3-2 {
+        position: absolute;
+        top: 0;
+        right: 1rem;
+        width: 19.7rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      .window-frame-n {
+        right: 0;
+      }
+    }
+  }
+}

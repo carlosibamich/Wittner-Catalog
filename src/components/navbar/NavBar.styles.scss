@@ -1,0 +1,55 @@
+.main-nav-options {
+  position: relative;
+  display: flex;
+  // overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.7rem;
+  width: 53rem;
+  height: 6rem;
+  border-bottom: 3px solid #DCA738;
+  // white-space: 'nowrap';
+  // overflow-x: auto;
+
+  .navlink-container {
+    margin: 0 2rem;
+    
+    .nav-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      box-sizing: border-box;
+      
+      a {
+        display: inline-block;
+        font-size: 1.28rem;
+        font-weight: 600;
+        color: #5f5f5f;
+        transition: transform 0.4s ease, color 0.4s ease, text-shadow 0.4s ease;
+        transform: scale(1);
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.25);
+          color: #DCA738;
+          text-shadow: 0.5px 0 0 #DCA738;
+        }
+      }
+      
+    }
+    
+    .nav-link.active a {
+      transform: scale(1.25);
+      color: #DCA738;
+      text-shadow: 0.5px 0 0 #DCA738;
+    }
+
+    // .nav-link.active {
+    //   transform: scale(1.5);
+    //   text-align: center;
+    //   min-width: 180px;
+    //   color: #DCA738;
+    // }
+  }
+}

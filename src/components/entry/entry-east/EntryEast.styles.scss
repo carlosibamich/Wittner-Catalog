@@ -1,0 +1,176 @@
+// ------------- Utility Classes ----------- //
+
+.window-frame-e {
+  position: absolute;
+  bottom: 1.6rem;
+  width: 31.5rem;
+  height: 21rem;
+  background-color: #b8b8b8;
+
+
+  .window-pane-e {
+    position: absolute;
+    bottom: 0.9rem;
+    width: 14.5rem;
+    height: 19.3rem;
+    background-color: #fdfdfd;
+    box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .pane-e-left {
+    left: 0.8rem;
+        }
+
+  .pane-e-right {
+    right: 0.8rem;
+  }
+}
+
+// ---------------------------------------------------------- //
+
+.entry-room-container {
+  display: flex;
+  justify-content: center;
+
+  .entry-east-grid {
+    width: 80%;
+    height: 40rem;
+    display: grid;
+    grid-template: 17rem 23rem / 0.95fr 1.43fr 1.3fr 1.35fr 1.4fr;
+
+    // .section {
+    //   background-color: #fff;
+    //   border: 1px solid #f3f3f3;
+    // }
+
+    // -------------------- Column 1 --------------------- //
+
+    .entry-east-column-1 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+
+     // ---------- Challenges --------- //
+      .sub-section-1-1 {
+        position: absolute;
+        top: 0;
+        left: -1rem;
+        width: 12.4rem;
+      }
+    }
+
+    // -------------------- Column 2 --------------------- //
+
+   .entry-east-column-2 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+
+     // ---------- Marriage of Art and Science --------- //
+      .sub-section-2-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 19.5rem;
+      }
+    }
+
+    // -------------------- Column 3 --------------------- //
+
+    .entry-east-column-3 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Venus --------- //
+      .sub-section-3-1 {
+        position: absolute;
+        top: 2.6rem;
+        width: 15rem;
+      }
+    }
+
+    // -------------------- Column 4 --------------------- //
+
+    .entry-east-column-4 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+
+      // ---------- Title Pending --------- //
+      .sub-section-4-1 {
+        position: absolute;
+        top: 1rem;
+        right: 0.6rem;
+        width: 18rem;
+      }
+    }
+
+    // -------------------- Column 5 --------------------- //
+
+    .entry-east-column-5 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+
+      // ---------- Neptunes Confront Us About the Pollution --------- //
+      .sub-section-5-1 {
+        position: absolute;
+        top: 0rem;
+        right: -0.5rem;
+        width: 20rem;
+      }
+    }
+
+    // -------------------- Column 6 --------------------- //
+
+    .entry-east-column-6 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      grid-column: span 2;
+      
+      .window-frame-e {
+        left: 0;
+      }
+    }
+
+    // -------------------- Column 7 --------------------- //
+    // -------- Door Frame Styles applied globally in index.scss -------- //
+    
+    // -------------------- Column 8 --------------------- //
+
+    .entry-east-column-8 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      grid-column: 4 / span 2;
+      
+      .window-frame-e {
+        left: 3.9rem;
+      }
+
+      // ---------- Title Pending --------- //
+      .sub-section-8-1 {
+        position: absolute;
+        top: 10rem;
+        left: 0;
+        width: 3.5rem;
+        z-index: 100;
+      }
+
+      // ---------- Evan --------- //
+      .sub-section-8-2 {
+        position: absolute;
+        top: 6.5rem;
+        right: -3.7rem;
+        width: 7.4rem;
+        z-index: 100;
+      }
+    }
+  }
+}

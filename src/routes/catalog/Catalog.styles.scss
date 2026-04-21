@@ -1,0 +1,108 @@
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+
+  .list-grid {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+    width: 82%;
+
+    .list-items-container {
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 27.8rem;
+      height: 9.2rem;
+      margin-bottom: 2.8rem;
+      background-color: #fff;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.18);
+      border-bottom: 4px solid #DCA738;
+      border-radius: 8px;
+      cursor: pointer;
+
+      .audio-icon {
+        position: absolute;
+        top: 1.3rem;
+        right: 2rem;
+        font-size: 2.65rem;
+        color: #DCA738;
+      }
+      
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        max-width: 7.7rem;
+        max-height: 6.2rem;
+        z-index: 100;
+        margin-left: 1.3rem;
+        border-radius: 3px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+        
+        
+        .image {
+          max-height: 6.2rem;
+          width: auto;
+          object-fit: cover;
+          border: none;
+        }
+      }
+
+      .info-container {
+        display: flex;
+        flex-direction: column;
+        width: 17.5rem;
+        height: 6.2rem;
+        padding-left: 3px;
+        margin-left: 10px;
+        
+        .id-area {
+          display: flex;
+          width: 5.2rem;
+          height: 2.2rem;
+          justify-content: flex-start;
+          align-items: center;
+          padding-top: 0.5rem;
+          margin-bottom: 1.2rem;
+          
+          h3 { 
+            font-family: 'Story Script', sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 2.9rem;
+            // letter-spacing: -2px;
+            color: #cfcfcf;
+          }
+        }
+      
+        .title-area {
+          display: flex;
+          flex-direction: column; 
+          justify-content: flex-start;
+          width: 17.5rem;
+          color: #5c5c5c;
+          height: 55px;
+  
+          p {
+            margin: 0;
+            padding-top: 0.2rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+  

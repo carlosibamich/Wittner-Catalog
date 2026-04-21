@@ -1,0 +1,427 @@
+// ------------ Utility Classes ----------- //
+// .border-shadow-sm {
+//   border: 1px solid #bbb;
+//   box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3);
+// }
+
+// .border-shadow-lg {
+//   border: 1px solid #bbb;
+//   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+// }
+
+
+// ------------ Main Room ----------- //
+.main-room-container {
+  position: relative;
+  margin: 0;
+  // overflow: visible;
+  // display: flex;
+  // flex-direction: column;
+  // margin: 0.5rem auto;
+  // justify-content: center;
+  // align-items: center;
+  // width: 100%;
+  // height: 100%;
+
+  .platform-container {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    left: 230px;
+    width: 1411px;
+    height: 136px;
+    // background-color: #F9D58D;
+    background: linear-gradient(183deg, #FFE4AD, #F3EED7);
+    box-shadow: 2px 6px 12px 4px rgba(0, 0, 0, 0.15);
+    opacity: 0.95;
+    z-index: 100;
+
+    .step {
+      width: 175px;
+      height: 68px;
+      background-color: #aaa;
+      background: linear-gradient(190deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+      z-index: 200px;
+    }
+  }
+
+  .main-room-stage-grid {
+    width: 91%;
+    height: 610px;
+    display: grid;
+    grid-template-columns: 1.5fr 5.8fr 3.6fr 5.3fr 2fr;
+
+    // .section {
+    //   background-color: #fff;
+    //   border: 1px solid #f3f3f3;
+    // }
+
+    //----------------- COLUMN 1 ------------------//
+
+    .west-column-1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .past-behind-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 35%;
+
+        // ---------- Leave Past Behind --------- //
+        .sub-section-1-1 {
+          // position: absolute;
+          // top: 50px;
+          // left: 19px;
+          width: 125px;
+          height: auto;
+          margin-left: -5px;
+        }
+      }
+
+      .north-exit-inset {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 65%;
+        border-top: 2px solid #eaeaea;
+        background: linear-gradient(195deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+        // opacity: 0.5;
+        // align-content: flex-end;
+        // justify-content: flex-end;
+
+        // ---------- Title Pending 61 --------- //  
+        .sub-section-1-2 {
+          position: absolute;
+          top: 30px;
+          width: 92px;
+          height: auto;
+          border: none;
+          opacity: 0.5;
+        }
+  
+        // ---------- Look At Me! --------- //
+        .sub-section-1-3 {
+          position: absolute;
+          top: 140px;
+          width: 110px;
+          height: auto;
+          border: none;
+          opacity: 0.5;
+        }
+      }
+    }
+
+    //----------------- COLUMN 2 ------------------//
+
+    .stage-column-2 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-left: 2px solid #eaeaea;
+      border-right: 2px solid #eaeaea;
+
+      // ---------- Title Pending 66 --------- //
+      .sub-section-2-1 {
+        position: absolute;
+        top: 60px;
+        left: 28px;
+        width: 52px;
+        height: auto;
+      }
+        
+      // ---------- Title Pending 67 --------- //
+      .sub-section-2-2 {
+        position: absolute;
+        top: 60px;
+        left: 100px;
+        width: 40px;
+        height: auto;
+      }
+        
+      // ---------- Title Pending 68 --------- //
+      .sub-section-2-3 {
+        position: absolute;
+        top: 60px;
+        left: 144px;
+        width: 52px;
+        height: auto;
+        margin: 0 15px;
+      }
+        
+      // ---------- Different Realities --------- //
+      .sub-section-2-4 {
+        position: absolute;
+        top: 148px;
+        left: 28px;
+        width: 184px;
+        height: auto;
+      }
+      
+      // ---------- Title Pending 70 --------- //
+      .sub-section-2-5 {
+        position: absolute;
+        top: 36px;
+        right: 75px;
+        width: 178px;
+        height: auto;
+     }
+
+     .storage-entrance-container {
+        position: absolute;
+        top: 210px;
+        right: 40px;
+        width: 246px;
+        height: 310px;
+        overflow: hidden;
+        border-radius: 4px;;
+        background: linear-gradient(195deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.05));
+
+        .storage-entrance {
+          position: relative;
+          opacity: 0.45;
+
+          // ------------ Installing the Music App ------------ //
+          .sub-section-2-6 {
+            position: absolute;
+            top: -68px;
+            left: 28px;
+            width: 190px;
+            height: auto;
+            border: none;
+          }
+
+          // ------------ Social Distancing ------------ //
+          .sub-section-2-7 {
+            position: absolute;
+            top: 93px;
+            left: -2px;
+            width: 49px;
+            border: none;
+          }
+          
+          // ------------ Time to Feed the Frog ------------ //
+          .sub-section-2-8 {
+            position: absolute;
+            top: 148px;
+            left: -5px;
+            width: 53px;
+            height: auto;
+            border: none;
+          }
+          
+          // ------------ Leaving the House of Horrors ------------ //
+          .sub-section-2-9 {
+            position: absolute;
+            top: 95px;
+            left: 60px;
+            width: 56px;
+            height: auto;
+            border: none;
+          }
+          
+          // ------------ Much Needed Surgery ------------ //
+          .sub-section-2-10 {
+            position: absolute;
+            top: 148px;
+            left: 58px;
+            width: 37px;
+            height: auto;
+            border: none;
+          }
+          
+          // ------------ Arrival Through the Black Hole ------------ //
+          .sub-section-2-11 {
+            position: absolute;
+            top: 95px;
+            right: 60px;
+            width: 55px;
+            height: auto;
+            border: none;
+          }
+          
+          // ------------ Safe travel ------------ //
+          .sub-section-2-12 {
+            position: absolute;
+            top: 148px;
+            right: 98px;
+            width: 44px;
+            height: auto;
+            border: none;
+          }
+          
+          // ------------ Martian Mary Poppins ------------ //
+          .sub-section-2-13 {
+            position: absolute;
+            top: 148px;
+            right: 53px;
+            width: 36px;
+            height: auto;
+            border: none;
+          }
+          
+          // ------------ The Fool In Recent Times ------------ //
+          .sub-section-2-14 {
+            position: absolute;
+            top: 95px;
+            right: -4px;
+            width: 48px;
+            height: auto;
+            border: none;
+          }
+          
+          // ------------ Homecoming for Tambourine ------------ //
+          .sub-section-2-15 {
+            position: absolute;
+            top: 148px;
+            right: -5px;
+            width: 50px;
+            height: auto;
+            border: none;
+          }
+        }
+     }
+    }
+    
+    //----------------- COLUMN 3 ------------------//
+    
+    .stage-column-3 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      // ---------- Sunny Side Up --------- //
+      .sub-section-3-1 {
+        position: absolute;
+        top: 46px;
+        width: 288px;
+        height: auto;
+      }
+    }
+    
+    //----------------- COLUMN 4 ------------------//
+    
+    .stage-column-4 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-left: 2px solid #eaeaea;
+      border-right: 2px solid #eaeaea;
+      
+      // ---------- Jacob's Dream --------- //
+      .sub-section-4-1 {
+        position: absolute;
+        top: 95px;
+        left: 18px;
+        width: 254px;
+        height: auto;
+      }
+      
+      // ---------- Title pending 73 --------- //
+      .sub-section-4-2 {
+        position: absolute;
+        top: 45px;
+        right: 88px;
+        width: 99px;
+        height: auto;
+      }
+      
+      // ---------- Red Rope --------- //
+      .sub-section-4-3 {
+        position: absolute;
+        top: 200px;
+        right: 103px;
+        width: 85px;
+        height: auto;
+      }
+      // ---------- (maybe) Paula --------- //
+      .sub-section-4-4 {
+        position: absolute;
+        top: 80px;
+        right: 25px;
+        width: 38px;
+        height: auto;
+      }
+      
+      // ---------- Into the Unknown --------- //
+      .sub-section-4-5 {
+        position: absolute;
+        top: 156px;
+        right: 22px;
+        width: 42px;
+        height: auto;
+      }
+      
+      // ---------- No Friends --------- //
+      .sub-section-4-6 {
+        position: absolute;
+        top: 212px;
+        right: 22px;
+        width: 42px;
+        height: auto;
+      }
+
+      // ---------- Butterfly Woman --------- //
+      .sub-section-4-7 {
+        position: absolute;
+        top: 265px;
+        right: 22px;
+        width: 42px;
+        height: auto;
+      }
+    }
+
+    .stage-door {
+      position: absolute;
+      width: 154px;
+      height: 325px;
+      bottom: 114px;
+      right: 70px;
+      border: 2px solid #e5e5e5;
+      box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.04);
+    }
+    
+    //----------------- COLUMN 5 ------------------/
+    
+    .west-column-5 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        
+      // ---------- Gifts --------- //
+      .sub-section-5-1 {
+        position: absolute;
+        top: 72px;
+        width: 92px;
+        height: auto;
+      }
+        
+      // ---------- Guardian --------- //
+      .sub-section-5-2 {
+        position: absolute;
+        top: 300px;
+        width: 100px;
+        height: auto;
+      }
+
+      .stairs-door {
+        position: absolute;
+        width: 158px;
+        height: 338px;
+        bottom: 0;
+        right: 5px;
+        border: 2px solid #e5e5e5;
+        box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.04);
+      }
+    }
+  }
+}
