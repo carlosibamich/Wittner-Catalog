@@ -81,28 +81,29 @@ import HouseCards from '../../assets/images/main-room-north-exit/65-house-of-car
 
 // // ----------------- Main Room Stage Alcove ------------------- //
 
-// import MusicApp from '../../assets/images/stage-alcove/66-installing-music-app.webp';
-// import Distancing from '../../assets/images/stage-alcove/67-social-distancing.webp';
-// import FeedFrog from '../../assets/images/stage-alcove/68-time-to-feed-frog.webp';
-// import HouseHorrors from '../../assets/images/stage-alcove/69-leaving-house-of-horrors.webp';
-// import NeededSurgery from '../../assets/images/stage-alcove/70-much-needed-surgery.webp';
-// import SafeTravel from '../../assets/images/stage-alcove/71-safe-travel.webp';
-// import BlackHole from '../../assets/images/stage-alcove/72-arrival-through-black-hole.webp';
-// import MaryPoppins from '../../assets/images/stage-alcove/73-martian-mary-poppins.webp';
-// import RecentTimes from '../../assets/images/stage-alcove/74-fool-in-recent-times.webp';
-// import Homecoming from '../../assets/images/stage-alcove/75-homecoming-for-lost-tambourine.webp';
-// // import KindredSpirits from '../assets/images/stage-alcove/76-kindred-spirits.webp';
-// import Flip from '../../assets/images/stage-alcove/77-flip.webp';
-// import YouFirst from '../../assets/images/stage-alcove/78-you-first.webp';
-// import Afternoon from '../../assets/images/stage-alcove/79-another-afternoon.webp';
-// import BirdSanctuary from '../../assets/images/stage-alcove/80-bird-sanctuary.webp';
-// import Neptunes2 from '../../assets/images/stage-alcove/81-neptunes-confront-us-2.webp';
-// import LastVoyage from '../../assets/images/stage-alcove/83-last-voyage.webp';
-// import Enlightenment from '../../assets/images/stage-alcove/84-moment-of-enlightenment.webp';
-// import Try from '../../assets/images/stage-alcove/85-try.webp';
-// import Practice from '../../assets/images/stage-alcove/86-practice.webp';
-// import BetterThan from '../../assets/images/stage-alcove/87-better-than-that.webp';
-// import Direction from '../../assets/images/stage-alcove/88-choose-direction.webp';
+import MusicApp from '../../assets/images/stage-alcove/66-installing-music-app.webp';
+import Distancing from '../../assets/images/stage-alcove/67-social-distancing.webp';
+import FeedFrog from '../../assets/images/stage-alcove/68-time-to-feed-frog.webp';
+import HouseHorrors from '../../assets/images/stage-alcove/69-leaving-house-of-horrors.webp';
+import NeededSurgery from '../../assets/images/stage-alcove/70-much-needed-surgery.webp';
+import SafeTravel from '../../assets/images/stage-alcove/71-safe-travel.webp';
+import BlackHole from '../../assets/images/stage-alcove/72-arrival-through-black-hole.webp';
+import MaryPoppins from '../../assets/images/stage-alcove/73-martian-mary-poppins.webp';
+import RecentTimes from '../../assets/images/stage-alcove/74-fool-in-recent-times.webp';
+import Homecoming from '../../assets/images/stage-alcove/75-homecoming-for-lost-tambourine.webp';
+import KindredSpirits from '../../assets/images/stage-alcove/76-kindred-spirits.webp';
+import Flip from '../../assets/images/stage-alcove/77-flip.webp';
+import YouFirst from '../../assets/images/stage-alcove/78-you-first.webp';
+import Afternoon from '../../assets/images/stage-alcove/79-another-afternoon.webp';
+import BirdSanctuary from '../../assets/images/stage-alcove/80-bird-sanctuary.webp';
+import Neptunes2 from '../../assets/images/stage-alcove/81-neptunes-confront-us-2.webp';
+
+import LastVoyage from '../../assets/images/stage-alcove/83-last-voyage.webp';
+import Enlightenment from '../../assets/images/stage-alcove/84-moment-of-enlightenment.webp';
+import Try from '../../assets/images/stage-alcove/85-try.webp';
+import Practice from '../../assets/images/stage-alcove/86-practice.webp';
+import BetterThan from '../../assets/images/stage-alcove/87-better-than-that.webp';
+import Direction from '../../assets/images/stage-alcove/88-choose-direction.webp';
 
 // // ----------------- Main Room Stage/East ------------------- //
 
@@ -112,59 +113,60 @@ import Marge from '../../assets/images/stage-east/91-marge.webp';
 import TakeYourMedicine from '../../assets/images/stage-east/92-take-your-medicine.webp';
 import Realities from '../../assets/images/stage-east/93-different-realities.webp';
 import RiverStyx from '../../assets/images/stage-east/94-river-styx.webp';
-import SunnySide from '../../assets/images/stage-east/95-sunny-side-up.webp';
-import JacobsDream from '../../assets/images/stage-east/96-jacobs-dream.webp';
-import LunchReady from '../../assets/images/stage-east/97-lunch-ready.webp';
-import RedRope from '../../assets/images/stage-east/98-red-rope.webp';
-import SeeMe from '../../assets/images/stage-east/99-see-me.webp';
-import TheUnknown from '../../assets/images/stage-east/100-into-the-unknown.webp';
-import NoFriends from '../../assets/images/stage-east/101-no-friends.webp';
-import ButterflyWoman from '../../assets/images/stage-east/102-butterfly-woman.webp';
-import Gifts from '../../assets/images/stage-east/103-gifts.webp';
-import Guardian from '../../assets/images/stage-east/104-guardian.webp';
+import Dorothy from '../../assets/images/stage-east/95-dorothy.webp';
+import SunnySide from '../../assets/images/stage-east/96-sunny-side-up.webp';
+import JacobsDream from '../../assets/images/stage-east/97-jacobs-dream.webp';
+import LunchReady from '../../assets/images/stage-east/98-lunch-ready.webp';
+import RedRope from '../../assets/images/stage-east/99-red-rope.webp';
+import SeeMe from '../../assets/images/stage-east/100-see-me.webp';
+import TheUnknown from '../../assets/images/stage-east/101-into-the-unknown.webp';
+import NoFriends from '../../assets/images/stage-east/102-no-friends.webp';
+import ButterflyWoman from '../../assets/images/stage-east/103-butterfly-woman.webp';
+import Gifts from '../../assets/images/stage-east/104-gifts.webp';
+import Guardian from '../../assets/images/stage-east/105-guardian.webp';
 
 // // ----------------- Main Room South Wall ----------------- //
 
-import Purification from '../../assets/images/main-room-south/105-purification-of-thought.webp';
-import Resist from '../../assets/images/main-room-south/106-resist.webp';
-import Surgery2 from '../../assets/images/main-room-south/107-reconstructive-surgery-no2.webp';
-import Crossroads from '../../assets/images/main-room-south/108-devil-crossroads-cello.webp';
-import BullRing from '../../assets/images/main-room-south/109-retired-from-bullring.webp';
-import KingCats from '../../assets/images/main-room-south/110-king-of-cats.webp';
-import EggedOn from '../../assets/images/main-room-south/111-egged-on.webp';
-import TooFar from '../../assets/images/main-room-south/112-gone-too-far.webp';
-import LookingAhead from '../../assets/images/main-room-south/113-looking-ahead.webp';
-import Opera from '../../assets/images/main-room-south/114-opera-from-mezzanine.webp';
-import StateOfWorld from '../../assets/images/main-room-south/115-state-of-world.webp';
-import GiantEgg from '../../assets/images/main-room-south/116-passing-giant-egg.webp';
-import OuttaHere from '../../assets/images/main-room-south/117-outta-here.webp';
-import PaintersMuseum from '../../assets/images/main-room-south/118-painters-museum.webp';
-import PrivateShowing from '../../assets/images/main-room-south/119-private-showing.webp';
-import Roadhouse from '../../assets/images/main-room-south/120-roadhouse-full-moon.webp';
-import CenterStage from '../../assets/images/main-room-south/121-center-stage.webp';
-import Conservationist from '../../assets/images/main-room-south/122-conservationist.webp';
-import Traveler from '../../assets/images/main-room-south/123-spiritual-traveler.webp';
-import GoodCheer from '../../assets/images/main-room-south/124-of-good-cheer.webp';
-import YearsLater from '../../assets/images/main-room-south/125-years-later-cigarette.webp';
-import Bob from '../../assets/images/main-room-south/126-bob.webp';
-import QuestionableMoves from '../../assets/images/main-room-south/127-questionable-moves.webp';
-import BackToSea from '../../assets/images/main-room-south/128-back-to-sea.webp';
-import Dubious from '../../assets/images/main-room-south/129-dubious.webp';
-import Dervish1 from '../../assets/images/main-room-south/130-dervish-no1.webp';
-import Dervish2 from '../../assets/images/main-room-south/131-dervish-no2.webp';
-import Helena from '../../assets/images/main-room-south/132-helena.webp';
-import DealWithDevil from '../../assets/images/main-room-south/133-soul-breaks-deal.webp';
-import Waiting from '../../assets/images/main-room-south/134-waiting-for-parting.webp';
-import Higher from '../../assets/images/main-room-south/135-higher.webp';
-import OhJesus from '../../assets/images/main-room-south/136-jesus-christ.webp';
+import Purification from '../../assets/images/main-room-south/106-purification-of-thought.webp';
+import Resist from '../../assets/images/main-room-south/107-resist.webp';
+import Surgery2 from '../../assets/images/main-room-south/108-reconstructive-surgery-no2.webp';
+import Crossroads from '../../assets/images/main-room-south/109-devil-crossroads-cello.webp';
+import BullRing from '../../assets/images/main-room-south/110-retired-from-bullring.webp';
+import KingCats from '../../assets/images/main-room-south/111-king-of-cats.webp';
+import EggedOn from '../../assets/images/main-room-south/112-egged-on.webp';
+import TooFar from '../../assets/images/main-room-south/113-gone-too-far.webp';
+import LookingAhead from '../../assets/images/main-room-south/114-looking-ahead.webp';
+import Opera from '../../assets/images/main-room-south/115-opera-from-mezzanine.webp';
+import StateOfWorld from '../../assets/images/main-room-south/116-state-of-world.webp';
+import GiantEgg from '../../assets/images/main-room-south/117-passing-giant-egg.webp';
+import OuttaHere from '../../assets/images/main-room-south/118-outta-here.webp';
+import PaintersMuseum from '../../assets/images/main-room-south/119-painters-museum.webp';
+import PrivateShowing from '../../assets/images/main-room-south/120-private-showing.webp';
+import Roadhouse from '../../assets/images/main-room-south/121-roadhouse-full-moon.webp';
+import CenterStage from '../../assets/images/main-room-south/122-center-stage.webp';
+import Conservationist from '../../assets/images/main-room-south/123-conservationist.webp';
+import Traveler from '../../assets/images/main-room-south/124-spiritual-traveler.webp';
+import GoodCheer from '../../assets/images/main-room-south/125-of-good-cheer.webp';
+import YearsLater from '../../assets/images/main-room-south/126-years-later-cigarette.webp';
+import Bob from '../../assets/images/main-room-south/127-bob.webp';
+import QuestionableMoves from '../../assets/images/main-room-south/128-questionable-moves.webp';
+import BackToSea from '../../assets/images/main-room-south/129-back-to-sea.webp';
+import Dubious from '../../assets/images/main-room-south/130-dubious.webp';
+import Dervish1 from '../../assets/images/main-room-south/131-dervish-no1.webp';
+import Dervish2 from '../../assets/images/main-room-south/132-dervish-no2.webp';
+import Helena from '../../assets/images/main-room-south/133-helena.webp';
+import DealWithDevil from '../../assets/images/main-room-south/134-soul-breaks-deal.webp';
+import Waiting from '../../assets/images/main-room-south/135-waiting-for-parting.webp';
+import Higher from '../../assets/images/main-room-south/136-higher.webp';
+import OhJesus from '../../assets/images/main-room-south/137-jesus-christ.webp';
 
 // // ----------------- Main Room West Wall ------------------ //
 
-// import Probed from '../../assets/images/main-room-west/137-probed.webp';
-// import DevilsRing from '../../assets/images/main-room-west/138-devils-ring.webp';
-// import DayBeach from '../../assets/images/main-room-west/139-day-beach-1.webp';
-// import Mutiny from '../../assets/images/main-room-west/140-mutiny.webp';
-// import CatchRelease from '../../assets/images/main-room-west/141-catch-release.webp';
+import Probed from '../../assets/images/main-room-west/138-probed.webp';
+import DevilsRing from '../../assets/images/main-room-west/139-devils-ring.webp';
+import DayBeach from '../../assets/images/main-room-west/140-day-beach-1.webp';
+import Mutiny from '../../assets/images/main-room-west/141-mutiny.webp';
+import CatchRelease from '../../assets/images/main-room-west/142-catch-release.webp';
 
 import PlaceholderHorz from '../../assets/placeholder-horz.jpg';
 import PlaceholderSq from '../../assets/placeholder-sq.jpg';
@@ -561,144 +563,144 @@ export const directory = [
       title: "House of Cards",
       audio: "pending",
     },
-  //   {
-  //     id: 66,
-  //     imgSrc: MusicApp,
-  //     title: "Installing the Music App",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 67,
-  //     imgSrc: Distancing,
-  //     title: "Social Distancing",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 68,
-  //     imgSrc: FeedFrog,
-  //     title: "Time to Feed the Frog",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 69,
-  //     imgSrc: HouseHorrors,
-  //     title: "Leaving the House of Horrors",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 70,
-  //     imgSrc: NeededSurgery,
-  //     title: "A Much Needed Surgery for Mr. Potato Head",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 71,
-  //     imgSrc: SafeTravel,
-  //     title: "Safe Travel",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 72,
-  //     imgSrc: BlackHole,
-  //     title: "New Arrival Through the Black Hole",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 73,
-  //     imgSrc: MaryPoppins,
-  //     title: "The Martian Mary Poppins",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 74,
-  //     imgSrc: RecentTimes,
-  //     title: "The Fool in Recent Times",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 75,
-  //     imgSrc: Homecoming,
-  //     title: "Homecoming for the Other Lost Tambourine Section",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 76,
-  //     imgSrc: KindredSpirits,
-  //     title: "Kindred Spirits",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 77,
-  //     imgSrc: Flip,
-  //     title: "Flip",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 78,
-  //     imgSrc: YouFirst,
-  //     title: "You First",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 79,
-  //     imgSrc: Afternoon,
-  //     title: "Another Afternoon at Lucille's Pool Hale",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 80,
-  //     imgSrc: BirdSanctuary,
-  //     title: "To the Bird Sanctuary",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 81,
-  //     imgSrc: Neptunes2,
-  //     title: "Once Again the Neptunes Confront Us About the Pollution",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 82,
-  //     imgSrc: Placeholder,
-  //     title: "Jacob Wrestling the Angel",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 83,
-  //     imgSrc: LastVoyage,
-  //     title: "The Last Voyage of the Queen Mother",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 84,
-  //     imgSrc: Enlightenment,
-  //     title: "Moment of Enlightenment",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 85,
-  //     imgSrc: Try,
-  //     title: "You Have to Try",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 86,
-  //     imgSrc: Practice,
-  //     title: "Practice",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 87,
-  //     imgSrc: BetterThan,
-  //     title: "You Can Do Better Than That",
-  //     audio: null,
-  //   },
-    // {
-    //   id: 88,
-    //   imgSrc: Direction,
-    //   title: "Choose Your Direction",
-    //   audio: null,
-    // },
+    {
+      id: 66,
+      imgSrc: MusicApp,
+      title: "Installing the Music App",
+      audio: null,
+    },
+    {
+      id: 67,
+      imgSrc: Distancing,
+      title: "Social Distancing",
+      audio: null,
+    },
+    {
+      id: 68,
+      imgSrc: FeedFrog,
+      title: "Time to Feed the Frog",
+      audio: null,
+    },
+    {
+      id: 69,
+      imgSrc: HouseHorrors,
+      title: "Leaving the House of Horrors",
+      audio: null,
+    },
+    {
+      id: 70,
+      imgSrc: NeededSurgery,
+      title: "A Much Needed Surgery for Mr. Potato Head",
+      audio: null,
+    },
+    {
+      id: 71,
+      imgSrc: SafeTravel,
+      title: "Safe Travel",
+      audio: null,
+    },
+    {
+      id: 72,
+      imgSrc: BlackHole,
+      title: "New Arrival Through the Black Hole",
+      audio: null,
+    },
+    {
+      id: 73,
+      imgSrc: MaryPoppins,
+      title: "The Martian Mary Poppins",
+      audio: null,
+    },
+    {
+      id: 74,
+      imgSrc: RecentTimes,
+      title: "The Fool in Recent Times",
+      audio: null,
+    },
+    {
+      id: 75,
+      imgSrc: Homecoming,
+      title: "Homecoming for the Other Lost Tambourine Section",
+      audio: null,
+    },
+    {
+      id: 76,
+      imgSrc: KindredSpirits,
+      title: "Kindred Spirits",
+      audio: null,
+    },
+    {
+      id: 77,
+      imgSrc: Flip,
+      title: "Flip",
+      audio: null,
+    },
+    {
+      id: 78,
+      imgSrc: YouFirst,
+      title: "You First",
+      audio: null,
+    },
+    {
+      id: 79,
+      imgSrc: Afternoon,
+      title: "Another Afternoon at Lucille's Pool Hale",
+      audio: null,
+    },
+    {
+      id: 80,
+      imgSrc: BirdSanctuary,
+      title: "To the Bird Sanctuary",
+      audio: null,
+    },
+    {
+      id: 81,
+      imgSrc: Neptunes2,
+      title: "Once Again the Neptunes Confront Us About the Pollution",
+      audio: "pending",
+    },
+    {
+      id: 82,
+      imgSrc: PlaceholderHorz,
+      title: "Jacob Wrestling the Angel",
+      audio: null,
+    },
+    {
+      id: 83,
+      imgSrc: LastVoyage,
+      title: "The Last Voyage of the Queen Mother",
+      audio: null,
+    },
+    {
+      id: 84,
+      imgSrc: Enlightenment,
+      title: "Moment of Enlightenment",
+      audio: null,
+    },
+    {
+      id: 85,
+      imgSrc: Try,
+      title: "You Have to Try",
+      audio: null,
+    },
+    {
+      id: 86,
+      imgSrc: Practice,
+      title: "Practice",
+      audio: null,
+    },
+    {
+      id: 87,
+      imgSrc: BetterThan,
+      title: "You Can Do Better Than That",
+      audio: null,
+    },
+    {
+      id: 88,
+      imgSrc: Direction,
+      title: "Choose Your Direction",
+      audio: null,
+    },
     {
       id: 89,
       imgSrc: PastBehind,
@@ -737,284 +739,290 @@ export const directory = [
     },
     {
       id: 95,
+      imgSrc: Dorothy,
+      title: "Dorothy",
+      audio: null,
+    },
+    {
+      id: 96,
       imgSrc: SunnySide,
       title: "Sunny Side Up",
       audio: "pending",
     },
     {
-      id: 96,
+      id: 97,
       imgSrc: JacobsDream,
       title: "Jacob's Dream",
       audio: null,
     },
     {
-      id: 97,
+      id: 98,
       imgSrc: LunchReady,
       title: "Lunch Is Ready",
       audio: null,
     },
     {
-      id: 98,
+      id: 99,
       imgSrc: RedRope,
       title: "Red Rope",
       audio: null,
     },
     {
-      id: 99,
+      id: 100,
       imgSrc: SeeMe,
       title: "Can You See Me?",
       audio: null,
     },
     {
-      id: 100,
+      id: 101,
       imgSrc: TheUnknown,
       title: "Into the Unknown",
       audio: null,
     },
     {
-      id: 101,
+      id: 102,
       imgSrc: NoFriends,
       title: "She Had No Friends",
       audio: null,
     },
     {
-      id: 102,
+      id: 103,
       imgSrc: ButterflyWoman,
       title: "Butterfly Woman",
       audio: null,
     },
     {
-      id: 103,
+      id: 104,
       imgSrc: Gifts,
       title: "Gifts",
       audio: null,
     },
     {
-      id: 104,
+      id: 105,
       imgSrc: Guardian,
       title: "Guardian",
       audio: null,
     },
     {
-      id: 105,
+      id: 106,
       imgSrc: Purification,
       title: "Purification of Thought",
       audio: null,
     },
     {
-      id: 106,
+      id: 107,
       imgSrc: Resist,
       title: "Resist",
       audio: "pending",
     },
     {
-      id: 107,
+      id: 108,
       imgSrc: Surgery2,
       title: "Reconstructive Surgery",
       audio: "pending",
     },
     {
-      id: 108,
+      id: 109,
       imgSrc: Crossroads,
       title: "Meeting the Devil at the Crossroads With My Cello",
       audio: null,
     },
     {
-      id: 109,
+      id: 110,
       imgSrc: BullRing,
       title: "Retired From the Bull Ring",
       audio: null,
     },
     {
-      id: 110,
+      id: 111,
       imgSrc: KingCats,
       title: "King of the Cats",
       audio: null,
     },
     {
-      id: 111,
+      id: 112,
       imgSrc: EggedOn,
       title: "Egged On",
       audio: null,
     },
     {
-      id: 112,
+      id: 113,
       imgSrc: TooFar,
       title: "This Time You've Gone Too Far",
       audio: "pending",
     },
     {
-      id: 113,
+      id: 114,
       imgSrc: LookingAhead,
       title: "Looking Ahead",
       audio: null,
     },
     {
-      id: 114,
+      id: 115,
       imgSrc: Opera,
       title: "Opera (View From the Mezzanine?)",
       audio: null,
     },
     {
-      id: 115,
+      id: 116,
       imgSrc: StateOfWorld,
       title: "The State of the World",
       audio: "pending",
     },
     {
-      id: 116,
+      id: 117,
       imgSrc: GiantEgg,
       title: "Passing the Giant Egg",
       audio: null,
     },
     {
-      id: 117,
+      id: 118,
       imgSrc: OuttaHere,
       title: "I'm Outta Here",
       audio: "pending",
     },
     {
-      id: 118,
+      id: 119,
       imgSrc: PaintersMuseum,
       title: "The Painter's Museum",
       audio: "pending",
     },
     {
-      id: 119,
+      id: 120,
       imgSrc: PrivateShowing,
       title: "Private Showing",
       audio: "pending",
     },
     {
-      id: 120,
+      id: 121,
       imgSrc: Roadhouse,
       title: "The Roadhouse at the Full Moon",
       audio: "pending",
     },
     {
-      id: 121,
+      id: 122,
       imgSrc: CenterStage,
       title: "Center Stage",
       audio: null,
     },
     {
-      id: 122,
+      id: 123,
       imgSrc: Conservationist,
       title: "Conservationist",
       audio: null,
     },
     {
-      id: 123,
+      id: 124,
       imgSrc: Traveler,
       title: "Spiritual Tourist",
       audio: "pending",
     },
     {
-      id: 124,
+      id: 125,
       imgSrc: GoodCheer,
       title: "Be of Good Cheer",
       audio: null,
     },
     {
-      id: 125,
+      id: 126,
       imgSrc: YearsLater,
       title: "Years Later He Lit up a Cigarette",
       audio: null,
     },
     {
-      id: 126,
+      id: 127,
       imgSrc: Bob,
       title: "Bob",
       audio: null,
     },
     {
-      id: 127,
+      id: 128,
       imgSrc: QuestionableMoves,
       title: "Questionable Moves",
       audio: "pending",
     },
     {
-      id: 128,
+      id: 129,
       imgSrc: BackToSea,
       title: "Go Back to Sea",
       audio: null,
     },
     {
-      id: 129,
+      id: 130,
       imgSrc: Dubious,
       title: "Dubious",
       audio: null,
     },
     {
-      id: 130,
+      id: 131,
       imgSrc: Dervish1,
       title: "Dervish 1",
       audio: null,
     },
     {
-      id: 131,
+      id: 132,
       imgSrc: Dervish2,
       title: "Dervish 2",
       audio: null,
     },
     {
-      id: 132,
+      id: 133,
       imgSrc: Helena,
       title: "Helena",
       audio: null,
     },
     {
-      id: 133,
+      id: 134,
       imgSrc: DealWithDevil,
       title: "The Soul Breaks the Deal with the Devil",
       audio: null,
     },
     {
-      id: 134,
+      id: 135,
       imgSrc: Waiting,
       title: "Waiting for the Parting",
       audio: "pending",
     },
     {
-      id: 135,
+      id: 136,
       imgSrc: Higher,
       title: "Higher",
       audio: "pending",
     },
     {
-      id: 136,
+      id: 137,
       imgSrc: OhJesus,
       title: "Oh, Jesus Christ",
       audio: "pending",
     },
-  //   {
-  //     id: 137,
-  //     imgSrc: Probed,
-  //     title: "Probed",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 138,
-  //     imgSrc: DevilsRing,
-  //     title: "Playing for the Devil's Ring",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 139,
-  //     imgSrc: DayBeach,
-  //     title: "Another Day at the Beach",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 140,
-  //     imgSrc: Mutiny,
-  //     title: "Mutiny",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 141,
-  //     imgSrc: CatchRelease,
-  //     title: "Catch and Release",
-  //     audio: null,
-  //   },
+    {
+      id: 138,
+      imgSrc: Probed,
+      title: "Probed",
+      audio: "pending",
+    },
+    {
+      id: 139,
+      imgSrc: DevilsRing,
+      title: "Playing for the Devil's Ring",
+      audio: "pending",
+    },
+    {
+      id: 140,
+      imgSrc: DayBeach,
+      title: "Another Day at the Beach",
+      audio: "pending",
+    },
+    {
+      id: 141,
+      imgSrc: Mutiny,
+      title: "Mutiny",
+      audio: "pending",
+    },
+    {
+      id: 142,
+      imgSrc: CatchRelease,
+      title: "Catch and Release",
+      audio: null,
+    },
   ]
