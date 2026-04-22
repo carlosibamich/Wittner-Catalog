@@ -125,46 +125,46 @@ import Guardian from '../../assets/images/stage-east/104-guardian.webp';
 
 // // ----------------- Main Room South Wall ----------------- //
 
-// import Purification from '../../assets/images/main-south/105-purification-of-thought.webp';
-// import Resist from '../../assets/images/main-south/106-resist.webp';
-// import Surgery2 from '../../assets/images/main-south/107-reconstructive-surgery-no2.webp';
-// import Crossroads from '../../assets/images/main-south/108-devil-crossroads-cello.webp';
-// import BullRing from '../../assets/images/main-south/109-retired-from-bullring.webp';
-// import KingCats from '../../assets/images/main-south/110-king-of-cats.webp';
-// import EggedOn from '../../assets/images/main-south/111-egged-on.webp';
-// import TooFar from '../../assets/images/main-south/112-gone-too-far.webp';
-// import LookingAhead from '../../assets/images/main-south/113-looking-ahead.webp';
-// import Opera from '../../assets/images/main-south/114-opera-from-mezzanine.webp';
-// import StateOfWorld from '../../assets/images/main-south/115-state-of-world.webp';
-// import GiantEgg from '../../assets/images/main-south/116-passing-giant-egg.webp';
-// import OuttaHere from '../../assets/images/main-south/117-outta-here.webp';
-// import PaintersMuseum from '../../assets/images/main-south/118-painters-musuem.webp';
-// import PrivateShowing from '../../assets/images/main-south/119-private-showing.webp';
-// import Roadhouse from '../../assets/images/main-south/120-roadhouse-full-moon.webp';
-// import CenterStage from '../../assets/images/main-south/121-center-stage.webp';
-// import Conservationist from '../../assets/images/main-south/122-conservationist.webp';
-// import Traveler from '../../assets/images/main-south/123-spiritual-traveler.webp';
-// import GoodCheer from '../../assets/images/main-south/124-of-good-cheer.webp';
-// import YearsLater from '../../assets/images/main-south/125-years-later-cigarette.webp';
-// import Bob from '../../assets/images/main-south/126-bob.webp';
-// import QuestionableMoves from '../../assets/images/main-south/127-questionable-moves.webp';
-// import BackToSea from '../../assets/images/main-south/128-back-to-sea.webp';
-// import Dubious from '../../assets/images/main-south/129-dubious.webp';
-// import Dervish1 from '../../assets/images/main-south/130-dervish-no1.webp';
-// import Dervish2 from '../../assets/images/main-south/131-dervish-no2.webp';
-// import TitlePending131 from '../../assets/images/main-south/132-title-pending.webp';
-// import DealWithDevil from '../../assets/images/main-south/133-soul-breaks-deal.webp';
-// import Waiting from '../../assets/images/main-south/134-waiting-for-parting.webp';
-// import Higher from '../../assets/images/main-south/135-higher.webp';
-// import OhJesus from '../../assets/images/main-south/136-jesus-christ.webp';
+import Purification from '../../assets/images/main-room-south/105-purification-of-thought.webp';
+import Resist from '../../assets/images/main-room-south/106-resist.webp';
+import Surgery2 from '../../assets/images/main-room-south/107-reconstructive-surgery-no2.webp';
+import Crossroads from '../../assets/images/main-room-south/108-devil-crossroads-cello.webp';
+import BullRing from '../../assets/images/main-room-south/109-retired-from-bullring.webp';
+import KingCats from '../../assets/images/main-room-south/110-king-of-cats.webp';
+import EggedOn from '../../assets/images/main-room-south/111-egged-on.webp';
+import TooFar from '../../assets/images/main-room-south/112-gone-too-far.webp';
+import LookingAhead from '../../assets/images/main-room-south/113-looking-ahead.webp';
+import Opera from '../../assets/images/main-room-south/114-opera-from-mezzanine.webp';
+import StateOfWorld from '../../assets/images/main-room-south/115-state-of-world.webp';
+import GiantEgg from '../../assets/images/main-room-south/116-passing-giant-egg.webp';
+import OuttaHere from '../../assets/images/main-room-south/117-outta-here.webp';
+import PaintersMuseum from '../../assets/images/main-room-south/118-painters-museum.webp';
+import PrivateShowing from '../../assets/images/main-room-south/119-private-showing.webp';
+import Roadhouse from '../../assets/images/main-room-south/120-roadhouse-full-moon.webp';
+import CenterStage from '../../assets/images/main-room-south/121-center-stage.webp';
+import Conservationist from '../../assets/images/main-room-south/122-conservationist.webp';
+import Traveler from '../../assets/images/main-room-south/123-spiritual-traveler.webp';
+import GoodCheer from '../../assets/images/main-room-south/124-of-good-cheer.webp';
+import YearsLater from '../../assets/images/main-room-south/125-years-later-cigarette.webp';
+import Bob from '../../assets/images/main-room-south/126-bob.webp';
+import QuestionableMoves from '../../assets/images/main-room-south/127-questionable-moves.webp';
+import BackToSea from '../../assets/images/main-room-south/128-back-to-sea.webp';
+import Dubious from '../../assets/images/main-room-south/129-dubious.webp';
+import Dervish1 from '../../assets/images/main-room-south/130-dervish-no1.webp';
+import Dervish2 from '../../assets/images/main-room-south/131-dervish-no2.webp';
+import Helena from '../../assets/images/main-room-south/132-helena.webp';
+import DealWithDevil from '../../assets/images/main-room-south/133-soul-breaks-deal.webp';
+import Waiting from '../../assets/images/main-room-south/134-waiting-for-parting.webp';
+import Higher from '../../assets/images/main-room-south/135-higher.webp';
+import OhJesus from '../../assets/images/main-room-south/136-jesus-christ.webp';
 
 // // ----------------- Main Room West Wall ------------------ //
 
-// import Probed from '../../assets/images/main-west/137-probed.webp';
-// import DevilsRing from '../../assets/images/main-west/138-devils-ring.webp';
-// import DayBeach from '../../assets/images/main-west/139-day-beach-1.webp';
-// import Mutiny from '../../assets/images/main-west/140-mutiny.webp';
-// import CatchRelease from '../../assets/images/main-west/141-catch-release.webp';
+// import Probed from '../../assets/images/main-room-west/137-probed.webp';
+// import DevilsRing from '../../assets/images/main-room-west/138-devils-ring.webp';
+// import DayBeach from '../../assets/images/main-room-west/139-day-beach-1.webp';
+// import Mutiny from '../../assets/images/main-room-west/140-mutiny.webp';
+// import CatchRelease from '../../assets/images/main-room-west/141-catch-release.webp';
 
 import PlaceholderHorz from '../../assets/placeholder-horz.jpg';
 import PlaceholderSq from '../../assets/placeholder-sq.jpg';
@@ -795,198 +795,198 @@ export const directory = [
       title: "Guardian",
       audio: null,
     },
-  //   {
-  //     id: 105,
-  //     imgSrc: Purification,
-  //     title: "Purification of Thought",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 106,
-  //     imgSrc: Resist,
-  //     title: "Resist",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 107,
-  //     imgSrc: Surgery2,
-  //     title: "Reconstructive Surgery",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 108,
-  //     imgSrc: Crossroads,
-  //     title: "Meeting the Devil at the Crossroads With My Cello",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 109,
-  //     imgSrc: BullRing,
-  //     title: "Retired From the Bull Ring",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 110,
-  //     imgSrc: KingCats,
-  //     title: "King of the Cats",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 111,
-  //     imgSrc: EggedOn,
-  //     title: "Egged On",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 112,
-  //     imgSrc: TooFar,
-  //     title: "This Time You've Gone Too Far",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 113,
-  //     imgSrc: LookingAhead,
-  //     title: "Looking Ahead",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 114,
-  //     imgSrc: Opera,
-  //     title: "Opera (View From the Mezzanine?)",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 115,
-  //     imgSrc: StateOfWorld,
-  //     title: "The State of the World",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 116,
-  //     imgSrc: GiantEgg,
-  //     title: "Passing the Giant Egg",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 117,
-  //     imgSrc: OuttaHere,
-  //     title: "I'm Outta Here",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 118,
-  //     imgSrc: PaintersMuseum,
-  //     title: "The Painter's Museum",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 119,
-  //     imgSrc: PrivateShowing,
-  //     title: "Private Showing",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 120,
-  //     imgSrc: Roadhouse,
-  //     title: "The Roadhouse at the Full Moon",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 121,
-  //     imgSrc: CenterStage,
-  //     title: "Center Stage",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 122,
-  //     imgSrc: Conservationist,
-  //     title: "Conservationist",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 123,
-  //     imgSrc: Traveler,
-  //     title: "Spiritual Tourist",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 124,
-  //     imgSrc: GoodCheer,
-  //     title: "Be of Good Cheer",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 125,
-  //     imgSrc: YearsLater,
-  //     title: "Years Later He Lit up a Cigarette",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 126,
-  //     imgSrc: Bob,
-  //     title: "Bob",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 127,
-  //     imgSrc: QuestionableMoves,
-  //     title: "Questionable Moves",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 128,
-  //     imgSrc: BackToSea,
-  //     title: "Go Back to Sea",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 129,
-  //     imgSrc: Dubious,
-  //     title: "Dubious",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 130,
-  //     imgSrc: Dervish1,
-  //     title: "Dervish 1",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 131,
-  //     imgSrc: Dervish2,
-  //     title: "Dervish 2",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 132,
-  //     imgSrc: Helena,
-  //     title: "Helena",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 133,
-  //     imgSrc: DealWithDevil,
-  //     title: "The Soul Breaks the Deal with the Devil",
-  //     audio: null,
-  //   },
-  //   {
-  //     id: 134,
-  //     imgSrc: Waiting,
-  //     title: "Waiting for the Parting",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 135,
-  //     imgSrc: Higher,
-  //     title: "Higher",
-  //     audio: "pending",
-  //   },
-  //   {
-  //     id: 136,
-  //     imgSrc: OhJesus,
-  //     title: "Oh, Jesus Christ",
-  //     audio: "pending",
-  //   },
+    {
+      id: 105,
+      imgSrc: Purification,
+      title: "Purification of Thought",
+      audio: null,
+    },
+    {
+      id: 106,
+      imgSrc: Resist,
+      title: "Resist",
+      audio: "pending",
+    },
+    {
+      id: 107,
+      imgSrc: Surgery2,
+      title: "Reconstructive Surgery",
+      audio: "pending",
+    },
+    {
+      id: 108,
+      imgSrc: Crossroads,
+      title: "Meeting the Devil at the Crossroads With My Cello",
+      audio: null,
+    },
+    {
+      id: 109,
+      imgSrc: BullRing,
+      title: "Retired From the Bull Ring",
+      audio: null,
+    },
+    {
+      id: 110,
+      imgSrc: KingCats,
+      title: "King of the Cats",
+      audio: null,
+    },
+    {
+      id: 111,
+      imgSrc: EggedOn,
+      title: "Egged On",
+      audio: null,
+    },
+    {
+      id: 112,
+      imgSrc: TooFar,
+      title: "This Time You've Gone Too Far",
+      audio: "pending",
+    },
+    {
+      id: 113,
+      imgSrc: LookingAhead,
+      title: "Looking Ahead",
+      audio: null,
+    },
+    {
+      id: 114,
+      imgSrc: Opera,
+      title: "Opera (View From the Mezzanine?)",
+      audio: null,
+    },
+    {
+      id: 115,
+      imgSrc: StateOfWorld,
+      title: "The State of the World",
+      audio: "pending",
+    },
+    {
+      id: 116,
+      imgSrc: GiantEgg,
+      title: "Passing the Giant Egg",
+      audio: null,
+    },
+    {
+      id: 117,
+      imgSrc: OuttaHere,
+      title: "I'm Outta Here",
+      audio: "pending",
+    },
+    {
+      id: 118,
+      imgSrc: PaintersMuseum,
+      title: "The Painter's Museum",
+      audio: "pending",
+    },
+    {
+      id: 119,
+      imgSrc: PrivateShowing,
+      title: "Private Showing",
+      audio: "pending",
+    },
+    {
+      id: 120,
+      imgSrc: Roadhouse,
+      title: "The Roadhouse at the Full Moon",
+      audio: "pending",
+    },
+    {
+      id: 121,
+      imgSrc: CenterStage,
+      title: "Center Stage",
+      audio: null,
+    },
+    {
+      id: 122,
+      imgSrc: Conservationist,
+      title: "Conservationist",
+      audio: null,
+    },
+    {
+      id: 123,
+      imgSrc: Traveler,
+      title: "Spiritual Tourist",
+      audio: "pending",
+    },
+    {
+      id: 124,
+      imgSrc: GoodCheer,
+      title: "Be of Good Cheer",
+      audio: null,
+    },
+    {
+      id: 125,
+      imgSrc: YearsLater,
+      title: "Years Later He Lit up a Cigarette",
+      audio: null,
+    },
+    {
+      id: 126,
+      imgSrc: Bob,
+      title: "Bob",
+      audio: null,
+    },
+    {
+      id: 127,
+      imgSrc: QuestionableMoves,
+      title: "Questionable Moves",
+      audio: "pending",
+    },
+    {
+      id: 128,
+      imgSrc: BackToSea,
+      title: "Go Back to Sea",
+      audio: null,
+    },
+    {
+      id: 129,
+      imgSrc: Dubious,
+      title: "Dubious",
+      audio: null,
+    },
+    {
+      id: 130,
+      imgSrc: Dervish1,
+      title: "Dervish 1",
+      audio: null,
+    },
+    {
+      id: 131,
+      imgSrc: Dervish2,
+      title: "Dervish 2",
+      audio: null,
+    },
+    {
+      id: 132,
+      imgSrc: Helena,
+      title: "Helena",
+      audio: null,
+    },
+    {
+      id: 133,
+      imgSrc: DealWithDevil,
+      title: "The Soul Breaks the Deal with the Devil",
+      audio: null,
+    },
+    {
+      id: 134,
+      imgSrc: Waiting,
+      title: "Waiting for the Parting",
+      audio: "pending",
+    },
+    {
+      id: 135,
+      imgSrc: Higher,
+      title: "Higher",
+      audio: "pending",
+    },
+    {
+      id: 136,
+      imgSrc: OhJesus,
+      title: "Oh, Jesus Christ",
+      audio: "pending",
+    },
   //   {
   //     id: 137,
   //     imgSrc: Probed,
