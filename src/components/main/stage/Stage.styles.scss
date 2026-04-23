@@ -1,16 +1,4 @@
-// ------------ Utility Classes ----------- //
-// .border-shadow-sm {
-//   border: 1px solid #bbb;
-//   box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3);
-// }
-
-// .border-shadow-lg {
-//   border: 1px solid #bbb;
-//   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
-// }
-
-
-// ------------ Main Room ----------- //
+// ------------ Main Room Stage/East ----------- //
 .main-room-container {
   position: relative;
   margin: 0;
@@ -74,9 +62,6 @@
 
         // ---------- Leave Past Behind --------- //
         .sub-section-1-1 {
-          // position: absolute;
-          // top: 50px;
-          // left: 19px;
           width: 125px;
           height: auto;
           margin-left: -5px;
@@ -91,11 +76,12 @@
         height: 65%;
         border-top: 2px solid #eaeaea;
         background: linear-gradient(195deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
-        // opacity: 0.5;
-        // align-content: flex-end;
-        // justify-content: flex-end;
 
-        // ---------- Title Pending 61 --------- //  
+        img {
+          cursor: auto;
+        }
+
+        // ---------- America --------- //  
         .sub-section-1-2 {
           position: absolute;
           top: 30px;
@@ -103,6 +89,8 @@
           height: auto;
           border: none;
           opacity: 0.5;
+
+          
         }
   
         // ---------- Look At Me! --------- //
@@ -164,16 +152,25 @@
         height: auto;
       }
       
-      // ---------- Title Pending 70 --------- //
+      // ---------- River Styx --------- //
       .sub-section-2-5 {
         position: absolute;
         top: 36px;
         right: 75px;
         width: 178px;
         height: auto;
-     }
+      }
 
-     .storage-entrance-container {
+      // ---------- River Styx --------- //
+      .sub-section-2-6 {
+        position: absolute;
+        top: 15rem;
+        right: 0;
+        width: 3.6rem;
+        height: auto;
+      }
+
+      .storage-entrance-container {
         position: absolute;
         top: 210px;
         right: 40px;
@@ -187,103 +184,97 @@
           position: relative;
           opacity: 0.45;
 
+          img {
+            cursor: auto;
+          }
+
           // ------------ Installing the Music App ------------ //
-          .sub-section-2-6 {
+          .sub-section-2-7 {
             position: absolute;
             top: -68px;
             left: 28px;
             width: 190px;
             height: auto;
-            border: none;
           }
 
           // ------------ Social Distancing ------------ //
-          .sub-section-2-7 {
+          .sub-section-2-8 {
             position: absolute;
             top: 93px;
             left: -2px;
             width: 49px;
-            border: none;
           }
           
           // ------------ Time to Feed the Frog ------------ //
-          .sub-section-2-8 {
+          .sub-section-2-9 {
             position: absolute;
             top: 148px;
             left: -5px;
             width: 53px;
             height: auto;
-            border: none;
           }
           
           // ------------ Leaving the House of Horrors ------------ //
-          .sub-section-2-9 {
+          .sub-section-2-10 {
             position: absolute;
             top: 95px;
             left: 60px;
             width: 56px;
             height: auto;
-            border: none;
           }
           
           // ------------ Much Needed Surgery ------------ //
-          .sub-section-2-10 {
+          .sub-section-2-11 {
             position: absolute;
             top: 148px;
             left: 58px;
             width: 37px;
             height: auto;
-            border: none;
           }
           
           // ------------ Arrival Through the Black Hole ------------ //
-          .sub-section-2-11 {
+          .sub-section-2-12 {
             position: absolute;
             top: 95px;
             right: 60px;
             width: 55px;
             height: auto;
-            border: none;
           }
           
           // ------------ Safe travel ------------ //
-          .sub-section-2-12 {
+          .sub-section-2-13 {
             position: absolute;
             top: 148px;
             right: 98px;
             width: 44px;
             height: auto;
-            border: none;
           }
           
           // ------------ Martian Mary Poppins ------------ //
-          .sub-section-2-13 {
+          .sub-section-2-14 {
             position: absolute;
             top: 148px;
             right: 53px;
             width: 36px;
             height: auto;
-            border: none;
           }
           
           // ------------ The Fool In Recent Times ------------ //
-          .sub-section-2-14 {
+          .sub-section-2-15 {
             position: absolute;
             top: 95px;
             right: -4px;
             width: 48px;
             height: auto;
-            border: none;
           }
           
           // ------------ Homecoming for Tambourine ------------ //
-          .sub-section-2-15 {
+          .sub-section-2-16 {
             position: absolute;
             top: 148px;
             right: -5px;
             width: 50px;
             height: auto;
-            border: none;
           }
         }
      }

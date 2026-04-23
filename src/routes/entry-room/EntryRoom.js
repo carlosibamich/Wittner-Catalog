@@ -89,7 +89,7 @@ const EntryRoom = () => {
           <FaAngleRight />
         </button>
       </div>
-      <ul ref={scrollRef} className="entry-gallery-container">
+      <ul ref={scrollRef} className="gallery-container">
         {entrySlides.map((item) => (
           <div key={item.id} className="wall-item">
             {item.content}
@@ -98,23 +98,6 @@ const EntryRoom = () => {
       </ul> 
     </div>
   );
-  
-  // return (
-  //   <div key={location.index} className="entry-gallery-container page-fade-in">
-  //     <div className="wall-item">
-  //       <EntryNorth />
-  //     </div>
-  //     <div className="wall-item">
-  //       <EntryEast />
-  //     </div>
-  //     <div className="wall-item">
-  //       <EntrySouth />
-  //     </div>
-  //     <div className="wall-item">
-  //       <EntryWest />
-  //     </div>
-  //   </div>
-  // );
 };
 
 export default EntryRoom;

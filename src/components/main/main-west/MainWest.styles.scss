@@ -1,3 +1,4 @@
+// ------------ Main Room West ----------- //
 .main-room-container {
   // display: flex;
   // flex-direction: column;
@@ -9,7 +10,7 @@
 
   .main-room-west-grid {
     width: 86%;
-    height: 640px;
+    height: 40rem;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 

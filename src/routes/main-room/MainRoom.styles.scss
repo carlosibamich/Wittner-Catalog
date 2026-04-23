@@ -1,16 +1,2 @@
-.main-room-container {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: none;
-  width: 100vw;
-  height: 80vh;
 
-  .wall-item {
-    flex: 0 0 auto;
-    min-width: 100vw;
-    // height: 100vh;
-    scroll-snap-align: start;
-  }
-}
+// ------ Styles for Main Room Carousel et al applied globally in index.scss ------ //

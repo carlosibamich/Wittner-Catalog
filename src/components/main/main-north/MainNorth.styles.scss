@@ -1,15 +1,3 @@
-// ------------ Utility Classes ----------- //
-.border-shadow-sm {
-  border: 1px solid #bbb;
-  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.3);
-}
-
-.border-shadow-lg {
-  border: 1px solid #bbb;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-
 // ------------ Main Room ----------- //
 .main-room-container {
   display: flex;
@@ -18,13 +6,14 @@
   align-items: center;
   width: 100%;
   height: 100%;
-
+  
   .main-room-north-grid {
     width: 88%;
     height: 40rem;
     display: grid;
     grid-template-columns: 1.9fr 5.6fr 5.9fr 5.6fr 6fr 4.9fr 1.5fr 3.9fr;
     gap: 12px;
+    // margin-top: 6rem;
 
     // .section {
     //   background-color: #fff;

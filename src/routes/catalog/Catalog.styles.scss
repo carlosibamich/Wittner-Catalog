@@ -3,102 +3,113 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7rem;
+  margin-top: 6.2rem;
 
   .list-grid {
-    list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 3rem;
-    width: 82%;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.6rem;
+    width: 86%;
+    padding-left: 0;
+    list-style-type: none;
+    // border: 1px solid #aaa;
 
-    .list-items-container {
-      position: relative;
+    li {
       display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      width: 27.8rem;
-      height: 9.2rem;
-      margin-bottom: 2.8rem;
-      background-color: #fff;
-      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.18);
-      border-bottom: 4px solid #DCA738;
-      border-radius: 8px;
-      cursor: pointer;
+      justify-content: center;
+      width: 100%;
 
-      .audio-icon {
-        position: absolute;
-        top: 1.3rem;
-        right: 2rem;
-        font-size: 2.65rem;
-        color: #DCA738;
-      }
-      
-      .image-container {
+      .list-items-container {
+        position: relative;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        overflow: hidden;
-        background-size: cover;
-        background-position: center;
-        max-width: 7.7rem;
-        max-height: 6.2rem;
-        z-index: 100;
-        margin-left: 1.3rem;
-        border-radius: 3px;
-        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+        width: 25rem;
+        height: 9rem;
+        margin-bottom: 2.8rem;
+        background-color: #fff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.18);
+        border-bottom: 4px solid #DCA738;
+        border-radius: 8px;
         
-        
-        .image {
-          max-height: 6.2rem;
-          width: auto;
-          object-fit: cover;
-          border: none;
+        .audio-icon {
+          position: absolute;
+          top: 0.7rem;
+          right: 2.2rem;
+          font-size: 2rem;
+          color: #DCA738;
+          cursor: pointer;
         }
-      }
-
-      .info-container {
-        display: flex;
-        flex-direction: column;
-        width: 17.5rem;
-        height: 6.2rem;
-        padding-left: 3px;
-        margin-left: 10px;
-        
-        .id-area {
-          display: flex;
-          width: 5.2rem;
-          height: 2.2rem;
-          justify-content: flex-start;
+      
+        .image-container {
+         display: flex;
+          justify-content: center;
           align-items: center;
-          padding-top: 0.5rem;
-          margin-bottom: 1.2rem;
-          
-          h3 { 
-            font-family: 'Story Script', sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 700;
-            font-style: normal;
-            font-size: 2.9rem;
-            // letter-spacing: -2px;
-            color: #cfcfcf;
+          overflow: hidden;
+          background-size: cover;
+          background-position: center;
+          max-width: 7.7rem;
+          max-height: 6.2rem;
+          z-index: 100;
+         margin-left: 1.3rem;
+          border-radius: 3px;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+        
+        
+          .image {
+            max-height: 6.2rem;
+            width: auto;
+            object-fit: cover;
+             border: none;
           }
         }
-      
-        .title-area {
+
+       .info-container {
           display: flex;
-          flex-direction: column; 
-          justify-content: flex-start;
-          width: 17.5rem;
-          color: #5c5c5c;
-          height: 55px;
+          flex-direction: column;
+          // overflow: hidden;
+          width: 15.5rem;
+          height: 6.2rem;
+          padding-left: 0.6rem;
+        
+          .id-area {
+            display: flex;
+            width: 5.2rem;
+            height: 2.8rem;
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 0.3rem;
+            padding-left: 0.2rem;
+            // margin-bottom: 1.5rem;
+          
+            h3 { 
+              font-family: 'Story Script', sans-serif;
+              font-optical-sizing: auto;
+              font-weight: 700;
+              font-style: normal;
+              font-size: 2.6rem;
+              // color: #cfcfcf;
+              color: #dfdfdf;
+            }
+          }
+      
+          .title-area {
+            display: flex;
+            flex-direction: column; 
+            justify-content: flex-start;
+            width: 14rem;
+            color: #5c5c5c;
+            height: 3.4rem;
   
-          p {
-            margin: 0;
-            padding-top: 0.2rem;
-            font-size: 1.2rem;
-            font-weight: 500;
-            line-height: 22px;
+            p {
+              margin: 0;
+              padding-top: 0.3rem;
+              font-size: 1.05rem;
+              font-weight: 500;
+              line-height: 1.15rem;
+            }
           }
         }
       }
