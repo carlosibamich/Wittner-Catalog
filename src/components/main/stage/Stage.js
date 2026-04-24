@@ -17,13 +17,7 @@ const StageEast = () => {
   const handleClose = () => setShowModal(false);
 
   return (
-    <div className="main-room-container">
-      <div className="platform-container">
-        <div className="step"></div>
-        <div className="step"></div>
-        <div className="step"></div>
-        <div className="step"></div>
-      </div>
+    <div className="main-room-stage-container">
       <div className="main-room-stage-grid">
 
         {/* // ---------------- Column 1 ----------------- // */}
@@ -40,19 +34,23 @@ const StageEast = () => {
               />
             </div>
           </div>
-          <div className="north-exit-inset">
-            <div className="border-shadow-sm sub-section-1-2">
-              <img 
-                src={directory[61].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
-            </div>
-            <div className="border-shadow-sm sub-section-1-3">
-              <img src={directory[62].imgSrc} 
-              loading="lazy"
-              draggable="false"
-              className="no-drag-img"/>
+          <div className="north-exit-container">
+            <div className="inset">
+              <div className="border-shadow-lg sub-section-1-2">
+                <img 
+                  src={directory[61].imgSrc} 
+                  loading="lazy"
+                  draggable="false"
+                  className="no-drag-img"
+                />
+              </div>
+              <div className="border-shadow-lg sub-section-1-3">
+                <img src={directory[62].imgSrc} 
+                  loading="lazy"
+                  draggable="false"
+                  className="no-drag-img"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -114,8 +112,8 @@ const StageEast = () => {
               className="no-drag-img"
             />
           </div>
-          <div className="storage-entrance-container">
-            <div className="storage-entrance">
+          <div className="alcove-entrance-container">
+            <div className="alcove-entrance">
               <div className="border-shadow-lg sub-section-2-7">
                 <img src={directory[65].imgSrc} 
                 loading="lazy"
@@ -215,7 +213,7 @@ const StageEast = () => {
               className="no-drag-img"
             />
           </div>
-          <div className="stage-door"></div>
+          {/* <div className="stage-door"></div> */}
           <div className="border-shadow-lg sub-section-4-3">
             <img 
               src={directory[98].imgSrc} 
@@ -275,7 +273,7 @@ const StageEast = () => {
               className="no-drag-img"
             />
           </div>
-          <div className="stairs-door"></div>
+          {/* <div className="stairs-door"></div> */}
           <div className="border-shadow-lg sub-section-5-2">
             <img 
               src={directory[104].imgSrc} 
@@ -284,6 +282,16 @@ const StageEast = () => {
               draggable="false"
               className="no-drag-img"
             />
+          </div>
+        </div>
+        {/* // ---------------- Column 5 ----------------- // */}
+
+        <div className="section west-column-6">
+          <div className="platform-container">
+            <div className="step"></div>
+            <div className="step"></div>
+            <div className="step"></div>
+            <div className="step"></div>
           </div>
         </div>
       </div>

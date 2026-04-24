@@ -69,7 +69,7 @@ img {
   animation: slideIn 0.4s ease-in forwards;
 }
 
-/* -------------- Utility Styles -------------- */
+/* ----------------- Utility Styles ----------------- */
 
 /* --------- Painting Shadows --------- */
 .border-shadow-sm {
@@ -78,6 +78,33 @@ img {
 
 .border-shadow-lg {
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* --------- Windows --------- */
+.window-frame {
+  position: absolute;
+  top: 0rem;
+  width: 32.1rem;
+  height: 20.7rem;
+  background-color: #b8b8b8;
+
+
+  .window-pane {
+    position: absolute;
+    bottom: 0.7rem;
+    width: 15rem;
+    height: 19.3rem;
+    background-color: #fdfdfd;
+    box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .pane-left {
+    left: 0.7rem;
+  }
+
+  .pane-right {
+    right: 0.7rem;
+  }
 }
 
 /* --------- Doors Styles --------- */
@@ -91,43 +118,43 @@ img {
     position: absolute;
     bottom: 0;
     width: 18.8rem;
-    height: 22.6rem;
+    height: 23.9rem;
     background-color: #b8b8b8;
     --shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.1);
 
     .door-window-pane-top {
       position: absolute;
-      top: 0.8rem;
-      left: 0.8rem;
-      width: 17.2rem;
-      height: 3.6rem;
+      top: 0.7rem;
+      left: 0.7rem;
+      width: 17.4rem;
+      height: 3.3rem;
       background-color: #fdfdfd;
       box-shadow: var(--shadow);
     }
 
     .door-window-pane-left {
       position: absolute;
-      bottom: 0;
-      left: 0.8rem;
-      width: 8.2rem;
-      height: 17.4rem;
+      bottom: 0.9rem;
+      left: 0.7rem;
+      width: 8.35rem;
+      height: 18.3rem;
       background-color: #fdfdfd;
       box-shadow: var(--shadow);
     }
 
     .door-window-pane-right {
       position: absolute;
-      bottom: 0;
-      right: 0.8rem;
-      width: 8.2rem;
-      height: 17.4rem;
+      bottom: 0.9rem;
+      right: 0.7rem;
+      width: 8.35rem;
+      height: 18.3rem;
       background-color: #fdfdfd;
       box-shadow: var(--shadow);
     }
 
     .door-crossbar {
       position: absolute;
-      bottom: 5.8rem;
+      bottom: 9.4rem;
       right: 0;
       width: 18.8rem;
       height: 0.6rem;
@@ -150,7 +177,7 @@ div.carousel-container {
     justify-content: center;
     align-items: center;
     width: 55rem;
-    margin-bottom: 3.2rem;
+    margin-bottom: 3.6rem;
     
     .arrow {
       padding-bottom: 0.5rem;

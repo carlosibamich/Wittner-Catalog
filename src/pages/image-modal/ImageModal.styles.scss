@@ -3,14 +3,14 @@
   }
 
 .custom-modal-width {
-  max-width: fit-content !important;
-  width: auto !important;
   display: flex;
   justify-content: center;
+  max-width: fit-content !important;
+  width: auto !important;
 
   .modal-content {
     background-color: #262626;
-    border-radius: 12px;
+    border-radius: 3px;
   }
 
   .modal-img-constrained {

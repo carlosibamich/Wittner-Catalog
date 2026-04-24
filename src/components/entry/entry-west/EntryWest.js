@@ -94,9 +94,9 @@ const EntryWest = () => {
         {/* ---------------------- Column 6 ------------------------ */}
 
         <div className="section entry-west-column-6">
-          <div className="window-frame-w">
-            <div className="window-pane-w pane-w-left"></div>
-            <div className="window-pane-w pane-w-right"></div>
+          <div className="window-frame">
+            <div className="window-pane pane-left"></div>
+            <div className="window-pane pane-right"></div>
           </div>
         </div>
 
@@ -114,9 +114,9 @@ const EntryWest = () => {
         {/* ---------------------- Column 8 ------------------------ */}
 
         <div className="section entry-west-column-8">
-          <div className="window-frame-w">
-            <div className="window-pane-w pane-w-left"></div>
-            <div className="window-pane-w pane-w-right"></div>
+          <div className="window-frame">
+            <div className="window-pane pane-left"></div>
+            <div className="window-pane pane-right"></div>
           </div>
         </div>
       </div>

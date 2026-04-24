@@ -17,7 +17,7 @@ const MainNorth = () => {
   const handleClose = () => setShowModal(false);
 
   return (
-    <div className="main-room-container">
+    <div className="main-room-north-container">
       <div className="main-room-north-grid">
 
         {/* // ---------------- Column 1 ----------------- // */}
@@ -452,6 +452,15 @@ const MainNorth = () => {
             <img 
               src={directory[59].imgSrc}
               onClick={() => handleOpen(directory[59].imgSrc, directory[59].title)}
+              loading="lazy"
+              draggable="false"
+              className="no-drag-img"
+            />
+          </div>
+          <div className="border-shadow-sm sub-section-8-7">
+            <img 
+              src={directory[60].imgSrc}
+              onClick={() => handleOpen(directory[60].imgSrc, directory[60].title)}
               loading="lazy"
               draggable="false"
               className="no-drag-img"

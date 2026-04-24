@@ -17,7 +17,7 @@ const MainSouth = () => {
   const handleClose = () => setShowModal(false);
  
   return (
-    <div className="main-room-container">
+    <div className="main-room-south-container">
       <div className="main-room-south-grid">
 
         {/* // ---------------- Column 1 ----------------- // */}
@@ -35,9 +35,6 @@ const MainSouth = () => {
               onClick={() => handleOpen(directory[106].imgSrc, directory[106].title)} 
             />
           </div>
-          {/* <div className="basement-entrance">
-            
-          </div> */}
         </div>
 
         {/* // ---------------- Column 2 ----------------- // */}
@@ -151,13 +148,13 @@ const MainSouth = () => {
           <div className="border-shadow-lg sub-section-5-2">
             <img 
               src={directory[122].imgSrc}
-              onClick={() => handleOpen(directory[222].imgSrc, directory[121].title)} 
+              onClick={() => handleOpen(directory[122].imgSrc, directory[122].title)} 
             />           
           </div>
           <div className="border-shadow-lg sub-section-5-3">
             <img 
               src={directory[123].imgSrc}
-              onClick={() => handleOpen(directory[133].imgSrc, directory[122].title)} 
+              onClick={() => handleOpen(directory[123].imgSrc, directory[123].title)} 
             />
           </div>
           <div className="border-shadow-lg sub-section-5-4">
@@ -211,7 +208,7 @@ const MainSouth = () => {
           <div className="border-shadow-sm sub-section-5-12">
             <img
               src={directory[132].imgSrc} 
-              onClick={() => handleOpen(directory[232].imgSrc, directory[131].title)} 
+              onClick={() => handleOpen(directory[132].imgSrc, directory[132].title)} 
             />
           </div>
           <div className="border-shadow-lg sub-section-5-13">
@@ -223,7 +220,7 @@ const MainSouth = () => {
           <div className="border-shadow-lg sub-section-5-14">
             <img 
               src={directory[134].imgSrc} 
-              onClick={() => handleOpen(directory[144].imgSrc, directory[133].title)} 
+              onClick={() => handleOpen(directory[134].imgSrc, directory[134].title)} 
             />
           </div>
         </div>

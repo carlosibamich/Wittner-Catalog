@@ -1,18 +1,13 @@
 // ------------ Main Room West ----------- //
-.main-room-container {
-  // display: flex;
-  // flex-direction: column;
-  // margin: 0.5rem auto;
-  // justify-content: center;
-  // align-items: center;
-  // width: 100%;
-  // height: 100%;
+.main-room-west-container {
+  display: flex;
+  justify-content: center;
 
   .main-room-west-grid {
-    width: 86%;
+    width: 83%;
     height: 40rem;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template: 16rem 24rem / repeat(5, 1fr);
 
     // .section {
     //   background-color: #fff;
@@ -30,8 +25,9 @@
      // ---------- Probed --------- //
       .sub-section-1-1 {
         position: absolute;
-        top: 1rem;
-        width: 11.3rem;
+        top: 0;
+        left: 5rem;
+        width: 11.5rem;
       }
     }
 
@@ -46,8 +42,9 @@
      // ---------- Playing for the Devil's Ring --------- //
       .sub-section-2-1 {
         position: absolute;
-        top: 1rem;
-        width: 17rem;
+        top: 0;
+        left: 0.5rem;
+        width: 17.6rem;
       }
     }
 
@@ -58,11 +55,35 @@
       display: flex;
       justify-content: center;
 
+      .exit-container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 12.4rem;
+
+
+        .exit-sign {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 3.6rem;
+          height: 2.4rem;
+          background-color: #fdfdfd;
+          border-radius: 4px;
+          box-shadow: 3px 3px 8px 2px rgba(0, 0, 0, 0.08);
+          color: rgba(255, 0, 0, 0.2);
+          font-size: 1.3rem;
+          font-weight: 800;
+        }
+      }
+      
+
       // ---------- Another Day at the Beach --------- //
       .sub-section-3-1 {
         position: absolute;
-        top: 1rem;
-        width: 13.8rem;
+        top: 0;
+        width: 14.2rem;
       }
     }
 
@@ -77,8 +98,9 @@
       // ---------- Mutiny --------- //
       .sub-section-4-1 {
         position: absolute;
-        top: 1rem;
-        width: 18rem;
+        top: 0;
+        right: -0.5rem;
+        width: 18.5rem;
       }
     }
 
@@ -93,9 +115,32 @@
       // ---------- Catch and Release --------- //
       .sub-section-5-1 {
         position: absolute;
-        top: 1rem;
-        width: 11.2rem;
+        top: 0;
+        right: 4.9rem;
+        width: 11.4rem;
       }
+    }
+
+    // -------------------- Column 6 --------------------- //
+
+    .west-column-6 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      grid-column: span 2;
+    }
+
+    // -------------------- Column 7 --------------------- //
+
+    // Door Frame Styles applied globally in index.scss //
+    
+    // -------------------- Column 8 --------------------- //
+
+    .west-column-8 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      grid-column: 4 / span 2;
     }
   }
 }

@@ -93,9 +93,9 @@ const EntryEast = () => {
         {/* ---------------------- Column 6 ------------------------ */}
 
         <div className="section entry-east-column-6">
-          <div className="window-frame-e">
-            <div className="window-pane-e pane-e-left"></div>
-            <div className="window-pane-e pane-e-right"></div>
+          <div className="window-frame">
+            <div className="window-pane pane-left"></div>
+            <div className="window-pane pane-right"></div>
           </div>
         </div>
 
@@ -122,9 +122,9 @@ const EntryEast = () => {
               className="no-drag-img"
             />  
           </div>
-          <div className="window-frame-e">
-            <div className="window-pane-e pane-e-left"></div>
-            <div className="window-pane-e pane-e-right"></div>
+          <div className="window-frame">
+            <div className="window-pane pane-left"></div>
+            <div className="window-pane pane-right"></div>
           </div>
           <div className="border-shadow-lg sub-section-8-2">
             <img

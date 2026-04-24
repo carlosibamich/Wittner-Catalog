@@ -1,19 +1,15 @@
 // ------------ Main Room ----------- //
-.main-room-container {
+.main-room-north-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
   
   .main-room-north-grid {
-    width: 88%;
+    width: 89%;
     height: 40rem;
     display: grid;
-    grid-template-columns: 1.9fr 5.6fr 5.9fr 5.6fr 6fr 4.9fr 1.5fr 3.9fr;
-    gap: 12px;
-    // margin-top: 6rem;
+    grid-template-columns: 1.8fr 5.5fr 5.8fr 5.5fr 5.9fr 4.8fr 1.5fr 4.7fr;
+    gap: 0.8rem;
 
     // .section {
     //   background-color: #fff;
@@ -27,44 +23,44 @@
       display: flex;
       flex-direction: column;
 
-      // ---------- Face One --------- //
+      // ---------- Sam --------- //
       .sub-section-1-1 {
         position: absolute;
-        top: 72px;
-        left: 19px;
-        width: 50px;
+        top: 3.8rem;
+        left: 1.2rem;
+        width: 3rem;
       }
 
-      // ---------- Face Two --------- //  
+      // ---------- Undershirt --------- //  
       .sub-section-1-2 {
         position: absolute;
-        top: 145px;
-        left: 19px;
-        width: 50px;
+        top: 8.5rem;
+        left: 1.2rem;
+        width: 3rem;
       }
 
       // ---------- Strength --------- //
       .sub-section-1-3 {
         position: absolute;
-        top: 218px;
+        top: 13.2rem;
         right: 0;
-        width: 70px;
+        width: 4.3rem;
       }
 
       // ---------- Working --------- //
       .sub-section-1-4 {
         position: absolute;
-        top: 299px;
+        top: 18.3rem;
         right: 0;
-        width: 55px;
+        width: 3.2rem;
       }
 
       // ---------- Dispatch --------- //
       .sub-section-1-5 {
         position: absolute;
-        top: 379px;
+        top: 23.2rem;
         right: 0;
-        width: 84px;
+        width: 5rem;
       }
     }
 
@@ -81,37 +77,37 @@
       .sub-section-2-1 {
         position: absolute;
         top: 0;
-        width: 220px;
+        width: 13.6rem;
       }
         
       // ---------- Hermit --------- //
       .sub-section-2-2 {
         position: absolute;
-        top: 290px;
-        left: 10px;
-        width: 65px;
+        top: 17.8rem;
+        left: 0.7rem;
+        width: 4rem;
       }
         
       // ---------- Empress --------- //
       .sub-section-2-3 {
         position: absolute;
-        top: 294px;
-        width: 60px;
+        top: 18rem;
+        width: 3.8rem;
       }
         
       // ---------- Emperor --------- //
       .sub-section-2-4 {
         position: absolute;
-        top: 292px;
-        right: 10px;
-        width: 70px;
+        top: 17.9rem;
+        right: 0.6rem;
+        width: 4.2rem;
       }
       
       // ---------- Divine --------- //
       .sub-section-2-5 {
         position: absolute;
-        bottom: 12px;
-        width: 249px;
+        bottom: 1.5rem;
+        width: 15rem;
      }  
     }
     
@@ -128,69 +124,69 @@
       .sub-section-3-1 {
         position: absolute;
         top: 0;
-        width: 258px;
+        width: 15.7rem;
       }
         
       // ---------- Magician --------- //
       .sub-section-3-2 {
         position: absolute;
-        top: 227px;
-        left: 0;
-        width: 60px;
+        top: 13.9rem;
+        left: 0.1rem;
+        width: 3.7rem;
       }
         
       // ---------- Ed --------- //
       .sub-section-3-3 {
         position: absolute;
-        top: 297px;
-        left: 11px;
-        width: 40px;
+        top: 18.15rem;
+        left: 0.8rem;
+        width: 2.5rem;
       }
         
       // ---------- Crayolas --------- //
       .sub-section-3-4 {
         position: absolute;
-        top: 360px;
-        left: 0;
-        width: 60px;
+        top: 22.1rem;
+        left: 0.1rem;
+        width: 3.7rem;
       }
         
       // ---------- Launch --------- //
       .sub-section-3-5 {
         position: absolute;
-        top: 237px;
-        width: 110px;
+        top: 14.5rem;
+        width: 6.8rem;
       }
         
       // ---------- Reflection --------- //
        .sub-section-3-6 {
         position: absolute;
-        top: 227px;
-        right: 0;
-        width: 52px;
+        top: 13.9rem;
+        right: 0.1rem;
+        width: 3.2rem;
       }
         
       // ---------- Violin Angel --------- //
       .sub-section-3-7 {
         position: absolute;
-        top: 294px;
-        right: 8px;
-        width: 40px;
+        top: 18rem;
+        right: 0.5rem;
+        width: 2.4rem;
       }
         
       // ---------- Priestess --------- //
       .sub-section-3-8 {
         position: absolute;
-        top: 357px;
-        right: 0;
-        width: 58px;
+        top: 21.8rem;
+        right: 0.1rem;
+        width: 3.6rem;
       }
       
       // ---------- Smile --------- //
       .sub-section-3-9 {
         position: absolute;
-        bottom: 0;
-        width: 260px;
+        bottom: 0.7rem;
+        width: 15.7rem;
       }
     }
     
@@ -206,21 +202,21 @@
       .sub-section-4-1 {
         position: absolute;
         top: 0;
-        width: 228px;
+        width: 14.1rem;
       }
       
       // ---------- DrowningDevil --------- //
       .sub-section-4-2 {
         position: absolute;
-        top: 191px;
-        width: 250px;
+        top: 11.8rem;
+        width: 15rem;
       }
       
       // ---------- RetellingExodus --------- //
       .sub-section-4-3 {
         position: absolute;
-        bottom: 0;
-        width: 230px;
+        bottom: 0.7rem;
+        width: 14.3rem;
       }
     }
     
@@ -237,53 +233,53 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 112px;
+        width: 6.7rem;
       }
         
       // ---------- Jaded --------- //
       .sub-section-5-2 {
         position: absolute;
         top: 0;
-        left: 121px;
-        width: 71px;
+        left: 7.5rem;
+        width: 4.3rem;
       }
         
       // ---------- BlackRabbi --------- //
       .sub-section-5-3 {
         position: absolute;
-        top: 104px;
-        left: 128px;
-        width: 58px;
+        top: 6.3rem;
+        left: 8rem;
+        width: 3.5rem;
       }
         
       // ---------- NeverFeel --------- //
       .sub-section-5-4 {
         position: absolute;
-        top: 14px;
-        right: 7px;
-        width: 56px;
+        top: 0.8rem;
+        right: 0.4rem;
+        width: 3.4rem;
       }
         
       // ---------- Mystic --------- //
       .sub-section-5-5 {
         position: absolute;
-        top: 86px;
+        top: 5.2rem;
         right: 0;
-        width: 67px;
+        width: 4rem;
       }
       
       // ---------- LiftOff --------- //
       .sub-section-5-6 {
         position: absolute;
-        top: 192px;
-        width: 266px;
+        top: 11.45rem;
+        width: 16.3rem;
       }
       
       // ---------- Parallel --------- //
       .sub-section-5-7 {
         position: absolute;
-        bottom: 12px;
-        width: 247px;
+        bottom: 1.6rem;
+        width: 15.4rem;
       }
     }
 
@@ -298,21 +294,21 @@
       // ---------- GoldenEgg --------- //
       .sub-section-6-1 {
         position: absolute;
-        width: 217px;
+        width: 13.2rem;
       }
       
       // ---------- Identity --------- //
       .sub-section-6-2 {
         position: absolute;
-        top: 178px;
-        width: 217px;
+        top: 10.8rem;
+        width: 13.2rem;
       }
       
       // ---------- Summer --------- //
       .sub-section-6-3 {
         position: absolute;
-        bottom: 0;
-        width: 193px;
+        bottom: 0.7rem;
+        width: 11.9rem;
       }
     }
 
@@ -328,52 +324,52 @@
       .sub-section-7-1 {
         position: absolute;
         top: 0;
-        width: 66px;
+        width: 3.9rem;
       }
       
       // ---------- KissMe --------- //
       .sub-section-7-2 {
         position: absolute;
-        top: 96px;
-        width: 50px;
+        top: 6.1rem;
+        width: 3rem;
       }
       
       // ---------- Remembering --------- //
       .sub-section-7-3 {
         position: absolute;
-        top: 165px;
-        width: 66px;
+        top: 10.5rem;
+        width: 3.9rem;
       }
 
       // ---------- TheFirstJob --------- //
       .sub-section-7-4 {
         position: absolute;
-        top: 262px;
+        top: 16.5rem;
         left: 0;
-        width: 49px;
+        width: 3rem;
       }
 
       // ---------- FirstNote --------- //
       .sub-section-7-5 {
         position: absolute;
-        top: 330px;
+        top: 20.8rem;
         left: 0;
-        width: 53px;
+        width: 3.2rem;
       }
 
       // ---------- Vacation --------- //
       .sub-section-7-6 {
         position: absolute;
-        top: 402px;
+        top: 25.4rem;
         left: 0;
-        width: 50px;
+        width: 3.2rem;
       }
 
       // ---------- JadedClown --------- //
       .sub-section-7-7 {
         position: absolute;
-        bottom: 61px;
-        width: 66px;
+        bottom: 3.8rem;
+        width: 3.9rem;
       }
     }
 
@@ -389,49 +385,57 @@
       // ---------- Premonition --------- //
       .sub-section-8-1 {
         position: absolute;
-        top: 47px;
-        left: 5px;
-        width: 118px;
+        top: 3.6rem;
+        left: 0.3rem;
+        width: 7.3rem;
       }
       
       // ---------- DessertChef --------- //
       .sub-section-8-2 {
         position: absolute;
-        top: 193px;
-        left: 15px;
-        width: 42px;
+        top: 12rem;
+        left: 1.2rem;
+        width: 2.5rem;
       }
       
       // ---------- WhiteClown --------- //
       .sub-section-8-3 {
         position: absolute;
-        top: 176px;
-        right: 65px;
-        width: 42px;
+        top: 12rem;
+        right: 6.5rem;
+        width: 2.5rem;
       }
 
       // ---------- GalleryHeaven --------- //
       .sub-section-8-4 {
         position: absolute;
-        top: 260px;
-        left: -13px;
-        width: 165px;
+        top: 16.5rem;
+        left: -0.7rem;
+        width: 10.1rem;
       }
 
       // ---------- StopFollowing --------- //
       .sub-section-8-5 {
         position: absolute;
-        bottom: 60px;
-        left: 0;
+        bottom: 3.5rem;
+        left: 0.2rem;
         width: 66px;
       }
 
       // ---------- Caryatids --------- //
       .sub-section-8-6 {
         position: absolute;
-        bottom: 70px;
-        right: -1px;
-        width: 98px;
+        bottom: 4rem;
+        right: 1.5rem;
+        width: 6.2rem;
+      }
+
+      // ---------- Dad and Three Eggs --------- //
+      .sub-section-8-7 {
+        position: absolute;
+        bottom: 12.3rem;
+        right: -1.2rem;
+        width: 3.9rem;
       }
     }
   }

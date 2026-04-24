@@ -1,44 +1,14 @@
 // ------------ Main Room Stage/East ----------- //
-.main-room-container {
+.main-room-stage-container {
   position: relative;
-  margin: 0;
-  // overflow: visible;
-  // display: flex;
-  // flex-direction: column;
-  // margin: 0.5rem auto;
-  // justify-content: center;
-  // align-items: center;
-  // width: 100%;
-  // height: 100%;
-
-  .platform-container {
-    position:absolute;
-    display: flex;
-    flex-direction: column;
-    bottom: 0;
-    left: 230px;
-    width: 1411px;
-    height: 136px;
-    // background-color: #F9D58D;
-    background: linear-gradient(183deg, #FFE4AD, #F3EED7);
-    box-shadow: 2px 6px 12px 4px rgba(0, 0, 0, 0.15);
-    opacity: 0.95;
-    z-index: 100;
-
-    .step {
-      width: 175px;
-      height: 68px;
-      background-color: #aaa;
-      background: linear-gradient(190deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
-      z-index: 200px;
-    }
-  }
+  display: flex;
+  justify-content: center;
 
   .main-room-stage-grid {
-    width: 91%;
-    height: 610px;
+    width: 92%;
+    height: 39rem;
     display: grid;
-    grid-template-columns: 1.5fr 5.8fr 3.6fr 5.3fr 2fr;
+    grid-template: 30rem 9rem / 1.6fr 6.2fr 3.5fr 5.4fr 1.3fr;
 
     // .section {
     //   background-color: #fff;
@@ -52,61 +22,61 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      grid-column: 1;
+      grid-row: span 2;
 
       .past-behind-container {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 35%;
+        height: 38%;
 
         // ---------- Leave Past Behind --------- //
         .sub-section-1-1 {
-          width: 125px;
+          width: 8.2rem;
           height: auto;
           margin-left: -5px;
         }
       }
 
-      .north-exit-inset {
-        position: relative;
-        display: flex;
-        justify-content: center;
+      .north-exit-container {
         width: 100%;
-        height: 65%;
-        border-top: 2px solid #eaeaea;
-        background: linear-gradient(195deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
-
-        img {
-          cursor: auto;
-        }
-
-        // ---------- America --------- //  
-        .sub-section-1-2 {
-          position: absolute;
-          top: 30px;
-          width: 92px;
-          height: auto;
-          border: none;
+        height: 62%;
+        background: linear-gradient(195deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.08));
+        
+        .inset {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          filter: blur(1px);
           opacity: 0.5;
 
-          
-        }
+          img {
+            cursor: auto;
+          }
+
+          // ---------- America --------- //  
+          .sub-section-1-2 {
+            position: absolute;
+            top: 1.9rem;
+            width: 5.7rem;
+            height: auto;
+          }
   
-        // ---------- Look At Me! --------- //
-        .sub-section-1-3 {
-          position: absolute;
-          top: 140px;
-          width: 110px;
-          height: auto;
-          border: none;
-          opacity: 0.5;
+          // ---------- Look At Me! --------- //
+          .sub-section-1-3 {
+            position: absolute;
+            top: 8.8rem;
+            width: 7rem;
+            height: auto;
+          }
         }
       }
     }
 
     //----------------- COLUMN 2 ------------------//
-
+    
     .stage-column-2 {
       position: relative;
       display: flex;
@@ -115,30 +85,30 @@
       border-left: 2px solid #eaeaea;
       border-right: 2px solid #eaeaea;
 
-      // ---------- Title Pending 66 --------- //
+      // ---------- Beatrice --------- //
       .sub-section-2-1 {
         position: absolute;
-        top: 60px;
-        left: 28px;
+        top: 3.3rem;
+        left: 1.9rem;
         width: 52px;
         height: auto;
       }
         
-      // ---------- Title Pending 67 --------- //
+      // ---------- Marge --------- //
       .sub-section-2-2 {
         position: absolute;
-        top: 60px;
-        left: 100px;
-        width: 40px;
+        top: 3.3rem;
+        left: 6.4rem;
+        width: 2.4rem;
         height: auto;
       }
         
-      // ---------- Title Pending 68 --------- //
+      // ---------- Take Your Medicine --------- //
       .sub-section-2-3 {
         position: absolute;
-        top: 60px;
-        left: 144px;
-        width: 52px;
+        top: 3.3rem;
+        left: 9rem;
+        width: 3.25rem;
         height: auto;
         margin: 0 15px;
       }
@@ -146,43 +116,44 @@
       // ---------- Different Realities --------- //
       .sub-section-2-4 {
         position: absolute;
-        top: 148px;
-        left: 28px;
-        width: 184px;
+        top: 9.3rem;
+        left: 1.9rem;
+        width: 11.3rem;
         height: auto;
       }
       
       // ---------- River Styx --------- //
       .sub-section-2-5 {
         position: absolute;
-        top: 36px;
-        right: 75px;
-        width: 178px;
+        top: 1.9rem;
+        right: 7.6rem;
+        width: 11.4rem;
         height: auto;
       }
 
-      // ---------- River Styx --------- //
+      // ---------- Dorothy --------- //
       .sub-section-2-6 {
         position: absolute;
-        top: 15rem;
-        right: 0;
+        top: 15.2rem;
+        right: 0.9rem;
         width: 3.6rem;
         height: auto;
       }
 
-      .storage-entrance-container {
+      .alcove-entrance-container {
         position: absolute;
-        top: 210px;
-        right: 40px;
-        width: 246px;
-        height: 310px;
+        top: 12.3rem;
+        right: 5.5rem;
+        width: 15.5rem;
+        height: 19.5rem;
         overflow: hidden;
-        border-radius: 4px;;
-        background: linear-gradient(195deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.05));
+        border-radius: 4px;
+        background: linear-gradient(195deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.05));
 
-        .storage-entrance {
+        .alcove-entrance {
           position: relative;
-          opacity: 0.45;
+          filter: blur(1px);
+          opacity: 0.5;
 
           img {
             cursor: auto;
@@ -191,89 +162,89 @@
           // ------------ Installing the Music App ------------ //
           .sub-section-2-7 {
             position: absolute;
-            top: -68px;
-            left: 28px;
-            width: 190px;
+            top: -4.2rem;
+            left: 1.8rem;
+            width: 11.8rem;
             height: auto;
           }
 
           // ------------ Social Distancing ------------ //
           .sub-section-2-8 {
             position: absolute;
-            top: 93px;
-            left: -2px;
-            width: 49px;
+            top: 5.8rem;
+            left: -0.1rem;
+            width: 3.05rem;
           }
           
           // ------------ Time to Feed the Frog ------------ //
           .sub-section-2-9 {
             position: absolute;
-            top: 148px;
-            left: -5px;
-            width: 53px;
+            top: 9.25rem;
+            left: -0.3rem;
+            width: 3.3rem;
             height: auto;
           }
           
           // ------------ Leaving the House of Horrors ------------ //
           .sub-section-2-10 {
             position: absolute;
-            top: 95px;
-            left: 60px;
-            width: 56px;
+            top: 5.9rem;
+            left: 3.9rem;
+            width: 3.5rem;
             height: auto;
           }
           
           // ------------ Much Needed Surgery ------------ //
           .sub-section-2-11 {
             position: absolute;
-            top: 148px;
-            left: 58px;
-            width: 37px;
+            top: 9.25rem;
+            left: 3.8rem;
+            width: 2.35rem;
             height: auto;
           }
           
           // ------------ Arrival Through the Black Hole ------------ //
           .sub-section-2-12 {
             position: absolute;
-            top: 95px;
-            right: 60px;
-            width: 55px;
+            top: 5.9rem;
+            right: 3.7rem;
+            width: 3.4rem;
             height: auto;
           }
           
           // ------------ Safe travel ------------ //
           .sub-section-2-13 {
             position: absolute;
-            top: 148px;
-            right: 98px;
-            width: 44px;
+            top: 9.25rem;
+            right: 6rem;
+            width: 2.75rem;
             height: auto;
           }
           
           // ------------ Martian Mary Poppins ------------ //
           .sub-section-2-14 {
             position: absolute;
-            top: 148px;
-            right: 53px;
-            width: 36px;
+            top: 9.25rem;
+            right: 3.05rem;
+            width: 2.25rem;
             height: auto;
           }
           
           // ------------ The Fool In Recent Times ------------ //
           .sub-section-2-15 {
             position: absolute;
-            top: 95px;
-            right: -4px;
-            width: 48px;
+            top: 5.9rem;
+            right: -0.25rem;
+            width: 2.9rem;
             height: auto;
           }
           
           // ------------ Homecoming for Tambourine ------------ //
           .sub-section-2-16 {
             position: absolute;
-            top: 148px;
-            right: -5px;
-            width: 50px;
+            top: 9.25rem;
+            right: -0.7rem;
+            width: 3.1rem;
             height: auto;
           }
         }
@@ -291,8 +262,8 @@
       // ---------- Sunny Side Up --------- //
       .sub-section-3-1 {
         position: absolute;
-        top: 46px;
-        width: 288px;
+        top: 3.5rem;
+        width: 17.6rem;
         height: auto;
       }
     }
@@ -310,74 +281,64 @@
       // ---------- Jacob's Dream --------- //
       .sub-section-4-1 {
         position: absolute;
-        top: 95px;
-        left: 18px;
-        width: 254px;
+        top: 6.4rem;
+        left: 1.6rem;
+        width: 16rem;
         height: auto;
       }
       
-      // ---------- Title pending 73 --------- //
+      // ---------- Lunch Is Ready --------- //
       .sub-section-4-2 {
         position: absolute;
-        top: 45px;
-        right: 88px;
-        width: 99px;
+        top: 2.6rem;
+        right: 6.4rem;
+        width: 6.4rem;
         height: auto;
       }
       
       // ---------- Red Rope --------- //
       .sub-section-4-3 {
         position: absolute;
-        top: 200px;
-        right: 103px;
-        width: 85px;
+        top: 12.8rem;
+        right: 6.9rem;
+        width: 5.3rem;
         height: auto;
       }
-      // ---------- (maybe) Paula --------- //
+      // ---------- Can You See Me? --------- //
       .sub-section-4-4 {
         position: absolute;
-        top: 80px;
-        right: 25px;
-        width: 38px;
+        top: 4.8rem;
+        right: 1.4rem;
+        width: 2.3rem;
         height: auto;
       }
       
       // ---------- Into the Unknown --------- //
       .sub-section-4-5 {
         position: absolute;
-        top: 156px;
-        right: 22px;
-        width: 42px;
+        top: 10rem;
+        right: 1.2rem;
+        width: 2.5rem;
         height: auto;
       }
       
       // ---------- No Friends --------- //
       .sub-section-4-6 {
         position: absolute;
-        top: 212px;
-        right: 22px;
-        width: 42px;
+        top: 13.5rem;
+        right: 1.2rem;
+        width: 2.5rem;
         height: auto;
       }
 
       // ---------- Butterfly Woman --------- //
       .sub-section-4-7 {
         position: absolute;
-        top: 265px;
-        right: 22px;
-        width: 42px;
+        top: 16.95rem;
+        right: 1.2rem;
+        width: 2.5rem;
         height: auto;
       }
-    }
-
-    .stage-door {
-      position: absolute;
-      width: 154px;
-      height: 325px;
-      bottom: 114px;
-      right: 70px;
-      border: 2px solid #e5e5e5;
-      box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.04);
     }
     
     //----------------- COLUMN 5 ------------------/
@@ -387,31 +348,53 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      grid-column: 5;
+      grid-row: span 2;
         
       // ---------- Gifts --------- //
       .sub-section-5-1 {
         position: absolute;
-        top: 72px;
-        width: 92px;
+        top: 4.3rem;
+        right: 0.4rem;
+        width: 5.4rem;
         height: auto;
       }
         
       // ---------- Guardian --------- //
       .sub-section-5-2 {
         position: absolute;
-        top: 300px;
-        width: 100px;
+        top: 18rem;
+        right: 0;
+        width: 5.8rem;
         height: auto;
       }
+    }
 
-      .stairs-door {
-        position: absolute;
-        width: 158px;
-        height: 338px;
-        bottom: 0;
-        right: 5px;
-        border: 2px solid #e5e5e5;
-        box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.04);
+    .west-column-6 {
+      position: relative;
+      display: flex;
+      align-items: center;
+      grid-row: 2;
+      grid-column: 2 / 5;
+      background-color: #fff;
+      // border: 2px solid #eaeaea;
+
+      .platform-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(183deg, #FFE4AD, #F3EED7);
+        box-shadow: 5px -6px 10px rgba(0, 0, 0, 0.1);
+        opacity: 0.9;
+        z-index: 100;
+
+        .step {
+          width: 12%;
+          height: 100%;
+          background: linear-gradient(190deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+          z-index: 200;
+        }
       }
     }
   }

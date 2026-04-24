@@ -1,22 +1,17 @@
 // ------------ Main Room South ----------- //
-.main-room-container {
-  // display: flex;
-  // flex-direction: column;
-  // margin: 1rem auto;
-  // justify-content: center;
-  // align-items: center;
-  // width: 100%;
+.main-room-south-container {
+  display: flex;
+  justify-content: center;
 
   .main-room-south-grid {
     width: 86%;
     height: 40rem;
     display: grid;
     overflow: visible;
-    grid-template-columns: 2.9fr 4fr 4.5fr 5.3fr 6.8fr 6.2fr;
-    gap: 12px;
+    grid-template-columns: 1.9fr 4.5fr 4.7fr 5.4fr 7fr 6.2fr;
+    gap: 10px;
 
     // .section {
-    //   // background-color: #fff;
     //   border: 1px solid #f3f3f3;
     // }
 
@@ -32,25 +27,15 @@
       // ---------- Purification --------- //
       .sub-section-1-1 {
         position: absolute;
-        top: 2.4rem;
-        width: 6.5rem;
+        top: 2.7rem;
+        width: 6.2rem;
       }
 
       // ---------- Resist --------- //  
       .sub-section-1-2 {
         position: absolute;
-        top: 9.8rem;
-        width: 6.5rem;
-      }
-      
-      .basement-entrance {
-        position: absolute;
-        bottom: 0;
-        width: 9rem;
-        height: 20rem;
-        background: linear-gradient(195deg, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0.25));
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
+        top: 10.3rem;
+        width: 6.2rem;
       }
     }
 
@@ -66,46 +51,46 @@
       .sub-section-2-1 {
         position: absolute;
         top: 0;
-        width: 13.1rem;
+        width: 13.5rem;
       }
         
       // ---------- Meeting the Devil With My Cello --------- //
       .sub-section-2-2 {
         position: absolute;
-        top: 14.5rem;
-        left: 0.3rem;
-        width: 7.2rem;
+        top: 14.6rem;
+        left: 1.2rem;
+        width: 7rem;
       }
         
       // ---------- Retired From Bull Ring --------- //
       .sub-section-2-3 {
         position: absolute;
-        top: 13rem;
-        right: 0.3rem;
-        width: 4.4rem;
+        top: 13.5rem;
+        right: 1.3rem;
+        width: 3.8rem;
       }
         
       // ----------King of Cats --------- //
       .sub-section-2-4 {
         position: absolute;
         top: 19rem;
-        right: 2.7rem;
-        width: 2rem;
+        right: 3.5rem;
+        width: 1.7rem;
       }
       
       // ---------- Egged On --------- //
       .sub-section-2-5 {
         position: absolute;
         top: 19rem;
-        right: 0.4rem;
-        width: 2.15rem;
+        right: 1.2rem;
+        width: 1.8rem;
      }  
 
       // ---------- You've Gone Too far --------- //
       .sub-section-2-6 {
         position: absolute;
-        bottom: 1.6rem;
-        width: 12.8rem;
+        bottom: 1rem;
+        width: 13.6rem;
      }  
     }
     
@@ -114,14 +99,13 @@
     .south-column-3 {
       position: relative;
       display: flex;
-      flex-direction: column;
-      align-items: center;
       
       // ---------- Looking Ahead --------- //
       .sub-section-3-1 {
         position: absolute;
         top: 0;
-        width: 13.2rem;
+        right: 1rem;
+        width: 13.4rem;
       }
         
       // ---------- Opera --------- //
@@ -129,7 +113,7 @@
         position: absolute;
         top: 17.8rem;
         left: 0;
-        width: 3.9rem;
+        width: 3.8rem;
       }
         
       // ---------- State of the World --------- //
@@ -144,15 +128,16 @@
       .sub-section-3-4 {
         position: absolute;
         top: 17.9rem;
-        right: -1.6rem;
+        right: 0;
         width: 4.4rem;
       }
         
       // ---------- I'm Outta Here --------- //
       .sub-section-3-5 {
         position: absolute;
-        bottom: 2.6rem;
-        width: 14.3rem;
+        bottom: 2.3rem;
+        left: 0;
+        width: 14.9rem;
       }
     }
     
@@ -161,31 +146,29 @@
     .south-column-4 {
       position: relative;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      // padding-bottom: 2rem;
       
       // ---------- Painter's Museum --------- //
       .sub-section-4-1 {
         position: absolute;
         top: 0;
+        left: 1.4rem;
         width: 16.3rem;
       }
       
       // ---------- Private Showing --------- //
       .sub-section-4-2 {
         position: absolute;
-        top: 14.1rem;
-        left: 1.6rem;
-        width: 14.8rem;
+        top: 14rem;
+        left: 1.4rem;
+        width: 14.6rem;
       }
       
       // ---------- Roadhouse at the Full Moon --------- //
       .sub-section-4-3 {
         position: absolute;
-        right: -0.4rem;
+        left: 0;
         bottom: 0.7rem;
-        width: 17.4rem;
+        width: 17.8rem;
       }
     }
     
@@ -200,97 +183,97 @@
       // ---------- Center Stage --------- //
       .sub-section-5-1 {
         position: absolute;
-        top: 0.7rem;
-        left: 0.5rem;
-        width: 14.2rem;
+        top: 0.5rem;
+        left: 1rem;
+        width: 14rem;
       }
         
       // ---------- Conservationist --------- //
       .sub-section-5-2 {
         position: absolute;
-        top: 2.4rem;
-        right: 2rem;
-        width: 4.5rem;
+        top: 1.9rem;
+        right: 2.7rem;
+        width: 4.3rem;
       }
         
       // ---------- Spiritual Traveler --------- //
       .sub-section-5-3 {
         position: absolute;
         top: 12.1rem;
-        left: -0.2rem;
-        width: 9.8rem;
+        left: 0.1rem;
+        width: 9.6rem;
       }
         
       // ---------- Be of Good Cheer --------- //
       .sub-section-5-4 {
         position: absolute;
-        top: 12.4rem;
-        left: 10.8rem;
+        top: 12.1rem;
+        left: 11rem;
         width: 3.4rem;
       }
         
       // ---------- Years Later He Lit Up A Cigarette --------- //
       .sub-section-5-5 {
         position: absolute;
-        top: 8.8rem;
-        right: 2rem;
-        width: 4.5rem;
+        top: 8.6rem;
+        right: 2.7rem;
+        width: 4.3rem;
       }
       
       // ---------- Bob --------- //
       .sub-section-5-6 {
         position: absolute;
         top: 15.5rem;
-        left: 10.3rem;
-        width: 4.8rem;
+        left: 11rem;
+        width: 4.6rem;
       }
       
       // ---------- Questionable Moves --------- //
       .sub-section-5-7 {
         position: absolute;
-        right: -0.8rem;
+        right: -0.7rem;
         top: 15.5rem;
-        width: 7.3rem;
+        width: 7.2rem;
       }
 
       // ---------- Go Back To sea --------- //
       .sub-section-5-8 {
         position: absolute;
-        top: 22.5rem;
-        left: 11.2rem;
-        width: 3.3rem;
+        top: 22.3rem;
+        left: 12.1rem;
+        width: 3.1rem;
       }
 
       // ---------- Dubious --------- //
       .sub-section-5-9 {
         position: absolute;
         top: 22.5rem;
-        left: -0.2rem;
-        width: 3.1rem;
+        left: 0;
+        width: 2.9rem;
       }
 
       // ---------- Dervish 1 --------- //
       .sub-section-5-10 {
         position: absolute;
         top: 22.5rem;
-        left: 5.3rem;
-        width: 1.7rem;
+        left: 5.9rem;
+        width: 1.6rem;
       }
 
       // ---------- Dervish 2 --------- //
       .sub-section-5-11 {
         position: absolute;
         top: 22.5rem;
-        left: 3.3rem;
-        width: 1.7rem;
+        left: 3.7rem;
+        width: 1.6rem;
       }
 
-      // ---------- Title Pending --------- //
+      // ---------- Helena --------- //
       .sub-section-5-12 {
         position: absolute;
         top: 22.5rem;
-        left: 7.4rem;
-        width: 3rem;
+        left: 8.3rem;
+        width: 2.8rem;
       }
 
       // ---------- The Soul Breaks the Deal --------- //
@@ -298,15 +281,15 @@
         position: absolute;
         bottom: 1.3rem;
         left: 1.7rem;
-        width: 7.3rem;
+        width: 7.5rem;
       }
 
       // ---------- Waiting for the Parting --------- //
       .sub-section-5-14 {
         position: absolute;
-        bottom: 1.6rem;
-        right: 1rem;
-        width: 10.4rem;
+        bottom: 1.3rem;
+        right: 0.8rem;
+        width: 10.6rem;
       }
     }
 
@@ -321,15 +304,15 @@
       // ---------- Higher --------- //
       .sub-section-6-1 {
         position: absolute;
-        top: 2.3rem;
-        left: 0rem;
-        width: 15.6rem;
+        top: 1.2rem;
+        left: -0.7rem;
+        width: 16rem;
       }
       
       // ---------- Oh Jesus Christ --------- //
       .sub-section-6-2 {
         position: absolute;
-        left: 0.6rem;
+        right: -0.5rem;
         bottom: 0.7rem;
         width: 19.8rem;
       }

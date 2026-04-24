@@ -2,30 +2,6 @@
 
 // ------------- Utility Classes ----------- //
 
-.window-frame-w {
-  position: absolute;
-  bottom: 1.6rem;
-  width: 34.2rem;
-  height: 21rem;
-  background-color: #b8b8b8;
-
-  .window-pane-w {
-    position: absolute;
-    bottom: 0.8rem;
-    width: 15.9rem;
-    height: 19.4rem;
-    background-color: #fdfdfd;
-    box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.1);
-  }
-
-  .pane-w-left {
-    left: 0.8rem;
-  }
-
-  .pane-w-right {
-    right: 0.8rem;
-  }
-}
 
 // ---------------------------------------------------------- //
 
@@ -34,10 +10,10 @@
   justify-content: center;
 
   .entry-west-grid {
-    width: 80%;
+    width: 83%;
     height: 40rem;
     display: grid;
-    grid-template: 17rem 23rem / repeat(5, 1fr);
+    grid-template: 16rem 24rem / repeat(5, 1fr);
 
     // .section {
     //   background-color: #fff;
@@ -55,8 +31,9 @@
      // ---------- Arrival Through the Black Hole --------- //
       .sub-section-1-1 {
         position: absolute;
-        top: 0;
-        width: 18.4rem;
+        top: 0.1rem;
+        left: 3.4rem;
+        width: 18rem;
       }
     }
 
@@ -71,8 +48,9 @@
      // ---------- Fast Getaway --------- //
       .sub-section-2-1 {
         position: absolute;
-        top: 1rem;
-        width: 15.4rem;
+        top: 1.2rem;
+        left: 3.8rem;
+        width: 14.5rem;
       }
     }
 
@@ -86,7 +64,7 @@
       // ---------- Moving the Spotlight --------- //
       .sub-section-3-1 {
         position: absolute;
-        top: 0.7rem;
+        top: 0.4rem;
         width: 11.8rem;
       }
     }
@@ -101,9 +79,9 @@
       // ---------- Art --------- //
       .sub-section-4-1 {
         position: absolute;
-        top: 0.2rem;
-        left: 2.9rem;
-        width: 12.2rem;
+        top: 0;
+        right: 6rem;
+        width: 11.7rem;
       }
     }
 
@@ -118,9 +96,9 @@
       // ---------- Mother's Turn --------- //
       .sub-section-5-1 {
         position: absolute;
-        top: 0rem;
-        left: 0;
-        width: 17.4rem;
+        top: 0;
+        right: 5.2rem;
+        width: 16.5rem;
       }
     }
 
@@ -131,14 +109,11 @@
       display: flex;
       justify-content: center;
       grid-column: span 2;
-      
-      .window-frame-w {
-        left: 0.8rem;
-        }
       }
 
     // -------------------- Column 7 --------------------- //
-    // -------- Door Frame Styles applied globally in index.scss -------- //
+
+    // Door Frame Styles applied globally in index.scss //
    
     // -------------------- Column 8 --------------------- //
 
@@ -147,10 +122,6 @@
       display: flex;
       justify-content: center;
       grid-column: 4 / span 2;
-      
-      .window-frame-w {
-        right: 0.8rem;
-      }
     }
   }
 }
