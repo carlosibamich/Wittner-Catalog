@@ -1,7 +1,6 @@
 .main-nav-options {
   position: relative;
   display: flex;
-  // overflow: hidden;
   justify-content: center;
   align-items: center;
   padding-top: 0.7rem;
@@ -44,12 +43,35 @@
       color: #DCA738;
       text-shadow: 0.5px 0 0 #DCA738;
     }
+  }
+}
 
-    // .nav-link.active {
-    //   transform: scale(1.5);
-    //   text-align: center;
-    //   min-width: 180px;
-    //   color: #DCA738;
-    // }
+// ------------------- Media Queries -------------------- //
+
+@media (max-width: 1800px) {
+  .main-nav-options {
+    width: 53rem;
+
+  .navlink-container {
+    margin: 0 1.95rem;
+    }
+  }
+}
+
+@media (max-width: 1370px) {
+  .main-nav-options {
+    width: 52rem;
+
+  .navlink-container {
+    margin: 0 1.6rem;
+    padding-bottom: 1rem;
+
+    .nav-link {
+
+      a {
+        font-size: 1.4rem;
+      }
+    }
+    }
   }
 }

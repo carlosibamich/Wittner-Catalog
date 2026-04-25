@@ -19,12 +19,12 @@ function ImageModal({ icon, title, show, onHide, imageSrc }) {
         <Modal.Body>
           <img src={imageSrc} className="modal-img-constrained" alt="Selected" />
           <div className="footer-content">
-            <p className="mt-3 modal-title">{title}</p>
+            <p className="mt-3 modal-title"><span>Title:</span>  {title}</p>
             {directory.find((item) => item.title === title)?.audio && (
               <button className="mt-2 audio">
                 <RxSpeakerLoud  />
               </button>
-            )};
+            )}
           </div>
         </Modal.Body>
       </Modal>

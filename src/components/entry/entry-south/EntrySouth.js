@@ -31,24 +31,18 @@ const EntrySouth = () => {
            <img 
             src={directory[5].imgSrc}
             loading="lazy"
-            draggable="false"
-            className="no-drag-img" 
           />
         </div>
         <div className="border-shadow-lg sub-section-1-2">
            <img 
             src={directory[6].imgSrc}
             loading="lazy"
-            draggable="false"
-            className="no-drag-img"
           />
         </div>
         <div className="border-shadow-lg sub-section-1-3">
            <img 
             src={directory[8].imgSrc}
             loading="lazy"
-            draggable="false"
-            className="no-drag-img"
           />
         </div>
       </div>
@@ -61,8 +55,6 @@ const EntrySouth = () => {
             src={directory[9].imgSrc} 
             onClick={() => handleOpen(directory[9].imgSrc, directory[9].title)}
             loading="lazy"
-            draggable="false"
-            className="no-drag-img"
           />
         </div>
       </div>
@@ -78,16 +70,12 @@ const EntrySouth = () => {
             <img 
               src={directory[10].imgSrc}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           <div className="border-shadow-lg sub-section-3-2">
             <img 
               src={directory[11].imgSrc}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
         </div>

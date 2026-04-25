@@ -10,6 +10,7 @@
 
   .modal-content {
     background-color: #262626;
+    // background-color: #fefdf8;
     border-radius: 3px;
   }
 
@@ -35,6 +36,12 @@
     text-align: center;
     padding-left: 0.5rem;
     color: #dbdbdb;
+    // color: #5f5f5f;
+
+    span {
+      color: #DCA738;
+      margin-right: 0.18rem;
+    }
   }
 
   button {

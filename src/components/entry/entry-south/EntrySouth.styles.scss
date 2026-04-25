@@ -2,16 +2,16 @@
 
 .window-frame-s {
   position: absolute;
-  bottom: 1.8rem;
-  width: 33.8rem;
-  height: 21rem;
+  bottom: 2.8rem;
+  width: 32.1rem;
+  height: 20.7rem;
   background-color: #b8b8b8;
 
 
   .window-pane-s {
     position: absolute;
-    bottom: 0.9rem;
-    width: 15.7rem;
+    bottom: 0.7rem;
+    width: 15rem;
     height: 19.3rem;
     background-color: #fdfdfd;
     box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.1);
@@ -19,11 +19,11 @@
   }
 
   .pane-s-left {
-    left: 0.8rem;
+    left: 0.7rem;
   }
 
   .pane-s-right {
-    right: 0.8rem;
+    right: 0.7rem;
   }
 }
 
@@ -34,7 +34,7 @@
   justify-content: center;
 
   .entry-south-grid {
-    width: 86%;
+    width: 84%;
     height: 40rem;
     display: grid;
     grid-template-columns: 2fr 1.1fr 2fr;
@@ -146,6 +146,41 @@
 
       .window-frame-s {
         right: 0;
+      }
+    }
+  }
+}
+
+// -------------------- Media Queries ---------------------- //
+
+@media (max-width: 1800px) {
+  .entry-room-container {
+    
+    .entry-south-grid {
+      width: 84%;
+
+      .entry-south-column-1 {
+        padding-right: 1.4rem;
+
+        // ---------- It's Time --------- //
+        .sub-section-1-1 {
+          left: -2.5rem;
+        }
+
+        // ---------- Evan --------- //
+      .sub-section-1-3 {
+        right: 0.7rem;
+      }
+      }
+
+      // -------------------- Column 3 --------------------- //
+
+      .entry-south-column-3 {
+
+        // ---------- Fast Getaway --------- //
+        .sub-section-3-2 {
+          right: 0;
+        }
       }
     }
   }

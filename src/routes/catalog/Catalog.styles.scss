@@ -116,4 +116,53 @@
     }
   }
 }
+
+// ------------------- Media Queries -------------------- //
+
+@media (max-width: 1800px) {
+  .list-container {
+  
+    .list-grid {
+      column-gap: 2rem;
+
+      li {
+
+        .list-items-container {
+          width: 23.8rem;
+          height: 9.4rem;
+          margin-bottom: 2rem;
+      
+          .image-container {
+            max-width: 7.7rem;
+            max-height: 6.6rem;
+                
+            .image {
+             max-height: 6.6rem;
+            }
+          }
+
+          .info-container {
+            width: 15.5rem;
+            height: 6.2rem;
+            padding-left: 0.7rem;
+      
+            .title-area {
+              width: 13.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1370px) {
+  .list-container {
+  
+    .list-grid {
+    grid-template-columns: repeat(3, 1fr);
+      
+    }
+  }
+}
   

@@ -9,10 +9,12 @@
   justify-content: center;
 
   .entry-east-grid {
-    width: 83%;
+    width: 82%;
     height: 40rem;
     display: grid;
     grid-template: 16rem 24rem / repeat(5, 1fr);
+    // border-bottom: 2px solid #b8b8b8;
+
 
     // .section {
     //   background-color: #fff;
@@ -121,8 +123,7 @@
       position: relative;
       display: flex;
       justify-content: center;
-      grid-column: 4 / span 2;
-      
+      grid-column: 4 / span 2;   
 
       // ---------- The Dream --------- //
       .sub-section-8-1 {
@@ -140,6 +141,81 @@
         right: -4.5rem;
         width: 6.6rem;
         z-index: 100;
+      }
+    }
+  }
+}
+
+// -------------------- Media Queries ---------------------- //
+
+@media (max-width: 1800px) {
+  .entry-room-container {
+    
+    .entry-east-grid {
+      width: 84%;
+      margin-left: -3.5rem;
+
+      .entry-east-column-5 {
+
+        // ---- Neptunes Confront Us About the Pollution ----- //
+        .sub-section-5-1 {
+          right: 0.5rem;
+        }
+      }
+
+      .entry-east-column-6 {
+        padding-right: 1.4rem;
+      }
+
+      .entry-east-column-8 {
+        padding-left: 1.4rem;
+
+        // ---------- The Dream --------- //
+        .sub-section-8-1 {
+          left: 0.1rem;
+        }
+
+        // ---------- Evan --------- //
+        .sub-section-8-2 {
+          right: -5.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1370px) {
+  .entry-room-container {
+    
+    .entry-east-grid {
+      width: 91%;
+
+      .entry-east-column-5 {
+
+        // ---- Neptunes Confront Us About the Pollution ----- //
+        .sub-section-5-1 {
+          right: 0.5rem;
+        }
+      }
+
+      .entry-east-column-6 {
+        padding-right: 1.4rem;
+      }
+
+      .entry-east-column-8 {
+        padding-left: 1.4rem;
+
+        // ---------- The Dream --------- //
+        .sub-section-8-1 {
+          left: 0.5rem;
+          width: 3rem;
+        }
+
+        // ---------- Evan --------- //
+        .sub-section-8-2 {
+          right: -4.5rem;
+          width: 6rem;
+        }
       }
     }
   }

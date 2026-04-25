@@ -38,18 +38,11 @@ img {
   object-fit: cover;
   display: block;
   cursor: pointer;
-
-  .no-drag-image {
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-    user-drag: none;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-  }
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 
 /* ------ Page Animation on First Render ------ */
@@ -236,4 +229,79 @@ div.carousel-container {
   .itemSnapPoint {
     scroll-snap-align: start;
   }
+}
+
+// ------------------- Global Media Queries -------------------- //
+
+@media (max-width: 1800px) {
+  html {
+    font-size: 98%;
+  }
+
+  div.carousel-container {
+    .controls {
+      margin-bottom: 4.5rem;
+    }
+  }
+}
+
+@media (max-width: 1370px) {
+  html {
+    font-size: 90%;
+  }
+
+  div.carousel-container {
+
+    .controls {
+      margin-top: 1.5rem;
+      margin-bottom: 4.5rem;
+      width: 58rem;
+
+      .arrow {
+        font-size: 1.8rem;
+      }
+
+      .page-button {
+        font-size: 1.25rem;
+      }
+    }
+  }
+  
+  /* --------- Windows --------- */
+
+.window-frame {
+  width: 28.5rem;
+  height: 19.3rem;
+
+
+  .window-pane {
+    width: 13.2rem;
+    height: 17.9rem;
+  }
+}
+
+  /* --------- Doors Styles --------- */
+
+.door-frame-container {
+
+  .door-frame {
+    width: 18rem;
+
+    .door-window-pane-top {
+      width: 16.6rem;
+    }
+
+    .door-window-pane-left {
+      width: 7.95rem;
+    }
+
+    .door-window-pane-right {
+      width: 7.95rem;
+    }
+
+    .door-crossbar {
+      width: 18rem;
+    }
+  }
+}
 }

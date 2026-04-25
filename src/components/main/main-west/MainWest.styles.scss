@@ -8,6 +8,7 @@
     height: 40rem;
     display: grid;
     grid-template: 16rem 24rem / repeat(5, 1fr);
+    // border-bottom: 2px solid #b8b8b8;
 
     // .section {
     //   background-color: #fff;
@@ -132,7 +133,7 @@
 
     // -------------------- Column 7 --------------------- //
 
-    // Door Frame Styles applied globally in index.scss //
+      // Door Frame Styles applied globally in index.scss //
     
     // -------------------- Column 8 --------------------- //
 
@@ -141,6 +142,81 @@
       display: flex;
       justify-content: center;
       grid-column: 4 / span 2;
+    }
+  }
+}
+
+// -------------------- Media Queries ---------------------- //
+
+@media (max-width: 1370px) {
+  .main-room-west-container {
+
+    .main-room-west-grid {
+      width: 95%;
+
+      // .section {
+      //   background-color: #fff;
+      //   border: 1px solid #f3f3f3;
+      // }
+
+      // -------------------- Column 1 --------------------- //
+
+      .west-column-1 {
+
+        // ---------- Probed --------- //
+        .sub-section-1-1 {
+          top: 0;
+          left: 4rem;
+          width: 11.3rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .west-column-2 {
+
+      // ---------- Playing for the Devil's Ring --------- //
+        .sub-section-2-1 {
+          top: 0;
+          left: -0.5rem;
+          width: 17.3rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
+      
+      .west-column-3 {
+
+        // ---------- Another Day at the Beach --------- //
+        .sub-section-3-1 {
+          top: 0;
+          width: 14.2rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .west-column-4 {
+
+        // ---------- Mutiny --------- //
+        .sub-section-4-1 {
+          top: 0;
+          right: -1rem;
+          width: 18.2rem;
+        }
+      }
+
+      // -------------------- Column 5 --------------------- //
+
+      .west-column-5 {
+
+        // ---------- Catch and Release --------- //
+        .sub-section-5-1 {
+          top: 0;
+          right: 4rem;
+          width: 11.2rem;
+        }
+      }
     }
   }
 }

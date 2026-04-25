@@ -26,17 +26,11 @@ const EntryNorth = () => {
         <div className="border-shadow-lg sub-section-1-1">
            <img 
             src={directory[13].imgSrc}
-            loading="lazy"
-            draggable="false"
-            className="no-drag-img"
           />
         </div>
         <div className="border-shadow-lg sub-section-1-2">
            <img 
             src={directory[14].imgSrc}
-            loading="lazy"
-            draggable="false"
-            className="no-drag-img"
           />
         </div>
         <div className="window-frame-n">
@@ -52,18 +46,12 @@ const EntryNorth = () => {
           <img 
             src={directory[0].imgSrc} 
             onClick={() => handleOpen(directory[0].imgSrc, directory[0].title)}
-            loading="lazy"
-            draggable="false"
-            className="no-drag-img"
           />
         </div>
         <div className="border-shadow-lg sub-section-2-2">
           <img 
             src={directory[1].imgSrc} 
             onClick={() => handleOpen(directory[1].imgSrc, directory[1].title)}
-            loading="lazy"
-            draggable="false"
-            className="no-drag-img"
           />
         </div>
       </div>
@@ -74,17 +62,11 @@ const EntryNorth = () => {
           <div className="border-shadow-lg sub-section-3-1">
             <img 
               src={directory[2].imgSrc}
-              loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           <div className="border-shadow-lg sub-section-3-2">
             <img 
               src={directory[3].imgSrc}
-              loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           <div className="window-frame-n">

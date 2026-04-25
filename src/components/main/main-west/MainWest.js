@@ -28,8 +28,6 @@ const MainWest = () => {
               src={directory[137].imgSrc} 
               onClick={() => handleOpen(directory[137].imgSrc, directory[137].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
             
           </div>
@@ -42,9 +40,8 @@ const MainWest = () => {
             <img 
               src={directory[138].imgSrc}
               onClick={() => handleOpen(directory[138].imgSrc, directory[138].title)}
-              loading="lazy"
-              draggable="false"
-              className="no-drag-img" />
+              loading="lazy" 
+            />
           </div>
         </div>
 
@@ -60,8 +57,7 @@ const MainWest = () => {
               src={directory[139].imgSrc} 
               onClick={() => handleOpen(directory[139].imgSrc, directory[139].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"/>
+            />
           </div>
         </div>
 
@@ -73,8 +69,7 @@ const MainWest = () => {
               src={directory[140].imgSrc} 
               onClick={() => handleOpen(directory[140].imgSrc, directory[140].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"/>
+            />
           </div>
         </div>
       
@@ -86,8 +81,7 @@ const MainWest = () => {
               src={directory[141].imgSrc} 
               onClick={() => handleOpen(directory[141].imgSrc, directory[141].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"/>  
+            />  
           </div>
         </div>
         {/* ---------------------- Column 6 ------------------------ */}

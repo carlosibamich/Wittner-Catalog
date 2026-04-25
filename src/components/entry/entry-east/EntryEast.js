@@ -42,8 +42,6 @@ const EntryEast = () => {
             src={directory[3].imgSrc} 
             onClick={() => handleOpen(directory[3].imgSrc, directory[3].title)}
             loading="lazy"
-            draggable="false"
-            className="no-drag-img"
           />
         </div>
       </div>
@@ -56,8 +54,6 @@ const EntryEast = () => {
               src={directory[4].imgSrc}
               onClick={() => handleOpen(directory[4].imgSrc, directory[4].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
         </div>
@@ -70,8 +66,6 @@ const EntryEast = () => {
               src={directory[5].imgSrc}
               onClick={() => handleOpen(directory[5].imgSrc, directory[5].title)} 
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
         </div>
@@ -84,8 +78,6 @@ const EntryEast = () => {
               src={directory[6].imgSrc}
               onClick={() => handleOpen(directory[6].imgSrc, directory[6].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />  
           </div>
         </div>
@@ -118,8 +110,6 @@ const EntryEast = () => {
               src={directory[7].imgSrc}
               onClick={() => handleOpen(directory[7].imgSrc, directory[7].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />  
           </div>
           <div className="window-frame">
@@ -131,8 +121,6 @@ const EntryEast = () => {
               src={directory[8].imgSrc}
               onClick={() => handleOpen(directory[8].imgSrc, directory[8].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />  
           </div>
         </div>

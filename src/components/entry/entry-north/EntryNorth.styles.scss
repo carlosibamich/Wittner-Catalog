@@ -2,16 +2,16 @@
 
 .window-frame-n {
   position: absolute;
-  bottom: 1rem;
-  width: 33.8rem;
-  height: 21rem;
+  bottom: 2rem;
+  width: 32.1rem;
+  height: 20.7rem;
   background-color: #b8b8b8;
 
 
   .window-pane-n {
     position: absolute;
-    bottom: 0.9rem;
-    width: 15.7rem;
+    bottom: 0.7rem;
+    width: 15rem;
     height: 19.3rem;
     background-color: #fdfdfd;
     box-shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.1);
@@ -19,11 +19,11 @@
   }
 
   .pane-n-left {
-    left: 0.8rem;
+    left: 0.7rem;
   }
 
   .pane-n-right {
-    right: 0.8rem;
+    right: 0.7rem;
   }
 }
 
@@ -34,7 +34,7 @@
   justify-content: center;
 
   .entry-north-grid {
-    width: 86%;
+    width: 84%;
     height: 40rem;
     display: grid;
     grid-template-columns: 2fr 1.4fr 2fr;
@@ -120,7 +120,7 @@
         position: absolute;
         top: 0;
         left: 2rem;
-        width: 12.6rem;
+        width: 12.3rem;
 
         img {
           cursor: auto;
@@ -132,7 +132,7 @@
         position: absolute;
         top: 0;
         right: 1rem;
-        width: 19.7rem;
+        width: 19.4rem;
 
         img {
           cursor: auto;

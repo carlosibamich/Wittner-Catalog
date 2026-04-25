@@ -29,8 +29,6 @@ const StageEast = () => {
                 src={directory[88].imgSrc} 
                 onClick={() => handleOpen(directory[88].imgSrc, directory[88].title)}
                 loading="lazy"
-                draggable="false"
-                className="no-drag-img"
               />
             </div>
           </div>
@@ -40,15 +38,11 @@ const StageEast = () => {
                 <img 
                   src={directory[61].imgSrc} 
                   loading="lazy"
-                  draggable="false"
-                  className="no-drag-img"
                 />
               </div>
               <div className="border-shadow-lg sub-section-1-3">
                 <img src={directory[62].imgSrc} 
                   loading="lazy"
-                  draggable="false"
-                  className="no-drag-img"
                 />
               </div>
             </div>
@@ -63,8 +57,6 @@ const StageEast = () => {
               src={directory[89].imgSrc}
               onClick={() => handleOpen(directory[89].imgSrc, directory[89].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />          
           </div>
           <div className="border-shadow-sm sub-section-2-2">
@@ -72,8 +64,6 @@ const StageEast = () => {
               src={directory[90].imgSrc} 
               onClick={() => handleOpen(directory[90].imgSrc, directory[90].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           <div className="border-shadow-sm sub-section-2-3">
@@ -81,8 +71,6 @@ const StageEast = () => {
               src={directory[91].imgSrc} 
               onClick={() => handleOpen(directory[91].imgSrc, directory[91].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />         
           </div>
           <div className="border-shadow-lg sub-section-2-4">
@@ -90,8 +78,6 @@ const StageEast = () => {
               src={directory[92].imgSrc} 
               onClick={() => handleOpen(directory[92].imgSrc, directory[92].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           <div className="border-shadow-lg sub-section-2-5">
@@ -99,8 +85,6 @@ const StageEast = () => {
               src={directory[93].imgSrc} 
               onClick={() => handleOpen(directory[93].imgSrc, directory[93].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           <div className="border-shadow-lg sub-section-2-6">
@@ -108,71 +92,69 @@ const StageEast = () => {
               src={directory[94].imgSrc} 
               onClick={() => handleOpen(directory[94].imgSrc, directory[94].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           <div className="alcove-entrance-container">
             <div className="alcove-entrance">
               <div className="border-shadow-lg sub-section-2-7">
-                <img src={directory[65].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
+                <img 
+                  src={directory[65].imgSrc} 
+                  loading="lazy"
+                />
               </div>
               <div className="border-shadow-sm sub-section-2-8">
-                <img src={directory[66].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
+                <img 
+                  src={directory[66].imgSrc} 
+                  loading="lazy"
+                />
               </div>
               <div className="border-shadow-sm sub-section-2-9">
-                <img src={directory[67].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
+                <img 
+                  src={directory[67].imgSrc} 
+                  loading="lazy"
+                />
               </div>
               <div className="border-shadow-sm sub-section-2-10">
-                <img src={directory[68].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
+                <img 
+                  src={directory[68].imgSrc} 
+                  loading="lazy"
+                />
               </div>
               <div className="border-shadow-sm sub-section-2-11">
-                <img src={directory[69].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
+                <img 
+                  src={directory[69].imgSrc} 
+                  loading="lazy"
+                />
               </div>
               <div className="border-shadow-sm sub-section-2-12">
-                <img src={directory[71].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
+                <img 
+                  src={directory[71].imgSrc} 
+                  loading="lazy"
+                />
               </div>
               <div className="border-shadow-sm sub-section-2-13">
-                <img src={directory[70].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
+                <img 
+                  src={directory[70].imgSrc} 
+                  loading="lazy"
+                />
               </div>
               <div className="border-shadow-sm sub-section-2-14">
-                <img src={directory[72].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
+                <img 
+                  src={directory[72].imgSrc} 
+                  loading="lazy"
+                />
               </div>
               <div className="border-shadow-sm sub-section-2-15">
-                <img src={directory[73].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
+                <img 
+                  src={directory[73].imgSrc} 
+                  loading="lazy"
+                />
               </div>
               <div className="border-shadow-sm sub-section-2-16">
-                <img src={directory[74].imgSrc} 
-                loading="lazy"
-                draggable="false"
-                className="no-drag-img"/>
+                <img 
+                  src={directory[74].imgSrc} 
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
@@ -186,8 +168,6 @@ const StageEast = () => {
               src={directory[95].imgSrc} 
               onClick={() => handleOpen(directory[95].imgSrc, directory[95].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
         </div>
@@ -200,8 +180,6 @@ const StageEast = () => {
               src={directory[96].imgSrc} 
               onClick={() => handleOpen(directory[96].imgSrc, directory[96].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           <div className="border-shadow-lg sub-section-4-2">
@@ -209,8 +187,6 @@ const StageEast = () => {
               src={directory[97].imgSrc} 
               onClick={() => handleOpen(directory[97].imgSrc, directory[97].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           {/* <div className="stage-door"></div> */}
@@ -219,8 +195,6 @@ const StageEast = () => {
               src={directory[98].imgSrc} 
               onClick={() => handleOpen(directory[98].imgSrc, directory[98].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           <div className="border-shadow-sm sub-section-4-4">
@@ -228,8 +202,6 @@ const StageEast = () => {
               src={directory[99].imgSrc} 
               onClick={() => handleOpen(directory[99].imgSrc, directory[99].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             /> 
           </div>
           <div className="border-shadow-sm sub-section-4-5">
@@ -237,8 +209,6 @@ const StageEast = () => {
               src={directory[100].imgSrc} 
               onClick={() => handleOpen(directory[100].imgSrc, directory[100].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />          
           </div>
           <div className="border-shadow-sm sub-section-4-6">
@@ -246,8 +216,6 @@ const StageEast = () => {
               src={directory[101].imgSrc} 
               onClick={() => handleOpen(directory[101].imgSrc, directory[101].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />           
           </div>
           <div className="border-shadow-sm sub-section-4-7">
@@ -255,8 +223,6 @@ const StageEast = () => {
               src={directory[102].imgSrc} 
               onClick={() => handleOpen(directory[102].imgSrc, directory[102].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />            
           </div>
         </div>
@@ -269,8 +235,6 @@ const StageEast = () => {
               src={directory[103].imgSrc} 
               onClick={() => handleOpen(directory[103].imgSrc, directory[103].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
           {/* <div className="stairs-door"></div> */}
@@ -279,8 +243,6 @@ const StageEast = () => {
               src={directory[104].imgSrc} 
               onClick={() => handleOpen(directory[104].imgSrc, directory[104].title)}
               loading="lazy"
-              draggable="false"
-              className="no-drag-img"
             />
           </div>
         </div>

@@ -5,7 +5,7 @@
   justify-content: center;
 
   .main-room-stage-grid {
-    width: 92%;
+    width: 90%;
     height: 39rem;
     display: grid;
     grid-template: 30rem 9rem / 1.6fr 6.2fr 3.5fr 5.4fr 1.3fr;
@@ -35,7 +35,6 @@
         // ---------- Leave Past Behind --------- //
         .sub-section-1-1 {
           width: 8.2rem;
-          height: auto;
           margin-left: -5px;
         }
       }
@@ -61,7 +60,6 @@
             position: absolute;
             top: 1.9rem;
             width: 5.7rem;
-            height: auto;
           }
   
           // ---------- Look At Me! --------- //
@@ -69,7 +67,6 @@
             position: absolute;
             top: 8.8rem;
             width: 7rem;
-            height: auto;
           }
         }
       }
@@ -91,7 +88,6 @@
         top: 3.3rem;
         left: 1.9rem;
         width: 52px;
-        height: auto;
       }
         
       // ---------- Marge --------- //
@@ -100,7 +96,6 @@
         top: 3.3rem;
         left: 6.4rem;
         width: 2.4rem;
-        height: auto;
       }
         
       // ---------- Take Your Medicine --------- //
@@ -109,7 +104,6 @@
         top: 3.3rem;
         left: 9rem;
         width: 3.25rem;
-        height: auto;
         margin: 0 15px;
       }
         
@@ -119,7 +113,6 @@
         top: 9.3rem;
         left: 1.9rem;
         width: 11.3rem;
-        height: auto;
       }
       
       // ---------- River Styx --------- //
@@ -128,7 +121,6 @@
         top: 1.9rem;
         right: 7.6rem;
         width: 11.4rem;
-        height: auto;
       }
 
       // ---------- Dorothy --------- //
@@ -137,7 +129,6 @@
         top: 15.2rem;
         right: 0.9rem;
         width: 3.6rem;
-        height: auto;
       }
 
       .alcove-entrance-container {
@@ -165,7 +156,6 @@
             top: -4.2rem;
             left: 1.8rem;
             width: 11.8rem;
-            height: auto;
           }
 
           // ------------ Social Distancing ------------ //
@@ -182,7 +172,6 @@
             top: 9.25rem;
             left: -0.3rem;
             width: 3.3rem;
-            height: auto;
           }
           
           // ------------ Leaving the House of Horrors ------------ //
@@ -191,7 +180,6 @@
             top: 5.9rem;
             left: 3.9rem;
             width: 3.5rem;
-            height: auto;
           }
           
           // ------------ Much Needed Surgery ------------ //
@@ -200,7 +188,6 @@
             top: 9.25rem;
             left: 3.8rem;
             width: 2.35rem;
-            height: auto;
           }
           
           // ------------ Arrival Through the Black Hole ------------ //
@@ -209,7 +196,6 @@
             top: 5.9rem;
             right: 3.7rem;
             width: 3.4rem;
-            height: auto;
           }
           
           // ------------ Safe travel ------------ //
@@ -218,7 +204,6 @@
             top: 9.25rem;
             right: 6rem;
             width: 2.75rem;
-            height: auto;
           }
           
           // ------------ Martian Mary Poppins ------------ //
@@ -227,7 +212,6 @@
             top: 9.25rem;
             right: 3.05rem;
             width: 2.25rem;
-            height: auto;
           }
           
           // ------------ The Fool In Recent Times ------------ //
@@ -236,7 +220,6 @@
             top: 5.9rem;
             right: -0.25rem;
             width: 2.9rem;
-            height: auto;
           }
           
           // ------------ Homecoming for Tambourine ------------ //
@@ -245,7 +228,6 @@
             top: 9.25rem;
             right: -0.7rem;
             width: 3.1rem;
-            height: auto;
           }
         }
      }
@@ -264,7 +246,6 @@
         position: absolute;
         top: 3.5rem;
         width: 17.6rem;
-        height: auto;
       }
     }
     
@@ -284,7 +265,6 @@
         top: 6.4rem;
         left: 1.6rem;
         width: 16rem;
-        height: auto;
       }
       
       // ---------- Lunch Is Ready --------- //
@@ -293,7 +273,6 @@
         top: 2.6rem;
         right: 6.4rem;
         width: 6.4rem;
-        height: auto;
       }
       
       // ---------- Red Rope --------- //
@@ -302,7 +281,6 @@
         top: 12.8rem;
         right: 6.9rem;
         width: 5.3rem;
-        height: auto;
       }
       // ---------- Can You See Me? --------- //
       .sub-section-4-4 {
@@ -310,7 +288,6 @@
         top: 4.8rem;
         right: 1.4rem;
         width: 2.3rem;
-        height: auto;
       }
       
       // ---------- Into the Unknown --------- //
@@ -319,7 +296,6 @@
         top: 10rem;
         right: 1.2rem;
         width: 2.5rem;
-        height: auto;
       }
       
       // ---------- No Friends --------- //
@@ -328,7 +304,6 @@
         top: 13.5rem;
         right: 1.2rem;
         width: 2.5rem;
-        height: auto;
       }
 
       // ---------- Butterfly Woman --------- //
@@ -337,7 +312,6 @@
         top: 16.95rem;
         right: 1.2rem;
         width: 2.5rem;
-        height: auto;
       }
     }
     
@@ -357,7 +331,6 @@
         top: 4.3rem;
         right: 0.4rem;
         width: 5.4rem;
-        height: auto;
       }
         
       // ---------- Guardian --------- //
@@ -366,7 +339,6 @@
         top: 18rem;
         right: 0;
         width: 5.8rem;
-        height: auto;
       }
     }
 
@@ -396,6 +368,242 @@
           z-index: 200;
         }
       }
+    }
+  }
+}
+
+// -------------------- Media Queries ---------------------- //
+
+@media (max-width: 1800px) {
+  .main-room-stage-container {
+
+    .main-room-stage-grid {
+      grid-template-columns: 1.6fr 6.3fr 3.5fr 5.4fr 1.2fr;
+
+      .stage-column-4 {
+      
+        // ---------- Lunch Is Ready --------- //
+        .sub-section-4-2 {
+          right: 5.6rem;
+        }
+      
+        // ---------- Red Rope --------- //
+        .sub-section-4-3 {
+          right: 6.1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1370px) {
+  .main-room-stage-container {
+
+  .main-room-stage-grid {
+    width: 93%;
+    height: 38rem;
+    grid-template: 30rem 8rem / 1.7fr 6.4fr 3.4fr 5.4fr 1.1fr;
+
+    // .section {
+    //   background-color: #fff;
+    //   border: 1px solid #f3f3f3;
+    // }
+
+    //----------------- COLUMN 1 ------------------//
+
+    .west-column-1 {
+
+      .past-behind-container {
+        width: 100%;
+        height: 40%;
+
+        // ---------- Leave Past Behind --------- //
+        .sub-section-1-1 {
+          width: 7.7rem;
+          margin-left: -5.5px;
+        }
+      }
+
+        .north-exit-container {
+          height: 60%;
+        
+          .inset {
+
+            // ---------- America --------- //  
+            .sub-section-1-2 {
+              top: 2.2rem;
+              width: 5.5rem;
+            }
+  
+            // ---------- Look At Me! --------- //
+            .sub-section-1-3 {
+              top: 8.8rem;
+              width: 6.7rem;
+            }
+          }
+        }
+      }
+
+      //----------------- COLUMN 2 ------------------//
+    
+      .stage-column-2 {
+
+        // ---------- Beatrice --------- //
+        .sub-section-2-1 {
+          top: 3.8rem;
+          left: 1rem;
+          width: 2.9rem;
+        }
+        
+        // ---------- Marge --------- //
+        .sub-section-2-2 {
+          top: 3.8rem;
+          left: 4.85rem;
+          width: 2.1rem;
+        }
+        
+        // ---------- Take Your Medicine --------- //
+        .sub-section-2-3 {
+          top: 3.8rem;
+          left: 6.8rem;
+          width: 2.9rem;
+        }
+        
+        // ---------- Different Realities --------- //
+        .sub-section-2-4 {
+          top: 9.7rem;
+          left: 1rem;
+          width: 9.9rem;
+        }
+      
+        // ---------- River Styx --------- //
+        .sub-section-2-5 {
+          top: 2.2rem;
+          right: 6.4rem;
+          width: 11rem;
+        }
+
+        // ---------- Dorothy --------- //
+        .sub-section-2-6 {
+          top: 15.6rem;
+          right: 0.6rem;
+          width: 3.1rem;
+        }
+
+        .alcove-entrance-container {
+          top: 13rem;
+          right: 4.4rem;
+          width: 14.8rem;
+          height: 19.5rem;
+          overflow: hidden;
+
+          .alcove-entrance {
+
+            // ------------ Installing the Music App ------------ //
+            .sub-section-2-7 {
+              top: -4.4rem;
+              left: 1.55rem;
+              width: 11.8rem;
+            }
+          }
+        }
+      }
+    
+      //----------------- COLUMN 3 ------------------//
+    
+      .stage-column-3 {
+      
+        // ---------- Sunny Side Up --------- //
+        .sub-section-3-1 {
+          top: 4.5rem;
+          width: 15.2rem;
+        }
+      }
+    
+      //----------------- COLUMN 4 ------------------//
+    
+      .stage-column-4 {
+      
+        // ---------- Jacob's Dream --------- //
+        .sub-section-4-1 {
+          top: 7.3rem;
+          left: 0.8rem;
+          width: 14.3rem;
+        }
+      
+        // ---------- Lunch Is Ready --------- //
+        .sub-section-4-2 {
+          top: 3rem;
+          right: 4.2rem;
+          width: 5.6rem;
+        }
+      
+        // ---------- Red Rope --------- //
+        .sub-section-4-3 {
+          top: 12.8rem;
+          right: 4.7rem;
+          width: 4.6rem;
+        }
+
+        // ---------- Can You See Me? --------- //
+        .sub-section-4-4 {
+          top: 5.3rem;
+          right: 0.9rem;
+          width: 2.1rem;
+        }
+      
+        // ---------- Into the Unknown --------- //
+        .sub-section-4-5 {
+          top: 10.3rem;
+          right: 0.7rem;
+          width: 2.3rem;
+        }
+      
+        // ---------- No Friends --------- //
+        .sub-section-4-6 {
+          top: 13.7rem;
+          right: 0.7rem;
+          width: 2.3rem;
+        }
+
+        // ---------- Butterfly Woman --------- //
+        .sub-section-4-7 {
+          top: 16.9rem;
+          right: 0.7rem;
+          width: 2.3rem;
+        }
+      }
+    
+      //----------------- COLUMN 5 ------------------/
+      
+      .west-column-5 {
+        
+        // ---------- Gifts --------- //
+        .sub-section-5-1 {
+          top: 4.6rem;
+          right: -0.4rem;
+          width: 4.7rem;
+        }
+        
+        // ---------- Guardian --------- //
+        .sub-section-5-2 {
+          top: 18rem;
+          right: -0.5rem;
+          width: 5rem;
+        }
+      }
+
+      //----------------- COLUMN 5 ------------------/
+
+      .west-column-6 {
+
+      .platform-container {
+
+        .step {
+          width: 13%;
+        }
+      }
+    }
     }
   }
 }
