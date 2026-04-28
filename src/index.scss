@@ -233,17 +233,53 @@ div.carousel-container {
 
 // ------------------- Global Media Queries -------------------- //
 
-@media (max-width: 1800px) {
+// --------------- Max-Width 1820 ---------------- //
+
+@media screen and (min-width: 1761px) and (max-width: 1820px) {
   html {
     font-size: 98%;
   }
-
+  
   div.carousel-container {
     .controls {
       margin-bottom: 4.5rem;
     }
   }
 }
+
+// --------------- Max-Width 1760 ---------------- //
+
+@media screen and (min-width: 1721px) and (max-width: 1760px) {
+  html {
+    font-size: 97%;
+  }
+  
+  div.carousel-container {
+    .controls {
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+// --------------- Max-Width 1720 ---------------- //
+
+@media screen and (min-width: 1671px) and (max-width: 1720px) {
+  html {
+    font-size: 96%;
+  }
+}
+
+// --------------- Max-Width 1670 ---------------- //
+
+@media screen and (min-width: 1601px) and (max-width: 1670px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+
+
+// --------------- Max-Width 1370 ---------------- //
 
 @media (max-width: 1370px) {
   html {
@@ -269,39 +305,46 @@ div.carousel-container {
   
   /* --------- Windows --------- */
 
-.window-frame {
-  width: 28.5rem;
-  height: 19.3rem;
+  .window-frame {
+    width: 28.5rem;
+    height: 19.3rem;
 
 
-  .window-pane {
-    width: 13.2rem;
-    height: 17.9rem;
+    .window-pane {
+      width: 13.2rem;
+      height: 17.9rem;
+    }
   }
-}
 
   /* --------- Doors Styles --------- */
 
-.door-frame-container {
+  .door-frame-container {
 
-  .door-frame {
-    width: 18rem;
-
-    .door-window-pane-top {
-      width: 16.6rem;
-    }
-
-    .door-window-pane-left {
-      width: 7.95rem;
-    }
-
-    .door-window-pane-right {
-      width: 7.95rem;
-    }
-
-    .door-crossbar {
+    .door-frame {
       width: 18rem;
+
+      .door-window-pane-top {
+        width: 16.6rem;
+      }
+
+      .door-window-pane-left {
+        width: 7.95rem;
+      }
+
+      .door-window-pane-right {
+        width: 7.95rem;
+      }
+
+      .door-crossbar {
+        width: 18rem;
+      }
     }
   }
 }
-}
+
+// --------------- Max-Width 1190 ---------------- //
+
+
+
+// --------------- Max-Width 1030 ---------------- //
+

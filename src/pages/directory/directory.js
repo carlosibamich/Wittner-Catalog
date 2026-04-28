@@ -1,9 +1,9 @@
-// // ----------------- Entry North Wall ------------------- //
+// ----------------- Entry North Wall ------------------- //
 
 import IntelligenceBeauty from '../../assets/images/entry-north/1-intelligence-beauty-love.webp';
 import DogsRule from '../../assets/images/entry-north/2-dogs-rule-world.webp';
 
-// // ----------------- Entry East Wall ------------------ //
+// ----------------- Entry East Wall ------------------ //
 
 import Challenges from '../../assets/images/entry-east/3-challenges.webp';
 import ArtScience from '../../assets/images/entry-east/4-marriage-art-science.webp';
@@ -12,18 +12,18 @@ import Neptunes1 from '../../assets/images/entry-east/7-neptunes-confront-pollut
 import TheDream from '../../assets/images/entry-east/8-the-dream.webp';
 import Evan from '../../assets/images/entry-east/9-evan.webp';
 
-// // ----------------- Entry South Wall ------------------ //
+// ----------------- Entry South Wall ------------------ //
 
 import WrongScore from '../../assets/images/entry-south/10-wrong-score.webp';
 
-// // ----------------- Entry West Wall ------------------ //
+// ----------------- Entry West Wall ------------------ //
 
-import Arrival from '../../assets/images/entry-west/11-another-arrival-black-hole.webp';
+import AnotherArrival from '../../assets/images/entry-west/11-another-arrival-black-hole.webp';
 import Getaway from '../../assets/images/entry-west/12-fast-getaway.webp';
 import Art from '../../assets/images/entry-west/14-art.webp';
 import MothersTurn from '../../assets/images/entry-west/15-mothers-turn.webp';
 
-// // ----------------- Main Room North Wall ------------------- //
+// ----------------- Main Room North Wall ------------------- //
 
 import Sam from '../../assets/images/main-room-north/16-sam.webp'
 import Undershirt from '../../assets/images/main-room-north/17-undershirt.webp'
@@ -79,7 +79,7 @@ import LookAtMe from '../../assets/images/main-room-north-exit/63-look-at-me.web
 import Captain from '../../assets/images/main-room-north-exit/64-the-captain.webp';
 import HouseCards from '../../assets/images/main-room-north-exit/65-house-of-cards.webp';
 
-// // ----------------- Main Room Stage Alcove ------------------- //
+// ----------------- Main Room Stage Alcove ------------------- //
 
 import MusicApp from '../../assets/images/stage-alcove/66-installing-music-app.webp';
 import Distancing from '../../assets/images/stage-alcove/67-social-distancing.webp';
@@ -105,7 +105,7 @@ import Practice from '../../assets/images/stage-alcove/86-practice.webp';
 import BetterThan from '../../assets/images/stage-alcove/87-better-than-that.webp';
 import Direction from '../../assets/images/stage-alcove/88-choose-direction.webp';
 
-// // ----------------- Main Room Stage/East ------------------- //
+// ----------------- Main Room Stage/East ------------------- //
 
 import PastBehind from '../../assets/images/stage-east/89-leaving-past-behind.webp';
 import Beatrice from '../../assets/images/stage-east/90-beatrice.webp';
@@ -125,7 +125,7 @@ import ButterflyWoman from '../../assets/images/stage-east/103-butterfly-woman.w
 import Gifts from '../../assets/images/stage-east/104-gifts.webp';
 import Guardian from '../../assets/images/stage-east/105-guardian.webp';
 
-// // ----------------- Main Room South Wall ----------------- //
+// ----------------- Main Room South Wall ----------------- //
 
 import Purification from '../../assets/images/main-room-south/106-purification-of-thought.webp';
 import Resist from '../../assets/images/main-room-south/107-resist.webp';
@@ -160,13 +160,69 @@ import Waiting from '../../assets/images/main-room-south/135-waiting-for-parting
 import Higher from '../../assets/images/main-room-south/136-higher.webp';
 import OhJesus from '../../assets/images/main-room-south/137-jesus-christ.webp';
 
-// // ----------------- Main Room West Wall ------------------ //
+// ----------------- Main Room West Wall ------------------ //
 
 import Probed from '../../assets/images/main-room-west/138-probed.webp';
 import DevilsRing from '../../assets/images/main-room-west/139-devils-ring.webp';
 import DayBeach from '../../assets/images/main-room-west/140-day-beach-1.webp';
 import Mutiny from '../../assets/images/main-room-west/141-mutiny.webp';
 import CatchRelease from '../../assets/images/main-room-west/142-catch-release.webp';
+
+// --------------------------- Stairwell ---------------------------- //
+
+// ----------------- Stairwell North ------------------ //
+import WhiteClown2 from '../../assets/images/stairwell/143-white-clown-2.webp';
+import Dervish3 from '../../assets/images/stairwell/144-dervish-3.webp';
+import Jester from '../../assets/images/stairwell/145-jester.webp';
+import Untitled from '../../assets/images/stairwell/146-untitled.webp';
+import FlightSchool from '../../assets/images/stairwell/147-flight-school.webp';
+import BreakfastChef from '../../assets/images/stairwell/148-breakfast-chef.webp';
+import LeavingHome from '../../assets/images/stairwell/149-leaving-home.webp';
+import MuseumDisasters from '../../assets/images/stairwell/150-museum-of-disasters.webp';
+import Brunhilda from '../../assets/images/stairwell/151-brunhilda.webp';
+import PayAdvance from '../../assets/images/stairwell/152-pay-in-advance.webp';
+import Arrival from '../../assets/images/stairwell/153-arrival.webp';
+import BetterPlace from '../../assets/images/stairwell/154-a-better-place.webp';
+import InReadiness from '../../assets/images/stairwell/155-in-readiness.webp';
+import CheckMate from '../../assets/images/stairwell/156-check-mate.webp';
+import Doctors from '../../assets/images/stairwell/157-a-fear-of-doctors.webp';
+import TheChariot from '../../assets/images/stairwell/158-the-chariot-tarot.webp';
+import OutOfReach from '../../assets/images/stairwell/159-out-of-reach.webp';
+import Red from '../../assets/images/stairwell/160-red.webp';
+import Surprised from '../../assets/images/stairwell/161-surprised.webp';
+
+// ----------------- Stairwell East ------------------ //
+import WithBrother from '../../assets/images/stairwell/162-trip-with-brother.webp';
+import BestOfShow from '../../assets/images/stairwell/163-best-of-show.webp';
+import Sainted from '../../assets/images/stairwell/164-sainted.webp';
+import SixDogs from '../../assets/images/stairwell/165-six-dogs.webp';
+import Fighting from '../../assets/images/stairwell/166-we-were-fighting.webp';
+
+// ----------------- Stairwell South ------------------ //
+import Sense from '../../assets/images/stairwell/167-nothing-makes-sense.webp';
+import Going from '../../assets/images/stairwell/168-where-are-you-going.webp';
+import Eggs from '../../assets/images/stairwell/169-eggs.webp';
+import MotherRocket from '../../assets/images/stairwell/170-no-mother-rocket.webp';
+import Divas from '../../assets/images/stairwell/171-divas.webp';
+import ColdWind from '../../assets/images/stairwell/172-a-cold-wind.webp';
+import Voices from '../../assets/images/stairwell/173-voices-of-doom.webp';
+import Matrimony from '../../assets/images/stairwell/174-unholy-matrimony.webp';
+import Anger from '../../assets/images/stairwell/175-anger.webp';
+import Overqualified from '../../assets/images/stairwell/176-overqualified.webp';
+import Peghead from '../../assets/images/stairwell/177-peghead.webp';
+import Decoration from '../../assets/images/stairwell/178-decoration.webp';
+import ReEntry from '../../assets/images/stairwell/179-re-entry.webp';
+import Wiser from '../../assets/images/stairwell/180-older-but-wiser.webp';
+import Worker from '../../assets/images/stairwell/181-worker.webp';
+import Demo from '../../assets/images/stairwell/182-demo.webp';
+import BentNote from '../../assets/images/stairwell/183-the-bent-note.webp';
+
+// ----------------- Stairwell West ------------------ //
+import NoSmoking from '../../assets/images/stairwell/184-no-smoking-here.webp';
+import Downstairs from '../../assets/images/stairwell/185-going-downstairs-for-ideas.webp';
+import Gossip from '../../assets/images/stairwell/186-paint-hadnt-even-dried.webp';
+import Heirophant from '../../assets/images/stairwell/187-the-heirophant-tarot.webp';
+
 
 import PlaceholderHorz from '../../assets/placeholder-horz.jpg';
 import PlaceholderSq from '../../assets/placeholder-sq.jpg';
@@ -235,7 +291,7 @@ export const directory = [
     },
     {
       id: 11,
-      imgSrc: Arrival,
+      imgSrc: AnotherArrival,
       title: "Another Arrival Through the Black Hole",
       audio: true,
     },
@@ -1023,6 +1079,276 @@ export const directory = [
       id: 142,
       imgSrc: CatchRelease,
       title: "Catch and Release",
+      audio: false,
+    },
+    {
+      id: 143,
+      imgSrc: WhiteClown2,
+      title: "White Clown 2",
+      audio: false,
+    },
+    {
+      id: 144,
+      imgSrc: Dervish3,
+      title: "Dervish 3",
+      audio: false,
+    },
+    {
+      id: 145,
+      imgSrc: Jester,
+      title: "Jester",
+      audio: false,
+    },
+    {
+      id: 146,
+      imgSrc: Untitled,
+      title: "Untitled",
+      audio: false,
+    },
+    {
+      id: 147,
+      imgSrc: FlightSchool,
+      title: "Flight School",
+      audio: false,
+    },
+    {
+      id: 148,
+      imgSrc: BreakfastChef,
+      title: "Breakfast Chef",
+      audio: false,
+    },
+    {
+      id: 149,
+      imgSrc: LeavingHome,
+      title: "She's Leaving Home",
+      audio: false,
+    },
+    {
+      id: 150,
+      imgSrc: MuseumDisasters,
+      title: "The Museum of Disasters (He Went Down With the Ship)",
+      audio: false,
+    },
+    {
+      id: 151,
+      imgSrc: Brunhilda,
+      title: "Brunhilda",
+      audio: false,
+    },
+    {
+      id: 152,
+      imgSrc: PayAdvance,
+      title: "Pay in Advance",
+      audio: false,
+    },
+    {
+      id: 153,
+      imgSrc: Arrival,
+      title: "Arrival",
+      audio: false,
+    },
+    {
+      id: 154,
+      imgSrc: BetterPlace,
+      title: "A Better Place",
+      audio: false,
+    },
+    {
+      id: 155,
+      imgSrc: InReadiness,
+      title: "In Readiness",
+      audio: false,
+    },
+    {
+      id: 156,
+      imgSrc: CheckMate,
+      title: "Check Mate",
+      audio: false,
+    },
+    {
+      id: 157,
+      imgSrc: Doctors,
+      title: "A Fear of Doctors",
+      audio: false,
+    },
+    {
+      id: 158,
+      imgSrc: TheChariot,
+      title: "The Chariot (From the Tarot)",
+      audio: false,
+    },
+    {
+      id: 159,
+      imgSrc: OutOfReach,
+      title: "Out of Reach",
+      audio: false,
+    },
+    {
+      id: 160,
+      imgSrc: Red,
+      title: "Red",
+      audio: false,
+    },
+    {
+      id: 161,
+      imgSrc: Surprised,
+      title: "Surprised",
+      audio: false,
+    },
+    {
+      id: 162,
+      imgSrc: WithBrother,
+      title: "The Trip With My Brother",
+      audio: false,
+    },
+    {
+      id: 163,
+      imgSrc: BestOfShow,
+      title: "Best of Show",
+      audio: false,
+    },
+    {
+      id: 164,
+      imgSrc: Sainted,
+      title: "Sainted",
+      audio: false,
+    },
+    {
+      id: 165,
+      imgSrc: SixDogs,
+      title: "I've Had Six Dogs",
+      audio: false,
+    },
+    {
+      id: 166,
+      imgSrc: Fighting,
+      title: "We Were Fighting at the Time of the Comet",
+      audio: false,
+    },
+    {
+      id: 167,
+      imgSrc: Sense,
+      title: "Nothing Makes Sense",
+      audio: false,
+    },
+    {
+      id: 168,
+      imgSrc: Going,
+      title: "Where Are You Going?",
+      audio: false,
+    },
+    {
+      id: 169,
+      imgSrc: Eggs,
+      title: "Eggs",
+      audio: false,
+    },
+    {
+      id: 170,
+      imgSrc: MotherRocket,
+      title: "No Mother, I Told You to Stay On the Rocket Ship",
+      audio: false,
+    },
+    {
+      id: 171,
+      imgSrc: Divas,
+      title: "When Divas Are Escorted by Drunks",
+      audio: false,
+    },
+    {
+      id: 172,
+      imgSrc: ColdWind,
+      title: "A Cold Wind",
+      audio: false,
+    },
+    {
+      id: 173,
+      imgSrc: Voices,
+      title: "Voices of Doom",
+      audio: false,
+    },
+    {
+      id: 174,
+      imgSrc: Matrimony,
+      title: "Unholy Matrimony",
+      audio: false,
+    },
+    {
+      id: 175,
+      imgSrc: Anger,
+      title: "Anger",
+      audio: false,
+    },
+    {
+      id: 176,
+      imgSrc: Overqualified,
+      title: "Overqualified",
+      audio: false,
+    },
+    {
+      id: 177,
+      imgSrc: Peghead,
+      title: "Peghead",
+      audio: false,
+    },
+    {
+      id: 178,
+      imgSrc: Decoration,
+      title: "Decoration",
+      audio: false,
+    },
+    {
+      id: 179,
+      imgSrc: ReEntry,
+      title: "Re-Entry Was Rough",
+      audio: false,
+    },
+    {
+      id: 180,
+      imgSrc: Wiser,
+      title: "Older but Wiser",
+      audio: false,
+    },
+    {
+      id: 181,
+      imgSrc: Worker,
+      title: "Catch and Release",
+      audio: false,
+    },
+    {
+      id: 182,
+      imgSrc: Demo,
+      title: "Demo",
+      audio: false,
+    },
+    {
+      id: 183,
+      imgSrc: BentNote,
+      title: "Receiving the Bent Note",
+      audio: false,
+    },
+    {
+      id: 184,
+      imgSrc: NoSmoking,
+      title: "No Smoking Here",
+      audio: false,
+    },
+    {
+      id: 185,
+      imgSrc: Downstairs,
+      title: "Going Downstairs for Ideas",
+      audio: false,
+    },
+    {
+      id: 186,
+      imgSrc: Gossip,
+      title: "The Paint Hadn't Even Dried at the Wedding and Already There Was Gossip",
+      audio: false,
+    },
+    {
+      id: 187,
+      imgSrc: Heirophant,
+      title: "The Heirophant (From the Tarot)",
       audio: false,
     },
   ]

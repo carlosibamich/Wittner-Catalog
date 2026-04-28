@@ -5,7 +5,7 @@
   align-items: center;
   
   .main-room-north-grid {
-    width: 88%;
+    width: 87%;
     height: 40rem;
     display: grid;
     grid-template-columns: 1.8fr 5.5fr 5.8fr 5.5fr 5.9fr 4.8fr 1.5fr 4.7fr;
@@ -441,9 +441,11 @@
   }
 }
 
-// -------------------- Media Queries ---------------------- //
+// --------------------------- Media Queries ------------------------------- //
 
-@media (max-width: 1800px) {
+// --------------- Max-Width 1820 ---------------- //
+
+@media screen and (min-width: 1761px) and (max-width: 1820px) {
   .main-room-north-container {
 
     .main-room-north-grid {
@@ -452,7 +454,42 @@
   }
 }
 
-@media (max-width: 1370px) {
+// --------------- Max-Width 1760 ---------------- //
+
+@media screen and (min-width: 1721px) and (max-width: 1760px) {
+  .main-room-north-container {
+
+    .main-room-north-grid {
+      width: 92%;
+    }
+  }
+}
+
+// --------------- Max-Width 1720 ---------------- //
+
+@media screen and (min-width: 1671px) and (max-width: 1720px) {
+  .main-room-north-container {
+
+    .main-room-north-grid {
+      width: 93%;
+    }
+  }
+}
+
+// --------------- Max-Width 1670 ---------------- //
+
+@media screen and (min-width: 1601px) and (max-width: 1670px) {
+  .main-room-north-container {
+
+    .main-room-north-grid {
+      width: 94%;
+    }
+  }
+}
+
+// --------------- Max-Width 1370 ---------------- //
+
+@media screen and (max-width: 1370px) {
   .main-room-north-container {
   
   .main-room-north-grid {
@@ -819,18 +856,8 @@
 
 }
 
-@media (max-width: 1200px) {
+// --------------- Max-Width 1190 ---------------- //
 
-}
 
-@media (max-width: 1200px) {
 
-}
-
-@media (max-width: 1200px) {
-
-}
-
-@media (max-width: 1200px) {
-
-}
+// --------------- Max-Width 1030 ---------------- //
