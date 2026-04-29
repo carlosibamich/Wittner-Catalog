@@ -1,0 +1,222 @@
+// ------------ Stairwell Room ----------- //
+.stairwell-north-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .stairwell-north-grid {
+    width: 85%;
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 1.6fr 0.8fr 1.4fr 2.5fr 1.6fr;
+    gap: 0;
+
+    // .section {
+    //   border: 1px solid #d5d5d5;
+    // }
+
+    //----------------- COLUMN 1 ------------------//
+
+    .stairwell-north-column-1 {
+      position: relative;
+      display: flex;
+
+     
+    }
+    //----------------- COLUMN 2 ------------------//
+
+    .stairwell-north-column-2 {
+      position: relative;
+      display: flex;
+
+      // ---------- White Clown 2 --------- //
+      .sub-section-2-1 {
+        position: absolute;
+        top: 12.5rem;
+        left: 1.6rem;
+        width: 3rem;
+      }
+
+      // ---------- Dervish 3 --------- //  
+      .sub-section-2-2 {
+        position: absolute;
+        top: 17.4rem;
+        left: 2.2rem;
+        width: 1.8rem;
+      }
+
+      // ---------- Jester --------- //
+      .sub-section-2-3 {
+        position: absolute;
+        top: 20.6rem;
+        left: 1.85rem;
+        width: 2.4rem;
+      }
+
+      // ---------- Untitled --------- //
+      .sub-section-2-4 {
+        position: absolute;
+        top: 25.2rem;
+        left: 2.25rem;
+        width: 1.7rem;
+      }
+
+      // ---------- Flight School --------- //
+      .sub-section-2-5 {
+        position: absolute;
+        top: 30rem;
+        left: 1.5rem;
+        width: 3.1rem;
+      }
+
+      // ---------- Dessert Chef --------- //
+      .sub-section-2-6 {
+        position: absolute;
+        top: 14.9rem;
+        right: 0.1rem;
+        width: 3.1rem;
+      }
+
+      // ---------- She's Leaving Home --------- //
+      .sub-section-2-7 {
+        position: absolute;
+        top: 20rem;
+        right: -0.35rem;
+        width: 4rem;
+      }
+
+      // ---------- The Museum --------- //
+      .sub-section-2-8 {
+        position: absolute;
+        top: 26rem;
+        right: -0.45rem;
+        width: 4.2rem;
+      }
+    }
+
+    //----------------- COLUMN 3 ------------------//
+
+    .stairwell-north-column-3 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      
+      // ---------- Brunhilda --------- //
+      .sub-section-3-1 {
+        position: absolute;
+        top: 0;
+        width: 18.4rem;
+      }
+      .sub-section-3-2 {
+        position: absolute;
+        bottom: 0;
+
+        .white-door-frame {
+          display: flex;
+          justify-content: center;
+          width: 14.5rem;
+          height: 25.2rem;
+          border: 2px solid #d3d3d3;
+
+          .white-door {
+            position: absolute;
+            bottom: 0;
+            width: 11.7rem;
+            height: 23.8rem;
+            border: 2px solid #d3d3d3;
+          }
+        }
+      }
+    }
+    
+    //----------------- COLUMN 4 ------------------//
+    
+    .stairwell-north-column-4 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      
+      // ---------- Pay in Advance --------- //
+      .sub-section-4-1 {
+        position: absolute;
+        top: 0;
+        width: 20.5rem;
+      }
+        
+      // ---------- Arrival --------- //
+      .sub-section-4-2 {
+        position: absolute;
+        top: 14.7rem;
+        left: 1.2rem;
+        width: 3.5rem;
+      }
+        
+      // ---------- A Better Place --------- //
+      .sub-section-4-3 {
+        position: absolute;
+        top: 20rem;
+        left: 0.9rem;
+        width: 4.1rem;
+      }
+        
+      // ---------- In Readiness --------- //
+      .sub-section-4-4 {
+        position: absolute;
+        top: 25.1rem;
+        left: 1.05rem;
+        width: 3.8rem;
+      }
+        
+      // ---------- Check Mate --------- //
+      .sub-section-4-5 {
+        position: absolute;
+        top: 16.7rem;
+        left: 7.7rem;
+        width: 3.5rem;
+      }
+        
+      // ---------- Fear of Doctors --------- //
+       .sub-section-4-6 {
+        position: absolute;
+        top: 22.3rem;
+        left: 7.2rem;
+        width: 4.5rem;
+      }
+        
+      // ---------- The Chariot --------- //
+      .sub-section-4-7 {
+        position: absolute;
+        top: 17.9rem;
+        // left: 16.8rem;
+        width: 6.2rem;
+      }
+        
+      // ---------- Out of Reach --------- //
+      .sub-section-4-8 {
+        position: absolute;
+        top: 16.7rem;
+        right: 7.8rem;
+        width: 3.4rem;
+      }
+      
+      // ---------- Red --------- //
+      .sub-section-4-9 {
+        position: absolute;
+        top: 21.7rem;
+        right: 7.55rem;
+        width: 3.9rem;
+      }
+
+      // ---------- Surprised --------- //
+      .sub-section-4-10 {
+        position: absolute;
+        top: 18.8rem;
+        right: 1.8rem;
+        width: 3.8rem;
+      }
+    }
+  }
+}

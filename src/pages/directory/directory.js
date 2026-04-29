@@ -268,7 +268,7 @@ export const directory = [
     {
       id: 7,
       imgSrc: Neptunes1,
-      title: "The Neptunes Confront Us About the Pollution 1",
+      title: "The Neptunes Confront Us About the Pollution",
       audio: false,
     },
     {
