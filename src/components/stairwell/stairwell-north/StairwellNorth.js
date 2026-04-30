@@ -23,7 +23,31 @@ const StairwellNorth = () => {
         {/* // ---------------- Column 1 ----------------- // */}
 
         <div className="section stairwell-north-column-1">
-          
+          <div className="border-shadow-sm sub-section-1-1">
+            <img 
+              src={directory[183].imgSrc}
+            />
+          </div>
+          <div className="border-shadow-sm sub-section-1-2">
+            <img
+              src={directory[184].imgSrc}
+            />
+          </div>
+          <div className="border-shadow-sm sub-section-1-3">
+            <img
+              src={directory[185].imgSrc}            
+            />
+          </div>
+          <div className="border-shadow-sm sub-section-1-4">
+            <img 
+              src={directory[186].imgSrc}
+            />
+          </div>
+          <div className="sub-section-1-5">
+            <div className="white-door-frame">
+              <div className="white-door"></div>
+            </div>
+          </div>
         </div>
         {/* // ---------------- Column 2 ----------------- // */}
 
@@ -162,7 +186,47 @@ const StairwellNorth = () => {
         {/* // ---------------- Column 5 ----------------- // */}
 
         <div className="section stairwell-north-column-5">
-          
+          <div className="sub-section-5-1">
+            <div className="white-door-frame">
+              <div className="white-door"></div>
+            </div>
+          </div>
+          <div className="stairs-container sub-section-5-2">
+            <div className="steps-container">
+              <div className="steps step-1"></div>
+              <div className="steps step-2"></div>
+              <div className="steps step-3"></div>
+              <div className="steps step-4"></div>
+              <div className="steps step-5"></div>
+              <div className="steps step-6"></div>
+            </div>
+          </div>
+
+          <div className="border-shadow-lg sub-section-5-3">
+            <img 
+              src={directory[161].imgSrc}
+            />
+          </div>
+          <div className="border-shadow-sm sub-section-5-4">
+            <img 
+              src={directory[162].imgSrc}
+            />
+          </div>
+          <div className="border-shadow-sm sub-section-5-5">
+            <img
+              src={directory[163].imgSrc}
+            />
+          </div>
+          <div className="border-shadow-sm sub-section-5-6">
+            <img 
+              src={directory[164].imgSrc}
+            />
+          </div>
+          <div className="border-shadow-sm sub-section-5-7">
+            <img 
+              src={directory[165].imgSrc}
+            />
+          </div>
         </div>
       </div>
       <ImageModal 

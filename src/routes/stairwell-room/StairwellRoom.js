@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { useSnapCarousel } from 'react-snap-carousel';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
 import StairwellNorth from '../../components/stairwell/stairwell-north/StairwellNorth';
+import StairwellSouth from '../../components/stairwell/stairwell-south/StairwellSouth';
 import './StairwellRoom.styles.scss';
 
 const StairwellRoom = () => {
@@ -30,10 +31,10 @@ const StairwellRoom = () => {
     //   id: 2,
     //   content: <StairwellEast />
     // }, 
-    // {
-    //   id: 3,
-    //   content: <StairwellSouth />
-    // }, 
+    {
+      id: 3,
+      content: <StairwellSouth />
+    }, 
     // {
     //   id: 4,
     //   content: <StairwellWest />
