@@ -3,7 +3,9 @@ import { useLocation } from 'react-router-dom';
 import { useSnapCarousel } from 'react-snap-carousel';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
 import StairwellNorth from '../../components/stairwell/stairwell-north/StairwellNorth';
+import StairwellEast from '../../components/stairwell/stairwell-east/StairwellEast';
 import StairwellSouth from '../../components/stairwell/stairwell-south/StairwellSouth';
+import StairwellWest from '../../components/stairwell/stairwell-west/StairwellWest';
 import './StairwellRoom.styles.scss';
 
 const StairwellRoom = () => {
@@ -27,18 +29,18 @@ const StairwellRoom = () => {
       id: 1,
       content: <StairwellNorth />
     }, 
-    // { 
-    //   id: 2,
-    //   content: <StairwellEast />
-    // }, 
+    { 
+      id: 2,
+      content: <StairwellEast />
+    }, 
     {
       id: 3,
       content: <StairwellSouth />
     }, 
-    // {
-    //   id: 4,
-    //   content: <StairwellWest />
-    // },
+    {
+      id: 4,
+      content: <StairwellWest />
+    },
   ];
 
   const handleNext = useCallback(() => {
