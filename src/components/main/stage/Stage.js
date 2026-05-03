@@ -22,7 +22,7 @@ const StageEast = () => {
 
         {/* // ---------------- Column 1 ----------------- // */}
 
-        <div className="section west-column-1">
+        <div className="section stage-column-1">
           <div className="past-behind-container">
             <div className="border-shadow-lg sub-section-1-1">
               <img 
@@ -56,21 +56,18 @@ const StageEast = () => {
             <img 
               src={directory[89].imgSrc}
               onClick={() => handleOpen(directory[89].imgSrc, directory[89].title)}
-              loading="lazy"
             />          
           </div>
           <div className="border-shadow-sm sub-section-2-2">
             <img 
               src={directory[90].imgSrc} 
               onClick={() => handleOpen(directory[90].imgSrc, directory[90].title)}
-              loading="lazy"
             />
           </div>
           <div className="border-shadow-sm sub-section-2-3">
             <img 
               src={directory[91].imgSrc} 
               onClick={() => handleOpen(directory[91].imgSrc, directory[91].title)}
-              loading="lazy"
             />         
           </div>
           <div className="border-shadow-lg sub-section-2-4">
@@ -98,62 +95,52 @@ const StageEast = () => {
             <div className="alcove-entrance">
               <div className="border-shadow-lg sub-section-2-7">
                 <img 
-                  src={directory[65].imgSrc} 
-                  loading="lazy"
+                  src={directory[65].imgSrc}
                 />
               </div>
               <div className="border-shadow-sm sub-section-2-8">
                 <img 
                   src={directory[66].imgSrc} 
-                  loading="lazy"
                 />
               </div>
               <div className="border-shadow-sm sub-section-2-9">
                 <img 
-                  src={directory[67].imgSrc} 
-                  loading="lazy"
+                  src={directory[67].imgSrc}
                 />
               </div>
               <div className="border-shadow-sm sub-section-2-10">
                 <img 
-                  src={directory[68].imgSrc} 
-                  loading="lazy"
+                  src={directory[68].imgSrc}
                 />
               </div>
               <div className="border-shadow-sm sub-section-2-11">
                 <img 
                   src={directory[69].imgSrc} 
-                  loading="lazy"
                 />
               </div>
               <div className="border-shadow-sm sub-section-2-12">
                 <img 
                   src={directory[71].imgSrc} 
-                  loading="lazy"
                 />
               </div>
               <div className="border-shadow-sm sub-section-2-13">
                 <img 
-                  src={directory[70].imgSrc} 
-                  loading="lazy"
+                  src={directory[70].imgSrc}
                 />
               </div>
               <div className="border-shadow-sm sub-section-2-14">
                 <img 
-                  src={directory[72].imgSrc} 
-                  loading="lazy"
+                  src={directory[72].imgSrc}
                 />
               </div>
               <div className="border-shadow-sm sub-section-2-15">
                 <img 
-                  src={directory[73].imgSrc} 
-                  loading="lazy"
+                  src={directory[73].imgSrc}
                 />
               </div>
               <div className="border-shadow-sm sub-section-2-16">
                 <img 
-                  src={directory[74].imgSrc} 
-                  loading="lazy"
+                  src={directory[74].imgSrc}
                 />
               </div>
             </div>
@@ -189,7 +176,6 @@ const StageEast = () => {
               loading="lazy"
             />
           </div>
-          {/* <div className="stage-door"></div> */}
           <div className="border-shadow-lg sub-section-4-3">
             <img 
               src={directory[98].imgSrc} 
@@ -201,35 +187,31 @@ const StageEast = () => {
             <img 
               src={directory[99].imgSrc} 
               onClick={() => handleOpen(directory[99].imgSrc, directory[99].title)}
-              loading="lazy"
             /> 
           </div>
           <div className="border-shadow-sm sub-section-4-5">
             <img 
               src={directory[100].imgSrc} 
               onClick={() => handleOpen(directory[100].imgSrc, directory[100].title)}
-              loading="lazy"
             />          
           </div>
           <div className="border-shadow-sm sub-section-4-6">
             <img 
               src={directory[101].imgSrc} 
               onClick={() => handleOpen(directory[101].imgSrc, directory[101].title)}
-              loading="lazy"
             />           
           </div>
           <div className="border-shadow-sm sub-section-4-7">
             <img 
               src={directory[102].imgSrc} 
               onClick={() => handleOpen(directory[102].imgSrc, directory[102].title)}
-              loading="lazy"
             />            
           </div>
         </div>
 
         {/* // ---------------- Column 5 ----------------- // */}
 
-        <div className="section west-column-5">
+        <div className="section stage-column-5">
           <div className="border-shadow-lg sub-section-5-1">
             <img 
               src={directory[103].imgSrc} 
@@ -248,7 +230,7 @@ const StageEast = () => {
         </div>
         {/* // ---------------- Column 5 ----------------- // */}
 
-        <div className="section west-column-6">
+        <div className="section stage-column-6">
           <div className="platform-container">
             <div className="step"></div>
             <div className="step"></div>
