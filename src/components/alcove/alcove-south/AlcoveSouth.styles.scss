@@ -1,0 +1,272 @@
+// ------------ Alcove North ----------- //
+.alcove-south-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .alcove-south-grid {
+    width: 74%;
+    height: 39rem;
+    display: grid;
+    grid-template-columns: 1fr 1.27fr 1fr;
+    gap: 0;
+
+    // .section {
+    //   border: 1px solid #d5d5d5;
+    // }
+
+    //----------------- COLUMN 1 ------------------//
+
+    .alcove-south-column-1 {
+      position: relative;
+      display: flex;
+      background: linear-gradient(200deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.04));
+      filter: blur(1px);
+      opacity: 0.4;
+
+      // ---------- Kindred Spirits --------- //
+    .sub-section-1-1 {
+      position: absolute;
+      top: 4.2rem;
+      right: 4.7rem;
+      width: 14.2rem;
+
+      img {
+        cursor: auto;
+      }
+    }
+        
+    // ---------- Flip --------- //
+    .sub-section-1-2 {
+      position: absolute;
+      top: 18.8rem;
+      right: 17.4rem;
+      width: 3.6rem;
+
+      img {
+        cursor: auto;
+      }
+    }
+        
+    // ---------- You First --------- //
+    .sub-section-1-3 {
+      position: absolute;
+      top: 22rem;
+      right: 17.5rem;
+      width: 3.6rem;
+
+      img {
+        cursor: auto;
+      }
+    }
+        
+    // ---------- Another Afternoon at Lucille's --------- //
+    .sub-section-1-4 {
+      position: absolute;
+      top: 19.01rem;
+      right: 7.5rem;
+      width: 8.9rem;
+
+      img {
+        cursor: auto;
+      }
+    }
+        
+    // ---------- Bird Sanctuary --------- //
+    .sub-section-1-5 {
+      position: absolute;
+      top: 18.8rem;
+      right: 3.3rem;
+      width: 3.1rem;
+
+      img {
+        cursor: auto;
+      }
+    }
+
+    // ---------- Neptunes Confront Us --------- //
+    .sub-section-1-6 {
+      position: absolute;
+      top: 22.5rem;
+      right: 3.1rem;
+      width: 3.3rem;
+
+      img {
+        cursor: auto;
+      }
+    }
+    }
+    
+    //----------------- COLUMN 2 ------------------//
+    
+    .alcove-south-column-2 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      border-right: 2px solid #ececec;
+
+      
+      // ---------- Jacob Wrestling the Angel --------- //
+      .sub-section-2-1 {
+        position: absolute;
+        top: 0.4rem;
+        width: 15rem;
+      }
+        
+      .alcove-exit-container {
+        position: absolute;
+        bottom: 0;
+        width: 21rem;
+        height: 22.8rem;
+        overflow: hidden;
+        border-radius: 4px;
+        background: linear-gradient(195deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.05));
+
+        .alcove-exit {
+          position: relative;
+          filter: blur(1px);
+          opacity: 0.5;
+
+          img {
+            cursor: auto;
+          }
+
+          // ------------ Jacob's Dream ------------ //
+          .sub-section-2-2 {
+            position: absolute;
+            top: 1.5rem;
+            left: -6rem;
+            width: 15rem;
+          }
+
+          // ------------ Lunch Time ------------ //
+          .sub-section-2-3 {
+            position: absolute;
+            top: -0.5rem;
+            left: 11.1rem;
+            width: 4.8rem;
+          }
+          
+          // ------------ Red Rope ------------ //
+          .sub-section-2-4 {
+            position: absolute;
+            top: 7.9rem;
+            left: 11.3rem;
+            width: 4.3rem;
+          }
+          
+          // ------------ Can You See Me? ------------ //
+          .sub-section-2-5 {
+            position: absolute;
+            top: 1.4rem;
+            right: 1.4rem;
+            width: 1.8rem;
+          }
+          
+          // ------------ Into the Unknown ------------ //
+          .sub-section-2-6 {
+            position: absolute;
+            top: 5.9rem;
+            right: 1.3rem;
+            width: 2rem;
+          }
+          
+          // ------------ No Friends ------------ //
+          .sub-section-2-7 {
+            position: absolute;
+            top: 8.8rem;
+            right: 1.3rem;
+            width: 2rem;
+          }
+          
+          // ------------ Butterfly Woman ------------ //
+          .sub-section-2-8 {
+            position: absolute;
+            top: 11.6rem;
+            right: 1.3rem;
+            width: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .alcove-south-column-3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(160deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.04));
+    filter: blur(1px);
+    opacity: 0.4;
+
+    // ---------- The last Voyage of the Queen Mother --------- //
+      .sub-section-3-1 {
+        position: absolute;
+        top: 3.3rem;
+        left: 3.2rem;
+        width: 17.4rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      // ---------- Moment of Enlightenment --------- //
+      .sub-section-3-2 {
+        position: absolute;
+        top: 19.8rem;
+        left: 4.2rem;
+        width: 4.6rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      // ---------- Try --------- //
+      .sub-section-3-3 {
+        position: absolute;
+        top: 19.3rem;
+        left: 10.4rem;
+        width: 4.3rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      // ---------- Practice --------- //
+      .sub-section-3-4 {
+        position: absolute;
+        top: 22.9rem;
+        left: 10.4rem;
+        width: 4.3rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+      // ---------- You Have to do Better than That --------- //
+      .sub-section-3-5 {
+        position: absolute;
+        top: 19.3rem;
+        left: 15.2rem;
+        width: 4.3rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+      // ---------- Choose A Direction --------- //
+      .sub-section-3-6 {
+        position: absolute;
+        top: 22.9rem;
+        left: 15.2rem;
+        width: 4.3rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+  }
+}

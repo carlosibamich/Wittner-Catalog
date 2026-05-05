@@ -163,6 +163,5 @@ const AlcoveNorth = () => {
       />
     </div>
   )
-
 };
 export default AlcoveNorth;

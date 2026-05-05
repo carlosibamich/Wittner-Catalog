@@ -1,14 +1,14 @@
-// ------------ Stairwell Room ----------- //
+// ------------ Alcove North ----------- //
 .alcove-north-container {
   display: flex;
   justify-content: center;
   align-items: center;
   
   .alcove-north-grid {
-    width: 82%;
-    height: 40rem;
+    width: 74%;
+    height: 39rem;
     display: grid;
-    grid-template-columns: 1fr 1.4fr 1fr;
+    grid-template-columns: 1fr 1.27fr 1fr;
     gap: 0;
 
     // .section {
@@ -20,74 +20,74 @@
     .alcove-north-column-1 {
       position: relative;
       display: flex;
-      background: linear-gradient(200deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
+      background: linear-gradient(200deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.04));
       filter: blur(1px);
       opacity: 0.4;
 
-      // ---------- No Smoking --------- //
+      // ---------- The last Voyage of the Queen Mother --------- //
       .sub-section-1-1 {
         position: absolute;
-        top: 6.2rem;
-        right: 4.8rem;
-        width: 9rem;
+        top: 3.3rem;
+        right: 3.2rem;
+        width: 17.4rem;
 
         img {
           cursor: auto;
         }
       }
 
-      // ---------- Going Downstairs --------- //
+      // ---------- Moment of Enlightenment --------- //
       .sub-section-1-2 {
         position: absolute;
-        top: 17.85rem;
-        right: 12.4rem;
-        width: 3.7rem;
+        top: 19.8rem;
+        right: 15.2rem;
+        width: 4.6rem;
 
         img {
           cursor: auto;
         }
       }
 
-      // ---------- The Paint HAdn't Even Dried --------- //
+      // ---------- Try --------- //
       .sub-section-1-3 {
         position: absolute;
-        top: 16.5rem;
-        right: 7.1rem;
-        width: 4.2rem;
+        top: 19.3rem;
+        right: 9.2rem;
+        width: 4.3rem;
 
         img {
           cursor: auto;
         }
       }
 
-      // ---------- The Heirophant --------- //
+      // ---------- Practice --------- //
       .sub-section-1-4 {
         position: absolute;
-        top: 22rem;
-        right: 2.2rem;
-        width: 3.9rem;
+        top: 22.9rem;
+        right: 9.2rem;
+        width: 4.3rem;
 
         img {
           cursor: auto;
         }
       }
-      // ---------- The Heirophant --------- //
+      // ---------- You Have to do Better than That --------- //
       .sub-section-1-5 {
         position: absolute;
-        top: 18rem;
-        right: 2.2rem;
-        width: 3.9rem;
+        top: 19.3rem;
+        right: 4.2rem;
+        width: 4.3rem;
 
         img {
           cursor: auto;
         }
       }
-      // ---------- The Heirophant --------- //
+      // ---------- Choose A Direction --------- //
       .sub-section-1-6 {
         position: absolute;
-        top: 18rem;
-        right: 5.2rem;
-        width: 3.9rem;
+        top: 22.9rem;
+        right: 4.2rem;
+        width: 4.3rem;
 
         img {
           cursor: auto;
@@ -104,84 +104,83 @@
       border-right: 2px solid #ececec;
 
       
-      // ---------- Pay in Advance --------- //
+      // ---------- Installing the Music App --------- //
       .sub-section-2-1 {
         position: absolute;
-        top: 0;
-        left: 4.9rem;
-        width: 19.8rem;
+        top: 1.5rem;
+        width: 17.8rem;
       }
         
-      // ---------- Arrival --------- //
+      // ---------- Social Distancing --------- //
       .sub-section-2-2 {
         position: absolute;
-        top: 14.8rem;
-        left: 0.9rem;
-        width: 3.2rem;
+        top: 17rem;
+        left: 6rem;
+        width: 4.6rem;
       }
         
-      // ---------- A Better Place --------- //
+      // ---------- Time to Feed the Frog --------- //
       .sub-section-2-3 {
         position: absolute;
-        top: 19.7rem;
-        left: 0.6rem;
-        width: 3.9rem;
+        top: 22.1rem;
+        left: 6rem;
+        width: 4.6rem;
       }
         
-      // ---------- In Readiness --------- //
+      // ---------- Leavng the House of Horrors --------- //
       .sub-section-2-4 {
         position: absolute;
-        top: 24.6rem;
-        left: 0.7rem;
-        width: 3.7rem;
+        top: 17.2rem;
+        left: 11.6rem;
+        width: 5.2rem;
       }
         
-      // ---------- Check Mate --------- //
+      // ---------- A Much Needed Surgery --------- //
       .sub-section-2-5 {
         position: absolute;
-        top: 16.4rem;
-        left: 6.8rem;
-        width: 3.2rem;
+        top: 22.1rem;
+        left: 11.55rem;
+        width: 3.1rem;
       }
         
-      // ---------- Fear of Doctors --------- //
+      // ---------- Safe Travel --------- //
        .sub-section-2-6 {
         position: absolute;
-        top: 21.4rem;
-        left: 6.3rem;
-        width: 4.2rem;
-      }
-        
-      // ---------- The Chariot --------- //
-      .sub-section-2-7 {
-        position: absolute;
-        top: 17.5rem;
-        left: 11.7rem;
-        width: 6rem;
-      }
-        
-      // ---------- Out of Reach --------- //
-      .sub-section-2-8 {
-        position: absolute;
-        top: 16.5rem;
-        right: 6.3rem;
-        width: 3rem;
-      }
-      
-      // ---------- Red --------- //
-      .sub-section-2-9 {
-        position: absolute;
-        top: 21rem;
-        right: 6rem;
+        top: 22rem;
+        left: 15.6rem;
         width: 3.6rem;
       }
+        
+      // ---------- Arrival Through the Black Hole --------- //
+      .sub-section-2-7 {
+        position: absolute;
+        top: 17.1rem;
+        right: 11.4rem;
+        width: 5.2rem;
+      }
+        
+      // ---------- Martian Mary Poppins --------- //
+      .sub-section-2-8 {
+        position: absolute;
+        top: 22.2rem;
+        right: 11.5rem;
+        width: 2.7rem;
+      }
+      
+      // ---------- Fool In Recent Times --------- //
+      .sub-section-2-9 {
+        position: absolute;
+        top: 17.1rem;
+        right: 6.2rem;
+        width: 4.3rem;
+      }
 
-      // ---------- Surprised --------- //
+      // ---------- Homecoming for Lost tambourine --------- //
       .sub-section-2-10 {
         position: absolute;
-        top: 18.7rem;
-        right: 1.4rem;
-        width: 3.4rem;
+        top: 22rem;
+        right: 6.2rem;
+        width: 4.3rem;
       }
     }
   }
@@ -190,76 +189,76 @@
     position: relative;
     display: flex;
     justify-content: center;
-    background: linear-gradient(160deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
+    background: linear-gradient(160deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.04));
     filter: blur(1px);
     opacity: 0.4;
 
-    // ---------- Trip With My Brother --------- //
+    // ---------- Kindred Spirits --------- //
     .sub-section-3-1 {
       position: absolute;
-      top: 3.3rem;
-      left: 1.4rem;
-      width: 10.8rem;
+      top: 4.2rem;
+      left: 4.7rem;
+      width: 14.2rem;
 
       img {
         cursor: auto;
       }
     }
         
-    // ---------- Best of Show --------- //
+    // ---------- Flip --------- //
     .sub-section-3-2 {
       position: absolute;
-      top: 15rem;
-      left: 2.2rem;
-      width: 4.2rem;
+      top: 18.8rem;
+      left: 2.8rem;
+      width: 3.6rem;
 
       img {
         cursor: auto;
       }
     }
         
-    // ---------- Sainted --------- //
+    // ---------- You First --------- //
     .sub-section-3-3 {
       position: absolute;
-      top: 19rem;
-      left: 2.2rem;
-      width: 4.2rem;
+      top: 22rem;
+      left: 2.8rem;
+      width: 3.6rem;
 
       img {
         cursor: auto;
       }
     }
         
-    // ---------- Six Dogs --------- //
+    // ---------- Another Afternoon at Lucille's --------- //
     .sub-section-3-4 {
       position: absolute;
-      top: 14.1rem;
-      left: 7.7rem;
-      width: 3.8rem;
+      top: 19.01rem;
+      left: 7.5rem;
+      width: 8.9rem;
 
       img {
         cursor: auto;
       }
     }
         
-    // ---------- We Were Fighting --------- //
+    // ---------- Bird Sanctuary --------- //
     .sub-section-3-5 {
       position: absolute;
-      top: 19.9rem;
-      left: 7.7rem;
-      width: 3.4rem;
+      top: 18.8rem;
+      left: 17.5rem;
+      width: 3.1rem;
 
       img {
         cursor: auto;
       }
     }
 
-    // ---------- We Were Fighting --------- //
+    // ---------- Neptunes Confront Us --------- //
     .sub-section-3-6 {
       position: absolute;
-      top: 19.9rem;
-      left: 12.7rem;
-      width: 3.4rem;
+      top: 22.5rem;
+      left: 17.5rem;
+      width: 3.3rem;
 
       img {
         cursor: auto;

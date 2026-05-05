@@ -717,7 +717,7 @@ export const directory = [
     },
     {
       id: 82,
-      imgSrc: PlaceholderHorz,
+      imgSrc: PlaceholderSq,
       title: "Jacob Wrestling the Angel",
       audio: false,
     },
