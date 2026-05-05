@@ -19,6 +19,11 @@ function NavBar({ isActive }) {
         </NavLink>
       </div>
       <div className="navlink-container">
+        <NavLink to="/alcove" end className={`nav-link ${isActive ? 'active' : ''}`} >
+          <a>ALCOVE</a>
+        </NavLink>
+      </div>
+      <div className="navlink-container">
         <NavLink to="/stairwell" end className={`nav-link ${isActive ? 'active' : ''}`} >
           <a>STAIRWELL</a>
         </NavLink>

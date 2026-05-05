@@ -3,7 +3,9 @@ import ImageModal from '../../../pages/image-modal/ImageModal';
 import { directory } from '../../../pages/directory/directory';
 import './Stage.styles.scss';
 
-const StageEast = () => {
+const Stage = () => {
+  // --------------------- React Bootstrap modal --------------------- //
+
   const [ showModal, setShowModal] = useState(false);
   const [ selectedImg, setSelectedImg ] = useState(null);
   const [ selectedTitle, setSelectedTitle ] = useState(null);
@@ -15,6 +17,8 @@ const StageEast = () => {
   }
 
   const handleClose = () => setShowModal(false);
+
+  // ----------------------- End ------------------------- //
 
   return (
     <div className="main-room-stage-container">
@@ -219,7 +223,6 @@ const StageEast = () => {
               loading="lazy"
             />
           </div>
-          {/* <div className="stairs-door"></div> */}
           <div className="border-shadow-lg sub-section-5-2">
             <img 
               src={directory[104].imgSrc} 
@@ -244,9 +247,9 @@ const StageEast = () => {
         onHide={handleClose}
         imageSrc={selectedImg}
         title={selectedTitle}
-      />
+      /> 
     </div>
   )
 };
 
-export default StageEast;
+export default Stage;

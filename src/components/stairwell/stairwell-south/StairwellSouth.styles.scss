@@ -21,8 +21,9 @@
     position: relative;
     display: flex;
     justify-content: center;
+    background: linear-gradient(200deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
     filter: blur(1px);
-    opacity: 0.5;
+    opacity: 0.4;
 
     // ---------- Door --------- //
     .sub-section-1-1 {
@@ -202,7 +203,7 @@
       .sub-section-2-8 {
         position: absolute;
         top: 7.8rem;
-        right: -0.6rem;
+        right: -0.5rem;
         width: 6.2rem;
       }
 
@@ -210,7 +211,7 @@
       .sub-section-2-9 {
         position: absolute;
         top: 12.6rem;
-        right: 0.6rem;
+        right: 0.8rem;
         width: 3.8rem;
       }
 
@@ -218,7 +219,7 @@
       .sub-section-2-10 {
         position: absolute;
         top: 18.6rem;
-        right: -0.2rem;
+        right: 0;
         width: 5.6rem;
       }
     }
@@ -258,9 +259,9 @@
 
           .white-door {
             height: 23.5rem;
-            background: linear-gradient(195deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.11));
-            border-top: 3px solid #bababa;
-            border-left: 2px solid #cbcbcb;
+            background: linear-gradient(195deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.11));
+            border-top: 3px solid #c5c5c5;
+            border-left: 2px solid #ccc;
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
           }
@@ -305,7 +306,7 @@
       .sub-section-4-4 {
         position: absolute;
         top: 15.9rem;
-        left: 3.1rem;
+        left: 2.85rem;
         width: 5.7rem;
       }
         
@@ -313,7 +314,7 @@
       .sub-section-4-5 {
         position: absolute;
         top: 21.6rem;
-        left: 3.05rem;
+        left: 2.8rem;
         width: 5.7rem;
       }
     }
@@ -322,8 +323,9 @@
   .stairwell-south-column-5 {
       position: relative;
       display: flex;
+      background: linear-gradient(160deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
       filter: blur(1px);
-      opacity: 0.5;
+      opacity: 0.4;
 
       // ---------- No Smoking --------- //
       .sub-section-5-1 {

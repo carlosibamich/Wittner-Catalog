@@ -49,7 +49,9 @@ const MainWest = () => {
 
         <div className="section west-column-3">
           <div className="exit-container">
-            <div className="exit-sign">EXIT</div>
+            <div className="exit-sign-container">
+              <div className="exit-sign">EXIT</div>
+            </div>
             <div className="exit-door-frame"></div>
           </div>
           <div className="border-shadow-lg sub-section-3-1">

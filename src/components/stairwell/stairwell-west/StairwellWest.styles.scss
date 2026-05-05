@@ -8,7 +8,7 @@
     width: 75%;
     height: 40rem;
     display: grid;
-    grid-template-columns: 1.3fr 0.7fr 1fr 0.6fr 1.4fr;
+    grid-template-columns: 1.25fr 0.7fr 1.1fr 0.6fr 1.35fr;
     gap: 0;
 
     // .section {
@@ -23,14 +23,15 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      background: linear-gradient(200deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
       filter: blur(1px);
-      opacity: 0.5;
+      opacity: 0.4;
       
       // ---------- Unholy Matrimony --------- //
       .sub-section-1-1 {
         position: absolute;
         top: 7.8rem;
-        left: 4.2rem;
+        left: 3.4rem;
         width: 6.2rem;
 
         img {
@@ -42,7 +43,7 @@
       .sub-section-1-2 {
         position: absolute;
         top: 12.6rem;
-        left: 5.45rem;
+        left: 4.6rem;
         width: 3.8rem;
 
         img {
@@ -54,7 +55,7 @@
       .sub-section-1-3 {
         position: absolute;
         top: 18.6rem;
-        left: 4.45rem;
+        left: 3.5rem;
         width: 5.6rem;
 
         img {
@@ -114,8 +115,9 @@
       position: relative;
       display: flex;
       justify-content: center;
+      background: linear-gradient(200deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.09));
       filter: blur(1px);
-      opacity: 0.5;
+      opacity: 0.4;
 
       
       // ---------- Re-Entry was Rough --------- //
@@ -158,7 +160,7 @@
       .sub-section-2-4 {
         position: absolute;
         top: 15.9rem;
-        right: 2.7rem;
+        right: 2.9rem;
         width: 5.7rem;
 
         img {
@@ -170,7 +172,7 @@
       .sub-section-2-5 {
         position: absolute;
         top: 21.6rem;
-        right: 2.8rem;
+        right: 3rem;
         width: 5.7rem;
 
         img {
@@ -184,6 +186,7 @@
     .stairwell-west-column-3 {
       position: relative;
       display: flex;
+      justify-content: center;
       border-right: 2px solid #ececec;
       border-left: 2px solid #ececec;
 
@@ -192,7 +195,6 @@
       .sub-section-3-1 {
         position: absolute;
         top: 6.2rem;
-        right: 4.45rem;
         width: 9rem;
       }
 
@@ -200,7 +202,7 @@
       .sub-section-3-2 {
         position: absolute;
         top: 17.85rem;
-        right: 11.9rem;
+        right: 12.8rem;
         width: 3.7rem;
       }
 
@@ -208,7 +210,7 @@
       .sub-section-3-3 {
         position: absolute;
         top: 16.5rem;
-        right: 6.8rem;
+        right: 7.7rem;
         width: 4.2rem;
       }
 
@@ -216,7 +218,7 @@
       .sub-section-3-4 {
         position: absolute;
         top: 18rem;
-        right: 2rem;
+        right: 2.9rem;
         width: 3.9rem;
       }
       
@@ -224,7 +226,7 @@
       .sub-section-3-5 {
         position: absolute;
         bottom: 0;
-        right: 1.3rem;
+        right: 2.2rem;
 
         .white-door-frame {
           height: 17rem;
@@ -241,14 +243,15 @@
     .stairwell-west-column-4 {
       position: relative;
       display: flex;
+      background: linear-gradient(160deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.09));
       filter: blur(1px);
-      opacity: 0.5;
+      opacity: 0.4;
 
       // ---------- White Clown 2 --------- //
       .sub-section-4-1 {
         position: absolute;
         top: 12.5rem;
-        left: 1.6rem;
+        left: 1.8rem;
         width: 2.9rem;
 
         img {
@@ -260,7 +263,7 @@
       .sub-section-4-2 {
         position: absolute;
         top: 17.1rem;
-        left: 2.2rem;
+        left: 2.4rem;
         width: 1.7rem;
 
         img {
@@ -272,7 +275,7 @@
       .sub-section-4-3 {
         position: absolute;
         top: 20.1rem;
-        left: 1.85rem;
+        left: 2.05rem;
         width: 2.3rem;
 
         img {
@@ -284,7 +287,7 @@
       .sub-section-4-4 {
         position: absolute;
         top: 24.5rem;
-        left: 2.25rem;
+        left: 2.45rem;
         width: 1.6rem;
 
         img {
@@ -296,7 +299,7 @@
       .sub-section-4-5 {
         position: absolute;
         top: 29rem;
-        left: 1.5rem;
+        left: 1.7rem;
         width: 3rem;
 
         img {
@@ -308,7 +311,7 @@
       .sub-section-4-6 {
         position: absolute;
         top: 14.9rem;
-        right: 0.4rem;
+        right: 0.8rem;
         width: 2.9rem;
 
         img {
@@ -320,7 +323,7 @@
       .sub-section-4-7 {
         position: absolute;
         top: 19.7rem;
-        right: -0.05rem;
+        right: 0.3rem;
         width: 3.8rem;
 
         img {
@@ -332,7 +335,7 @@
       .sub-section-4-8 {
         position: absolute;
         top: 25.4rem;
-        right: -0.15rem;
+        right: 0.2rem;
         width: 4rem;
 
         img {
@@ -349,15 +352,16 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      background: linear-gradient(160deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
       filter: blur(1px);
-      opacity: 0.5;
+      opacity: 0.4;
       
       
       // ---------- Brunhilda --------- //
       .sub-section-5-1 {
         position: absolute;
         top: 0.8rem;
-        left: -0.1rem;
+        left: -0.4rem;
         width: 17.2rem;
 
         img {
@@ -368,7 +372,7 @@
       .sub-section-5-2 {
         position: absolute;
         bottom: 0;
-        left: 0.6rem;
+        left: 0.4rem;
 
         img {
           cursor: auto;
@@ -379,7 +383,7 @@
       .sub-section-5-3 {
         position: absolute;
         top: 14.8rem;
-        right: 4.1rem;
+        right: 3.4rem;
         width: 3.2rem;
 
         img {
@@ -391,7 +395,7 @@
       .sub-section-5-4 {
         position: absolute;
         top: 19.7rem;
-        right: 3.7rem;
+        right: 3.1rem;
         width: 3.9rem;
 
         img {
@@ -403,7 +407,7 @@
       .sub-section-5-5 {
         position: absolute;
         top: 24.6rem;
-        right: 3.8rem;
+        right: 3.2rem;
         width: 3.7rem;
 
         img {

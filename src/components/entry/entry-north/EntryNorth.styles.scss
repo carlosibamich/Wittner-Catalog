@@ -50,6 +50,7 @@
       position: relative;
       display: flex;
       justify-content: center;
+      background: linear-gradient(200deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
       filter: blur(1.2px);
       opacity: 0.4;
 
@@ -57,9 +58,9 @@
      // ---------- Art--------- //
       .sub-section-1-1 {
         position: absolute;
-        top: 0;
-        left: 1.2rem;
-        width: 12.6rem;
+        top: 1rem;
+        left: 2.2rem;
+        width: 11.8rem;
         
         img {
           cursor: auto;
@@ -69,9 +70,9 @@
      // ---------- Mother's Turn --------- //
       .sub-section-1-2 {
         position: absolute;
-        top: 0;
-        right: 2rem;
-        width: 17.6rem;
+        top: 1rem;
+        right: 3.2rem;
+        width: 16.8rem;
         
         img {
           cursor: auto;
@@ -79,7 +80,7 @@
       }
 
       .window-frame-n {
-        left: 0;
+        left: 3rem;
       }
     }
 
@@ -89,20 +90,20 @@
       position: relative;
       display: flex;
       justify-content: center;
-      border-right: 2px solid #d8d8d8;
-      border-left: 2px solid #d8d8d8;
+      border-right: 2px solid #ececec;
+      border-left: 2px solid #ececec;
 
      // ---------- Intelligence, Beauty, Love --------- //
       .sub-section-2-1 {
         position: absolute;
-        top: 4.6rem;
+        top: 4.5rem;
         width: 14rem;
       }
 
      // ---------- Dogs Rule the World --------- //
       .sub-section-2-2 {
         position: absolute;
-        top: 21.2rem;
+        top: 21rem;
         width: 12.8rem;
       }
     }
@@ -112,15 +113,16 @@
     .entry-north-column-3 {
       position: relative;
       display: flex;
+      background: linear-gradient(160deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
       filter: blur(1.2px);
       opacity: 0.4;
 
       // ---------- Challenges --------- //
       .sub-section-3-1 {
         position: absolute;
-        top: 0;
-        left: 2rem;
-        width: 12.3rem;
+        top: 1rem;
+        left: 3.4rem;
+        width: 11.7rem;
 
         img {
           cursor: auto;
@@ -130,9 +132,9 @@
       // ---------- Marriage of Art and Science --------- //
       .sub-section-3-2 {
         position: absolute;
-        top: 0;
-        right: 1rem;
-        width: 19.4rem;
+        top: 1rem;
+        right: 1.5rem;
+        width: 18.5rem;
 
         img {
           cursor: auto;
@@ -140,7 +142,7 @@
       }
 
       .window-frame-n {
-        right: 0;
+        right: 3rem;
       }
     }
   }

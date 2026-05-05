@@ -2,14 +2,13 @@ import { useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useSnapCarousel } from 'react-snap-carousel';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
-import MainNorth from '../../components/main/main-north/MainNorth';
-import NorthExit from '../../components/main/main-north-exit/NorthExit';
-import Stage from '../../components/main/stage/Stage';
-import MainSouth from '../../components/main/main-south/MainSouth';
-import MainWest from '../../components/main/main-west/MainWest';
+import AlcoveNorth from '../../components/alcove/alcove-north/AlcoveNorth';
+import AlcoveEast from '../../components/alcove/alcove-east/AlcoveEast';
+import AlcoveSouth from '../../components/alcove/alcove-south/AlcoveSouth';
+import AlcoveWest from '../../components/alcove/alcove-west/AlcoveWest';
 // import './MainRoom.styles.scss';
 
-const MainRoom = () => {
+const AlcoveRoom = () => {
 
   const {
     scrollRef,
@@ -24,28 +23,24 @@ const MainRoom = () => {
     refresh,
   } = useSnapCarousel();
 
-  const labels = ['NORTH', 'NORTH/EXIT', 'STAGE', 'SOUTH', 'WEST'];
+  const labels = ['NORTH', 'EAST', 'SOUTH', 'WEST'];
 
-  const mainRoomSlides = [
+  const alcoveRoomSlides = [
     {
       id: 1,
-      content: <MainNorth />
+      content: <AlcoveNorth />
     }, 
     { 
       id: 2,
-      content: <NorthExit />
+      content: <AlcoveEast />
     }, 
     { 
       id: 3,
-      content: <Stage />
+      content: <AlcoveSouth />
     }, 
     {
       id: 4,
-      content: <MainSouth />
-    }, 
-    {
-      id: 5,
-      content: <MainWest />
+      content: <AlcoveWest />
     },
   ];
 
@@ -95,7 +90,7 @@ const MainRoom = () => {
         </button>
       </div>
       <ul ref={scrollRef} className="gallery-container">
-        {mainRoomSlides.map((item) => (
+        {alcoveRoomSlides.map((item) => (
           <div key={item.id} className="wall-item">
             {item.content}
           </div>
@@ -105,4 +100,4 @@ const MainRoom = () => {
   )
 };
 
-export default MainRoom;
+export default AlcoveRoom;

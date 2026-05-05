@@ -1,0 +1,253 @@
+// .navigation-container {
+//   display:none;
+// }
+
+.main-room-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  z-index: 1000;
+
+  .main-room-north-exit-grid {
+    position: relative;
+    width: 83%;
+    height: 38rem;
+    display: grid;
+    grid-template-columns: 2.4fr 1fr 1fr 1.9fr;
+
+    // .section {
+    //   background-color: #fff;
+    //   border: 1px solid #f3f3f3;
+    // }
+
+    // -------------------- Column 1 --------------------- //
+
+    .north-exit-column-1 {
+      position: relative;
+      display: flex;
+      background: linear-gradient(200deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
+      filter: blur(1px);
+      opacity: 0.4;
+
+      .exit-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        .exit-sign-container {
+          position: absolute;
+          top: 7.8rem;
+          right: 8.4rem;
+        }
+
+        .exit-door-container {
+          position: absolute;
+          right: 3rem;
+
+          .white-door-frame {
+            background-color: #fcfcfc;
+            .white-door {
+  
+            }
+          }
+        }
+      }
+
+     // ---------- Premonition --------- //
+      .sub-section-1-1 {
+        position: absolute;
+        top: 1.5rem;
+        left: 3.2rem;
+        width: 7rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+      
+      // ---------- DessertChef --------- //
+      .sub-section-1-2 {
+        position: absolute;
+        top: 9.4rem;
+        left: 4rem;
+        width: 2.3rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+      
+      // ---------- WhiteClown --------- //
+      .sub-section-1-3 {
+        position: absolute;
+        top: 9.4rem;
+        left: 7.1rem;
+        width: 2.3rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      // ---------- GalleryHeaven --------- //
+      .sub-section-1-4 {
+        position: absolute;
+        top: 13.5rem;
+        left: 1.8rem;
+        width: 9.8rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      // ---------- StopFollowing --------- //
+      .sub-section-1-5 {
+        position: absolute;
+        bottom: 5.2rem;
+        left: 2.8rem;
+        width: 3.8rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      // ---------- Caryatids --------- //
+      .sub-section-1-6 {
+        position: absolute;
+        bottom: 5.8rem;
+        left: 7.7rem;
+        width: 5.8rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      // ---------- Dad and Three Eggs --------- //
+      .sub-section-1-7 {
+        position: absolute;
+        bottom: 14rem;
+        left: 12.8rem;
+        width: 3.7rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+    }
+
+    // -------------------- Column 2 --------------------- //
+
+    .north-exit-column-2 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-left: 2px solid #ececec;
+
+      // ---------- Welcome to America --------- //
+      .sub-section-2-1 {
+        position: absolute;
+        top: 6.8rem;
+        width: 7.7rem;
+      }
+
+      // ---------- Look At Me! --------- //  
+      .sub-section-2-2 {
+        position: absolute;
+        top: 15.2rem;
+        width: 10rem;
+      }
+    }
+
+    // -------------------- Column 3 --------------------- //
+
+    .north-exit-column-3 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-left: 2px solid #ececec;
+      border-right: 2px solid #ececec;
+
+
+      // ---------- The Captain --------- //
+      .sub-section-3-1 {
+        position: absolute;
+        top: 7.1rem;
+        width: 7rem;
+      }
+        
+      // ---------- House of Cards --------- //
+      .sub-section-3-2 {
+        position: absolute;
+        top: 14.9rem;
+        width: 9rem;
+      }
+    }
+
+    // -------------------- Column 4 --------------------- //
+
+    .north-exit-column-4 {
+      position: relative;
+      display: flex;
+      background: linear-gradient(160deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
+      filter: blur(1px);
+      opacity: 0.4;
+
+
+      // ---------- Beatrice --------- //
+      .sub-section-4-1 {
+        position: absolute;
+        top: 1.5rem;
+        left: 5rem;
+        width: 3.5rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      // ---------- Marge --------- //
+      .sub-section-4-2 {
+        position: absolute;
+        top: 1.5rem;
+        left: 9.8rem;
+        width: 2.7rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+
+      // ---------- Take Your Medicine --------- //
+      .sub-section-4-3 {
+        position: absolute;
+        top: 1.5rem;
+        left: 13.75rem;
+        width: 3.6rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+        
+      // ---------- Different Realities --------- //
+      .sub-section-4-4 {
+        position: absolute;
+        top: 8.1rem;
+        left: 5rem;
+        width: 12.4rem;
+
+        img {
+          cursor: auto;
+        }
+      }
+    }
+  }
+}

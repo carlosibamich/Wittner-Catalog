@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 0;
-  background-color: #fefdf8;
+  // background-color: #fefdf8;
   z-index: 300;
   
   .navigation {
@@ -19,9 +19,10 @@
     height: 100%;
 
     .logo-container {
-      max-width: 15rem;
+      max-width: 15.2rem;
       max-height: auto;
-      padding-top: 3.2rem;
+      padding-top: 3.4rem;
+      padding-right: 0.4rem;
     }
 
     .nav-center {
