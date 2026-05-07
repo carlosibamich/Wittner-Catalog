@@ -25,6 +25,9 @@
       filter: blur(1px);
       opacity: 0.4;
 
+      img {
+        cursor: auto;
+      }
       
       // ---------- Pay in Advance --------- //
       .sub-section-1-1 {
@@ -32,10 +35,6 @@
         top: 1.2rem;
         left: 6.6rem;
         width: 19.5rem;
-
-        img {
-          cursor: auto;
-        }
       }
         
       // ---------- Arrival --------- //
@@ -44,10 +43,6 @@
         top: 16rem;
         left: 2.8rem;
         width: 3.1rem;
-
-        img {
-          cursor: auto;
-        }
       }
         
       // ---------- A Better Place --------- //
@@ -56,10 +51,6 @@
         top: 20.9rem;
         left: 2.4rem;
         width: 3.8rem;
-
-        img {
-          cursor: auto;
-        }
       }
         
       // ---------- In Readiness --------- //
@@ -68,10 +59,6 @@
         top: 25.8rem;
         left: 2.5rem;
         width: 3.6rem;
-
-        img {
-          cursor: auto;
-        }
       }
         
       // ---------- Check Mate --------- //
@@ -80,10 +67,6 @@
         top: 16.5rem;
         left: 8.5rem;
         width: 3.1rem;
-
-        img {
-          cursor: auto;
-        }
       }
         
       // ---------- Fear of Doctors --------- //
@@ -92,10 +75,6 @@
         top: 21.5rem;
         left: 8rem;
         width: 4.1rem;
-
-        img {
-          cursor: auto;
-        }
       }
         
       // ---------- The Chariot --------- //
@@ -104,10 +83,6 @@
         top: 17.5rem;
         left: 13.5rem;
         width: 5.9rem;
-
-        img {
-          cursor: auto;
-        }
       }
         
       // ---------- Out of Reach --------- //
@@ -116,10 +91,6 @@
         top: 16.5rem;
         right: 6.05rem;
         width: 2.9rem;
-
-        img {
-          cursor: auto;
-        }
       }
       
       // ---------- Red --------- //
@@ -128,10 +99,6 @@
         top: 21rem;
         right: 5.75rem;
         width: 3.5rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Surprised --------- //
@@ -140,10 +107,6 @@
         top: 18.5rem;
         right: 1.3rem;
         width: 3.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
     }
     
@@ -260,16 +223,16 @@
       filter: blur(1px);
       opacity: 0.5;
 
+      img {
+        cursor: auto;
+      }
+
       // ---------- Nothing Makes Sense --------- //
       .sub-section-3-1 {
         position: absolute;
         top: 6.4rem;
         left: 1.5rem;
         width: 2.2rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Where Are You Going --------- //  
@@ -278,10 +241,6 @@
         top: 6rem;
         left: 5.4rem;
         width: 3.7rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Eggs --------- //
@@ -290,10 +249,6 @@
         top: 10.3rem;
         left: 4.3rem;
         width: 5.6rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- No Mother, Stay in the Rocket Ship --------- //
@@ -302,10 +257,6 @@
         top: 7rem;
         left: 11.5rem;
         width: 4rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Divas --------- //
@@ -314,10 +265,6 @@
         top: 12.8rem;
         left: 10.9rem;
         width: 5.2rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- A Cold Wind --------- //
@@ -326,10 +273,6 @@
         top: 8.6rem;
         right: 13.2rem;
         width: 4rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Voices of Doom --------- //
@@ -338,10 +281,6 @@
         top: 15.9rem;
         right: 11.9rem;
         width: 6.7rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Unholy Matrimony --------- //
@@ -350,10 +289,6 @@
         top: 7.8rem;
         right: 5.1rem;
         width: 6.2rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Anger --------- //
@@ -362,10 +297,6 @@
         top: 12.6rem;
         right: 6.1rem;
         width: 3.8rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Overqualified --------- //
@@ -374,10 +305,6 @@
         top: 18.6rem;
         right: 5.3rem;
         width: 5.6rem;
-
-        img {
-          cursor: auto;
-        }
       }
     }   
   }

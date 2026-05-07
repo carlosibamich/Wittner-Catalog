@@ -24,16 +24,16 @@
       filter: blur(1px);
       opacity: 0.4;
 
+      img {
+        cursor: auto;
+      }
+
       // ---------- The last Voyage of the Queen Mother --------- //
       .sub-section-1-1 {
         position: absolute;
         top: 3.3rem;
         right: 3.2rem;
         width: 17.4rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Moment of Enlightenment --------- //
@@ -42,10 +42,6 @@
         top: 19.8rem;
         right: 15.2rem;
         width: 4.6rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Try --------- //
@@ -54,10 +50,6 @@
         top: 19.3rem;
         right: 9.2rem;
         width: 4.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Practice --------- //
@@ -66,10 +58,6 @@
         top: 22.9rem;
         right: 9.2rem;
         width: 4.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
       // ---------- You Have to do Better than That --------- //
       .sub-section-1-5 {
@@ -77,10 +65,6 @@
         top: 19.3rem;
         right: 4.2rem;
         width: 4.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
       // ---------- Choose A Direction --------- //
       .sub-section-1-6 {
@@ -88,10 +72,6 @@
         top: 22.9rem;
         right: 4.2rem;
         width: 4.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
     }
     
@@ -193,16 +173,16 @@
     filter: blur(1px);
     opacity: 0.4;
 
+    img {
+      cursor: auto;
+    }
+
     // ---------- Kindred Spirits --------- //
     .sub-section-3-1 {
       position: absolute;
       top: 4.2rem;
       left: 4.7rem;
       width: 14.2rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- Flip --------- //
@@ -211,10 +191,6 @@
       top: 18.8rem;
       left: 2.8rem;
       width: 3.6rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- You First --------- //
@@ -223,10 +199,6 @@
       top: 22rem;
       left: 2.8rem;
       width: 3.6rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- Another Afternoon at Lucille's --------- //
@@ -235,10 +207,6 @@
       top: 19.01rem;
       left: 7.5rem;
       width: 8.9rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- Bird Sanctuary --------- //
@@ -247,10 +215,6 @@
       top: 18.8rem;
       left: 17.5rem;
       width: 3.1rem;
-
-      img {
-        cursor: auto;
-      }
     }
 
     // ---------- Neptunes Confront Us --------- //
@@ -259,10 +223,6 @@
       top: 22.5rem;
       left: 17.5rem;
       width: 3.3rem;
-
-      img {
-        cursor: auto;
-      }
     }
   }
 }

@@ -54,6 +54,9 @@
       filter: blur(1.2px);
       opacity: 0.4;
 
+      img {
+          cursor: auto;
+        }
 
      // ---------- Art--------- //
       .sub-section-1-1 {
@@ -61,10 +64,6 @@
         top: 1rem;
         left: 2.2rem;
         width: 11.8rem;
-        
-        img {
-          cursor: auto;
-        }
       }
 
      // ---------- Mother's Turn --------- //
@@ -73,10 +72,6 @@
         top: 1rem;
         right: 3.2rem;
         width: 16.8rem;
-        
-        img {
-          cursor: auto;
-        }
       }
 
       .window-frame-n {
@@ -117,16 +112,16 @@
       filter: blur(1.2px);
       opacity: 0.4;
 
+      img {
+          cursor: auto;
+        }
+
       // ---------- Challenges --------- //
       .sub-section-3-1 {
         position: absolute;
         top: 1rem;
         left: 3.4rem;
         width: 11.7rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Marriage of Art and Science --------- //
@@ -135,10 +130,6 @@
         top: 1rem;
         right: 1.5rem;
         width: 18.5rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       .window-frame-n {

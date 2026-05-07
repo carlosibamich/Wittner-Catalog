@@ -8,6 +8,7 @@ import DogsRule from '../../assets/images/entry-north/2-dogs-rule-world.webp';
 import Challenges from '../../assets/images/entry-east/3-challenges.webp';
 import ArtScience from '../../assets/images/entry-east/4-marriage-art-science.webp';
 import Venus from '../../assets/images/entry-east/5-venus.webp';
+import ItsTime from '../../assets/images/entry-east/6-its-time.webp';
 import Neptunes1 from '../../assets/images/entry-east/7-neptunes-confront-pollution.webp';
 import TheDream from '../../assets/images/entry-east/8-the-dream.webp';
 import Evan from '../../assets/images/entry-east/9-evan.webp';
@@ -20,6 +21,7 @@ import WrongScore from '../../assets/images/entry-south/10-wrong-score.webp';
 
 import AnotherArrival from '../../assets/images/entry-west/11-another-arrival-black-hole.webp';
 import Getaway from '../../assets/images/entry-west/12-fast-getaway.webp';
+import Spotlight from '../../assets/images/entry-west/13-moving-the-spotlight.webp';
 import Art from '../../assets/images/entry-west/14-art.webp';
 import MothersTurn from '../../assets/images/entry-west/15-mothers-turn.webp';
 
@@ -97,7 +99,7 @@ import YouFirst from '../../assets/images/stage-alcove/78-you-first.webp';
 import Afternoon from '../../assets/images/stage-alcove/79-another-afternoon.webp';
 import BirdSanctuary from '../../assets/images/stage-alcove/80-bird-sanctuary.webp';
 import Neptunes2 from '../../assets/images/stage-alcove/81-neptunes-confront-us-2.webp';
-
+import Wrestling from '../../assets/images/stage-alcove/82-jacob-wrestling-angel.webp';
 import LastVoyage from '../../assets/images/stage-alcove/83-last-voyage.webp';
 import Enlightenment from '../../assets/images/stage-alcove/84-moment-of-enlightenment.webp';
 import Try from '../../assets/images/stage-alcove/85-try.webp';
@@ -224,6 +226,12 @@ import Gossip from '../../assets/images/stairwell/186-paint-hadnt-even-dried.web
 import Heirophant from '../../assets/images/stairwell/187-the-heirophant-tarot.webp';
 
 
+// ---------------------------------------- Audio Files ------------------------------------------ //
+
+
+
+//------------------------------------ End ------------------------------------ //
+
 import PlaceholderHorz from '../../assets/placeholder-horz.jpg';
 import PlaceholderSq from '../../assets/placeholder-sq.jpg';
 import PlaceholderVert from '../../assets/placeholder-vert.jpg';
@@ -261,7 +269,7 @@ export const directory = [
     },
     {
       id: 6,
-      imgSrc: PlaceholderHorz,
+      imgSrc: ItsTime,
       title: "It's Time",
       audio: false,
     },
@@ -303,7 +311,7 @@ export const directory = [
     },
     {
       id: 13,
-      imgSrc: PlaceholderVert,
+      imgSrc: Spotlight,
       title: "Moving the Spotlight",
       audio: true,
     },
@@ -717,7 +725,7 @@ export const directory = [
     },
     {
       id: 82,
-      imgSrc: PlaceholderSq,
+      imgSrc: Wrestling,
       title: "Jacob Wrestling the Angel",
       audio: false,
     },

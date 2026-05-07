@@ -32,7 +32,7 @@
 .entry-room-container {
   display: flex;
   justify-content: center;
-
+  
   .entry-south-grid {
     width: 85%;
     height: 40rem;
@@ -54,6 +54,9 @@
       filter: blur(1.2px);
       opacity: 0.4;
 
+      img {
+        cursor: auto;
+      }
 
      // ---------- It's Time --------- //
       .sub-section-1-1 {
@@ -61,10 +64,6 @@
         top: 1.9rem;
         left: 2rem;
         width: 18.6rem;
-        
-        img {
-          cursor: auto;
-        }
       }
 
      // ---------- The Neptunes Confront --------- //
@@ -73,10 +72,6 @@
         top: 1.2rem;
         right: 2rem;
         width: 17.8rem;
-        
-        img {
-          cursor: auto;
-        }
       }
 
      // ---------- Evan --------- //
@@ -85,10 +80,6 @@
         top: 20.5rem;
         right: 1.3rem;
         width: 6.2rem;
-        
-        img {
-          cursor: auto;
-        }
       }
 
       .window-frame-s {
@@ -122,16 +113,16 @@
       filter: blur(1.2px);
       opacity: 0.4;
 
+      img {
+        cursor: auto;
+      }
+
       // ---------- Another Arrival --------- //
       .sub-section-3-1 {
         position: absolute;
         top: 1.2rem;
         left: 2.1rem;
         width: 17.5rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Fast Getaway --------- //
@@ -140,10 +131,6 @@
         top: 2.1rem;
         right: 2.5rem;
         width: 14.5rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       .window-frame-s {

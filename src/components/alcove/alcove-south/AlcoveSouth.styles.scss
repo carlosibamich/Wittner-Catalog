@@ -24,16 +24,16 @@
       filter: blur(1px);
       opacity: 0.4;
 
+      img {
+        cursor: auto;
+      }
+
       // ---------- Kindred Spirits --------- //
     .sub-section-1-1 {
       position: absolute;
       top: 4.2rem;
       right: 4.7rem;
       width: 14.2rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- Flip --------- //
@@ -42,10 +42,6 @@
       top: 18.8rem;
       right: 17.4rem;
       width: 3.6rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- You First --------- //
@@ -54,10 +50,6 @@
       top: 22rem;
       right: 17.5rem;
       width: 3.6rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- Another Afternoon at Lucille's --------- //
@@ -66,10 +58,6 @@
       top: 19.01rem;
       right: 7.5rem;
       width: 8.9rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- Bird Sanctuary --------- //
@@ -78,10 +66,6 @@
       top: 18.8rem;
       right: 3.3rem;
       width: 3.1rem;
-
-      img {
-        cursor: auto;
-      }
     }
 
     // ---------- Neptunes Confront Us --------- //
@@ -90,12 +74,8 @@
       top: 22.5rem;
       right: 3.1rem;
       width: 3.3rem;
-
-      img {
-        cursor: auto;
-      }
     }
-    }
+  }
     
     //----------------- COLUMN 2 ------------------//
     
@@ -110,7 +90,7 @@
       .sub-section-2-1 {
         position: absolute;
         top: 0.4rem;
-        width: 15rem;
+        width: 16.4rem;
       }
         
       .alcove-exit-container {
@@ -120,12 +100,12 @@
         height: 22.8rem;
         overflow: hidden;
         border-radius: 4px;
-        background: linear-gradient(195deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.05));
+        background: linear-gradient(195deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.04));
 
         .alcove-exit {
           position: relative;
           filter: blur(1px);
-          opacity: 0.5;
+          opacity: 0.4;
 
           img {
             cursor: auto;
@@ -199,16 +179,16 @@
     filter: blur(1px);
     opacity: 0.4;
 
+    img {
+          cursor: auto;
+        }
+
     // ---------- The last Voyage of the Queen Mother --------- //
       .sub-section-3-1 {
         position: absolute;
         top: 3.3rem;
         left: 3.2rem;
         width: 17.4rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Moment of Enlightenment --------- //
@@ -217,10 +197,6 @@
         top: 19.8rem;
         left: 4.2rem;
         width: 4.6rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Try --------- //
@@ -229,10 +205,6 @@
         top: 19.3rem;
         left: 10.4rem;
         width: 4.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Practice --------- //
@@ -241,10 +213,6 @@
         top: 22.9rem;
         left: 10.4rem;
         width: 4.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
       // ---------- You Have to do Better than That --------- //
       .sub-section-3-5 {
@@ -252,10 +220,6 @@
         top: 19.3rem;
         left: 15.2rem;
         width: 4.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
       // ---------- Choose A Direction --------- //
       .sub-section-3-6 {
@@ -263,10 +227,6 @@
         top: 22.9rem;
         left: 15.2rem;
         width: 4.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
   }
 }

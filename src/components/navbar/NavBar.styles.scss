@@ -50,10 +50,17 @@
 
 @media (max-width: 1800px) {
   .main-nav-options {
-    width: 53rem;
+    width: 54rem;
 
-  .navlink-container {
-    margin: 0 1.95rem;
+    .navlink-container {
+      margin: 0 1.65rem;
+
+      .nav-link {
+
+        a {
+          font-size: 1.15rem;
+        }
+      }
     }
   }
 }
@@ -62,16 +69,16 @@
   .main-nav-options {
     width: 52rem;
 
-  .navlink-container {
-    margin: 0 1.6rem;
-    padding-bottom: 1rem;
+    .navlink-container {
+      margin: 0 1.6rem;
+      padding-bottom: 1rem;
 
-    .nav-link {
+      .nav-link {
 
-      a {
-        font-size: 1.4rem;
+        a {
+          font-size: 1.4rem;
+        }
       }
-    }
     }
   }
 }

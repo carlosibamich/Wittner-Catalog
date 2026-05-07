@@ -31,6 +31,10 @@
       filter: blur(1px);
       opacity: 0.4;
 
+      img {
+          cursor: auto;
+        }
+
       .exit-container {
         display: flex;
         flex-direction: column;
@@ -62,10 +66,6 @@
         top: 1.5rem;
         left: 3.2rem;
         width: 7rem;
-
-        img {
-          cursor: auto;
-        }
       }
       
       // ---------- DessertChef --------- //
@@ -74,10 +74,6 @@
         top: 9.4rem;
         left: 4rem;
         width: 2.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
       
       // ---------- WhiteClown --------- //
@@ -86,10 +82,6 @@
         top: 9.4rem;
         left: 7.1rem;
         width: 2.3rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- GalleryHeaven --------- //
@@ -98,10 +90,6 @@
         top: 13.5rem;
         left: 1.8rem;
         width: 9.8rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- StopFollowing --------- //
@@ -110,10 +98,6 @@
         bottom: 5.2rem;
         left: 2.8rem;
         width: 3.8rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Caryatids --------- //
@@ -122,10 +106,6 @@
         bottom: 5.8rem;
         left: 7.7rem;
         width: 5.8rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Dad and Three Eggs --------- //
@@ -134,10 +114,6 @@
         bottom: 14rem;
         left: 12.8rem;
         width: 3.7rem;
-
-        img {
-          cursor: auto;
-        }
       }
     }
 
@@ -200,6 +176,10 @@
       filter: blur(1px);
       opacity: 0.4;
 
+      img {
+        cursor: auto;
+      }
+
 
       // ---------- Beatrice --------- //
       .sub-section-4-1 {
@@ -207,10 +187,6 @@
         top: 1.5rem;
         left: 5rem;
         width: 3.5rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Marge --------- //
@@ -219,10 +195,6 @@
         top: 1.5rem;
         left: 9.8rem;
         width: 2.7rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Take Your Medicine --------- //
@@ -231,10 +203,6 @@
         top: 1.5rem;
         left: 13.75rem;
         width: 3.6rem;
-
-        img {
-          cursor: auto;
-        }
       }
         
       // ---------- Different Realities --------- //
@@ -243,10 +211,6 @@
         top: 8.1rem;
         left: 5rem;
         width: 12.4rem;
-
-        img {
-          cursor: auto;
-        }
       }
     }
   }

@@ -25,6 +25,10 @@
     filter: blur(1px);
     opacity: 0.4;
 
+    img {
+        cursor: auto;
+      }
+
     // ---------- Door --------- //
     .sub-section-1-1 {
       position: absolute;
@@ -81,10 +85,6 @@
       top: 3.3rem;
       left: 1.4rem;
       width: 10.8rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- Best of Show --------- //
@@ -93,10 +93,6 @@
       top: 15rem;
       left: 2.2rem;
       width: 4.2rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- Sainted --------- //
@@ -105,10 +101,6 @@
       top: 19rem;
       left: 2.2rem;
       width: 4.2rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- Six Dogs --------- //
@@ -117,10 +109,6 @@
       top: 14.1rem;
       left: 7.7rem;
       width: 3.8rem;
-
-      img {
-        cursor: auto;
-      }
     }
         
     // ---------- We Were Fighting --------- //
@@ -129,10 +117,6 @@
       top: 19.9rem;
       left: 7.7rem;
       width: 3.4rem;
-
-      img {
-        cursor: auto;
-      }
     }
   }
     
@@ -327,16 +311,16 @@
       filter: blur(1px);
       opacity: 0.4;
 
+      img {
+        cursor: auto;
+      }
+
       // ---------- No Smoking --------- //
       .sub-section-5-1 {
         position: absolute;
         top: 6.2rem;
         right: 4.5rem;
         width: 9rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- Going Downstairs --------- //
@@ -345,10 +329,6 @@
         top: 17.85rem;
         right: 12.2rem;
         width: 3.7rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- The Paint HAdn't Even Dried --------- //
@@ -357,10 +337,6 @@
         top: 16.5rem;
         right: 6.9rem;
         width: 4.2rem;
-
-        img {
-          cursor: auto;
-        }
       }
 
       // ---------- The Heirophant --------- //
@@ -369,10 +345,6 @@
         top: 18rem;
         right: 2rem;
         width: 3.9rem;
-
-        img {
-          cursor: auto;
-        }
       }
       
       // ---------- Door --------- //
