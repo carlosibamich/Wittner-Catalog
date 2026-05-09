@@ -228,6 +228,75 @@ import Heirophant from '../../assets/images/stairwell/187-the-heirophant-tarot.w
 
 // ---------------------------------------- Audio Files ------------------------------------------ //
 
+// ----------------- Entry North ------------------ //
+import IntelligenceAudio from '../../assets/audio/entry/intelligence-beauty-love.mp3'
+
+// ----------------- Entry East ------------------ //
+import MarriageAudio from '../../assets/audio/entry/marriage-of-art-and-science.mp3'
+import VenusAudio from '../../assets/audio/entry/venus.mp3'
+
+// ----------------- Entry South ------------------ //
+import WrongScoreAudio from '../../assets/audio/entry/the-wrong-score.mp3'
+
+// ----------------- Entry West ------------------ //
+import AnotherArrivalAudio from '../../assets/audio/entry/another-arrival-through-the-black-hole.mp3'
+import FastGetawayAudio from '../../assets/audio/entry/fast-getaway.mp3'
+import SpotlightAudio from '../../assets/audio/entry/moving-the-spotlight.mp3'
+import ArtAudio from '../../assets/audio/entry/art.mp3'
+import MothersTurnAudio from '../../assets/audio/entry/mothers-turn.mp3'
+
+// ----------------- Main North ------------------ //
+import ChickenAudio from '../../assets/audio/main-room/the-chicken.mp3'
+import DivineAudio from '../../assets/audio/main-room/divine-intervention.mp3'
+import HappinessAudio from '../../assets/audio/main-room/happiness.mp3'
+import IceCreamAudio from '../../assets/audio/main-room/we-still-have-ice-cream.mp3'
+import DrowningDevilAudio from '../../assets/audio/main-room/drowning-out-the-devil.mp3'
+import ExodusAudio from '../../assets/audio/main-room/exodus.mp3'
+import LiftOffAudio from '../../assets/audio/main-room/lift-off.mp3'
+import ParallelUniverseAudio from '../../assets/audio/main-room/parallel-universe.mp3'
+import GoldenEggAudio from '../../assets/audio/main-room/the-golden-egg-arrives.mp3'
+import IdentityAudio from '../../assets/audio/main-room/in-the-search-for-identity.mp3'
+import GalleryHeavenAudio from '../../assets/audio/main-room/a-gallery-in-heaven.mp3'
+
+// ----------------- Main North/Exit ------------------ //
+import LookAtMeAudio from '../../assets/audio/main-room/look-at-me.mp3'
+import HouseCardsAudio from '../../assets/audio/main-room/house-of-cards.mp3'
+
+// ----------------- Main East ------------------ //
+import PastBehindAudio from '../../assets/audio/main-room/leaving-the-past-behind.mp3'
+
+// ----------------- Stage Alcove ------------------ //
+
+
+
+// ----------------- Stage ------------------ //
+import SunnySideAudio from '../../assets/audio/main-room/sunnyside-up.mp3'
+
+// ----------------- Main South ------------------ //
+import ResistanceAudio from '../../assets/audio/main-room/resistance.mp3'
+import SurgeryAudio from '../../assets/audio/main-room/reconstructive-surgery.mp3'
+import TooFarAudio from '../../assets/audio/main-room/this-time-youve-gone-too-far.mp3'
+import StateOfWorldAudio from '../../assets/audio/main-room/the-state-of-the-world.mp3'
+import OuttaHereAudio from '../../assets/audio/main-room/im-outta-here.mp3'
+import MuseumAudio from '../../assets/audio/main-room/painters-museum.mp3'
+import ShowingAudio from '../../assets/audio/main-room/private-showing.mp3'
+import RoadhouseAudio from '../../assets/audio/main-room/roadhouse-at-the-full-moon.mp3'
+import SpiritualTouristAudio from '../../assets/audio/main-room/spiritual-tourist.mp3'
+import QuestionableMovesAudio from '../../assets/audio/main-room/questionable-moves.mp3'
+import ThePartingAudio from '../../assets/audio/main-room/waiting-for-the-parting.mp3'
+import HigherAudio from '../../assets/audio/main-room/higher.mp3'
+import JesusChristAudio from '../../assets/audio/main-room/oh-jesus-christ.mp3'
+
+// ----------------- Main West ------------------ //
+import ProbedAudio from '../../assets/audio/main-room/probed.mp3'
+import DevilsRingAudio from '../../assets/audio/main-room/playing-for-the-devils-ring.mp3'
+import BeachAudio from '../../assets/audio/main-room/another-day-at-the-beach.mp3'
+import MutinyAudio from '../../assets/audio/main-room/mutiny.mp3'
+
+
+
+// ----------------- Green Room ------------------ //
+
 
 
 //------------------------------------ End ------------------------------------ //
@@ -241,7 +310,7 @@ export const directory = [
       id: 1,
       imgSrc: IntelligenceBeauty,
       title: "Intelligence, Beauty, Love",
-      audio: true,
+      audio: IntelligenceAudio,
     },
     {
       id: 2,
@@ -259,13 +328,13 @@ export const directory = [
       id: 4,
       imgSrc: ArtScience,
       title: "Another Marriage of Art and Science",
-      audio: true,
+      audio: MarriageAudio,
     },
     {
       id: 5,
       imgSrc: Venus,
       title: "Venus",
-      audio: true,
+      audio: VenusAudio,
     },
     {
       id: 6,
@@ -295,37 +364,37 @@ export const directory = [
       id: 10,
       imgSrc: WrongScore,
       title: "The Wrong Score",
-      audio: true,
+      audio: WrongScoreAudio,
     },
     {
       id: 11,
       imgSrc: AnotherArrival,
       title: "Another Arrival Through the Black Hole",
-      audio: true,
+      audio: AnotherArrivalAudio,
     },
     {
       id: 12,
       imgSrc: Getaway,
       title: "Fast Getaway",
-      audio: true,
+      audio: FastGetawayAudio,
     },
     {
       id: 13,
       imgSrc: Spotlight,
       title: "Moving the Spotlight",
-      audio: true,
+      audio: SpotlightAudio,
     },
     {
       id: 14,
       imgSrc: Art,
       title: "Art",
-      audio: true,
+      audio: ArtAudio,
     },
     {
       id: 15,
       imgSrc: MothersTurn,
       title: "Mother's Turn",
-      audio: true,
+      audio: MothersTurnAudio,
     },
     {
       id: 16,
@@ -361,7 +430,7 @@ export const directory = [
       id: 21,
       imgSrc: Chicken,
       title: "The Chicken!",
-      audio: true,
+      audio: ChickenAudio,
     },
     {
       id: 22,
@@ -385,7 +454,7 @@ export const directory = [
       id: 25,
       imgSrc: Divine,
       title: "Divine Intervention",
-      audio: true,
+      audio: DivineAudio,
     },
     {
       id: 26,
@@ -439,25 +508,25 @@ export const directory = [
       id: 34,
       imgSrc: SmileThumb,
       title: "Happiness",
-      audio: true,
+      audio: HappinessAudio,
     },
     {
       id: 35,
       imgSrc: IceCreamThumb,
       title: "We Still Have Ice Cream (Eat Before Melting)",
-      audio: true,
+      audio: IceCreamAudio,
     },
     {
       id: 36,
       imgSrc: DrowningDevilThumb,
       title: "Drowning Out the Devil",
-      audio: true,
+      audio: DrowningDevilAudio,
    },
     {
       id: 37,
       imgSrc: RetellingExodusThumb,
       title: "Retelling the Story of Exodus",
-      audio: true,
+      audio: ExodusAudio,
     },
     {
       id: 38,
@@ -493,25 +562,25 @@ export const directory = [
       id: 43,
       imgSrc: LiftOff,
       title: "Lift Off",
-      audio: true,
+      audio: LiftOffAudio,
     },
     {
       id: 44,
       imgSrc: Parallel,
       title: "Parallel Universe",
-      audio: true,
+      audio: ParallelUniverseAudio,
     },
     {
       id: 45,
       imgSrc: GoldenEgg,
       title: "The Golden Egg Arrives in the Nick of Time",
-      audio: true,
+      audio: GoldenEggAudio,
     },
     {
       id: 46,
       imgSrc: SearchIdentity,
       title: "In the Search for Identity",
-      audio: true,
+      audio: IdentityAudio,
     },
     {
       id: 47,
@@ -583,7 +652,7 @@ export const directory = [
       id: 58,
       imgSrc: GalleryHeaven,
       title: "A Gallery in Heaven",
-      audio: true,
+      audio: GalleryHeavenAudio,
     },
     {
       id: 59,
@@ -613,7 +682,7 @@ export const directory = [
       id: 63,
       imgSrc: LookAtMe,
       title: "Look At Me! Look At Me!",
-      audio: true,
+      audio: LookAtMeAudio,
     },
     {
       id: 64,
@@ -625,7 +694,7 @@ export const directory = [
       id: 65,
       imgSrc: HouseCards,
       title: "House of Cards",
-      audio: true,
+      audio: HouseCardsAudio,
     },
     {
       id: 66,
@@ -769,7 +838,7 @@ export const directory = [
       id: 89,
       imgSrc: PastBehind,
       title: "Leaving the Past Behind",
-      audio: true,
+      audio: PastBehindAudio,
     },
     {
       id: 90,
@@ -811,7 +880,7 @@ export const directory = [
       id: 96,
       imgSrc: SunnySide,
       title: "Sunny Side Up",
-      audio: true,
+      audio: SunnySideAudio,
     },
     {
       id: 97,
@@ -877,13 +946,13 @@ export const directory = [
       id: 107,
       imgSrc: Resist,
       title: "Resist",
-      audio: true,
+      audio: ResistanceAudio,
     },
     {
       id: 108,
       imgSrc: Surgery2,
       title: "Reconstructive Surgery",
-      audio: true,
+      audio: SurgeryAudio,
     },
     {
       id: 109,
@@ -913,7 +982,7 @@ export const directory = [
       id: 113,
       imgSrc: TooFar,
       title: "This Time You've Gone Too Far",
-      audio: true,
+      audio: TooFarAudio,
     },
     {
       id: 114,
@@ -931,7 +1000,7 @@ export const directory = [
       id: 116,
       imgSrc: StateOfWorld,
       title: "The State of the World",
-      audio: true,
+      audio: StateOfWorldAudio,
     },
     {
       id: 117,
@@ -943,25 +1012,25 @@ export const directory = [
       id: 118,
       imgSrc: OuttaHere,
       title: "I'm Outta Here",
-      audio: true,
+      audio: OuttaHereAudio,
     },
     {
       id: 119,
       imgSrc: PaintersMuseum,
       title: "The Painter's Museum",
-      audio: true,
+      audio: MuseumAudio,
     },
     {
       id: 120,
       imgSrc: PrivateShowing,
       title: "Private Showing",
-      audio: true,
+      audio: ShowingAudio,
     },
     {
       id: 121,
       imgSrc: Roadhouse,
       title: "The Roadhouse at the Full Moon",
-      audio: true,
+      audio: RoadhouseAudio,
     },
     {
       id: 122,
@@ -979,7 +1048,7 @@ export const directory = [
       id: 124,
       imgSrc: Traveler,
       title: "Spiritual Tourist",
-      audio: true,
+      audio: SpiritualTouristAudio,
     },
     {
       id: 125,
@@ -1003,7 +1072,7 @@ export const directory = [
       id: 128,
       imgSrc: QuestionableMoves,
       title: "Questionable Moves",
-      audio: true,
+      audio: QuestionableMovesAudio,
     },
     {
       id: 129,
@@ -1045,43 +1114,43 @@ export const directory = [
       id: 135,
       imgSrc: Waiting,
       title: "Waiting for the Parting",
-      audio: true,
+      audio: ThePartingAudio,
     },
     {
       id: 136,
       imgSrc: Higher,
       title: "Higher",
-      audio: true,
+      audio: HigherAudio,
     },
     {
       id: 137,
       imgSrc: OhJesus,
       title: "Oh, Jesus Christ",
-      audio: true,
+      audio: JesusChristAudio,
     },
     {
       id: 138,
       imgSrc: Probed,
       title: "Probed",
-      audio: true,
+      audio: ProbedAudio,
     },
     {
       id: 139,
       imgSrc: DevilsRing,
       title: "Playing for the Devil's Ring",
-      audio: true,
+      audio: DevilsRingAudio,
     },
     {
       id: 140,
       imgSrc: DayBeach,
       title: "Another Day at the Beach",
-      audio: true,
+      audio: BeachAudio,
     },
     {
       id: 141,
       imgSrc: Mutiny,
       title: "Mutiny",
-      audio: true,
+      audio: MutinyAudio,
     },
     {
       id: 142,
