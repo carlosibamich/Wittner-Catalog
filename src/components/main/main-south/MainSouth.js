@@ -26,15 +26,13 @@ const MainSouth = () => {
           <div className="border-shadow-lg sub-section-1-1">
             <img 
               src={directory[105].imgSrc} 
-              onClick={() => handleOpen(directory[105].imgSrc, directory[105].title)} 
-              loading="lazy"
+              onClick={() => handleOpen(directory[105].imgSrc, directory[105].title)}
             />
           </div>
           <div className="border-shadow-lg sub-section-1-2">
             <img 
               src={directory[106].imgSrc}
               onClick={() => handleOpen(directory[106].imgSrc, directory[106].title)}
-              loading="lazy"
             />
           </div>
         </div>

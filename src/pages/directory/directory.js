@@ -266,8 +266,7 @@ import HouseCardsAudio from '../../assets/audio/main-room/house-of-cards.mp3'
 import PastBehindAudio from '../../assets/audio/main-room/leaving-the-past-behind.mp3'
 
 // ----------------- Stage Alcove ------------------ //
-
-
+import Neptunes2Audio from '../../assets/audio/alcove/once-again-the-neptunes.mp3'
 
 // ----------------- Stage ------------------ //
 import SunnySideAudio from '../../assets/audio/main-room/sunnyside-up.mp3'
@@ -293,11 +292,10 @@ import DevilsRingAudio from '../../assets/audio/main-room/playing-for-the-devils
 import BeachAudio from '../../assets/audio/main-room/another-day-at-the-beach.mp3'
 import MutinyAudio from '../../assets/audio/main-room/mutiny.mp3'
 
-
-
 // ----------------- Green Room ------------------ //
-
-
+import AutumnAudio from '../../assets/audio/green-room/autumn-of-33.mp3'
+import SongOfLoveAudio from '../../assets/audio/green-room/song-of-love.mp3'
+import OtherSideAudio from '../../assets/audio/green-room/the-other-side.mp3'
 
 //------------------------------------ End ------------------------------------ //
 
@@ -790,7 +788,7 @@ export const directory = [
       id: 81,
       imgSrc: Neptunes2,
       title: "Once Again the Neptunes Confront Us About the Pollution",
-      audio: true,
+      audio: Neptunes2Audio,
     },
     {
       id: 82,

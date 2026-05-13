@@ -6,7 +6,7 @@ const GreenRoom = () => {
   const location = useLocation();
 
   return (
-    <div key={location.path="green-room"} className="green-room-container page-fade-in">
+    <div key={location.path === "green-room" ? "green-room" : "other"} className="green-room-container page-fade-in">
       <h2>GALLERY UNDER CONSTRUCTION</h2>
       <div className="hammer-icon">
         <FaHammer />

@@ -37,7 +37,7 @@
         .audio-label {
           position: absolute;
           top: 1.1rem;
-          right: 4.8rem;
+          right: 4.6rem;
           font-family: 'Story Script', sans-serif;
           font-size: 1.5rem;
           font-weight: 500;
@@ -47,17 +47,17 @@
         
         .audio-icon {
           position: absolute;
-          top: 0.4rem;
+          top: 0.35rem;
           right: 0.8rem;
-          font-size: 2rem;
+          font-size: 3.8rem;
+          // color: #DCA738;
           background: none;
-          color: #DCA738;
+          border: none;
           cursor: pointer;
-          z-index: 500;
         }
       
         .image-container {
-         display: flex;
+          display: flex;
           justify-content: center;
           align-items: center;
           overflow: hidden;
@@ -65,11 +65,10 @@
           background-position: center;
           max-width: 7.7rem;
           max-height: 6.8rem;
-          z-index: 100;
           margin-left: 1.2rem;
           border-radius: 3px;
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-        
+          z-index: 100;
         
           .image {
             max-height: 6.8rem;
@@ -82,7 +81,6 @@
         .info-container {
           display: flex;
           flex-direction: column;
-          // overflow: hidden;
           width: 13.9rem;
           height: 6.2rem;
           padding-left: 0.6rem;
@@ -100,9 +98,10 @@
               font-optical-sizing: auto;
               font-weight: 700;
               font-style: normal;
-              font-size: 2.6rem;
-              // color: #cfcfcf;
-              color: #dfdfdf;
+              font-size: 2.4rem;
+              color: #DCA738;
+              // color: #dfdfdf;
+              opacity: 0.65;
             }
           }
       
@@ -116,7 +115,7 @@
   
             p {
               margin: 0;
-              padding-top: 0.3rem;
+              padding-top: 0.5rem;
               padding-left: 0.1rem;
               font-size: 1.05rem;
               font-weight: 500;

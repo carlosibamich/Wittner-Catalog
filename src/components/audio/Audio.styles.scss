@@ -1,8 +1,17 @@
 .audio-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
 
   button {
-    width: 4rem;
-    height: auto;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    object-view-box: 0 0 24 24;
+    width: 1em;
+    height: 1em;
     background: none;
     border: none;
   }

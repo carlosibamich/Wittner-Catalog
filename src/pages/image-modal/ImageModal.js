@@ -1,10 +1,16 @@
 import { useState } from 'react';
-import { Button, Modal, Image } from 'react-bootstrap';
-import { RxSpeakerLoud } from "react-icons/rx";
+import { Button, Modal } from 'react-bootstrap';
+import Audio from '../../components/audio/Audio';
+import { ReactComponent as Play } from '../../assets/svg/play.svg'
 import { directory } from '../directory/directory';
 import './ImageModal.styles.scss';
 
-function ImageModal({ icon, title, show, onHide, imageSrc }) {
+function ImageModal({ show, onHide, title, imageSrc }) {
+
+  const [ playingId, setPlayingId ] = useState(null);
+
+  const itemWithAudio = directory.find(item => item.title === title);
+  const handleAudioEnded = () => setPlayingId(null);
 
   return (
     <>
@@ -13,20 +19,27 @@ function ImageModal({ icon, title, show, onHide, imageSrc }) {
         onHide={onHide} 
         centered
         size="lg"
+        className="custom-modal"
         dialogClassName="custom-modal-width"
       >
-        <Modal.Header className="border-0" closeButton closeVariant="white"></Modal.Header>
-        <Modal.Body>
-          <img src={imageSrc} className="modal-img-constrained" alt="Selected" />
-          <div className="footer-content">
-            <p className="mt-3 modal-title"><span>Title:</span>  {title}</p>
-            {directory.find((item) => item.title === title)?.audio && (
-              <button className="mt-2 audio">
-                <RxSpeakerLoud  />
-              </button>
-            )}
-          </div>
-        </Modal.Body>
+        <Modal.Header className="border-0 flex-wrap" closeButton closeVariant="white"></Modal.Header>
+          <Modal.Body>
+            <img src={imageSrc} className="modal-img-constrained" alt="Selected" />
+            <Modal.Title className="w-100" >
+              <p><span>Title:</span>{title}</p>
+              <span className="audio">
+                {itemWithAudio?.audio && (
+                  <Audio 
+                    key={itemWithAudio.id || itemWithAudio.audio}
+                    item={itemWithAudio}
+                    isPlaying={playingId === itemWithAudio.id}
+                    onToggle={() => setPlayingId(playingId === itemWithAudio.id ? null : itemWithAudio.id)}
+                    onEnded={handleAudioEnded}
+                  />
+                )}
+              </span>
+            </Modal.Title>
+          </Modal.Body>
       </Modal>
     </>
   );

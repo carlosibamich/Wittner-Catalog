@@ -63,7 +63,7 @@ const EntryRoom = () => {
   const location = useLocation();
 
   return (
-    <div key={location.index} className="page-fade-in carousel-container">
+    <div key={location.path === "entry" ? "entry-room" : "other"} className="page-fade-in carousel-container">
       <div className="controls">
         {/* ----------- < Previous Button ---------- */}
         <button className="arrow" onClick={handlePrev}>

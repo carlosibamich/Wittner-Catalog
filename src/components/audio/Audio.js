@@ -18,12 +18,12 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
   }, [isPlaying]);
 
   return (
-    <div className="audio-card">
+    <span className="audio-card">
       <audio ref={audioRef} src={item.audio} onEnded={onEnded} />
       <button onClick={onToggle}>
-        {isPlaying ? <Pause /> : < Play />}
+        {isPlaying ? <Pause /> : <Play />}
       </button>
-    </div>
+    </span>
   );
 };
 

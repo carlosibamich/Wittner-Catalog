@@ -7,10 +7,12 @@ const MainNorth = () => {
   const [ showModal, setShowModal] = useState(false);
   const [ selectedImg, setSelectedImg ] = useState(null);
   const [ selectedTitle, setSelectedTitle ] = useState(null);
+  const [ selectedAudio, setSelectedAudio ] = useState(null);
 
-  const handleOpen = (imgUrl, title) => {
+  const handleOpen = (imgUrl, title, audio) => {
     setSelectedImg(imgUrl);
     setSelectedTitle(title);
+    setSelectedAudio(audio);
     setShowModal(true);
   }
 

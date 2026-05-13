@@ -11,47 +11,46 @@ const Catalog = () => {
   const [ showModal, setShowModal] = useState(false);
   const [ selectedImg, setSelectedImg ] = useState(null);
   const [ selectedTitle, setSelectedTitle ] = useState(null);
-  const [ showIcon, setShowIcon ] = useState(false);
 
   const [ playingId, setPlayingId ] = useState(null);
+  const handleAudioEnded = () => setPlayingId(null);
 
-  const handleOpen = ( imgUrl, title, icon, item ) => {
+  const handleOpen = ( imgUrl, title, item ) => {
     setSelectedImg(imgUrl);
     setSelectedTitle(title);
     setShowModal(true);
-    setShowIcon(true)
   };
 
   const handleClose = () => setShowModal(false);
 
   const location = useLocation();
 
-  const handleAudioEnded = () => setPlayingId(null);
-
   return (
-   <div key={location.path="catalog-list"} className="list-container page-fade-in">
+   <div key={location.path === "catalog-list" ? "catalog" : "other"} className="list-container page-fade-in">
     <ul className="list-grid">
       {directory.map((item, i) => (
         <li key={item.id}>
           <div className="list-items-container">
             <div className="audio-label">
-              {item.audio && <p>audio</p>}
+              {item.audio && <span className="label-text">audio</span>}
             </div>
-            <div key={i.id} className="audio-icon">
-            {item.audio && (
-                <Audio 
-                  key={item.id}
+            <span className="audio-icon">
+              {item.audio && (
+                <Audio
                   item={item}
                   isPlaying={playingId === item.id}
                   onToggle={() => setPlayingId(playingId === item.id ? null : item.id)}
                   onEnded={handleAudioEnded}
                 />
               )}
-            </div>
+            </span>
             <div className="image-container">
               <img 
                 src={item.imgSrc} 
-                onClick={() => handleOpen(directory[i].imgSrc, directory[i].title)} className="border-shadow-lg image" />
+                onClick={() => handleOpen(directory[i].imgSrc, directory[i].title)} 
+                className="border-shadow-lg image" 
+                alt={item.title}
+              />
             </div>
             <div className="info-container">
               <div className="id-area">
@@ -70,7 +69,6 @@ const Catalog = () => {
       onHide={handleClose}
       imageSrc={selectedImg}
       title={selectedTitle}
-      icon={showIcon}
     />
    </div>
   );
