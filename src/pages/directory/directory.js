@@ -110,9 +110,9 @@ import Direction from '../../assets/images/stage-alcove/88-choose-direction.webp
 // ----------------- Main Room Stage/East ------------------- //
 
 import PastBehind from '../../assets/images/stage-east/89-leaving-past-behind.webp';
-import Beatrice from '../../assets/images/stage-east/90-beatrice.webp';
-import Marge from '../../assets/images/stage-east/91-marge.webp';
-import TakeYourMedicine from '../../assets/images/stage-east/92-take-your-medicine.webp';
+import Sad from '../../assets/images/stage-east/90-sad.webp';
+import Lost from '../../assets/images/stage-east/91-lost-between-planets.webp';
+import Untitled92 from '../../assets/images/stage-east/92-untitled.webp';
 import Realities from '../../assets/images/stage-east/93-different-realities.webp';
 import RiverStyx from '../../assets/images/stage-east/94-river-styx.webp';
 import Dorothy from '../../assets/images/stage-east/95-dorothy.webp';
@@ -840,20 +840,20 @@ export const directory = [
     },
     {
       id: 90,
-      imgSrc: Beatrice,
-      title: "Beatrice",
+      imgSrc: Sad,
+      title: "Sad",
       audio: false,
     },
     {
       id: 91,
-      imgSrc: Marge,
-      title: "Marge",
+      imgSrc: Lost,
+      title: "Lost Between the Planets",
       audio: false,
     },
     {
       id: 92,
-      imgSrc: TakeYourMedicine,
-      title: "Take Your Medicine!",
+      imgSrc: Untitled92,
+      title: "Untitled",
       audio: false,
     },
     {
