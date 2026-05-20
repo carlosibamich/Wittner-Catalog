@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ImageModal from '../../../pages/image-modal/ImageModal';
 import { directory } from '../../../pages/directory/directory';
+import Footer from '../../footer/Footer'; 
 import './MainNorth.styles.scss';
 
 const MainNorth = () => {

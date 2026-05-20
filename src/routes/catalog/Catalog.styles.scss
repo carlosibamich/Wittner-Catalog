@@ -1,9 +1,12 @@
 
 .list-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   margin-top: 6.2rem;
+  margin-bottom: 1.5rem;
 
   .list-grid {
     display: grid;
@@ -11,10 +14,10 @@
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1.5rem;
+    flex-grow: 1;
     width: 84%;
     padding-left: 0;
     list-style-type: none;
-    // border: 1px solid #aaa;
 
     li {
       display: flex;
@@ -31,18 +34,18 @@
         margin-bottom: 2.8rem;
         background-color: #fff;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.18);
-        border-bottom: 4px solid #DCA738;
+        border-bottom: 4px solid var(--copper-yellow);
         border-radius: 5px;
 
         .audio-label {
           position: absolute;
-          top: 1.1rem;
+          top: 1.2rem;
           right: 4.6rem;
           font-family: 'Story Script', sans-serif;
-          font-size: 1.5rem;
+          font-size: 1.4rem;
           font-weight: 500;
           background: none;
-          color: #DCA738;
+          color: var(--copper-yellow);
         }
         
         .audio-icon {
@@ -50,7 +53,6 @@
           top: 0.35rem;
           right: 0.8rem;
           font-size: 3.8rem;
-          // color: #DCA738;
           background: none;
           border: none;
           cursor: pointer;
@@ -69,12 +71,18 @@
           border-radius: 3px;
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
           z-index: 100;
+          transition: transform 0.5s ease, opacity 0.4s ease;
+          transform: scale(1);
         
           .image {
             max-height: 6.8rem;
             width: auto;
             object-fit: cover;
             border: none;
+          }
+
+          &:hover {
+            transform: scale(1.04);
           }
         }
 
@@ -98,8 +106,8 @@
               font-optical-sizing: auto;
               font-weight: 700;
               font-style: normal;
-              font-size: 2.4rem;
-              color: #DCA738;
+              font-size: 2.3rem;
+              color: var(--copper-yellow);
               // color: #dfdfdf;
               opacity: 0.65;
             }
@@ -110,9 +118,8 @@
             flex-direction: column; 
             justify-content: flex-start;
             width: 13.2rem;
-            color: #5c5c5c;
             height: 3.4rem;
-  
+            
             p {
               margin: 0;
               padding-top: 0.5rem;
@@ -128,7 +135,7 @@
   }
 }
 
-// ------------------- Media Queries -------------------- //
+// ------------------------ Media Queries ------------------------- //
 
 // -------------- Max-Width 1800px -------------- //
 

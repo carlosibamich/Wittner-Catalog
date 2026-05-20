@@ -1,0 +1,20 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .main-content {
+    flex-grow: 1;
+  }
+}
+
+.vertical-layout {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.horizontal-layout {
+  overflow-y: hidden;
+  overflow-x: auto;
+  height: 100vh;
+}

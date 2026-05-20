@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  // --dark-grey: #585f64;
+  --dark-grey: #545b5f;
+  --copper-yellow: #DCA738;
+  --off-white: #F9F8F2;
+  --shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.1);
+}
+
 html body {
   margin: 0;
   font-family: 'Outfit',sans-serif;
@@ -9,40 +17,13 @@ html body {
   -moz-osx-font-smoothing: grayscale;
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: #fefdf8;
-  color: #5f5f5f;
-  // text-decoration: none;
+  background-color: var(--off-white);
+  color: var(--dark-grey);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-ul li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #5f5f5f;
-
-  &:focus {
-    outline: none;
-  }
-}
-
-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-  cursor: pointer;
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  user-drag: none;
 }
 
 /* ------ Page Animation on First Render ------ */
@@ -63,6 +44,31 @@ img {
 }
 
 /* ----------------- Utility Styles ----------------- */
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
 
 /* --------- Painting Shadows --------- */
 .border-shadow-sm {
@@ -113,7 +119,7 @@ img {
     width: 18.8rem;
     height: 23.9rem;
     background-color: #b8b8b8;
-    --shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
 
     .door-window-pane-top {
       position: absolute;
@@ -225,7 +231,7 @@ div.carousel-container {
     justify-content: center;
     align-items: center;
     width: 55rem;
-    margin-bottom: 3.6rem;
+    margin-bottom: 2.3rem;
     
     .arrow {
       padding-bottom: 0.5rem;
@@ -237,7 +243,7 @@ div.carousel-container {
 
     .page-button {
       background: none;
-      margin: 0 1.8rem;
+      margin: 0 1.7rem;
       font-family: 'Outfit',sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -297,7 +303,7 @@ div.carousel-container {
   
   div.carousel-container {
     .controls {
-      margin-bottom: 4.5rem;
+      margin-bottom: 3.65rem;
     }
   }
 }

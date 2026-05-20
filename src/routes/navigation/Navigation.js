@@ -1,9 +1,10 @@
 import { Fragment } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import { FaInstagram } from 'react-icons/fa6';
+import { ReactComponent as W } from '../../assets/svg/w.svg';
 import NavBar from '../../components/navbar/NavBar';
-import './Navigation.styles.scss';
 import WittnerLogo from '../../assets/logo/wittner-logo.PNG';
+import './Navigation.styles.scss';
 
 const Navigation = () => {
   return (
@@ -14,11 +15,14 @@ const Navigation = () => {
             <img src={WittnerLogo} alt="Museum Logo" />
           </Link>
           <div className="nav-center">
-              <NavBar />
+            <NavBar />
           </div>
-          <div className="socials-container">
+          <div className="svgs-container">
             <Link className="instagram" to="https://www.instagram.com/wittnermuseum/?hl=en" target="_blank">
                <FaInstagram />
+            </Link>
+            <Link className="w" to="/">
+              <W />
             </Link>
           </div>
         </nav>

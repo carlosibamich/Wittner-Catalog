@@ -4,7 +4,7 @@ import './NavBar.styles.scss';
 
 
 
-function NavBar({ isActive }) {
+const NavBar = ({ isActive }) => {
   
   return (
     <nav className="main-nav-options">

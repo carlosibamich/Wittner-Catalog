@@ -1,0 +1,43 @@
+.click-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .click-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.2rem;
+    width: 100%;
+    padding-bottom: 0.6rem;
+
+    .fish {
+      font-size: 1.75rem;
+      color: var(--copper-yellow);
+    }
+
+    .mirrored-fish {
+      transform: scaleX(-1);
+    }
+
+    .line {
+      width: 23.5rem;
+      height: 1px;
+      background-color: var(--dark-grey);
+      margin: 0 1.2rem;
+      border: none;
+      opacity: 0.75;
+    }
+
+    p {
+      margin: 0;
+      font-family: 'Story Script', sans-serif;
+      font-size: 1.35rem;
+      color: var(--copper-yellow);
+      text-align: center;
+    }
+  }
+}
