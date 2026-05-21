@@ -1,10 +1,3 @@
-
-
-// ------------- Utility Classes ----------- //
-
-
-// ---------------------------------------------------------- //
-
 .entry-room-container {
   display: flex;
   justify-content: center;
@@ -123,6 +116,61 @@
       display: flex;
       justify-content: center;
       grid-column: 4 / span 2;
+    }
+  }
+}
+
+// --------------------- Media Queries --------------------- //
+
+@media screen and (max-width: 1800px) {
+  .entry-room-container {
+
+    .entry-west-grid {
+
+      // -------------------- Column 1 --------------------- //
+
+      .entry-west-column-1 {
+
+      // ---------- Arrival Through the Black Hole --------- //
+        .sub-section-1-1 {
+          top: 0.1rem;
+          left: 2.4rem;
+          width: 18rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .entry-west-column-2 {
+
+        // ---------- Fast Getaway --------- //
+        .sub-section-2-1 {
+          top: 1.2rem;
+          left: 3.2rem;
+          width: 14.5rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .entry-west-column-4 {
+
+        // ---------- Art --------- //
+        .sub-section-4-1 {
+          right: 5.7rem;
+          width: 11.7rem;
+        }
+      }
+
+      // -------------------- Column 5 --------------------- //
+
+      .entry-west-column-5 {
+
+        // ---------- Mother's Turn --------- //
+        .sub-section-5-1 {
+          right: 5rem;
+        }
+      }
     }
   }
 }

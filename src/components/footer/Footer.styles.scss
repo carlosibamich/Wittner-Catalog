@@ -11,64 +11,100 @@
     width: 100%;
     background-color: var(--dark-grey);
     border-top: 4px solid var(--copper-yellow);
-    opacity: 0.92;
+    // opacity: 0.92;
 
-    // .mirrored-rocket {
-    //   transform: scaleX(-1);
-    // }
+    .footer-box {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 96%;
 
-    .logo {
-      height: 5.1rem;
-      width: auto;
-
-      img {
-        max-height: 96%;
+      .logo {
+        height: 5.1rem;
         width: auto;
-        transition: transform 0.4s ease;
-        transform: scale(1);
-
-        &:hover {
-          transform: scale(1.08);
+  
+        img {
+          max-height: 96%;
+          width: auto;
+          transition: transform 0.4s ease;
+          transform: scale(1);
+  
+          &:hover {
+            transform: scale(1.08);
+          }
         }
       }
-    }
-
-    .copyrights {
-      display: flex;
-      align-items: center;
-
-      span {
-          margin-right: 0.3rem;
-          margin-top: 0.2rem;
-          font-size: 1.9rem;
+  
+      .copyrights {
+        display: flex;
+        align-items: center;
+  
+        span {
+            margin-right: 0.3rem;
+            margin-top: 0.2rem;
+            font-size: 1.9rem;
+            color: var(--copper-yellow);
+          }
+  
+        p {
+          margin: 0;
+          font-size: 1.1rem;
+          color: var(--off-white);
+        }
+      }
+  
+      .address {
+        display: flex;
+  
+        p {
+          margin: 0;
+          font-size: 1.1rem;
+          color: var(--off-white);
+        }
+  
+        .rocket {
+          margin-left: 0.5rem;
+          font-size: 1.8rem;
           color: var(--copper-yellow);
         }
-
-      p {
-        margin: 0;
-        font-size: 1.1rem;
-        color: var(--off-white);
-        text-align: center;
-          
-        
       }
     }
-    
+  }
+}
 
-    .address {
-      display: flex;
+// ---------------------- Media Queries ---------------------- //
+@media screen and (max-width: 1800px) {
+  .footer-container {
 
+    .footer {
 
-      p {
-        margin: 0;
-        font-size: 1.1rem;
-        color: var(--off-white);
-      }
+      .footer-box {
+        width: 92%;
 
-      .rocket {
-        margin-left: 0.5rem;
-        font-size: 1.8rem;
-        color: var(--copper-yellow);
+        .copyrights {
+  
+          span {
+            margin-right: 0.5rem;
+            margin-top: 0.1rem;
+            font-size: 2rem;
+          }
+  
+          p {
+            font-size: 1.2rem;
+          }
+        }
+
+        .address {
+  
+          p {
+            font-size: 1.2rem;
+          }
+  
+          .rocket {
+            margin-left: 0.6rem;
+            font-size: 2.1rem;
+          }
+        }
       }
     }
   }

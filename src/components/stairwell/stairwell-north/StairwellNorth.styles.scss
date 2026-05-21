@@ -365,3 +365,141 @@
     }
   }
 }
+
+// ---------------------- Media Query ------------------------ //
+
+@media screen and (max-width: 1800px) {
+  .stairwell-north-container {
+
+    .stairwell-north-grid {
+      width: 87%;
+
+      //----------------- COLUMN 2 ------------------//
+
+      .stairwell-north-column-2 {
+
+        // ---------- Dessert Chef --------- //
+        .sub-section-2-6 {
+          top: 15rem;
+          width: 2.8rem;
+        }
+
+        // ---------- She's Leaving Home --------- //
+        .sub-section-2-7 {
+          top: 19.8rem;
+          width: 3.6rem;
+        }
+
+        // ---------- The Museum --------- //
+        .sub-section-2-8 {
+          top: 25.4rem;
+         width: 3.8rem;
+        }
+      }
+
+      //----------------- COLUMN 3 ------------------//
+
+    .stairwell-north-column-3 {
+      
+      // ---------- Brunhilda --------- //
+      .sub-section-3-1 {
+        top: 0.7rem;
+        width: 17.1rem;
+      }
+    }
+
+    //----------------- COLUMN 4 ------------------//
+    
+    .stairwell-north-column-4 {
+      
+      // ---------- Pay in Advance --------- //
+      .sub-section-4-1 {
+        top: 0.1rem;
+        width: 19.6rem;
+      }
+        
+      // ---------- Arrival --------- //
+      .sub-section-4-2 {
+        top: 15rem;
+        width: 3.1rem;
+      }
+        
+      // ---------- A Better Place --------- //
+      .sub-section-4-3 {
+        top: 19.8rem;
+        width: 3.8rem;
+      }
+        
+      // ---------- In Readiness --------- //
+      .sub-section-4-4 {
+        width: 3.6rem;
+      }
+        
+      // ---------- Check Mate --------- //
+      .sub-section-4-5 {
+        left: 6.8rem;
+        width: 3.1rem;
+      }
+        
+      // ---------- Fear of Doctors --------- //
+       .sub-section-4-6 {
+        left: 6.3rem;
+        width: 4.1rem;
+      }
+        
+      // ---------- The Chariot --------- //
+      .sub-section-4-7 {
+        left: 11.6rem;
+      }
+        
+      // ---------- Out of Reach --------- //
+      .sub-section-4-8 {
+        right: 5.6rem;
+        width: 2.9rem;
+      }
+      
+      // ---------- Red --------- //
+      .sub-section-4-9 {
+        right: 5.3rem;
+        width: 3.5rem;
+      }
+
+        // ---------- Surprised --------- //
+        .sub-section-4-10 {
+          right: 1rem;
+          width: 3.3rem;
+        }
+      }
+    }
+
+    //----------------- COLUMN 5 ------------------//
+
+    .stairwell-north-column-5 {
+
+      // ---------- Trip With My Brother --------- //
+      .sub-section-5-3 {
+        left: 1rem;
+      }
+
+      // ---------- Best of Show --------- //
+      .sub-section-5-4 {
+        left: 1.8rem;
+      }
+        
+      // ---------- Sainted --------- //
+      .sub-section-5-5 {
+        left: 1.8rem;
+      }
+        
+      // ---------- Six Dogs --------- //
+      .sub-section-5-6 {
+        left: 7.3rem;
+      }
+        
+      // ---------- We Were Fighting --------- //
+      .sub-section-5-7{
+        left: 7.3rem;
+      }
+    }
+  }
+}

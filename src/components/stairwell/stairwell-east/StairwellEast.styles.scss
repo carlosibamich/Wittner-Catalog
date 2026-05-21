@@ -216,7 +216,7 @@
   } 
 
     //----------------- COLUMN 3 ------------------//
-    .stairwell-south-column-3 {
+    .stairwell-east-column-3 {
       position: relative;
       display: flex;
       background: linear-gradient(160deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
@@ -307,5 +307,98 @@
         width: 5.6rem;
       }
     }   
+  }
+}
+
+// ---------------------- Media Query ------------------------ //
+
+@media screen and (max-width: 1800px) {
+  .stairwell-east-container {
+
+    .stairwell-east-grid {
+      width: 82%;
+
+      .stairwell-east-column-1 {
+        
+        // ---------- The Chariot --------- //
+        .sub-section-1-7 {
+          left: 13.3rem;
+        }
+        
+        // ---------- Out of Reach --------- //
+        .sub-section-1-8 {
+          right: 5.5rem;
+        }
+      
+        // ---------- Red --------- //
+        .sub-section-1-9 {
+          right: 5.3rem;
+        }
+
+        // ---------- Surprised --------- //
+        .sub-section-1-10 {
+          right: 1rem;
+        }
+      }
+    
+    
+      //----------------- COLUMN 2 ------------------//
+      .stairwell-east-column-2 {
+
+        // ---------- Trip With My Brother --------- //
+        .sub-section-2-3 {
+          left: 1.5rem;
+        }
+        
+        // ---------- Best of Show --------- //
+        .sub-section-2-4 {
+          left: 2.3rem;
+        }
+        
+        // ---------- Sainted --------- //
+        .sub-section-2-5 {
+          left: 2.3rem;
+        }
+        
+        // ---------- Six Dogs --------- //
+        .sub-section-2-6 {
+          left: 7.8rem;
+        }
+        
+        // ---------- We Were Fighting --------- //
+        .sub-section-2-7{
+          left: 7.8rem;
+        }
+      }
+
+      //----------------- COLUMN 3 ------------------//
+      .stairwell-east-column-3 {
+
+        // ---------- A Cold Wind --------- //
+        .sub-section-3-6 {
+          right: 12.8rem;
+        }
+
+        // ---------- Voices of Doom --------- //
+        .sub-section-3-7 {
+          right: 11.4rem;
+        }
+
+        // ---------- Unholy Matrimony --------- //
+        .sub-section-3-8 {
+          right: 4.8rem;
+        }
+
+        // ---------- Anger --------- //
+        .sub-section-3-9 {
+          right: 5.8rem;
+        }
+
+        // ---------- Overqualified --------- //
+        .sub-section-3-10 {
+          right: 5rem;
+        }
+      }   
+    }
   }
 }

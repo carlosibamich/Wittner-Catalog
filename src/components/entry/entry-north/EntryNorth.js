@@ -33,9 +33,9 @@ const EntryNorth = () => {
             src={directory[14].imgSrc}
           />
         </div>
-        <div className="window-frame-n">
-          <div className="window-pane-n pane-n-left"></div>
-          <div className="window-pane-n pane-n-right"></div>
+        <div className="window-frame">
+          <div className="window-pane pane-left"></div>
+          <div className="window-pane pane-right"></div>
         </div>
       </div>
 
@@ -69,9 +69,9 @@ const EntryNorth = () => {
               src={directory[3].imgSrc}
             />
           </div>
-          <div className="window-frame-n">
-            <div className="window-pane-n pane-n-left"></div>
-            <div className="window-pane-n pane-n-right"></div>
+          <div className="window-frame">
+            <div className="window-pane pane-left"></div>
+            <div className="window-pane pane-right"></div>
           </div>
         </div>
       </div>

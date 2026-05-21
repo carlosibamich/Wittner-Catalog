@@ -443,9 +443,9 @@
 
 // --------------------------- Media Queries ------------------------------- //
 
-// --------------- Max-Width 1820 ---------------- //
+// --------------- Max-Width 1800 ---------------- //
 
-@media screen and (min-width: 1761px) and (max-width: 1820px) {
+@media screen and (max-width: 1800px) {
   .main-room-north-container {
 
     .main-room-north-grid {
@@ -454,27 +454,109 @@
   }
 }
 
-// --------------- Max-Width 1760 ---------------- //
+// --------------- Max-Width 1728 ---------------- //
 
-@media screen and (min-width: 1721px) and (max-width: 1760px) {
+@media screen and (max-width: 1760px) {
   .main-room-north-container {
 
     .main-room-north-grid {
       width: 92%;
+
+      //----------------- COLUMN 3 ------------------//
+    
+      .north-column-3 {
+      
+        // ---------- Smile --------- //
+        .sub-section-3-9 {
+          right: -0.3rem;
+        }
+      }
+
+      //----------------- COLUMN 4 ------------------//
+    
+      .north-column-4 {
+      
+        // ---------- DrowningDevil --------- //
+        .sub-section-4-2 {
+          left: -0.1rem;
+          width: 14.9rem;
+        }
+      
+        // ---------- RetellingExodus --------- //
+        .sub-section-4-3 {
+          right: -0.1rem;
+        }
+      }
+
+      //----------------- COLUMN 5 ------------------/
+    
+      .north-column-5 {
+        
+        // ---------- Jaded --------- //
+        .sub-section-5-2 {
+          left: 7.4rem;
+          width: 4.1rem;
+        }
+        
+        // ---------- BlackRabbi --------- //
+        .sub-section-5-3 {
+          top: 6.4rem;
+          left: 7.8rem;
+          width: 3.4rem;
+        }
+        
+        // ---------- NeverFeel --------- //
+        .sub-section-5-4 {
+          width: 3.3rem;
+        }
+        
+        // ---------- Mystic --------- //
+        .sub-section-5-5 {
+          top: 5.3rem;
+          width: 3.9rem;
+        }
+      
+        // ---------- LiftOff --------- //
+        .sub-section-5-6 {
+          width: 16rem;
+        }
+      
+        // ---------- Parallel --------- //
+        .sub-section-5-7 {
+          bottom: 1.9rem;
+          right: 0.1rem;
+          width: 15.2rem;
+        }
+      }
+
+      //----------------- COLUMN 8 ------------------/
+
+      .north-column-8 {
+
+        // ---------- Caryatids --------- //
+        .sub-section-8-6 {
+          right: 1.1rem;
+        }
+
+        // ---------- Dad and Three Eggs --------- //
+        .sub-section-8-7 {
+          right: -1.4rem;
+        }
+      }
     }
   }
 }
 
 // --------------- Max-Width 1720 ---------------- //
 
-@media screen and (min-width: 1671px) and (max-width: 1720px) {
-  .main-room-north-container {
+// @media screen and (min-width: 1671px) and (max-width: 1720px) {
+//   .main-room-north-container {
 
-    .main-room-north-grid {
-      width: 93%;
-    }
-  }
-}
+//     .main-room-north-grid {
+//       width: 93%;
+//     }
+//   }
+// }
 
 // --------------- Max-Width 1670 ---------------- //
 

@@ -24,7 +24,7 @@ const App = () => {
   const isTargetPage = conditionalPages.includes(location.pathname);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 1380px)');
+    const mediaQuery = window.matchMedia('(min-width: 750px) and (max-width: 1390px)');
     setIsTabletViewport(mediaQuery.matches);
 
     const handleResize = (e) => setIsTabletViewport(e.matches);

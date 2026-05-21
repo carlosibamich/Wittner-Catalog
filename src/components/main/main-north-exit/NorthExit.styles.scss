@@ -1,14 +1,8 @@
-// .navigation-container {
-//   display:none;
-// }
-
 .main-room-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem auto;
-  z-index: 1000;
 
   .main-room-north-exit-grid {
     position: relative;
@@ -53,9 +47,6 @@
 
           .white-door-frame {
             background-color: #fcfcfc;
-            .white-door {
-  
-            }
           }
         }
       }
@@ -181,28 +172,28 @@
       }
 
 
-      // ---------- Beatrice --------- //
+      // ---------- Sad --------- //
       .sub-section-4-1 {
         position: absolute;
         top: 1.5rem;
         left: 5rem;
-        width: 3.5rem;
+        width: 2.9rem;
       }
 
-      // ---------- Marge --------- //
+      // ---------- Lost Between Planets --------- //
       .sub-section-4-2 {
         position: absolute;
         top: 1.5rem;
-        left: 9.8rem;
-        width: 2.7rem;
+        left: 9.55rem;
+        width: 3.3rem;
       }
 
-      // ---------- Take Your Medicine --------- //
+      // ---------- Untitled --------- //
       .sub-section-4-3 {
         position: absolute;
         top: 1.5rem;
-        left: 13.75rem;
-        width: 3.6rem;
+        left: 14.4rem;
+        width: 3rem;
       }
         
       // ---------- Different Realities --------- //
@@ -211,6 +202,75 @@
         top: 8.1rem;
         left: 5rem;
         width: 12.4rem;
+      }
+    }
+  }
+}
+
+// -------------------- Media Queries --------------------- //
+@media screen and (max-width: 1800px) {
+  .main-room-container {
+
+    .main-room-north-exit-grid {
+
+      .north-exit-column-2 {
+
+        // ---------- Welcome to America --------- //
+        .sub-section-2-1 {
+          top: 6.6rem;
+          width: 7.9rem;
+        }
+
+        // ---------- Look At Me! --------- //  
+        .sub-section-2-2 {
+          top: 15.4rem;
+          width: 10.3rem;
+        }
+      }
+
+      .north-exit-column-3 {
+
+        // ---------- The Captain --------- //
+        .sub-section-3-1 {
+          top: 7rem;
+          width: 7.2rem;
+        }
+        
+        // ---------- House of Cards --------- //
+        .sub-section-3-2 {
+          top: 15.1rem;
+          width: 9.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1728px) {
+  .main-room-container {
+
+    .main-room-north-exit-grid {
+      width: 85%;
+
+      // -------------------- Column 1 --------------------- //
+
+      .north-exit-column-1 {
+
+        .exit-container {
+
+          .exit-sign-container {
+            right: 7.8rem;
+          }
+
+          .exit-door-container {
+            right: 2.4rem;
+          }
+        }
+
+        // ---------- Caryatids --------- //
+        .sub-section-1-6 {
+          left: 7.9rem;
+        }
       }
     }
   }

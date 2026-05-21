@@ -149,17 +149,56 @@
       width: 84%;
       margin-left: -3.5rem;
 
-      .entry-east-column-5 {
+       // -------------------- Column 1 --------------------- //
 
-        // ---- Neptunes Confront Us About the Pollution ----- //
-        .sub-section-5-1 {
-          right: 0.5rem;
+      .entry-east-column-1 {
+
+       // ---------- Challenges --------- //
+        .sub-section-1-1 {
+          left: 4rem;
+          width: 11.4rem;
         }
       }
 
+      // -------------------- Column 2 --------------------- //
+
+      .entry-east-column-2 {
+
+      // ---------- Marriage of Art and Science --------- //
+        .sub-section-2-1 {
+          left: -0.5rem;
+          width: 18rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+      
+      .entry-east-column-4 {
+        
+        // ---------- It's Time --------- //
+        .sub-section-4-1 {
+          right: 0.2rem;
+        }
+      }
+      
+      // -------------------- Column 5 --------------------- //
+      
+      .entry-east-column-5 {
+        
+        // ---- Neptunes Confront Us About the Pollution ----- //
+        .sub-section-5-1 {
+          right: -0.4rem;
+          width: 17.8rem;
+        }
+      }
+      
+      // -------------------- Column 6 --------------------- //
+      
       .entry-east-column-6 {
         padding-right: 1.4rem;
       }
+      
+      // -------------------- Column 8 --------------------- //
 
       .entry-east-column-8 {
         padding-left: 1.4rem;
@@ -171,7 +210,8 @@
 
         // ---------- Evan --------- //
         .sub-section-8-2 {
-          right: -5.2rem;
+          right: -5rem;
+          width: 6.2rem;
         }
       }
     }

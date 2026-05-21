@@ -231,3 +231,15 @@
       }
   }
 }
+
+// -------------------- Media Queries -------------------- //
+
+@media screen and (max-width: 1800px) {
+  .alcove-south-container {
+
+    .alcove-south-grid {
+      width: 75%;
+
+    }
+  }
+}

@@ -26,6 +26,7 @@ const StairwellEast = () => {
           <div className="border-shadow-lg sub-section-1-1">
             <img 
               src={directory[151].imgSrc}
+              loading="lazy"
             />
           </div>
           <div className="border-shadow-sm sub-section-1-2">
@@ -97,6 +98,7 @@ const StairwellEast = () => {
             <img 
               src={directory[161].imgSrc}
               onClick={() => handleOpen(directory[161].imgSrc, directory[161].title)}
+              loading="lazy"
             />
           </div>
           <div className="border-shadow-sm sub-section-2-4">
@@ -127,7 +129,7 @@ const StairwellEast = () => {
 
         {/* // ---------------- Column 3 ----------------- // */}
 
-        <div className="section stairwell-south-column-3">
+        <div className="section stairwell-east-column-3">
           <div className="border-shadow-sm sub-section-3-1">
             <img 
               src={directory[166].imgSrc}

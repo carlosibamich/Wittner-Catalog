@@ -58,7 +58,6 @@ const MainWest = () => {
             <img 
               src={directory[139].imgSrc} 
               onClick={() => handleOpen(directory[139].imgSrc, directory[139].title)}
-              loading="lazy"
             />
           </div>
         </div>

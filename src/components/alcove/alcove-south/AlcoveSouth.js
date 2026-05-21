@@ -26,6 +26,7 @@ const AlcoveSouth = () => {
           <div className="border-shadow-lg sub-section-1-1">
             <img 
               src={directory[75].imgSrc}
+              loading="lazy"
             />
           </div>
           <div className="border-shadow-sm sub-section-1-2">
@@ -62,6 +63,7 @@ const AlcoveSouth = () => {
             <img 
               src={directory[81].imgSrc}
               onClick={() => handleOpen(directory[81].imgSrc, directory[81].title)}
+              loading="lazy"
             />
           </div>
           <div className="alcove-exit-container">
@@ -112,6 +114,7 @@ const AlcoveSouth = () => {
           <div className="border-shadow-sm sub-section-3-1">
             <img 
               src={directory[82].imgSrc}
+              loading="lazy"
             />
           </div>
           <div className="border-shadow-sm sub-section-3-2">

@@ -50,29 +50,25 @@ const MainSouth = () => {
           <div className="border-shadow-lg sub-section-2-2">
             <img 
               src={directory[108].imgSrc}
-              onClick={() => handleOpen(directory[108].imgSrc, directory[108].title)}
-              loading="lazy" 
+              onClick={() => handleOpen(directory[108].imgSrc, directory[108].title)} 
             />
           </div>
           <div className="border-shadow-sm sub-section-2-3">
               <img 
                 src={directory[109].imgSrc} 
                 onClick={() => handleOpen(directory[109].imgSrc, directory[109].title)}
-              loading="lazy" 
               />
           </div>
           <div className="border-shadow-sm sub-section-2-4">
             <img 
               src={directory[110].imgSrc}
-              onClick={() => handleOpen(directory[110].imgSrc, directory[110].title)}
-              loading="lazy" 
+              onClick={() => handleOpen(directory[110].imgSrc, directory[110].title)} 
              />
           </div>
           <div className="border-shadow-sm sub-section-2-5">
             <img 
               src={directory[111].imgSrc}
-              onClick={() => handleOpen(directory[111].imgSrc, directory[111].title)}
-              loading="lazy" 
+              onClick={() => handleOpen(directory[111].imgSrc, directory[111].title)} 
             />
           </div>
           <div className="border-shadow-lg sub-section-2-6">
@@ -98,21 +94,18 @@ const MainSouth = () => {
             <img 
               src={directory[114].imgSrc}
               onClick={() => handleOpen(directory[114].imgSrc, directory[114].title)}
-              loading="lazy"
             />
           </div>
           <div className="border-shadow-sm sub-section-3-3">
               <img 
                 src={directory[115].imgSrc}
                 onClick={() => handleOpen(directory[115].imgSrc, directory[115].title)}
-              loading="lazy"
               />
           </div>
           <div className="border-shadow-sm sub-section-3-4">
             <img 
               src={directory[116].imgSrc}
               onClick={() => handleOpen(directory[116].imgSrc, directory[116].title)}
-              loading="lazy"
             />
           </div>
           <div className="border-shadow-lg sub-section-3-5">
@@ -157,91 +150,78 @@ const MainSouth = () => {
             <img 
               src={directory[121].imgSrc}
               onClick={() => handleOpen(directory[121].imgSrc, directory[121].title)}
-              loading="lazy"
             />            
           </div>
           <div className="border-shadow-lg sub-section-5-2">
             <img 
               src={directory[122].imgSrc}
               onClick={() => handleOpen(directory[122].imgSrc, directory[122].title)}
-              loading="lazy"
             />           
           </div>
           <div className="border-shadow-lg sub-section-5-3">
             <img 
               src={directory[123].imgSrc}
               onClick={() => handleOpen(directory[123].imgSrc, directory[123].title)}
-              loading="lazy"
             />
           </div>
           <div className="border-shadow-lg sub-section-5-4">
             <img 
               src={directory[124].imgSrc}
-              onClick={() => handleOpen(directory[124].imgSrc, directory[124].title)} 
-              loading="lazy"
+              onClick={() => handleOpen(directory[124].imgSrc, directory[124].title)}
             />
           </div>
           <div className="border-shadow-sm sub-section-5-5">
             <img 
               src={directory[125].imgSrc}
               onClick={() => handleOpen(directory[125].imgSrc, directory[125].title)}
-              loading="lazy"
             />
           </div>
           <div className="border-shadow-lg sub-section-5-6">
             <img
               src={directory[126].imgSrc} 
               onClick={() => handleOpen(directory[126].imgSrc, directory[126].title)}
-              loading="lazy" 
             />
           </div>
           <div className="border-shadow-lg sub-section-5-7">
             <img
               src={directory[127].imgSrc} 
               onClick={() => handleOpen(directory[127].imgSrc, directory[127].title)}
-              loading="lazy" 
             />
           </div>
           <div className="border-shadow-sm sub-section-5-8">
             <img
               src={directory[128].imgSrc} 
               onClick={() => handleOpen(directory[128].imgSrc, directory[128].title)}
-              loading="lazy" 
             />
           </div>
           <div className="border-shadow-sm sub-section-5-9">
             <img
               src={directory[129].imgSrc} 
               onClick={() => handleOpen(directory[129].imgSrc, directory[129].title)}
-              loading="lazy" 
             />
           </div>
           <div className="border-shadow-sm sub-section-5-10">
             <img
               src={directory[130].imgSrc} 
               onClick={() => handleOpen(directory[130].imgSrc, directory[130].title)}
-              loading="lazy" 
             />           
           </div>
           <div className="border-shadow-sm sub-section-5-11">
             <img
               src={directory[131].imgSrc} 
               onClick={() => handleOpen(directory[131].imgSrc, directory[131].title)}
-              loading="lazy" 
             />           
           </div>
           <div className="border-shadow-sm sub-section-5-12">
             <img
               src={directory[132].imgSrc} 
               onClick={() => handleOpen(directory[132].imgSrc, directory[132].title)}
-              loading="lazy" 
             />
           </div>
           <div className="border-shadow-lg sub-section-5-13">
             <img
               src={directory[133].imgSrc} 
-              onClick={() => handleOpen(directory[133].imgSrc, directory[133].title)}
-              loading="lazy" 
+              onClick={() => handleOpen(directory[133].imgSrc, directory[133].title)} 
             />
           </div>
           <div className="border-shadow-lg sub-section-5-14">

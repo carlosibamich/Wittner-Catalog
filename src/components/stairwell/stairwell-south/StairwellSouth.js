@@ -42,6 +42,7 @@ const StairwellSouth = () => {
           <div className="border-shadow-lg sub-section-1-3">
             <img 
               src={directory[161].imgSrc}
+              loading="lazy"
             />
           </div>
           <div className="border-shadow-sm sub-section-1-4">
@@ -194,6 +195,7 @@ const StairwellSouth = () => {
           <div className="border-shadow-sm sub-section-5-1">
             <img 
               src={directory[183].imgSrc}
+              loading="lazy"
             />
           </div>
           <div className="border-shadow-sm sub-section-5-2">

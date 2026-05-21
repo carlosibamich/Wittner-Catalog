@@ -23,9 +23,9 @@ const EntrySouth = () => {
       {/* ---------------------- Column 1 ------------------------ */}
 
       <div className="section entry-south-column-1">
-        <div className="window-frame-s">
-          <div className="window-pane-s pane-s-left"></div>
-          <div className="window-pane-s pane-s-right"></div>
+        <div className="window-frame">
+          <div className="window-pane pane-left"></div>
+          <div className="window-pane pane-right"></div>
         </div>
         <div className="border-shadow-lg sub-section-1-1">
            <img 
@@ -62,9 +62,9 @@ const EntrySouth = () => {
       {/* ---------------------- Column 3 ------------------------ */}
 
         <div className="section entry-south-column-3">
-          <div className="window-frame-s">
-            <div className="window-pane-s pane-s-left"></div>
-            <div className="window-pane-s pane-s-right"></div>
+          <div className="window-frame">
+            <div className="window-pane pane-left"></div>
+            <div className="window-pane pane-right"></div>
           </div>
           <div className="border-shadow-lg sub-section-3-1">
             <img 

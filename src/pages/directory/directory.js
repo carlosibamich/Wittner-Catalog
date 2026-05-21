@@ -48,7 +48,7 @@ import PriestessThumb from '../../assets/images/main-room-north/33-high-priestes
 import SmileThumb from '../../assets/images/main-room-north/34-the-smile.webp';
 import IceCreamThumb from '../../assets/images/main-room-north/35-still-ice-cream.webp';
 import DrowningDevilThumb from '../../assets/images/main-room-north/36-drowning-out-devil.webp';
-import RetellingExodusThumb from '../../assets/images/main-room-north/37-retelling-exodus.webp';
+import ReimaginingExodusThumb from '../../assets/images/main-room-north/37-retelling-exodus.webp';
 import YouGoDown from '../../assets/images/main-room-north/38-you-go-down.webp';
 import Jaded from '../../assets/images/main-room-north/39-jaded.webp';
 import BlackRabbi from '../../assets/images/main-room-north/40-black-rabbi.webp';
@@ -522,8 +522,8 @@ export const directory = [
    },
     {
       id: 37,
-      imgSrc: RetellingExodusThumb,
-      title: "Retelling the Story of Exodus",
+      imgSrc: ReimaginingExodusThumb,
+      title: "Reimagining the Story of Exodus",
       audio: ExodusAudio,
     },
     {

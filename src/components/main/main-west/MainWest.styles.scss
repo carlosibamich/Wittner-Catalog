@@ -129,6 +129,14 @@
 }
 
 // -------------------- Media Queries ---------------------- //
+@media (max-width: 1728px) {
+  .main-room-west-container {
+
+    .main-room-west-grid {
+      width: 87%;
+    }
+  }
+}
 
 @media (max-width: 1370px) {
   .main-room-west-container {

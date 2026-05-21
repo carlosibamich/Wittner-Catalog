@@ -1,11 +1,5 @@
 // ------------ Main Room Stage/East ----------- //
 .main-room-stage-container {
-  // position: absolute;
-  // top: 0;
-  // left: 0;
-  // width: 100%;
-  // height: 100vh;
-  // position: relative;
   display: flex;
   justify-content: center;
 
@@ -400,7 +394,92 @@
   }
 }
 
-@media (max-width: 1370px) {
+@media screen and (max-width: 1728px) {
+  .main-room-stage-container {
+
+    .main-room-stage-grid {
+      width: 91%;
+
+      //----------------- COLUMN 2 ------------------//
+    
+      .stage-column-2 {
+
+        // ---------- Sad --------- //
+        .sub-section-2-1 {
+          left: 1.6rem;
+          width: 2.6rem;
+        }
+        
+        // ---------- Lost between the Planets --------- //
+        .sub-section-2-2 {
+          left: 5.65rem;
+          width: 3rem;
+        }
+        
+        // ---------- Untitled 92 --------- //
+        .sub-section-2-3 {
+          left: 10rem;
+          width: 2.7rem;
+        }
+        
+       // ---------- Different Realities --------- //
+        .sub-section-2-4 {
+          left: 1.6rem;
+          width: 11.1rem;
+        }
+      
+        // ---------- River Styx --------- //
+        .sub-section-2-5 {
+          right: 7.4rem;
+        }
+
+        // ---------- Dorothy --------- //
+        .sub-section-2-6 {
+          right: 0.8rem;
+        }
+
+        .alcove-entrance-container {
+          right: 5.3rem;
+        } 
+      }
+
+      //----------------- COLUMN 3 ------------------//
+    
+      .stage-column-3 {
+      
+        // ---------- Sunny Side Up --------- //
+        .sub-section-3-1 {
+          width: 17.4rem;
+        }
+      }
+
+      //----------------- COLUMN 4 ------------------//
+    
+      .stage-column-4 {
+      
+        // ---------- Jacob's Dream --------- //
+        .sub-section-4-1 {
+          left: 1.3rem;
+          width: 15.9rem;
+        }
+      
+        // ---------- Lunch Is Ready --------- //
+        .sub-section-4-2 {
+          right: 5.2rem;
+          width: 6.3rem;
+        }
+      
+        // ---------- Red Rope --------- //
+        .sub-section-4-3 {
+          right: 5.8rem;
+          width: 5.2rem;
+        } 
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1370px) {
   .main-room-stage-container {
 
   .main-room-stage-grid {

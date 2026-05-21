@@ -82,7 +82,7 @@ img {
 /* --------- Windows --------- */
 .window-frame {
   position: absolute;
-  top: 0rem;
+  top: 0;
   width: 32.1rem;
   height: 20.7rem;
   background-color: #b8b8b8;
@@ -278,6 +278,8 @@ div.carousel-container {
     scroll-behavior: smooth;
     width: 100vw;
     max-height: 80vh;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 
     .wall-item {
       flex: 0 0 100vw;
@@ -285,6 +287,10 @@ div.carousel-container {
       flex-shrink: 0;
       scroll-snap-align: start;
     }
+  }
+
+  ul.gallery-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
   }
 
   .itemSnapPoint {
@@ -303,7 +309,7 @@ div.carousel-container {
   
   div.carousel-container {
     .controls {
-      margin-bottom: 3.65rem;
+      margin-bottom: 3.4rem;
     }
   }
 }
@@ -311,13 +317,13 @@ div.carousel-container {
 // --------------- Max-Width 1728 ---------------- //
 
 @media screen and (max-width: 1728px) {
-  html {
-    font-size: 97%;
-  }
+  // html {
+  //   font-size: 97%;
+  // }
   
   div.carousel-container {
     .controls {
-      margin-bottom: 4rem;
+      margin-bottom: 3.8rem;
     }
   }
 }

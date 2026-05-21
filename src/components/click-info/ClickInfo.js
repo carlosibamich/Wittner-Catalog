@@ -7,10 +7,11 @@ const ClickInfo = () => {
       <div className="click-info">
         <IoFishOutline className="fish mirrored-fish" />
         <hr className="line" />
-        <p>Click on an image for larger view and extra content</p>
+        <p>Click the artwork to expand and explore</p>
         <hr className="line" />
         <IoFishOutline className="fish" />
       </div>
+      <div className="color-base"></div>
     </div>
   )
 };
