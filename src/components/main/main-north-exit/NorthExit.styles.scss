@@ -275,3 +275,43 @@
     }
   }
 }
+
+@media screen and (max-width: 1380px) {
+  .main-room-container {
+
+    .main-room-north-exit-grid {
+      width: 88%;
+      height: 36rem;
+
+      .north-exit-column-2 {
+
+        // ---------- Welcome to America --------- //
+        .sub-section-2-1 {
+          top: 6.2rem;
+          width: 7.7rem;
+        }
+
+        // ---------- Look At Me! --------- //  
+        .sub-section-2-2 {
+          top: 15.1rem;
+          width: 10rem;
+        }
+      }
+
+      .north-exit-column-3 {
+
+        // ---------- The Captain --------- //
+        .sub-section-3-1 {
+          top: 6.7rem;
+          width: 7rem;
+        }
+        
+        // ---------- House of Cards --------- //
+        .sub-section-3-2 {
+          top: 14.9rem;
+          width: 8.8rem;
+        }
+      }
+    }
+  }
+}

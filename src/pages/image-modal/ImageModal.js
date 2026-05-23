@@ -29,13 +29,16 @@ function ImageModal({ show, onHide, title, imageSrc }) {
               <p><span>Title:</span>{title}</p>
               <span className="audio">
                 {itemWithAudio?.audio && (
-                  <Audio 
-                    key={itemWithAudio.id || itemWithAudio.audio}
-                    item={itemWithAudio}
-                    isPlaying={playingId === itemWithAudio.id}
-                    onToggle={() => setPlayingId(playingId === itemWithAudio.id ? null : itemWithAudio.id)}
-                    onEnded={handleAudioEnded}
-                  />
+                  <div className="audio-content">
+                    <p>Audio</p>
+                    <Audio 
+                      key={itemWithAudio.id || itemWithAudio.audio}
+                      item={itemWithAudio}
+                      isPlaying={playingId === itemWithAudio.id}
+                      onToggle={() => setPlayingId(playingId === itemWithAudio.id ? null : itemWithAudio.id)}
+                      onEnded={handleAudioEnded}
+                    />
+                  </div>
                 )}
               </span>
             </Modal.Title>

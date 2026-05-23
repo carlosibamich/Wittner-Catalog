@@ -53,25 +53,25 @@
     
     .modal-title {
       display: flex;
-      flex-wrap: wrap !important;
       justify-content: center;
       align-items: center;
       height: 2.3rem;
-      margin-bottom: 0.5rem;
+      margin-top: 0.4rem;
+      font-size: 1.3rem;
       
       p {
         margin-bottom: 0;
         font-weight: 300;
-        font-size: 1.3rem;
         text-align: center;
         padding-left: 0.5rem;
         color: #dbdbdb;
         
         span {
           margin-right: 0.5rem;
-          font-size: 1.2rem;
-          color: #DCA738;
-          letter-spacing: 0.01rem;
+          // font-size: 1.3rem;
+          font-weight: 400;
+          color: var(--copper-yellow);
+          letter-spacing: 0.02rem;
         }
       }
 
@@ -79,11 +79,25 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 0.8rem;
-        background: none;
-        font-size: 3.5rem;
-        border: none;
-        opacity: 0.82;
+        margin-left: 3rem;
+
+        .audio-content {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          p {
+            font-family: 'Story Script', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: var(--copper-yellow);
+          }
+        }
+
+        .audio-card button {
+          height: 2.9rem;
+          width: auto;
+        }
       }
     }
   }

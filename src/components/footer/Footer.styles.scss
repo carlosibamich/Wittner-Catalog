@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10rem;
+    height: 9.8rem;
     width: 100%;
     background-color: var(--dark-grey);
     border-top: 4px solid var(--copper-yellow);
@@ -38,27 +38,34 @@
       .copyrights {
         display: flex;
         align-items: center;
+        justify-content: center;
   
-        span {
-            margin-right: 0.3rem;
-            margin-top: 0.2rem;
-            font-size: 1.9rem;
-            color: var(--copper-yellow);
-          }
-  
+        .copyright {
+          margin-right: 0.2rem;
+          margin-top: 0.1rem;
+          font-size: 1.8rem;
+          color: var(--copper-yellow);
+        }
+          
         p {
           margin: 0;
-          font-size: 1.1rem;
+          font-size: 1.15rem;
           color: var(--off-white);
-        }
+
+          .divider {
+            margin: 0 0.4rem;
+            color: var(--copper-yellow);
+          }
+        }     
       }
   
       .address {
         display: flex;
-  
+        align-items: center;
+        
         p {
           margin: 0;
-          font-size: 1.1rem;
+          font-size: 1.15rem;
           color: var(--off-white);
         }
   
@@ -79,13 +86,11 @@
     .footer {
 
       .footer-box {
-        width: 92%;
 
         .copyrights {
   
-          span {
-            margin-right: 0.5rem;
-            margin-top: 0.1rem;
+          .copyright {
+            margin-right: 0.3rem;
             font-size: 2rem;
           }
   
@@ -98,6 +103,41 @@
   
           p {
             font-size: 1.2rem;
+          }
+  
+          .rocket {
+            margin-left: 0.6rem;
+            font-size: 2.1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .footer-container {
+
+    .footer {
+
+      .footer-box {
+        width: 92%;
+
+        .copyrights {
+
+          .copyright {
+            margin-top: 0;
+          }
+  
+          p {
+            font-size: 1.25rem;
+          }
+        }
+
+        .address {
+  
+          p {
+            font-size: 1.25rem;
           }
   
           .rocket {

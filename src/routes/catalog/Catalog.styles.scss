@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 6.2rem;
+  margin-top: 6rem;
   margin-bottom: 1.5rem;
 
   .list-grid {
@@ -141,7 +141,8 @@
 
 @media screen and (max-width: 1800px) {
   .list-container {
-    
+    margin-top: 5.5rem;
+
     .list-grid {
       column-gap: 2rem;
       

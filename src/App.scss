@@ -17,4 +17,43 @@
   overflow-y: hidden;
   overflow-x: auto;
   height: 100vh;
+
+  .footer-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .footer {
+      // height: 8rem;
+      height: 11.4dvh;
+
+      .footer-box {
+
+      .logo {
+        height: 4.3rem;
+        width: auto;
+      }
+  
+      .copyrights {
+        display: flex;
+          
+        p {
+          font-size: 1.1rem;
+        }     
+      }
+  
+        .address {
+        
+          p {
+            font-size: 1.1rem;
+          }
+
+          .rocket {
+            font-size: 1.9rem;
+          }
+        }
+      }
+    }
+  }
 }

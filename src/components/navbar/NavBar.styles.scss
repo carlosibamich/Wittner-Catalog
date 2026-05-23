@@ -3,9 +3,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0.7rem;
+  padding-top: 0.5rem;
   width: 55rem;
-  height: 6rem;
+  height: 9.5dvh;
+  // background-color: #d3d3d3;
   border-bottom: 3px solid var(--copper-yellow);
 
   .navlink-container {
@@ -81,18 +82,19 @@
   }
 }
 
-@media (max-width: 1370px) {
+@media (max-width: 1380px) {
   .main-nav-options {
-    width: 52rem;
+    width: 54rem;
+    height: 6.5dvh;
 
     .navlink-container {
-      margin: 0 1.6rem;
+      margin: 0 1.45rem;
       padding-bottom: 1rem;
 
       .nav-link {
 
         a {
-          font-size: 1.4rem;
+          font-size: 1.2rem;
         }
       }
     }

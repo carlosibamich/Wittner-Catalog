@@ -15,7 +15,7 @@ const Footer = () => {
             <img src={WittnerLogo} alt="Museum Logo" />
           </div>
           <div className="copyrights">
-            <span>&copy;</span><p>2026 | All Rights Reserved</p>
+            <span className="copyright">&copy;</span><p>Wittner Museum<span className="divider">|</span>All Rights Reserved</p>
           </div>
         </div>
       </div>
