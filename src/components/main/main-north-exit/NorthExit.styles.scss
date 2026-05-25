@@ -283,33 +283,139 @@
       width: 88%;
       height: 36rem;
 
+      // -------------------- Column 1 --------------------- //
+
+      .north-exit-column-1 {
+
+        .exit-container {
+
+          .exit-sign-container {
+            top: 6rem;
+            right: 7rem;
+          }
+
+          .exit-door-container {
+            right: 2.3rem;
+
+            .white-door-frame {
+              width: 14rem;
+              height: 25rem;
+
+              .white-door {
+                width: 11.2rem;
+                height: 23.6rem;
+              }
+            }
+          }
+        }
+
+        // ---------- Premonition --------- //
+        .sub-section-1-1 {
+          top: 1.2rem;
+          left: 3rem;
+          width: 6.6rem;
+        }
+      
+        // ---------- DessertChef --------- //
+        .sub-section-1-2 {
+          top: 8.6rem;
+          width: 2rem;
+        }
+      
+        // ---------- WhiteClown --------- //
+        .sub-section-1-3 {
+          top: 8.6rem;
+          left: 6.9rem;
+          width: 2rem;
+        }
+
+        // ---------- GalleryHeaven --------- //
+        .sub-section-1-4 {
+          top: 12.2rem;
+          left: 1.5rem;
+          width: 9.4rem;
+        }
+
+        // ---------- StopFollowing --------- //
+        .sub-section-1-5 {
+          bottom: 5.5rem;
+          left: 2.6rem;
+          width: 3.5rem;
+        }
+
+        // ---------- Caryatids --------- //
+        .sub-section-1-6 {
+          bottom: 5.8rem;
+          left: 7.4rem;
+          width: 5.4rem;
+        }
+
+        // ---------- Dad and Three Eggs --------- //
+        .sub-section-1-7 {
+          bottom: 14rem;
+          left: 11.9rem;
+          width: 3.4rem;
+        }
+      }
+
       .north-exit-column-2 {
 
         // ---------- Welcome to America --------- //
         .sub-section-2-1 {
-          top: 6.2rem;
-          width: 7.7rem;
+          top: 6.1rem;
+          width: 7.5rem;
         }
 
         // ---------- Look At Me! --------- //  
         .sub-section-2-2 {
-          top: 15.1rem;
-          width: 10rem;
+          top: 14.6rem;
+          width: 9.8rem;
         }
       }
+
+      // -------------------- Column 3 --------------------- //
 
       .north-exit-column-3 {
 
         // ---------- The Captain --------- //
         .sub-section-3-1 {
-          top: 6.7rem;
-          width: 7rem;
+          top: 6.5rem;
+          width: 6.8rem;
         }
         
         // ---------- House of Cards --------- //
         .sub-section-3-2 {
-          top: 14.9rem;
-          width: 8.8rem;
+          top: 14.3rem;
+          width: 8.6rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .north-exit-column-4 {
+
+        // ---------- Sad --------- //
+        .sub-section-4-1 {
+          top: 1.8rem;
+          width: 2.8rem;
+        }
+
+        // ---------- Lost Between Planets --------- //
+        .sub-section-4-2 {
+          top: 1.8rem;
+          width: 3.2rem;
+        }
+
+        // ---------- Untitled --------- //
+        .sub-section-4-3 {
+          top: 1.8rem;
+          width: 2.8rem;
+        }
+        
+        // ---------- Different Realities --------- //
+        .sub-section-4-4 {
+          top: 8.1rem;
+          width: 12.2rem;
         }
       }
     }

@@ -1,7 +1,7 @@
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100dvh;
 
   .main-content {
     flex-grow: 1;
@@ -16,7 +16,7 @@
 .horizontal-layout {
   overflow-y: hidden;
   overflow-x: auto;
-  height: 100vh;
+  height: 100dvh;
 
   .footer-container {
     position: absolute;

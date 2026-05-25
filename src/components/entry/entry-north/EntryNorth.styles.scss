@@ -144,3 +144,79 @@
     }
   }
 }
+
+
+
+@media screen and (max-width: 1380px) {
+  .entry-room-container {
+
+    .entry-north-grid {
+      width: 88%;
+      height: 38rem;
+      grid-template-columns: 2fr 1.25fr 2fr;
+
+      // -------------------- Column 1 --------------------- //
+
+      .entry-north-column-1 {
+
+        // ---------- Art--------- //
+        .sub-section-1-1 {
+          top: 1.2rem;
+          left: 2.3rem;
+          width: 10.8rem;
+        }
+        
+        // ---------- Mother's Turn --------- //
+        .sub-section-1-2 {
+          top: 1.2rem;
+          right: 2.1rem;
+          width: 15.3rem;
+        }
+
+        .window-frame {
+          top: 16.2rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+   .entry-north-column-2 {
+
+     // ---------- Intelligence, Beauty, Love --------- //
+      .sub-section-2-1 {
+        top: 3.7rem;
+        width: 13.2rem;
+      }
+
+     // ---------- Dogs Rule the World --------- //
+      .sub-section-2-2 {
+        top: 18.9rem;
+        width: 12rem;
+      }
+    }
+
+    // -------------------- Column 3 --------------------- //
+
+      .entry-north-column-3 {
+
+        // ---------- Challenges --------- //
+        .sub-section-3-1 {
+          top: 1.3rem;
+          left: 1.8rem;
+          width: 10.6rem;
+        }
+        
+        // ---------- Marriage of Art and Science --------- //
+        .sub-section-3-2 {
+          top: 1.3rem;
+          right: 1.2rem;
+          width: 16.7rem;
+        }
+
+        .window-frame {
+          top: 16.2rem;
+        }
+      }
+    }
+  }
+}

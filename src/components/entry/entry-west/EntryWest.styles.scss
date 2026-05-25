@@ -7,7 +7,6 @@
     height: 40rem;
     display: grid;
     grid-template: 16rem 24rem / repeat(5, 1fr);
-    // border-bottom: 2px solid #b8b8b8;
 
     // .section {
     //   background-color: #fff;
@@ -169,6 +168,76 @@
         // ---------- Mother's Turn --------- //
         .sub-section-5-1 {
           right: 5rem;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1380px) {
+  .entry-room-container {
+
+    .entry-west-grid {
+      width: 88%;
+      height: 38rem;
+      grid-template: 14.2rem 23.8rem / repeat(5, 1fr);
+
+      // -------------------- Column 1 --------------------- //
+
+      .entry-west-column-1 {
+
+      // ---------- Arrival Through the Black Hole --------- //
+        .sub-section-1-1 {
+          top: 0rem;
+          left: 2.3rem;
+          width: 15.7rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .entry-west-column-2 {
+
+        // ---------- Fast Getaway --------- //
+        .sub-section-2-1 {
+          top: 0.9rem;
+          left: 2.5rem;
+          width: 13rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
+
+      .entry-west-column-3 {
+
+        // ---------- Moving the Spotlight --------- //
+        .sub-section-3-1 {
+          top: 0rem;
+          width: 12.4rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .entry-west-column-4 {
+
+        // ---------- Art --------- //
+        .sub-section-4-1 {
+          right: 4.9rem;
+          width: 10.3rem;
+        }
+      }
+
+      // -------------------- Column 5 --------------------- //
+
+      .entry-west-column-5 {
+
+        // ---------- Mother's Turn --------- //
+        .sub-section-5-1 {
+          right: 4.5rem;
+          width: 14.7rem;
         }
       }
     }

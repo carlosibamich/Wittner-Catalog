@@ -4,10 +4,10 @@
   justify-content: center;
 
   .main-room-west-grid {
-    width: 83%;
-    height: 40rem;
     display: grid;
     grid-template: 16rem 24rem / repeat(5, 1fr);
+    width: 83%;
+    height: 40rem;
 
     // .section {
     //   background-color: #fff;
@@ -138,15 +138,16 @@
   }
 }
 
-@media (max-width: 1370px) {
+@media (max-width: 1380px) {
   .main-room-west-container {
 
     .main-room-west-grid {
-      width: 95%;
+      width: 90%;
+      height: 38.5rem;
+      grid-template: 14.5rem 24rem / repeat(5, 1fr);
 
       // .section {
-      //   background-color: #fff;
-      //   border: 1px solid #f3f3f3;
+      //   border: 1px solid #d3d3d3;
       // }
 
       // -------------------- Column 1 --------------------- //
@@ -155,9 +156,8 @@
 
         // ---------- Probed --------- //
         .sub-section-1-1 {
-          top: 0;
-          left: 4rem;
-          width: 11.3rem;
+          left: 4.2rem;
+          width: 10.6rem;
         }
       }
 
@@ -168,19 +168,22 @@
       // ---------- Playing for the Devil's Ring --------- //
         .sub-section-2-1 {
           top: 0;
-          left: -0.5rem;
-          width: 17.3rem;
+          left: 0;
+          width: 16.2rem;
         }
       }
 
       // -------------------- Column 3 --------------------- //
       
       .west-column-3 {
+        .exit-sign-container {
+          top: 11rem;
+          left: 6.8rem;
+        }
 
         // ---------- Another Day at the Beach --------- //
         .sub-section-3-1 {
-          top: 0;
-          width: 14.2rem;
+          width: 13.5rem;
         }
       }
 
@@ -190,9 +193,8 @@
 
         // ---------- Mutiny --------- //
         .sub-section-4-1 {
-          top: 0;
-          right: -1rem;
-          width: 18.2rem;
+          right: -0.7rem;
+          width: 16.9rem;
         }
       }
 
@@ -202,9 +204,8 @@
 
         // ---------- Catch and Release --------- //
         .sub-section-5-1 {
-          top: 0;
-          right: 4rem;
-          width: 11.2rem;
+          right: 3.8rem;
+          width: 10.4rem;
         }
       }
     }

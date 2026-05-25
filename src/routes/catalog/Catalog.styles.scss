@@ -224,18 +224,20 @@
   }
 }
 
-// -------------- Max-Width 1370px -------------- //
+// -------------- Max-Width 1380px -------------- //
 
-@media (max-width: 1370px) {
+@media (max-width: 1380px) {
   .list-container {
   
     .list-grid {
       grid-template-columns: repeat(3, 1fr);
+      width: 83%;
 
     li {
 
         .list-items-container {
           width: 24.1rem;
+          margin-bottom: 3rem;
 
           .info-container {
             width: 14.8rem;
