@@ -49,9 +49,7 @@ const StairwellWest = () => {
             />
           </div> 
           <div className="sub-section-1-6">
-            <div className="white-door-frame">
               <div className="white-door"></div>
-            </div>
           </div>
         </div>
 

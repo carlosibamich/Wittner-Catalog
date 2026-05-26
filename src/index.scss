@@ -246,9 +246,6 @@ div.carousel-container {
     .page-button {
       background: none;
       margin: 0 1.7rem;
-      // font-family: 'Outfit',sans-serif;
-      // -webkit-font-smoothing: antialiased;
-      // -moz-osx-font-smoothing: grayscale;
       font-size: 1.1rem;
       font-weight: 400;
       color: var(--dark-grey);
@@ -279,7 +276,7 @@ div.carousel-container {
     scrollbar-width: none;
     scroll-behavior: smooth;
     width: 100vw;
-    max-height: 80vh;
+    max-height: 80dvh;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
 
@@ -426,8 +423,31 @@ div.carousel-container {
   }
 }
 
-// --------------- Max-Width 1190 ---------------- //
+// --------------- Max-Width 1280 ---------------- //
 
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 82%;
+  }
+
+  /* ----------- Carousel Styles ------------- */
+
+  div.carousel-container {  
+
+    .controls {
+      margin-top: 0.6rem;
+      margin-bottom: 1.8rem;
+
+      .arrow {
+      padding-bottom: 0.8rem;
+    }
+
+      .page-button {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
 
 
 // --------------- Max-Width 1030 ---------------- //

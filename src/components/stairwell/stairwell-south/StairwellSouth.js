@@ -148,9 +148,7 @@ const StairwellSouth = () => {
             />
           </div> 
           <div className="sub-section-3-3">
-            <div className="white-door-frame">
               <div className="white-door"></div>
-            </div>
           </div>
         </div>
 

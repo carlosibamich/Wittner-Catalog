@@ -119,6 +119,8 @@
   }
 }
 
+// -------------- Max-Width 1440px -------------- //
+
 @media screen and (max-width: 1440px) {
  .navigation-container {
   
@@ -140,6 +142,8 @@
     }
   }
 }
+
+// -------------- Max-Width 1380px -------------- //
 
 @media screen and (max-width: 1380px) {
   .navigation-container {
@@ -168,6 +172,43 @@
         width: 8.8rem;
         margin-top: 0.5rem;
         padding-top: 2.3rem;
+        padding-left: 0.9rem;
+
+        .instagram {
+        }
+
+        .w {
+          width: 3.4rem;
+          margin-left: 1.4rem;
+          padding-top: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1280px -------------- //
+
+@media screen and (max-width: 1280px) {
+  .navigation-container {
+
+    .navigation {
+
+      .logo-container {
+        width: 11.6rem;
+        padding-top: 2rem;
+        padding-right: 0.2rem;
+      }
+
+      .nav-center {
+        width: 55rem;
+        height: 10dvh;
+      }
+
+      .svgs-container {
+        width: 8.8rem;
+        margin-top: 0.5rem;
+        padding-top: 1rem;
         padding-left: 0.9rem;
 
         .instagram {

@@ -115,6 +115,8 @@
   }
 }
 
+// ----------------- Max-Width 1380px ----------------- //
+
 @media screen and (max-width: 1380px) {
   .footer-container {
 
@@ -147,5 +149,13 @@
         }
       }
     }
+  }
+}
+
+// ----------------- Max-Width 1280px ----------------- //
+
+@media screen and (max-width: 1280px) {
+  .footer-container {
+    display: none;
   }
 }

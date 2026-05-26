@@ -49,6 +49,8 @@
 
 // --------------------- Media Queries --------------------- //
 
+// ----------------- Max-Width 1800px ----------------- //
+
 @media screen and (max-width: 1800px) {
   .click-info-container {
 
@@ -65,6 +67,8 @@
     }
   }
 }
+
+// ----------------- Max-Width 1728px ----------------- //
 
 @media screen and (max-width: 1728px) {
   .click-info-container {
@@ -95,11 +99,39 @@
   }
 }
 
+// ----------------- Max-Width 1380px ----------------- //
+
 @media screen and (max-width: 1380px) {
   .click-info-container {
     // flex-direction: column;
     // align-items: flex-end;
     bottom: 11.6dvh;
+
+    .click-info {
+      height: 9dvh;
+
+      .fish {
+        font-size: 1.85rem;
+      }
+
+      p {
+        font-size: 1.45rem;
+      }
+
+    }
+
+    .color-base {
+      display: none;
+    }
+  }
+}
+
+// ----------------- Max-Width 1280px ----------------- //
+
+@media screen and (max-width: 1380px) {
+  .click-info-container {
+    bottom: 0;
+    border-bottom: 2px solid var(--dark-grey);
 
     .click-info {
       height: 9dvh;

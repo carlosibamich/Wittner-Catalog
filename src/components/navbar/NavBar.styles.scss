@@ -16,8 +16,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      // text-align: center;
-      // box-sizing: border-box;
       
       a {
         display: inline-block;
@@ -82,6 +80,8 @@
   }
 }
 
+// -------------- Max-Width 1380px -------------- //
+
 @media (max-width: 1380px) {
   .main-nav-options {
     width: 54rem;
@@ -95,6 +95,27 @@
 
         a {
           font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1280px -------------- //
+
+@media (max-width: 1280px) {
+  .main-nav-options {
+    width: 55rem;
+    height: 5.2dvh;
+
+    .navlink-container {
+      margin: 0 1.45rem;
+      padding-bottom: 1.5rem;
+
+      .nav-link {
+
+        a {
+          font-size: 1.25rem;
         }
       }
     }

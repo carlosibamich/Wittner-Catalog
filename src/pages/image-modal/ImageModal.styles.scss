@@ -5,7 +5,6 @@
 .custom-modal-width {
   display: flex;
   justify-content: center;
-  // flex-wrap: wrap !important;
   max-width: fit-content !important;
   width: auto !important;
 
@@ -42,9 +41,9 @@
     padding-top: 0;
   
     .modal-img-constrained {
-      height: 80vh;
+      height: 81dvh;
       width: auto;
-      max-width: 90vw;
+      max-width: 90dvw;
       object-fit: contain;
       display: block;
       margin: 0.5rem;
@@ -113,8 +112,30 @@
 
 // -------------- Max-Width 1440px -------------- //
 
-// -------------- Max-Width 1370px -------------- //
+// -------------- Max-Width 1380px -------------- //
 
+@media screen and (max-width: 1380) {
+  
+}.custom-modal-width {
+
+  .modal-body {
+    
+    .modal-title {
+      
+      p {
+        font-size: 1.4rem;
+      }
+
+      span.audio {
+
+        .audio-card button {
+          height: 3.4rem;
+          width: 3.4rem;
+        }
+      }
+    }
+}
+}
 // -------------- Max-Width 1180px -------------- //
 
 // -------------- Max-Width 1024px -------------- //
