@@ -174,7 +174,7 @@
   }
 }
 
-
+// ---------------- Max-Width: 1380px ---------------- //
 
 @media screen and (max-width: 1380px) {
   .entry-room-container {
@@ -238,6 +238,92 @@
         .sub-section-5-1 {
           right: 4.5rem;
           width: 14.7rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1280px ---------------- //
+
+@media screen and (max-width: 1280px) {
+  .entry-room-container {
+
+    .entry-west-grid {
+      width: 84%;
+      height: 36rem;
+      grid-template: 13.4rem 22.6rem / repeat(5, 1fr);
+
+      // -------------------- Column 1 --------------------- //
+
+      .entry-west-column-1 {
+
+      // ---------- Arrival Through the Black Hole --------- //
+        .sub-section-1-1 {
+          left: 0.4rem;
+          width: 15.2rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .entry-west-column-2 {
+
+        // ---------- Fast Getaway --------- //
+        .sub-section-2-1 {
+          top: 0.8rem;
+          left: 2rem;
+          width: 12.9rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
+
+      .entry-west-column-3 {
+
+        // ---------- Moving the Spotlight --------- //
+        .sub-section-3-1 {
+          width: 11.8rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .entry-west-column-4 {
+
+        // ---------- Art --------- //
+        .sub-section-4-1 {
+          right: 4.6rem;
+          width: 9.7rem;
+        }
+      }
+
+      // -------------------- Column 5 --------------------- //
+
+      .entry-west-column-5 {
+
+        // ---------- Mother's Turn --------- //
+        .sub-section-5-1 {
+          right: 3.8rem;
+          width: 13.8rem;
+        }
+      }
+
+      // -------------------- Column 6 --------------------- //
+
+      .entry-west-column-6 {
+
+        .window-frame {
+          left: 0.8rem;
+        }
+      }
+   
+      // -------------------- Column 8 --------------------- //
+
+      .entry-west-column-8 {
+
+        .window-frame {
+          right: 0.8rem;
         }
       }
     }

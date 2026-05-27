@@ -25,7 +25,6 @@
     right: 0;
 
     .footer {
-      // height: 8rem;
       height: 11.4dvh;
 
       .footer-box {
@@ -54,6 +53,19 @@
           }
         }
       }
+    }
+  }
+}
+
+// --------------------- Media Queries -------------------- //
+
+// ---------------- Max-Width: 1280px --------------- //
+
+@media screen and (max-width: 1280px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: none;
     }
   }
 }

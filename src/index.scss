@@ -430,20 +430,88 @@ div.carousel-container {
     font-size: 82%;
   }
 
+  /* ----------- Exit Sign Styles ------------- */
+
+.exit-sign-container {
+
+    .exit-sign {
+      width: 3.4rem;
+      height: 2.2rem;
+      font-size: 1.3rem;
+      font-weight: 800;
+    }
+}
+
   /* ----------- Carousel Styles ------------- */
 
   div.carousel-container {  
 
     .controls {
-      margin-top: 0.6rem;
-      margin-bottom: 1.8rem;
+      margin-top: 1rem;
+      margin-bottom: 2.8rem;
 
       .arrow {
-      padding-bottom: 0.8rem;
-    }
+        padding-bottom: 0.8rem;
+      }
 
       .page-button {
         font-size: 1.2rem;
+      }
+    }
+  }
+
+  /* --------- Windows --------- */
+  .window-frame {
+    width: 29rem;
+    height: 19.6rem;
+
+    .window-pane {
+      bottom: 0.6rem;
+      width: 13.6rem;
+      height: 18.4rem;
+    }
+
+    .pane-left {
+      left: 0.6rem;
+    }
+
+    .pane-right {
+      right: 0.6rem;
+    }
+  }
+
+  /* --------- Grey Entrance/Exit Door Styles --------- */
+
+  .door-frame-container {
+
+    .door-frame {
+      width: 17rem;
+      height: 22.6rem;
+
+      .door-window-pane-top {
+        top: 0.6rem;
+        left: 0.6rem;
+        width: 15.8rem;
+        height: 2.6rem;
+      }
+
+      .door-window-pane-left {
+        bottom: 0.7rem;
+        left: 0.6rem;
+        width: 7.6rem;
+        height: 18.2rem;
+      }
+
+      .door-window-pane-right {
+        bottom: 0.7rem;
+        right: 0.6rem;
+        width: 7.6rem;
+        height: 18.2rem;
+      }
+
+      .door-crossbar {
+        bottom: 9.4rem;
+        width: 17rem;
       }
     }
   }
