@@ -341,3 +341,84 @@
     }
   }
 }
+
+// ---------------- Max-Width: 1220px ---------------- //
+
+@media (max-width: 1220px) {
+  .entry-room-container {
+    
+    .entry-south-grid {
+      // width: 89%;
+      height: 35.5rem;
+      // grid-template-columns: 2.1fr 1fr 2.1fr;
+
+      // .section {
+      //   border: 1px solid #d2d2d2;
+      // }
+
+      .entry-south-column-1 {
+
+        // ---------- It's Time --------- //
+        .sub-section-1-1 {
+          // top: 1.7rem;
+          left: 1.2rem;
+          width: 14.7rem;
+        }
+
+        // ---------- The Neptunes Confront --------- //
+        .sub-section-1-2 {
+          top: 1.2rem;
+          right: 2rem;
+          width: 14rem;
+        }
+
+        // ---------- Evan --------- //
+        .sub-section-1-3 {
+          top: 16.7rem;
+          right: 0.4rem;
+          width: 4.2rem;
+        }
+
+        .window-frame {
+          top: 13.5rem;
+          // left: 0.8rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .entry-south-column-2 {
+
+      // ---------- Wrong Note --------- //
+        .sub-section-2-1 {
+          top: 12.8rem;
+          width: 13.8rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
+
+      .entry-south-column-3 {
+
+        // ---------- Another Arrival --------- //
+        .sub-section-3-1 {
+          // top: 1.1rem;
+          left: 2.6rem;
+          width: 14.2rem;
+        }
+
+        // ---------- Fast Getaway --------- //
+        .sub-section-3-2 {
+          // top: 2.1rem;
+          right: 2.9rem;
+          width: 11.6rem;
+        }
+
+        .window-frame {
+          top: 13.5rem;
+          // right: 2.6rem;
+        }
+      }
+    }
+  }
+}

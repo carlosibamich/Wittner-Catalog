@@ -530,6 +530,58 @@ div.carousel-container {
       margin-bottom: 5.2dvh;
     }
   }
+
+  /* --------- Windows --------- */
+.window-frame {
+  width: 27.8rem;
+  height: 18.8rem;
+
+
+  .window-pane {
+    // bottom: 0.6rem;
+    width: 13rem;
+    height: 17.6rem;
+  }
+
+  .pane-left {
+    // left: 0.6rem;
+  }
+
+  .pane-right {
+    // right: 0.6rem;
+  }
+}
+
+  /* --------- Doors Styles --------- */
+
+  .door-frame-container {
+
+    .door-frame {
+      width: 15.8rem;
+      height: 22.5rem;
+
+      .door-window-pane-top {
+        top: 0.55rem;
+        width: 14.65rem;
+      }
+
+      .door-window-pane-left {
+        width: 7rem;
+        height: 18.1rem;
+      }
+
+      .door-window-pane-right {
+        width: 7rem;
+        height: 18.1rem;
+      }
+
+      .door-crossbar {
+        bottom: 9.7rem;
+        width: 15.8rem;
+        height: 0.5rem;
+      }
+    }
+  }
 }
 
 // --------------- Max-Width 1030 ---------------- //
