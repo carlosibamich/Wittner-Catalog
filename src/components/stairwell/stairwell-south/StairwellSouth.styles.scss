@@ -768,7 +768,7 @@
     .stairwell-south-grid {
       width: 87.5%;
       height: 35.5rem;
-      grid-template-columns: 2.2fr 2.26fr 1.1fr 0.8fr 1.35fr;
+      grid-template-columns: 2.2fr 2.25fr 1.1fr 0.81fr 1.35fr;
 
       //----------------- COLUMN 1 ------------------//
 
@@ -793,6 +793,10 @@
 
         .steps-container {
           width: 15rem;
+
+          .steps {
+            width: 15rem;
+          }
         }
       }
 
@@ -806,14 +810,12 @@
       // ---------- Best of Show --------- //
       .sub-section-1-4 {
         top: 13.3rem;
-        // left: 1.6rem;
         width: 3.4rem;
       }
         
       // ---------- Sainted --------- //
       .sub-section-1-5 {
         top: 16.5rem;
-        // left: 1.6rem;
         width: 3.4rem;
       }
         
@@ -838,72 +840,70 @@
         
         // ---------- Nothing Makes Sense --------- //
         .sub-section-2-1 {
-          top: 6.2rem;
+          top: 5rem;
           left: 1.2rem;
           width: 2rem;
         }
 
         // ---------- Where Are You Going --------- //  
         .sub-section-2-2 {
-          top: 5.8rem;
-          left: 4.5rem;
-          width: 3.2rem;
+          top: 4.7rem;
+          left: 4.4rem;
+          width: 3.1rem;
         }
 
         // ---------- Eggs --------- //
         .sub-section-2-3 {
-          top: 9.9rem;
+          top: 8.7rem;
           left: 3.5rem;
-          width: 4.8rem;
+          width: 4.6rem;
         }
 
         // ---------- No Mother, Stay in the Rocket Ship --------- //
         .sub-section-2-4 {
-          top: 6.6rem;
-          left: 9.7rem;
-          width: 3.5rem;
+          top: 5.6rem;
+          left: 9.4rem;
+          width: 3.3rem;
         }
 
         // ---------- Divas --------- //
         .sub-section-2-5 {
-          top: 11.8rem;
-          left: 9.1rem;
-          width: 4.6rem;
+          top: 10.6rem;
+          left: 8.8rem;
+          width: 4.4rem;
         }
 
         // ---------- A Cold Wind --------- //
         .sub-section-2-6 {
-          top: 8.1rem;
-          right: 6.9rem;
+          top: 7.1rem;
+          right: 6.4rem;
           width: 3.4rem;
         }
 
         // ---------- Voices of Doom --------- //
         .sub-section-2-7 {
-          top: 14.6rem;
-          right: 5.5rem;
-          width: 5.8rem;
+          top: 13.4rem;
+          right: 5.2rem;
+          width: 5.6rem;
         }
 
         // ---------- Unholy Matrimony --------- //
         .sub-section-2-8 {
-          top: 7.3rem;
+          top: 6.7rem;
           right: -0.5rem;
-          width: 5.3rem;
+          width: 5.1rem;
         }
 
         // ---------- Anger --------- //
         .sub-section-2-9 {
-          top: 11.5rem;
-          right: 0.5rem;
-          width: 3.3rem;
+          top: 10.6rem;
+          width: 3.1rem;
         }
 
         // ---------- Overqualified --------- //
         .sub-section-2-10 {
-          top: 16.8rem;
-          right: -0.3rem;
-          width: 5rem;
+          top: 15.6rem;
+          width: 4.8rem;
         }
       }
 
@@ -913,23 +913,23 @@
       
       // ---------- Peghead --------- //
       .sub-section-3-1 {
-        top: 0.8rem;
+        top: 0.3rem;
         left: 4.7rem;
-        width: 5.2rem;
+        width: 5rem;
       }
       // ---------- Decoration --------- //
       .sub-section-3-2 {
-        top: 8.4rem;
+        top: 7.3rem;
         left: 3.7rem;
-        width: 7rem;
+        width: 6.6rem;
       }
 
       .sub-section-3-3 {
         left: 1.3rem;
 
         .white-door {
-          width: 11.8rem;
-          height: 23.1rem;
+          width: 11.7rem;
+          height: 22.2rem;
         }
       }
     }
@@ -941,37 +941,37 @@
       
       // ---------- Re-Entry was Rough --------- //
       .sub-section-4-1 {
-        top: 4rem;
-        left: 0rem;
-        width: 5.6rem;
+        top: 3.3rem;
+        left: 0.4rem;
+        width: 5.2rem;
       }
         
       // ---------- Older but Wiser --------- //
       .sub-section-4-2 {
-        top: 9.4rem;
-        left: 0.4rem;
-        width: 3.4rem;
+        top: 8.4rem;
+        left: 0.7rem;
+        width: 3.1rem;
       }
         
       // ---------- Worker --------- //
       .sub-section-4-3 {
-        top: 9.4rem;
-        left: 4.6rem;
-        width: 3.2rem;
+        top: 8.4rem;
+        left: 4.5rem;
+        width: 2.9rem;
       }
         
       // ---------- Demo --------- //
       .sub-section-4-4 {
-        top: 14.2rem;
-        left: 3.5rem;
-        width: 5rem;
+        top: 12.7rem;
+        left: 3.3rem;
+        width: 4.5rem;
       }
         
       // ---------- Bent Note --------- //
       .sub-section-4-5 {
-        top: 19.2rem;
-        left: 3.5rem;
-        width: 5rem;
+        top: 17.4rem;
+        left: 3.3rem;
+        width: 4.5rem;
       }
     }
 

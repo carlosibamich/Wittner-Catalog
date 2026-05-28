@@ -25,7 +25,7 @@
     right: 0;
 
     .footer {
-      height: 11.4dvh;
+      height: 12dvh;
 
       .footer-box {
 
@@ -66,6 +66,36 @@
 
     .footer-container {
       display: none;
+    }
+  }
+}
+
+// ---------------- Max-Width: 1280px --------------- //
+
+@media screen and (min-height: 800px) and (max-width: 1280px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 13dvh;
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1220px --------------- //
+
+@media screen and (max-width: 1220px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 11.5dvh;
+      }
     }
   }
 }

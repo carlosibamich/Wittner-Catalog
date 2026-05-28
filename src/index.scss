@@ -517,6 +517,20 @@ div.carousel-container {
   }
 }
 
+// --------------- Max-Width 1220 ---------------- //
+
+@media screen and (max-width: 1220px) {
+  html {
+    font-size: 81%;
+  }
+
+  div.carousel-container {
+
+    .controls {
+      margin-bottom: 5.2dvh;
+    }
+  }
+}
 
 // --------------- Max-Width 1030 ---------------- //
 

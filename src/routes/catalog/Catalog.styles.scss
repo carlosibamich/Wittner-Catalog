@@ -108,7 +108,6 @@
               font-style: normal;
               font-size: 2.3rem;
               color: var(--copper-yellow);
-              // color: #dfdfdf;
               opacity: 0.65;
             }
           }
@@ -169,7 +168,7 @@
 
 // -------------- Max-Width 1650px -------------- //
 
-@media (max-width: 1650px) {
+@media screen and (max-width: 1650px) {
   .list-container {
     
     .list-grid {
@@ -199,7 +198,7 @@
 
 // -------------- Max-Width 1440px -------------- //
 
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .list-container {
     
     .list-grid {
@@ -226,7 +225,7 @@
 
 // -------------- Max-Width 1380px -------------- //
 
-@media (max-width: 1380px) {
+@media screen and (max-width: 1380px) {
   .list-container {
   
     .list-grid {
@@ -241,14 +240,95 @@
 
           .info-container {
             width: 14.8rem;
+            
+            .id-area {
 
+              h3 {
+                font-size: 2.6rem;
+              }
+            }
             .title-area {
               width: 14.2rem;
+
+              p {
+                padding-top: 0.4rem;
+                font-size: 1.1rem;
+              }
             }
           }
         }
       }
       
+    }
+  }
+}
+
+// -------------- Max-Width 1280px -------------- //
+
+@media screen and (max-width: 1280px) {
+  .list-container {
+  
+    .list-grid {
+      width: 80.5%;
+
+    li {
+
+        .list-items-container {
+          margin-bottom: 2.6rem;
+
+          .info-container {
+            width: 14.2rem;
+
+            .id-area {
+
+              h3 {
+                font-size: 2.5rem;
+              }
+            }
+
+            .title-area {
+              width: 14rem;
+
+              p {
+                font-size: 1.15rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1220px -------------- //
+
+@media screen and (max-width: 1220px) {
+  .list-container {
+  
+    .list-grid {
+
+    li {
+
+        .list-items-container {
+
+          .info-container {
+
+            .id-area {
+
+              h3 {
+                font-size: 2.6rem;
+              }
+            }
+
+            .title-area {
+
+              p {
+                font-size: 1.14rem;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
