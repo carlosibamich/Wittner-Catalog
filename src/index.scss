@@ -299,7 +299,7 @@ div.carousel-container {
 
 // ------------------- Global Media Queries -------------------- //
 
-// --------------- Max-Width 1800 ---------------- //
+// --------------- Max-Width 1800px ---------------- //
 
 @media screen and (max-width: 1800px) {
   html {
@@ -313,7 +313,7 @@ div.carousel-container {
   }
 }
 
-// --------------- Max-Width 1728 ---------------- //
+// --------------- Max-Width 1728px ---------------- //
 
 @media screen and (max-width: 1728px) {
   // html {
@@ -327,7 +327,7 @@ div.carousel-container {
   }
 }
 
-// --------------- Max-Width 1650 ---------------- //
+// --------------- Max-Width 1650px ---------------- //
 
 @media screen and (max-width: 1650px) {
   html {
@@ -341,7 +341,7 @@ div.carousel-container {
   // }
 }
 
-// --------------- Max-Width 1440 ---------------- //
+// --------------- Max-Width 1440px ---------------- //
 
 @media screen and (max-width: 1440px) {
   html {
@@ -349,17 +349,7 @@ div.carousel-container {
   }
 }
 
-// --------------- Max-Width 1670 ---------------- //
-
-// @media screen and (min-width: 1601px) and (max-width: 1670px) {
-//   html {
-//     font-size: 95%;
-//   }
-// }
-
-
-
-// --------------- Max-Width 1380 ---------------- //
+// --------------- Max-Width 1380px ---------------- //
 
 @media screen and (max-width: 1380px) {
   html {
@@ -423,7 +413,7 @@ div.carousel-container {
   }
 }
 
-// --------------- Max-Width 1280 ---------------- //
+// --------------- Max-Width 1280px ---------------- //
 
 @media screen and (max-width: 1280px) {
   html {
@@ -517,7 +507,7 @@ div.carousel-container {
   }
 }
 
-// --------------- Max-Width 1220 ---------------- //
+// --------------- Max-Width 1220px ---------------- //
 
 @media screen and (max-width: 1220px) {
   html {
@@ -528,29 +518,37 @@ div.carousel-container {
 
     .controls {
       margin-bottom: 5.2dvh;
+
+      .arrow {
+        padding-bottom: 0.4rem;
+      }
+
+      .page-button {
+        margin: 0 0.9rem;
+        font-size: 1.15rem;
+      }
     }
   }
 
   /* --------- Windows --------- */
-.window-frame {
-  width: 27.8rem;
-  height: 18.8rem;
+  .window-frame {
+    width: 27.8rem;
+    height: 18.8rem;
 
+    .window-pane {
+      // bottom: 0.6rem;
+      width: 13rem;
+      height: 17.6rem;
+    }
 
-  .window-pane {
-    // bottom: 0.6rem;
-    width: 13rem;
-    height: 17.6rem;
+    .pane-left {
+      // left: 0.6rem;
+    }
+
+    .pane-right {
+      // right: 0.6rem;
+    }
   }
-
-  .pane-left {
-    // left: 0.6rem;
-  }
-
-  .pane-right {
-    // right: 0.6rem;
-  }
-}
 
   /* --------- Doors Styles --------- */
 
@@ -584,5 +582,204 @@ div.carousel-container {
   }
 }
 
-// --------------- Max-Width 1030 ---------------- //
+// --------------- Max-Width 1200px ---------------- //
+
+@media screen and (max-width: 1200px) {
+
+  div.carousel-container {
+
+    .controls {
+
+      .page-button {
+        font-size: 1.14rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 1185px ---------------- //
+
+@media screen and (max-width: 1185px) {
+  html {
+    font-size: 80.6%;
+    }
+
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 5.4dvh;
+    }
+  }
+}
+
+// --------------- Max-Width 1140px ---------------- //
+
+@media screen and (max-width: 1140px) {
+  html {
+    font-size: 79%;
+    }
+
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 4dvh;
+    }
+  }
+
+  .exit-sign-container {
+    
+    .exit-sign {
+      // top: 4rem;
+      width: 3.1rem;
+      height: 2rem;
+      font-size: 1.28rem;
+      font-weight: 800;
+    }
+}
+
+  /* --------- Windows --------- */
+  .window-frame {
+    width: 27.4rem;
+    height: 18rem;
+
+    .window-pane {
+      bottom: 0.55rem;
+      width: 12.85rem;
+      height: 16.95rem;
+    }
+
+    .pane-left {
+      left: 0.55rem;
+    }
+
+    .pane-right {
+      right: 0.55rem;
+    }
+  }
+
+  /* --------- Doors Styles --------- */
+
+  .door-frame-container {
+
+    .door-frame {
+      width: 15.2rem;
+      height: 21rem;
+
+      .door-window-pane-top {
+        top: 0.55rem;
+        left: 0.55rem;
+        width: 14.15rem;
+        height: 2.4rem;
+      }
+
+      .door-window-pane-left {
+        bottom: 0.6rem;
+        width: 6.75rem;
+        left: 0.55rem;
+        height: 16.9rem;
+      }
+
+      .door-window-pane-right {
+        bottom: 0.6rem;
+        width: 6.75rem;
+        right: 0.55rem;
+        height: 16.9rem;
+      }
+
+      .door-crossbar {
+        bottom: 9rem;
+        width: 15.2rem;
+        height: 0.45rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 960px ---------------- //
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 70%;
+    }
+
+  div.carousel-container {
+    
+    .controls {
+      margin-top: 1rem;
+      margin-bottom: 5.2dvh;
+
+      // .page-button {
+      //   font-size: 1.16rem;
+      // }
+    }
+  }
+
+  // .exit-sign-container {
+    
+  //   .exit-sign {
+  //     // top: 4rem;
+  //     width: 3.1rem;
+  //     height: 2rem;
+  //     font-size: 1.28rem;
+  //     font-weight: 800;
+  //   }
+  // }
+
+  /* --------- Windows --------- */
+  // .window-frame {
+  //   width: 27.4rem;
+  //   height: 18rem;
+
+  //   .window-pane {
+  //     bottom: 0.55rem;
+  //     width: 12.85rem;
+  //     height: 16.95rem;
+  //   }
+
+  //   .pane-left {
+  //     left: 0.55rem;
+  //   }
+
+  //   .pane-right {
+  //     right: 0.55rem;
+  //   }
+  // }
+
+  /* --------- Doors Styles --------- */
+
+  // .door-frame-container {
+
+  //   .door-frame {
+  //     width: 15.2rem;
+  //     height: 21rem;
+
+  //     .door-window-pane-top {
+  //       top: 0.55rem;
+  //       left: 0.55rem;
+  //       width: 14.15rem;
+  //       height: 2.4rem;
+  //     }
+
+  //     .door-window-pane-left {
+  //       bottom: 0.6rem;
+  //       width: 6.75rem;
+  //       left: 0.55rem;
+  //       height: 16.9rem;
+  //     }
+
+  //     .door-window-pane-right {
+  //       bottom: 0.6rem;
+  //       width: 6.75rem;
+  //       right: 0.55rem;
+  //       height: 16.9rem;
+  //     }
+
+  //     .door-crossbar {
+  //       bottom: 9rem;
+  //       width: 15.2rem;
+  //       height: 0.45rem;
+  //     }
+  //   }
+  // }
+}
 

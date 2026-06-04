@@ -247,6 +247,7 @@
                 font-size: 2.6rem;
               }
             }
+
             .title-area {
               width: 14.2rem;
 
@@ -334,39 +335,29 @@
   }
 }
 
-// -------------- Max-Width 1180px -------------- //
+// -------------- Max-Width 1185px -------------- //
 
-@media (max-width: 1180px) {
+@media (max-width: 1185px) {
   .list-container {
   
     .list-grid {
-      grid-template-columns: repeat(3, 1fr);
 
     li {
 
         .list-items-container {
-          width: 22.2rem;
-          margin-bottom: 2.2rem;
-
-          .image-container{
-            max-width: 6.4rem;
-          }
+          margin-bottom: 2.4rem;
 
           .info-container {
-            width: 14rem;
-            padding-left: 0.5rem;
-
+            
             .title-area {
-              width: 13.8rem;
 
               p {
-                font-size: 1.15rem;
+                padding-top: 0.5rem;
               }
             }
           }
         }
-      }
-      
+      } 
     }
   }
 }

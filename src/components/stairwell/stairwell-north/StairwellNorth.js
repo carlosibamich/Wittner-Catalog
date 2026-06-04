@@ -229,7 +229,6 @@ const StairwellNorth = () => {
           </div>
         </div>
       </div>
-      {/* <div className="grid-bottom-overflow-cover"></div> */}
       <ImageModal 
         show={showModal}
         onHide={handleClose}

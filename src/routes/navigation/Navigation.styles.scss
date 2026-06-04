@@ -224,6 +224,112 @@
   }
 }
 
+// -------------- Max-Width 1220px -------------- //
+
+@media screen and (max-width: 1220px) {
+  .navigation-container {
+
+    .navigation {
+      width: 75.8rem;
+
+      .logo-container {
+        width: 11.3rem;
+        padding-top: 2.3rem;
+        padding-right: 0rem;
+      }
+
+      .nav-center {
+        width: 53.5rem;
+      }
+
+      .svgs-container {
+        width: 8.68rem;
+        margin-top: 0.7rem;
+        // padding-top: 1rem;
+        padding-left: 0.7rem;
+
+        .instagram {
+        }
+
+        .w {
+          width: 3.4rem;
+          margin-left: 1.4rem;
+          padding-top: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1200px -------------- //
+
+@media screen and (max-width: 1200px) {
+  .navigation-container {
+
+    .navigation {
+
+      .logo-container {
+        width: 11.2rem;
+        padding-top: 2.5rem;
+      }
+
+      .nav-center {
+        width: 53rem;
+      }
+
+      .svgs-container {
+        width: 8.7rem;
+        margin-top: 1rem;
+        padding-left: 0.5rem;
+
+        .instagram {
+          font-size: 2.9rem;
+        }
+
+        .w {
+          width: 3.2rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 960px -------------- //
+
+@media screen and (max-width: 960px) {
+  .navigation-container {
+
+    .navigation {
+      width: 70.8rem;
+
+      .logo-container {
+        width: 10.2rem;
+        padding-top: 1.75rem;
+      }
+
+      .nav-center {
+        width: 50rem;
+        height: 9.3dvh;
+      }
+
+      .svgs-container {
+        width: 8.8rem;
+        height: 5rem;
+        margin-top: 0.4rem;
+        padding-left: 0.5rem;
+
+        .instagram {
+          font-size: 2.8rem;
+        }
+
+        .w {
+          width: 3rem;
+        }
+      }
+    }
+  }
+}
+
 // -------------- Max-Width 820px -------------- //
 
 @media screen and (max-width: 820px) {

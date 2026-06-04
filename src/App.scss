@@ -29,18 +29,18 @@
 
       .footer-box {
 
-      .logo {
-        height: 4.3rem;
-        width: auto;
-      }
+        .logo {
+          height: 4.3rem;
+          width: auto;
+        }
   
-      .copyrights {
-        display: flex;
+        .copyrights {
+          display: flex;
           
-        p {
-          font-size: 1.1rem;
-        }     
-      }
+          p {
+            font-size: 1.1rem;
+          }     
+        }
   
         .address {
         
@@ -95,6 +95,46 @@
 
       .footer {
         height: 11.5dvh;
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1140px --------------- //
+
+@media screen and (max-width: 1140px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+        height: 11dvh;
+
+        .footer-box {
+          width: 98%;
+
+          .logo {
+            height: 3.98rem;
+          }
+  
+          .copyrights {
+          
+            p {
+              font-size: 1.07rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 1.07rem;
+            }
+
+            .rocket {
+              font-size: 1.8rem;
+            }
+          }
+        }
       }
     }
   }

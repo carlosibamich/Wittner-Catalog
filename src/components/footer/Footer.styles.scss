@@ -152,10 +152,4 @@
   }
 }
 
-// ----------------- Max-Width 1280px ----------------- //
-
-@media screen and (max-width: 1280px) {
-  .footer-container {
-    // display: none;
-  }
-}
+// ----------------- Footer is displayed conditionally on smaller screens. Styles situated in App.scss ------------- // 
