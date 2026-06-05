@@ -389,13 +389,7 @@
   .entry-room-container {
 
     .entry-north-grid {
-      // width: 86%;
       height: 33.8rem;
-      // grid-template-columns: 2.1fr 1.2fr 2.1fr;
-
-      // .section {
-      //   border: 1px solid #d3d3d3;
-      // }
 
       // -------------------- Column 1 --------------------- //
 
@@ -403,8 +397,6 @@
 
         // ---------- Art--------- //
         .sub-section-1-1 {
-          // top: 1rem;
-          // left: 2.5rem;
           width: 9.7rem;
         }
         
@@ -444,19 +436,91 @@
         // ---------- Challenges --------- //
         .sub-section-3-1 {
           top: 0.9rem;
-          // left: 1.8rem;
           width: 9.7rem;
         }
         
         // ---------- Marriage of Art and Science --------- //
         .sub-section-3-2 {
           top: 0.9rem;
-          // right: 1.6rem;
           width: 15.1rem;
         }
 
         .window-frame {
           top: 14.2rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 960px ---------------- //
+
+@media screen and (max-width: 960px) {
+  .entry-room-container {
+
+    .entry-north-grid {
+      height: 30rem;
+
+      // -------------------- Column 1 --------------------- //
+
+      .entry-north-column-1 {
+
+        // ---------- Art--------- //
+        .sub-section-1-1 {
+          top: 0.8rem;
+          left: 2rem;
+          width: 8.9rem;
+        }
+        
+        // ---------- Mother's Turn --------- //
+        .sub-section-1-2 {
+          top: 0.8rem;
+          right: 1.8rem;
+          width: 12.6rem;
+        }
+
+        .window-frame {
+          top: 13rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+   .entry-north-column-2 {
+
+     // ---------- Intelligence, Beauty, Love --------- //
+      .sub-section-2-1 {
+        top: 3.4rem;
+        width: 10.6rem;
+      }
+
+     // ---------- Dogs Rule the World --------- //
+      .sub-section-2-2 {
+        top: 15.6rem;
+        width: 9.8rem;
+      }
+    }
+
+    // -------------------- Column 3 --------------------- //
+
+      .entry-north-column-3 {
+
+        // ---------- Challenges --------- //
+        .sub-section-3-1 {
+          top: 0.8rem;
+          left: 1.6rem;
+          width: 8.8rem;
+        }
+        
+        // ---------- Marriage of Art and Science --------- //
+        .sub-section-3-2 {
+          top: 0.8rem;
+          right: 1.2rem;
+          width: 13.8rem;
+        }
+
+        .window-frame {
+          top: 13rem;
         }
       }
     }

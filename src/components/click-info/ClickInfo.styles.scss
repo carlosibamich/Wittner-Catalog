@@ -249,7 +249,7 @@
     bottom: 0;
 
     .click-info {
-      height: 5.2dvh;
+      height: 5.8dvh;
 
       .line {
         width: 18.5rem;
@@ -259,7 +259,8 @@
 
     .color-base {
       display: block;
-      height: 5.5dvh;
+      height: 3.8dvh;
+      border-top: 3px solid var(--copper-yellow);
     }
   }
 }

@@ -582,3 +582,93 @@
     }
   }
 }
+
+// ---------------- Max-Width: 960px ---------------- //
+
+@media screen and (max-width: 960px) {
+  .entry-room-container {
+
+    .entry-west-grid {
+      width: 83.5%;
+      height: 30rem;
+      grid-template-rows: 11.5rem 18.5rem;
+
+      // .section {
+      //   border: 1px solid #d3d3d3;
+      // }
+
+      // -------------------- Column 1 --------------------- //
+
+      .entry-west-column-1 {
+
+      // ---------- Arrival Through the Black Hole --------- //
+        .sub-section-1-1 {
+          left: 0.5rem;
+          width: 13.4rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .entry-west-column-2 {
+
+        // ---------- Fast Getaway --------- //
+        .sub-section-2-1 {
+          top: 0.6rem;
+          left: 1.8rem;
+          width: 10.8rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
+
+      .entry-west-column-3 {
+
+        // ---------- Moving the Spotlight --------- //
+        .sub-section-3-1 {
+          width: 10.1rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .entry-west-column-4 {
+
+        // ---------- Art --------- //
+        .sub-section-4-1 {
+          right: 3.7rem;
+          width: 8.4rem;
+        }
+      }
+
+      // -------------------- Column 5 --------------------- //
+
+      .entry-west-column-5 {
+
+        // ---------- Mother's Turn --------- //
+        .sub-section-5-1 {
+          right: 2.3rem;
+          width: 12rem;
+        }
+      }
+
+      // -------------------- Column 6 --------------------- //
+
+      .entry-west-column-6 {
+
+        .window-frame {
+          left: 0.9rem;
+        }
+      }
+   
+      // -------------------- Column 8 --------------------- //
+
+      .entry-west-column-8 {
+
+        .window-frame {
+          right: 0.9rem;
+        }
+      }
+    }
+  }
+}

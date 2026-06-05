@@ -1147,3 +1147,202 @@
     }
   }
 }
+
+// --------------- Max-Width: 960px --------------- //
+
+@media screen and (max-width: 960px) {
+  .alcove-east-container {
+
+    .alcove-east-grid {
+      height: 30rem;
+      grid-template-columns: 1.3fr 1fr 1.3fr;
+
+      //----------------- COLUMN 1 ------------------//
+
+      .alcove-east-column-1 {
+      
+        // ---------- Installing the Music App --------- //
+        .sub-section-1-1 {
+          top: 1.3rem;
+          width: 15rem;
+        }
+        
+        // ---------- Social Distancing --------- //
+        .sub-section-1-2 {
+          top: 14.8rem;
+          left: 3rem;
+          width: 3.7rem;
+        }
+        
+        // ---------- Time to Feed the Frog --------- //
+        .sub-section-1-3 {
+          top: 19rem;
+          left: 3rem;
+          width: 3.7rem;
+        }
+        
+        // ---------- Leavng the House of Horrors --------- //
+        .sub-section-1-4 {
+          top: 14.8rem;
+          left: 7.2rem;
+          width: 4.4rem;
+        }
+        
+        // ---------- A Much Needed Surgery --------- //
+        .sub-section-1-5 {
+          top: 19rem;
+          left: 7.4rem;
+          width: 2.6rem;
+        }
+        
+        // ---------- Safe Travel --------- //
+        .sub-section-1-6 {
+          top: 19rem;
+          left: 10.7rem;
+          width: 3.1rem;
+        }
+        
+        // ---------- Arrival Through the Black Hole --------- //
+        .sub-section-1-7 {
+          top: 14.8rem;
+          right: 7.2rem;
+          width: 4.4rem;
+        }
+        
+        // ---------- Martian Mary Poppins --------- //
+        .sub-section-1-8 {
+          top: 19.3rem;
+          right: 7.3rem;
+          width: 2.1rem;
+        }
+      
+        // ---------- Fool In Recent Times --------- //
+        .sub-section-1-9 {
+          top: 14.8rem;
+          right: 2.8rem;
+          width: 3.8rem;
+        }
+        
+        // ---------- Homecoming for Lost tambourine --------- //
+        .sub-section-1-10 {
+          top: 19rem;
+          right: 2.8rem;
+          width: 3.7rem;
+        }
+      }
+
+      //----------------- COLUMN 2 ------------------//
+    
+      .alcove-east-column-2 {
+
+        // ---------- Kindred Spirits --------- //
+        .sub-section-2-1 {
+          top: 3.2rem;
+          // left: 3.9rem;
+          width: 12.8rem;
+        }
+        
+        // ---------- Flip --------- //
+        .sub-section-2-2 {
+          top: 15.8rem;
+          // left: 2.5rem;
+          width: 3.1rem;
+        }
+        
+        // ---------- You First --------- //
+        .sub-section-2-3 {
+          top: 18.9rem;
+          // left: 2.5rem;
+          width: 3.1rem;
+        }
+        
+        // ---------- Another Afternoon at Lucille's --------- //
+        .sub-section-2-4 {
+          top: 16rem;
+          // left: 6.5rem;
+          width: 8rem;
+        }
+        
+        // ---------- Bird Sanctuary --------- //
+        .sub-section-2-5 {
+          top: 15.8rem;
+          left: 13.7rem;
+          width: 2.7rem;
+        }
+        
+        // ---------- Neptunes Confront Us --------- //
+        .sub-section-2-6 {
+          top: 19.3rem;
+          left: 13.7rem;
+          width: 2.9rem;
+        }
+      }
+    }
+
+    //----------------- COLUMN 3 ------------------//
+
+    .alcove-east-column-3 {
+
+      // ---------- Jacob Wrestling the Angel --------- //
+      .sub-section-3-1 {
+        top: 0.4rem;
+        width: 12.8rem;
+      }
+        
+      .alcove-exit-container {
+        width: 18rem;
+        height: 17.8rem;
+
+        .alcove-exit {
+
+          // ------------ Jacob's Dream ------------ //
+            .sub-section-3-2 {
+              left: -4.8rem;
+              width: 12.7rem;
+            }
+
+            // ------------ Lunch Time ------------ //
+            .sub-section-3-3 {
+              top: -0.4rem;
+              left: 9.5rem;
+              width: 4.3rem;
+            }
+          
+            // ------------ Red Rope ------------ //
+            .sub-section-3-4 {
+              top: 7.4rem;
+              left: 9.8rem;
+              width: 3.6rem;
+            }
+          
+            // ------------ Can You See Me? ------------ //
+            .sub-section-3-5 {
+              right: 0.8rem;
+              width: 1.5rem;
+            }
+          
+            // ------------ Into the Unknown ------------ //
+            .sub-section-3-6 {
+              top: 5.4rem;
+              right: 0.7rem;
+              width: 1.7rem;
+            }
+          
+            // ------------ No Friends ------------ //
+            .sub-section-3-7 {
+              top: 7.9rem;
+              right: 0.7rem;
+              width: 1.7rem;
+            }
+          
+            // ------------ Butterfly Woman ------------ //
+            .sub-section-3-8 {
+              top: 10.3rem;
+              right: 0.7rem;
+              width: 1.7rem;
+            }
+        }
+      }
+    }
+  }
+}

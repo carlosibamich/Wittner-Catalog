@@ -1769,3 +1769,268 @@
     }
   }
 }
+
+// --------------- Max-Width: 960px ----------------- //
+
+@media (max-width: 960px) {
+  .main-room-south-container {
+
+    .main-room-south-grid {
+      width: 90.5%;
+      height: 30.5rem;
+      grid-template-columns: 1.7fr 4.4fr 4.7fr 5.3fr 7.3fr 6.3fr;
+
+      // .section {
+      //   border: 1px solid #d3d3d3;
+      // }
+
+      //----------------- COLUMN 1 ------------------//
+
+    .south-column-1 {
+
+      // ---------- Purification --------- //
+      .sub-section-1-1 {
+        top: 2.2rem;
+        right: 0;
+        width: 4.1rem;
+      }
+      
+      // ---------- Resist --------- //  
+      .sub-section-1-2 {
+        top: 7.4rem;
+        right: 0;
+        width: 4.1rem;
+      }
+    }
+    //----------------- COLUMN 2 ------------------//
+
+    .south-column-2 {
+
+      // ---------- Reconstructive Surgery 2 --------- //
+      .sub-section-2-1 {
+        width: 10.2rem;
+      }
+        
+      // ---------- Meeting the Devil With My Cello --------- //
+      .sub-section-2-2 {
+        top: 10.9rem;
+        left: 0.9rem;
+        width: 5.2rem;
+      }
+        
+      // ---------- Retired From Bull Ring --------- //
+      .sub-section-2-3 {
+        top: 10.1rem;
+        right: 1.1rem;
+        width: 2.8rem;
+      }
+        
+      // ----------King of Cats --------- //
+      .sub-section-2-4 {
+        top: 14.1rem;
+        right: 2.7rem;
+        width: 1.2rem;
+      }
+      
+      // ---------- Egged On --------- //
+      .sub-section-2-5 {
+        top: 14.1rem;
+        right: 1.1rem;
+        width: 1.3rem;
+     }  
+
+      // ---------- You've Gone Too far --------- //
+      .sub-section-2-6 {
+        bottom: 0.8rem;
+        left: 0rem;
+        width: 10.65rem;
+     }  
+    }
+    
+    //----------------- COLUMN 3 ------------------//
+    
+    .south-column-3 {
+      
+      // ---------- Looking Ahead --------- //
+      .sub-section-3-1 {
+        right: 0.7rem;
+        width: 10.1rem;
+      }
+        
+      // ---------- Opera --------- //
+      .sub-section-3-2 {
+        top: 13.4rem;
+        left: 0.1rem;
+        width: 2.7rem;
+      }
+        
+      // ---------- State of the World --------- //
+      .sub-section-3-3 {
+        top: 13.6rem;
+        left: 3.5rem;
+        width: 3.9rem;
+      }
+        
+      // ---------- Giant Egg --------- //
+      .sub-section-3-4 {
+        top: 13.4rem;
+        right: 0rem;
+        width: 3.3rem;
+      }
+        
+      // ---------- I'm Outta Here --------- //
+      .sub-section-3-5 {
+        bottom: 2.1rem;
+        left: 0.2rem;
+        width: 11.3rem;
+      }
+    }
+
+      // ---------- Column 4 --------- //
+      .south-column-4 {
+      
+        // ---------- Painter's Museum --------- //
+        .sub-section-4-1 {
+          left: 0.3rem;
+          width: 12.4rem;
+        }
+      
+        // ---------- Private Showing --------- //
+        .sub-section-4-2 {
+          top: 10.55rem;
+          left: 1rem;
+          width: 11.2rem;
+        }
+      
+        // ---------- Roadhouse at the Full Moon --------- //
+        .sub-section-4-3 {
+          // bottom: 0.8rem;
+          left: 0.5rem;
+          width: 13.3rem;
+        }
+      }
+
+      //----------------- COLUMN 5 ------------------/
+    
+      .south-column-5 {
+
+        // ---------- Center Stage --------- //
+      .sub-section-5-1 {
+        left: 0.7rem;
+        width: 11.4rem;
+      }
+        
+        // ---------- Conservationist --------- //
+        .sub-section-5-2 {
+          top: 1.5rem;
+          right: 1.5rem;
+          width: 3.3rem;
+        }
+        
+        // ---------- Spiritual Traveler --------- //
+        .sub-section-5-3 {
+          top: 9.4rem;
+          left: 0.1rem;
+          width: 7.5rem;
+        }
+        
+        // ---------- Be of Good Cheer --------- //
+        .sub-section-5-4 {
+          top: 9.4rem;
+          left: 8.7rem;
+          width: 2.7rem;
+        }
+        
+        // ---------- Years Later He Lit Up A Cigarette --------- //
+        .sub-section-5-5 {
+          top: 6.5rem;
+          right: 1.5rem;
+          width: 3.3rem;
+        }
+      
+        // ---------- Bob --------- //
+        .sub-section-5-6 {
+          top: 11.8rem;
+          left: 8.4rem;
+          width: 3.5rem;
+        }
+
+        // ---------- Questionable Moves --------- //
+        .sub-section-5-7 {
+          top: 11.7rem;
+          right: -0.1rem;
+          width: 5.4rem;
+        }
+
+      // ---------- Go Back To sea --------- //
+      .sub-section-5-8 {
+        top: 16.85rem;
+        left: 9.5rem;
+        width: 2.2rem;
+      }
+
+      // ---------- Dubious --------- //
+      .sub-section-5-9 {
+        top: 17.3rem;
+        left: 0.1rem;
+        width: 2.1rem;
+      }
+
+      // ---------- Dervish 1 --------- //
+      .sub-section-5-10 {
+        top: 17.3rem;
+        left: 4.5rem;
+        width: 1.2rem;
+      }
+
+        // ---------- Dervish 2 --------- //
+        .sub-section-5-11 {
+          top: 17.3rem;
+          left: 2.9rem;
+          width: 1.2rem;
+        }
+
+        // ---------- Helena --------- //
+        .sub-section-5-12 {
+          top: 17.3rem;
+          left: 6.4rem;
+          width: 2rem;
+        }
+
+
+        // ---------- The Soul Breaks the Deal --------- //
+        .sub-section-5-13 {
+          bottom: 1.1rem;
+          left: 1.75rem;
+          width: 5.8rem;
+        }
+
+        // ---------- Waiting for the Parting --------- //
+        .sub-section-5-14 {
+          bottom: 1rem;
+          right: 0.7rem;
+          width: 8.4rem;
+        }
+      }
+
+      //----------------- COLUMN 6 ------------------/
+
+      .south-column-6 {
+
+        // ---------- Higher --------- //
+        .sub-section-6-1 {
+          top: 0.9rem;
+          left: -0.7rem;
+          width: 12.5rem;
+        }
+      
+        // ---------- Oh Jesus Christ --------- //
+        .sub-section-6-2 {
+          right: 0.4rem;
+          bottom: 0.8rem;
+          width: 14.8rem;
+        }
+      }
+    }
+  }
+}

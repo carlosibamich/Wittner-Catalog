@@ -595,3 +595,108 @@
   }
 }
 
+// --------------- Max-Width: 960px ----------------- //
+
+@media (max-width: 960px) {
+  .main-room-west-container {
+
+    .main-room-west-grid {
+      // width: 84%;
+      height: 30rem;
+      grid-template-rows: 11.5rem 18.5rem;
+
+      // .section {
+      //   border: 1px solid #d3d3d3;
+      // }
+
+      // -------------------- Column 1 --------------------- //
+
+      .west-column-1 {
+
+        // ---------- Probed --------- //
+        .sub-section-1-1 {
+          left: 2.5rem;
+          width: 8.6rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .west-column-2 {
+
+      // ---------- Playing for the Devil's Ring --------- //
+        .sub-section-2-1 {
+          left: -0.4rem;
+          width: 13rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
+      
+      .west-column-3 {
+
+        .exit-sign-container {
+          top: 8.9rem;
+          left: 5.5rem;
+
+          .exit-sign {
+            width: 2.7rem;
+            height: 1.8rem;
+            font-size: 1.1rem;
+            font-weight: 800;
+            padding-top: 0.14rem;
+          }
+        }
+
+        // ---------- Another Day at the Beach --------- //
+        .sub-section-3-1 {
+          width: 11.1rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .west-column-4 {
+
+        // ---------- Mutiny --------- //
+        .sub-section-4-1 {
+          right: -0.9rem;
+          width: 13.5rem;
+        }
+      }
+
+      // -------------------- Column 5 --------------------- //
+
+      .west-column-5 {
+
+        // ---------- Catch and Release --------- //
+        .sub-section-5-1 {
+          right: 2.3rem;
+          width: 8.4rem;
+        }
+      }
+
+      // -------------------- Column 6 --------------------- //
+
+      .west-column-6 {
+
+        .window-frame {
+          left: 1.1rem;
+        }
+      }
+
+      // -------------------- Column 7 --------------------- //
+
+      // Door Frame Styles applied globally in index.scss //
+    
+      // -------------------- Column 8 --------------------- //
+
+      .west-column-8 {
+
+        .window-frame {
+          right: 1.1rem;
+        }
+      }
+    }
+  }
+}
