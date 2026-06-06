@@ -1718,6 +1718,7 @@
     .stairwell-north-grid {
       width: 88%;
       height: 30rem;
+      grid-template-columns: 1.45fr 0.7fr 1.3fr 2.25fr 2.2fr;
 
       //----------------- COLUMN 1 ------------------//
 
@@ -1725,41 +1726,42 @@
 
         // ---------- No Smoking --------- //
         .sub-section-1-1 {
-          top: 4rem;
-          width: 8.1rem;
+          top: 3.8rem;
+          width: 7.2rem;
         }
 
         // ---------- Going Downstairs --------- //
         .sub-section-1-2 {
-          top: 14rem;
-          right: 9.9rem;
-          width: 3.1rem;
+          top: 13.1rem;
+          right: 9rem;
+          width: 2.7rem;
         }
 
-        // ---------- The Paint HAdn't Even Dried --------- //
+        // ---------- The Paint Hadn't Even Dried --------- //
         .sub-section-1-3 {
-          top: 13rem;
-          width: 3.5rem;
+          top: 12.1rem;
+          right: 5rem;
+          width: 3.1rem;
         }
 
         // ---------- The Heirophant --------- //
         .sub-section-1-4 {
-          top: 14.2rem;
-          right: 1.3rem;
-          width: 3.3rem;
+          top: 13.2rem;
+          right: 1.2rem;
+          width: 2.9rem;
         }
       
         // ---------- Door --------- //
         .sub-section-1-5 {
-          right: 0.9rem;
+          right: 0.6rem;
 
           .white-door-frame {
-            width: 12.4rem;
-            height: 15.6rem;
+            width: 11.8rem;
+            height: 13.3rem;
           
             .white-door {
-              width: 10rem;
-              height: 14.4rem;
+              width: 9.6rem;
+              height: 12.1rem;
             }
           }       
         }
@@ -1771,58 +1773,58 @@
 
         // ---------- White Clown 2 --------- //
         .sub-section-2-1 {
-          top: 10.6rem;
-          left: 0.8rem;
-          width: 2.25rem;
+          top: 9.2rem;
+          left: 0.9rem;
+          width: 2rem;
         }
 
         // ---------- Dervish 3 --------- //  
         .sub-section-2-2 {
-          top: 14.1rem;
+          top: 12.5rem;
           left: 1.2rem;
-          width: 1.5rem;
+          width: 1.4rem;
         }
 
         // ---------- Jester --------- //
         .sub-section-2-3 {
-          top: 16.7rem;
+          top: 14.9rem;
           left: 0.95rem;
-          width: 1.8rem;
+          width: 1.7rem;
         }
 
         // ---------- Untitled --------- //
         .sub-section-2-4 {
-          top: 20.1rem;
+          top: 18.1rem;
           left: 1.2rem;
-          // width: 1.3rem;
+          width: 1.2rem;
         }
 
         // ---------- Flight School --------- //
         .sub-section-2-5 {
-          top: 23.8rem;
-          left: 0.7rem;
-          width: 2.2rem;
+          top: 21.4rem;
+          left: 0.9rem;
+          width: 2rem;
         }
 
         // ---------- Dessert Chef --------- //
         .sub-section-2-6 {
-          top: 12.6rem;
-          right: 0.8rem;
-          width: 2rem;
+          top: 11.4rem;
+          right: 0.5rem;
+          width: 1.9rem;
         }
 
         // ---------- She's Leaving Home --------- //
         .sub-section-2-7 {
-          top: 16.2rem;
-          right: 0.4rem;
-          width: 2.9rem;
+          top: 14.7rem;
+          right: 0.1rem;
+          width: 2.7rem;
         }
 
         // ---------- The Museum --------- //
         .sub-section-2-8 {
-          top: 20.9rem;
-          right: 0.4rem;
-          width: 2.9rem;
+          top: 18.9rem;
+          right: 0.1rem;
+          width: 2.7rem;
         }
       }
 
@@ -1834,18 +1836,18 @@
       .sub-section-3-1 {
         top: 0.5rem;
         left: -0.3rem;
-        width: 14.2rem;
+        width: 12.9rem;
       }
 
       .sub-section-3-2 {
 
         .white-door-frame {
-          width: 12.8rem;
-          height: 22.2rem;
+          width: 11.6rem;
+          height: 19.3rem;
 
           .white-door {
-            width: 10.4rem;
-            height: 21rem;
+            width: 9.4rem;
+            height: 18.3rem;
           }
         }
       }
@@ -1859,71 +1861,71 @@
       // ---------- Pay in Advance --------- //
       .sub-section-4-1 {
         top: 0.2rem;
-        left: 4.2rem;
-        width: 15.8rem;
+        left: 3.7rem;
+        width: 14.5rem;
       }
         
       // ---------- Arrival --------- //
       .sub-section-4-2 {
-        top: 12.3rem;
-        // left: 1.3rem;
-        width: 2.3rem;
+        top: 11.5rem;
+        left: 1.05rem;
+        width: 2.2rem;
       }
         
       // ---------- A Better Place --------- //
       .sub-section-4-3 {
-        top: 16rem;
-        // left: 1rem;
-        width: 2.9rem;
+        top: 14.9rem;
+        left: 0.9rem;
+        width: 2.6rem;
       }
         
       // ---------- In Readiness --------- //
       .sub-section-4-4 {
-        top: 19.8rem;
-        // left: 1rem;
-        width: 2.9rem;
+        top: 18.3rem;
+        left: 0.9rem;
+        width: 2.6rem;
       }
         
       // ---------- Check Mate --------- //
       .sub-section-4-5 {
-        top: 13.4rem;
-        left: 5.8rem;
-        width: 2.3rem;
+        top: 12.4rem;
+        left: 5.4rem;
+        width: 2rem;
       }
         
       // ---------- Fear of Doctors --------- //
        .sub-section-4-6 {
-        top: 17.2rem;
-        left: 5.3rem;
-        width: 3.2rem;
+        top: 16rem;
+        left: 5rem;
+        width: 2.9rem;
       }
         
       // ---------- The Chariot --------- //
       .sub-section-4-7 {
-        top: 14rem;
-        left: 9.2rem;
-        width: 4.9rem;
+        top: 12.9rem;
+        left: 8.6rem;
+        width: 4.6rem;
       }
         
       // ---------- Out of Reach --------- //
       .sub-section-4-8 {
-        top: 13.4rem;
-        right: 4.4rem;
-        width: 2.3rem;
+        top: 12.4rem;
+        right: 4.6rem;
+        width: 2rem;
       }
       
       // ---------- Red --------- //
       .sub-section-4-9 {
-        top: 17rem;
-        right: 4.2rem;
-        width: 2.7rem;
+        top: 15.8rem;
+        right: 4.4rem;
+        width: 2.45rem;
       }
 
       // ---------- Surprised --------- //
       .sub-section-4-10 {
-        top: 15.2rem;
-        right: 0.8rem;
-        width: 2.6rem;
+        top: 14.1rem;
+        right: 0.9rem;
+        width: 2.5rem;
       }
     }
 
@@ -1933,14 +1935,14 @@
 
         // ---------- Door --------- //
         .sub-section-5-1 {
-          right: 1rem;
+          right: 0.8rem;
 
           .white-door-frame {
-            width: 11.2rem;
+            width: 10.5rem;
 
             .white-door {
-              width: 8.8rem;
-              height: 23.4rem;
+              width: 8.4rem;
+              height: 23.5rem;
             }
           }       
         }
@@ -1949,67 +1951,92 @@
         .stairs-container.sub-section-5-2 {
 
           .steps-container {
-            width: 13.4rem;
-            height: 13.2rem;
+            width: 12.6rem;
+            height: 11.4rem;
           
             .steps {
-              width: 13.4rem;
+              width: 12.6rem;
             }
 
             .step-1 {
               top: 0;
             }
             .step-2 {
-              top: 2.2rem;
+              top: 1.8rem;
             }
             .step-3 {
-              top: 4.4rem;
+              top: 3.6rem;
             }
             .step-4 {
-              top: 6.6rem;
+              top: 5.4rem;
             }
             .step-5 {
-              top: 8.8rem;
+              top: 7.2rem;
             }
             .step-6 {
-              top: 11rem;
+              top: 9rem;
             }
           }
         }
 
         // ---------- Trip With My Brother --------- //
         .sub-section-5-3 {
-          top: 3.6rem;
+          top: 3.5rem;
           left: 0.9rem;
-          width: 8.3rem;
+          width: 7.4rem;
         }
         
         // ---------- Best of Show --------- //
         .sub-section-5-4 {
-          top: 12.7rem;
-          left: 1.5rem;
-          width: 3.3rem;
+          top: 11.6rem;
+          left: 1.4rem;
+          width: 2.9rem;
         }
         
         // ---------- Sainted --------- //
         .sub-section-5-5 {
-          top: 15.9rem;
-          left: 1.5rem;
-          width: 3.3rem;
+          top: 14.4rem;
+          left: 1.4rem;
+          width: 2.9rem;
         }
         
         // ---------- Six Dogs --------- //
         .sub-section-5-6 {
-          top: 12.2rem;
-          left: 5.8rem;
-          width: 2.8rem;
+          top: 11rem;
+          left: 5.1rem;
+          width: 2.5rem;
         }
         
         // ---------- We Were Fighting --------- //
         .sub-section-5-7{
-          top: 16.5rem;
-          left: 5.8rem;
-          width: 2.5rem;
+          top: 15rem;
+          left: 5.1rem;
+          width: 2.2rem;
+        }
+      }
+    }
+  }
+}
+
+// ----------------- Max-Width: 780px ------------------- //
+
+@media screen and (max-width: 780px) {
+  .stairwell-north-container {
+
+    .stairwell-north-grid {
+    
+      //----------------- COLUMN 4 ------------------//
+    
+      .stairwell-north-column-4 {
+
+        // ---------- Out of Reach --------- //
+        .sub-section-4-8 {
+          right: 4.3rem;
+        }
+      
+        // ---------- Red --------- //
+        .sub-section-4-9 {
+          right: 4.1rem;
         }
       }
     }

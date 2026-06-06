@@ -1680,3 +1680,14 @@
     }
   }
 }
+
+// --------------- Max-Width 780px ---------------- //
+
+@media screen and (max-width: 780px) {
+  .main-room-stage-container {
+  
+    .main-room-stage-grid {
+      width: 91.5%;
+    }
+  }
+}

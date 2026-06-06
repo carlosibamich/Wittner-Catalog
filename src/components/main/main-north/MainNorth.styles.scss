@@ -2249,3 +2249,14 @@
     }
   }
 }
+
+// --------------- Max-Width 780px ---------------- //
+
+@media screen and (max-width: 780px) {
+  .main-room-north-container {
+  
+    .main-room-north-grid {
+      width: 91%;
+    }
+  }
+}

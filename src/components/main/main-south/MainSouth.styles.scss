@@ -2034,3 +2034,15 @@
     }
   }
 }
+
+// --------------- Max-Width 780px ---------------- //
+
+@media screen and (max-width: 780px) {
+  .main-room-south-container {
+  
+    .main-room-south-grid {
+      width: 91%;
+      grid-template-columns: 1.7fr 4.4fr 4.68fr 5.28fr 7.34fr 6.3fr;
+    }
+  }
+}

@@ -1597,3 +1597,364 @@
     }
   }
 }
+
+// ----------------- Max-Width: 960px ------------------- //
+
+@media screen and (max-width: 960px) {
+  .stairwell-south-container {
+
+    .stairwell-south-grid {
+      // width: 88%;
+      height: 30rem;
+      grid-template-columns: 2.15fr 2.35fr 1.05fr 0.72fr 1.37fr;
+
+      // .section {
+      //   border: 1px solid #d5d5d5;
+      // }
+
+      //----------------- COLUMN 1 ------------------//
+
+      .stairwell-south-column-1 {
+
+        // ---------- Door --------- //
+        .sub-section-1-1 {
+          right: 0.8rem;
+
+          .white-door-frame {
+            width: 10.5rem;
+
+            .white-door {
+              width: 8.4rem;
+              height: 23.5rem;
+            }
+          }       
+        }
+
+        // ---------- Stairs --------- //
+        .stairs-container.sub-section-1-2 {
+
+          .steps-container {
+            width: 12.6rem;
+            height: 11.4rem;
+          
+            .steps {
+              width: 12.6rem;
+            }
+
+            .step-1 {
+              top: 0;
+            }
+            .step-2 {
+              top: 1.8rem;
+            }
+            .step-3 {
+              top: 3.6rem;
+            }
+            .step-4 {
+              top: 5.4rem;
+            }
+            .step-5 {
+              top: 7.2rem;
+            }
+            .step-6 {
+              top: 9rem;
+            }
+          }
+        }
+
+        // ---------- Trip With My Brother --------- //
+        .sub-section-1-3 {
+          top: 3.5rem;
+          left: 0.8rem;
+          width: 7.4rem;
+        }
+        
+        // ---------- Best of Show --------- //
+        .sub-section-1-4 {
+          top: 11.6rem;
+          left: 1.3rem;
+          width: 2.9rem;
+        }
+        
+        // ---------- Sainted --------- //
+        .sub-section-1-5 {
+          top: 14.4rem;
+          left: 1.3rem;
+          width: 2.9rem;
+        }
+        
+        // ---------- Six Dogs --------- //
+        .sub-section-1-6 {
+          top: 11rem;
+          left: 5rem;
+          width: 2.5rem;
+        }
+        
+        // ---------- We Were Fighting --------- //
+        .sub-section-1-7{
+          top: 15rem;
+          left: 5rem;
+          width: 2.2rem;
+        }
+      }
+
+      //----------------- COLUMN 2 ------------------//
+      
+      .stairwell-south-column-2 {
+        
+        // ---------- Nothing Makes Sense --------- //
+        .sub-section-2-1 {
+          top: 4rem;
+          left: 1rem;
+          width: 1.8rem;
+        }
+        
+        // ---------- Where Are You Going --------- //  
+        .sub-section-2-2 {
+          top: 3.8rem;
+          left: 4rem;
+          width: 2.7rem;
+        }
+
+        // ---------- Eggs --------- //
+        .sub-section-2-3 {
+          top: 7.1rem;
+          left: 3.2rem;
+          width: 4.2rem;
+        }
+
+        // ---------- No Mother, Stay in the Rocket Ship --------- //
+        .sub-section-2-4 {
+          top: 5rem;
+          left: 8.6rem;
+          width: 2.6rem;
+        }
+
+        // ---------- Divas --------- //
+        .sub-section-2-5 {
+          top: 8.9rem;
+          left: 8rem;
+          width: 3.6rem;
+        }
+
+        // ---------- A Cold Wind --------- //
+        .sub-section-2-6 {
+          top: 6.1rem;
+          right: 6.5rem;
+          width: 2.7rem;
+        }
+
+        // ---------- Voices of Doom --------- //
+        .sub-section-2-7 {
+          top: 11.1rem;
+          right: 5.3rem;
+          width: 4.9rem;
+        }
+
+        // ---------- Unholy Matrimony --------- //
+        .sub-section-2-8 {
+          top: 5.4rem;
+          right: 0.45rem;
+          width: 4.6rem;
+        }
+
+        // ---------- Anger --------- //
+        .sub-section-2-9 {
+          top: 8.9rem;
+          right: 1.4rem;
+          width: 2.6rem;
+        }
+
+        // ---------- Overqualified --------- //
+        .sub-section-2-10 {
+          top: 13rem;
+          right: 0.6rem;
+          width: 4.2rem;
+        }
+      }
+
+      //----------------- COLUMN 3 ------------------//
+
+    .stairwell-south-column-3 {
+      
+      // ---------- Peghead --------- //
+      .sub-section-3-1 {
+        top: 0rem;
+        left: 3rem;
+        width: 4.3rem;
+      }
+      // ---------- Decoration --------- //
+      .sub-section-3-2 {
+        top: 5.9rem;
+        left: 2.2rem;
+        width: 5.8rem;
+      }
+
+      .sub-section-3-3 {
+        left: 0rem;
+
+        .white-door {
+          width: 10rem;
+          height: 19rem;
+        }
+      }
+    }
+
+    //----------------- COLUMN 4 ------------------//
+    
+    .stairwell-south-column-4 {
+      
+      // ---------- Re-Entry was Rough --------- //
+      .sub-section-4-1 {
+        top: 3rem;
+        left: -0.5rem;
+        width: 4.5rem;
+      }
+        
+      // ---------- Older but Wiser --------- //
+      .sub-section-4-2 {
+        top: 7rem;
+        left: -0.3rem;
+        width: 2.6rem;
+      }
+        
+      // ---------- Worker --------- //
+      .sub-section-4-3 {
+        top: 7rem;
+        left: 2.8rem;
+        width: 2.5rem;
+      }
+        
+      // ---------- Demo --------- //
+      .sub-section-4-4 {
+        top: 10.6rem;
+        left: 1.8rem;
+        width: 4rem;
+      }
+        
+      // ---------- Bent Note --------- //
+      .sub-section-4-5 {
+        top: 14.7rem;
+        left: 1.8rem;
+        width: 4rem;
+      }
+    }
+
+    //----------------- COLUMN 5 ------------------//
+
+    .stairwell-south-column-5 {
+
+        // ---------- No Smoking --------- //
+        .sub-section-5-1 {
+          top: 3.8rem;
+          width: 7.2rem;
+        }
+
+        // ---------- Going Downstairs --------- //
+        .sub-section-5-2 {
+          top: 13.1rem;
+          right: 9.1rem;
+          width: 2.7rem;
+        }
+
+        // ---------- The Paint Hadn't Even Dried --------- //
+        .sub-section-5-3 {
+          top: 12.1rem;
+          right: 5.1rem;
+          width: 3.1rem;
+        }
+
+        // ---------- The Heirophant --------- //
+        .sub-section-5-4 {
+          top: 13.2rem;
+          right: 1.3rem;
+          width: 2.9rem;
+        }
+      
+        // ---------- Door --------- //
+        .sub-section-5-5 {
+          right: 0.7rem;
+
+          .white-door-frame {
+            width: 11.8rem;
+            height: 13.3rem;
+          
+            .white-door {
+              width: 9.6rem;
+              height: 12.1rem;
+            }
+          }       
+        }
+      } 
+    }
+  }
+}
+
+// ----------------- Max-Width: 780px ------------------- //
+
+@media screen and (max-width: 780px) {
+  .stairwell-south-container {
+
+    .stairwell-south-grid {
+
+      //----------------- COLUMN 2 ------------------//
+      
+      .stairwell-south-column-2 {
+        
+        // ---------- Where Are You Going --------- //  
+        .sub-section-2-2 {
+          left: 3.9rem;
+        }
+
+        // ---------- Eggs --------- //
+        .sub-section-2-3 {
+          left: 3.1rem;
+        }
+
+        // ---------- No Mother, Stay in the Rocket Ship --------- //
+        .sub-section-2-4 {
+          left: 8.4rem;
+        }
+
+        // ---------- Divas --------- //
+        .sub-section-2-5 {
+          left: 7.8rem;
+        }
+
+        // ---------- A Cold Wind --------- //
+        .sub-section-2-6 {
+          right: 6.4rem;
+        }
+
+        // ---------- Voices of Doom --------- //
+        .sub-section-2-7 {
+          right: 5.2rem;
+        }
+
+        // ---------- Unholy Matrimony --------- //
+        .sub-section-2-8 {
+          right: 0.35rem;
+        }
+
+        // ---------- Anger --------- //
+        .sub-section-2-9 {
+          right: 1.3rem;
+        }
+
+        // ---------- Overqualified --------- //
+        .sub-section-2-10 {
+          right: 0.5rem;
+        }
+      }
+
+      //----------------- COLUMN 3 ------------------//
+
+      .stairwell-south-column-3 {
+
+        .sub-section-3-3 {
+          left: 0.1rem;
+        }
+      }
+    }
+  }
+}

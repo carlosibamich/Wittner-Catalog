@@ -295,6 +295,103 @@
     }
   }
 }
+
+// -------------- Max-Width 960px -------------- //
+
+@media screen and (max-width: 960px) {
+  .custom-modal-width {
+
+    .modal-header {
+      height: 2.6rem;
+
+      button.btn-close {
+        top: 0.9rem;
+        font-size: 1.22rem;
+      }
+    }
+
+    .modal-body {
+      padding: 0 0.8rem 1rem 0.8rem;
+      padding-top: 0rem;
+
+      .modal-img-constrained {
+        height: 80dvh;
+        width: auto;
+        max-width: 90dvw;
+      }
+
+      .modal-title {
+        margin-top: 0.4rem;
+
+        p {
+        font-size: 1.47rem;
+
+          span {
+            font-size: 1.4rem;
+          }
+        }
+
+        span.audio {
+
+          .audio-content {
+
+            p {
+            font-size: 1.5rem;
+            }
+
+            .audio-card button {
+              width: 3.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 780px -------------- //
+
+@media screen and (max-width: 780px) {
+  .custom-modal-width {
+
+    .modal-header {
+
+      button.btn-close {
+        right: 1.8rem;
+        font-size: 1.22rem;
+      }
+    }
+
+    .modal-body {
+
+      .modal-title {
+
+        p {
+        font-size: 1.67rem;
+
+          span {
+            font-size: 1.57rem;
+          }
+        }
+
+        span.audio {
+
+          .audio-content {
+
+            p {
+            font-size: 1.6rem;
+            }
+
+            .audio-card button {
+              width: 3.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // -------------- Max-Width 1180px -------------- //
 
 // -------------- Max-Width 1024px -------------- //

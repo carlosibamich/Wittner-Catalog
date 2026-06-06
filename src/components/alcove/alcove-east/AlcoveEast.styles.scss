@@ -1346,3 +1346,69 @@
     }
   }
 }
+
+// --------------- Max-Width: 780px --------------- //
+
+@media screen and (max-width: 780px) {
+  .alcove-east-container {
+
+    .alcove-east-grid {
+      grid-template-columns: 1.27fr 1fr 1.27fr;
+
+      //----------------- COLUMN 1 ------------------//
+
+      .alcove-east-column-1 {
+      
+        // ---------- Installing the Music App --------- //
+        .sub-section-1-1 {
+          left: 4.2rem;
+        }
+        
+        // ---------- Social Distancing --------- //
+        .sub-section-1-2 {
+          left: 2.7rem;
+        }
+        
+        // ---------- Time to Feed the Frog --------- //
+        .sub-section-1-3 {
+          left: 2.7rem;
+        }
+        
+        // ---------- Leavng the House of Horrors --------- //
+        .sub-section-1-4 {
+          left: 6.9rem;
+        }
+        
+        // ---------- A Much Needed Surgery --------- //
+        .sub-section-1-5 {
+          left: 7.1rem;
+        }
+        
+        // ---------- Safe Travel --------- //
+        .sub-section-1-6 {
+          left: 10.4rem;
+        }
+        
+        // ---------- Arrival Through the Black Hole --------- //
+        .sub-section-1-7 {
+          right: 6.9rem;
+        }
+        
+        // ---------- Martian Mary Poppins --------- //
+        .sub-section-1-8 {
+          right: 7rem;
+        }
+      
+        // ---------- Fool In Recent Times --------- //
+        .sub-section-1-9 {
+          right: 2.5rem;
+        }
+        
+        // ---------- Homecoming for Lost tambourine --------- //
+        .sub-section-1-10 {
+          right: 2.5rem;
+        }
+      }
+    }
+  }
+}

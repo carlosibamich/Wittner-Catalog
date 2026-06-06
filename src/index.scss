@@ -706,24 +706,8 @@ div.carousel-container {
     
     .controls {
       margin-top: 0.3rem;
-      // margin-bottom: 3.5dvh;
-
-      // .page-button {
-      //   font-size: 1.16rem;
-      // }
     }
   }
-
-  // .exit-sign-container {
-    
-  //   .exit-sign {
-  //     width: 2.7rem;
-  //     height: 1.8rem;
-  //     font-size: 1.1rem;
-  //     font-weight: 800;
-  //     padding-top: 0.14rem;
-  //   }
-  // }
 
   /* --------- Windows --------- */
   .window-frame {
@@ -774,5 +758,82 @@ div.carousel-container {
       }
     }
   }
+}
+
+// --------------- Max-Width 870px ---------------- //
+
+@media screen and (max-width: 870px) {
+  html {
+    font-size: 64%;
+  }
+}
+
+// --------------- Max-Width 780px ---------------- //
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 58.5%;
+    }
+
+  .border-shadow-lg {
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.3);
+  }
+
+  // div.carousel-container {
+    
+  //   .controls {
+  //     margin-top: 0.3rem;
+  //   }
+  // }
+
+  /* --------- Windows --------- */
+  // .window-frame {
+  //   width: 24.5rem;
+  //   height: 15.5rem;
+
+  //   .window-pane {
+  //     bottom: 0.55rem;
+  //     width: 11.4rem;
+  //     height: 14.45rem;
+  //   }
+
+  //   .pane-left {
+  //     left: 0.55rem;
+  //   }
+
+  //   .pane-right {
+  //     right: 0.55rem;
+  //   }
+  // }
+
+  /* --------- Doors Styles --------- */
+
+  // .door-frame-container {
+
+  //   .door-frame {
+  //     width: 14.2rem;
+  //     height: 18.5rem;
+
+  //     .door-window-pane-top {
+  //       width: 13.1rem;
+  //       height: 2rem;
+  //     }
+
+  //     .door-window-pane-left {
+  //       width: 6.25rem;
+  //       height: 14.8rem;
+  //     }
+
+  //     .door-window-pane-right {
+  //       width: 6.25rem;
+  //       height: 14.8rem;
+  //     }
+
+  //     .door-crossbar {
+  //       bottom: 7.8rem;
+  //       width: 14.2rem;
+  //     }
+  //   }
+  // }
 }
 

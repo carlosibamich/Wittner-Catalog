@@ -330,39 +330,43 @@
   }
 }
 
-// -------------- Max-Width 820px -------------- //
+// -------------- Max-Width 780px -------------- //
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 780px) {
  .navigation-container {
-  height: 7rem;
-  margin-top: 0;
+  // height: 7rem;
+  // margin-top: 0;
 
   .navigation {
-    justify-content: center;
-    width: 100%;
+    width: 73rem;
 
-    .logo-container {
-      // display: none;
-      position: absolute;
-      top: 2.6rem;
-      max-width: 11.4rem;
-      max-height: auto;
-      }
+    .nav-center {
+      width: 55rem;
+      height: 9.3dvh;
     }
 
-    .svgs-container {
-      position: absolute;
-      // display: none;
-      // width: 15rem;
-      // margin-top: 0;
-      // margin-right: 0;
-      // padding-left: 1.5rem;
+    // .logo-container {
+    //   // display: none;
+    //   position: absolute;
+    //   top: 2.6rem;
+    //   max-width: 11.4rem;
+    //   max-height: auto;
+    //   }
+  }
+
+    // .svgs-container {
+    //   position: absolute;
+    //   // display: none;
+    //   // width: 15rem;
+    //   // margin-top: 0;
+    //   // margin-right: 0;
+    //   // padding-left: 1.5rem;
       
-      .instagram {
-        display: none;
-        // font-size: 2.1rem;
-      }
-    }
+    //   .instagram {
+    //     display: none;
+    //     // font-size: 2.1rem;
+    //   }
+    // }
   }
 }
 
