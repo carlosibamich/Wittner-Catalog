@@ -900,6 +900,28 @@
 }
 }
 
+// ---------------- Max-Height: 840px and Max-Width: 1370px --------------- //
+
+@media screen and (max-height: 840px) and (max-width: 1370px) {
+  .main-room-north-container {
+  
+    .main-room-north-grid {
+      margin-top: 0.8rem;
+    }
+  }
+}
+
+// ---------------- Max-Height: 700px and Max-Width: 1370px --------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1370px) {
+  .main-room-north-container {
+  
+    .main-room-north-grid {
+      margin-top: 0rem;
+    }
+  }
+}
+
 // --------------- Max-Width 1280px ---------------- //
 
 @media screen and (max-width: 1280px) {
@@ -2257,6 +2279,16 @@
   
     .main-room-north-grid {
       width: 91%;
+
+      //----------------- COLUMN 8 ------------------/
+
+      .north-column-8 {
+
+        // ---------- GalleryHeaven --------- //
+        .sub-section-8-4 {
+          left: -0.4rem;
+        }
+      }
     }
   }
 }

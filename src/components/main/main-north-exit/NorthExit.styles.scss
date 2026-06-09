@@ -424,6 +424,17 @@
   }
 }
 
+// ---------------- Max-Height: 840px and Max-Width: 1370px --------------- //
+
+@media screen and (max-height: 840px) and (max-width: 1370px) {
+  .main-room-container {
+  
+    .main-room-north-exit-grid {
+      margin-top: 0.8rem;
+    }
+  }
+}
+
 // -------------------- Max-Width: 1280px --------------------- //
 
 @media screen and (max-width: 1280px) {

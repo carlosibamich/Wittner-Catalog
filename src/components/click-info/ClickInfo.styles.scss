@@ -43,11 +43,35 @@
   }
 
   .color-base {
-    // display: none;
+    display: none;
   }
 }
 
 // --------------------- Media Queries --------------------- //
+
+// ----------------- Max-Width 960px ----------------- //
+
+// @media screen and (min-height: 1110px) and (max-width: 1925px) {
+//   .click-info-container {
+//     // bottom: 0;
+
+//     .click-info {
+
+//       .line {
+//       }
+
+//       p {
+//         font-size: 1.8rem;
+//       }
+//     }
+
+//     .color-base {
+//       display: block;
+//       height: 5dvh;
+//       border-top: 3px solid var(--copper-yellow);
+//     }
+//   }
+// }
 
 // ----------------- Max-Width 1800px ----------------- //
 
@@ -62,15 +86,15 @@
       }
 
       p {
-        font-size: 1.4rem;
+        font-size: 1.42rem;
       }
     }
   }
 }
 
-// ----------------- Max-Width 1728px ----------------- //
+// ----------------- Max-Width 1730px ----------------- //
 
-@media screen and (max-width: 1728px) {
+@media screen and (max-width: 1730px) {
   .click-info-container {
     flex-direction: column;
     align-items: flex-end;
@@ -80,16 +104,17 @@
       height: 8.5dvh;
 
       .fish {
-        font-size: 1.85rem;
+        font-size: 2rem;
       }
 
       p {
-        font-size: 1.45rem;
+        font-size: 1.6rem;
       }
 
     }
 
     .color-base {
+      display: block;
       height: 4.5dvh;
       width: 100%;
       border-top: 4px solid var(--copper-yellow);
@@ -136,6 +161,88 @@
         font-size: 1.45rem;
       }
 
+    }
+
+    .color-base {
+      display: none;
+    }
+  }
+}
+
+// ---------------- Min-Height: 900px and Max-Width: 1370px --------------- //
+
+@media screen and (min-height: 900px) and (max-width: 1370px) {
+  .click-info-container {
+
+    .click-info {
+      height: 8dvh;
+
+      .line {
+        width: 18.5rem;
+      }
+
+      p {
+        font-size: 1.7rem;
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 840px and Max-Width: 1370px --------------- //
+
+@media screen and (max-height: 840px) and (max-width: 1370px) {
+  .click-info-container {
+    bottom: 0;
+
+    .click-info {
+      height: 9.5dvh;
+
+      .line {
+        width: 20rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+// -------------- Max-Height: 770px and Max-Width 1370px -------------- //
+
+@media screen and (max-height: 770px) and (max-width: 1370px) {
+  .click-info-container {
+
+    .click-info {
+      height: 7dvh;
+
+      .line {
+        width: 19rem;
+      }
+    }
+
+    .color-base {
+      display: block;
+      height: 3.8dvh;
+    }
+  }
+}
+
+// -------------- Max-Height: 700px and Max-Width 1370px -------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1370px) {
+  .click-info-container {
+
+    .click-info {
+      height: 9.4dvh;
+
+      // .line {
+      //   width: 19rem;
+      // }
+
+      p {
+        font-size: 1.45rem;
+      }
     }
 
     .color-base {
@@ -259,8 +366,38 @@
 
     .color-base {
       display: block;
-      height: 3.8dvh;
+      height: 5dvh;
       border-top: 3px solid var(--copper-yellow);
+    }
+  }
+}
+
+// ----------------- Max-Width 780px ----------------- //
+
+@media screen and (max-width: 780px) {
+  .click-info-container {
+    bottom: 6.8rem;
+    // border-bottom: 1px solid var(--copper-yellow);
+
+    .click-info {
+      height: 7dvh;
+
+      .line {
+        width: 16rem;
+        margin: 0 0.9rem;
+      }
+
+      .fish {
+        font-size: 1.9rem;
+      }
+
+      p {
+        font-size: 1.45rem;
+      }
+    }
+
+    .color-base {
+      display: none;
     }
   }
 }
