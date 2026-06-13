@@ -53,7 +53,7 @@
 
 // -------------- Max-Width 1800px -------------- //
 
-@media (max-width: 1800px) {
+@media screen and (max-width: 1800px) {
   .main-nav-options {
     width: 54rem;
 
@@ -70,9 +70,29 @@
   }
 }
 
+// --------------- Max-Width 1760px ---------------- //
+
+@media screen and (max-width: 1760px) {
+  .main-nav-options {
+    width: 54.5rem;
+
+    .navlink-container {
+      margin: 0 1.6rem;
+      padding-top: 0.4rem;
+
+      .nav-link {
+
+        a {
+          font-size: 1.23rem;
+        }
+      }
+    }
+  }
+}
+
 // -------------- Max-Width 1730px -------------- //
 
-@media (max-width: 1730px) {
+@media screen and (max-width: 1730px) {
   .main-nav-options {
     width: 56.5rem;
 
@@ -89,9 +109,27 @@
   }
 }
 
+// -------------- Max-Width 1650px -------------- //
+
+@media screen and (max-width: 1650px) {
+  .main-nav-options {
+
+    .navlink-container {
+      margin: 0 1.65rem;
+
+      .nav-link {
+
+        a {
+          font-size: 1.27rem;
+        }
+      }
+    }
+  }
+}
+
 // -------------- Max-Width 1440px -------------- //
 
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .main-nav-options {
     width: 51rem;
     height: 5rem;
@@ -112,7 +150,7 @@
 
 // -------------- Max-Width 1380px -------------- //
 
-@media (max-width: 1380px) {
+@media screen and (max-width: 1380px) {
   .main-nav-options {
     width: 54rem;
     height: 6.5dvh;
@@ -179,7 +217,7 @@
 
 // -------------- Max-Width 1280px -------------- //
 
-@media (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .main-nav-options {
     width: 55rem;
     height: 5.2dvh;
@@ -191,16 +229,29 @@
       .nav-link {
 
         a {
-          font-size: 1.25rem;
+          font-size: 1.28rem;
         }
       }
     }
   }
 }
 
+// --------------- Max-Height: 720px and Max-Width 1280px ---------------- //
+
+@media screen and (max-height: 720px) and (max-width: 1280px) {
+  .main-nav-options {
+    // width: 55rem;
+    height: 6.2dvh;
+
+    .navlink-container {
+      padding-bottom: 0rem;
+    }
+  }
+}
+
 // -------------- Max-Width 1220px -------------- //
 
-@media (max-width: 1220px) {
+@media screen and (max-width: 1220px) {
   .main-nav-options {
     width: 53.5rem;
 
@@ -219,7 +270,7 @@
 
 // -------------- Max-Width 1200px -------------- //
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .main-nav-options {
     width: 53rem;
 
@@ -236,9 +287,38 @@
   }
 }
 
+// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 780px) and (max-width: 1035px) {
+  .main-nav-options {
+    width: 54rem;
+    padding-top: 1rem;
+    border-bottom: 2px solid var(--copper-yellow);
+
+    .navlink-container {
+      margin: 0 1.42rem;
+
+      .nav-link {
+
+        a {
+          font-size: 1.28rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1035px) {
+  .main-nav-options {
+    padding-top: 0.2rem;
+  }
+}
+
 // -------------- Max-Width 960px -------------- //
 
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .main-nav-options {
     width: 50rem;
     height: 4.8dvh;
@@ -259,7 +339,7 @@
 
 // -------------- Max-Width 780px -------------- //
 
-@media (max-width: 780px) {
+@media screen and (max-width: 780px) {
   .main-nav-options {
     width: 52rem;
     height: 6dvh;

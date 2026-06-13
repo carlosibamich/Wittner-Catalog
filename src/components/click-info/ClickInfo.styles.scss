@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 11dvh;
+    height: 10.5dvh;
     width: 100%;
     padding-bottom: 0.6rem;
 
@@ -47,31 +47,7 @@
   }
 }
 
-// --------------------- Media Queries --------------------- //
-
-// ----------------- Max-Width 960px ----------------- //
-
-// @media screen and (min-height: 1110px) and (max-width: 1925px) {
-//   .click-info-container {
-//     // bottom: 0;
-
-//     .click-info {
-
-//       .line {
-//       }
-
-//       p {
-//         font-size: 1.8rem;
-//       }
-//     }
-
-//     .color-base {
-//       display: block;
-//       height: 5dvh;
-//       border-top: 3px solid var(--copper-yellow);
-//     }
-//   }
-// }
+// ======================== Media Queries ========================= //
 
 // ----------------- Max-Width 1800px ----------------- //
 
@@ -79,7 +55,7 @@
   .click-info-container {
 
     .click-info {
-      height: 13.5dvh;
+      height: 13dvh;
       
       .line {
         width: 22.3rem;
@@ -87,6 +63,24 @@
 
       p {
         font-size: 1.42rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 1760px ---------------- //
+
+@media screen and (max-width: 1760px) {
+  .click-info-container {
+
+    .click-info {
+
+      .fish {
+        font-size: 1.85rem;
+      }
+
+      p {
+        font-size: 1.52rem;
       }
     }
   }
@@ -108,7 +102,7 @@
       }
 
       p {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
       }
 
     }
@@ -119,7 +113,26 @@
       width: 100%;
       border-top: 4px solid var(--copper-yellow);
       background-color: var(--dark-grey);
-      // opacity: 0.9;
+    }
+  }
+}
+
+// ----------------- Max-Width 1650px ----------------- //
+
+@media screen and (max-width: 1650px) {
+  .click-info-container {
+
+    .click-info {
+      height: 8dvh;
+
+      .fish {
+        font-size: 1.9rem;
+      }
+
+      p {
+        font-size: 1.45rem;
+      }
+
     }
   }
 }
@@ -270,6 +283,25 @@
   }
 }
 
+// --------------- Max-Height: 720px and Max-Width 1280px ---------------- //
+
+@media screen and (max-height: 720px) and (max-width: 1280px) {
+  .click-info-container {
+
+    .click-info {
+      height: 12.5dvh;
+
+      .fish {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
 // ----------------- Min-Height 800px and Max-Width 1280px ----------------- //
 
 @media screen and (min-height: 800px) and (max-width: 1280px) {
@@ -349,6 +381,54 @@
   }
 }
 
+// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 780px) and (max-width: 1035px) {
+  .click-info-container {
+    bottom: 15dvh;
+
+    .click-info {
+      height: 6.8dvh;
+
+      .fish {
+        font-size: 2rem;
+      }
+
+      .line {
+        width: 17.5rem;
+      }
+
+      p {
+        font-size: 1.65rem;
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1035px) {
+  .click-info-container {
+    bottom: 12.8dvh;
+
+    .click-info {
+      // height: 6.8dvh;
+
+      .fish {
+        font-size: 1.9rem;
+      }
+
+      .line {
+        width: 17.5rem;
+      }
+
+      p {
+        font-size: 1.53rem;
+      }
+    }
+  }
+}
+
 // ----------------- Max-Width 960px ----------------- //
 
 @media screen and (max-width: 960px) {
@@ -371,6 +451,30 @@
     }
   }
 }
+
+// ----------------- Max-Width 960px ----------------- //
+
+// @media screen and (min-height: 1110px) and (max-width: 1925px) {
+//   .click-info-container {
+//     // bottom: 0;
+
+//     .click-info {
+
+//       .line {
+//       }
+
+//       p {
+//         font-size: 1.8rem;
+//       }
+//     }
+
+//     .color-base {
+//       display: block;
+//       height: 5dvh;
+//       border-top: 3px solid var(--copper-yellow);
+//     }
+//   }
+// }
 
 // ----------------- Max-Width 780px ----------------- //
 

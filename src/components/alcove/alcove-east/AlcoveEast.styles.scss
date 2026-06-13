@@ -262,7 +262,9 @@
   }
 }
 
-// -------------------- Media Queries -------------------- //
+// ======================= Media Queries ======================= //
+
+// --------------- Max-Width: 1800px --------------- //
 
 @media screen and (max-width: 1800px) {
   .alcove-east-container {
@@ -347,6 +349,111 @@
           right: 3.5rem;
         }   
       }
+    }
+  }
+}
+
+// --------------- Max-Width: 1760px --------------- //
+
+@media screen and (max-width: 1760px) {
+  .alcove-east-container {
+
+    .alcove-east-grid {
+
+      .alcove-east-column-1 {
+        
+      // ---------- Social Distancing --------- //
+      .sub-section-1-2 {
+        left: 4.6rem;
+      }
+        
+      // ---------- Time to Feed the Frog --------- //
+      .sub-section-1-3 {
+        left: 4.6rem;
+      }
+        
+      // ---------- Leavng the House of Horrors --------- //
+      .sub-section-1-4 {
+        left: 9.9rem;
+      }
+        
+      // ---------- A Much Needed Surgery --------- //
+      .sub-section-1-5 {
+        left: 10.1rem;
+      }
+        
+      // ---------- Safe Travel --------- //
+       .sub-section-1-6 {
+        left: 13.9rem;
+      }
+        
+      // ---------- Arrival Through the Black Hole --------- //
+      .sub-section-1-7 {
+        right: 9.3rem;
+      }
+        
+      // ---------- Martian Mary Poppins --------- //
+      .sub-section-1-8 {
+        right: 9.4rem;
+      }
+      
+      // ---------- Fool In Recent Times --------- //
+      .sub-section-1-9 {
+        right: 4.4rem;
+      }
+
+      // ---------- Homecoming for Lost tambourine --------- //
+      .sub-section-1-10 {
+        right: 4.4rem;
+      }
+  }
+
+      //----------------- COLUMN 2 ------------------//
+    
+      .alcove-east-column-2 {
+        
+        // ---------- Flip --------- //
+        .sub-section-2-2 {
+          left: 2.9rem;
+        }
+        
+        // ---------- You First --------- //
+        .sub-section-2-3 {
+          left: 2.9rem;
+        }
+        
+        // ---------- Bird Sanctuary --------- //
+        .sub-section-2-5 {
+          right: 3.4rem;
+        }
+
+        // ---------- Neptunes Confront Us --------- //
+        .sub-section-2-6 {
+          right: 3.2rem;
+        }   
+      }
+    }
+  }
+}
+
+// --------------- Max-Width: 1730px --------------- //
+
+@media screen and (max-width: 1730px) {
+  .alcove-east-container {
+
+    .alcove-east-grid {
+      width: 75.5%;
+    }
+  }
+}
+
+// --------------- Max-Width: 1650px --------------- //
+
+@media screen and (max-width: 1650px) {
+  .alcove-east-container {
+
+    .alcove-east-grid {
+      width: 76%;
     }
   }
 }
@@ -531,6 +638,140 @@
       }
     }
   }
+
+// ---------------- Max-Height: 700px and Max-Width: 1370px --------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1370px) {
+  .alcove-east-container {
+
+    .alcove-east-grid {
+      width: 74%;
+      height: 35.5rem;
+
+      //----------------- COLUMN 1 ------------------//
+
+      .alcove-east-column-1 {
+
+        // ---------- Installing the Music App --------- //
+        .sub-section-1-1 {
+          top: 1.6rem;
+          width: 17rem;
+        }
+        
+        // ---------- Social Distancing --------- //
+        .sub-section-1-2 {
+          left: 3.9rem;
+          width: 4.2rem;
+        }
+        
+        // ---------- Time to Feed the Frog --------- //
+        .sub-section-1-3 {
+          top: 21.7rem;
+          left: 3.9rem;
+          width: 4.2rem;
+        }
+        
+        // ---------- Leavng the House of Horrors --------- //
+        .sub-section-1-4 {
+          left: 8.8rem;
+          width: 4.9rem;
+        }
+        
+        // ---------- A Much Needed Surgery --------- //
+        .sub-section-1-5 {
+          top: 21.6rem;
+          width: 2.9rem;
+        }
+        
+        // ---------- Safe Travel --------- //
+        .sub-section-1-6 {
+          top: 21.6rem;
+        }
+        
+        // ---------- Arrival Through the Black Hole --------- //
+        .sub-section-1-7 {
+          right: 8.2rem;
+          width: 4.8rem;
+        }
+        
+        // ---------- Martian Mary Poppins --------- //
+        .sub-section-1-8 {
+          top: 21.9rem;
+          right: 8.2rem;
+          width: 2.4rem;
+        }
+      
+        // ---------- Fool In Recent Times --------- //
+        .sub-section-1-9 {
+          top: 17rem;
+          right: 3.4rem;
+          width: 4.1rem;
+        }
+
+        // ---------- Homecoming for Lost tambourine --------- //
+        .sub-section-1-10 {
+          top: 21.6rem;
+          right: 3.45rem;
+          width: 4rem;
+        }
+      }
+
+      //----------------- COLUMN 2 ------------------//
+    
+      .alcove-east-column-2 {
+
+        // ---------- Kindred Spirits --------- //
+        .sub-section-2-1 {
+          top: 4rem;
+        }
+        
+        // ---------- Flip --------- //
+        .sub-section-2-2 {
+          top: 17.8rem;
+          left: 2rem;
+        }
+        
+        // ---------- You First --------- //
+        .sub-section-2-3 {
+          top: 21rem;
+          left: 2rem;
+        }
+        
+        // ---------- Another Afternoon at Lucille's --------- //
+        .sub-section-2-4 {
+          top: 18rem;
+        }
+        
+        // ---------- Bird Sanctuary --------- //
+        .sub-section-2-5 {
+          top: 17.7rem;
+          right: 2.5rem;
+        }
+
+        // ---------- Neptunes Confront Us --------- //
+        .sub-section-2-6 {
+          top: 21.3rem;
+          right: 2.4rem;
+        }   
+      }
+    }
+
+    //----------------- COLUMN 3 ------------------//
+
+    .alcove-east-column-3 {
+
+      // ---------- Jacob Wrestling the Angel --------- //
+      .sub-section-3-1 {
+        top: 0.8rem;
+        width: 14.8rem;
+      }
+
+      .alcove-exit-container {
+        height: 21rem;
+      }
+    }
+  }
+}
 
 // --------------- Max-Width: 1280px --------------- //
 

@@ -37,11 +37,6 @@
 
       .home-icon {
         display: none;
-        // position: absolute;
-        // top: 3.4rem;
-        // left: 10rem;
-        // height: 4.5rem;
-        // width: auto;
       }
     }
 
@@ -95,7 +90,7 @@
   } 
 }
 
-// ------------------- Media Queries -------------------- //
+// =================== Media Queries =================== //
 
 // -------------- Max-Width 1800px -------------- //
 
@@ -117,13 +112,49 @@
         width: 12.7rem;
         padding-left: 1.5rem;
 
-        .instagram {
-          font-size: 3rem;
-        }
+        // .instagram {
+        //   font-size: 3rem;
+        // }
 
         .w {
           width: 3.5rem;
-          margin-left: 2.5rem;
+          // margin-left: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 1760px ---------------- //
+
+@media screen and (max-width: 1760px) {
+  .navigation-container {
+    height: 11.3dvh;
+  
+    .navigation {
+      width: 82rem;
+
+      .logo-container {
+        width: 14.5rem;
+        padding-top: 3.5rem;
+      }
+
+      .nav-center {
+        width: 54.5rem;
+      }
+
+      .svgs-container {
+        width: 12.7rem;
+        padding-top: 3.2rem;
+        padding-left: 2rem;
+
+        .instagram {
+          font-size: 3.1rem;
+        }
+
+        .w {
+          // width: 3.5rem;
+          margin-left: 2.1rem;
         }
       }
     }
@@ -149,7 +180,7 @@
       }
 
       .svgs-container {
-        padding-left: 1.9rem;
+        padding-left: 1.7rem;
 
         .instagram {
           font-size: 3.2rem;
@@ -158,6 +189,34 @@
         .w {
           // width: 3.5rem;
           margin-left: 2rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1650px -------------- //
+
+@media screen and (max-width: 1650px) {
+  .navigation-container {
+  
+    .navigation {
+      width: 84rem;
+
+      .logo-container {
+        width: 13.6rem;
+      }
+
+      .svgs-container {
+        padding-left: 1.6rem;
+
+        .instagram {
+          font-size: 3.1rem;
+        }
+
+        .w {
+          width: 3.4rem;
+          margin-left: 1.8rem;
         }
       }
     }
@@ -201,8 +260,8 @@
       .logo-container {
         width: 12rem;
         height: auto;
-        padding-top: 3rem;
-        padding-right: 0;
+        padding-top: 3.2rem;
+        padding-right: 0.4rem;
 
         img {
           max-width: 100%;
@@ -214,7 +273,7 @@
       }
 
       .svgs-container {
-        width: 8.8rem;
+        width: 9.5rem;
         margin-top: 0.1rem;
         padding-top: 2.3rem;
         padding-left: 1.2rem;
@@ -243,8 +302,8 @@
       width: 74rem;
 
       .logo-container {
-        width: 10.8rem;
-        padding-top: 2.1rem;
+        width: 11rem;
+        padding-top: 2.4rem;
         // padding-right: 0;
 
         img {
@@ -284,11 +343,11 @@
     // margin-top: 0.2rem;
 
     .navigation {
-      width: 71rem;
+      width: 71.5rem;
 
       .logo-container {
-        width: 9.2rem;
-        padding-top: 1.8rem;
+        width: 9.6rem;
+        padding-top: 2rem;
       }
 
       .nav-center {
@@ -323,7 +382,7 @@
 
       .logo-container {
         width: 11.6rem;
-        padding-top: 2rem;
+        padding-top: 2.3rem;
         padding-right: 0.2rem;
       }
 
@@ -333,18 +392,72 @@
       }
 
       .svgs-container {
-        width: 8.8rem;
+        width: 9rem;
         margin-top: 0.5rem;
-        padding-top: 1rem;
+        padding-top: 1.2rem;
         padding-left: 0.9rem;
 
         .instagram {
         }
 
         .w {
-          width: 3.4rem;
+          width: 3.5rem;
           margin-left: 1.4rem;
-          padding-top: 0.9rem;
+          padding-top: 1rem;
+        }
+      }
+    }
+  }
+}
+
+// --------------- Max-Height: 800px and Max-Width 1280px ---------------- //
+
+// @media screen and (max-height: 800px) and (max-width: 1280px) {
+//   .navigation-container {
+
+//     .navigation {
+
+//       .svgs-container {
+//         width: 9rem;
+//         padding-top: 1.2rem;
+
+//         .w {
+//           width: 3.5rem;
+//           padding-top: 1rem;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// --------------- Max-Height: 720px and Max-Width 1280px ---------------- //
+
+@media screen and (max-height: 720px) and (max-width: 1280px) {
+  .navigation-container {
+
+    .navigation {
+      width: 76rem;
+
+      .logo-container {
+        width: 11rem;
+        padding-top: 2.4rem;
+      }
+
+      .nav-center {
+        height: 11dvh;
+      }
+
+      .svgs-container {
+        width: 9.4rem;
+        padding-top: 1.2rem;
+        padding-left: 1.2rem;
+
+        .instagram {
+          font-size: 3rem;
+        }
+
+        .w {
+          width: 3.2rem;
         }
       }
     }
@@ -416,6 +529,60 @@
         .w {
           width: 3.2rem;
         }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 780px) and (max-width: 1035px) {
+  .navigation-container {
+
+    .navigation {
+      width: 76rem;
+
+      .logo-container {
+        width: 11.8rem;
+        padding-top: 2.9rem;
+      }
+
+      .nav-center {
+        width: 54rem;
+      }
+
+      .svgs-container {
+        width: 9rem;
+        margin-top: 1.2rem;
+        padding-left: 0.9rem;
+
+        .instagram {
+          font-size: 3.1rem;
+        }
+
+        .w {
+          width: 3.4rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1035px) {
+  .navigation-container {
+
+    .navigation {
+      width: 75.2rem;
+
+      .logo-container {
+        width: 11rem;
+      }
+
+      .svgs-container {
+        width: 9.4rem;
+        margin-top: 1rem;
       }
     }
   }

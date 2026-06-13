@@ -9,11 +9,6 @@
     display: grid;
     grid-template: 30rem 9rem / 1.6fr 6.2fr 3.5fr 5.4fr 1.3fr;
 
-    // .section {
-    //   background-color: #fff;
-    //   border: 1px solid #f3f3f3;
-    // }
-
     //----------------- COLUMN 1 ------------------//
 
     .stage-column-1 {
@@ -373,7 +368,7 @@
 
 // -------------------- Max-Width: 1800px --------------------- //
 
-@media (max-width: 1800px) {
+@media screen and (max-width: 1800px) {
   .main-room-stage-container {
 
     .main-room-stage-grid {
@@ -395,13 +390,12 @@
   }
 }
 
-// -------------------- Max-Width: 1728px --------------------- //
+// -------------------- Max-Width: 1760px --------------------- //
 
-@media screen and (max-width: 1728px) {
+@media screen and (max-width: 1760px) {
   .main-room-stage-container {
 
     .main-room-stage-grid {
-      width: 91%;
 
       //----------------- COLUMN 2 ------------------//
     
@@ -410,73 +404,134 @@
         // ---------- Sad --------- //
         .sub-section-2-1 {
           left: 1.6rem;
-          width: 2.6rem;
         }
-        
+          
         // ---------- Lost between the Planets --------- //
         .sub-section-2-2 {
           left: 5.65rem;
-          width: 3rem;
         }
-        
+          
         // ---------- Untitled 92 --------- //
         .sub-section-2-3 {
-          left: 10rem;
-          width: 2.7rem;
+          left: 10.1rem;
         }
-        
-       // ---------- Different Realities --------- //
+          
+        // ---------- Different Realities --------- //
         .sub-section-2-4 {
           left: 1.6rem;
-          width: 11.1rem;
-        }
-      
-        // ---------- River Styx --------- //
-        .sub-section-2-5 {
-          right: 7.4rem;
-        }
-
-        // ---------- Dorothy --------- //
-        .sub-section-2-6 {
-          right: 0.8rem;
-        }
-
-        .alcove-entrance-container {
-          right: 5.3rem;
-        } 
-      }
-
-      //----------------- COLUMN 3 ------------------//
-    
-      .stage-column-3 {
-      
-        // ---------- Sunny Side Up --------- //
-        .sub-section-3-1 {
-          width: 17.4rem;
         }
       }
 
       //----------------- COLUMN 4 ------------------//
-    
+
       .stage-column-4 {
-      
+
         // ---------- Jacob's Dream --------- //
         .sub-section-4-1 {
-          left: 1.3rem;
-          width: 15.9rem;
+          width: 15.8rem;
         }
       
         // ---------- Lunch Is Ready --------- //
         .sub-section-4-2 {
-          right: 5.2rem;
+          right: 5rem;
           width: 6.3rem;
         }
       
         // ---------- Red Rope --------- //
         .sub-section-4-3 {
+          right: 5.6rem;
+          width: 5.3rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 1730px --------------------- //
+
+@media screen and (max-width: 1730px) {
+  .main-room-stage-container {
+
+    .main-room-stage-grid {
+
+      //----------------- COLUMN 2 ------------------//
+    
+      .stage-column-2 {
+
+        // ---------- Sad --------- //
+        .sub-section-2-1 {
+          left: 1.4rem;
+        }
+          
+        // ---------- Lost between the Planets --------- //
+        .sub-section-2-2 {
+          left: 5.45rem;
+        }
+          
+        // ---------- Untitled 92 --------- //
+        .sub-section-2-3 {
+          left: 9.9rem;
+        }
+          
+        // ---------- Different Realities --------- //
+        .sub-section-2-4 {
+          left: 1.4rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 1650px --------------------- //
+
+@media screen and (max-width: 1650px) {
+  .main-room-stage-container {
+
+    .main-room-stage-grid {
+
+      //----------------- COLUMN 2 ------------------//
+    
+      .stage-column-2 {
+
+        // ---------- Sad --------- //
+        .sub-section-2-1 {
+          left: 1.3rem;
+        }
+          
+        // ---------- Lost between the Planets --------- //
+        .sub-section-2-2 {
+          left: 5.35rem;
+        }
+          
+        // ---------- Untitled 92 --------- //
+        .sub-section-2-3 {
+          left: 9.8rem;
+        }
+          
+        // ---------- Different Realities --------- //
+        .sub-section-2-4 {
+          left: 1.3rem;
+        }
+      }
+
+      //----------------- COLUMN 4 ------------------//
+
+      .stage-column-4 {
+
+        // ---------- Jacob's Dream --------- //
+        .sub-section-4-1 {
+          left: 1.2rem;
+        }
+      
+        // ---------- Lunch Is Ready --------- //
+        .sub-section-4-2 {
+          right: 5.2rem;
+        }
+      
+        // ---------- Red Rope --------- //
+        .sub-section-4-3 {
           right: 5.8rem;
-          width: 5.2rem;
-        } 
+        }
       }
     }
   }
@@ -682,6 +737,197 @@
           .step {
             width: 13%;
           }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 770px and Max-Width: 1370px --------------- //
+
+@media screen and (max-height: 770px) and (max-width: 1370px) {
+  .main-room-stage-container {
+
+    .main-room-stage-grid {
+    
+      //----------------- COLUMN 2 ------------------//
+    
+      .stage-column-2 {
+
+        .alcove-entrance-container {
+
+          .alcove-entrance {
+
+            // ------------ Social Distancing ------------ //
+            .sub-section-2-8 {
+              left: 0rem;
+              width: 3.05rem;
+            }
+            
+            // ------------ Time to Feed the Frog ------------ //
+            .sub-section-2-9 {
+              left: -0.1rem;
+              width: 3.2rem;
+            }
+          
+            // ------------ Leaving the House of Horrors ------------ //
+            .sub-section-2-10 {
+              left: 3.7rem;
+            }
+          
+            // ------------ Much Needed Surgery ------------ //
+            .sub-section-2-11 {
+              left: 3.6rem;
+              width: 2.1rem;
+            }
+          
+            // ------------ Arrival Through the Black Hole ------------ //
+            .sub-section-2-12 {
+              right: 3.5rem;
+            }
+          
+            // ------------ Safe travel ------------ //
+            .sub-section-2-13 {
+              right: 5.8rem;
+              width: 2.6rem;
+            }
+          
+            // ------------ Martian Mary Poppins ------------ //
+            .sub-section-2-14 {
+              top: 9.4rem;
+              right: 3.4rem;
+              width: 1.9rem;
+            }
+          
+            // ------------ The Fool In Recent Times ------------ //
+            .sub-section-2-15 {
+              right: 0rem;
+              width: 2.9rem;
+            }
+          
+            // ------------ Homecoming for Tambourine ------------ //
+            .sub-section-2-16 {
+              right: -0.1rem;
+              width: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 700px and Max-Width: 1370px --------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1370px) {
+  .main-room-stage-container {
+
+    .main-room-stage-grid {
+      width: 87%;
+      height: 34.8rem;
+      grid-template-rows: 27.5rem 7.3rem;
+
+      //----------------- COLUMN 2 ------------------//
+    
+      .stage-column-2 {
+
+        // ---------- Sad --------- //
+        .sub-section-2-1 {
+          top: 3.2rem;
+        }
+        
+        // ---------- Between Two Planets --------- //
+        .sub-section-2-2 {
+          top: 3.2rem;
+        }
+        
+        // ---------- Untitled 92 --------- //
+        .sub-section-2-3 {
+          top: 3.2rem;
+        }
+        
+        // ---------- Different Realities --------- //
+        .sub-section-2-4 {
+          top: 9.1rem;
+        }
+      
+        // ---------- River Styx --------- //
+        .sub-section-2-5 {
+          top: 1.7rem;
+        }
+
+        // ---------- Dorothy --------- //
+        .sub-section-2-6 {
+          top: 14.8rem;
+        }
+
+        .alcove-entrance-container {
+          top: 11.1rem;
+        }
+      }
+    
+      //----------------- COLUMN 3 ------------------//
+    
+      .stage-column-3 {
+      
+        // ---------- Sunny Side Up --------- //
+        .sub-section-3-1 {
+          top: 4.2rem;
+        }
+      }
+    
+      //----------------- COLUMN 4 ------------------//
+    
+      .stage-column-4 {
+      
+        // ---------- Jacob's Dream --------- //
+        .sub-section-4-1 {
+          top: 6.7rem;
+        }
+      
+        // ---------- Lunch Is Ready --------- //
+        .sub-section-4-2 {
+          top: 3.1rem;
+        }
+      
+        // ---------- Red Rope --------- //
+        .sub-section-4-3 {
+          top: 12.5rem;
+        }
+
+        // ---------- Can You See Me? --------- //
+        .sub-section-4-4 {
+          top: 5rem;
+        }
+      
+        // ---------- Into the Unknown --------- //
+        .sub-section-4-5 {
+          top: 9.7rem;
+        }
+      
+        // ---------- No Friends --------- //
+        .sub-section-4-6 {
+          top: 13rem;
+        }
+
+        // ---------- Butterfly Woman --------- //
+        .sub-section-4-7 {
+          top: 16.2rem;
+        }
+      }
+    
+      //----------------- COLUMN 5 ------------------/
+      
+      .stage-column-5 {
+        
+        // ---------- Gifts --------- //
+        .sub-section-5-1 {
+          top: 4.2rem;
+        }
+        
+        // ---------- Guardian --------- //
+        .sub-section-5-2 {
+          top: 16.8rem;
         }
       }
     }

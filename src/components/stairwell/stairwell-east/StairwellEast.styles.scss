@@ -310,7 +310,7 @@
   }
 }
 
-// ---------------------- Media Query ------------------------ //
+// ====================== Media Query ====================== //
 
 // ----------------- Max-Width: 1800px ------------------- //
 
@@ -399,6 +399,130 @@
         // ---------- Overqualified --------- //
         .sub-section-3-10 {
           right: 5rem;
+        }
+      }   
+    }
+  }
+}
+
+// ----------------- Max-Width: 1760px ------------------- //
+
+@media screen and (max-width: 1760px) {
+  .stairwell-east-container {
+
+    .stairwell-east-grid {
+
+      .stairwell-east-column-1 {
+        
+        // ---------- The Chariot --------- //
+        .sub-section-1-7 {
+          left: 13.1rem;
+        }
+      }
+    
+    
+      //----------------- COLUMN 2 ------------------//
+      .stairwell-east-column-2 {
+
+        // ---------- Trip With My Brother --------- //
+        .sub-section-2-3 {
+          left: 1.3rem;
+        }
+        
+        // ---------- Best of Show --------- //
+        .sub-section-2-4 {
+          left: 2.1rem;
+        }
+        
+        // ---------- Sainted --------- //
+        .sub-section-2-5 {
+          left: 2.1rem;
+        }
+        
+        // ---------- Six Dogs --------- //
+        .sub-section-2-6 {
+          left: 7.6rem;
+        }
+        
+        // ---------- We Were Fighting --------- //
+        .sub-section-2-7{
+          left: 7.6rem;
+        }
+      }
+
+      //----------------- COLUMN 3 ------------------//
+      .stairwell-east-column-3 {
+
+        // ---------- A Cold Wind --------- //
+        .sub-section-3-6 {
+          right: 11.9rem;
+        }
+
+        // ---------- Voices of Doom --------- //
+        .sub-section-3-7 {
+          right: 10.5rem;
+        }
+
+        // ---------- Unholy Matrimony --------- //
+        .sub-section-3-8 {
+          right: 3.7rem;
+        }
+
+        // ---------- Anger --------- //
+        .sub-section-3-9 {
+          right: 4.7rem;
+        }
+
+        // ---------- Overqualified --------- //
+        .sub-section-3-10 {
+          right: 3.9rem;
+        }
+      }   
+    }
+  }
+}
+
+// ----------------- Max-Width: 1730px ------------------- //
+
+@media screen and (max-width: 1730px) {
+  .stairwell-east-container {
+
+    .stairwell-east-grid {
+
+      .stairwell-east-column-1 {
+        
+        // ---------- The Chariot --------- //
+        .sub-section-1-7 {
+          left: 13rem;
+        }
+      }
+
+      //----------------- COLUMN 3 ------------------//
+      .stairwell-east-column-3 {
+
+        // ---------- A Cold Wind --------- //
+        .sub-section-3-6 {
+          right: 11.7rem;
+        }
+
+        // ---------- Voices of Doom --------- //
+        .sub-section-3-7 {
+          right: 10.3rem;
+        }
+
+        // ---------- Unholy Matrimony --------- //
+        .sub-section-3-8 {
+          right: 3.6rem;
+        }
+
+        // ---------- Anger --------- //
+        .sub-section-3-9 {
+          right: 4.6rem;
+        }
+
+        // ---------- Overqualified --------- //
+        .sub-section-3-10 {
+          right: 3.8rem;
         }
       }   
     }
@@ -647,6 +771,228 @@
           top: 17.3rem;
           right: 1.6rem;
           width: 5.3rem;
+        }
+      }   
+    }
+  }
+}
+
+// -------------- Max-Height: 700px and Max-Width 1370px -------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1370px) {
+  .stairwell-east-container {
+
+    .stairwell-east-grid {
+      width: 79%;
+      height: 35.5rem;
+      // grid-template-columns: 1.1fr 1.1fr 1.2fr;
+
+      //----------------- COLUMN 1 ------------------//
+
+      .stairwell-east-column-1 {
+      
+        // ---------- Pay in Advance --------- //
+        .sub-section-1-1 {
+          top: 1rem;
+          left: 4.3rem;
+          width: 18.5rem;
+        }
+        
+        // ---------- Arrival --------- //
+        .sub-section-1-2 {
+        top: 15.3rem;
+        left: 1.3rem;
+        width: 2.9rem;
+      }
+        
+      // ---------- A Better Place --------- //
+      .sub-section-1-3 {
+        top: 19.8rem;
+        left: 1rem;
+        width: 3.5rem;
+      }
+        
+      // ---------- In Readiness --------- //
+      .sub-section-1-4 {
+        top: 24.3rem;
+        left: 1.1rem;
+        width: 3.3rem;
+      }
+        
+      // ---------- Check Mate --------- //
+      .sub-section-1-5 {
+        top: 16.4rem;
+        left: 7.2rem;
+        width: 2.9rem;
+      }
+        
+      // ---------- Fear of Doctors --------- //
+       .sub-section-1-6 {
+        top: 21rem;
+        left: 6.7rem;
+        width: 3.9rem;
+      }
+        
+      // ---------- The Chariot --------- //
+      .sub-section-1-7 {
+        top: 17.2rem;
+        left: 11.3rem;
+        width: 5.7rem;
+      }
+      
+      // ---------- Out of Reach --------- //
+      .sub-section-1-8 {
+        right: 5.5rem;
+        width: 2.6rem;
+      }
+      
+      // ---------- Red --------- //
+      .sub-section-1-9 {
+        top: 20.6rem;
+        right: 5.25rem;
+        width: 3.2rem;
+      }
+      
+      // ---------- Surprised --------- //
+      .sub-section-1-10 {
+        right: 1rem;
+        width: 3rem;
+      }
+    }
+
+      //----------------- COLUMN 2 ------------------//
+
+      .stairwell-east-column-2 {
+
+        // ---------- Stairs --------- //
+        .stairs-container.sub-section-2-2 {
+
+          .steps-container {
+            height: 12.9rem;
+
+            .steps {
+              height: 2.15rem;
+            }
+        
+            .step-1 {
+              top: 0;
+            }
+            .step-2 {
+              top: 2.15rem;
+            }
+            .step-3 {
+              top: 4.3rem;
+            }
+            .step-4 {
+              top: 6.45rem;
+            }
+            .step-5 {
+              top: 8.5rem;
+            }
+            .step-6 {
+              top: 10.65rem;
+            }
+          }
+        }
+
+        // ---------- Trip With My Brother --------- //
+        .sub-section-2-3 {
+          top: 3.6rem;
+          left: 1.2rem;
+          width: 9.6rem;
+        }
+        
+        // ---------- Best of Show --------- //
+        .sub-section-2-4 {
+          top: 13.7rem;
+          left: 2.1rem;
+        }
+        
+        // ---------- Sainted --------- //
+        .sub-section-2-5 {
+          top: 17.3rem;
+          left: 2.1rem;
+        }
+        
+        // ---------- Six Dogs --------- //
+        .sub-section-2-6 {
+          top: 13rem;
+          left: 6.8rem;
+        }
+        
+        // ---------- We Were Fighting --------- //
+        .sub-section-2-7{
+          top: 18.1rem;
+          left: 6.8rem;
+        }
+      }
+
+      //----------------- COLUMN 3 ------------------//
+
+      .stairwell-east-column-3 {
+
+        // ---------- Nothing Makes Sense --------- //
+        .sub-section-3-1 {
+          width: 2rem;
+        }
+
+        // ---------- Where Are You Going --------- //  
+        .sub-section-3-2 {
+          width: 3.3rem;
+        }
+
+        // ---------- Eggs --------- //
+        .sub-section-3-3 {
+          top: 9.9rem;
+          width: 5.1rem;
+        }
+
+        // ---------- No Mother, Stay in the Rocket Ship --------- //
+        .sub-section-3-4 {
+          // top: 6.9rem;
+          left: 10.7rem;
+          width: 3.4rem;
+        }
+
+        // ---------- Divas --------- //
+        .sub-section-3-5 {
+          top: 12rem;
+          left: 10.1rem;
+          width: 4.5rem;
+        }
+
+        // ---------- A Cold Wind --------- //
+        .sub-section-3-6 {
+          right: 8.9rem;
+          width: 3.4rem;
+        }
+
+        // ---------- Voices of Doom --------- //
+        .sub-section-3-7 {
+          top: 14.7rem;
+          right: 7.6rem;
+          width: 5.7rem;
+        }
+
+        // ---------- Unholy Matrimony --------- //
+        .sub-section-3-8 {
+          top: 7.3rem;
+          right: 1.45rem;
+          width: 5.5rem;
+        }
+
+        // ---------- Anger --------- //
+        .sub-section-3-9 {
+          top: 11.5rem;
+          right: 2.5rem;
+          width: 3.3rem;
+        }
+
+        // ---------- Overqualified --------- //
+        .sub-section-3-10 {
+          top: 16.8rem;
+          right: 1.6rem;
+          width: 5.1rem;
         }
       }   
     }

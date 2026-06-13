@@ -11,10 +11,6 @@
     grid-template-columns: 1.8fr 5.5fr 5.8fr 5.5fr 5.9fr 4.8fr 1.5fr 4.7fr;
     gap: 0.8rem;
 
-    // .section {;
-    //   border: 1px solid #d3d3d3;
-    // }
-
     //----------------- COLUMN 1 ------------------//
 
     .north-column-1 {
@@ -459,7 +455,7 @@
   .main-room-north-container {
 
     .main-room-north-grid {
-      width: 92%;
+      width: 91.2%;
 
       //----------------- COLUMN 3 ------------------//
     
@@ -523,10 +519,55 @@
         // ---------- Parallel --------- //
         .sub-section-5-7 {
           bottom: 1.9rem;
-          right: 0.1rem;
-          width: 15.2rem;
+          right: 0rem;
+          width: 15.5rem;
         }
       }
+
+      //----------------- COLUMN 6 ------------------/
+
+      .north-column-6 {
+      
+        // ---------- Summer --------- //
+        .sub-section-6-3 {
+          width: 12rem;
+        }
+      }
+
+      //----------------- COLUMN 8 ------------------/
+
+      .north-column-8 {
+
+        // ---------- GalleryHeaven --------- //
+        .sub-section-8-4 {
+          left: -0.8rem;
+        }
+
+        // ---------- Caryatids --------- //
+        .sub-section-8-6 {
+          right: 1.2rem;
+        }
+
+        // ---------- Dad and Three Eggs --------- //
+        .sub-section-8-7 {
+          right: -1.3rem;
+        }
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 1730px ---------------- //
+
+@media screen and (max-width: 1730px) {
+  .main-room-north-container {
+
+    .main-room-north-grid {
+      grid-template-columns: 1.8fr 5.5fr 5.8fr 5.5fr 5.9fr 4.85fr 1.5fr 4.65fr;
+
+      // .section {
+      //   border: 1px solid #d3d3d3;
+      // }
 
       //----------------- COLUMN 8 ------------------/
 
@@ -536,16 +577,10 @@
         .sub-section-8-6 {
           right: 1.1rem;
         }
-
-        // ---------- Dad and Three Eggs --------- //
-        .sub-section-8-7 {
-          right: -1.4rem;
-        }
       }
     }
   }
 }
-
 
 // --------------- Max-Width 1380px ---------------- //
 
@@ -917,6 +952,7 @@
   .main-room-north-container {
   
     .main-room-north-grid {
+      width: 87.5%;
       margin-top: 0rem;
     }
   }
@@ -1212,6 +1248,14 @@
         }
       }
     }
+  }
+}
+
+// --------------- Max-Height: 720px and Max-Width 1280px ---------------- //
+
+@media screen and (max-height: 720px) and (max-width: 1280px) {
+  .main-room-north-container {
+    margin-top: 0.2rem;
   }
 }
 

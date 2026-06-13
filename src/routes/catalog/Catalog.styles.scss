@@ -141,9 +141,9 @@
 @media screen and (max-width: 1800px) {
   .list-container {
     margin-top: 5.5rem;
-
+    
     .list-grid {
-      column-gap: 2rem;
+      column-gap: 1.8rem;
       
       li {
         
@@ -153,6 +153,43 @@
           .info-container {
             width: 13.2rem;
             
+          }
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1760px -------------- //
+@media screen and (max-width: 1760px) {
+
+  .list-container {
+
+    .list-grid {
+      
+      li {
+        
+        .list-items-container {
+
+          .audio-label {
+            right: 4.5rem;
+            font-size: 1.5rem;
+          }
+
+          .audio-icon {
+            font-size: 3.7rem;
+          }
+          
+          .info-container {
+            padding-left: 0.5rem;
+
+            .title-area {
+              height: 4rem;
+            
+              p {
+                font-size: 1.08rem;
+              }
+            }
           }
         }
       }
@@ -263,6 +300,52 @@
   }
 }
 
+// -------------- Max-Height: 700px and Max-Width 1370px -------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1370px) {
+  .list-container {
+  
+    .list-grid {
+      width: 78%;
+
+    li {
+
+        .list-items-container {
+          margin-bottom: 2.8rem;
+
+          .audio-label {
+            font-size: 1.5rem;
+          }
+
+          .audio-icon {
+            top: 0.65rem;
+          }
+
+          .info-container {
+            width: 14.8rem;
+            
+            .id-area {
+
+              h3 {
+                font-size: 2.6rem;
+              }
+            }
+
+            .title-area {
+              width: 13.8rem;
+
+              p {
+                padding-top: 0.5rem;
+                font-size: 1.12rem;
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+}
+
 // -------------- Max-Width 1280px -------------- //
 
 @media screen and (max-width: 1280px) {
@@ -327,6 +410,64 @@
                 font-size: 1.14rem;
               }
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 780px) and (max-width: 1035px) {
+  .list-container {
+  
+    .list-grid {
+
+      li {
+
+        .list-items-container {
+
+          .audio-label {
+            top: 1rem;
+            font-size: 1.7rem;
+          }
+
+          .audio-icon {
+            top: 0.3rem;
+            right: 0.7rem;
+            font-size: 4rem;
+          }
+
+          .info-container {
+
+            .title-area {
+              width: 14.2rem;
+
+              p {
+                font-size: 1.2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 700px) and (max-width: 10350px) {
+  .list-container {
+  
+    .list-grid {
+
+    li {
+
+        .list-items-container {
+
+          .audio-icon {
+            top: 0.7rem;
           }
         }
       }

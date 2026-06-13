@@ -59,6 +59,18 @@
 
 // --------------------- Media Queries -------------------- //
 
+
+// ---------------- Max-Height: 840px and Max-Width: 1370px --------------- //
+
+@media screen and (max-height: 840px) and (max-width: 1370px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: none;
+    }
+  }
+}
+
 // ---------------- Max-Width: 1280px --------------- //
 
 @media screen and (max-width: 1280px) {
@@ -80,18 +92,24 @@
 
       .footer {
         height: 13dvh;
+
+        .footer-box {
+
+          .copyrights {
+    
+            p {
+              font-size: 1.2rem;
+            }
+          }
+
+          .address {
+    
+            p {
+              font-size: 1.2rem;
+            }
+          }
+        }
       }
-    }
-  }
-}
-
-// ---------------- Max-Height: 840px and Max-Width: 1370px --------------- //
-
-@media screen and (max-height: 840px) and (max-width: 1370px) {
-  .horizontal-layout {
-
-    .footer-container {
-      display: none;
     }
   }
 }
@@ -143,6 +161,89 @@
 
             .rocket {
               font-size: 1.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 780px) and (max-width: 1035px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+        height: 15dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 5rem;
+          }
+  
+          .copyrights {
+
+            .copyright {
+              margin-right: 0.4rem;
+              font-size: 2.2rem;
+            }
+          
+            p {
+              font-size: 1.28rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 1.28rem;
+            }
+
+            .rocket {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1035px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+        height: 12.8dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 4.2rem;
+          }
+  
+          .copyrights {
+          
+            p {
+              font-size: 1.18rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 1.18rem;
+            }
+
+            .rocket {
+              font-size: 1.9rem;
             }
           }
         }

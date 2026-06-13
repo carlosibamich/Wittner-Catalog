@@ -151,6 +151,25 @@
 
 // -------------- Max-Width 1650px -------------- //
 
+@media screen and (max-width: 1650px) {
+  .custom-modal-width {
+
+    .modal-body {
+    
+      .modal-title {
+        
+        p {
+          font-size: 1.6rem;
+        
+          span {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+
 // -------------- Max-Width 1440px -------------- //
 
 // -------------- Max-Width 1380px -------------- //
@@ -288,6 +307,41 @@
 
             .audio-card button {
               width: 3.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+
+@media screen and (max-height: 780px) and (max-width: 1035px) {
+  .custom-modal-width {
+
+    .modal-body {
+
+      .modal-title {
+
+        p {
+        font-size: 1.6rem;
+
+          span {
+            font-size: 1.55rem;
+          }
+        }
+
+        span.audio {
+
+          .audio-content {
+
+            p {
+            font-size: 1.73rem;
+            }
+
+            .audio-card button {
+              width: 4rem;
             }
           }
         }
