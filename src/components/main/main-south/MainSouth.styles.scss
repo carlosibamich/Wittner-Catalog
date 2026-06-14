@@ -761,8 +761,9 @@
   .main-room-south-container {
 
     .main-room-south-grid {
-      width: 94%;
+      width: 91.5%;
       height: 38rem;
+      grid-template-columns: 1.8fr 4.4fr 4.65fr 5.3fr 7.25fr 6.3fr;
       gap: 3px;
 
       // .section {
@@ -776,12 +777,14 @@
       // ---------- Purification --------- //
       .sub-section-1-1 {
         top: 3.7rem;
+        left: 0rem;
         width: 5rem;
       }
 
       // ---------- Resist --------- //  
       .sub-section-1-2 {
         top: 10rem;
+        left: 0rem;
         width: 5rem;
       }
     }
@@ -793,6 +796,7 @@
       // ---------- Reconstructive Surgery 2 --------- //
       .sub-section-2-1 {
         top: 0;
+        left: 0.5rem;
         width: 12.3rem;
       }
         
@@ -826,7 +830,7 @@
 
       // ---------- You've Gone Too far --------- //
       .sub-section-2-6 {
-        bottom: 1.4rem;
+        bottom: 1.5rem;
         width: 12.9rem;
      }  
     }
@@ -838,7 +842,7 @@
       // ---------- Looking Ahead --------- //
       .sub-section-3-1 {
         top: 0;
-        right: 0.8rem;
+        right: 0.7rem;
         width: 12.2rem;
       }
         
@@ -852,7 +856,7 @@
       // ---------- State of the World --------- //
       .sub-section-3-3 {
         top: 16.8rem;
-        left: 4.9rem;
+        left: 4.7rem;
         width: 4.8rem;
       }
         
@@ -865,8 +869,8 @@
         
       // ---------- I'm Outta Here --------- //
       .sub-section-3-5 {
-        bottom: 3.2rem;
-        left: 0.6rem;
+        bottom: 3.3rem;
+        left: 0.5rem;
         width: 13.6rem;
       }
     }
@@ -876,7 +880,7 @@
       
         // ---------- Painter's Museum --------- //
         .sub-section-4-1 {
-          left: 0.6rem;
+          left: 0.4rem;
           width: 15.1rem;
         }
       
@@ -889,8 +893,8 @@
       
         // ---------- Roadhouse at the Full Moon --------- //
         .sub-section-4-3 {
-          bottom: 0.8rem;
-          left: 0.8rem;
+          bottom: 0.9rem;
+          left: 1rem;
           width: 16.4rem;
         }
       }
@@ -902,8 +906,8 @@
         // ---------- Center Stage --------- //
         .sub-section-5-1 {
           top: 0;
-          left: 1rem;
-          width: 13.5rem;
+          left: 0.8rem;
+          width: 13.7rem;
         }
         
         // ---------- Conservationist --------- //
@@ -916,14 +920,14 @@
         // ---------- Spiritual Traveler --------- //
         .sub-section-5-3 {
           top: 11.2rem;
-          left: 0;
+          left: 0.3rem;
           width: 9.2rem;
         }
         
         // ---------- Be of Good Cheer --------- //
         .sub-section-5-4 {
           top: 11.3rem;
-          left: 10.3rem;
+          left: 10.5rem;
           width: 3.4rem;
         }
         
@@ -937,7 +941,7 @@
         // ---------- Bob --------- //
         .sub-section-5-6 {
           top: 14.6rem;
-          left: 10rem;
+          left: 10.2rem;
           width: 4.1rem;
         }
 
@@ -986,14 +990,14 @@
 
         // ---------- The Soul Breaks the Deal --------- //
         .sub-section-5-13 {
-          bottom: 1.6rem;
-          left: 2.2rem;
+          bottom: 1.8rem;
+          left: 2.6rem;
           width: 7rem;
         }
 
         // ---------- Waiting for the Parting --------- //
         .sub-section-5-14 {
-          bottom: 1.5rem;
+          bottom: 1.6rem;
           right: 0.7rem;
           width: 10.1rem;
         }
@@ -1012,8 +1016,8 @@
       
         // ---------- Oh Jesus Christ --------- //
         .sub-section-6-2 {
-          right: 0;
-          bottom: 0.8rem;
+          right: -0.4rem;
+          bottom: 0.9rem;
           width: 18.4rem;
         }
       }

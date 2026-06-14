@@ -79,7 +79,9 @@
   }
 }
 
-// ---------------------- Media Queries ---------------------- //
+// ========================= Media Queries ========================= //
+
+// ------------------- Max-Width: 1800px ------------------- //
 
 @media screen and (max-width: 1800px) {
   .footer-container {
@@ -109,6 +111,41 @@
           .rocket {
             margin-left: 0.6rem;
             font-size: 2.1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ------------------- Max-Width: 1440px ------------------- //
+
+@media screen and (max-width: 1440px) {
+  .footer-container {
+
+    .footer {
+
+      .footer-box {
+
+        .logo {
+          height: 5.3rem;
+        }
+
+        .copyrights {
+  
+          .copyright {
+            font-size: 2.05rem;
+          }
+  
+          p {
+            font-size: 1.25rem;
+          }
+        }
+
+        .address {
+  
+          p {
+            font-size: 1.25rem;
           }
         }
       }

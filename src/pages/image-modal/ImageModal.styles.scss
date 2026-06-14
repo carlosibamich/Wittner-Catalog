@@ -147,8 +147,6 @@
   }
 }
 
-// -------------- Max-Width 1728px -------------- //
-
 // -------------- Max-Width 1650px -------------- //
 
 @media screen and (max-width: 1650px) {
@@ -163,6 +161,33 @@
         
           span {
             font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1550px -------------- //
+
+@media screen and (max-width: 1550px) {
+  .custom-modal-width {
+
+    .modal-body {
+    
+      .modal-title {
+
+        span.audio {
+
+          .audio-content {
+
+            p {
+              font-size: 1.55rem;
+            }
+
+            .audio-card button {
+              width: 3.8rem;
+            }
           }
         }
       }
@@ -214,6 +239,14 @@
   }
 }
 
+// ---------------- Max-Height: 780px ------------------ //
+
+@media screen and (max-height: 780px) {
+  .custom-modal-width {
+    margin-top: 1.1rem;
+  }
+}
+
 // -------------- Max-Width 1280px -------------- //
 
 @media screen and (max-width: 1280px) {
@@ -242,6 +275,14 @@
         }
       }
     }
+  }
+}
+
+// ---------------- Max-Height: 710px ------------------ //
+
+@media screen and (max-height: 710px) {
+  .custom-modal-width {
+    margin-top: 0.95rem;
   }
 }
 

@@ -127,21 +127,35 @@
   }
 }
 
-// -------------- Max-Width 1440px -------------- //
+// -------------- Max-Width 1550px -------------- //
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1550px) {
   .main-nav-options {
-    width: 51rem;
-    height: 5rem;
 
     .navlink-container {
-      margin: 0 1.4rem;
-      padding-bottom: 1rem;
 
       .nav-link {
 
         a {
-          font-size: 1.13rem;
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1440px -------------- //
+
+@media screen and (max-width: 1440px) {
+  .main-nav-options {
+
+    .navlink-container {
+      margin: 0 1.62rem;
+
+      .nav-link {
+
+        a {
+          font-size: 1.32rem;
         }
       }
     }
@@ -152,12 +166,13 @@
 
 @media screen and (max-width: 1380px) {
   .main-nav-options {
-    width: 54rem;
-    height: 6.5dvh;
+    width: 55.5rem;
+    height: 9dvh;
 
     .navlink-container {
-      margin: 0 1.45rem;
-      padding-bottom: 1rem;
+      // margin: 0 1.45rem;
+      // padding-bottom: 1rem;
+      padding-top: 0.2rem;
 
       .nav-link {
 
@@ -220,11 +235,13 @@
 @media screen and (max-width: 1280px) {
   .main-nav-options {
     width: 55rem;
-    height: 5.2dvh;
+    height: 8.5dvh;
+    padding-top: 0.5rem;
 
     .navlink-container {
-      margin: 0 1.45rem;
-      padding-bottom: 1.5rem;
+      margin: 0 1.55rem;
+      // padding-top: 0.5rem;
+      // padding-bottom: 0rem;
 
       .nav-link {
 
@@ -238,16 +255,16 @@
 
 // --------------- Max-Height: 720px and Max-Width 1280px ---------------- //
 
-@media screen and (max-height: 720px) and (max-width: 1280px) {
-  .main-nav-options {
-    // width: 55rem;
-    height: 6.2dvh;
+// @media screen and (max-height: 720px) and (max-width: 1280px) {
+//   .main-nav-options {
+//     // width: 55rem;
+//     height: 6.2dvh;
 
-    .navlink-container {
-      padding-bottom: 0rem;
-    }
-  }
-}
+//     .navlink-container {
+//       padding-bottom: 0rem;
+//     }
+//   }
+// }
 
 // -------------- Max-Width 1220px -------------- //
 

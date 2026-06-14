@@ -57,8 +57,200 @@
   }
 }
 
-// --------------------- Media Queries -------------------- //
+// ======================== Media Queries ======================== //
 
+// ---------------- Max-Width: 1550px --------------- //
+
+@media screen and (max-width: 1550px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: none;
+    }
+  }
+}
+
+// ---------------- Min-Height: 1100px and Max-Width: 1550px --------------- //
+
+@media screen and (min-height: 1100px) and (max-width: 1550px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 14dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 5.65rem;
+            width: auto;
+          }
+    
+          .copyrights {
+
+            .copyright {
+              font-size: 2.15rem;
+            }
+            
+            p {
+              font-size: 1.28rem;
+            }     
+          }
+    
+          .address {
+          
+            p {
+              font-size: 1.28rem;
+            }
+
+            .rocket {
+              font-size: 2.1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 1099px and Max-Width: 1550px --------------- //
+
+@media screen and (max-height: 1099px) and (max-width: 1550px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 12.6dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 5.15rem;
+          }
+    
+          .copyrights {
+
+            .copyright {
+              margin-top: 0rem;
+              font-size: 2.1rem;
+            }
+            
+            p {
+              font-size: 1.28rem;
+            }     
+          }
+    
+          .address {
+          
+            p {
+              font-size: 1.28rem;
+            }
+
+            .rocket {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1440px --------------- //
+
+@media screen and (max-width: 1440px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: none;
+    }
+  }
+}
+
+// ---------------- Min-Height: 820px and Max-Width: 1400px --------------- //
+
+@media screen and (min-height: 820px) and (max-width: 1400px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 12.4dvh;
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1380px --------------- //
+
+@media screen and (max-width: 1380px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: none;
+    }
+  }
+}
+
+// ---------------- Min-Height: 840px and Max-Width: 1380px --------------- //
+
+@media screen and (min-height: 840px) and (max-width: 1380px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 11.8dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 4.2rem;
+          }
+    
+          .copyrights {
+
+            .copyright {
+              font-size: 2rem;
+            }
+            
+            p {
+              font-size: 1.25rem;
+            }     
+          }
+    
+          .address {
+          
+            p {
+              font-size: 1.25rem;
+            }
+
+            .rocket {
+              font-size: 1.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1370px --------------- //
+
+@media screen and (max-width: 1370px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+    }
+  }
+}
 
 // ---------------- Max-Height: 840px and Max-Width: 1370px --------------- //
 
@@ -120,10 +312,21 @@
   .horizontal-layout {
 
     .footer-container {
+      display: none;
+    }
+  }
+}
+
+// ---------------- Min-Height: 720px and Max-Width: 1220px --------------- //
+
+@media screen and (min-height: 720px) and (max-width: 1220px) {
+  .horizontal-layout {
+
+    .footer-container {
       display: block;
 
       .footer {
-        height: 11.5dvh;
+        height: 11dvh;
       }
     }
   }

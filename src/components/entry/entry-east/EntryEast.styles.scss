@@ -364,6 +364,17 @@
   }
 }
 
+// ---------------- Max-Width: 1370px ---------------- //
+
+@media screen and (max-width: 1370px) {
+  .entry-room-container {
+    
+    .entry-east-grid {
+      width: 89.2%;
+    }
+  }
+}
+
 // ---------------- Max-Height: 700px and Max-Width: 1370px --------------- //
 
 @media screen and (max-height: 700px) and (max-width: 1370px) {

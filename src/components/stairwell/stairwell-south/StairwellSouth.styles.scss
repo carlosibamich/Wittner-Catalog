@@ -596,8 +596,9 @@
   .stairwell-south-container {
 
     .stairwell-south-grid {
-      width: 90%;
+      width: 89%;
       height: 38rem;
+      grid-template-columns: 2.2fr 2.33fr 1.1fr 0.87fr 1.3fr;
 
       .stairwell-south-column-1 {
 

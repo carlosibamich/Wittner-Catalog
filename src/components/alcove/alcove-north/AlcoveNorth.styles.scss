@@ -468,21 +468,21 @@
         
       // ---------- Leavng the House of Horrors --------- //
       .sub-section-2-4 {
-        left: 9.1rem;
+        left: 9rem;
         width: 5rem;
       }
         
       // ---------- A Much Needed Surgery --------- //
       .sub-section-2-5 {
         top: 21.9rem;
-        left: 9.2rem;
+        left: 9.1rem;
         width: 3rem;
       }
       
       // ---------- Safe Travel --------- //
       .sub-section-2-6 {
         top: 21.9rem;
-        left: 13.1rem;
+        left: 12.9rem;
         width: 3.4rem;
       }
       
@@ -494,23 +494,34 @@
         
       // ---------- Martian Mary Poppins --------- //
       .sub-section-2-8 {
-        right: 8.8rem;
+        right: 8.9rem;
         width: 2.5rem;
       }
       
       // ---------- Fool In Recent Times --------- //
       .sub-section-2-9 {
-        right: 3.9rem;
+        right: 4rem;
         width: 4.1rem;
       }
 
         // ---------- Homecoming for Lost tambourine --------- //
         .sub-section-2-10 {
           top: 21.9rem;
-          right: 3.9rem;
+          right: 4rem;
           width: 4.1rem;
         }
       }
+    }
+  }
+}
+
+// --------------- Max-Width: 1370px --------------- //
+
+@media screen and (max-width: 1370px) {
+  .alcove-north-container {
+
+    .alcove-north-grid {
+      width: 75.3%;
     }
   }
 }

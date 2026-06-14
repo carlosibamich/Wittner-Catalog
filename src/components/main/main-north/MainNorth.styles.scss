@@ -588,8 +588,9 @@
   .main-room-north-container {
   
     .main-room-north-grid {
-      width: 93%;
+      width: 92.8%;
       height: 36.2rem;
+      grid-template-columns: 1.8fr 5.5fr 5.8fr 5.55fr 5.9fr 4.85fr 1.5fr 4.55fr;
       gap: 0.7rem;
 
       //----------------- COLUMN 1 ------------------//
