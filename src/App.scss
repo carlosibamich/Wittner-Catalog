@@ -211,28 +211,28 @@
         .footer-box {
 
           .logo {
-            height: 4.2rem;
+            height: 4.3rem;
           }
     
           .copyrights {
 
             .copyright {
-              font-size: 2rem;
+              font-size: 1.85rem;
             }
             
             p {
-              font-size: 1.25rem;
+              font-size: 1.18rem;
             }     
           }
     
           .address {
           
             p {
-              font-size: 1.25rem;
+              font-size: 1.18rem;
             }
 
             .rocket {
-              font-size: 1.9rem;
+              font-size: 1.8rem;
             }
           }
         }
@@ -326,7 +326,36 @@
       display: block;
 
       .footer {
-        height: 11dvh;
+        height: 12dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 3.9rem;
+          }
+
+          .copyrights {
+
+            .copyright {
+              font-size: 1.9rem;
+            }
+    
+            p {
+              font-size: 1.15rem;
+            }
+          }
+
+          .address {
+    
+            p {
+              font-size: 1.15rem;
+            }
+
+            .rocket {
+              font-size: 1.9rem;
+            }
+          }
+        }
       }
     }
   }

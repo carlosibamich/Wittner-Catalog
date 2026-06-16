@@ -239,6 +239,46 @@
   }
 }
 
+// -------------- Max-Width 1370px -------------- //
+
+@media screen and (max-width: 1370px) {
+  .custom-modal-width {
+
+    .modal-header {
+      height: 2.6rem;
+    }
+
+    .modal-body {
+
+      .modal-title {
+        height: 2.1rem;
+
+        p {
+        font-size: 1.5rem;
+
+          span {
+            font-size: 1.4rem;
+          }
+        }
+
+        span.audio {
+
+          .audio-content {
+
+            p {
+            font-size: 1.55rem;
+            }
+
+            .audio-card button {
+              width: 3.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // ---------------- Max-Height: 780px ------------------ //
 
 @media screen and (max-height: 780px) {
@@ -273,6 +313,20 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 680px ------------------ //
+
+@media screen and (max-height: 680px) {
+  .custom-modal-width {
+
+    .modal-body {
+
+      .modal-img-constrained {
+        height: 80dvh;
       }
     }
   }

@@ -687,13 +687,23 @@
   }
 }
 
+// ---------------- Max-Width: 1370px --------------- //
+
+@media screen and (max-width: 1370px) {
+  .alcove-west-container {
+
+    .alcove-west-grid {
+      width: 80.2%;
+    }
+  }
+}
+
 // ---------------- Max-Height: 700px and Max-Width: 1370px --------------- //
 
 @media screen and (max-height: 700px) and (max-width: 1370px) {
   .alcove-west-container {
 
     .alcove-west-grid {
-      width: 77.5%;
       height: 35.5rem;
 
       //----------------- COLUMN 1 ------------------//
@@ -703,7 +713,7 @@
         // ---------- Jacob Wrestling the Angel --------- //
         .sub-section-1-1 {
           top: 0.8rem;
-          width: 14.8rem;
+          width: 14.7rem;
         }
 
         .alcove-exit-container {
@@ -983,7 +993,7 @@
   .alcove-west-container {
 
     .alcove-west-grid {
-      // width: 79%;
+      width: 78.5%;
       height: 35.5rem;
       grid-template-columns: 1.3fr 1fr 1.3fr;
 
@@ -1142,6 +1152,7 @@
   .alcove-west-container {
 
     .alcove-west-grid {
+      height: 35.2rem;
 
     //----------------- COLUMN 2 ------------------//
     

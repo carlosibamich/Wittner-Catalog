@@ -623,9 +623,9 @@
 
         // ---------- Dorothy --------- //
         .sub-section-2-6 {
-          top: 15.6rem;
-          right: 0.6rem;
-          width: 3.1rem;
+          top: 14.8rem;
+          right: 0.5rem;
+          width: 3.3rem;
         }
 
         .alcove-entrance-container {
@@ -743,18 +743,27 @@
   }
 }
 
-// ---------------- Max-Height: 770px and Max-Width: 1370px --------------- //
+// ---------------- Max-Width: 1370px --------------- //
 
-@media screen and (max-height: 770px) and (max-width: 1370px) {
+@media screen and (max-width: 1370px) {
   .main-room-stage-container {
 
     .main-room-stage-grid {
+      width: 90.5%;
     
       //----------------- COLUMN 2 ------------------//
     
       .stage-column-2 {
 
+        // ---------- Dorothy --------- //
+        .sub-section-2-6 {
+          top: 14.3rem;
+          width: 3.5rem;
+        }
+
         .alcove-entrance-container {
+          top: 11.8rem;
+          right: 4.6rem;
 
           .alcove-entrance {
 
@@ -823,7 +832,7 @@
   .main-room-stage-container {
 
     .main-room-stage-grid {
-      width: 87%;
+      width: 91%;
       height: 34.8rem;
       grid-template-rows: 27.5rem 7.3rem;
 
@@ -1316,6 +1325,8 @@
   .main-room-stage-container {
 
     .main-room-stage-grid {
+      height: 34.7rem;
+      grid-template-rows: 27.6rem 7.1rem;
 
       //----------------- COLUMN 2 ------------------//
     

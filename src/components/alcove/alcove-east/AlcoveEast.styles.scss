@@ -639,13 +639,24 @@
     }
   }
 
+  // ---------------- Max-Width: 1370px --------------- //
+
+@media screen and (max-width: 1370px) {
+  .alcove-east-container {
+
+    .alcove-east-grid {
+      width: 77%;
+    }
+  }
+}
+
 // ---------------- Max-Height: 700px and Max-Width: 1370px --------------- //
 
 @media screen and (max-height: 700px) and (max-width: 1370px) {
   .alcove-east-container {
 
     .alcove-east-grid {
-      width: 74%;
+      width: 77.5%;
       height: 35.5rem;
 
       //----------------- COLUMN 1 ------------------//
@@ -934,7 +945,7 @@
   .alcove-east-container {
 
     .alcove-east-grid {
-      // width: 79%;
+      width: 78.5%;
       height: 35.5rem;
       grid-template-columns: 1.3fr 1fr 1.3fr;
 
@@ -1090,6 +1101,7 @@
   .alcove-east-container {
 
     .alcove-east-grid {
+      height: 35.2rem;
 
       //----------------- COLUMN 1 ------------------//
 

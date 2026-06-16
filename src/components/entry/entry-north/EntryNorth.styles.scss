@@ -251,13 +251,85 @@
   }
 }
 
-// ---------------- Max-Height: 700px and Max-Width: 1370px ---------------- //
+// ---------------- Max-Width: 1370px ---------------- //
 
-@media screen and (max-height: 700px) and (max-width: 1370px) {
+@media screen and (max-width: 1370px) {
   .entry-room-container {
 
     .entry-north-grid {
-      width: 83%;
+      width: 84%;
+      height: 35.5rem;
+      grid-template-columns: 2fr 1.3fr 2fr;
+
+      // -------------------- Column 1 --------------------- //
+
+      .entry-north-column-1 {
+
+        // ---------- Art--------- //
+        .sub-section-1-1 {
+          left: 2.5rem;
+          width: 10.1rem;
+        }
+        
+        // ---------- Mother's Turn --------- //
+        .sub-section-1-2 {
+          right: 2.2rem;
+          width: 14.3rem;
+        }
+
+        .window-frame {
+          top: 15rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+   .entry-north-column-2 {
+
+     // ---------- Intelligence, Beauty, Love --------- //
+      .sub-section-2-1 {
+        top: 3.2rem;
+        width: 13rem;
+      }
+
+     // ---------- Dogs Rule the World --------- //
+      .sub-section-2-2 {
+        top: 18rem;
+        width: 11.8rem;
+      }
+    }
+
+    // -------------------- Column 3 --------------------- //
+
+      .entry-north-column-3 {
+
+        // ---------- Challenges --------- //
+        .sub-section-3-1 {
+          left: 2.3rem;
+          width: 10rem;
+        }
+        
+        // ---------- Marriage of Art and Science --------- //
+        .sub-section-3-2 {
+          right: 1.6rem;
+          width: 15.6rem;
+        }
+
+        .window-frame {
+          top: 15rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Min-Height: 820px and Max-Width: 1370px ---------------- //
+
+@media screen and (min-height: 820px) and (max-width: 1370px) {
+  .entry-room-container {
+
+    .entry-north-grid {
+      width: 86%;
       height: 35.5rem;
       grid-template-columns: 2fr 1.3fr 2fr;
 
@@ -409,9 +481,7 @@
   .entry-room-container {
 
     .entry-north-grid {
-      // width: 86%;
       height: 35.5rem;
-      // grid-template-columns: 2.1fr 1.2fr 2.1fr;
 
       // .section {
       //   border: 1px solid #d3d3d3;
@@ -479,6 +549,17 @@
           top: 14.9rem;
         }
       }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1200px ---------------- //
+
+@media screen and (max-width: 1200px) {
+  .entry-room-container {
+
+    .entry-north-grid {
+      height: 35.2rem;
     }
   }
 }

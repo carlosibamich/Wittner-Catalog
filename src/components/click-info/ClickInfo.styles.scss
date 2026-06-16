@@ -253,14 +253,18 @@
     bottom: 0dvh;
 
     .click-info {
-      height: 13.2dvh;
+      height: 11.3dvh;
 
       .fish {
-        font-size: 1.85rem;
+        font-size: 1.8rem;
+      }
+
+      .line {
+        width: 20.8rem;
       }
 
       p {
-        font-size: 1.45rem;
+        font-size: 1.48rem;
       }
 
     }
@@ -271,86 +275,34 @@
   }
 }
 
-// ---------------- Min-Height: 840px and Max-Width: 1380px --------------- //
+// -------------- Min-Height: 840px and Max-Width 1380px -------------- //
 
 @media screen and (min-height: 840px) and (max-width: 1380px) {
   .click-info-container {
     bottom: 11.8dvh;
 
     .click-info {
-      height: 6dvh;
+      height: 7.5dvh;
 
-    }
-  }
-}
-
-// ----------------- Max-Width 1380px ----------------- //
-
-// @media screen and (min-width: 1281px) and (max-width: 1380px) {
-//   .click-info-container {
-//     bottom: 12dvh;
-
-//     .click-info {
-//       height: 9dvh;
-
-//       .fish {
-//         font-size: 1.85rem;
-//       }
-
-//       p {
-//         font-size: 1.45rem;
-//       }
-
-//     }
-
-//     .color-base {
-//       display: none;
-//     }
-//   }
-// }
-
-// ---------------- Min-Height: 900px and Max-Width: 1370px --------------- //
-
-@media screen and (min-height: 900px) and (max-width: 1370px) {
-  .click-info-container {
-
-    .click-info {
-      height: 8dvh;
+      .fish {
+        font-size: 1.8rem;
+      }
 
       .line {
-        width: 18.5rem;
+        width: 20.8rem;
       }
 
       p {
-        font-size: 1.7rem;
+        font-size: 1.48rem;
       }
+
     }
   }
 }
 
-// ---------------- Max-Height: 840px and Max-Width: 1370px --------------- //
+// -------------- Max-Width 1370px -------------- //
 
-@media screen and (max-height: 840px) and (max-width: 1370px) {
-  .click-info-container {
-    bottom: 0;
-
-    .click-info {
-      height: 9.5dvh;
-
-      .line {
-        width: 20rem;
-      }
-
-      p {
-        font-size: 1.5rem;
-      }
-    }
-  }
-}
-
-// -------------- Max-Height: 770px and Max-Width 1370px -------------- //
-
-@media screen and (max-height: 770px) and (max-width: 1370px) {
+@media screen and (max-width: 1370px) {
   .click-info-container {
 
     .click-info {
@@ -367,16 +319,55 @@
   }
 }
 
+// ---------------- Max-Height: 839px and Max-Width: 1370px --------------- //
+
+@media screen and (max-height: 839px) and (max-width: 1370px) {
+  .click-info-container {
+    bottom: 0;
+
+    .click-info {
+      height: 12dvh;
+
+      .line {
+        width: 20rem;
+      }
+
+      p {
+        font-size: 1.45rem;
+      }
+    }
+  }
+}
+
 // -------------- Max-Height: 700px and Max-Width 1370px -------------- //
 
 @media screen and (max-height: 700px) and (max-width: 1370px) {
   .click-info-container {
 
     .click-info {
-      height: 9.4dvh;
+      height: 8.5dvh;
 
       p {
-        font-size: 1.45rem;
+        // font-size: 1.45rem;
+      }
+    }
+  }
+}
+
+// ---------------- Min-Height: 840px and Max-Width: 1370px --------------- //
+
+@media screen and (min-height: 840px) and (max-width: 1370px) {
+  .click-info-container {
+
+    .click-info {
+      height: 8dvh;
+
+      .line {
+        width: 18.5rem;
+      }
+
+      p {
+        font-size: 1.48rem;
       }
     }
   }
@@ -388,7 +379,7 @@
   .click-info-container {
 
     .click-info {
-      height: 11.8dvh;
+      height: 10.5dvh;
 
       .fish {
         font-size: 1.8rem;
@@ -425,22 +416,68 @@
 
 @media screen and (max-width: 1220px) {
   .click-info-container {
-    bottom: 11.5dvh;
+    bottom: 0dvh;
 
     .click-info {
-      height: 6.5dvh;
+      height: 11dvh;
 
       .fish {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
       }
 
       p {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
       }
     }
 
     .color-base {
       display: none;
+    }
+  }
+}
+
+// ---------------- Min-Height: 720px and Max-Width: 1220px --------------- //
+
+@media screen and (min-height: 720px) and (max-width: 1220px) {
+  .click-info-container {
+    bottom: 12dvh;
+
+    .click-info {
+      height: 6.5dvh;
+    }
+  }
+}
+
+// ----------------- Max-Width 1200px ----------------- //
+
+@media screen and (max-width: 1200px) {
+  .click-info-container {
+
+    .click-info {
+      height: 10.5dvh;
+
+      .fish {
+        font-size: 1.85rem;
+      }
+
+      .line {
+        width: 17.6rem;
+      }
+
+      p {
+        font-size: 1.47rem;
+      }
+    }
+  }
+}
+
+// ----------------- Min-Height: 700px and Max-Width 1200px ----------------- //
+
+@media screen and (min-height: 700px) and (max-width: 1200px) {
+  .click-info-container {
+
+    .click-info {
+      height: 7dvh;
     }
   }
 }

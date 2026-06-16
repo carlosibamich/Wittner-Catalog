@@ -741,14 +741,14 @@
         // ---------- A Cold Wind --------- //
         .sub-section-3-6 {
           top: 8.2rem;
-          right: 9.1rem;
+          right: 9rem;
           width: 3.6rem;
         }
 
         // ---------- Voices of Doom --------- //
         .sub-section-3-7 {
           top: 15.1rem;
-          right: 7.9rem;
+          right: 7.7rem;
           width: 5.9rem;
         }
 
@@ -777,15 +777,25 @@
   }
 }
 
+// ----------------- Max-Width: 1370px ------------------- //
+
+@media screen and (max-width: 1370px) {
+  .stairwell-east-container {
+
+    .stairwell-east-grid {
+      width: 84.5%;
+    }
+  }
+}
+
 // -------------- Max-Height: 700px and Max-Width 1370px -------------- //
 
 @media screen and (max-height: 700px) and (max-width: 1370px) {
   .stairwell-east-container {
 
     .stairwell-east-grid {
-      width: 79%;
+      width: 82.5%;
       height: 35.5rem;
-      // grid-template-columns: 1.1fr 1.1fr 1.2fr;
 
       //----------------- COLUMN 1 ------------------//
 
@@ -836,7 +846,7 @@
       // ---------- The Chariot --------- //
       .sub-section-1-7 {
         top: 17.2rem;
-        left: 11.3rem;
+        left: 11.4rem;
         width: 5.7rem;
       }
       
@@ -1236,8 +1246,6 @@
   .stairwell-east-container {
 
     .stairwell-east-grid {
-      // width: 85%;
-      // height: 35.5rem;
       grid-template-columns: 1.1fr 1fr 1.1fr;
 
       //----------------- COLUMN 1 ------------------//
@@ -1467,6 +1475,7 @@
   .stairwell-east-container {
 
     .stairwell-east-grid {
+      height: 35.2rem;
 
       //----------------- COLUMN 1 ------------------//
 

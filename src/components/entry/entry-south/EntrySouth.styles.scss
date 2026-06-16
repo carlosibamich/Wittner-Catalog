@@ -294,13 +294,13 @@
   }
 }
 
-// ---------------- Max-Height: 700px and Max-Width: 1370px --------------- //
+// ---------------- Max-Width: 1370px --------------- //
 
-@media screen and (max-height: 700px) and (max-width: 1370px) {
+@media screen and (max-width: 1370px) {
   .entry-room-container {
     
     .entry-south-grid {
-      width: 87.5%;
+      width: 90%;
       height: 35.5rem;
 
       .entry-south-column-1 {
@@ -354,6 +354,28 @@
           top: 15rem;
         }
       }
+    }
+  }
+}
+
+// ---------------- Max-Height: 700px and Max-Width: 1370px --------------- //
+
+@media screen and (max-height: 700px) and (max-width: 1370px) {
+  .entry-room-container {
+    
+    .entry-south-grid {
+      width: 90%;
+    }
+  }
+}
+
+// ---------------- Min-Height: 820px and Max-Width: 1370px --------------- //
+
+@media screen and (min-height: 820px) and (max-width: 1370px) {
+  .entry-room-container {
+    
+    .entry-south-grid {
+      width: 90%;
     }
   }
 }
@@ -527,11 +549,8 @@
     
     .entry-south-grid {
       width: 89.3%;
+      height: 35.2rem;
       grid-template-columns: 2.15fr 1.02fr 2.03fr;
-
-      // .section {
-      //   border: 1px solid #d2d2d2;
-      // }
 
       .entry-south-column-1 {
 
