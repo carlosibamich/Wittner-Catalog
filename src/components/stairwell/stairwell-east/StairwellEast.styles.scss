@@ -1015,7 +1015,7 @@
   .stairwell-east-container {
 
     .stairwell-east-grid {
-      width: 85%;
+      width: 84%;
       height: 35.5rem;
       grid-template-columns: 1.1fr 1.05fr 1.1fr;
 
@@ -1054,22 +1054,22 @@
         // ---------- Check Mate --------- //
         .sub-section-1-5 {
           top: 16rem;
-          left: 7.8rem;
+          left: 7.9rem;
           width: 2.9rem;
         }
         
         // ---------- Fear of Doctors --------- //
         .sub-section-1-6 {
           top: 20.6rem;
-          left: 7.4rem;
+          left: 7.5rem;
           width: 3.8rem;
         }
         
         // ---------- The Chariot --------- //
         .sub-section-1-7 {
           top: 16.8rem;
-          left: 12.3rem;
-          width: 5.7rem;
+          left: 12.2rem;
+          width: 5.9rem;
         }
         
         // ---------- Out of Reach --------- //
@@ -1129,8 +1129,8 @@
         // ---------- Trip With My Brother --------- //
         .sub-section-2-3 {
           top: 4rem;
-          left: 1.5rem;
-          width: 9.5rem;
+          left: 1.4rem;
+          width: 9.6rem;
         }
         
         // ---------- Best of Show --------- //
@@ -1204,35 +1204,35 @@
         // ---------- A Cold Wind --------- //
         .sub-section-3-6 {
           top: 8.3rem;
-          right: 8.9rem;
+          right: 8.5rem;
           width: 3.4rem;
         }
 
         // ---------- Voices of Doom --------- //
         .sub-section-3-7 {
           top: 14.7rem;
-          right: 7.6rem;
+          right: 7.2rem;
           width: 5.6rem;
         }
 
         // ---------- Unholy Matrimony --------- //
         .sub-section-3-8 {
           top: 7.6rem;
-          right: 1.85rem;
+          right: 1.45rem;
           width: 5.3rem;
         }
 
         // ---------- Anger --------- //
         .sub-section-3-9 {
           top: 11.7rem;
-          right: 2.9rem;
+          right: 2.5rem;
           width: 3.2rem;
         }
 
         // ---------- Overqualified --------- //
         .sub-section-3-10 {
           top: 16.8rem;
-          right: 1.9rem;
+          right: 1.5rem;
           width: 4.9rem;
         }
       }   
@@ -1558,6 +1558,46 @@
 
     .stairwell-east-grid {
 
+      //----------------- COLUMN 1 ------------------//
+
+      .stairwell-east-column-1 {
+       
+        // ---------- The Chariot --------- //
+        .sub-section-1-7 {
+          left: 11.9rem;
+        }
+      }
+
+      //----------------- COLUMN 2 ------------------//
+
+      .stairwell-east-column-2 {
+
+        // ---------- Trip With My Brother --------- //
+        .sub-section-2-3 {
+          left: 0.6rem;
+        }
+        
+        // ---------- Best of Show --------- //
+        .sub-section-2-4 {
+          left: 1.5rem;
+        }
+        
+        // ---------- Sainted --------- //
+        .sub-section-2-5 {
+          left: 1.5rem;
+        }
+        
+        // ---------- Six Dogs --------- //
+        .sub-section-2-6 {
+          left: 5.9rem;
+        }
+        
+        // ---------- We Were Fighting --------- //
+        .sub-section-2-7{
+          left: 5.9rem;
+        }
+      }
+
 
       //----------------- COLUMN 3 ------------------//
 
@@ -1565,27 +1605,27 @@
 
         // ---------- A Cold Wind --------- //
         .sub-section-3-6 {
-          right: 8rem;
+          right: 7.9rem;
         }
 
         // ---------- Voices of Doom --------- //
         .sub-section-3-7 {
-          right: 6.8rem;
+          right: 6.6rem;
         }
 
         // ---------- Unholy Matrimony --------- //
         .sub-section-3-8 {
-          right: 1.25rem;
+          right: 1.15rem;
         }
 
         // ---------- Anger --------- //
         .sub-section-3-9 {
-          right: 2.3rem;
+          right: 2.2rem;
         }
 
         // ---------- Overqualified --------- //
         .sub-section-3-10 {
-          right: 1.3rem;
+          right: 1.2rem;
         }
       }   
     }

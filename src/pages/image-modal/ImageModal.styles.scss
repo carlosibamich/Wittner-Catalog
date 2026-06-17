@@ -297,7 +297,7 @@
       .modal-title {
 
         p {
-          font-size: 1.55rem;
+          font-size: 1.45rem;
         }
 
         span.audio {
@@ -305,7 +305,7 @@
           .audio-content {
 
             p {
-            font-size: 1.7rem;
+            font-size: 1.65rem;
             }
 
             .audio-card button {
@@ -350,10 +350,10 @@
       .modal-title {
 
         p {
-        font-size: 1.55rem;
+        font-size: 1.45rem;
 
           span {
-            font-size: 1.45rem;
+            font-size: 1.35rem;
           }
         }
 
@@ -362,11 +362,46 @@
           .audio-content {
 
             p {
-            font-size: 1.65rem;
+            font-size: 1.5rem;
             }
 
             .audio-card button {
-              width: 3.82rem;
+              width: 3.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1200px -------------- //
+
+@media screen and (max-width: 1200px) {
+  .custom-modal-width {
+
+    .modal-body {
+
+      .modal-title {
+
+        p {
+        font-size: 1.4rem;
+
+          span {
+            font-size: 1.3rem;
+          }
+        }
+
+        span.audio {
+
+          .audio-content {
+
+            p {
+            font-size: 1.45rem;
+            }
+
+            .audio-card button {
+              width: 3.7rem;
             }
           }
         }
@@ -385,10 +420,10 @@
       .modal-title {
 
         p {
-        font-size: 1.47rem;
+        font-size: 1.42rem;
 
           span {
-            font-size: 1.4rem;
+            font-size: 1.35rem;
           }
         }
 
@@ -397,11 +432,11 @@
           .audio-content {
 
             p {
-            font-size: 1.6rem;
+            font-size: 1.5rem;
             }
 
             .audio-card button {
-              width: 3.8rem;
+              width: 3.75rem;
             }
           }
         }

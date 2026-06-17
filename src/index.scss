@@ -792,26 +792,26 @@ div.carousel-container {
 
   /* ----------- Exit Sign Styles ------------- */
 
-.exit-sign-container {
+  .exit-sign-container {
 
-    .exit-sign {
-      width: 3.4rem;
-      height: 2.2rem;
-      font-size: 1.3rem;
-      font-weight: 800;
-    }
-}
+      .exit-sign {
+        width: 3.4rem;
+        height: 2.2rem;
+        font-size: 1.3rem;
+        font-weight: 800;
+      }
+  }
 
   /* ----------- Carousel Styles ------------- */
 
   div.carousel-container {  
 
     .controls {
-      margin-top: 1rem;
-      margin-bottom: 3.8rem;
+      // margin-top: 1rem;
+      margin-bottom: 4.2dvh;
 
       .arrow {
-        padding-bottom: 0.8rem;
+        // padding-bottom: 0.8rem;
       }
 
       .page-button {
@@ -877,16 +877,16 @@ div.carousel-container {
   }
 }
 
-// --------------- Max-Height: 720px and Max-Width 1280px ---------------- //
+// --------------- Min-Height: 710px and Max-Width 1280px ---------------- //
 
-@media screen and (max-height: 720px) and (max-width: 1280px) {
+@media screen and (min-height: 710px) and (max-width: 1280px) {
 
   /* ----------- Carousel Styles ------------- */
 
   div.carousel-container {  
 
     .controls {
-      margin-bottom: 3.6dvh;
+      margin-bottom: 4.5dvh;
     }
   }
 }
@@ -901,7 +901,7 @@ div.carousel-container {
   div.carousel-container {
 
     .controls {
-      margin-bottom: 2.5dvh;
+      margin-bottom: 2.6dvh;
 
       .arrow {
         padding-bottom: 0.4rem;
@@ -909,7 +909,7 @@ div.carousel-container {
 
       .page-button {
         margin: 0 0.9rem;
-        font-size: 1.15rem;
+        font-size: 1.25rem;
       }
     }
   }
@@ -963,7 +963,7 @@ div.carousel-container {
   div.carousel-container {
 
     .controls {
-      margin-bottom: 3.3dvh;
+      margin-bottom: 4.2dvh;
     }
   }
 }
@@ -976,20 +976,28 @@ div.carousel-container {
 
     .controls {
       margin-top: 0.5rem;
-      margin-bottom: 2.2dvh;
+      margin-bottom: 2.5dvh;
+
+      .arrow {
+        padding-bottom: 0.6rem;
+      }
+
+      .page-button {
+        font-size: 1.23rem;
+      }
     }
   }
 }
 
-// --------------- Max-Width 1200px ---------------- //
+// --------------- Min-Height: 720px and Max-Width 1200px ---------------- //
 
-@media screen and (min-height: 700px) and (max-width: 1200px) {
+@media screen and (min-height: 720px) and (max-width: 1200px) {
 
   div.carousel-container {
 
     .controls {
       margin-top: 1rem;
-      margin-bottom: 2.2dvh;
+      margin-bottom: 2.6dvh;
     }
   }
 }
@@ -1004,7 +1012,19 @@ div.carousel-container {
   div.carousel-container {
     
     .controls {
-      margin-bottom: 5.4dvh;
+      margin-bottom: 2.4dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 720px and Max-Width 1185px ---------------- //
+
+@media screen and (min-height: 720px) and (max-width: 1185px) {
+
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 2.8dvh;
     }
   }
 }
@@ -1019,14 +1039,13 @@ div.carousel-container {
   div.carousel-container {
     
     .controls {
-      margin-bottom: 4dvh;
+      margin-bottom: 3dvh;
     }
   }
 
   .exit-sign-container {
     
     .exit-sign {
-      // top: 4rem;
       width: 3.1rem;
       height: 2rem;
       font-size: 1.28rem;
@@ -1088,6 +1107,18 @@ div.carousel-container {
         width: 15.2rem;
         height: 0.45rem;
       }
+    }
+  }
+}
+
+// --------------- Min-Height: 690px and Max-Width 1140px ---------------- //
+
+@media screen and (min-height: 690px) and (max-width: 1140px) {
+
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 4.5dvh;
     }
   }
 }

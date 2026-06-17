@@ -379,7 +379,7 @@
   .click-info-container {
 
     .click-info {
-      height: 10.5dvh;
+      height: 12dvh;
 
       .fish {
         font-size: 1.8rem;
@@ -396,18 +396,34 @@
   }
 }
 
-// ----------------- Min-Height 750px and Max-Width 1280px ----------------- //
+// ----------------- Min-Height 700px and Max-Width 1280px ----------------- //
 
-@media screen and (min-height: 750px) and (max-width: 1280px) {
+@media screen and (min-height: 700px) and (max-width: 1280px) {
   .click-info-container {
     bottom: 0dvh;
+
+    .click-info {
+      height: 6.2dvh;
+    }
+
+    .color-base {
+      display: block;
+    }
+  }
+}
+
+// ----------------- Min-Height 770px and Max-Width 1280px ----------------- //
+
+@media screen and (min-height: 770px) and (max-width: 1280px) {
+  .click-info-container {
+    bottom: 12dvh;
 
     .click-info {
       height: 7.5dvh;
     }
 
     .color-base {
-      display: block;
+      display: none;
     }
   }
 }
@@ -419,14 +435,14 @@
     bottom: 0dvh;
 
     .click-info {
-      height: 11dvh;
+      height: 11.6dvh;
 
       .fish {
         font-size: 1.9rem;
       }
 
       p {
-        font-size: 1.5rem;
+        font-size: 1.55rem;
       }
     }
 
@@ -444,6 +460,10 @@
 
     .click-info {
       height: 6.5dvh;
+
+      .fish {
+        font-size: 1.85rem;
+      }
     }
   }
 }
@@ -454,30 +474,27 @@
   .click-info-container {
 
     .click-info {
-      height: 10.5dvh;
-
-      .fish {
-        font-size: 1.85rem;
-      }
+      height: 11dvh;
 
       .line {
-        width: 17.6rem;
+        width: 17.5rem;
       }
 
       p {
-        font-size: 1.47rem;
+        font-size: 1.55rem;
       }
     }
   }
 }
 
-// ----------------- Min-Height: 700px and Max-Width 1200px ----------------- //
+// ----------------- Min-Height: 720px and Max-Width 1200px ----------------- //
 
-@media screen and (min-height: 700px) and (max-width: 1200px) {
+@media screen and (min-height: 720px) and (max-width: 1200px) {
   .click-info-container {
+    bottom: 12.5dvh;
 
     .click-info {
-      height: 7dvh;
+      height: 6.5dvh;
     }
   }
 }
@@ -488,15 +505,25 @@
   .click-info-container {
 
     .click-info {
-      height: 5.7dvh;
-
+      height: 9.8dvh;
       .fish {
-        font-size: 1.7rem;
+        font-size: 1.75rem;
       }
 
       p {
-        font-size: 1.35rem;
+        font-size: 1.5rem;
       }
+    }
+  }
+}
+
+// ----------------- Min-Height: 720px and Max-Width 1185px ----------------- //
+
+@media screen and (min-height: 720px) and (max-width: 1185px) {
+  .click-info-container {
+
+    .click-info {
+      height: 7.2dvh;
     }
   }
 }
@@ -505,84 +532,110 @@
 
 @media screen and (max-width: 1140px) {
   .click-info-container {
-    bottom: 11dvh;
+    bottom: 0dvh;
 
     .click-info {
-      height: 5.2dvh;
+      height: 10.5dvh;
+      // border-bottom: 1px solid var(--dark-grey);
+    }
+  }
+}
+
+// ----------------- Min-Height: 690px and Max-Width 1140px ----------------- //
+
+@media screen and (min-height: 690px) and (max-width: 1140px) {
+  .click-info-container {
+    bottom: 12.5dvh;
+
+    .click-info {
+      height: 5.8dvh;
+    }
+  }
+}
+
+// ----------------- Max-Width 1040px ----------------- //
+
+@media screen and (max-width: 1040px) {
+  .click-info-container {
+    bottom: 0dvh;
+
+    .click-info {
+      height: 10.5dvh;
+      border-bottom: 1px solid var(--dark-grey);
     }
   }
 }
 
 // ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
 
-@media screen and (max-height: 780px) and (max-width: 1035px) {
-  .click-info-container {
-    bottom: 15dvh;
+// @media screen and (max-height: 780px) and (max-width: 1035px) {
+//   .click-info-container {
+//     bottom: 15dvh;
 
-    .click-info {
-      height: 6.8dvh;
+//     .click-info {
+//       height: 6.8dvh;
 
-      .fish {
-        font-size: 2rem;
-      }
+//       .fish {
+//         font-size: 2rem;
+//       }
 
-      .line {
-        width: 17.5rem;
-      }
+//       .line {
+//         width: 17.5rem;
+//       }
 
-      p {
-        font-size: 1.65rem;
-      }
-    }
-  }
-}
+//       p {
+//         font-size: 1.65rem;
+//       }
+//     }
+//   }
+// }
 
 // ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
 
-@media screen and (max-height: 700px) and (max-width: 1035px) {
-  .click-info-container {
-    bottom: 12.8dvh;
+// @media screen and (max-height: 700px) and (max-width: 1035px) {
+//   .click-info-container {
+//     bottom: 12.8dvh;
 
-    .click-info {
-      // height: 6.8dvh;
+//     .click-info {
+//       // height: 6.8dvh;
 
-      .fish {
-        font-size: 1.9rem;
-      }
+//       .fish {
+//         font-size: 1.9rem;
+//       }
 
-      .line {
-        width: 17.5rem;
-      }
+//       .line {
+//         width: 17.5rem;
+//       }
 
-      p {
-        font-size: 1.53rem;
-      }
-    }
-  }
-}
+//       p {
+//         font-size: 1.53rem;
+//       }
+//     }
+//   }
+// }
 
 // ----------------- Max-Width 960px ----------------- //
 
-@media screen and (max-width: 960px) {
-  .click-info-container {
-    bottom: 0;
+// @media screen and (max-width: 960px) {
+//   .click-info-container {
+//     bottom: 0;
 
-    .click-info {
-      height: 5.8dvh;
+//     .click-info {
+//       height: 5.8dvh;
 
-      .line {
-        width: 17.2rem;
-        margin: 0 0.9rem;
-      }
-    }
+//       .line {
+//         width: 17.2rem;
+//         margin: 0 0.9rem;
+//       }
+//     }
 
-    .color-base {
-      display: block;
-      height: 5dvh;
-      border-top: 3px solid var(--copper-yellow);
-    }
-  }
-}
+//     .color-base {
+//       display: block;
+//       height: 5dvh;
+//       border-top: 3px solid var(--copper-yellow);
+//     }
+//   }
+// }
 
 // ----------------- Max-Width 960px ----------------- //
 
@@ -610,30 +663,30 @@
 
 // ----------------- Max-Width 780px ----------------- //
 
-@media screen and (max-width: 780px) {
-  .click-info-container {
-    bottom: 6.8rem;
-    // border-bottom: 1px solid var(--copper-yellow);
+// @media screen and (max-width: 780px) {
+//   .click-info-container {
+//     bottom: 6.8rem;
+//     // border-bottom: 1px solid var(--copper-yellow);
 
-    .click-info {
-      height: 7dvh;
+//     .click-info {
+//       height: 7dvh;
 
-      .line {
-        width: 16rem;
-        margin: 0 0.9rem;
-      }
+//       .line {
+//         width: 16rem;
+//         margin: 0 0.9rem;
+//       }
 
-      .fish {
-        font-size: 1.9rem;
-      }
+//       .fish {
+//         font-size: 1.9rem;
+//       }
 
-      p {
-        font-size: 1.45rem;
-      }
-    }
+//       p {
+//         font-size: 1.45rem;
+//       }
+//     }
 
-    .color-base {
-      display: none;
-    }
-  }
-}
+//     .color-base {
+//       display: none;
+//     }
+//   }
+// }

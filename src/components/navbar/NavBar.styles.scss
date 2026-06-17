@@ -261,32 +261,12 @@
   }
 }
 
-// -------------- Min-Height: 930px and Max-Width 1370px -------------- //
-
-// @media screen and (min-height: 930px) and (max-width: 1370px) {
-//   .main-nav-options {
-
-//     .navlink-container {
-//       margin: 0 1.5rem;
-      
-//       .nav-link {
-
-//         a {
-//           font-size: 1.2rem;
-//         }
-//       }
-//     }
-//   }
-// }
-
-
-
 // -------------- Max-Width 1280px -------------- //
 
 @media screen and (max-width: 1280px) {
   .main-nav-options {
     width: 55rem;
-    height: 8.5dvh;
+    height: 9dvh;
     padding-top: 0.5rem;
 
     .navlink-container {
@@ -302,15 +282,23 @@
   }
 }
 
-// --------------- Max-Height: 720px and Max-Width 1280px ---------------- //
+// --------------- Min-Height: 770px and Max-Width 1280px ---------------- //
 
-// @media screen and (max-height: 720px) and (max-width: 1280px) {
+@media screen and (min-height: 770px) and (max-width: 1280px) {
+  .main-nav-options {
+    height: 8.2dvh;
+  }
+}
+
+// --------------- Min-Height: 700px and Max-Width 1280px ---------------- //
+
+// @media screen and (min-height: 700px) and (max-width: 1280px) {
 //   .main-nav-options {
 //     // width: 55rem;
-//     height: 6.2dvh;
+//     // height: 6.2dvh;
 
 //     .navlink-container {
-//       padding-bottom: 0rem;
+//       // padding-bottom: 0rem;
 //     }
 //   }
 // }
@@ -338,20 +326,8 @@
 
 @media screen and (min-height: 720px) and (max-width: 1220px) {
   .main-nav-options {
-    width: 51.8rem;
     height: 8dvh;
-    padding-top: 1rem;
-
-    .navlink-container {
-      margin: 0 1.43rem;
-
-      .nav-link {
-
-        a {
-          font-size: 1.22rem;
-        }
-      }
-    }
+    padding-top: 0.3rem;
   }
 }
 
@@ -360,10 +336,45 @@
 @media screen and (max-width: 1200px) {
   .main-nav-options {
     width: 51rem;
-    height: 7.8dvh;
+    height: 8.8dvh;
+    padding-top: 0.5dvh;
 
     .navlink-container {
-      margin: 0 1.45rem;
+      margin: 0 1.47rem;
+      padding-top: 1dvh;
+
+      .nav-link {
+
+        a {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 720px and Max-Width 1200px -------------- //
+
+@media screen and (min-height: 720px) and (max-width: 1200px) {
+  .main-nav-options {
+    height: 8.4dvh;
+
+    .navlink-container {
+      padding-top: 0.5dvh;
+    }
+  }
+}
+
+// -------------- Max-Width 1185px -------------- //
+
+@media screen and (max-width: 1185px) {
+  .main-nav-options {
+    width: 50.6rem;
+    height: 8.2dvh;
+
+    .navlink-container {
+      margin: 0 1.47rem;
+      padding-top: 0.8dvh;
 
       .nav-link {
 

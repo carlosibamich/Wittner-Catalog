@@ -947,7 +947,8 @@
 
 @media screen and (max-width: 1280px) {
   .main-room-stage-container {
-
+    margin-top: 0dvh;
+    
     .main-room-stage-grid {
       width: 92%;
       height: 35rem;
@@ -1028,9 +1029,9 @@
 
         // ---------- Dorothy --------- //
         .sub-section-2-6 {
-          top: 14rem;
-          right: 0.65rem;
-          width: 3.1rem;
+          top: 13.4rem;
+          right: 0.6rem;
+          width: 3.3rem;
         }
 
         .alcove-entrance-container {
@@ -1504,9 +1505,9 @@
 
           // ---------- Dorothy --------- //
           .sub-section-2-6 {
-            // top: 14rem;
+            top: 13rem;
             // right: 0.4rem;
-            width: 2.7rem;
+            width: 2.85rem;
           }
 
           .alcove-entrance-container {
