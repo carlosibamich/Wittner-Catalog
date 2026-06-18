@@ -444,14 +444,13 @@
 @media screen and (max-width: 1370px) {
   .navigation-container {
     height: 10dvh;
-    // margin-top: 0.2rem;
 
     .navigation {
-      width: 72.4rem;
+      width: 72.7rem;
 
       .logo-container {
-        width: 10.2rem;
-        padding-top: 4.8dvh;
+        width: 10.4rem;
+        padding-top: 5.2dvh;
       }
 
       .nav-center {
@@ -481,7 +480,7 @@
 
 @media screen and (max-height: 700px) and (max-width: 1370px) {
   .navigation-container {
-    height: 9dvh;
+    height: 9.5dvh;
 
     .navigation {
       width: 72.6rem;
@@ -512,7 +511,8 @@
       width: 73.8rem;
 
       .logo-container {
-        padding-top: 4.8dvh;
+        width: 10.6rem;
+        padding-top: 5dvh;
       }
 
       .nav-center {
@@ -521,7 +521,7 @@
       }
 
       .svgs-container {
-        padding-top: 3.7dvh;
+        padding-top: 3.9dvh;
 
         .w {
           width: 3.1rem;
@@ -770,6 +770,25 @@
   }
 }
 
+// -------------- Min-Height: 700px and Max-Width 1185px -------------- //
+
+@media screen and (min-height: 700px) and (max-width: 1185px) {
+  .navigation-container {
+
+    .navigation {
+
+      .logo-container {
+        // width: 10.4rem;
+        padding-top: 5dvh;
+      }
+
+      .svgs-container {
+        padding-top: 3.3dvh;
+      }
+    }
+  }
+}
+
 // -------------- Min-Height: 720px and Max-Width 1185px -------------- //
 
 @media screen and (min-height: 720px) and (max-width: 1185px) {
@@ -784,6 +803,44 @@
 
       .svgs-container {
         padding-top: 3.5dvh;
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 765px and Max-Width 1185px -------------- //
+
+@media screen and (min-height: 765px) and (max-width: 1185px) {
+  .navigation-container {
+
+    .navigation {
+
+      .logo-container {
+        width: 10.6rem;
+        padding-top: 5.2dvh;
+      }
+
+      .svgs-container {
+        padding-top: 3.8dvh;
+      }
+    }
+  }
+}
+
+// --------------- Min-Height: 630px and Max-Width 1140px ---------------- //
+
+@media screen and (min-height: 630px) and (max-width: 1140px) {
+  .navigation-container {
+
+    .navigation {
+
+      .logo-container {
+        // width: 10.4rem;
+        padding-top: 4.5dvh;
+      }
+
+      .svgs-container {
+        padding-top: 3.1dvh;
       }
     }
   }
@@ -812,25 +869,22 @@
 
 @media screen and (max-width: 1040px) {
   .navigation-container {
-    height: 9.2dvh;
+    height: 9dvh;
 
     .navigation {
       width: 70.8rem;
 
       .logo-container {
-        // width: 10.4rem;
-        padding-top: 4.5dvh;
+        width: 10.3rem;
+        padding-top: 4.7dvh;
       }
 
       .nav-center {
-        // width: 50.6rem;
         height: 8.8dvh;
       }
 
       .svgs-container {
-        // width: 9rem;
         padding-top: 3dvh;
-        // padding-left: 1rem;
       }
     }
   }
@@ -865,23 +919,23 @@
 
 @media screen and (max-width: 1035px) {
   .navigation-container {
-    height: 9.6dvh;
+    height: 9.4dvh;
 
     .navigation {
-      width: 74.5rem;
+      width: 73.8rem;
 
       .logo-container {
-        width: 11.5rem;
-        padding-top: 2.3rem;
+        width: 11rem;
+        padding-top: 5dvh;
       }
 
       .nav-center {
-        width: 53.5rem;
-        height: 9.5dvh;
+        width: 53.2rem;
+        height: 9.2dvh;
       }
 
       .svgs-container {
-        padding-top: 3.7dvh;
+        padding-top: 3.5dvh;
       }
     }
   }

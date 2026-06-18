@@ -391,43 +391,26 @@
   }
 }
 
-// -------------- Max-Height: 700px and Max-Width 1370px -------------- //
+// -------------- Max-Width 1370px -------------- //
 
-@media screen and (max-height: 700px) and (max-width: 1370px) {
+@media screen and (max-width: 1370px) {
   .list-container {
   
     .list-grid {
-      width: 78%;
 
-    li {
+      li {
 
         .list-items-container {
-          margin-bottom: 2.8rem;
-
-          .audio-label {
-            font-size: 1.5rem;
-          }
-
-          .audio-icon {
-            top: 0.65rem;
-          }
 
           .info-container {
-            width: 14.8rem;
-            
-            .id-area {
-
-              h3 {
-                font-size: 2.6rem;
-              }
-            }
+            width: 15rem;
 
             .title-area {
-              width: 13.8rem;
+              width: 14.6rem;
 
               p {
                 padding-top: 0.5rem;
-                font-size: 1.12rem;
+                font-size: 1.18rem;
               }
             }
           }
