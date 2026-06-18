@@ -5,7 +5,7 @@
   align-items: center;
   
   .main-room-north-grid {
-    width: 87%;
+    width: 86.5%;
     height: 40rem;
     display: grid;
     grid-template-columns: 1.8fr 5.5fr 5.8fr 5.5fr 5.9fr 4.8fr 1.5fr 4.7fr;
@@ -1924,7 +1924,8 @@
 
 @media screen and (max-width: 1140px) {
   .main-room-north-container {
-  
+    margin-top: 0.5dvh;
+
     .main-room-north-grid {
       width: 92%;
       height: 33.5rem;
@@ -2264,11 +2265,22 @@
   }
 }
 
-// --------------- Max-Width 1140px ---------------- //
+// --------------- Max-Width 1040px ---------------- //
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1040px) {
   .main-room-north-container {
-    margin-top: 0.5dvh;
+
+    .main-room-north-grid {
+      width: 91%;
+    }
+  }
+}
+
+// --------------- Max-Width 1035px ---------------- //
+
+@media screen and (max-width: 1035px) {
+  .main-room-north-container {
+    margin-top: 0.8dvh;
   }
 }
 

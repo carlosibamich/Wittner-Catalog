@@ -49,21 +49,21 @@
   }
 }
 
-// ------------------- Media Queries -------------------- //
+// ===================== Media Queries ===================== //
 
 // -------------- Max-Width 1800px -------------- //
 
 @media screen and (max-width: 1800px) {
   .main-nav-options {
-    width: 54rem;
+    width: 55rem;
 
     .navlink-container {
-      margin: 0 1.65rem;
+      margin: 0 1.76rem;
 
       .nav-link {
 
         a {
-          font-size: 1.15rem;
+          font-size: 1.22rem;
         }
       }
     }
@@ -95,6 +95,8 @@
 @media screen and (max-width: 1730px) {
   .main-nav-options {
     width: 56.5rem;
+    height: 9dvh;
+    padding-top: 0.5dvh;
 
     .navlink-container {
       margin: 0 1.6rem;
@@ -109,9 +111,9 @@
   }
 }
 
-// -------------- Max-Width 1650px -------------- //
+// -------------- Max-Width 1610px -------------- //
 
-@media screen and (max-width: 1650px) {
+@media screen and (max-width: 1610px) {
   .main-nav-options {
 
     .navlink-container {
@@ -124,6 +126,16 @@
         }
       }
     }
+  }
+}
+
+// -------------- Max-Width 1580px -------------- //
+
+@media screen and (max-width: 1580px) {
+  .main-nav-options {
+    width: 55.7rem;
+    height: 8.6dvh;
+    padding-top: 0.3dvh;
   }
 }
 
@@ -386,16 +398,58 @@
   }
 }
 
-// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+// -------------- Max-Width 1040px -------------- //
 
-@media screen and (max-height: 780px) and (max-width: 1035px) {
+@media screen and (max-width: 1040px) {
   .main-nav-options {
-    width: 54rem;
-    padding-top: 1rem;
-    border-bottom: 2px solid var(--copper-yellow);
+    width: 50.6rem;
+    height: 8.8dvh;
 
     .navlink-container {
-      margin: 0 1.42rem;
+      margin: 0 1.47rem;
+      padding-top: 0.8dvh;
+
+      .nav-link {
+
+        a {
+          font-size: 1.18rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 630px and Max-Width 1040px -------------- //
+
+@media screen and (min-height: 630px) and (max-width: 1040px) {
+  .main-nav-options {
+    width: 51rem;
+    height: 8dvh;
+
+    .navlink-container {
+      margin: 0 1.45rem;
+      padding-top: 1dvh;
+
+      .nav-link {
+
+        a {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1035px --------------- //
+
+@media screen and (max-width: 1035px) {
+  .main-nav-options {
+    width: 53.5rem;
+    height: 9.5dvh;
+    padding-top: 0.5rem;
+
+    .navlink-container {
+      margin: 0 1.44rem;
 
       .nav-link {
 
@@ -407,13 +461,53 @@
   }
 }
 
-// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
+// ---------------- Min-Height: 625px and Max-Width: 1035px --------------- //
 
-@media screen and (max-height: 700px) and (max-width: 1035px) {
+@media screen and (min-height: 625px) and (max-width: 1035px) {
   .main-nav-options {
-    padding-top: 0.2rem;
+    height: 8.8dvh;
+
+    .navlink-container {
+      margin: 0 1.42rem;
+
+      .nav-link {
+
+        a {
+          font-size: 1.3rem;
+        }
+      }
+    }
   }
 }
+
+// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+
+// @media screen and (max-height: 780px) and (max-width: 1035px) {
+//   .main-nav-options {
+//     width: 54rem;
+//     padding-top: 1rem;
+//     border-bottom: 2px solid var(--copper-yellow);
+
+//     .navlink-container {
+//       margin: 0 1.42rem;
+
+//       .nav-link {
+
+//         a {
+//           font-size: 1.28rem;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
+
+// @media screen and (max-height: 700px) and (max-width: 1035px) {
+//   .main-nav-options {
+//     padding-top: 0.2rem;
+//   }
+// }
 
 // -------------- Max-Width 960px -------------- //
 

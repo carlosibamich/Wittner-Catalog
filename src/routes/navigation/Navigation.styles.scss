@@ -1,5 +1,4 @@
 .navigation-container {
-  // position: sticky;
   position: relative;
   top: 0;
   display: flex;
@@ -17,7 +16,7 @@
     height: 100%;
 
     .logo-container {
-      width: 15.2rem;
+      width: 14.6rem;
       height: auto;
       padding-top: 3rem;
       padding-right: 0.4rem;
@@ -105,20 +104,15 @@
         }
 
       .nav-center {
-        width: 55.5rem;
+        width: 55rem;
       }
 
       .svgs-container {
         width: 12.7rem;
         padding-left: 1.5rem;
 
-        // .instagram {
-        //   font-size: 3rem;
-        // }
-
         .w {
           width: 3.5rem;
-          // margin-left: 2.5rem;
         }
       }
     }
@@ -153,7 +147,6 @@
         }
 
         .w {
-          // width: 3.5rem;
           margin-left: 2.1rem;
         }
       }
@@ -165,21 +158,24 @@
 
 @media screen and (max-width: 1730px) {
   .navigation-container {
+    height: 11dvh;
   
     .navigation {
       width: 85rem;
 
       .logo-container {
         width: 14.4rem;
-        padding-top: 3.3rem;
+        padding-top: 5dvh;
         padding-right: 0rem;
       }
 
       .nav-center {
         width: 56.5rem;
+        height: 9dvh;
       }
 
       .svgs-container {
+        padding-top: 4.5dvh;
         padding-left: 1.7rem;
 
         .instagram {
@@ -195,9 +191,9 @@
   }
 }
 
-// -------------- Max-Width 1650px -------------- //
+// -------------- Max-Width 1610px -------------- //
 
-@media screen and (max-width: 1650px) {
+@media screen and (max-width: 1610px) {
   .navigation-container {
   
     .navigation {
@@ -223,19 +219,46 @@
   }
 }
 
-// -------------- Max-Width 1550px -------------- //
+// -------------- Max-Width 1580px -------------- //
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1580px) {
   .navigation-container {
+    height: 10.5dvh;
   
     .navigation {
+      width: 83rem;
 
       .logo-container {
-        padding-top: 3.6rem;
+        width: 13.2rem;
+        padding-top: 4.6dvh;
+      }
+
+      .nav-center {
+        width: 55.7rem;
+        height: 8.6dvh;
+      }
+
+      .svgs-container {
+        padding-top: 4dvh;
+        padding-left: 1.3rem;
       }
     }
   }
 }
+
+// -------------- Max-Width 1550px -------------- //
+
+// @media screen and (max-width: 1550px) {
+//   .navigation-container {
+  
+//     .navigation {
+
+//       .logo-container {
+//         padding-top: 5dvh;
+//       }
+//     }
+//   }
+// }
 
 // -------------- Max-Width 1440px -------------- //
 
@@ -708,59 +731,161 @@
   }
 }
 
-// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+// -------------- Max-Width 1040px -------------- //
 
-@media screen and (max-height: 780px) and (max-width: 1035px) {
+@media screen and (max-width: 1040px) {
   .navigation-container {
+    height: 9.2dvh;
 
     .navigation {
-      width: 76rem;
+      width: 70.8rem;
 
       .logo-container {
-        width: 11.8rem;
-        padding-top: 2.9rem;
+        // width: 10.4rem;
+        padding-top: 4.5dvh;
       }
 
       .nav-center {
-        width: 54rem;
+        // width: 50.6rem;
+        height: 8.8dvh;
       }
 
       .svgs-container {
-        width: 9rem;
-        margin-top: 1.2rem;
-        padding-left: 0.9rem;
-
-        .instagram {
-          font-size: 3.1rem;
-        }
-
-        .w {
-          width: 3.4rem;
-        }
+        // width: 9rem;
+        padding-top: 3dvh;
+        // padding-left: 1rem;
       }
     }
   }
 }
 
-// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
+// -------------- Min-Height: 630px and Max-Width 1040px -------------- //
 
-@media screen and (max-height: 700px) and (max-width: 1035px) {
+@media screen and (min-height: 630px) and (max-width: 1040px) {
+  .navigation-container {
+    height: 8.8dvh;
+
+    .navigation {
+      width: 71.4rem;
+
+      .logo-container {
+        padding-top: 4.5dvh;
+      }
+
+      .nav-center {
+        width: 51rem;
+        height: 8dvh;
+      }
+
+      .svgs-container {
+        padding-top: 3.3dvh;
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1035px --------------- //
+
+@media screen and (max-width: 1035px) {
+  .navigation-container {
+    height: 9.6dvh;
+
+    .navigation {
+      width: 74.5rem;
+
+      .logo-container {
+        width: 11.5rem;
+        padding-top: 2.3rem;
+      }
+
+      .nav-center {
+        width: 53.5rem;
+        height: 9.5dvh;
+      }
+
+      .svgs-container {
+        padding-top: 3.7dvh;
+      }
+    }
+  }
+}
+
+// ---------------- Min-Height: 625px and Max-Width: 1035px --------------- //
+
+@media screen and (min-height: 625px) and (max-width: 1035px) {
   .navigation-container {
 
     .navigation {
-      width: 75.2rem;
 
       .logo-container {
-        width: 11rem;
+        width: 11.3rem;
+        padding-top: 2.8rem;
+      }
+
+      .nav-center {
+        height: 8.8dvh;
       }
 
       .svgs-container {
-        width: 9.4rem;
-        margin-top: 1rem;
+        padding-top: 3.9dvh;
       }
     }
   }
 }
+
+// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+
+// @media screen and (max-height: 780px) and (max-width: 1035px) {
+//   .navigation-container {
+
+//     .navigation {
+//       width: 76rem;
+
+//       .logo-container {
+//         width: 11.8rem;
+//         padding-top: 2.9rem;
+//       }
+
+//       .nav-center {
+//         width: 54rem;
+//       }
+
+//       .svgs-container {
+//         width: 9rem;
+//         margin-top: 1.2rem;
+//         padding-left: 0.9rem;
+
+//         .instagram {
+//           font-size: 3.1rem;
+//         }
+
+//         .w {
+//           width: 3.4rem;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
+
+// @media screen and (max-height: 700px) and (max-width: 1035px) {
+//   .navigation-container {
+
+//     .navigation {
+//       width: 75.2rem;
+
+//       .logo-container {
+//         width: 11rem;
+//       }
+
+//       .svgs-container {
+//         width: 9.4rem;
+//         margin-top: 1rem;
+//       }
+//     }
+//   }
+// }
 
 // -------------- Max-Width 960px -------------- //
 

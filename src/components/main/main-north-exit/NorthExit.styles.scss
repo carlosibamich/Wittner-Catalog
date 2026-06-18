@@ -7,7 +7,7 @@
 
   .main-room-north-exit-grid {
     position: relative;
-    width: 83%;
+    width: 82%;
     height: 38rem;
     display: grid;
     grid-template-columns: 2.4fr 1fr 1fr 1.9fr;
@@ -255,6 +255,22 @@
   .main-room-container {
 
     .main-room-north-exit-grid {
+
+      // -------------------- Column 1 --------------------- //
+
+      .north-exit-column-1 {
+
+        .exit-container {
+
+          .exit-sign-container {
+            right: 7.5rem;
+          }
+
+          .exit-door-container {
+            right: 2.1rem;
+          }
+        }
+      }
 
       .north-exit-column-3 {
 

@@ -4,7 +4,7 @@
   justify-content: center;
 
   .main-room-stage-grid {
-    width: 90%;
+    width: 89%;
     height: 39rem;
     display: grid;
     grid-template: 30rem 9rem / 1.6fr 6.2fr 3.5fr 5.4fr 1.3fr;
@@ -119,9 +119,9 @@
       // ---------- Dorothy --------- //
       .sub-section-2-6 {
         position: absolute;
-        top: 15.2rem;
+        top: 14.7rem;
         right: 0.9rem;
-        width: 3.6rem;
+        width: 3.8rem;
       }
 
       .alcove-entrance-container {
@@ -403,22 +403,22 @@
 
         // ---------- Sad --------- //
         .sub-section-2-1 {
-          left: 1.6rem;
+          left: 1.4rem;
         }
           
         // ---------- Lost between the Planets --------- //
         .sub-section-2-2 {
-          left: 5.65rem;
+          left: 5.45rem;
         }
           
         // ---------- Untitled 92 --------- //
         .sub-section-2-3 {
-          left: 10.1rem;
+          left: 9.9rem;
         }
           
         // ---------- Different Realities --------- //
         .sub-section-2-4 {
-          left: 1.6rem;
+          left: 1.4rem;
         }
       }
 
@@ -1671,6 +1671,26 @@
           top: 16.8rem;
           right: 0rem;
           width: 4.4rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 1035px --------------------- //
+
+@media screen and (max-width: 1035px) {
+  .main-room-stage-container {
+
+    .main-room-stage-grid {
+      width: 90%;
+
+      //----------------- COLUMN 2 ------------------//
+    
+      .stage-column-2 {
+
+        .alcove-entrance-container {
+          top: 10.3rem;
         }
       }
     }

@@ -619,123 +619,166 @@
   }
 }
 
-// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+// -------------- Max-Width 1040px -------------- //
 
-@media screen and (max-height: 780px) and (max-width: 1035px) {
+@media screen and (max-width: 1040px) {
   .list-container {
   
     .list-grid {
+      column-gap: 0.3rem;
 
-      li {
+    li {
 
         .list-items-container {
+          width: 23.8rem;
+          height: 9.6rem;
+          margin-bottom: 1.6rem;
 
           .audio-label {
-            top: 1rem;
-            font-size: 1.7rem;
+            top: 1.3rem;
+            right: 4.6rem;
           }
 
           .audio-icon {
-            top: 0.3rem;
-            right: 0.7rem;
+            right: 0.8rem;
             font-size: 4rem;
           }
 
           .info-container {
+            width: 14.5rem;
 
             .title-area {
               width: 14.2rem;
 
               p {
+                padding-top: 0.3rem;
                 font-size: 1.2rem;
               }
             }
           }
         }
-      }
+      } 
     }
   }
 }
+
+// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
+
+// @media screen and (max-height: 780px) and (max-width: 1035px) {
+//   .list-container {
+  
+//     .list-grid {
+
+//       li {
+
+//         .list-items-container {
+
+//           .audio-label {
+//             top: 1rem;
+//             font-size: 1.7rem;
+//           }
+
+//           .audio-icon {
+//             top: 0.3rem;
+//             right: 0.7rem;
+//             font-size: 4rem;
+//           }
+
+//           .info-container {
+
+//             .title-area {
+//               width: 14.2rem;
+
+//               p {
+//                 font-size: 1.2rem;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 // ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
 
-@media screen and (max-height: 700px) and (max-width: 1035px) {
-  .list-container {
+// @media screen and (max-height: 700px) and (max-width: 1035px) {
+//   .list-container {
   
-    .list-grid {
+//     .list-grid {
 
-    li {
+//     li {
 
-        .list-items-container {
+//         .list-items-container {
 
-          .audio-icon {
-            top: 0.7rem;
-          }
-        }
-      }
-    }
-  }
-}
+//           .audio-icon {
+//             top: 0.7rem;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 // -------------- Max-Width 960px -------------- //
 
-@media screen and (max-width: 960px) {
-  .list-container {
+// @media screen and (max-width: 960px) {
+//   .list-container {
   
-    .list-grid {
-      width: 83%;
-      gap: 1.5rem;
-      margin-top: -0.3rem;
+//     .list-grid {
+//       width: 83%;
+//       gap: 1.5rem;
+//       margin-top: -0.3rem;
 
-      li {
+//       li {
 
-        .list-items-container {
-          width: 21.8rem;
-          // height: 9.4rem;
-          margin-bottom: 0.2rem;
-          padding-right: 0.3rem;
-          border-bottom: 3px solid var(--copper-yellow);
+//         .list-items-container {
+//           width: 21.8rem;
+//           // height: 9.4rem;
+//           margin-bottom: 0.2rem;
+//           padding-right: 0.3rem;
+//           border-bottom: 3px solid var(--copper-yellow);
 
-          .audio-label {
-            // top: 1.2rem;
-            right: 4.2rem;
-            font-size: 1.35rem;
-            // font-weight: 500;
-          }
+//           .audio-label {
+//             // top: 1.2rem;
+//             right: 4.2rem;
+//             font-size: 1.35rem;
+//             // font-weight: 500;
+//           }
         
-          .audio-icon {
-            // top: 0.35rem;
-            right: 0.6rem;
-            font-size: 3.7rem;
-          }
+//           .audio-icon {
+//             // top: 0.35rem;
+//             right: 0.6rem;
+//             font-size: 3.7rem;
+//           }
 
-          .image-container {
-            margin-left: 1rem;
-          }
+//           .image-container {
+//             margin-left: 1rem;
+//           }
 
-          .info-container {
-            padding-left: 0.4rem;
+//           .info-container {
+//             padding-left: 0.4rem;
 
-            .id-area {
+//             .id-area {
 
-              h3 {
-                font-size: 2.6rem;
-              }
-            }
+//               h3 {
+//                 font-size: 2.6rem;
+//               }
+//             }
 
-            .title-area {
-              width: auto; 
+//             .title-area {
+//               width: auto; 
 
-              p {
-                font-size: 1.14rem;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//               p {
+//                 font-size: 1.14rem;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 // -------------- Max-Width 1185px -------------- //
 

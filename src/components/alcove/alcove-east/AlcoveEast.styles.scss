@@ -1401,6 +1401,61 @@
   }
 }
 
+// --------------- Max-Width: 1040px --------------- //
+
+@media screen and (max-width: 1040px) {
+  .alcove-east-container {
+
+    .alcove-east-grid {
+
+      //----------------- COLUMN 1 ------------------//
+
+      .alcove-east-column-1 {
+        
+        // ---------- A Much Needed Surgery --------- //
+        .sub-section-1-5 {
+          left: 8.3rem;
+        }
+        
+        // ---------- Safe Travel --------- //
+        .sub-section-1-6 {
+          left: 11.7rem;
+        }
+        
+        // ---------- Arrival Through the Black Hole --------- //
+        .sub-section-1-7 {
+          right: 7.8rem;
+        }
+      
+        // ---------- Fool In Recent Times --------- //
+        .sub-section-1-9 {
+          right: 3.4rem;
+        }
+
+        // ---------- Homecoming for Lost tambourine --------- //
+        .sub-section-1-10 {
+          right: 3.4rem;
+        }
+      }
+
+      //----------------- COLUMN 2 ------------------//
+    
+      .alcove-east-column-2 {
+        
+        // ---------- Flip --------- //
+        .sub-section-2-2 {
+          left: 1.35rem;
+        }
+        
+        // ---------- You First --------- //
+        .sub-section-2-3 {
+          left: 1.35rem;
+        }
+      }
+    }
+  }
+}
+
 // --------------- Max-Width: 960px --------------- //
 
 @media screen and (max-width: 960px) {

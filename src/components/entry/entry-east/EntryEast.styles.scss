@@ -3,15 +3,10 @@
   justify-content: center;
 
   .entry-east-grid {
-    width: 82%;
+    width: 81.5%;
     height: 40rem;
     display: grid;
     grid-template: 16rem 24rem / repeat(5, 1fr);
-
-    // .section {
-    //   background-color: #fff;
-    //   border: 1px solid #f3f3f3;
-    // }
 
     // -------------------- Column 1 --------------------- //
 
@@ -1028,6 +1023,17 @@
           width: 4.9rem;
         }
       }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1040px ---------------- //
+
+@media (max-width: 1040px) {
+  .entry-room-container {
+    
+    .entry-east-grid {
+      width: 85%;
     }
   }
 }

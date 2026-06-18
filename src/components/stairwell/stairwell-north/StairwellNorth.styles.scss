@@ -2186,6 +2186,48 @@
   }
 }
 
+// ----------------- Max-Width: 1040px ------------------- //
+
+@media screen and (max-width: 1040px) {
+  .stairwell-north-container {
+
+    .stairwell-north-grid {
+      width: 87%;
+    
+      //----------------- COLUMN 4 ------------------//
+      
+      .stairwell-north-column-4 {
+          
+        // ---------- Check Mate --------- //
+        .sub-section-4-5 {
+          left: 5.9rem;
+        }
+          
+        // ---------- Fear of Doctors --------- //
+        .sub-section-4-6 {
+          left: 5.4rem;
+        }
+          
+        // ---------- The Chariot --------- //
+        .sub-section-4-7 {
+          left: 9.3rem;
+        }
+      }
+
+      //----------------- COLUMN 5 ------------------//
+
+      .stairwell-north-column-5 {
+
+        // ---------- Trip With My Brother --------- //
+        .sub-section-5-3 {
+          left: 0.8rem;
+          width: 8.5rem;
+        }
+      }
+    }
+  }
+}
+
 // ----------------- Max-Width: 960px ------------------- //
 
 @media screen and (max-width: 960px) {
