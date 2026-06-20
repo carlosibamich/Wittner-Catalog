@@ -786,30 +786,30 @@
 
 // ----------------- Max-Width 780px ----------------- //
 
-// @media screen and (max-width: 780px) {
-//   .click-info-container {
-//     bottom: 6.8rem;
-//     // border-bottom: 1px solid var(--copper-yellow);
+@media screen and (max-width: 780px) {
+  .click-info-container {
+    bottom: 0;
+    border-bottom: 1px solid var(--dark-grey);
 
-//     .click-info {
-//       height: 7dvh;
+    .click-info {
+      height: 11dvh;
 
-//       .line {
-//         width: 16rem;
-//         margin: 0 0.9rem;
-//       }
+      .line {
+        width: 14.5rem;
+        // margin: 0 0.9rem;
+      }
 
-//       .fish {
-//         font-size: 1.9rem;
-//       }
+      .fish {
+        font-size: 1.9rem;
+      }
 
-//       p {
-//         font-size: 1.45rem;
-//       }
-//     }
+      p {
+        font-size: 1.55rem;
+      }
+    }
 
-//     .color-base {
-//       display: none;
-//     }
-//   }
-// }
+    .color-base {
+      display: none;
+    }
+  }
+}

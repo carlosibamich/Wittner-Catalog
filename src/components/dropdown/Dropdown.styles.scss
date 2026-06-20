@@ -1,0 +1,159 @@
+.mobile-menu-container {
+  position: relative;
+  display: block;
+
+  .burger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    gap: 5px;
+    background: transparent;
+    border: none;
+    position: relative;
+    // position: absolute;
+    // top: 0;
+    // left: 1rem;
+    z-index: 50;
+    outline: none;
+    transition: transform 0.25s ease-in-out;
+
+
+    .burger-line {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background-color: var(--dark-grey);
+      border-radius: 6px;
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    // Active morphing states when open
+    &.is-open {
+      transform: translateX(9.1rem);
+
+      .line-top {
+        transform: translateY(7px) rotate(45deg);
+        background-color: var(--copper-yellow);
+      }
+      
+      .line-middle {
+        opacity: 0;
+        transform: scaleX(0);
+      }
+      
+      .line-bottom {
+        transform: translateY(-7px) rotate(-45deg);
+        background-color: var(--copper-yellow);
+      }
+    }
+  }
+
+.menu-scrim {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 30;
+  
+  background-color: rgba(0, 0, 0, 0.4); // Dark tint overlay layer
+  -webkit-backdrop-filter: blur(4px);    // Blurs everything under the layer
+  backdrop-filter: blur(4px);
+  
+  transition: opacity 0.3s ease, visibility 0.3s;
+  
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+}
+
+  .dropdown-menu {
+    position: absolute;
+    top: -2rem;
+    left: -4rem;
+    width: 19.5rem;
+    height: 105vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+    padding: 0.4rem 1.4rem;
+    // -webkit-backdrop-filter: blur(1.5px); // Apple Safari Webkit Vendor Support
+    // backdrop-filter: blur(1.5px);         // Standard Modern Browsers
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    z-index: 40;
+    transform-origin: top;
+    transition: transform 0.25s ease-out, opacity 0.25s ease-out, visibility 0.25s ease-out;
+    display: block !important;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-20px) scale(1);
+
+    &.is-visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(0) scale(1);
+    }
+
+    .spacer {
+      height: 17dvh;
+    }
+
+    .menu-option {
+      position: relative;
+      display: block;
+      width: 100%;
+      text-align: right;
+      padding: 1rem 1.5rem;
+      color: var(--off-white);
+      background: transparent;
+      border: none;
+      font-size: 1.55rem;
+      transition: color 0.25s ease;
+
+      &:hover {
+        color: var(--copper-yellow);
+      }
+
+      &.active {
+        color: var(--copper-yellow);
+        font-weight: 500;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 7px;
+          right: 0;
+          bottom: 7px;
+          width: 3px;
+          background-color: var(--copper-yellow);
+        }
+      }
+    }
+  }
+
+    // .menu-option:first-child {
+    //   padding-top: 17dvh;
+    // }
+  //}
+}
+
+// ====================== Media Queries ====================== //
+
+// --------- Mobile Menu is restricted on larger screens inside of the Navigation Styles -------- //
+// ---------------- Min-Width: 1036px ---------------- //
+
+// @media screen and (min-width: 1036px) {
+//   .mobile-menu-container {
+//     display: none;
+//   }
+// }

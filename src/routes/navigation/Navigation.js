@@ -3,11 +3,13 @@ import { Outlet, Link } from 'react-router-dom';
 import { FaInstagram } from 'react-icons/fa6';
 import { ReactComponent as W } from '../../assets/svg/w.svg';
 import NavBar from '../../components/navbar/NavBar';
+import Dropdown from '../../components/dropdown/Dropdown';
 import WittnerLogo from '../../assets/logo/wittner-logo.PNG';
 import './Navigation.styles.scss';
 
 const Navigation = () => {
   return (
+    
     <Fragment>
       <div className="navigation-container">
         <nav className="navigation">
@@ -31,6 +33,9 @@ const Navigation = () => {
         </nav>
       </div>
       <Outlet />
+      <div className="dropdown">
+        <Dropdown />
+      </div>
     </Fragment>
   );
 };
