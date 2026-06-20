@@ -8,6 +8,7 @@ import AlcoveRoom from './routes/alcove-room/AlcoveRoom';
 import StairwellRoom from './routes/stairwell-room/StairwellRoom';
 import GreenRoom from './routes/green-room/GreenRoom';
 import Catalog from './routes/catalog/Catalog';
+import OrientationPrompt from './components/orientation-prompt/OrientationPrompt';
 import ClickInfo from './components/click-info/ClickInfo';
 import Footer from './components/footer/Footer';
 
@@ -36,6 +37,7 @@ const App = () => {
   const showFooter = !isTargetPage || isTabletViewport;
 
   return (
+    <OrientationPrompt>
     <div className={`app-container ${isCatalogPage ? 'vertical-layout' : 'horizontal-layout'}`}>
       <main className="main-content">
         <Routes>
@@ -52,6 +54,7 @@ const App = () => {
         {showFooter && <Footer />}
       </main>
     </div>
+    </OrientationPrompt>
   );
 };
 

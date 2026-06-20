@@ -1,0 +1,63 @@
+/* --- 1. The Screen Turning Animation --- */
+@keyframes screen-turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+.rotate-svg {
+  width: 74px;
+  height: 74px;
+  animation: screen-turn 2.5s ease-in-out infinite alternate;
+}
+
+/* --- 2. Default Desktop/Landscape State --- */
+.orientation-overlay {
+  display: none; /* Hidden when screen is horizontal */
+}
+
+.site-content {
+  display: block; /* Normal site is completely visible */
+}
+
+/* --- 3. Mobile Portrait Breakpoint Trigger (or 932px??)--- */
+@media screen and (max-width: 1820px) and (orientation: portrait) {
+  /* Hide the entire website content cleanly */
+  .site-content {
+    display: none !important;
+  }
+
+  /* Display the full-screen blocker overlay */
+  .orientation-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--off-white); /* Dark sleek background */
+    color: #f8fafc;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 99999; /* Sits on top of everything */
+
+    h2 {
+      margin: 2rem 0 0.5rem 0;
+      color: var(--dark-grey);
+      font-size: 1.9rem;
+    }
+  }
+}
