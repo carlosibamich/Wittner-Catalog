@@ -90,10 +90,17 @@
 
 .dropdown {
     position: absolute;
-    top: 2.3dvh;
+    top: 2.5dvh;
     left: 7.5dvh;
     z-index: 1000;
 }
+
+.screen-toggle-button {
+  position: absolute;
+  top: 2.8dvh;
+  right: 7.5dvh;
+  z-index: 1000;
+ }
 
 // =================== Media Queries =================== //
 
@@ -1025,18 +1032,30 @@
 // }
 
 // ----------------------------- Max-Width: 96px ------------------------------ //
-// ---- Dropdown menu on screen sizes wider than 1024px will not be displayed --- //
+// ---- Full Navigation bar will not be displayed on screen heights 514px or lower--- //
 
-@media screen and (max-width: 960px) {
+// @media screen and (max-width: 960px) {
+//   .navigation-container {
+//     display: none;
+//   }
+// }
+
+@media screen and (max-height: 514px) {
   .navigation-container {
     display: none;
   }
 }
 
 // ----------------------------- Min-Width: 960px ------------------------------ //
-// ---- Dropdown menu on screen sizes wider than 1024px will not be displayed --- //
+// ---- Dropdown menu on screen heights 515px or higher will not be displayed --- //
 
-@media screen and (min-width: 960px) {
+// @media screen and (min-width: 960px) {
+//   .dropdown {
+//     display: none;
+//   }
+// }
+
+@media screen and (min-height: 515px) {
   .dropdown {
     display: none;
   }

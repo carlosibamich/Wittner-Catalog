@@ -480,6 +480,41 @@
   }
 }
 
+// -------------- Max-Width 998px -------------- //
+
+@media screen and (max-width: 998px) {
+  .custom-modal-width {
+
+    .modal-body {
+
+      .modal-title {
+
+        p {
+          font-size: 1.44rem;
+
+          span {
+            font-size: 1.34rem;
+          }
+        }
+
+        span.audio {
+
+          .audio-content {
+
+            p {
+            font-size: 1.4rem;
+            }
+
+            .audio-card button {
+              width: 3.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // -------------- Max-Width 960px -------------- //
 
 @media screen and (max-width: 960px) {

@@ -1438,6 +1438,50 @@ div.carousel-container {
   }
 }
 
+// --------------- Max-Width 998px ---------------- //
+
+@media screen and (max-width: 998px) {
+  html {
+    font-size: 68.5%;
+    }
+
+}
+
+// --------------- Min-Height: 520px and Max-Width 998px ---------------- //
+
+@media screen and (max-height: 514px) and (max-width: 998px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-top: 2rem;
+      margin-bottom: 4.8dvh;
+
+      .arrow {
+        font-size: 2.1rem;
+      }
+
+      .page-button {
+        margin: 0 1.1rem;
+        font-size: 1.45rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+
+// --------------- Min-Height: 520px and Max-Width 998px ---------------- //
+
+@media screen and (min-height: 515px) and (max-width: 998px) {
+  div.carousel-container {
+    
+    .controls {
+      // margin-top: 0.5rem;
+      margin-bottom: 4dvh;
+    }
+  }
+}
+
 // --------------- Max-Width 960px ---------------- //
 
 @media screen and (max-width: 960px) {

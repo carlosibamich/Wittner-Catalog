@@ -737,6 +737,48 @@
 //   }
 // }
 
+// ----------------- Max-Width 998px ----------------- //
+
+@media screen and (max-width: 998px) {
+  .click-info-container {
+    // bottom: 0;
+
+    .click-info {
+      height: 14dvh;
+
+      .line {
+        width: 16.8rem;
+      }
+
+      p {
+        font-size: 1.72rem;
+      }
+    }
+  }
+}
+
+// ----------------- Min-Height: 515px and Max-Width 998px ----------------- //
+
+@media screen and (min-height: 515px) and (max-width: 998px) {
+  .click-info-container {
+
+    .click-info {
+      height: 12dvh;
+
+      // .line {
+      //   width: 17.2rem;
+      //   margin: 0 0.9rem;
+      // }
+    }
+
+    // .color-base {
+    //   display: block;
+    //   height: 5dvh;
+    //   border-top: 3px solid var(--copper-yellow);
+    // }
+  }
+}
+
 // ----------------- Max-Width 960px ----------------- //
 
 // @media screen and (max-width: 960px) {
