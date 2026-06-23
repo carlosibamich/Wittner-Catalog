@@ -49,14 +49,24 @@
 
 // ======================== Media Queries ========================= //
 
+// -------------- Min-Height: 940px and Max-Width 1930px -------------- //
+
+@media screen and (min-height: 940px) and (max-width: 1930px){
+  .click-info-container {
+
+    .click-info {
+      height: 12dvh;
+    }
+  }
+}
+
 // ----------------- Max-Width 1800px ----------------- //
 
 @media screen and (max-width: 1800px) {
   .click-info-container {
 
     .click-info {
-      height: 13dvh;
-      // border-bottom: 1px solid var(--dark-grey);
+      height: 12.6dvh;
       
       .line {
         width: 22.3rem;
@@ -75,6 +85,7 @@
   .click-info-container {
 
     .click-info {
+      height: 12dvh;
 
       .fish {
         font-size: 1.85rem;

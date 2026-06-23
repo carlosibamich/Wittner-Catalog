@@ -3,7 +3,7 @@
   justify-content: center;
 
   .entry-east-grid {
-    width: 81.5%;
+    width: 81%;
     height: 40rem;
     display: grid;
     grid-template: 16rem 24rem / repeat(5, 1fr);
@@ -116,7 +116,7 @@
       .sub-section-8-1 {
         position: absolute;
         top: 8rem;
-        left: 0rem;
+        left: -0.07rem;
         width: 3.2rem;
         z-index: 200;
       }
@@ -141,7 +141,7 @@
   .entry-room-container {
     
     .entry-east-grid {
-      width: 84%;
+      width: 83.3%;
       margin-left: -3.5rem;
 
        // -------------------- Column 1 --------------------- //

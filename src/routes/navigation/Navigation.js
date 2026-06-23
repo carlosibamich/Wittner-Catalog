@@ -17,19 +17,27 @@ const Navigation = () => {
           <Link className="logo-container" to="/">
             <img src={WittnerLogo} alt="Museum Logo" />
           </Link>
-          <Link className="egg-icon-container" to="/">
+          {/* <Link className="egg-icon-container" to="/">
             <W className="egg-icon" />
-          </Link>
+          </Link> */}
           <div className="nav-center">
             <NavBar />
           </div>
           <div className="svgs-container">
-            <Link className="instagram" to="https://www.instagram.com/wittnermuseum/?hl=en" target="_blank">
-               <FaInstagram />
-            </Link>
-            <Link className="w" to="/">
+            <div className="instagram-icon-box">
+              <Link className="instagram" to="https://www.instagram.com/wittnermuseum/?hl=en" target="_blank">
+                <FaInstagram />
+              </Link>
+            </div>
+            
+            {/* <Link className="w" to="/">
               <W />
-            </Link>
+            </Link> */}
+            <div className="toggle-icon-box">
+              <div className="screen-toggle-nav">
+                <ScreenToggleButton />
+              </div>
+            </div>
           </div>
         </nav>
       </div>

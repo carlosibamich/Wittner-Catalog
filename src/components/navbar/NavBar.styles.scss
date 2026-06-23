@@ -3,13 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0.5rem;
   width: 55rem;
-  height: 9.5dvh;
+  height: 6.7dvh;
+  padding-bottom: 0.3rem;
   border-bottom: 3px solid var(--copper-yellow);
 
   .navlink-container {
-    margin: 0 1.6rem;
+    margin: 0 1.62rem;
     
     .nav-link {
       display: flex;
@@ -51,11 +51,42 @@
 
 // ===================== Media Queries ===================== //
 
+// -------------- Min-Height: 940px and Max-Width 1930px -------------- //
+
+@media screen and (min-height: 940px) and (max-width: 1930px){
+  .main-nav-options {
+    height: 8dvh;
+  }
+}
+
 // -------------- Max-Width 1800px -------------- //
 
 @media screen and (max-width: 1800px) {
   .main-nav-options {
-    width: 55rem;
+    // width: 55rem;
+    // height: 6rem;
+    padding-bottom: 0rem;
+
+    .navlink-container {
+      margin: 0 1.76rem;
+
+      .nav-link {
+
+        a {
+          font-size: 1.22rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 980px and Max-Width 1800px -------------- //
+
+@media screen and (min-height: 980px) and (max-width: 1800px) {
+  .main-nav-options {
+    height: 6.8rem;
+    padding-top: 1.2rem;
+
 
     .navlink-container {
       margin: 0 1.76rem;
