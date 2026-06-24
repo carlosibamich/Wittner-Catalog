@@ -4,8 +4,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 11.2dvh;
-  // margin-bottom: 0;
+  height: 11dvh;
   z-index: 900;
   
   .navigation {
@@ -44,12 +43,11 @@
       align-items: center;
       justify-content: center;
       width: 55rem;
-      height: 6.7rem;
+      height: 9dvh;
     }
 
     .svgs-container {
       display: flex;
-      // align-items: flex-start;
       padding-top: 6dvh;
       padding-left: 1.4rem;
       width: 16.5rem;
@@ -119,7 +117,6 @@
   position: absolute;
   top: 2.8dvh;
   right: 0.5rem;
-  // height: 4rem;
   z-index: 1000;
  }
 
@@ -152,17 +149,18 @@
 
 @media screen and (max-width: 1800px) {
   .navigation-container {
+    height: 10.8dvh;
   
     .navigation {
       width: 87.2rem;
 
       .logo-container {
         width: 14rem;
-        padding-top: 5.2dvh;
+        padding-top: 4.8dvh;
         }
 
       .svgs-container {
-        padding-top: 6.3dvh;
+        padding-top: 5.6dvh;
         padding-left: 1.2rem;
         gap: 1rem;
       }
@@ -200,32 +198,45 @@
 
 @media screen and (max-width: 1760px) {
   .navigation-container {
-    height: 11.3dvh;
+    height: 10dvh;
   
     .navigation {
-      width: 82rem;
+      width: 85.8rem;
 
       .logo-container {
-        width: 14.5rem;
-        padding-top: 3.5rem;
+        width: 14rem;
+        padding-top: 4.1dvh;
       }
 
       .nav-center {
-        width: 54.5rem;
+        width: 54rem;
+        height: 6.1rem;
       }
 
       .svgs-container {
-        width: 12.7rem;
-        padding-top: 3.2rem;
-        padding-left: 2rem;
+        width: 16rem;
+        padding-top: 5.1dvh;
+        padding-left: 1.2rem;
+        gap: 1.3rem;
 
         .instagram {
           font-size: 3.1rem;
         }
+      }
+    }
+  }
+}
 
-        .w {
-          margin-left: 2.1rem;
-        }
+// --------------- Min-Height: 980px and Max-Width 1760px ---------------- //
+
+@media screen and (min-height: 980px) and (max-width: 1760px) {
+  .navigation-container {
+    height: 9.2dvh;
+  
+    .navigation {
+
+      .nav-center {
+        height: 6.1rem;
       }
     }
   }
@@ -235,34 +246,153 @@
 
 @media screen and (max-width: 1730px) {
   .navigation-container {
-    height: 11dvh;
+    height: 10.2dvh;
   
     .navigation {
       width: 85rem;
 
       .logo-container {
-        width: 14.4rem;
-        padding-top: 5dvh;
-        padding-right: 0rem;
+        width: 14rem;
+        padding-top: 4.7dvh;
+        padding-right: 0.7rem;
+
+        img {
+          max-width: 97%;
+        }
       }
 
       .nav-center {
-        width: 56.5rem;
-        height: 9dvh;
+        width: 56rem;
+        height: 8.5dvh;
       }
 
       .svgs-container {
-        padding-top: 4.5dvh;
+        padding-top: 5dvh;
         padding-left: 1.7rem;
 
         .instagram {
           font-size: 3.2rem;
         }
+      }
+    }
+  }
+}
 
-        .w {
-          // width: 3.5rem;
-          margin-left: 2rem;
+// --------------- Min-Height: 960px and Max-Width 1730px ---------------- //
+
+@media screen and (min-height: 960px) and (max-width: 1730px) {
+  .navigation-container {
+    height: 10.5dvh;
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 5.3dvh;
+
+        img {
+          max-width: 98%;
         }
+      }
+
+      .svgs-container {
+        padding-top: 5.6dvh;
+      }
+    }
+  }
+}
+
+// --------------- Min-Height: 1000px and Max-Width 1730px ---------------- //
+
+@media screen and (min-height: 1000px) and (max-width: 1730px) {
+  .navigation-container {
+    height: 10dvh;
+  
+    .navigation {
+
+      .logo-container {
+        // padding-top: 5.3dvh;
+
+        img {
+          // max-width: 98%;
+        }
+      }
+
+      .svgs-container {
+        // padding-top: 5.6dvh;
+      }
+    }
+  }
+}
+
+// --------------- Min-Height: 1075px and Max-Width 1730px ---------------- //
+
+@media screen and (min-height: 1075px) and (max-width: 1730px) {
+  .navigation-container {
+    height: 10dvh;
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 5.6dvh;
+
+        img {
+          max-width: 99%;
+        }
+      }
+
+      .svgs-container {
+        padding-top: 6dvh;
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1650px -------------- //
+
+@media screen and (max-width: 1650px) {
+  .navigation-container {
+    height: 10dvh;
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 4.5dvh;
+      }
+    }
+  }
+}
+
+// --------------- Min-Height: 910px and Max-Width 1650px ---------------- //
+
+@media screen and (min-height: 910px) and (max-width: 1650px) {
+  .navigation-container {
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 4.9dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5.5dvh;
+      }
+    }
+  }
+}
+
+// --------------- Min-Height: 1010px and Max-Width 1650px ---------------- //
+
+@media screen and (min-height: 1010px) and (max-width: 1650px) {
+  .navigation-container {
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 5.4dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5.9dvh;
       }
     }
   }
@@ -274,23 +404,54 @@
   .navigation-container {
   
     .navigation {
-      width: 83.8rem;
+      width: 84.8rem;
 
       .logo-container {
-        width: 13.2rem;
+        width: 12.8rem;
       }
 
       .svgs-container {
-        padding-left: 1.6rem;
+        padding-left: 1.5rem;
 
         .instagram {
           font-size: 3.1rem;
         }
+      }
+    }
+  }
+}
 
-        .w {
-          width: 3.4rem;
-          margin-left: 1.8rem;
-        }
+// --------------- Min-Height: 860px and Max-Width 1610px ---------------- //
+
+@media screen and (min-height: 860px) and (max-width: 1610px) {
+  .navigation-container {
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 4.8dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5.3dvh;
+      }
+    }
+  }
+}
+
+// --------------- Min-Height: 980px and Max-Width 1610px ---------------- //
+
+@media screen and (min-height: 980px) and (max-width: 1610px) {
+  .navigation-container {
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 4.9dvh;
+      }
+
+      .nav-center {
+        height: 8dvh;
       }
     }
   }
@@ -300,24 +461,91 @@
 
 @media screen and (max-width: 1580px) {
   .navigation-container {
-    height: 10.5dvh;
   
     .navigation {
-      width: 83rem;
+      width: 85.5rem;
 
       .logo-container {
-        width: 13.2rem;
-        padding-top: 4.6dvh;
-      }
-
-      .nav-center {
-        width: 55.7rem;
-        height: 8.6dvh;
+        padding-top: 5dvh;
       }
 
       .svgs-container {
-        padding-top: 4dvh;
-        padding-left: 1.3rem;
+        padding-top: 5.5dvh;
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 965px and Max-Width 1580px -------------- //
+
+@media screen and (min-height: 965px) and (max-width: 1580px) {
+  .navigation-container {
+  
+    .navigation {
+      // width: 85.5rem;
+
+      .logo-container {
+        padding-top: 5.3dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5.8dvh;
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1550px -------------- //
+
+@media screen and (max-width: 1550px) {
+  .navigation-container {
+    height: 9.8dvh;
+  
+    .navigation {
+      width: 85rem;
+
+      .logo-container {
+        padding-top: 4.4dvh;
+
+        img {
+          max-width: 96%;
+        }
+      }
+
+      .nav-center {
+        height: 8.3dvh;
+      }
+
+      .svgs-container {
+        padding-top: 4.8dvh;
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 850px and Max-Width 1550px -------------- //
+
+@media screen and (min-height: 850px) and (max-width: 1550px) {
+  .navigation-container {
+    height: 10.8dvh;
+  
+    .navigation {
+      // width: 85rem;
+
+      .logo-container {
+        padding-top: 5.2dvh;
+
+        img {
+          // max-width: 96%;
+        }
+      }
+
+      .nav-center {
+        height: 8.8dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5.6dvh;
       }
     }
   }
@@ -327,6 +555,7 @@
 
 @media screen and (min-height: 940px) and (max-width: 1550px) {
   .navigation-container {
+    height: 10.2dvh;
   
     .navigation {
 
@@ -334,8 +563,12 @@
         padding-top: 5.2dvh;
       }
 
+      .nav-center {
+        height: 8.2dvh;
+      }
+
       .svgs-container {
-        padding-top: 4.5dvh;
+        padding-top: 5.4dvh;
       }
     }
   }
@@ -347,31 +580,145 @@
   .navigation-container {
   
     .navigation {
+      width: 86rem;
+
+      .logo-container {
+        padding-top: 5.6dvh;
+
+        img {
+          max-width: 98%;
+        }
+      }
+
+      .svgs-container {
+        padding-top: 5.6dvh;
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 1050px and Max-Width 1550px -------------- //
+
+@media screen and (min-height: 1050px) and (max-width: 1550px) {
+  .navigation-container {
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 5.9dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5.8dvh;
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1500px -------------- //
+
+@media screen and (max-width: 1500px) {
+  .navigation-container {
+    height: 9.5dvh;
+  
+    .navigation {
+      // width: 85rem;
+
+      .logo-container {
+        padding-top: 4.2dvh;
+
+        img {
+          max-width: 95%;
+        }
+      }
+
+      .nav-center {
+        height: 8.1dvh;
+      }
+
+      .svgs-container {
+        padding-top: 4.6dvh;
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 830px and Max-Width 1500px -------------- //
+
+@media screen and (min-height: 830px) and (max-width: 1500px) {
+  .navigation-container {
+    height: 10.5dvh;
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 5dvh;
+      }
+
+      .nav-center {
+        height: 8.5dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5.4dvh;
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 920px and Max-Width 1500px -------------- //
+
+@media screen and (min-height: 920px) and (max-width: 1500px) {
+  .navigation-container {
+    // height: 10.5dvh;
+  
+    .navigation {
+      width: 85.6rem;
+
+      .logo-container {
+        padding-top: 5.4dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5.8dvh;
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 810px and Max-Width 1470px -------------- //
+
+@media screen and (min-height: 810px) and (max-width: 1470px) {
+  .navigation-container {
+    height: 10dvh;
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 5dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5.2dvh;
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 900px and Max-Width 1470px -------------- //
+
+@media screen and (min-height: 900px) and (max-width: 1470px) {
+  .navigation-container {
+    height: 10.2dvh;
+  
+    .navigation {
 
       .logo-container {
         padding-top: 5.5dvh;
       }
 
       .svgs-container {
-        padding-top: 4.8dvh;
-      }
-    }
-  }
-}
-
-// -------------- Min-Height: 1100px and Max-Width 1550px -------------- //
-
-@media screen and (min-height: 1100px) and (max-width: 1550px) {
-  .navigation-container {
-  
-    .navigation {
-
-      .logo-container {
-        padding-top: 5.8dvh;
-      }
-
-      .svgs-container {
-        padding-top: 5.1dvh;
+        padding-top: 5.7dvh;
       }
     }
   }
@@ -386,7 +733,7 @@
 
       .logo-container {
         max-width: 12.9rem;
-        padding-top: 5dvh;
+        padding-top: 4.5dvh;
       }
 
       .nav-center {
@@ -394,7 +741,26 @@
       }
 
       .svgs-container {
-        padding-top: 4dvh;
+        padding-top: 4.5dvh;
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 780px and Max-Width 1440px -------------- //
+
+@media screen and (min-height: 780px) and (max-width: 1440px) {
+  .navigation-container {
+  
+    .navigation {
+      width: 85.8rem;
+
+      .logo-container {
+        padding-top: 5dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5dvh;
       }
     }
   }
@@ -406,14 +772,14 @@
   .navigation-container {
   
     .navigation {
-      width: 83.8rem;
+      width: 86.2rem;
 
       .logo-container {
-        padding-top: 5.2dvh;
+        padding-top: 5.5dvh;
       }
 
       .svgs-container {
-        padding-top: 4.5dvh;
+        padding-top: 5.8dvh;
       }
     }
   }

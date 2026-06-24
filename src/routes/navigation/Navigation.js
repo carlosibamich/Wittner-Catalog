@@ -17,9 +17,6 @@ const Navigation = () => {
           <Link className="logo-container" to="/">
             <img src={WittnerLogo} alt="Museum Logo" />
           </Link>
-          {/* <Link className="egg-icon-container" to="/">
-            <W className="egg-icon" />
-          </Link> */}
           <div className="nav-center">
             <NavBar />
           </div>
@@ -29,10 +26,6 @@ const Navigation = () => {
                 <FaInstagram />
               </Link>
             </div>
-            
-            {/* <Link className="w" to="/">
-              <W />
-            </Link> */}
             <div className="toggle-icon-box">
               <div className="screen-toggle-nav">
                 <ScreenToggleButton />

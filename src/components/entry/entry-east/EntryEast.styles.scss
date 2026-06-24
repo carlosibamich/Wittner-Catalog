@@ -213,6 +213,27 @@
   }
 }
 
+// ---------------- Max-Width: 1760px ---------------- //
+
+@media screen and (max-width: 1760px) {
+  .entry-room-container {
+    
+    .entry-east-grid {
+      
+      // -------------------- Column 8 --------------------- //
+
+      .entry-east-column-8 {
+
+        // ---------- The Dream --------- //
+        .sub-section-8-1 {
+          left: 0.15rem;
+          width: 3.1rem;
+        }
+      }
+    }
+  }
+}
+
 // ---------------- Max-Width: 1730px ---------------- //
 
 @media screen and (max-width: 1730px) {
