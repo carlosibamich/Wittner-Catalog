@@ -492,6 +492,28 @@
   }
 }
 
+// -------------- Max-Height: 688px and Max-Width 1400px -------------- //
+
+@media screen and (max-height: 688px) and (max-width: 1400px) {
+  .click-info-container {
+
+    .click-info {
+      height: 13.5dvh;
+    }
+  }
+}
+
+// -------------- Min-Height: 755px and Max-Width: 1400px -------------- //
+
+@media screen and (min-height: 755px) and (max-width: 1400px) {
+  .click-info-container {
+
+    .click-info {
+      height: 14dvh;
+    }
+  }
+}
+
 // ---------------- Min-Height: 820px and Max-Width: 1400px --------------- //
 
 @media screen and (min-height: 820px) and (max-width: 1400px) {
@@ -515,7 +537,7 @@
     bottom: 0dvh;
 
     .click-info {
-      height: 10.5dvh;
+      height: 11dvh;
 
       .fish {
         font-size: 1.8rem;
@@ -528,11 +550,17 @@
       p {
         font-size: 1.48rem;
       }
-
     }
+  }
+}
 
-    .color-base {
-      display: none;
+// -------------- Min-Height: 760px and Max-Width 1380px -------------- //
+
+@media screen and (min-height: 760px) and (max-width: 1380px) {
+  .click-info-container {
+
+    .click-info {
+      height: 12.5dvh;
     }
   }
 }
@@ -568,7 +596,7 @@
   .click-info-container {
 
     .click-info {
-      height: 12dvh;
+      height: 13.5dvh;
       // border-bottom: 1px solid var(--dark-grey);
 
       .line {

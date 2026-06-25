@@ -110,14 +110,14 @@
     position: absolute;
     top: 2.5dvh;
     left: 7.5dvh;
-    z-index: 1000;
+    // z-index: 1000;
 }
 
 .screen-toggle-button {
   position: absolute;
   top: 2.8dvh;
   right: 0.5rem;
-  z-index: 1000;
+  // z-index: 1000;
  }
 
 // =================== Media Queries =================== //
@@ -785,40 +785,143 @@
   }
 }
 
+// ----------------------- Min-Width: 1401px ------------------------ //
+// ---- Dropdown menu on screen widths 1401px or higher will not be displayed --- //
+
+@media screen and (min-width: 1401px) {
+  .dropdown {
+    display: none;
+  }
+
+  .screen-toggle-button {
+    display: none;
+  }
+}
+
+// -------------- Max-Width 1400px -------------- //
+
+@media screen and (max-width: 1400px) {
+  .navigation-container {
+  
+    .navigation {
+      width: 87.5rem;
+
+      .logo-container {
+        max-width: 13.2rem;
+        padding-top: 4.5dvh;
+      }
+
+      .nav-center {
+        width: 57rem;
+      }
+
+      .svgs-container {
+        width: 16.5rem;
+        padding-top: 4.5dvh;
+        padding-left: 1.9rem;
+        gap: 11px;
+      }
+    }
+  }
+}
+
+// -------------- Max-Height: 690px and Max-Width: 1400px -------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1400px) {
+
+  .dropdown {
+    top: 3.8dvh;
+    left: 9.5dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.6dvh;
+    right: 6.5rem;
+  }
+}
+
+// -------------- Min-Height: 755px and Max-Width: 1400px -------------- //
+
+@media screen and (min-height: 755px) and (max-width: 1400px) {
+  .navigation-container {
+    height: 10.5dvh;
+  
+    .navigation {
+
+      .logo-container {
+        padding-top: 5dvh;
+      }
+
+      .nav-center {
+        height: 8.6dvh;
+      }
+
+      .svgs-container {
+        padding-top: 5.4dvh;
+      }
+    }
+  }
+}
+
+// -------------- Min-Height: 855px and Max-Width: 1400px -------------- //
+
+@media screen and (min-height: 855px) and (max-width: 1400px) {
+  .navigation-container {
+    height: 10dvh;
+  
+    .navigation {
+
+      .nav-center {
+        height: 8dvh;
+      }
+    }
+  }
+}
+
 // -------------- Max-Width 1380px -------------- //
 
 @media screen and (max-width: 1380px) {
   .navigation-container {
-    height: 10dvh;
+    height: 9.7dvh;
 
     .navigation {
-      width: 78.4rem;
+      width: 81rem;
 
       .logo-container {
-        width: 11.2rem;
+        width: 11.6rem;
         padding-top: 4.8dvh;
+        padding-right: 0rem;
       }
 
       .nav-center {
-        width: 55.2rem;
-        height: 8.5dvh;
+        width: 54.2rem;
+        height: 8.2dvh;
       }
 
       .svgs-container {
-        width: 11rem;
-        padding-top: 3.5dvh;
+        width: 14.7rem;
+        padding-top: 4.5dvh;
         padding-left: 1.2rem;
+        gap: 12px;
 
         .instagram {
-          font-size: 3rem;
-        }
-
-        .w {
-          width: 3.25rem;
-          margin-left: 1.6rem;
+          font-size: 2.9rem;
         }
       }
     }
+  }
+}
+
+// -------------- Max-Height: 690px and Max-Width: 1380px -------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1380px) {
+
+  .dropdown {
+    top: 2.5dvh;
+  }
+
+  .screen-toggle-button {
+    top: 2dvh;
   }
 }
 
@@ -839,7 +942,7 @@
       }
 
       .svgs-container {
-        padding-top: 3dvh;
+        padding-top: 4.4dvh;
       }
     }
   }
@@ -857,7 +960,7 @@
       }
 
       .svgs-container {
-        padding-top: 3.5dvh;
+        padding-top: 4.7dvh;
       }
     }
   }
@@ -889,7 +992,7 @@
     height: 10dvh;
 
     .navigation {
-      width: 72.7rem;
+      width: 77.2rem;
 
       .logo-container {
         width: 10.4rem;
@@ -902,17 +1005,11 @@
       }
 
       .svgs-container {
-        padding-top: 3.8dvh;
+        padding-top: 5.2dvh;
         padding-left: 1.1rem;
 
         .instagram {
-          font-size: 2.8rem;
-        }
-
-        .w {
-          width: 3rem;
-          margin-left: 1.4rem;
-          // padding-top: 0.9rem;
+          font-size: 2.7rem;
         }
       }
     }
@@ -921,77 +1018,77 @@
 
 // -------------- Max-Height: 700px and Max-Width 1370px -------------- //
 
-@media screen and (max-height: 700px) and (max-width: 1370px) {
-  .navigation-container {
-    height: 9.5dvh;
+// @media screen and (max-height: 700px) and (max-width: 1370px) {
+//   .navigation-container {
+//     height: 9.5dvh;
 
-    .navigation {
-      width: 72.6rem;
+//     .navigation {
+//       width: 72.6rem;
 
-      .logo-container {
-        width: 10rem;
-        padding-top: 4.3dvh;
-      }
+//       .logo-container {
+//         width: 10rem;
+//         padding-top: 4.3dvh;
+//       }
 
-      .nav-center {
-        height: 8.2dvh;
-      }
+//       .nav-center {
+//         height: 8.2dvh;
+//       }
 
-      .svgs-container {
-        padding-top: 3dvh;
-      }
-    }
-  }
-}
+//       .svgs-container {
+//         padding-top: 3dvh;
+//       }
+//     }
+//   }
+// }
 
 // -------------- Min-Height: 820px and Max-Width 1370px -------------- //
 
-@media screen and (min-height: 820px) and (max-width: 1370px) {
-  .navigation-container {
-    height: 10dvh;
+// @media screen and (min-height: 820px) and (max-width: 1370px) {
+//   .navigation-container {
+//     height: 10dvh;
 
-    .navigation {
-      width: 73.8rem;
+//     .navigation {
+//       width: 73.8rem;
 
-      .logo-container {
-        width: 10.6rem;
-        padding-top: 5dvh;
-      }
+//       .logo-container {
+//         width: 10.6rem;
+//         padding-top: 5dvh;
+//       }
 
-      .nav-center {
-        width: 51.8rem;
-        height: 7.8dvh;
-      }
+//       .nav-center {
+//         width: 51.8rem;
+//         height: 7.8dvh;
+//       }
 
-      .svgs-container {
-        padding-top: 3.9dvh;
+//       .svgs-container {
+//         padding-top: 3.9dvh;
 
-        .w {
-          width: 3.1rem;
-          padding-top: 0.9rem;
-        }
-      }
-    }
-  }
-}
+//         .w {
+//           width: 3.1rem;
+//           padding-top: 0.9rem;
+//         }
+//       }
+//     }
+//   }
+// }
 
 // -------------- Min-Height: 920px and Max-Width 1370px -------------- //
 
-@media screen and (min-height: 920px) and (max-width: 1370px) {
-  .navigation-container {
+// @media screen and (min-height: 920px) and (max-width: 1370px) {
+//   .navigation-container {
 
-    .navigation {
+//     .navigation {
 
-      .logo-container {
-        padding-top: 5.2dvh;
-      }
+//       .logo-container {
+//         padding-top: 5.2dvh;
+//       }
 
-      .svgs-container {
-        padding-top: 4.1dvh;
-      }
-    }
-  }
-}
+//       .svgs-container {
+//         padding-top: 4.1dvh;
+//       }
+//     }
+//   }
+// }
 
 // -------------- Max-Width 1280px -------------- //
 
@@ -1461,31 +1558,25 @@
 //   }
 // }
 
-// ----------------------------- Max-Width: 96px ------------------------------ //
+// ----------------------------- Max-Height: 96px ------------------------------ //
 // ---- Full Navigation bar will not be displayed on screen heights 514px or lower--- //
 
-// @media screen and (max-width: 960px) {
+// @media screen and (max-height: 514px) {
 //   .navigation-container {
 //     display: none;
 //   }
 // }
 
-@media screen and (max-height: 514px) {
+@media screen and (max-height: 690px) {
   .navigation-container {
     display: none;
   }
 }
 
-// ----------------------------- Min-Width: 960px ------------------------------ //
-// ---- Dropdown menu on screen heights 515px or higher will not be displayed --- //
+// ----------------------------- Min-Height: 691px ------------------------------ //
+// ---- Dropdown menu on screen heights 691px or higher will not be displayed --- //
 
-// @media screen and (min-width: 960px) {
-//   .dropdown {
-//     display: none;
-//   }
-// }
-
-@media screen and (min-height: 515px) {
+@media screen and (min-height: 691px) {
   .dropdown {
     display: none;
   }

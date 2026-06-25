@@ -1,13 +1,15 @@
-button {
+button.toggle-box {
   background: none;
   border: none;
   outline: none;
+  // z-index: 0;
 
   .screen-toggle {
     display: flex;
     align-items: center;
     width: 9rem;
     height: 3.2rem;
+    gap: 4px;
 
     .screen-icon {
       display: flex;
@@ -17,14 +19,14 @@ button {
       width: 3.2rem;
     }
 
-    .screen-icon-text {
+    .screen-text {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
       width: 5.8rem;
       padding-top: 0.2rem;
-      padding-left: 0.15rem;
+      // padding-left: 0.15rem;
 
       p {
         margin: 0rem;
@@ -35,5 +37,116 @@ button {
         opacity: 0.9;
       }
     } 
+  }
+}
+
+// ===================== Media Queries ===================== //
+
+// ---------------- Max-Width: 1400px ---------------- //
+
+@media screen and (max-width: 1400px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      width: 9.7rem;
+
+      .screen-icon {
+        font-size: 2.9rem;
+      }
+
+      .screen-text {
+        width: 6.5rem;
+
+        p {
+          font-size: 1.23rem;
+          line-height: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1380px ---------------- //
+
+@media screen and (max-width: 1380px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      width: 9rem;
+
+      .screen-icon {
+        width: 3rem;
+        font-size: 2.6rem;
+      }
+
+      .screen-text {
+        width: 6rem;
+
+        p {
+          font-size: 1.12rem;
+          line-height: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 690px ---------------- //
+
+@media screen and (max-height: 690px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      flex-direction: row-reverse;
+      width: 10rem;
+      gap: 2px;
+
+      .screen-icon {
+        color: var(--dark-grey);
+        font-size: 2.8rem;
+        width: 3.2rem;
+        opacity: 0.9;
+      }
+
+      .screen-text {
+        align-items: flex-end;
+        width: 6.8rem;
+        padding-top: 0rem;
+
+        p {
+          margin: 0rem;
+          color: var(--copper-yellow);
+          font-size: 1.36rem;
+          font-weight: 500;
+          line-height: 1.35rem;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 690px and Max-Width: 1380px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1380px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      width: 9rem;
+
+      .screen-icon {
+        width: 3rem;
+        font-size: 2.58rem;
+      }
+
+      .screen-text {
+        width: 6rem;
+
+        p {
+          font-size: 1.15rem;
+          line-height: 1.2rem;
+        }
+      }
+    }
   }
 }

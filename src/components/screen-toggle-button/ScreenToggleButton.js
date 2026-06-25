@@ -51,6 +51,7 @@ const ScreenToggleButton = () => {
     <button 
       onClick={toggleFullscreen}
       aria-label={isFullscreen ? "Exit Fullscreen" : "Enter Fullscreen"}
+      className="toggle-box"
     >
       {isFullscreen ? (
         /* Minimize Icon (Visible when Fullscreen) */
@@ -71,9 +72,9 @@ const ScreenToggleButton = () => {
         // </svg>
         <div className="screen-toggle">
           <AiOutlineExpand className="screen-icon" />
-          <div className="screen-icon-text">
+          <div className="screen-text">
             <p>EXIT FULL</p>
-            <p>SCREEN</p>
+            <p>SCREEN!!!</p>
           </div>
         </div>
       )}

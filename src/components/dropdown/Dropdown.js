@@ -40,15 +40,21 @@ const Dropdown = () => {
 
   return (
     <div ref={dropdownRef} className="mobile-menu-container">
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className={`burger-btn ${isOpen ? 'is-open' : ''}`}
-        aria-label='Toggle Menu'
-      >
-        <span className="burger-line line-top"></span>
-        <span className="burger-line line-middle"></span>
-        <span className="burger-line line-bottom"></span>
-      </button>
+      <div className="burger-menu-box">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className={`burger-btn ${isOpen ? 'is-open' : ''}`}
+          aria-label='Toggle Menu'
+        >
+          <span className="burger-line line-top"></span>
+          <span className="burger-line line-middle"></span>
+          <span className="burger-line line-bottom"></span>
+        </button>
+        <div className="menu-word-box">
+          <p>MENU</p>
+        </div>
+        
+      </div>
 
       <div 
         className={`menu-scrim ${isOpen ? 'is-open' : ''}`} 
