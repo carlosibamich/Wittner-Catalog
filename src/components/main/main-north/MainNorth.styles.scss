@@ -446,6 +446,33 @@
     .main-room-north-grid {
       width: 90%;
       height: 39.8rem;
+
+      //----------------- COLUMN 5 ------------------/
+    
+      .north-column-5 {
+        
+        // ---------- Jaded --------- //
+        .sub-section-5-2 {
+          left: 7.35rem;
+          // width: 4.1rem;
+        }
+        
+        // ---------- BlackRabbi --------- //
+        .sub-section-5-3 {
+          top: 6.4rem;
+          left: 7.75rem;
+        }
+      }
+
+      //----------------- COLUMN 8 ------------------/
+
+      .north-column-8 {
+        
+        // ---------- WhiteClown --------- //
+        .sub-section-8-3 {
+          right: 6.2rem;
+        }
+      }
     }
   }
 }
@@ -538,6 +565,11 @@
       //----------------- COLUMN 8 ------------------/
 
       .north-column-8 {
+        
+        // ---------- WhiteClown --------- //
+        .sub-section-8-3 {
+          right: 6rem;
+        }
 
         // ---------- GalleryHeaven --------- //
         .sub-section-8-4 {
@@ -573,6 +605,11 @@
       //----------------- COLUMN 8 ------------------/
 
       .north-column-8 {
+
+        // ---------- WhiteClown --------- //
+        .sub-section-8-3 {
+          right: 5.8rem;
+        }
 
         // ---------- Caryatids --------- //
         .sub-section-8-6 {
@@ -901,7 +938,7 @@
         // ---------- WhiteClown --------- //
         .sub-section-8-3 {
           top: 10.7rem;
-          right: 4.9rem;
+          right: 4.5rem;
           width: 2.2rem;
         }
 

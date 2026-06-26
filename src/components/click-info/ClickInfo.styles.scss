@@ -620,7 +620,8 @@
   .click-info-container {
 
     .click-info {
-      height: 8.5dvh;
+      // height: 8.5dvh;
+      height: 12dvh;
 
       p {
         font-size: 1.45rem;
@@ -633,10 +634,10 @@
 
 @media screen and (min-height: 840px) and (max-width: 1370px) {
   .click-info-container {
-    bottom: 12dvh;
+    bottom: 12.5dvh;
 
     .click-info {
-      height: 7.8dvh;
+      height: 7.4dvh;
 
       .line {
         width: 18.5rem;
@@ -672,18 +673,13 @@
   }
 }
 
-// ----------------- Min-Height 700px and Max-Width 1280px ----------------- //
+// --------------- Min-Height: 650px and Max-Width 1280px ---------------- //
 
-@media screen and (min-height: 700px) and (max-width: 1280px) {
+@media screen and (min-height: 650px) and (max-width: 1280px) {
   .click-info-container {
-    bottom: 0dvh;
 
     .click-info {
-      height: 6.2dvh;
-    }
-
-    .color-base {
-      display: block;
+      height: 15dvh;
     }
   }
 }
@@ -728,9 +724,20 @@
   }
 }
 
-// ---------------- Min-Height: 720px and Max-Width: 1220px --------------- //
+// ---------------- Min-Height: 640px and Max-Width: 1220px --------------- //
 
-@media screen and (min-height: 720px) and (max-width: 1220px) {
+@media screen and (min-height: 640px) and (max-width: 1220px) {
+  .click-info-container {
+
+    .click-info {
+      height: 15dvh;
+    }
+  }
+}
+
+// ---------------- Min-Height: 725px and Max-Width: 1220px --------------- //
+
+@media screen and (min-height: 725px) and (max-width: 1220px) {
   .click-info-container {
     bottom: 12dvh;
 
@@ -741,6 +748,14 @@
         font-size: 1.85rem;
       }
     }
+  }
+}
+
+// ---------------- Min-Height: 745px and Max-Width: 1220px --------------- //
+
+@media screen and (min-height: 745px) and (max-width: 1220px) {
+  .click-info-container {
+    bottom: 12.8dvh;
   }
 }
 
@@ -763,9 +778,9 @@
   }
 }
 
-// ----------------- Min-Height: 720px and Max-Width 1200px ----------------- //
+// ----------------- Min-Height: 725px and Max-Width 1200px ----------------- //
 
-@media screen and (min-height: 720px) and (max-width: 1200px) {
+@media screen and (min-height: 725px) and (max-width: 1200px) {
   .click-info-container {
     bottom: 12.5dvh;
 

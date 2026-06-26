@@ -181,16 +181,6 @@
   }
 }
 
-// -------------- Max-Width 1580px -------------- //
-
-// @media screen and (max-width: 1580px) {
-//   .main-nav-options {
-//     width: 55.7rem;
-//     height: 8.6dvh;
-//     padding-top: 0.3dvh;
-//   }
-// }
-
 // -------------- Max-Width 1550px -------------- //
 
 @media screen and (max-width: 1550px) {
@@ -422,17 +412,14 @@
 
 @media screen and (max-width: 1280px) {
   .main-nav-options {
-    width: 55rem;
-    height: 9dvh;
-    padding-top: 0.5rem;
+    width: 52.5rem;
 
     .navlink-container {
-      margin: 0 1.55rem;
 
       .nav-link {
 
         a {
-          font-size: 1.28rem;
+          font-size: 1.2rem;
         }
       }
     }
@@ -447,80 +434,59 @@
   }
 }
 
-// --------------- Min-Height: 700px and Max-Width 1280px ---------------- //
-
-// @media screen and (min-height: 700px) and (max-width: 1280px) {
-//   .main-nav-options {
-//     // width: 55rem;
-//     // height: 6.2dvh;
-
-//     .navlink-container {
-//       // padding-bottom: 0rem;
-//     }
-//   }
-// }
-
 // -------------- Max-Width 1220px -------------- //
 
 @media screen and (max-width: 1220px) {
   .main-nav-options {
-    width: 51.8rem;
 
     .navlink-container {
-      margin: 0 1.43rem;
-
-      .nav-link {
-
-        a {
-          font-size: 1.22rem;
-        }
-      }
+      margin: 0 1.5rem;
     }
   }
 }
 
 // -------------- Min-Height: 720px and Max-Width 1220px -------------- //
 
-@media screen and (min-height: 720px) and (max-width: 1220px) {
-  .main-nav-options {
-    height: 8dvh;
-    padding-top: 0.3rem;
-  }
-}
+// @media screen and (min-height: 720px) and (max-width: 1220px) {
+//   .main-nav-options {
+//     height: 8dvh;
+//     padding-top: 0.3rem;
+//   }
+// }
 
 // -------------- Max-Width 1200px -------------- //
 
 @media screen and (max-width: 1200px) {
-  .main-nav-options {
-    width: 51rem;
-    height: 8.8dvh;
-    padding-top: 0.5dvh;
+  // .main-nav-options {
+  //   width: 51rem;
+  //   height: 8.8dvh;
+  //   padding-top: 0.5dvh;
 
-    .navlink-container {
-      margin: 0 1.47rem;
-      padding-top: 1dvh;
+  //   .navlink-container {
+  //     margin: 0 1.47rem;
+  //     padding-top: 1dvh;
 
-      .nav-link {
+  //     .nav-link {
 
-        a {
-          font-size: 1.2rem;
-        }
-      }
-    }
-  }
+  //       a {
+  //         font-size: 1.2rem;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 // -------------- Min-Height: 720px and Max-Width 1200px -------------- //
 
-@media screen and (min-height: 720px) and (max-width: 1200px) {
-  .main-nav-options {
-    height: 8.4dvh;
+// @media screen and (min-height: 720px) and (max-width: 1200px) {
+//   .main-nav-options {
+//     height: 8.4dvh;
 
-    .navlink-container {
-      padding-top: 0.5dvh;
-    }
-  }
-}
+//     .navlink-container {
+//       padding-top: 0.5dvh;
+//     }
+//   }
+// }
 
 // -------------- Max-Width 1185px -------------- //
 

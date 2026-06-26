@@ -503,7 +503,7 @@
       display: block;
 
       .footer {
-        height: 12dvh;
+        height: 12.5dvh;
 
         .footer-box {
 
@@ -596,9 +596,9 @@
   }
 }
 
-// ---------------- Min-Height: 720px and Max-Width: 1220px --------------- //
+// ---------------- Min-Height: 725px and Max-Width: 1220px --------------- //
 
-@media screen and (min-height: 720px) and (max-width: 1220px) {
+@media screen and (min-height: 725px) and (max-width: 1220px) {
   .horizontal-layout {
 
     .footer-container {
@@ -640,45 +640,15 @@
   }
 }
 
-// ----------------- Min-Height: 720px and Max-Width 1200px ----------------- //
+// ---------------- Min-Height: 745px and Max-Width: 1220px --------------- //
 
-@media screen and (min-height: 720px) and (max-width: 1200px) {
+@media screen and (min-height: 745px) and (max-width: 1220px) {
   .horizontal-layout {
 
     .footer-container {
-      // display: block;
 
       .footer {
-        height: 12.5dvh;
-
-        .footer-box {
-
-          .logo {
-            height: 4rem;
-          }
-
-          .copyrights {
-
-            .copyright {
-              font-size: 1.95rem;
-            }
-    
-            p {
-              font-size: 1.18rem;
-            }
-          }
-
-          .address {
-    
-            p {
-              font-size: 1.18rem;
-            }
-
-            .rocket {
-              font-size: 1.95rem;
-            }
-          }
-        }
+        height: 12.8dvh;
       }
     }
   }

@@ -60,7 +60,7 @@ const ScreenToggleButton = () => {
         // </svg>
         <div className="screen-toggle">
           <CgMinimize className="screen-icon" />
-          <div className="screen-icon-text">
+          <div className="screen-text">
             <p>EXIT FULL</p>
             <p>SCREEN</p>
           </div>
