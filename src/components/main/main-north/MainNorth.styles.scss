@@ -620,6 +620,264 @@
   }
 }
 
+// --------------- Max-Width 1400px ---------------- //
+
+@media screen and (max-width: 1400px) {
+  .main-room-north-container {
+    // margin-top: 1.8dvh;
+  
+    .main-room-north-grid {
+      width: 90%;
+
+      //----------------- COLUMN 1 ------------------//
+
+      .north-column-1 {
+
+        // ---------- Sam --------- //
+        .sub-section-1-1 {
+          top: 3rem;
+        }
+
+        // ---------- Undershirt --------- //  
+        .sub-section-1-2 {
+          top: 7.7rem;
+        }
+
+        // ---------- Strength --------- //
+        .sub-section-1-3 {
+          top: 12.4rem;
+        }
+
+        // ---------- Working --------- //
+        .sub-section-1-4 {
+          top: 17.5rem;
+        }
+
+        // ---------- Dispatch --------- //
+        .sub-section-1-5 {
+          top: 22.5rem;
+        }
+      }
+
+      //----------------- COLUMN 2 ------------------//
+
+      .north-column-2 {
+          
+        // ---------- Hermit --------- //
+        .sub-section-2-2 {
+          top: 17.5rem;
+        }
+          
+        // ---------- Empress --------- //
+        .sub-section-2-3 {
+          top: 17.6rem;
+        }
+          
+        // ---------- Emperor --------- //
+        .sub-section-2-4 {
+          top: 17.5rem;
+        }
+        
+        // ---------- Divine --------- //
+        .sub-section-2-5 {
+          bottom: 2.2rem;
+        }  
+      }
+    
+      //----------------- COLUMN 3 ------------------//
+      
+      .north-column-3 {
+          
+        // ---------- Magician --------- //
+        .sub-section-3-2 {
+          top: 13.7rem;
+        }
+          
+        // ---------- Ed --------- //
+        .sub-section-3-3 {
+          top: 17.9rem;
+        }
+          
+        // ---------- Crayolas --------- //
+        .sub-section-3-4 {
+          top: 21.8rem;
+        }
+        
+        // ---------- Launch --------- //
+        .sub-section-3-5 {
+          top: 14.2rem;
+        }
+          
+        // ---------- Reflection --------- //
+        .sub-section-3-6 {
+          top: 13.7rem;
+        }
+          
+        // ---------- Violin Angel --------- //
+        .sub-section-3-7 {
+          top: 17.8rem;
+        }
+          
+        // ---------- Priestess --------- //
+        .sub-section-3-8 {
+          top: 21.5rem;
+        }
+        
+        // ---------- Smile --------- //
+        .sub-section-3-9 {
+          bottom: 1.1rem;
+        }
+      }
+    
+      //----------------- COLUMN 4 ------------------//
+      
+      .north-column-4 {
+        
+        // ---------- IceCream --------- //
+        .sub-section-4-1 {
+          width: 14.25rem;
+        }
+        
+        // ---------- DrowningDevil --------- //
+        .sub-section-4-2 {
+          top: 11.7rem;
+        }
+        
+        // ---------- RetellingExodus --------- //
+        .sub-section-4-3 {
+          bottom: 1.1rem;
+        }
+      }
+    
+      //----------------- COLUMN 5 ------------------/
+      
+      .north-column-5 {
+          
+        // ---------- Down --------- //
+        .sub-section-5-1 {
+          width: 6.75rem;
+        }
+        
+        // ---------- BlackRabbi --------- //
+        .sub-section-5-3 {
+          top: 6.25rem;
+          left: 7.6rem;
+          width: 3.6rem;
+        }
+        
+        // ---------- LiftOff --------- //
+        .sub-section-5-6 {
+          top: 11.2rem;
+        }
+        
+        // ---------- Parallel --------- //
+        .sub-section-5-7 {
+          right: -0.1rem;
+          bottom: 2rem;
+          width: 15.8rem;
+        }
+      }
+
+      //----------------- COLUMN 6 ------------------/
+
+      .north-column-6 {
+        
+        // ---------- Identity --------- //
+        .sub-section-6-2 {
+          top: 10.4rem;
+        }
+        
+        // ---------- Summer --------- //
+        .sub-section-6-3 {
+          bottom: 1.1rem;
+          width: 12.1rem;
+        }
+      }
+
+      //----------------- COLUMN 7 ------------------/
+
+      .north-column-7 {
+        
+        // ---------- KissMe --------- //
+        .sub-section-7-2 {
+          top: 5.9rem;
+        }
+      
+        // ---------- Remembering --------- //
+        .sub-section-7-3 {
+          top: 10.2rem;
+        }
+
+        // ---------- The First Day Job --------- //
+        .sub-section-7-4 {
+          top: 16.1rem;
+        }
+
+        // ---------- First Note --------- //
+        .sub-section-7-5 {
+          top: 20.4rem;
+        }
+
+        // ---------- Vacation --------- //
+        .sub-section-7-6 {
+          top: 24.9rem;
+        }
+
+        // ---------- JadedClown --------- //
+        .sub-section-7-7 {
+          bottom: 4rem;
+        }
+      }
+
+      //----------------- COLUMN 8 ------------------/
+
+      .north-column-8 {
+
+        // ---------- Premonition --------- //
+        .sub-section-8-1 {
+          top: 3.3rem;
+          left: 0.5rem;
+        }
+      
+        // ---------- DessertChef --------- //
+        .sub-section-8-2 {
+          top: 11.65rem;
+          left: 1.35rem;
+        }
+        
+        // ---------- WhiteClown --------- //
+        .sub-section-8-3 {
+          top: 11.65rem;
+          right: 5.55rem;
+        }
+
+        // ---------- GalleryHeaven --------- //
+        .sub-section-8-4 {
+          top: 16.1rem;
+        }
+
+        // ---------- StopFollowing --------- //
+        .sub-section-8-5 {
+          bottom: 3.7rem;
+        }
+
+        // ---------- Caryatids --------- //
+        .sub-section-8-6 {
+          bottom: 4.3rem;
+          right: 1rem;
+          // width: 5rem;
+        }
+
+        // ---------- Dad and Three Eggs --------- //
+        .sub-section-8-7 {
+          bottom: 12.6rem;
+          right: -1.5rem;
+        }
+      }
+    }
+  }
+}
+
 // --------------- Max-Width 1380px ---------------- //
 
 @media screen and (max-width: 1380px) {

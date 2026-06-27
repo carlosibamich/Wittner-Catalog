@@ -202,6 +202,50 @@
   }
 }
 
+// --------------- Min-Height: 950px and Max-Width 1690px ---------------- //
+
+@media screen and (min-height: 950px) and (max-width: 1690px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 12dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 4.14rem;
+          }
+
+          .copyrights {
+
+            .copyright {
+              font-size: 1.65rem;
+            }
+            
+            p {
+              font-size: 1.08rem;
+            }     
+          }
+    
+          .address {
+          
+            p {
+              font-size: 1.08rem;
+            }
+
+            .rocket {
+              font-size: 1.65rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // --------------- Min-Height: 960px and Max-Width 1650px ---------------- //
 
 @media screen and (min-height: 960px) and (max-width: 1650px) {
@@ -246,6 +290,52 @@
   }
 }
 
+// ---------------- Min-Height: 925px and Max-Width: 1580px --------------- //
+
+@media screen and (min-height: 925px) and (max-width: 1580px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 12dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 4.6rem;
+          }
+
+          .copyrights {
+        
+            .copyright {
+              margin-right: 0.3rem;
+              font-size: 2rem;
+            }
+        
+            p {
+              font-size: 1.2rem;
+            }
+          }
+
+          .address {
+      
+            p {
+              font-size: 1.2rem;
+            }
+      
+            .rocket {
+              margin-left: 0.6rem;
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // ---------------- Max-Width: 1550px --------------- //
 
 @media screen and (max-width: 1550px) {
@@ -257,9 +347,9 @@
   }
 }
 
-// ---------------- Min-Height: 940px and Max-Width: 1550px --------------- //
+// ---------------- Min-Height: 920px and Max-Width: 1550px --------------- //
 
-@media screen and (min-height: 940px) and (max-width: 1550px) {
+@media screen and (min-height: 920px) and (max-width: 1550px) {
   .horizontal-layout {
 
     .footer-container {
