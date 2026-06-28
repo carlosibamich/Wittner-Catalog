@@ -32,9 +32,9 @@
         }
       }
 
-      .home-icon {
-        display: none;
-      }
+      // .home-icon {
+      //   display: none;
+      // }
     }
 
     .nav-center {
@@ -837,18 +837,18 @@
 
 // -------------- Max-Height: 690px and Max-Width: 1440px -------------- //
 
-// @media screen and (max-height: 690px) and (max-width: 1440px) {
+@media screen and (max-height: 690px) and (max-width: 1440px) {
 
-//   .dropdown {
-//     top: 3.8dvh;
-//     left: 9.5dvh;
-//   }
+  .dropdown {
+    top: 2.9dvh;
+    // left: 9.5dvh;
+  }
 
-//   .screen-toggle-button {
-//     top: 3.6dvh;
-//     right: 6.5rem;
-//   }
-// }
+  .screen-toggle-button {
+    top: 2.6dvh;
+    // right: 6.5rem;
+  }
+}
 
 // -------------- Min-Height: 780px and Max-Width 1440px -------------- //
 
@@ -946,11 +946,11 @@
   }
 }
 
-// -------------- Min-Height: 755px and Max-Width: 1400px -------------- //
+// -------------- Min-Height: 745px and Max-Width: 1400px -------------- //
 
-@media screen and (min-height: 755px) and (max-width: 1400px) {
+@media screen and (min-height: 745px) and (max-width: 1400px) {
   .navigation-container {
-    height: 10.5dvh;
+    height: 10dvh;
   
     .navigation {
 
@@ -999,64 +999,69 @@
     height: 9.7dvh;
 
     .navigation {
-      width: 81rem;
+      width: 87.3rem;
 
       .logo-container {
-        width: 11.6rem;
+        width: 13.4rem;
+        margin-right: 0.6rem;
         padding-top: 4.8dvh;
         padding-right: 0rem;
+
+        img {
+          max-width: 95%;
+        }
       }
 
       .nav-center {
-        width: 54.2rem;
+        width: 57rem;
         height: 8.2dvh;
       }
 
       .svgs-container {
-        width: 14.7rem;
-        padding-top: 4.5dvh;
-        padding-left: 1.2rem;
-        gap: 12px;
+        width: 16.5rem;
+        padding-top: 4.8dvh;
+        padding-left: 1.8rem;
+        gap: 10px;
 
         .instagram {
-          font-size: 2.9rem;
+          font-size: 3rem;
         }
       }
     }
   }
 }
 
-// -------------- Max-Height: 690px and Max-Width: 1380px -------------- //
+// -------------- Min-Height: 755px and Max-Width 1380px -------------- //
 
-@media screen and (max-height: 690px) and (max-width: 1380px) {
-
-  .dropdown {
-    top: 2.5dvh;
-  }
-
-  .screen-toggle-button {
-    top: 2dvh;
-  }
-}
-
-// -------------- Min-Height: 840px and Max-Width 1380px -------------- //
-
-@media screen and (min-height: 840px) and (max-width: 1380px) {
+@media screen and (min-height: 755px) and (max-width: 1380px) {
   .navigation-container {
-    height: 10dvh;
 
     .navigation {
 
       .logo-container {
-        padding-top: 4.3dvh;
+        padding-top: 4.8dvh;
       }
 
-      .nav-center {
-        height: 7.5dvh;
+
+      .svgs-container {
+        padding-top: 5.3dvh;
+      }
+    }
+  }
+}
+// -------------- Min-Height: 915px and Max-Width 1380px -------------- //
+
+@media screen and (min-height: 915px) and (max-width: 1380px) {
+  .navigation-container {
+
+    .navigation {
+
+      .logo-container {
+        padding-top: 5.2dvh;
       }
 
       .svgs-container {
-        padding-top: 4.4dvh;
+        padding-top: 5.6dvh;
       }
     }
   }
@@ -1070,11 +1075,11 @@
     .navigation {
 
       .logo-container {
-        padding-top: 5dvh;
+        padding-top: 5.4dvh;
       }
 
       .svgs-container {
-        padding-top: 4.7dvh;
+        padding-top: 5.8dvh;
       }
     }
   }
@@ -1093,7 +1098,7 @@
       }
 
       .svgs-container {
-        padding-top: 4dvh;
+        padding-top: 6dvh;
       }
     }
   }
@@ -1101,52 +1106,65 @@
 
 // -------------- Max-Width 1370px -------------- //
 
-@media screen and (max-width: 1370px) {
-  .navigation-container {
-    height: 10dvh;
+// @media screen and (max-width: 1370px) {
+//   .navigation-container {
+//     height: 10dvh;
 
-    .navigation {
-      width: 77.2rem;
+//     .navigation {
+//       width: 77.2rem;
 
-      .logo-container {
-        width: 10.4rem;
-        padding-top: 5.2dvh;
-      }
+//       .logo-container {
+//         width: 10.4rem;
+//         padding-top: 5.2dvh;
+//       }
 
-      .nav-center {
-        width: 50.8rem;
-        height: 8.5dvh;
-      }
+//       .nav-center {
+//         width: 50.8rem;
+//         height: 8.5dvh;
+//       }
 
-      .svgs-container {
-        padding-top: 5.2dvh;
-        padding-left: 1.1rem;
+//       .svgs-container {
+//         padding-top: 5.2dvh;
+//         padding-left: 1.1rem;
 
-        .instagram {
-          font-size: 2.7rem;
-        }
-      }
-    }
+//         .instagram {
+//           font-size: 2.7rem;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// -------------- Max-Height: 690px and Max-Width: 1370px -------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1370px) {
+
+  .dropdown {
+    top: 3.5dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.5dvh;
   }
 }
 
 // -------------- Min-Height: 900px and Max-Width 1370px -------------- //
 
-@media screen and (min-height: 900px) and (max-width: 1370px) {
-  .navigation-container {
+// @media screen and (min-height: 900px) and (max-width: 1370px) {
+//   .navigation-container {
 
-    .navigation {
+//     .navigation {
 
-      .logo-container {
-        padding-top: 5.6dvh;
-      }
+//       .logo-container {
+//         padding-top: 5.6dvh;
+//       }
 
-      .svgs-container {
-        padding-top: 5.6dvh;
-      }
-    }
-  }
-}
+//       .svgs-container {
+//         padding-top: 5.6dvh;
+//       }
+//     }
+//   }
+// }
 
 // -------------- Max-Width 1280px -------------- //
 

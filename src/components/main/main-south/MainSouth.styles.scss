@@ -751,831 +751,200 @@
   }
 }
 
-// --------------- Max-Width: 1380px ----------------- //
+// --------------- Max-Width: 1400px ----------------- //
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1400px) {
   .main-room-south-container {
-    margin-top: 1.8dvh;
 
     .main-room-south-grid {
-      width: 91.5%;
-      height: 37rem;
-      grid-template-columns: 1.75fr 4.4fr 4.65fr 5.3fr 7.3fr 6.3fr;
-      gap: 3px;
-
-      // .section {
-      //   border: 1px solid #d3d3d3;
-      // }
-
-      //----------------- COLUMN 1 ------------------//
-
-    .south-column-1 {
-
-      // ---------- Purification --------- //
-      .sub-section-1-1 {
-        top: 3.7rem;
-        left: 0rem;
-        width: 5rem;
-      }
-
-      // ---------- Resist --------- //  
-      .sub-section-1-2 {
-        top: 10rem;
-        left: 0rem;
-        width: 5rem;
-      }
-    }
-
-    //----------------- COLUMN 2 ------------------//
-
-    .south-column-2 {
-
-      // ---------- Reconstructive Surgery 2 --------- //
-      .sub-section-2-1 {
-        top: 0;
-        left: 0.5rem;
-        width: 12.15rem;
-      }
-        
-      // ---------- Meeting the Devil With My Cello --------- //
-      .sub-section-2-2 {
-        top: 13rem;
-        left: 1.1rem;
-        width: 6.4rem;
-      }
-        
-      // ---------- Retired From Bull Ring --------- //
-      .sub-section-2-3 {
-        top: 12rem;
-        right: 1rem;
-        width: 3.5rem;
-      }
-        
-      // ----------King of Cats --------- //
-      .sub-section-2-4 {
-        top: 17rem;
-        right: 3rem;
-        width: 1.5rem;
-      }
-      
-      // ---------- Egged On --------- //
-      .sub-section-2-5 {
-        top: 17rem;
-        right: 1rem;
-        width: 1.6rem;
-     }  
-
-      // ---------- You've Gone Too far --------- //
-      .sub-section-2-6 {
-        bottom: 1.3rem;
-        left: -0.3rem;
-        width: 12.9rem;
-     }  
-    }
-    
-    //----------------- COLUMN 3 ------------------//
-    
-    .south-column-3 {
-      
-      // ---------- Looking Ahead --------- //
-      .sub-section-3-1 {
-        top: 0;
-        right: 0.7rem;
-        width: 12.2rem;
-      }
-        
-      // ---------- Opera --------- //
-      .sub-section-3-2 {
-        top: 16rem;
-        left: 0.5rem;
-        width: 3.4rem;
-      }
-        
-      // ---------- State of the World --------- //
-      .sub-section-3-3 {
-        top: 16.4rem;
-        left: 4.6rem;
-        width: 4.8rem;
-      }
-        
-      // ---------- Giant Egg --------- //
-      .sub-section-3-4 {
-        top: 16rem;
-        right: -0.5rem;
-        width: 4rem;
-      }
-        
-      // ---------- I'm Outta Here --------- //
-      .sub-section-3-5 {
-        bottom: 3.1rem;
-        left: 0.5rem;
-        width: 13.6rem;
-      }
-    }
-
-      // ---------- Column 4 --------- //
-      .south-column-4 {
-      
-        // ---------- Painter's Museum --------- //
-        .sub-section-4-1 {
-          left: 0.3rem;
-          width: 15.1rem;
-        }
-      
-        // ---------- Private Showing --------- //
-        .sub-section-4-2 {
-          top: 12.7rem;
-          left: 1.1rem;
-          width: 14rem;
-        }
-      
-        // ---------- Roadhouse at the Full Moon --------- //
-        .sub-section-4-3 {
-          bottom: 0.8rem;
-          left: 1.1rem;
-          width: 16.2rem;
-        }
-      }
-
-      //----------------- COLUMN 5 ------------------/
-    
-      .south-column-5 {
-
-        // ---------- Center Stage --------- //
-        .sub-section-5-1 {
-          top: 0;
-          left: 0.8rem;
-          width: 13.9rem;
-        }
-        
-        // ---------- Conservationist --------- //
-        .sub-section-5-2 {
-          top: 2.2rem;
-          right: 1.8rem;
-          width: 3.9rem;
-        }
-        
-        // ---------- Spiritual Traveler --------- //
-        .sub-section-5-3 {
-          top: 11.2rem;
-          left: 0.2rem;
-          width: 9.2rem;
-        }
-        
-        // ---------- Be of Good Cheer --------- //
-        .sub-section-5-4 {
-          top: 11.3rem;
-          left: 10.7rem;
-          width: 3.3rem;
-        }
-        
-        // ---------- Years Later He Lit Up A Cigarette --------- //
-        .sub-section-5-5 {
-          top: 8.3rem;
-          right: 1.8rem;
-          width: 3.9rem;
-        }
-      
-        // ---------- Bob --------- //
-        .sub-section-5-6 {
-          top: 14.4rem;
-          left: 10rem;
-          width: 4.3rem;
-        }
-
-        // ---------- Questionable Moves --------- //
-        .sub-section-5-7 {
-          right: -0.3rem;
-          top: 14.3rem;
-          width: 6.8rem;
-        }
-
-      // ---------- Go Back To sea --------- //
-      .sub-section-5-8 {
-        top: 20.6rem;
-        left: 11.2rem;
-        width: 2.8rem;
-      }
-
-      // ---------- Dubious --------- //
-      .sub-section-5-9 {
-        top: 20.8rem;
-        left: 0;
-        width: 2.6rem;
-      }
-
-      // ---------- Dervish 1 --------- //
-      .sub-section-5-10 {
-        top: 20.8rem;
-        left: 5.3rem;
-        width: 1.5rem;
-      }
-
-      // ---------- Dervish 2 --------- //
-      .sub-section-5-11 {
-        top: 20.8rem;
-        left: 3.3rem;
-        width: 1.5rem;
-      }
-
-      // ---------- Helena --------- //
-      .sub-section-5-12 {
-        top: 20.8rem;
-        left: 7.5rem;
-        width: 2.5rem;
-      }
-
-
-        // ---------- The Soul Breaks the Deal --------- //
-        .sub-section-5-13 {
-          bottom: 1.8rem;
-          left: 2.6rem;
-          width: 7rem;
-        }
-
-        // ---------- Waiting for the Parting --------- //
-        .sub-section-5-14 {
-          bottom: 1rem;
-          right: 0.5rem;
-          width: 10.1rem;
-        }
-      }
-
-      //----------------- COLUMN 6 ------------------/
-
-      .south-column-6 {
-
-        // ---------- Higher --------- //
-        .sub-section-6-1 {
-          top: 1.6rem;
-          left: -0.8rem;
-          width: 14.8rem;
-        }
-      
-        // ---------- Oh Jesus Christ --------- //
-        .sub-section-6-2 {
-          right: -0.4rem;
-          bottom: 0.8rem;
-          width: 18.3rem;
-        }
-      }
-    }
-  }
-}
-
-// ---------------- Max-Height: 870px and Max-Width: 1380px --------------- //
-
-// @media screen and (max-height: 870px) and (max-width: 1380px) {
-//   .main-room-south-container {
-
-//     .main-room-south-grid {
-//       width: 91.6%;
-//       height: 37.8rem;
-//       gap: 1px;
-//       margin-top: 0.4rem;
-
-//       //----------------- COLUMN 2 ------------------//
-
-//       .south-column-2 {
-
-//         // ---------- You've Gone Too far --------- //
-//         .sub-section-2-6 {
-//           left: 0rem;
-//         }  
-//       }
-
-//       // ---------- Column 4 --------- //
-//       .south-column-4 {
-
-//         // ---------- Roadhouse at the Full Moon --------- //
-//         .sub-section-4-3 {
-//           left: 0.9rem;
-//         }
-//       }
-
-//       //----------------- COLUMN 5 ------------------/
-    
-//       .south-column-5 {
-
-//         // ---------- Questionable Moves --------- //
-//         .sub-section-5-7 {
-//           right: -0.3rem;
-//         }
-      
-//         // ---------- The Soul Breaks the Deal --------- //
-//         .sub-section-5-13 {
-//           left: 2.4rem;
-//         }
-
-//         // ---------- Waiting for the Parting --------- //
-//         .sub-section-5-14 {
-//           right: 0.5rem;
-//         }
-//       }
-
-//       //----------------- COLUMN 6 ------------------/
-
-//       .south-column-6 {
-      
-//         // ---------- Oh Jesus Christ --------- //
-//         .sub-section-6-2 {
-//           right: -0.4rem;
-//         }
-//       }
-//     }
-//   }
-// }
-
-// ---------------- Max-Height: 700px and Max-Width: 1380px --------------- //
-
-// @media screen and (max-height: 810px) and (max-width: 1380px) {
-//   .main-room-south-container {
-    
-//     .main-room-south-grid {
-//       width: 91%;
-//       height: 37.2rem;
-//       gap: 0px;
-//       margin-top: 0rem;
-
-//       //----------------- COLUMN 2 ------------------//
-
-//       .south-column-2 {
-        
-//         // ---------- Meeting the Devil With My Cello --------- //
-//         .sub-section-2-2 {
-//           top: 13.2rem;
-//         }
-        
-//         // ---------- Retired From Bull Ring --------- //
-//         .sub-section-2-3 {
-//           width: 3.4rem;
-//         }
-        
-//         // ----------King of Cats --------- //
-//         .sub-section-2-4 {
-//           top: 17.2rem;
-//           width: 1.5rem;
-//         }
-      
-//         // ---------- Egged On --------- //
-//         .sub-section-2-5 {
-//           top: 17.2rem;
-//           width: 1.55rem;
-//         }  
-//       }
-
-//       //----------------- COLUMN 3 ------------------//
-    
-//       .south-column-3 {
-
-//         // ---------- Opera --------- //
-//         .sub-section-3-2 {
-//           top: 16.2rem;
-//           left: 0.7rem;
-//           width: 3.3rem;
-//         }
-        
-//       // ---------- State of the World --------- //
-//       .sub-section-3-3 {
-//         top: 16.6rem;
-//         width: 4.7rem;
-//       }
-        
-//       // ---------- Giant Egg --------- //
-//       .sub-section-3-4 {
-//         top: 16.2rem;
-//         right: -0.3rem;
-//         width: 3.9rem;
-//       }
-        
-//         // ---------- I'm Outta Here --------- //
-//         .sub-section-3-5 {
-//           bottom: 3.1rem;
-//         }
-//       }
-
-//       // ---------- Column 4 --------- //
-//       .south-column-4 {
-
-//         // ---------- Painter's Museum --------- //
-//         .sub-section-4-1 {
-//           left: 0.5rem;
-//         }
-
-//         // ---------- Private Showing --------- //
-//         .sub-section-4-2 {
-//           top: 12.8rem;
-//           left: 1.2rem;
-//         }
-
-//         // ---------- Roadhouse at the Full Moon --------- //
-//         .sub-section-4-3 {
-//           left: 0.9rem;
-//         }
-//       }
-
-//       //----------------- COLUMN 5 ------------------/
-    
-//       .south-column-5 {
-
-//         // ---------- Center Stage --------- //
-//         .sub-section-5-1 {
-//           left: 0.7rem;
-//           width: 13.8rem;
-//         }
-        
-//         // ---------- Conservationist --------- //
-//         .sub-section-5-2 {
-//           top: 2.3rem;
-//           right: 1.9rem;
-//         }
-        
-//         // ---------- Spiritual Traveler --------- //
-//         .sub-section-5-3 {
-//           top: 11.3rem;
-//           width: 9.3rem;
-//         }
-        
-//         // ---------- Be of Good Cheer --------- //
-//         .sub-section-5-4 {
-//           // top: 11.3rem;
-//           left: 10.5rem;
-//           width: 3.3rem;
-//         }
-        
-//         // ---------- Years Later He Lit Up A Cigarette --------- //
-//         .sub-section-5-5 {
-//           top: 8.3rem;
-//         }
-      
-//         // ---------- Bob --------- //
-//         .sub-section-5-6 {
-//           top: 14.5rem;
-//           left: 10rem;
-//           width: 4.3rem;
-//         }
-
-//         // ---------- Questionable Moves --------- //
-//         .sub-section-5-7 {
-//           top: 14.3rem;
-//           right: -0.6rem;
-//           width: 6.9rem;
-//         }
-
-//       // ---------- Go Back To sea --------- //
-//       .sub-section-5-8 {
-//         top: 20.6rem;
-//         left: 11rem;
-//         width: 2.7rem;
-//       }
-
-//       // ---------- Dubious --------- //
-//       .sub-section-5-9 {
-//         top: 21rem;
-//       }
-
-//       // ---------- Dervish 1 --------- //
-//       .sub-section-5-10 {
-//         top: 21rem;
-//       }
-
-//       // ---------- Dervish 2 --------- //
-//       .sub-section-5-11 {
-//         top: 21rem;
-//       }
-
-//       // ---------- Helena --------- //
-//       .sub-section-5-12 {
-//         top: 21rem;
-//         left: 7.5rem;
-//       }
-
-
-//         // ---------- The Soul Breaks the Deal --------- //
-//         .sub-section-5-13 {
-//           bottom: 1.7rem;
-//           left: 2.4rem;
-//         }
-
-//         // ---------- Waiting for the Parting --------- //
-//         .sub-section-5-14 {
-//           bottom: 1.2rem;
-//           right: 0.5rem;
-//           width: 10.1rem;
-//         }
-//       }
-
-//       //----------------- COLUMN 6 ------------------/
-
-//       .south-column-6 {
-      
-//         // ---------- Oh Jesus Christ --------- //
-//         .sub-section-6-2 {
-//           right: -0.4rem;
-//           width: 18.2rem;
-//         }
-//       }
-//     }
-//   }
-// }
-
-// ---------------- Max-Width: 1370px --------------- //
-
-@media screen and (max-width: 1370px) {
-  .main-room-south-container {
-     margin-top: 1.2dvh;
-    
-    .main-room-south-grid {
-      width: 89%;
-      height: 37rem;
-      grid-template-columns: 1.75fr 4.3fr 4.65fr 5.3fr 7.2fr 6.25fr;
-      gap: 0px;
+      width: 84.4%;
 
       //----------------- COLUMN 2 ------------------//
 
       .south-column-2 {
-        
+
+        // ---------- Reconstructive Surgery 2 --------- //
+        .sub-section-2-1 {
+          width: 13.3rem;
+        }
+          
         // ---------- Meeting the Devil With My Cello --------- //
         .sub-section-2-2 {
-          top: 13.2rem;
+          top: 14.5rem;
+          left: 0.9rem;
+          width: 6.9rem;
         }
-        
+          
         // ---------- Retired From Bull Ring --------- //
         .sub-section-2-3 {
-          width: 3.4rem;
+          top: 13.4rem;
+          right: 1.1rem;
+          width: 3.7rem;
         }
-        
+          
         // ----------King of Cats --------- //
         .sub-section-2-4 {
-          top: 17.2rem;
-          width: 1.5rem;
+          top: 18.8rem;
+          right: 3.3rem;
+          width: 1.6rem;
         }
-      
+        
         // ---------- Egged On --------- //
         .sub-section-2-5 {
-          top: 17.2rem;
-          width: 1.55rem;
+          top: 18.8rem;
+          right: 1.1rem;
+          width: 1.7rem;
+        }  
+
+        // ---------- You've Gone Too far --------- //
+        .sub-section-2-6 {
+          bottom: 2rem;
+          left: -0.2rem;
+          width: 13.5rem;
         }  
       }
-
+      
       //----------------- COLUMN 3 ------------------//
-    
+      
       .south-column-3 {
-
+        
+        // ---------- Looking Ahead --------- //
+        .sub-section-3-1 {
+          right: 0.65rem;
+        }
+          
         // ---------- Opera --------- //
         .sub-section-3-2 {
-          top: 16.2rem;
-          left: 0.5rem;
-          width: 3.3rem;
+          top: 17.9rem;
+          left: 0.2rem;
+        }
+          
+        // ---------- State of the World --------- //
+        .sub-section-3-3 {
+          top: 18.3rem;
+          left: 4.7rem;
         }
         
-      // ---------- State of the World --------- //
-      .sub-section-3-3 {
-        top: 16.6rem;
-        width: 4.7rem;
-      }
-        
-      // ---------- Giant Egg --------- //
-      .sub-section-3-4 {
-        top: 16.2rem;
-        right: -0.1rem;
-        width: 3.9rem;
-      }
-        
+        // ---------- Giant Egg --------- //
+        .sub-section-3-4 {
+          top: 18rem;
+          right: -0.3rem;
+        }
+          
         // ---------- I'm Outta Here --------- //
         .sub-section-3-5 {
           bottom: 3.1rem;
+          left: 0.2rem;
+          width: 14.6rem;
         }
       }
-
-      // ---------- Column 4 --------- //
+      
+      //----------------- COLUMN 4 ------------------//
+      
       .south-column-4 {
-
+        
         // ---------- Painter's Museum --------- //
         .sub-section-4-1 {
-          left: 0.5rem;
+          left: 0.2rem;
         }
 
         // ---------- Private Showing --------- //
         .sub-section-4-2 {
-          top: 12.8rem;
-          left: 1.1rem;
-        }
-
-        // ---------- Roadhouse at the Full Moon --------- //
-        .sub-section-4-3 {
+          top: 13.6rem;
           left: 1rem;
-        }
-      }
-
-      //----------------- COLUMN 5 ------------------/
-    
-      .south-column-5 {
-
-        // ---------- Center Stage --------- //
-        .sub-section-5-1 {
-          left: 0.7rem;
-          width: 14rem;
+          width: 14.7rem;
         }
         
+        // ---------- Roadhouse at the Full Moon --------- //
+        .sub-section-4-3 {
+          left: 0.8rem;
+          bottom: 1.7rem;
+        }
+      }
+      
+      //----------------- COLUMN 5 ------------------/
+      
+      .south-column-5 {
+      
+        // ---------- Center Stage --------- //
+        .sub-section-5-1 {
+          top: 0.3rem;
+          width: 14.4rem;
+        }
+          
         // ---------- Conservationist --------- //
         .sub-section-5-2 {
           top: 2.2rem;
-          right: 1.9rem;
+          right: 1.8rem;
         }
-        
+
         // ---------- Spiritual Traveler --------- //
         .sub-section-5-3 {
-          top: 11.3rem;
-          width: 9.3rem;
+          top: 11.9rem;
         }
-        
+            
         // ---------- Be of Good Cheer --------- //
         .sub-section-5-4 {
-          // top: 11.3rem;
-          left: 10.5rem;
-          width: 3.3rem;
-        }
-        
-        // ---------- Years Later He Lit Up A Cigarette --------- //
-        .sub-section-5-5 {
-          top: 8.2rem;
-        }
-      
-        // ---------- Bob --------- //
-        .sub-section-5-6 {
-          top: 14.3rem;
-          left: 10.1rem;
-          width: 4.4rem;
-        }
-
-        // ---------- Questionable Moves --------- //
-        .sub-section-5-7 {
-          top: 14.3rem;
-          right: -0.5rem;
-          width: 6.9rem;
-        }
-
-      // ---------- Go Back To sea --------- //
-      .sub-section-5-8 {
-        top: 20.6rem;
-        left: 11rem;
-        width: 2.7rem;
-      }
-
-      // ---------- Dubious --------- //
-      .sub-section-5-9 {
-        top: 21rem;
-      }
-
-      // ---------- Dervish 1 --------- //
-      .sub-section-5-10 {
-        top: 21rem;
-      }
-
-      // ---------- Dervish 2 --------- //
-      .sub-section-5-11 {
-        top: 21rem;
-      }
-
-      // ---------- Helena --------- //
-      .sub-section-5-12 {
-        top: 21rem;
-        left: 7.5rem;
-      }
-
-
-        // ---------- The Soul Breaks the Deal --------- //
-        .sub-section-5-13 {
-          bottom: 1.7rem;
-          left: 2.6rem;
-        }
-
-        // ---------- Waiting for the Parting --------- //
-        .sub-section-5-14 {
-          bottom: 1rem;
-          right: 0.5rem;
-          width: 10.1rem;
-        }
-      }
-
-      //----------------- COLUMN 6 ------------------/
-
-      .south-column-6 {
-
-        // ---------- Higher --------- //
-        .sub-section-6-1 {
-          top: 1.4rem;
-          left: -0.7rem;
-          width: 15rem;
-        }
-      
-        // ---------- Oh Jesus Christ --------- //
-        .sub-section-6-2 {
-          right: -0.3rem;
-          width: 18rem;
-        }
-      }
-    }
-  }
-}
-
-// ---------------- Max-Height: 700px and Max-Width: 1370px --------------- //
-
-@media screen and (max-height: 700px) and (max-width: 1370px) {
-  .main-room-south-container {
-     margin-top: 0dvh;
-    
-    .main-room-south-grid {
-      width: 89%;
-      height: 36.8rem;
-
-      //----------------- COLUMN 2 ------------------//
-
-      .south-column-2 {
-        
-        // ---------- Meeting the Devil With My Cello --------- //
-        .sub-section-2-2 {
-          top: 13rem;
-        }
-        
-        // ----------King of Cats --------- //
-        .sub-section-2-4 {
-          top: 16.9rem;
-        }
-      
-        // ---------- Egged On --------- //
-        .sub-section-2-5 {
-          top: 16.9rem;
-        }  
-      }
-
-      //----------------- COLUMN 3 ------------------//
-    
-      .south-column-3 {
-
-        // ---------- Opera --------- //
-        .sub-section-3-2 {
-          top: 16.1rem;
-        }
-        
-        // ---------- State of the World --------- //
-        .sub-section-3-3 {
-          top: 16.5rem;
+          top: 11.9rem;
+          left: 11.1rem;
         }
           
-        // ---------- Giant Egg --------- //
-        .sub-section-3-4 {
-          top: 16.1rem;
-        }
-      }
-
-      // ---------- Column 4 --------- //
-      .south-column-4 {
-
-        // ---------- Private Showing --------- //
-        .sub-section-4-2 {
-          top: 12.65rem;
-        }
-      }
-
-      //----------------- COLUMN 5 ------------------/
-    
-      .south-column-5 {
-        
-        // ---------- Conservationist --------- //
-        .sub-section-5-2 {
-          top: 1.9rem;
-          right: 1.6rem;
-          width: 4.1rem;
-        }
-        
-        // ---------- Be of Good Cheer --------- //
-        .sub-section-5-4 {
-          left: 10.75rem;
-        }
-        
         // ---------- Years Later He Lit Up A Cigarette --------- //
         .sub-section-5-5 {
-          top: 7.9rem;
-          right: 1.6rem;
-          width: 4.1rem;
+          top: 8.5rem;
+          right: 1.8rem;
         }
-      
+        
         // ---------- Bob --------- //
         .sub-section-5-6 {
-          top: 14.2rem;
+          top: 15.1rem;
+          left: 10.5rem;
         }
-
+        
         // ---------- Questionable Moves --------- //
         .sub-section-5-7 {
-          top: 14.1rem;
+          top: 15.1rem;
+          width: 7.4rem;
+          right: -0.9rem;
         }
 
         // ---------- Go Back To sea --------- //
         .sub-section-5-8 {
-          top: 20.55rem;
-          left: 11.2rem;
+          top: 21.9rem;
+          left: 12rem;
+        }
+
+        // ---------- Dubious --------- //
+        .sub-section-5-9 {
+          top: 22.2rem;
+        }
+
+        // ---------- Dervish 1 --------- //
+        .sub-section-5-10 {
+          top: 22.2rem;
+        }
+
+        // ---------- Dervish 2 --------- //
+        .sub-section-5-11 {
+          top: 22.2rem;
+        }
+
+        // ---------- Helena --------- //
+        .sub-section-5-12 {
+          top: 22.2rem;
+        }
+
+        // ---------- The Soul Breaks the Deal --------- //
+        .sub-section-5-13 {
+          bottom: 2.4rem;
+          left: 3rem;
+        }
+
+        // ---------- Waiting for the Parting --------- //
+        .sub-section-5-14 {
+          bottom: 2.1rem;
+          right: -0.3rem;
+          width: 10.7rem;
         }
       }
 
@@ -1585,273 +954,18 @@
 
         // ---------- Higher --------- //
         .sub-section-6-1 {
-          left: -0.6rem;
+          top: 1.3rem;
         }
       
         // ---------- Oh Jesus Christ --------- //
         .sub-section-6-2 {
-          right: -0.5rem;
+          bottom: 1.7rem;
+          right: -0.9rem;
         }
       }
     }
   }
 }
-
-// ---------------- Max-Height: 780px and Max-Width: 1370px --------------- //
-
-// @media screen and (max-height: 780px) and (max-width: 1370px) {
-//   .main-room-south-container {
-    
-//     .main-room-south-grid {
-//       width: 91%;
-//       height: 37.5rem;
-//       gap: 0px;
-//       margin-top: 0rem;
-
-//       //----------------- COLUMN 2 ------------------//
-
-//       .south-column-2 {
-        
-//         // ---------- Meeting the Devil With My Cello --------- //
-//         .sub-section-2-2 {
-//           top: 13.2rem;
-//         }
-        
-//         // ---------- Retired From Bull Ring --------- //
-//         .sub-section-2-3 {
-//           width: 3.4rem;
-//         }
-        
-//         // ----------King of Cats --------- //
-//         .sub-section-2-4 {
-//           top: 17.2rem;
-//           width: 1.5rem;
-//         }
-      
-//         // ---------- Egged On --------- //
-//         .sub-section-2-5 {
-//           top: 17.2rem;
-//           width: 1.55rem;
-//         }  
-//       }
-
-//       //----------------- COLUMN 3 ------------------//
-    
-//       .south-column-3 {
-
-//         // ---------- Opera --------- //
-//         .sub-section-3-2 {
-//           top: 16.2rem;
-//           left: 0.7rem;
-//           width: 3.3rem;
-//         }
-        
-//       // ---------- State of the World --------- //
-//       .sub-section-3-3 {
-//         top: 16.6rem;
-//         width: 4.7rem;
-//       }
-        
-//       // ---------- Giant Egg --------- //
-//       .sub-section-3-4 {
-//         top: 16.2rem;
-//         right: -0.3rem;
-//         width: 3.9rem;
-//       }
-        
-//         // ---------- I'm Outta Here --------- //
-//         .sub-section-3-5 {
-//           bottom: 3.1rem;
-//         }
-//       }
-
-//       // ---------- Column 4 --------- //
-//       .south-column-4 {
-
-//         // ---------- Painter's Museum --------- //
-//         .sub-section-4-1 {
-//           left: 0.5rem;
-//         }
-
-//         // ---------- Private Showing --------- //
-//         .sub-section-4-2 {
-//           top: 12.8rem;
-//           left: 1.2rem;
-//         }
-
-//         // ---------- Roadhouse at the Full Moon --------- //
-//         .sub-section-4-3 {
-//           left: 0.9rem;
-//         }
-//       }
-
-//       //----------------- COLUMN 5 ------------------/
-    
-//       .south-column-5 {
-
-//         // ---------- Center Stage --------- //
-//         .sub-section-5-1 {
-//           left: 0.7rem;
-//           width: 13.8rem;
-//         }
-        
-//         // ---------- Conservationist --------- //
-//         .sub-section-5-2 {
-//           top: 2.3rem;
-//           right: 1.9rem;
-//         }
-        
-//         // ---------- Spiritual Traveler --------- //
-//         .sub-section-5-3 {
-//           top: 11.3rem;
-//           width: 9.3rem;
-//         }
-        
-//         // ---------- Be of Good Cheer --------- //
-//         .sub-section-5-4 {
-//           // top: 11.3rem;
-//           left: 10.5rem;
-//           width: 3.3rem;
-//         }
-        
-//         // ---------- Years Later He Lit Up A Cigarette --------- //
-//         .sub-section-5-5 {
-//           top: 8.3rem;
-//         }
-      
-//         // ---------- Bob --------- //
-//         .sub-section-5-6 {
-//           top: 14.5rem;
-//           left: 10rem;
-//           width: 4.3rem;
-//         }
-
-//         // ---------- Questionable Moves --------- //
-//         .sub-section-5-7 {
-//           top: 14.3rem;
-//           right: -0.6rem;
-//           width: 6.9rem;
-//         }
-
-//       // ---------- Go Back To sea --------- //
-//       .sub-section-5-8 {
-//         top: 20.6rem;
-//         left: 11rem;
-//         width: 2.7rem;
-//       }
-
-//       // ---------- Dubious --------- //
-//       .sub-section-5-9 {
-//         top: 21rem;
-//       }
-
-//       // ---------- Dervish 1 --------- //
-//       .sub-section-5-10 {
-//         top: 21rem;
-//       }
-
-//       // ---------- Dervish 2 --------- //
-//       .sub-section-5-11 {
-//         top: 21rem;
-//       }
-
-//       // ---------- Helena --------- //
-//       .sub-section-5-12 {
-//         top: 21rem;
-//         left: 7.5rem;
-//       }
-
-
-//         // ---------- The Soul Breaks the Deal --------- //
-//         .sub-section-5-13 {
-//           bottom: 1.7rem;
-//           left: 2.4rem;
-//         }
-
-//         // ---------- Waiting for the Parting --------- //
-//         .sub-section-5-14 {
-//           bottom: 1.2rem;
-//           right: 0.5rem;
-//           width: 10.1rem;
-//         }
-//       }
-
-//       //----------------- COLUMN 6 ------------------/
-
-//       .south-column-6 {
-      
-//         // ---------- Oh Jesus Christ --------- //
-//         .sub-section-6-2 {
-//           right: -0.4rem;
-//           width: 18.2rem;
-//         }
-//       }
-//     }
-//   }
-// }
-
-// ---------------- Max-Height: 880px and Max-Width: 1370px --------------- //
-
-// @media screen and (max-height: 880px) and (max-width: 1370px) {
-//   .main-room-south-container {
-
-//     .main-room-south-grid {
-//       width: 91.6%;
-//       height: 37.8rem;
-//       gap: 1px;
-//       margin-top: 0.4rem;
-
-//       //----------------- COLUMN 2 ------------------//
-
-//       .south-column-2 {
-
-//         // ---------- You've Gone Too far --------- //
-//         .sub-section-2-6 {
-//           left: 0rem;
-//         }  
-//       }
-
-//       // ---------- Column 4 --------- //
-//       .south-column-4 {
-
-//         // ---------- Roadhouse at the Full Moon --------- //
-//         .sub-section-4-3 {
-//           left: 0.9rem;
-//         }
-//       }
-
-//       //----------------- COLUMN 5 ------------------/
-    
-//       .south-column-5 {
-
-//         // ---------- Questionable Moves --------- //
-//         .sub-section-5-7 {
-//           right: -0.3rem;
-//         }
-      
-//         // ---------- The Soul Breaks the Deal --------- //
-//         .sub-section-5-13 {
-//           left: 2.4rem;
-//         }
-
-//         // ---------- Waiting for the Parting --------- //
-//         .sub-section-5-14 {
-//           right: 0.5rem;
-//         }
-//       }
-
-//       //----------------- COLUMN 6 ------------------/
-
-//       .south-column-6 {
-      
-//         // ---------- Oh Jesus Christ --------- //
-//         .sub-section-6-2 {
-//           right: -0.4rem;
-//         }
-//       }
-//     }
-//   }
-// }
 
 // --------------- Max-Width: 1280px ----------------- //
 

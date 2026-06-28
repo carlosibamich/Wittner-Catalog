@@ -218,41 +218,41 @@
   }
 }
 
-// ---------------- Max-Width: 1380px ---------------- //
+// ---------------- Max-Width: 1400px ---------------- //
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1400px) {
   .entry-room-container {
     
     .entry-south-grid {
-      width: 90%;
-      height: 38rem;
+      width: 87.5%;
+      height: 39rem;
+      grid-template-columns: 2fr 1fr 1.95fr;
+
+      // -------------------- Column 1 --------------------- //
 
       .entry-south-column-1 {
 
         // ---------- It's Time --------- //
         .sub-section-1-1 {
-          top: 2.6rem;
-          left: 1rem;
-          width: 15.6rem;
+          top: 2.3rem;
+          left: 1.1rem;
         }
 
         // ---------- The Neptunes Confront --------- //
         .sub-section-1-2 {
-          top: 2.2rem;
-          right: 1.9rem;
-          width: 15rem;
+          top: 1.7rem;
         }
 
         // ---------- Evan --------- //
         .sub-section-1-3 {
-          top: 19.2rem;
-          right: 0.5rem;
-          width: 4.6rem;
+          top: 20rem;
+          right: 0.7rem;
+          width: 5.5rem;
         }
 
         .window-frame {
-          top: 15.8rem;
-          left: 1rem;
+          top: 16.3rem;
+          left: 0.8rem;
         }
       }
 
@@ -262,77 +262,7 @@
 
       // ---------- Wrong Note --------- //
         .sub-section-2-1 {
-          top: 14.4rem;
-          width: 15rem;
-        }
-      }
-
-      // -------------------- Column 3 --------------------- //
-
-      .entry-south-column-3 {
-
-        // ---------- Another Arrival --------- //
-        .sub-section-3-1 {
-          top: 2rem;
-          left: 2.8rem;
-          width: 15.2rem;
-        }
-
-        // ---------- Fast Getaway --------- //
-        .sub-section-3-2 {
-          top: 2.9rem;
-          right: 2.5rem;
-          width: 12.6rem;
-        }
-
-        .window-frame {
-          top: 15.8rem;
-          right: 3rem;
-        }
-      }
-    }
-  }
-}
-
-// ---------------- Max-Width: 1370px --------------- //
-
-@media screen and (max-width: 1370px) {
-  .entry-room-container {
-    
-    .entry-south-grid {
-      width: 90%;
-      height: 35.5rem;
-
-      .entry-south-column-1 {
-
-        // ---------- It's Time --------- //
-        .sub-section-1-1 {
-          top: 2rem;
-        }
-
-        // ---------- The Neptunes Confront --------- //
-        .sub-section-1-2 {
-          top: 1.62rem;
-        }
-
-        // ---------- Evan --------- //
-        .sub-section-1-3 {
-          top: 18.4rem;
-        }
-
-        .window-frame {
-          top: 15rem;
-        }
-      }
-
-      // -------------------- Column 2 --------------------- //
-
-      .entry-south-column-2 {
-
-      // ---------- Wrong Note --------- //
-        .sub-section-2-1 {
-          top: 13.5rem;
-          width: 15.2rem;
+          top: 14.6rem;
         }
       }
 
@@ -343,17 +273,31 @@
         // ---------- Another Arrival --------- //
         .sub-section-3-1 {
           top: 1.4rem;
+          left: 2.6rem;
+          
         }
 
         // ---------- Fast Getaway --------- //
         .sub-section-3-2 {
-          top: 2.3rem;
+          top: 2.4rem;
+          right: 3rem;
         }
 
         .window-frame {
-          top: 15rem;
+          top: 16.3rem;
         }
       }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1380px ---------------- //
+
+@media screen and (max-width: 1380px) {
+  .entry-room-container {
+    
+    .entry-south-grid {
+      width: 88.3%;
     }
   }
 }

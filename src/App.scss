@@ -531,14 +531,14 @@
 
 // ---------------- Min-Height: 840px and Max-Width: 1380px --------------- //
 
-@media screen and (min-height: 840px) and (max-width: 1380px) {
+@media screen and (min-height: 820px) and (max-width: 1380px) {
   .horizontal-layout {
 
     .footer-container {
       display: block;
 
       .footer {
-        height: 11.8dvh;
+        height: 13dvh;
 
         .footer-box {
 
@@ -584,42 +584,42 @@
   }
 }
 
-// ---------------- Min-Height: 840px and Max-Width: 1370px --------------- //
+// ---------------- Min-Height: 820px and Max-Width: 1370px --------------- //
 
-@media screen and (min-height: 840px) and (max-width: 1370px) {
+@media screen and (min-height: 820px) and (max-width: 1370px) {
   .horizontal-layout {
 
     .footer-container {
       display: block;
 
       .footer {
-        height: 12.5dvh;
+        height: 13.5dvh;
 
         .footer-box {
 
           .logo {
-            height: 4.2rem;
+            height: 4.6rem;
           }
     
           .copyrights {
 
             .copyright {
-              font-size: 1.8rem;
+              font-size: 1.9rem;
             }
             
             p {
-              font-size: 1.16rem;
+              font-size: 1.2rem;
             }     
           }
     
           .address {
           
             p {
-              font-size: 1.16rem;
+              font-size: 1.2rem;
             }
 
             .rocket {
-              font-size: 1.75rem;
+              font-size: 1.9rem;
             }
           }
         }

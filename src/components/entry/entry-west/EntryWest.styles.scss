@@ -221,15 +221,14 @@
   }
 }
 
-// ---------------- Max-Width: 1380px ---------------- //
+// ---------------- Max-Width: 1400px ---------------- //
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1400px) {
   .entry-room-container {
 
     .entry-west-grid {
-      width: 88%;
-      height: 38rem;
-      grid-template: 14.2rem 23.8rem / repeat(5, 1fr);
+      height: 39rem;
+      grid-template: 15.2rem 23.8rem / repeat(5, 1fr);
 
       // -------------------- Column 1 --------------------- //
 
@@ -238,8 +237,8 @@
       // ---------- Arrival Through the Black Hole --------- //
         .sub-section-1-1 {
           top: 0rem;
-          left: 2.3rem;
-          width: 15.7rem;
+          left: 2rem;
+          width: 17.6rem;
         }
       }
 
@@ -249,22 +248,22 @@
 
         // ---------- Fast Getaway --------- //
         .sub-section-2-1 {
-          top: 0.9rem;
-          left: 2.5rem;
-          width: 13rem;
+          top: 1.2rem;
+          left: 3.1rem;
+          width: 14.5rem;
         }
       }
 
       // -------------------- Column 3 --------------------- //
 
-      .entry-west-column-3 {
+    .entry-west-column-3 {
 
-        // ---------- Moving the Spotlight --------- //
-        .sub-section-3-1 {
-          top: 0rem;
-          width: 12.4rem;
-        }
+      // ---------- Moving the Spotlight --------- //
+      .sub-section-3-1 {
+        top: 0.4rem;
+        width: 13.4rem;
       }
+    }
 
       // -------------------- Column 4 --------------------- //
 
@@ -272,8 +271,9 @@
 
         // ---------- Art --------- //
         .sub-section-4-1 {
-          right: 4.9rem;
-          width: 10.3rem;
+          top: 0rem;
+          right: 5.5rem;
+          width: 11.4rem;
         }
       }
 
@@ -284,22 +284,20 @@
         // ---------- Mother's Turn --------- //
         .sub-section-5-1 {
           right: 4.5rem;
-          width: 14.7rem;
+          width: 16.1rem;
         }
       }
     }
   }
 }
 
-// ---------------- Max-Width: 1370px --------------- //
+// ---------------- Max-Width: 1380px ---------------- //
 
-@media screen and (max-width: 1370px) {
+@media screen and (max-width: 1380px) {
   .entry-room-container {
 
     .entry-west-grid {
-      // width: 88%;
-      height: 35.8rem;
-      grid-template-rows: 13.7rem 22.1rem;
+      width: 85.7%;
     }
   }
 }

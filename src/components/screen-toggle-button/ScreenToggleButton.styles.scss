@@ -66,31 +66,6 @@ button.toggle-box {
   }
 }
 
-// ---------------- Max-Width: 1380px ---------------- //
-
-@media screen and (max-width: 1380px) {
-  button.toggle-box {
-
-    .screen-toggle {
-      width: 9rem;
-
-      .screen-icon {
-        width: 3rem;
-        font-size: 2.6rem;
-      }
-
-      .screen-text {
-        width: 6rem;
-
-        p {
-          font-size: 1.12rem;
-          line-height: 1.3rem;
-        }
-      }
-    }
-  }
-}
-
 // ---------------- Max-Height: 690px ---------------- //
 
 @media screen and (max-height: 690px) {
@@ -126,27 +101,75 @@ button.toggle-box {
   }
 }
 
-// ---------------- Max-Height: 690px and Max-Width: 1380px ---------------- //
-
-@media screen and (max-height: 690px) and (max-width: 1380px) {
+@media screen and (max-height: 690px) and (max-width: 1400px) {
   button.toggle-box {
 
     .screen-toggle {
-      width: 9rem;
+      width: 11rem;
 
       .screen-icon {
-        width: 3rem;
-        font-size: 2.58rem;
+        width: 3.4rem;
+        font-size: 2.8rem;
       }
 
       .screen-text {
-        width: 6rem;
+        width: 7.6rem;
 
         p {
-          font-size: 1.15rem;
-          line-height: 1.2rem;
+          font-size: 1.41rem;
+          line-height: 1.3rem;
         }
       }
     }
   }
 }
+
+// ---------------- Max-Width: 1380px ---------------- //
+
+// @media screen and (max-width: 1380px) {
+//   button.toggle-box {
+
+//     .screen-toggle {
+//       width: 9rem;
+
+//       .screen-icon {
+//         width: 3rem;
+//         font-size: 2.6rem;
+//       }
+
+//       .screen-text {
+//         width: 6rem;
+
+//         p {
+//           font-size: 1.12rem;
+//           line-height: 1.3rem;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// ---------------- Max-Height: 690px and Max-Width: 1380px ---------------- //
+
+// @media screen and (max-height: 690px) and (max-width: 1380px) {
+//   button.toggle-box {
+
+//     .screen-toggle {
+//       width: 11rem;
+
+//       .screen-icon {
+//         width: 3.4rem;
+//         font-size: 2.8rem;
+//       }
+
+//       .screen-text {
+//         width: 7.6rem;
+
+//         p {
+//           font-size: 1.41rem;
+//           line-height: 1.3rem;
+//         }
+//       }
+//     }
+//   }
+// }

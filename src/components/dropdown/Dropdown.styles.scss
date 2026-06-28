@@ -175,7 +175,7 @@
 //   }
 // }
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1440px) {
   .mobile-menu-container {
 
     .burger-menu-box {
@@ -183,7 +183,7 @@
       .menu-word-box {
 
         p {
-          font-size: 1.3rem;
+          font-size: 1.58rem;
         }
       }
     }
@@ -195,8 +195,34 @@
       }
 
       .menu-option {
-        font-size: 1.5rem;
+        font-size: 1.55rem;
       }
     }
   }
 }
+
+// @media screen and (max-width: 1400px) {
+//   .mobile-menu-container {
+
+//     .burger-menu-box {
+
+//       .menu-word-box {
+
+//         p {
+//           font-size: 1.58rem;
+//         }
+//       }
+//     }
+
+//     .dropdown-menu {
+
+//       .spacer {
+//         height: 20.5dvh;
+//       }
+
+//       .menu-option {
+//         font-size: 1.55rem;
+//       }
+//     }
+//   }
+// }
