@@ -254,97 +254,97 @@
 
 // --------------- Max-Width: 1280px ----------------- //
 
-@media (max-width: 1280px) {
-  .main-room-west-container {
-    margin-top: 0dvh;
+// @media (max-width: 1280px) {
+//   .main-room-west-container {
+//     margin-top: 0dvh;
 
-    .main-room-west-grid {
-      width: 84%;
-      height: 36rem;
-      grid-template-rows: 13.2rem 22.8rem;
+//     .main-room-west-grid {
+//       width: 84%;
+//       height: 36rem;
+//       grid-template-rows: 13.2rem 22.8rem;
 
-      // -------------------- Column 1 --------------------- //
+//       // -------------------- Column 1 --------------------- //
 
-      .west-column-1 {
+//       .west-column-1 {
 
-        // ---------- Probed --------- //
-        .sub-section-1-1 {
-          left: 3rem;
-          width: 9.8rem;
-        }
-      }
+//         // ---------- Probed --------- //
+//         .sub-section-1-1 {
+//           left: 3rem;
+//           width: 9.8rem;
+//         }
+//       }
 
-      // -------------------- Column 2 --------------------- //
+//       // -------------------- Column 2 --------------------- //
 
-      .west-column-2 {
+//       .west-column-2 {
 
-      // ---------- Playing for the Devil's Ring --------- //
-        .sub-section-2-1 {
-          left: -0.2rem;
-          width: 14.9rem;
-        }
-      }
+//       // ---------- Playing for the Devil's Ring --------- //
+//         .sub-section-2-1 {
+//           left: -0.2rem;
+//           width: 14.9rem;
+//         }
+//       }
 
-      // -------------------- Column 3 --------------------- //
+//       // -------------------- Column 3 --------------------- //
       
-      .west-column-3 {
-        .exit-sign-container {
-          top: 10.1rem;
-          left: 6.8rem;
-        }
+//       .west-column-3 {
+//         .exit-sign-container {
+//           top: 10.1rem;
+//           left: 6.8rem;
+//         }
 
-        // ---------- Another Day at the Beach --------- //
-        .sub-section-3-1 {
-          width: 12.5rem;
-        }
-      }
+//         // ---------- Another Day at the Beach --------- //
+//         .sub-section-3-1 {
+//           width: 12.5rem;
+//         }
+//       }
 
-      // -------------------- Column 4 --------------------- //
+//       // -------------------- Column 4 --------------------- //
 
-      .west-column-4 {
+//       .west-column-4 {
 
-        // ---------- Mutiny --------- //
-        .sub-section-4-1 {
-          right: -0.9rem;
-          width: 15.7rem;
-        }
-      }
+//         // ---------- Mutiny --------- //
+//         .sub-section-4-1 {
+//           right: -0.9rem;
+//           width: 15.7rem;
+//         }
+//       }
 
-      // -------------------- Column 5 --------------------- //
+//       // -------------------- Column 5 --------------------- //
 
-      .west-column-5 {
+//       .west-column-5 {
 
-        // ---------- Catch and Release --------- //
-        .sub-section-5-1 {
-          right: 2.4rem;
-          width: 9.7rem;
-        }
-      }
+//         // ---------- Catch and Release --------- //
+//         .sub-section-5-1 {
+//           right: 2.4rem;
+//           width: 9.7rem;
+//         }
+//       }
 
-      // -------------------- Column 6 --------------------- //
+//       // -------------------- Column 6 --------------------- //
 
-      .west-column-6 {
+//       .west-column-6 {
 
-        .window-frame {
-          left: 0.6rem;
-        }
-      }
+//         .window-frame {
+//           left: 0.6rem;
+//         }
+//       }
 
-      // -------------------- Column 7 --------------------- //
+//       // -------------------- Column 7 --------------------- //
 
-      // Door Frame Styles applied globally in index.scss //
+//       // Door Frame Styles applied globally in index.scss //
     
-      // -------------------- Column 8 --------------------- //
+//       // -------------------- Column 8 --------------------- //
 
-      .west-column-8 {
+//       .west-column-8 {
 
-        .window-frame {
-          right: 0.6rem;
-        }
-      }
-    }
-  }
-}
+//         .window-frame {
+//           right: 0.6rem;
+//         }
+//       }
+//     }
+//   }
+// }
 
 // --------------- Max-Width: 1220px ----------------- //
 

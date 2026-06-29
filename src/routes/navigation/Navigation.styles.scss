@@ -912,7 +912,7 @@
   .navigation-container {
   
     .navigation {
-      width: 87.5rem;
+      width: 87.9rem;
 
       .logo-container {
         max-width: 13.2rem;
@@ -920,7 +920,7 @@
       }
 
       .nav-center {
-        width: 57rem;
+        width: 58rem;
       }
 
       .svgs-container {
@@ -946,9 +946,9 @@
   }
 }
 
-// -------------- Min-Height: 745px and Max-Width: 1400px -------------- //
+// -------------- Min-Height: 755px and Max-Width: 1400px -------------- //
 
-@media screen and (min-height: 745px) and (max-width: 1400px) {
+@media screen and (min-height: 755px) and (max-width: 1400px) {
   .navigation-container {
     height: 10dvh;
   
@@ -1168,27 +1168,27 @@
 
 // -------------- Max-Width 1280px -------------- //
 
-@media screen and (max-width: 1280px) {
-  .navigation-container {
+// @media screen and (max-width: 1280px) {
+//   .navigation-container {
 
-    .navigation {
-      width: 79.5rem;
+//     .navigation {
+//       width: 79.5rem;
 
-      .logo-container {
-        width: 12rem;
-        padding-top: 4.8dvh;
-      }
+//       .logo-container {
+//         width: 12rem;
+//         padding-top: 4.8dvh;
+//       }
 
-      .nav-center {
-        width: 52.5rem;
-      }
+//       .nav-center {
+//         width: 52.5rem;
+//       }
 
-      .svgs-container {
-        padding-top: 4.8dvh;
-      }
-    }
-  }
-}
+//       .svgs-container {
+//         padding-top: 4.8dvh;
+//       }
+//     }
+//   }
+// }
 
 // --------------- Min-Height: 700px and Max-Width 1280px ---------------- //
 
@@ -1227,9 +1227,9 @@
   }
 }
 
-// --------------- Min-Height: 910px and Max-Width 1280px ---------------- //
+// --------------- Min-Height: 850px and Max-Width 1280px ---------------- //
 
-@media screen and (min-height: 910px) and (max-width: 1280px) {
+@media screen and (min-height: 850px) and (max-width: 1280px) {
   .navigation-container {
 
     .navigation {

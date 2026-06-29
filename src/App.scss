@@ -641,32 +641,40 @@
 
 // ---------------- Min-Height: 770px and Max-Width: 1280px --------------- //
 
-@media screen and (min-height: 770px) and (max-width: 1280px) {
+@media screen and (min-height: 750px) and (max-width: 1280px) {
   .horizontal-layout {
 
     .footer-container {
       display: block;
 
       .footer {
-        height: 13dvh;
+        height: 14dvh;
 
         .footer-box {
 
           .logo {
-            height: 4.4rem;
+            height: 4.7rem;
           }
 
           .copyrights {
+
+            .copyright {
+              font-size: 2.2rem;
+            }
     
             p {
-              font-size: 1.2rem;
+              font-size: 1.28rem;
             }
           }
 
           .address {
     
             p {
-              font-size: 1.2rem;
+              font-size: 1.28rem;
+            }
+
+            .rocket {
+              font-size: 2.1rem;
             }
           }
         }

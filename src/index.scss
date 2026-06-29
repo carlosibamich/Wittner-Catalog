@@ -966,6 +966,16 @@ div.carousel-container {
   div.carousel-container {
     .controls {
       margin-bottom: 2.8dvh;
+
+      .arrow {
+        // padding-bottom: 0.5rem;
+        font-size: 2rem;
+      }
+
+      .page-button {
+        margin: 0 1.23rem;
+        font-size: 1.37rem;
+      }
     }
   }
 }
@@ -1485,9 +1495,9 @@ div.carousel-container {
 
 // --------------- Max-Width 1348px ---------------- //
 
-@media screen and (max-width: 1348px) {
+@media screen and (max-width: 1350px) {
   html {
-    font-size: 84.25%;
+    font-size: 75.8%;
   }
 }
 
@@ -1495,7 +1505,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1325px) {
   html {
-    font-size: 85%;
+    font-size: 74.1%;
   }
 }
 
@@ -1503,7 +1513,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1303px) {
   html {
-    font-size: 83.5%;
+    font-size: 72.9%;
   }
 }
 
@@ -1511,87 +1521,118 @@ div.carousel-container {
 
 @media screen and (max-width: 1280px) {
   html {
-    font-size: 82%;
+    font-size: 71.5%;
   }
 
-  /* ----------- Exit Sign Styles ------------- */
+  div.carousel-container {
 
-  .exit-sign-container {
+    .controls {
 
-      .exit-sign {
-        width: 3.4rem;
-        height: 2.2rem;
-        font-size: 1.3rem;
-        font-weight: 800;
+      .page-button {
+        margin: 0 1.1rem;
+        font-size: 1.43rem;
       }
+    }
   }
+}
 
-  /* ----------- Carousel Styles ------------- */
+// --------------- Max-Width 1280px ---------------- //
 
+// @media screen and (max-width: 1280px) {
+//   html {
+//     // font-size: 82%;
+//     font-size: 71.4%;
+//   }
+
+//   /* ----------- Exit Sign Styles ------------- */
+
+//   .exit-sign-container {
+
+//       .exit-sign {
+//         width: 3.4rem;
+//         height: 2.2rem;
+//         font-size: 1.3rem;
+//         font-weight: 800;
+//       }
+//   }
+
+//   /* ----------- Carousel Styles ------------- */
+
+//   div.carousel-container {  
+
+//     .controls {
+//       margin-bottom: 4.2dvh;
+
+//       .page-button {
+//         font-size: 1.26rem;
+//       }
+//     }
+//   }
+
+//   /* --------- Windows --------- */
+//   .window-frame {
+//     width: 29rem;
+//     height: 19.6rem;
+
+//     .window-pane {
+//       bottom: 0.6rem;
+//       width: 13.6rem;
+//       height: 18.4rem;
+//     }
+
+//     .pane-left {
+//       left: 0.6rem;
+//     }
+
+//     .pane-right {
+//       right: 0.6rem;
+//     }
+//   }
+
+//   /* --------- Grey Entrance/Exit Door Styles --------- */
+
+//   .door-frame-container {
+
+//     .door-frame {
+//       width: 17rem;
+//       height: 22.6rem;
+
+//       .door-window-pane-top {
+//         top: 0.6rem;
+//         left: 0.6rem;
+//         width: 15.8rem;
+//         height: 2.6rem;
+//       }
+
+//       .door-window-pane-left {
+//         bottom: 0.7rem;
+//         left: 0.6rem;
+//         width: 7.6rem;
+//         height: 18.2rem;
+//       }
+
+//       .door-window-pane-right {
+//         bottom: 0.7rem;
+//         right: 0.6rem;
+//         width: 7.6rem;
+//         height: 18.2rem;
+//       }
+
+//       .door-crossbar {
+//         bottom: 9.4rem;
+//         width: 17rem;
+//       }
+//     }
+//   }
+// }
+
+// --------------- Max-Height: 649px and Max-Width 1280px ---------------- //
+
+@media screen and (max-height: 649px) and (max-width: 1280px) {
   div.carousel-container {  
 
     .controls {
-      margin-bottom: 4.2dvh;
-
-      .page-button {
-        font-size: 1.26rem;
-      }
-    }
-  }
-
-  /* --------- Windows --------- */
-  .window-frame {
-    width: 29rem;
-    height: 19.6rem;
-
-    .window-pane {
-      bottom: 0.6rem;
-      width: 13.6rem;
-      height: 18.4rem;
-    }
-
-    .pane-left {
-      left: 0.6rem;
-    }
-
-    .pane-right {
-      right: 0.6rem;
-    }
-  }
-
-  /* --------- Grey Entrance/Exit Door Styles --------- */
-
-  .door-frame-container {
-
-    .door-frame {
-      width: 17rem;
-      height: 22.6rem;
-
-      .door-window-pane-top {
-        top: 0.6rem;
-        left: 0.6rem;
-        width: 15.8rem;
-        height: 2.6rem;
-      }
-
-      .door-window-pane-left {
-        bottom: 0.7rem;
-        left: 0.6rem;
-        width: 7.6rem;
-        height: 18.2rem;
-      }
-
-      .door-window-pane-right {
-        bottom: 0.7rem;
-        right: 0.6rem;
-        width: 7.6rem;
-        height: 18.2rem;
-      }
-
-      .door-crossbar {
-        bottom: 9.4rem;
-        width: 17rem;
-      }
+      margin-bottom: 4.4dvh;
     }
   }
 }
@@ -1602,27 +1643,68 @@ div.carousel-container {
   div.carousel-container {  
 
     .controls {
-      margin-bottom: 5.5dvh;
+      margin-bottom: 7.4dvh;
     }
   }
 }
 
-// --------------- Min-Height: 900px and Max-Width 1280px ---------------- //
+// --------------- Min-Height: 691px and Max-Width 1280px ---------------- //
 
-@media screen and (min-height: 900px) and (max-width: 1280px) {
+@media screen and (min-height: 691px) and (max-width: 1280px) {
   div.carousel-container {  
 
     .controls {
-      margin-bottom: 6.8dvh;
+      margin-bottom: 6.5dvh;
     }
   }
 }
 
-// --------------- Max-Width 1250px ---------------- //
+// --------------- Min-Height: 750px and Max-Width 1280px ---------------- //
 
-@media screen and (max-width: 1250px) {
+@media screen and (min-height: 750px) and (max-width: 1280px) {
+  div.carousel-container {  
+
+    .controls {
+      margin-bottom: 4dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 780px and Max-Width 1280px ---------------- //
+
+@media screen and (min-height: 780px) and (max-width: 1280px) {
+  div.carousel-container {  
+
+    .controls {
+      margin-bottom: 5.2dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 860px and Max-Width 1280px ---------------- //
+
+@media screen and (min-height: 860px) and (max-width: 1280px) {
+  div.carousel-container {  
+
+    .controls {
+      margin-bottom: 7.3dvh;
+    }
+  }
+}
+
+// --------------- Max-Width 1260px ---------------- //
+
+@media screen and (max-width: 1260px) {
   html {
-    font-size: 80.5%;
+    font-size: 71%;
+  }
+}
+
+// --------------- Max-Width 1240px ---------------- //
+
+@media screen and (max-width: 1240px) {
+  html {
+    font-size: 70%;
   }
 }
 
