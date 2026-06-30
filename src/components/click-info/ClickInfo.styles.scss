@@ -740,30 +740,26 @@
     bottom: 0dvh;
 
     .click-info {
-      height: 11.6dvh;
+      height: 11dvh;
 
       .fish {
-        font-size: 1.9rem;
+        font-size: 2rem;
       }
 
       p {
-        font-size: 1.55rem;
+        font-size: 1.9rem;
       }
-    }
-
-    .color-base {
-      display: none;
     }
   }
 }
 
-// ---------------- Min-Height: 640px and Max-Width: 1220px --------------- //
+// ---------------- Min-Height: 630px and Max-Width: 1220px --------------- //
 
-@media screen and (min-height: 640px) and (max-width: 1220px) {
+@media screen and (min-height: 630px) and (max-width: 1220px) {
   .click-info-container {
 
     .click-info {
-      height: 15dvh;
+      height: 16dvh;
     }
   }
 }
@@ -772,7 +768,7 @@
 
 @media screen and (min-height: 725px) and (max-width: 1220px) {
   .click-info-container {
-    bottom: 12dvh;
+    bottom: 13.5dvh;
 
     .click-info {
       height: 6.5dvh;
@@ -784,29 +780,24 @@
   }
 }
 
-// ---------------- Min-Height: 745px and Max-Width: 1220px --------------- //
-
-@media screen and (min-height: 745px) and (max-width: 1220px) {
-  .click-info-container {
-    bottom: 12.8dvh;
-  }
-}
-
 // ----------------- Max-Width 1200px ----------------- //
 
 @media screen and (max-width: 1200px) {
   .click-info-container {
 
     .click-info {
-      height: 11dvh;
+      height: 11.5dvh;
+    }
+  }
+}
 
-      .line {
-        width: 17.5rem;
-      }
+// ----------------- Min-Height: 650px and Max-Width 1200px ----------------- //
 
-      p {
-        font-size: 1.55rem;
-      }
+@media screen and (min-height: 650px) and (max-width: 1200px) {
+  .click-info-container {
+
+    .click-info {
+      height: 16dvh;
     }
   }
 }
@@ -815,28 +806,23 @@
 
 @media screen and (min-height: 725px) and (max-width: 1200px) {
   .click-info-container {
-    bottom: 12.5dvh;
+    bottom: 13.5dvh;
 
     .click-info {
-      height: 6.5dvh;
+      height: 6.8dvh;
     }
   }
 }
 
-// ----------------- Max-Width 1185px ----------------- //
+// ----------------- Max-Width 1180px ----------------- //
 
-@media screen and (max-width: 1185px) {
+@media screen and (max-width: 1180px) {
   .click-info-container {
 
     .click-info {
-      height: 10.8dvh;
-
-      .fish {
-        font-size: 1.75rem;
-      }
 
       p {
-        font-size: 1.5rem;
+        font-size: 1.98rem;
       }
     }
   }
@@ -844,14 +830,14 @@
 
 // ----------------- Min-Height: 720px and Max-Width 1185px ----------------- //
 
-@media screen and (min-height: 720px) and (max-width: 1185px) {
-  .click-info-container {
+// @media screen and (min-height: 720px) and (max-width: 1185px) {
+//   .click-info-container {
 
-    .click-info {
-      height: 7.2dvh;
-    }
-  }
-}
+//     .click-info {
+//       height: 7.2dvh;
+//     }
+//   }
+// }
 
 // ----------------- Max-Width 1140px ----------------- //
 
@@ -866,14 +852,38 @@
   }
 }
 
-// ----------------- Min-Height: 690px and Max-Width 1140px ----------------- //
+// ----------------- Min-Height: 5900px and Max-Width 1140px ----------------- //
 
-@media screen and (min-height: 690px) and (max-width: 1140px) {
+@media screen and (min-height: 590px) and (max-width: 1140px) {
   .click-info-container {
-    bottom: 12.5dvh;
+    // bottom: 13.8dvh;
 
     .click-info {
-      height: 5.8dvh;
+      height: 16dvh;
+    }
+  }
+}
+
+// ----------------- Min-Height: 660px and Max-Width 1140px ----------------- //
+
+@media screen and (min-height: 660px) and (max-width: 1140px) {
+  .click-info-container {
+    // bottom: 13.8dvh;
+
+    .click-info {
+      height: 19dvh;
+    }
+  }
+}
+
+// ----------------- Min-Height: 691px and Max-Width 1140px ----------------- //
+
+@media screen and (min-height: 691px) and (max-width: 1140px) {
+  .click-info-container {
+    bottom: 13.8dvh;
+
+    .click-info {
+      height: 7dvh;
     }
   }
 }
@@ -889,7 +899,7 @@
       // border-bottom: 1px solid var(--dark-grey);
 
       .fish {
-        font-size: 1.78rem;
+        font-size: 2.15rem;
       }
 
       .line {
@@ -897,7 +907,7 @@
       }
 
       p {
-        font-size: 1.6rem;
+        font-size: 2.05rem;
       }
     }
   }
@@ -905,15 +915,15 @@
 
 // ----------------- Min-Height: 630px and Max-Width 1040px ----------------- //
 
-@media screen and (min-height: 630px) and (max-width: 1040px) {
-  .click-info-container {
-    bottom: 13.5dvh;
+// @media screen and (min-height: 630px) and (max-width: 1040px) {
+//   .click-info-container {
+//     bottom: 13.5dvh;
 
-    .click-info {
-      height: 6dvh;
-    }
-  }
-}
+//     .click-info {
+//       height: 6dvh;
+//     }
+//   }
+// }
 
 // ---------------- Max-Width: 1035px --------------- //
 
@@ -963,53 +973,10 @@
   }
 }
 
-// ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
 
-// @media screen and (max-height: 780px) and (max-width: 1035px) {
-//   .click-info-container {
-//     bottom: 15dvh;
 
-//     .click-info {
-//       height: 6.8dvh;
 
-//       .fish {
-//         font-size: 2rem;
-//       }
 
-//       .line {
-//         width: 17.5rem;
-//       }
-
-//       p {
-//         font-size: 1.65rem;
-//       }
-//     }
-//   }
-// }
-
-// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
-
-// @media screen and (max-height: 700px) and (max-width: 1035px) {
-//   .click-info-container {
-//     bottom: 12.8dvh;
-
-//     .click-info {
-//       // height: 6.8dvh;
-
-//       .fish {
-//         font-size: 1.9rem;
-//       }
-
-//       .line {
-//         width: 17.5rem;
-//       }
-
-//       p {
-//         font-size: 1.53rem;
-//       }
-//     }
-//   }
-// }
 
 // ----------------- Max-Width 998px ----------------- //
 

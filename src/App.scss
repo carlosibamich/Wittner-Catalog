@@ -703,33 +703,33 @@
       display: block;
 
       .footer {
-        height: 12dvh;
+        height: 13.5dvh;
 
         .footer-box {
 
           .logo {
-            height: 3.9rem;
+            height: 4.48rem;
           }
 
           .copyrights {
 
             .copyright {
-              font-size: 1.9rem;
+              font-size: 2rem;
             }
     
             p {
-              font-size: 1.15rem;
+              font-size: 1.25rem;
             }
           }
 
           .address {
     
             p {
-              font-size: 1.15rem;
+              font-size: 1.25rem;
             }
 
             .rocket {
-              font-size: 1.9rem;
+              font-size: 2rem;
             }
           }
         }
@@ -738,15 +738,43 @@
   }
 }
 
-// ---------------- Min-Height: 745px and Max-Width: 1220px --------------- //
+// ---------------- Min-Height: 780px and Max-Width: 1220px --------------- //
 
-@media screen and (min-height: 745px) and (max-width: 1220px) {
+@media screen and (min-height: 780px) and (max-width: 1220px) {
   .horizontal-layout {
 
     .footer-container {
 
       .footer {
-        height: 12.8dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 4.75rem;
+          }
+
+          .copyrights {
+
+            .copyright {
+              font-size: 2.2rem;
+            }
+    
+            p {
+              font-size: 1.3rem;
+            }
+          }
+
+          .address {
+    
+            p {
+              font-size: 1.3rem;
+            }
+
+            .rocket {
+              font-size: 2.2rem;
+            }
+          }
+        }
       }
     }
   }
@@ -763,43 +791,43 @@
   }
 }
 
-// ---------------- Min-Height: 690px and Max-Width: 1140px --------------- //
+// ---------------- Min-Height: 691px and Max-Width: 1140px --------------- //
 
-@media screen and (min-height: 690px) and (max-width: 1140px) {
+@media screen and (min-height: 691px) and (max-width: 1140px) {
   .horizontal-layout {
 
     .footer-container {
       display: block;
 
       .footer {
-        height: 12.5dvh;
+        height: 13.8dvh;
 
         .footer-box {
           width: 98%;
 
           .logo {
-            height: 4.2rem;
+            height: 4.75rem;
           }
   
           .copyrights {
 
             .copyright {
-              font-size: 1.97rem;
+              font-size: 2.23rem;
             }
           
             p {
-              font-size: 1.12rem;
+              font-size: 1.3rem;
             }     
           }
   
           .address {
         
             p {
-              font-size: 1.12rem;
+              font-size: 1.3rem;
             }
 
             .rocket {
-              font-size: 1.7rem;
+              font-size: 2rem;
             }
           }
         }

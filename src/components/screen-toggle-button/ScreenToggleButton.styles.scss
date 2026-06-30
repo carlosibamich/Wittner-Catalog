@@ -173,3 +173,80 @@ button.toggle-box {
 //     }
 //   }
 // }
+
+// ---------------- Max-Width: 1280px ---------------- //
+
+@media screen and (max-width: 1280px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      width: 10rem;
+
+      .screen-icon {
+        width: 3.3rem;
+        font-size: 3.1rem;
+      }
+
+      .screen-text {
+        width: 6.7rem;
+
+        p {
+          font-size: 1.3rem;
+          line-height: 1.36rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1180px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1240px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      width: 11.7rem;
+      height: 3.4rem;
+
+      .screen-icon {
+        width: 3.4rem;
+        font-size: 3.15rem;
+      }
+
+      .screen-text {
+        width: 8.3rem;
+
+        p {
+          font-size: 1.47rem;
+          line-height: 1.45rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1180px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1140px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      width: 12rem;
+      height: 3.5rem;
+
+      .screen-icon {
+        width: 3.5rem;
+        font-size: 3.5rem;
+      }
+
+      .screen-text {
+        width: 8.5rem;
+
+        p {
+          font-size: 1.6rem;
+          line-height: 1.58rem;
+        }
+      }
+    }
+  }
+}

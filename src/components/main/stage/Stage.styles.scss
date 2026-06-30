@@ -860,241 +860,241 @@
 
 // -------------------- Max-Width: 1220px --------------------- //
 
-@media screen and (max-width: 1220px) {
-  .main-room-stage-container {
+// @media screen and (max-width: 1220px) {
+//   .main-room-stage-container {
 
-    .main-room-stage-grid {
-      // width: 92%;
-      // height: 35rem;
-      // grid-template-rows: 27.8rem 7.2rem;
-      grid-template: 27.8rem 7.2rem / 1.6fr 6.3fr 3.45fr 5.35fr 1.3fr;
+//     .main-room-stage-grid {
+//       // width: 92%;
+//       // height: 35rem;
+//       // grid-template-rows: 27.8rem 7.2rem;
+//       grid-template: 27.8rem 7.2rem / 1.6fr 6.3fr 3.45fr 5.35fr 1.3fr;
 
-      //----------------- COLUMN 1 ------------------//
+//       //----------------- COLUMN 1 ------------------//
 
-      .stage-column-1 {
+//       .stage-column-1 {
 
-        .past-behind-container {
-          height: 38%;
+//         .past-behind-container {
+//           height: 38%;
 
-          // ---------- Leave Past Behind --------- //
-          .sub-section-1-1 {
-            width: 7.4rem;
-            margin-left: -0.3rem;
-          }
-        }
+//           // ---------- Leave Past Behind --------- //
+//           .sub-section-1-1 {
+//             width: 7.4rem;
+//             margin-left: -0.3rem;
+//           }
+//         }
 
-        .north-exit-container {
-          height: 62%;
-        }
-      }
+//         .north-exit-container {
+//           height: 62%;
+//         }
+//       }
 
-      //----------------- COLUMN 2 ------------------//
+//       //----------------- COLUMN 2 ------------------//
     
-      .stage-column-2 {
+//       .stage-column-2 {
 
-        // ---------- Sad --------- //
-        .sub-section-2-1 {
-          top: 2.9rem;
-          left: 1.1rem;
-          width: 2.1rem;
-        }
+//         // ---------- Sad --------- //
+//         .sub-section-2-1 {
+//           top: 2.9rem;
+//           left: 1.1rem;
+//           width: 2.1rem;
+//         }
         
-        // ---------- Between Two Planets --------- //
-        .sub-section-2-2 {
-          top: 2.9rem;
-          left: 4.35rem;
-          width: 2.6rem;
-        }
+//         // ---------- Between Two Planets --------- //
+//         .sub-section-2-2 {
+//           top: 2.9rem;
+//           left: 4.35rem;
+//           width: 2.6rem;
+//         }
         
-        // ---------- Untitled 92 --------- //
-        .sub-section-2-3 {
-          top: 2.9rem;
-          left: 8rem;
-          width: 2.2rem;
-        }
+//         // ---------- Untitled 92 --------- //
+//         .sub-section-2-3 {
+//           top: 2.9rem;
+//           left: 8rem;
+//           width: 2.2rem;
+//         }
         
-        // ---------- Different Realities --------- //
-        .sub-section-2-4 {
-          top: 8.5rem;
-          left: 1.1rem;
-          width: 9.3rem;
-        }
+//         // ---------- Different Realities --------- //
+//         .sub-section-2-4 {
+//           top: 8.5rem;
+//           left: 1.1rem;
+//           width: 9.3rem;
+//         }
       
-        // ---------- River Styx --------- //
-        .sub-section-2-5 {
-          top: 1rem;
-          right: 5.9rem;
-          width: 10.8rem;
-        }
+//         // ---------- River Styx --------- //
+//         .sub-section-2-5 {
+//           top: 1rem;
+//           right: 5.9rem;
+//           width: 10.8rem;
+//         }
 
-        // ---------- Dorothy --------- //
-        .sub-section-2-6 {
-          // top: 14rem;
-          right: 0.4rem;
-          width: 3rem;
-        }
+//         // ---------- Dorothy --------- //
+//         .sub-section-2-6 {
+//           // top: 14rem;
+//           right: 0.4rem;
+//           width: 3rem;
+//         }
 
-        .alcove-entrance-container {
-          top: 10.6rem;
-          right: 4rem;
-          width: 14.4rem;
+//         .alcove-entrance-container {
+//           top: 10.6rem;
+//           right: 4rem;
+//           width: 14.4rem;
 
-          .alcove-entrance {
+//           .alcove-entrance {
           
-            // ------------ Safe travel ------------ //
-            .sub-section-2-13 {
-              right: 5.2rem;
-            }
-          }
-        }
-      }
+//             // ------------ Safe travel ------------ //
+//             .sub-section-2-13 {
+//               right: 5.2rem;
+//             }
+//           }
+//         }
+//       }
     
-      //----------------- COLUMN 3 ------------------//
+//       //----------------- COLUMN 3 ------------------//
     
-      .stage-column-3 {
+//       .stage-column-3 {
       
-        // ---------- Sunny Side Up --------- //
-        .sub-section-3-1 {
-          top: 4.1rem;
-          width: 14.7rem;
-        }
-      }
+//         // ---------- Sunny Side Up --------- //
+//         .sub-section-3-1 {
+//           top: 4.1rem;
+//           width: 14.7rem;
+//         }
+//       }
     
-      //----------------- COLUMN 4 ------------------//
+//       //----------------- COLUMN 4 ------------------//
     
-      .stage-column-4 {
+//       .stage-column-4 {
       
-        // ---------- Jacob's Dream --------- //
-        .sub-section-4-1 {
-          top: 7.7rem;
-          left: 1rem;
-          width: 13.8rem;
-        }
+//         // ---------- Jacob's Dream --------- //
+//         .sub-section-4-1 {
+//           top: 7.7rem;
+//           left: 1rem;
+//           width: 13.8rem;
+//         }
 
-        // ---------- Lunch Is Ready --------- //
-        .sub-section-4-2 {
-          top: 4.5rem;
-          right: 4.1rem;
-          width: 5.4rem;
-        }
+//         // ---------- Lunch Is Ready --------- //
+//         .sub-section-4-2 {
+//           top: 4.5rem;
+//           right: 4.1rem;
+//           width: 5.4rem;
+//         }
       
-        // ---------- Red Rope --------- //
-        .sub-section-4-3 {
-          top: 13.3rem;
-          right: 4.6rem;
-          width: 4.5rem;
-        }
+//         // ---------- Red Rope --------- //
+//         .sub-section-4-3 {
+//           top: 13.3rem;
+//           right: 4.6rem;
+//           width: 4.5rem;
+//         }
 
-        // ---------- Can You See Me? --------- //
-        .sub-section-4-4 {
-          top: 6rem;
-          right: 0.8rem;
-          width: 1.8rem;
-        }
+//         // ---------- Can You See Me? --------- //
+//         .sub-section-4-4 {
+//           top: 6rem;
+//           right: 0.8rem;
+//           width: 1.8rem;
+//         }
       
-        // ---------- Into the Unknown --------- //
-        .sub-section-4-5 {
-          top: 10.8rem;
-          right: 0.5rem;
-          width: 2.1rem;
-        }
+//         // ---------- Into the Unknown --------- //
+//         .sub-section-4-5 {
+//           top: 10.8rem;
+//           right: 0.5rem;
+//           width: 2.1rem;
+//         }
       
-        // ---------- No Friends --------- //
-        .sub-section-4-6 {
-          top: 13.9rem;
-          right: 0.5rem;
-          width: 2.1rem;
-        }
+//         // ---------- No Friends --------- //
+//         .sub-section-4-6 {
+//           top: 13.9rem;
+//           right: 0.5rem;
+//           width: 2.1rem;
+//         }
 
-        // ---------- Butterfly Woman --------- //
-        .sub-section-4-7 {
-          top: 16.8rem;
-          right: 0.5rem;
-          width: 2.1rem;
-        }
-      }
+//         // ---------- Butterfly Woman --------- //
+//         .sub-section-4-7 {
+//           top: 16.8rem;
+//           right: 0.5rem;
+//           width: 2.1rem;
+//         }
+//       }
     
-      //----------------- COLUMN 5 ------------------/
+//       //----------------- COLUMN 5 ------------------/
       
-      .stage-column-5 {
+//       .stage-column-5 {
         
-        // ---------- Gifts --------- //
-        .sub-section-5-1 {
-          top: 5.6rem;
-          right: 0.2rem;
-          width: 4.5rem;
-        }
+//         // ---------- Gifts --------- //
+//         .sub-section-5-1 {
+//           top: 5.6rem;
+//           right: 0.2rem;
+//           width: 4.5rem;
+//         }
         
-        // ---------- Guardian --------- //
-        .sub-section-5-2 {
-          right: 0.2rem;
-          width: 4.6rem;
-        }
-      }
-    }
-  }
-}
+//         // ---------- Guardian --------- //
+//         .sub-section-5-2 {
+//           right: 0.2rem;
+//           width: 4.6rem;
+//         }
+//       }
+//     }
+//   }
+// }
 
 // -------------------- Max-Width: 1200px --------------------- //
 
-@media screen and (max-width: 1200px) {
-  .main-room-stage-container {
+// @media screen and (max-width: 1200px) {
+//   .main-room-stage-container {
 
-    .main-room-stage-grid {
-      height: 34.7rem;
-      grid-template-rows: 27.6rem 7.1rem;
+//     .main-room-stage-grid {
+//       height: 34.7rem;
+//       grid-template-rows: 27.6rem 7.1rem;
 
-      //----------------- COLUMN 2 ------------------//
+//       //----------------- COLUMN 2 ------------------//
     
-      .stage-column-2 {
+//       .stage-column-2 {
 
-        // ---------- Sad --------- //
-        .sub-section-2-1 {
-          left: 1rem;
-        }
+//         // ---------- Sad --------- //
+//         .sub-section-2-1 {
+//           left: 1rem;
+//         }
         
-        // ---------- Between Two Planets --------- //
-        .sub-section-2-2 {
-          left: 4.25rem;
-        }
+//         // ---------- Between Two Planets --------- //
+//         .sub-section-2-2 {
+//           left: 4.25rem;
+//         }
         
-        // ---------- Untitled 92 --------- //
-        .sub-section-2-3 {
-          left: 7.9rem;
-        }
+//         // ---------- Untitled 92 --------- //
+//         .sub-section-2-3 {
+//           left: 7.9rem;
+//         }
         
-        // ---------- Different Realities --------- //
-        .sub-section-2-4 {
-          left: 1rem;
-        }
+//         // ---------- Different Realities --------- //
+//         .sub-section-2-4 {
+//           left: 1rem;
+//         }
       
-        // ---------- River Styx --------- //
-        .sub-section-2-5 {
-          right: 5.7rem;
-        }
+//         // ---------- River Styx --------- //
+//         .sub-section-2-5 {
+//           right: 5.7rem;
+//         }
 
-        .alcove-entrance-container {
-          width: 14.3rem;
-        }
-      }
+//         .alcove-entrance-container {
+//           width: 14.3rem;
+//         }
+//       }
     
-      //----------------- COLUMN 4 ------------------//
+//       //----------------- COLUMN 4 ------------------//
     
-      .stage-column-4 {
+//       .stage-column-4 {
 
-        // ---------- Lunch Is Ready --------- //
-        .sub-section-4-2 {
-          right: 3.8rem;
-        }
+//         // ---------- Lunch Is Ready --------- //
+//         .sub-section-4-2 {
+//           right: 3.8rem;
+//         }
       
-        // ---------- Red Rope --------- //
-        .sub-section-4-3 {
-          right: 4.3rem;
-        }
-      }
-    }
-  }
-}
+//         // ---------- Red Rope --------- //
+//         .sub-section-4-3 {
+//           right: 4.3rem;
+//         }
+//       }
+//     }
+//   }
+// }
 
 // -------------------- Max-Width: 1185px --------------------- //
 
@@ -1102,295 +1102,289 @@
   .main-room-stage-container {
 
     .main-room-stage-grid {
-
       //----------------- COLUMN 2 ------------------//
     
       .stage-column-2 {
 
-        // ---------- Sad --------- //
-        .sub-section-2-1 {
-          left: 0.8rem;
+        // ---------- River Styx --------- //
+        .sub-section-2-5 {
+          right: 7rem;
         }
-        
-        // ---------- Between Two Planets --------- //
-        .sub-section-2-2 {
-          left: 4.05rem;
+
+        // ---------- Dorothy --------- //
+        .sub-section-2-6 {
+          right: 0.5rem;
         }
-        
-        // ---------- Untitled 92 --------- //
-        .sub-section-2-3 {
-          left: 7.7rem;
-        }
-        
-        // ---------- Different Realities --------- //
-        .sub-section-2-4 {
-          left: 0.8rem;
+
+        .alcove-entrance-container {
+          right: 5rem;
         }
       }
+      
     }
   }
 }
 
 // -------------------- Max-Width: 1140px --------------------- //
 
-@media screen and (max-width: 1140px) {
-  .main-room-stage-container {
+// @media screen and (max-width: 1140px) {
+//   .main-room-stage-container {
 
-    .main-room-stage-grid {
-      width: 91%;
-      height: 33.6rem;
-      grid-template: 26.6rem 7rem / 1.6fr 6.35fr 3.45fr 5.35fr 1.15fr;
+//     .main-room-stage-grid {
+//       width: 91%;
+//       height: 33.6rem;
+//       grid-template: 26.6rem 7rem / 1.6fr 6.35fr 3.45fr 5.35fr 1.15fr;
 
-      // .section {
-      //   border: 1px solid #d3d3d3;
-      // }
+//       // .section {
+//       //   border: 1px solid #d3d3d3;
+//       // }
 
-      //----------------- COLUMN 1 ------------------//
+//       //----------------- COLUMN 1 ------------------//
 
-      .stage-column-1 {
+//       .stage-column-1 {
 
-        .past-behind-container {
-          // height: 38%;
+//         .past-behind-container {
+//           // height: 38%;
 
-          // ---------- Leave Past Behind --------- //
-          .sub-section-1-1 {
-            width: 7.2rem;
-            margin-left: 0rem;
-          }
-        }
+//           // ---------- Leave Past Behind --------- //
+//           .sub-section-1-1 {
+//             width: 7.2rem;
+//             margin-left: 0rem;
+//           }
+//         }
 
-          .north-exit-container {
-            // height: 62%;
+//           .north-exit-container {
+//             // height: 62%;
 
-            .inset {
+//             .inset {
 
-              // ---------- America --------- //  
-              .sub-section-1-2 {
-                top: 1.8rem;
-                width: 4.6rem;
-              }
+//               // ---------- America --------- //  
+//               .sub-section-1-2 {
+//                 top: 1.8rem;
+//                 width: 4.6rem;
+//               }
   
-              // ---------- Look At Me! --------- //
-              .sub-section-1-3 {
-                top: 7.2rem;
-                width: 5.8rem;
-              }
-            }
-          }
-        }
+//               // ---------- Look At Me! --------- //
+//               .sub-section-1-3 {
+//                 top: 7.2rem;
+//                 width: 5.8rem;
+//               }
+//             }
+//           }
+//         }
 
-        //----------------- COLUMN 2 ------------------//
+//         //----------------- COLUMN 2 ------------------//
     
-        .stage-column-2 {
+//         .stage-column-2 {
 
-          // ---------- Sad --------- //
-          .sub-section-2-1 {
-            top: 3.1rem;
-            left: 1.1rem;
-            width: 2rem;
-          }
+//           // ---------- Sad --------- //
+//           .sub-section-2-1 {
+//             top: 3.1rem;
+//             left: 1.1rem;
+//             width: 2rem;
+//           }
         
-          // ---------- Between Two Planets --------- //
-          .sub-section-2-2 {
-            top: 3.1rem;
-            left: 4.3rem;
-            width: 2.5rem;
-          }
+//           // ---------- Between Two Planets --------- //
+//           .sub-section-2-2 {
+//             top: 3.1rem;
+//             left: 4.3rem;
+//             width: 2.5rem;
+//           }
         
-          // ---------- Untitled 92 --------- //
-          .sub-section-2-3 {
-            top: 3.1rem;
-            left: 7.9rem;
-            width: 2.1rem;
-          }
+//           // ---------- Untitled 92 --------- //
+//           .sub-section-2-3 {
+//             top: 3.1rem;
+//             left: 7.9rem;
+//             width: 2.1rem;
+//           }
         
-          // ---------- Different Realities --------- //
-          .sub-section-2-4 {
-            top: 8.5rem;
-            left: 1.1rem;
-            width: 9rem;
-          }
+//           // ---------- Different Realities --------- //
+//           .sub-section-2-4 {
+//             top: 8.5rem;
+//             left: 1.1rem;
+//             width: 9rem;
+//           }
       
-          // ---------- River Styx --------- //
-          .sub-section-2-5 {
-            top: 1.5rem;
-            right: 5.5rem;
-            width: 10.2rem;
-          }
+//           // ---------- River Styx --------- //
+//           .sub-section-2-5 {
+//             top: 1.5rem;
+//             right: 5.5rem;
+//             width: 10.2rem;
+//           }
 
-          // ---------- Dorothy --------- //
-          .sub-section-2-6 {
-            top: 13rem;
-            // right: 0.4rem;
-            width: 2.85rem;
-          }
+//           // ---------- Dorothy --------- //
+//           .sub-section-2-6 {
+//             top: 13rem;
+//             // right: 0.4rem;
+//             width: 2.85rem;
+//           }
 
-          .alcove-entrance-container {
-            // top: 10.6rem;
-            right: 3.7rem;
-            width: 13.8rem;
+//           .alcove-entrance-container {
+//             // top: 10.6rem;
+//             right: 3.7rem;
+//             width: 13.8rem;
 
-            .alcove-entrance {
+//             .alcove-entrance {
 
-              // ------------ Installing the Music App ------------ //
-              .sub-section-2-7 {
-                top: -4rem;
-                left: 1.45rem;
-                width: 11rem;
-              }
+//               // ------------ Installing the Music App ------------ //
+//               .sub-section-2-7 {
+//                 top: -4rem;
+//                 left: 1.45rem;
+//                 width: 11rem;
+//               }
 
-            // ------------ Social Distancing ------------ //
-            .sub-section-2-8 {
-              top: 5.6rem;
-              left: -0.3rem;
-              width: 2.7rem;
-            }
+//             // ------------ Social Distancing ------------ //
+//             .sub-section-2-8 {
+//               top: 5.6rem;
+//               left: -0.3rem;
+//               width: 2.7rem;
+//             }
           
-            // ------------ Time to Feed the Frog ------------ //
-            .sub-section-2-9 {
-              top: 8.8rem;
-              left: -0.5rem;
-              width: 2.9rem;
-            }
+//             // ------------ Time to Feed the Frog ------------ //
+//             .sub-section-2-9 {
+//               top: 8.8rem;
+//               left: -0.5rem;
+//               width: 2.9rem;
+//             }
           
-            // ------------ Leaving the House of Horrors ------------ //
-            .sub-section-2-10 {
-              top: 5.6rem;
-              left: 3.2rem;
-              width: 3.2rem;
-            }
+//             // ------------ Leaving the House of Horrors ------------ //
+//             .sub-section-2-10 {
+//               top: 5.6rem;
+//               left: 3.2rem;
+//               width: 3.2rem;
+//             }
           
-            // ------------ Much Needed Surgery ------------ //
-            .sub-section-2-11 {
-              top: 8.8rem;
-              left: 3.1rem;
-              width: 2rem;
-            }
+//             // ------------ Much Needed Surgery ------------ //
+//             .sub-section-2-11 {
+//               top: 8.8rem;
+//               left: 3.1rem;
+//               width: 2rem;
+//             }
           
-            // ------------ Arrival Through the Black Hole ------------ //
-            .sub-section-2-12 {
-              top: 5.6rem;
-              right: 3.5rem;
-              width: 3.1rem;
-            }
+//             // ------------ Arrival Through the Black Hole ------------ //
+//             .sub-section-2-12 {
+//               top: 5.6rem;
+//               right: 3.5rem;
+//               width: 3.1rem;
+//             }
           
-            // ------------ Safe travel ------------ //
-            .sub-section-2-13 {
-              top: 8.8rem;
-              right: 5.6rem;
-              width: 2.4rem;
-            }
+//             // ------------ Safe travel ------------ //
+//             .sub-section-2-13 {
+//               top: 8.8rem;
+//               right: 5.6rem;
+//               width: 2.4rem;
+//             }
           
-            // ------------ Martian Mary Poppins ------------ //
-            .sub-section-2-14 {
-              top: 8.9rem;
-              right: 3.2rem;
-              width: 1.7rem;
-            }
+//             // ------------ Martian Mary Poppins ------------ //
+//             .sub-section-2-14 {
+//               top: 8.9rem;
+//               right: 3.2rem;
+//               width: 1.7rem;
+//             }
           
-            // ------------ The Fool In Recent Times ------------ //
-            .sub-section-2-15 {
-              top: 5.6rem;
-              right: 0rem;
-              width: 2.6rem;
-            }
+//             // ------------ The Fool In Recent Times ------------ //
+//             .sub-section-2-15 {
+//               top: 5.6rem;
+//               right: 0rem;
+//               width: 2.6rem;
+//             }
           
-            // ------------ Homecoming for Tambourine ------------ //
-            .sub-section-2-16 {
-              top: 8.8rem;
-              right: -0.3rem;
-              width: 2.8rem;
-            }
-          }
-        }
-      }
+//             // ------------ Homecoming for Tambourine ------------ //
+//             .sub-section-2-16 {
+//               top: 8.8rem;
+//               right: -0.3rem;
+//               width: 2.8rem;
+//             }
+//           }
+//         }
+//       }
     
-      //----------------- COLUMN 3 ------------------//
+//       //----------------- COLUMN 3 ------------------//
     
-      .stage-column-3 {
+//       .stage-column-3 {
       
-        // ---------- Sunny Side Up --------- //
-        .sub-section-3-1 {
-          top: 4.4rem;
-          width: 14.2rem;
-        }
-      }
+//         // ---------- Sunny Side Up --------- //
+//         .sub-section-3-1 {
+//           top: 4.4rem;
+//           width: 14.2rem;
+//         }
+//       }
     
-      //----------------- COLUMN 4 ------------------//
+//       //----------------- COLUMN 4 ------------------//
     
-      .stage-column-4 {
+//       .stage-column-4 {
       
-        // ---------- Jacob's Dream --------- //
-        .sub-section-4-1 {
-          top: 7rem;
-          // left: 1rem;
-          width: 13.1rem;
-        }
+//         // ---------- Jacob's Dream --------- //
+//         .sub-section-4-1 {
+//           top: 7rem;
+//           // left: 1rem;
+//           width: 13.1rem;
+//         }
 
-        // ---------- Lunch Is Ready --------- //
-        .sub-section-4-2 {
-          top: 4.3rem;
-          right: 3.9rem;
-          width: 5.1rem;
-        }
+//         // ---------- Lunch Is Ready --------- //
+//         .sub-section-4-2 {
+//           top: 4.3rem;
+//           right: 3.9rem;
+//           width: 5.1rem;
+//         }
       
-        // ---------- Red Rope --------- //
-        .sub-section-4-3 {
-          top: 12.6rem;
-          right: 4.4rem;
-          width: 4.2rem;
-        }
+//         // ---------- Red Rope --------- //
+//         .sub-section-4-3 {
+//           top: 12.6rem;
+//           right: 4.4rem;
+//           width: 4.2rem;
+//         }
 
-        // ---------- Can You See Me? --------- //
-        .sub-section-4-4 {
-          top: 6rem;
-          // right: 0.8rem;
-          width: 1.7rem;
-        }
+//         // ---------- Can You See Me? --------- //
+//         .sub-section-4-4 {
+//           top: 6rem;
+//           // right: 0.8rem;
+//           width: 1.7rem;
+//         }
       
-        // ---------- Into the Unknown --------- //
-        .sub-section-4-5 {
-          top: 10.2rem;
-          // right: 0.5rem;
-          width: 2rem;
-        }
+//         // ---------- Into the Unknown --------- //
+//         .sub-section-4-5 {
+//           top: 10.2rem;
+//           // right: 0.5rem;
+//           width: 2rem;
+//         }
       
-        // ---------- No Friends --------- //
-        .sub-section-4-6 {
-          top: 13.1rem;
-          // right: 0.5rem;
-          width: 2rem;
-        }
+//         // ---------- No Friends --------- //
+//         .sub-section-4-6 {
+//           top: 13.1rem;
+//           // right: 0.5rem;
+//           width: 2rem;
+//         }
 
-        // ---------- Butterfly Woman --------- //
-        .sub-section-4-7 {
-          top: 15.9rem;
-          // right: 0.5rem;
-          width: 2rem;
-        }
-      }
+//         // ---------- Butterfly Woman --------- //
+//         .sub-section-4-7 {
+//           top: 15.9rem;
+//           // right: 0.5rem;
+//           width: 2rem;
+//         }
+//       }
     
-      //----------------- COLUMN 5 ------------------/
+//       //----------------- COLUMN 5 ------------------/
       
-      .stage-column-5 {
+//       .stage-column-5 {
         
-        // ---------- Gifts --------- //
-        .sub-section-5-1 {
-          top: 5.6rem;
-          right: 0rem;
-          width: 4.3rem;
-        }
+//         // ---------- Gifts --------- //
+//         .sub-section-5-1 {
+//           top: 5.6rem;
+//           right: 0rem;
+//           width: 4.3rem;
+//         }
         
-        // ---------- Guardian --------- //
-        .sub-section-5-2 {
-          top: 16.8rem;
-          right: 0rem;
-          width: 4.4rem;
-        }
-      }
-    }
-  }
-}
+//         // ---------- Guardian --------- //
+//         .sub-section-5-2 {
+//           top: 16.8rem;
+//           right: 0rem;
+//           width: 4.4rem;
+//         }
+//       }
+//     }
+//   }
+// }
 
 // -------------------- Max-Width: 1035px --------------------- //
 

@@ -226,3 +226,75 @@
 //     }
 //   }
 // }
+
+// --------------- Max-Height: 690px and Max-Width 1180px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1240px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .menu-word-box {
+
+        p {
+          font-size: 1.78rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      .menu-option {
+        font-size: 1.68rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Height: 690px and Max-Width 1220px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1220px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .menu-word-box {
+
+        p {
+          font-size: 1.82rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      .menu-option {
+        font-size: 1.71rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Height: 690px and Max-Width 1200px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1200px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .menu-word-box {
+
+        p {
+          font-size: 1.88rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      .menu-option {
+        font-size: 1.76rem;
+      }
+    }
+  }
+}
