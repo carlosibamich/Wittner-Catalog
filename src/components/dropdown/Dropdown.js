@@ -4,6 +4,7 @@ import './Dropdown.styles.scss';
 
 const Dropdown = () => {
   const [ isOpen, setIsOpen ] = useState(false);
+  const [ currentPageTitle, setCurrentPageTitle ] = useState('');
   const dropdownRef = useRef(null);
   const navigate = useNavigate();
   const thisLocation = useLocation();
@@ -22,6 +23,7 @@ const Dropdown = () => {
     setIsOpen(false);
   };
 
+  // To exit the dropdown by clicking outside the dropdown menu
   useEffect(() => {
     const handleOutsideClick = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
@@ -38,6 +40,17 @@ const Dropdown = () => {
     }
   }, [isOpen]);
 
+  // To display the Active Page Title next to the menu icon
+  useEffect(() => {
+    const currentItem = options.find(item => item.path === thisLocation.pathname);
+    
+    if (currentItem) {
+      setCurrentPageTitle(currentItem.label);
+    } else {
+      setCurrentPageTitle('Wittner Museum'); // Fallback title
+    }
+  }, [thisLocation.pathname]);
+
   return (
     <div ref={dropdownRef} className="mobile-menu-container">
       <div className="burger-menu-box">
@@ -50,8 +63,8 @@ const Dropdown = () => {
           <span className="burger-line line-middle"></span>
           <span className="burger-line line-bottom"></span>
         </button>
-        <div className="menu-word-box">
-          <p>MENU</p>
+        <div className="current-title-box">
+          <h2>{currentPageTitle}</h2>
         </div>
         
       </div>
