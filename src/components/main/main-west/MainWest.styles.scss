@@ -628,19 +628,16 @@
 //   }
 // }
 
-// --------------- Max-Width: 960px ----------------- //
+// --------------- Max-Width: 998px ----------------- //
 
-@media (max-width: 960px) {
+@media (max-width: 998px) {
   .main-room-west-container {
+    margin-top: 0dvh;
 
     .main-room-west-grid {
-      // width: 84%;
-      height: 30rem;
-      grid-template-rows: 11.5rem 18.5rem;
-
-      // .section {
-      //   border: 1px solid #d3d3d3;
-      // }
+      width: 74.5%;
+      height: 36rem;
+      grid-template-rows: 13.2rem 22.8rem;
 
       // -------------------- Column 1 --------------------- //
 
@@ -648,8 +645,8 @@
 
         // ---------- Probed --------- //
         .sub-section-1-1 {
-          left: 2.5rem;
-          width: 8.6rem;
+          left: 3rem;
+          width: 9.8rem;
         }
       }
 
@@ -659,31 +656,22 @@
 
       // ---------- Playing for the Devil's Ring --------- //
         .sub-section-2-1 {
-          left: -0.4rem;
-          width: 13rem;
+          left: -0.2rem;
+          width: 14.9rem;
         }
       }
 
       // -------------------- Column 3 --------------------- //
       
       .west-column-3 {
-
         .exit-sign-container {
-          top: 8.9rem;
-          left: 5.5rem;
-
-          .exit-sign {
-            width: 2.7rem;
-            height: 1.8rem;
-            font-size: 1.1rem;
-            font-weight: 800;
-            padding-top: 0.14rem;
-          }
+          top: 10.1rem;
+          left: 6.8rem;
         }
 
         // ---------- Another Day at the Beach --------- //
         .sub-section-3-1 {
-          width: 11.1rem;
+          width: 12.5rem;
         }
       }
 
@@ -694,7 +682,7 @@
         // ---------- Mutiny --------- //
         .sub-section-4-1 {
           right: -0.9rem;
-          width: 13.5rem;
+          width: 15.7rem;
         }
       }
 
@@ -704,8 +692,8 @@
 
         // ---------- Catch and Release --------- //
         .sub-section-5-1 {
-          right: 2.3rem;
-          width: 8.4rem;
+          right: 2.4rem;
+          width: 9.7rem;
         }
       }
 
@@ -714,7 +702,7 @@
       .west-column-6 {
 
         .window-frame {
-          left: 1.1rem;
+          left: 0.6rem;
         }
       }
 
@@ -727,9 +715,10 @@
       .west-column-8 {
 
         .window-frame {
-          right: 1.1rem;
+          right: 0.6rem;
         }
       }
     }
   }
 }
+

@@ -103,14 +103,15 @@
   .dropdown-menu {
     position: absolute;
     top: -5rem;
+    // top: 0rem;
+    // bottom: 0rem;
     left: -6rem;
+    // overflow: hidden;
     width: 21.8rem;
     height: 110vh;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 3px;
     padding: 0.4rem 1.4rem;
-    // -webkit-backdrop-filter: blur(1.5px); // Apple Safari Webkit Vendor Support
-    // backdrop-filter: blur(1.5px);         // Standard Modern Browsers
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     z-index: 40;
     transform-origin: top;
@@ -227,32 +228,6 @@
   }
 }
 
-// @media screen and (max-width: 1400px) {
-//   .mobile-menu-container {
-
-//     .burger-menu-box {
-
-//       .menu-word-box {
-
-//         p {
-//           font-size: 1.58rem;
-//         }
-//       }
-//     }
-
-//     .dropdown-menu {
-
-//       .spacer {
-//         height: 20.5dvh;
-//       }
-
-//       .menu-option {
-//         font-size: 1.55rem;
-//       }
-//     }
-//   }
-// }
-
 // --------------- Max-Height: 690px and Max-Width 1325px ---------------- //
 
 @media screen and (max-height: 690px) and (max-width: 1325px) {
@@ -333,31 +308,6 @@
   }
 }
 
-
-// --------------- Max-Height: 690px and Max-Width 1240px ---------------- //
-
-// @media screen and (max-height: 690px) and (max-width: 1240px) {
-//   .mobile-menu-container {
-
-//     .burger-menu-box {
-
-//       .current-title-box {
-
-//         p {
-//           font-size: 1.78rem;
-//         }
-//       }
-//     }
-
-//     .dropdown-menu {
-
-//       .menu-option {
-//         font-size: 1.68rem;
-//       }
-//     }
-//   }
-// }
-
 // --------------- Max-Height: 690px and Max-Width 1220px ---------------- //
 
 @media screen and (max-height: 690px) and (max-width: 1220px) {
@@ -393,6 +343,13 @@
 
     .burger-menu-box {
 
+      .burger-btn {
+
+        &.is-open {
+          transform: translateX(10.6rem);
+        }
+      }
+
       .current-title-box {
 
         h2 {
@@ -402,9 +359,66 @@
     }
 
     .dropdown-menu {
+      width: 23.2rem;
 
       .menu-option {
         font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Height: 690px and Max-Width 1115px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1115px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .current-title-box {
+
+        h2 {
+          font-size: 2.1rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      .menu-option {
+        font-size: 1.9rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Height: 690px and Max-Width 1115px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 998px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .burger-btn {
+
+        &.is-open {
+          transform: translateX(11.4rem);
+        }
+      }
+
+      .current-title-box {
+
+        h2 {
+          font-size: 2.25rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+      width: 24.6rem;
+
+      .menu-option {
+        font-size: 1.95rem;
       }
     }
   }

@@ -510,6 +510,25 @@
   }
 }
 
+// -------------- Max-Width 1115px -------------- //
+
+@media screen and (max-width: 1115px) {
+  .main-nav-options {
+    width: 60rem;
+
+    .navlink-container {
+      margin: 0 1.5rem;
+
+      .nav-link {
+
+        a {
+          font-size: 1.48rem;
+        }
+      }
+    }
+  }
+}
+
 // -------------- Max-Width 1080px -------------- //
 
 @media screen and (max-width: 1080px) {

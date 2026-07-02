@@ -1423,15 +1423,15 @@
 //   }
 // }
 
-// ----------------- Max-Width: 960px ------------------- //
+// ----------------- Max-Width: 998px ------------------- //
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 998px) {
   .stairwell-west-container {
 
     .stairwell-west-grid {
-      width: 83.5%;
-      height: 30rem;
-      grid-template-columns: 1.38fr 0.52fr 1.25fr 0.53fr 1.42fr;
+      width: 75%;
+      height: 35.8rem;
+      grid-template-columns: 1.3fr 0.65fr 1.2fr 0.6fr 1.35fr;
 
       //----------------- COLUMN 1 ------------------//
 
@@ -1439,44 +1439,44 @@
       
         // ---------- Unholy Matrimony --------- //
         .sub-section-1-1 {
-          top: 5.2rem;
-          left: 3rem;
-          width: 4.6rem;
+          top: 6.5rem;
+          left: 2.5rem;
+          width: 5.4rem;
         }
 
         // ---------- Anger --------- //
         .sub-section-1-2 {
-          top: 8.8rem;
-          left: 4rem;
-          width: 2.6rem;
+          top: 10.8rem;
+          left: 3.6rem;
+          width: 3.2rem;
         }
 
         // ---------- Overqualified --------- //
         .sub-section-1-3 {
-          top: 13rem;
-          left: 3.2rem;
-          width: 4.2rem;
+          top: 16rem;
+          left: 2.5rem;
+          width: 5.1rem;
         }
 
         // ---------- Peghead --------- //
         .sub-section-1-4 {
-          // top: 0rem;
-          right: 3.2rem;
-          width: 4.3rem;
+          top: 0.6rem;
+          right: 3.8rem;
+          width: 5rem;
         }
 
         // ---------- Decoration --------- //
         .sub-section-1-5 {
-          top: 6.4rem;
-          right: 2.4rem;
-          width: 5.8rem;
+          top: 7.8rem;
+          right: 2.8rem;
+          width: 7.1rem;
         }
 
         .sub-section-1-6 {
-
+          
           .white-door {
-            width: 10.6rem;
-            height: 18.5rem;
+            height: 21.4rem;
+            width: 12.2rem;
           }
         }
       }
@@ -1485,39 +1485,39 @@
       .stairwell-west-column-2 {
 
         // ---------- Re-Entry was Rough --------- //
-      .sub-section-2-1 {
-        top: 3rem;
-        right: 3rem;
-        width: 4.5rem;
-      }
+        .sub-section-2-1 {
+          top: 3.5rem;
+          right: 5.7rem;
+          width: 5.6rem;
+        }
         
-      // ---------- Older but Wiser --------- //
-      .sub-section-2-2 {
-        top: 7.1rem;
-        right: 4.5rem;
-        width: 2.6rem;
-      }
+        // ---------- Older but Wiser --------- //
+        .sub-section-2-2 {
+          top: 8.8rem;
+          right: 7.6rem;
+          width: 3.3rem;
+        }
         
-      // ---------- Worker --------- //
-      .sub-section-2-3 {
-        top: 7.1rem;
-        right: 1.4rem;
-        width: 2.5rem;
-      }
+        // ---------- Worker --------- //
+        .sub-section-2-3 {
+          top: 8.8rem;
+          right: 3.5rem;
+          width: 3.1rem;
+        }
         
-      // ---------- Demo --------- //
-      .sub-section-2-4 {
-        top: 10.9rem;
-        right: 1rem;
-        width: 4rem;
-      }
+        // ---------- Demo --------- //
+        .sub-section-2-4 {
+          top: 13.4rem;
+          right: 2.7rem;
+          width: 5.1rem;
+        }
         
-      // ---------- Bent Note --------- //
-      .sub-section-2-5 {
-        top: 15.2rem;
-        right: 1rem;
-        width: 4rem;
-      }
+        // ---------- Bent Note --------- //
+        .sub-section-2-5 {
+          top: 18.6rem;
+          right: 2.7rem;
+          width: 5.2rem;
+        }
       }
 
       //----------------- COLUMN 3 ------------------//
@@ -1526,149 +1526,150 @@
 
         // ---------- No Smoking --------- //
         .sub-section-3-1 {
-          top: 3rem;
-          width: 7.4rem;
+          top: 3.8rem;
+          width: 8.6rem;
         }
 
         // ---------- Going Downstairs --------- //
         .sub-section-3-2 {
-          top: 12.9rem;
-          right: 11rem;
-          width: 3.1rem;
+          top: 15.1rem;
+          right: 12.3rem;
+          width: 3.4rem;
         }
 
-        // ---------- The Paint Hadn't Even Dried --------- //
+        // ---------- The Paint HAdn't Even Dried --------- //
         .sub-section-3-3 {
-          top: 11.8rem;
-          right: 6.5rem;
-          width: 3.5rem;
+          top: 13.7rem;
+          right: 7.4rem;
+          width: 3.9rem;
         }
 
         // ---------- The Heirophant --------- //
         .sub-section-3-4 {
-          top: 12.9rem;
-          right: 2.2rem;
-          width: 3.3rem;
+          top: 15.2rem;
+          right: 2.8rem;
+          width: 3.6rem;
         }
       
         // ---------- Door --------- //
         .sub-section-3-5 {
-          right: 1.5rem;
+          right: 2.1rem;
 
           .white-door-frame {
-            width: 13.2rem;
-            height: 13.3rem;
-          
+            width: 14.4rem;
+            height: 16rem;
+            
             .white-door {
-              width: 10.6rem;
-              height: 12.1rem;
+              width: 11.8rem;
+              height: 14.8rem;
             }
           }       
         }
-      } 
+      }
 
       .stairwell-west-column-4 {
 
         // ---------- White Clown 2 --------- //
         .sub-section-4-1 {
-          top: 9.2rem;
-          left: 0.9rem;
-          width: 2rem;
+          top: 10.7rem;
+          left: 1.6rem;
+          width: 2.4rem;
         }
 
         // ---------- Dervish 3 --------- //  
         .sub-section-4-2 {
-          top: 12.5rem;
-          left: 1.2rem;
-          width: 1.4rem;
+          top: 14.7rem;
+          left: 2rem;
+          width: 1.6rem;
         }
 
         // ---------- Jester --------- //
         .sub-section-4-3 {
-          top: 14.9rem;
-          left: 0.95rem;
-          width: 1.7rem;
+          top: 17.5rem;
+          left: 1.85rem;
+          width: 1.9rem;
         }
 
         // ---------- Untitled --------- //
         .sub-section-4-4 {
-          top: 18.1rem;
-          left: 1.2rem;
-          width: 1.2rem;
+          top: 21.2rem;
+          left: 2.2rem;
+          width: 1.4rem;
         }
-
+        
         // ---------- Flight School --------- //
         .sub-section-4-5 {
-          top: 21.4rem;
-          left: 0.9rem;
-          width: 2rem;
+          top: 25.2rem;
+          left: 1.5rem;
+          width: 2.6rem;
         }
 
         // ---------- Dessert Chef --------- //
-        .sub-section-4-6 {
-          top: 11.4rem;
-          right: 1rem;
-          width: 1.9rem;
+       .sub-section-4-6 {
+          top: 13rem;
+          right: 1.6rem;
+          width: 2.4rem;
         }
 
         // ---------- She's Leaving Home --------- //
         .sub-section-4-7 {
-          top: 14.7rem;
-          right: 0.6rem;
-          width: 2.7rem;
+          top: 17.1rem;
+          right: 1.1rem;
+          width: 3.1rem;
         }
 
         // ---------- The Museum --------- //
         .sub-section-4-8 {
-          top: 18.9rem;
-          right: 0.6rem;
-          width: 2.7rem;
+          top: 21.9rem;
+          right: 1rem;
+          width: 3.4rem;
         }
       }
 
       //----------------- COLUMN 5 ------------------//
 
       .stairwell-west-column-5 {
-
+       
         // ---------- Brunhilda --------- //
         .sub-section-5-1 {
-          top: 0.3rem;
-          left: -0.3rem;
-          width: 13.1rem;
+          top: 0.5rem;
+          left: -0.7rem;
+          width: 15rem;
         }
 
         .sub-section-5-2 {
 
           .white-door-frame {
-            width: 12rem;
-            height: 19.3rem;
+            width: 13.8rem;
+            height: 23.2rem;
+            margin-left: 0rem;
 
             .white-door {
-              width: 9.8rem;
-              height: 18.3rem;
+              width: 11.2rem;
+              height: 22rem;
             }
           }
         }
 
         // ---------- Arrival --------- //
         .sub-section-5-3 {
-          top: 11.2rem;
-          right: 3.5rem;
-          width: 2.2rem;
+          top: 12.9rem;
+          right: 3.2rem;
+          width: 2.9rem;
         }
         
         // ---------- A Better Place --------- //
         .sub-section-5-4 {
-          top: 14.8rem;
-          right: 3.3rem;
-          width: 2.6rem;
+          top: 17.4rem;
+          right: 2.9rem;
+          width: 3.5rem;
         }
         
         // ---------- In Readiness --------- //
         .sub-section-5-5 {
-          top: 18.3rem;
-          right: 3.3rem;
-          width: 2.6rem;
+          top: 21.9rem;
+          right: 2.9rem;
+          width: 3.4rem;
         }
       }
     }

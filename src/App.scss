@@ -248,7 +248,7 @@
 
 // --------------- Min-Height: 960px and Max-Width 1650px ---------------- //
 
-@media screen and (min-height: 960px) and (max-width: 1650px) {
+@media screen and (min-height: 961px) and (max-width: 1650px) {
   .horizontal-layout {
 
     .footer-container {
@@ -685,14 +685,14 @@
 
 // ---------------- Max-Width: 1220px --------------- //
 
-@media screen and (max-width: 1220px) {
-  .horizontal-layout {
+// @media screen and (max-width: 1220px) {
+//   .horizontal-layout {
 
-    .footer-container {
-      display: none;
-    }
-  }
-}
+//     .footer-container {
+//       display: none;
+//     }
+//   }
+// }
 
 // ---------------- Min-Height: 725px and Max-Width: 1220px --------------- //
 
@@ -708,28 +708,28 @@
         .footer-box {
 
           .logo {
-            height: 4.48rem;
+            height: 4.55rem;
           }
 
           .copyrights {
 
             .copyright {
-              font-size: 2rem;
+              font-size: 2.1rem;
             }
     
             p {
-              font-size: 1.25rem;
+              font-size: 1.29rem;
             }
           }
 
           .address {
     
             p {
-              font-size: 1.25rem;
+              font-size: 1.29rem;
             }
 
             .rocket {
-              font-size: 2rem;
+              font-size: 2.05rem;
             }
           }
         }
@@ -782,14 +782,14 @@
 
 // ---------------- Max-Width: 1140px --------------- //
 
-@media screen and (max-width: 1140px) {
-  .horizontal-layout {
+// @media screen and (max-width: 1140px) {
+//   .horizontal-layout {
 
-    .footer-container {
-      display: none;
-    }
-  }
-}
+//     .footer-container {
+//       display: none;
+//     }
+//   }
+// }
 
 // ---------------- Min-Height: 691px and Max-Width: 1140px --------------- //
 
@@ -806,7 +806,7 @@
           width: 98%;
 
           .logo {
-            height: 4.75rem;
+            height: 4.8rem;
           }
   
           .copyrights {
@@ -816,14 +816,14 @@
             }
           
             p {
-              font-size: 1.3rem;
+              font-size: 1.35rem;
             }     
           }
   
           .address {
         
             p {
-              font-size: 1.3rem;
+              font-size: 1.35rem;
             }
 
             .rocket {
@@ -836,45 +836,148 @@
   }
 }
 
-// ---------------- Min-Height: 630px and Max-Width: 1040px --------------- //
+// ---------------- Min-Height: 691px and Max-Width: 1080px --------------- //
 
-@media screen and (min-height: 630px) and (max-width: 1040px) {
+@media screen and (min-height: 691px) and (max-width: 1080px) {
   .horizontal-layout {
 
     .footer-container {
-      display: block;
 
       .footer {
-        height: 13.5dvh;
-        border-top: 3px solid var(--copper-yellow);
 
         .footer-box {
-          width: 98%;
 
           .logo {
-            height: 4.3rem;
+            height: 4.9rem;
           }
   
           .copyrights {
 
             .copyright {
-              font-size: 1.95rem;
+              font-size: 2.3rem;
             }
           
             p {
-              font-size: 1.18rem;
+              font-size: 1.4rem;
             }     
           }
   
           .address {
         
             p {
-              font-size: 1.18rem;
+              font-size: 1.4rem;
             }
 
             .rocket {
-              font-size: 1.9rem;
+              font-size: 2.15rem;
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Min-Height: 640px and Max-Width: 1040px --------------- //
+
+@media screen and (min-height: 640px) and (max-width: 1040px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 14dvh;
+
+        .footer-box {
+          width: 98%;
+
+          .logo {
+            height: 4.8rem;
+          }
+  
+          .copyrights {
+
+            .copyright {
+              font-size: 2.3rem;
+            }
+          
+            p {
+              font-size: 1.37rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 1.37rem;
+            }
+
+            .rocket {
+              font-size: 2.18rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Min-Height: 691px and Max-Width: 1040px --------------- //
+
+@media screen and (min-height: 691px) and (max-width: 1040px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+
+        .footer-box {
+
+          .logo {
+            height: 5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Min-Height: 691px and Max-Width: 1028px --------------- //
+
+@media screen and (min-height: 640px) and (max-width: 1028px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+
+        .footer-box {
+
+          .logo {
+            height: 5.1rem;
+          }
+
+          .copyrights {
+
+            // .copyright {
+            //   font-size: 2.3rem;
+            // }
+          
+            p {
+              font-size: 1.4rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 1.4rem;
+            }
+
+            // .rocket {
+            //   font-size: 2.2rem;
+            // }
           }
         }
       }
@@ -884,43 +987,43 @@
 
 // ---------------- Max-Width: 1035px --------------- //
 
-@media screen and (min-height: 620px) and (max-width: 1035px) {
-  .horizontal-layout {
+// @media screen and (min-height: 620px) and (max-width: 1035px) {
+//   .horizontal-layout {
 
-    .footer-container {
-      display: block;
+//     .footer-container {
+//       display: block;
 
-      .footer {
-        height: 13.8dvh;
+//       .footer {
+//         height: 13.8dvh;
 
-        .footer-box {
+//         .footer-box {
 
-          .logo {
-            height: 4.6rem;
-          }
+//           .logo {
+//             height: 4.6rem;
+//           }
   
-          .copyrights {
+//           .copyrights {
           
-            p {
-              font-size: 1.26rem;
-            }     
-          }
+//             p {
+//               font-size: 1.26rem;
+//             }     
+//           }
   
-          .address {
+//           .address {
         
-            p {
-              font-size: 1.26rem;
-            }
+//             p {
+//               font-size: 1.26rem;
+//             }
 
-            .rocket {
-              font-size: 2rem;
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//             .rocket {
+//               font-size: 2rem;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 // ---------------- Max-Height: 780px and Max-Width: 1035px --------------- //
 

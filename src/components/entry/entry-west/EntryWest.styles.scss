@@ -660,19 +660,15 @@
 //   }
 // }
 
-// ---------------- Max-Width: 960px ---------------- //
+// ---------------- Max-Width: 998px ---------------- //
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 998px) {
   .entry-room-container {
 
     .entry-west-grid {
-      width: 83.5%;
-      height: 30rem;
-      grid-template-rows: 11.5rem 18.5rem;
-
-      // .section {
-      //   border: 1px solid #d3d3d3;
-      // }
+      width: 74.7%;
+      height: 36rem;
+      grid-template: 13.4rem 22.6rem / repeat(5, 1fr);
 
       // -------------------- Column 1 --------------------- //
 
@@ -680,8 +676,8 @@
 
       // ---------- Arrival Through the Black Hole --------- //
         .sub-section-1-1 {
-          left: 0.5rem;
-          width: 13.4rem;
+          left: 0.4rem;
+          width: 15.2rem;
         }
       }
 
@@ -691,9 +687,9 @@
 
         // ---------- Fast Getaway --------- //
         .sub-section-2-1 {
-          top: 0.6rem;
-          left: 1.8rem;
-          width: 10.8rem;
+          top: 0.8rem;
+          left: 2rem;
+          width: 12.9rem;
         }
       }
 
@@ -703,7 +699,7 @@
 
         // ---------- Moving the Spotlight --------- //
         .sub-section-3-1 {
-          width: 10.1rem;
+          width: 11.8rem;
         }
       }
 
@@ -713,8 +709,8 @@
 
         // ---------- Art --------- //
         .sub-section-4-1 {
-          right: 3.7rem;
-          width: 8.4rem;
+          right: 4.6rem;
+          width: 9.7rem;
         }
       }
 
@@ -724,8 +720,8 @@
 
         // ---------- Mother's Turn --------- //
         .sub-section-5-1 {
-          right: 2.3rem;
-          width: 12rem;
+          right: 3.8rem;
+          width: 13.8rem;
         }
       }
 
@@ -734,7 +730,7 @@
       .entry-west-column-6 {
 
         .window-frame {
-          left: 0.9rem;
+          left: 0.8rem;
         }
       }
    
@@ -743,7 +739,7 @@
       .entry-west-column-8 {
 
         .window-frame {
-          right: 0.9rem;
+          right: 0.8rem;
         }
       }
     }

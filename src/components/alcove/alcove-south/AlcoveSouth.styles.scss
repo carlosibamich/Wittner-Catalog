@@ -673,15 +673,15 @@
 //   }
 // }
 
-// --------------- Max-Width: 960px --------------- //
+// --------------- Max-Width: 998px --------------- //
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 998px) {
   .alcove-south-container {
 
     .alcove-south-grid {
-      // width: 78%;
-      height: 30rem;
-      // grid-template-columns: 1fr 1.18fr 1fr;
+      width: 70%;
+      height: 36rem;
+      grid-template-columns: 1fr 1.1fr 1fr;
 
       //----------------- COLUMN 1 ------------------//
 
@@ -689,44 +689,44 @@
 
         // ---------- Kindred Spirits --------- //
         .sub-section-1-1 {
-          top: 3.2rem;
-          left: 3.9rem;
-          width: 12.8rem;
+          top: 3.4rem;
+          left: 5.2rem;
+          width: 13.6rem;
         }
         
         // ---------- Flip --------- //
         .sub-section-1-2 {
-          top: 15.8rem;
-          left: 2.5rem;
-          width: 3.1rem;
+          top: 17.1rem;
+          left: 3.7rem;
+          width: 3.2rem;
         }
         
         // ---------- You First --------- //
         .sub-section-1-3 {
-          top: 18.9rem;
-          left: 2.5rem;
-          width: 3.1rem;
+          top: 20.4rem;
+          left: 3.7rem;
+          width: 3.2rem;
         }
         
         // ---------- Another Afternoon at Lucille's --------- //
         .sub-section-1-4 {
-          top: 16rem;
-          left: 6.5rem;
-          width: 8rem;
+          top: 17.3rem;
+          left: 8rem;
+          width: 8.6rem;
         }
         
         // ---------- Bird Sanctuary --------- //
         .sub-section-1-5 {
-          top: 15.8rem;
-          left: 15.5rem;
-          width: 2.8rem;
+          top: 17.1rem;
+          left: 17.8rem;
+          width: 3rem;
         }
-        
+
         // ---------- Neptunes Confront Us --------- //
         .sub-section-1-6 {
-          top: 19.3rem;
-          left: 15.3rem;
-          width: 3rem;
+          top: 20.9rem;
+          left: 17.8rem;
+          width: 3.2rem;
         }
       }
 
@@ -737,62 +737,59 @@
       
       // ---------- Jacob Wrestling the Angel --------- //
       .sub-section-2-1 {
-        top: 0rem;
-        width: 13rem;
+        top: 0.4rem;
+        width: 15rem;
       }
         
       .alcove-exit-container {
-        width: 18rem;
-        height: 17.8rem;
+        width: 20.4rem;
+        height: 21.4rem;
 
         .alcove-exit {
 
           // ------------ Jacob's Dream ------------ //
-            .sub-section-2-2 {
-              left: -4.8rem;
-              width: 12.7rem;
-            }
+          .sub-section-2-2 {
+            left: -5.4rem;
+            width: 14.6rem;
+          }
 
-            // ------------ Lunch Time ------------ //
-            .sub-section-2-3 {
-              top: -0.4rem;
-              left: 9.5rem;
-              width: 4.3rem;
-            }
+          // ------------ Lunch Time ------------ //
+          .sub-section-2-3 {
+            top: -0.4rem;
+            left: 11.3rem;
+            width: 4.6rem;
+          }
           
-            // ------------ Red Rope ------------ //
-            .sub-section-2-4 {
-              top: 7.4rem;
-              left: 9.8rem;
-              width: 3.6rem;
-            }
+          // ------------ Red Rope ------------ //
+          .sub-section-2-4 {
+            top: 8.2rem;
+            left: 11.3rem;
+            width: 4.2rem;
+          }
           
-            // ------------ Can You See Me? ------------ //
-            .sub-section-2-5 {
-              right: 0.8rem;
-              width: 1.5rem;
-            }
+          // ------------ Can You See Me? ------------ //
+          .sub-section-2-5 {
+            right: 1.1rem;
+            width: 1.7rem;
+          }
           
-            // ------------ Into the Unknown ------------ //
-            .sub-section-2-6 {
-              top: 5.4rem;
-              right: 0.7rem;
-              width: 1.7rem;
-            }
+          // ------------ Into the Unknown ------------ //
+          .sub-section-2-6 {
+            right: 1rem;
+            width: 1.9rem;
+          }
           
-            // ------------ No Friends ------------ //
-            .sub-section-2-7 {
-              top: 7.9rem;
-              right: 0.7rem;
-              width: 1.7rem;
-            }
+          // ------------ No Friends ------------ //
+          .sub-section-2-7 {
+            right: 1rem;
+            width: 1.9rem;
+          }
           
-            // ------------ Butterfly Woman ------------ //
-            .sub-section-2-8 {
-              top: 10.3rem;
-              right: 0.7rem;
-              width: 1.7rem;
-            }
+          // ------------ Butterfly Woman ------------ //
+          .sub-section-2-8 {
+            right: 1rem;
+            width: 1.9rem;
+          }
         }
       }
     }
@@ -803,44 +800,44 @@
 
         // ---------- The last Voyage of the Queen Mother --------- //
         .sub-section-3-1 {
-          top: 2.5rem;
-          right: 2.8rem;
-          width: 15rem;
+          top: 2.6rem;
+          right: 3.5rem;
+          width: 16.8rem;
         }
-        
+
         // ---------- Moment of Enlightenment --------- //
         .sub-section-3-2 {
-          top: 16.6rem;
-          left: 3.7rem;
-          width: 3.9rem;
+          top: 18.3rem;
+          right: 15rem;
+          width: 4.4rem;
         }
-        
+
         // ---------- Try --------- //
         .sub-section-3-3 {
-          top: 16.3rem;
-          left: 9.6rem;
-          width: 3.4rem;
+          top: 17.7rem;
+          right: 9.3rem;
+          width: 4rem;
         }
-        
+
         // ---------- Practice --------- //
         .sub-section-3-4 {
-          top: 19.2rem;
-          left: 9.6rem;
-          width: 3.4rem;
+          top: 21.2rem;
+          right: 9.3rem;
+          width: 4rem;
         }
-        
+
         // ---------- You Have to do Better than That --------- //
         .sub-section-3-5 {
-          top: 16.3rem;
-          left: 13.8rem;
-          width: 3.4rem;
+          top: 17.7rem;
+          right: 4.5rem;
+          width: 4rem;
         }
-        
+
         // ---------- Choose A Direction --------- //
         .sub-section-3-6 {
-          top: 19.2rem;
-          left: 13.8rem;
-          width: 3.4rem;
+          top: 21.2rem;
+          right: 4.5rem;
+          width: 4rem;
         }
       }
     }

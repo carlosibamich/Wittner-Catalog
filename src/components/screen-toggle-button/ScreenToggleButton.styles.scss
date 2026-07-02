@@ -266,6 +266,28 @@ button.toggle-box {
   }
 }
 
+// ---------------- Max-Height: 690px and Max-Width: 1115px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1115px) {
+  button.toggle-box {
+
+    .screen-toggle {
+
+      .screen-icon {
+        font-size: 3.14rem;
+      }
+
+      .screen-text {
+
+        p {
+          font-size: 1.52rem;
+          line-height: 1.43rem;
+        }
+      }
+    }
+  }
+}
+
 // ---------------- Max-Width: 1080px ---------------- //
 
 @media screen and (max-width: 1080px) {
@@ -285,6 +307,33 @@ button.toggle-box {
         p {
           font-size: 1.46rem;
           line-height: 1.48rem;
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Height: 690px and Max-Width: 998px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 998px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      width: 12rem;
+      height: 3.4rem;
+      gap: 3px;
+
+      .screen-icon {
+        width: 3.4rem;
+        font-size: 3.25rem;
+      }
+
+      .screen-text {
+        width: 8.6rem;
+
+        p {
+          font-size: 1.6rem;
+          line-height: 1.46rem;
         }
       }
     }
