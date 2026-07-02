@@ -102,16 +102,14 @@
 
   .dropdown-menu {
     position: absolute;
-    top: -5rem;
-    // top: 0rem;
-    // bottom: 0rem;
+    top: -2rem;
     left: -6rem;
-    // overflow: hidden;
     width: 21.8rem;
-    height: 110vh;
+    height: 103vh;
+    margin: 0rem;
+    padding: 0.4rem 1.4rem;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 3px;
-    padding: 0.4rem 1.4rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     z-index: 40;
     transform-origin: top;
@@ -409,7 +407,7 @@
       .current-title-box {
 
         h2 {
-          font-size: 2.25rem;
+          font-size: 2.23rem;
         }
       }
     }

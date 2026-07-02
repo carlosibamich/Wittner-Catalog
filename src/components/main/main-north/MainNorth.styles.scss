@@ -2307,23 +2307,3 @@
   }
 }
 
-// --------------- Max-Width 780px ---------------- //
-
-@media screen and (max-width: 780px) {
-  .main-room-north-container {
-  
-    .main-room-north-grid {
-      width: 91%;
-
-      //----------------- COLUMN 8 ------------------/
-
-      .north-column-8 {
-
-        // ---------- GalleryHeaven --------- //
-        .sub-section-8-4 {
-          left: -0.4rem;
-        }
-      }
-    }
-  }
-}

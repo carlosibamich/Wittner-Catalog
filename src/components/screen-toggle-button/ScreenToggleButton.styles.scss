@@ -319,21 +319,23 @@ button.toggle-box {
   button.toggle-box {
 
     .screen-toggle {
-      width: 12rem;
-      height: 3.4rem;
+      width: 12.6rem;
+      height: 3.6rem;
       gap: 3px;
 
       .screen-icon {
-        width: 3.4rem;
-        font-size: 3.25rem;
+        width: 3.6rem;
+        height: 3.6rem;
+        font-size: 3.3rem;
       }
 
       .screen-text {
-        width: 8.6rem;
+        width: 9.2rem;
+        height: 3.6rem;
 
         p {
-          font-size: 1.6rem;
-          line-height: 1.46rem;
+          font-size: 1.63rem;
+          line-height: 1.5rem;
         }
       }
     }

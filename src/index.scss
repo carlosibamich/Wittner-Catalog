@@ -2889,28 +2889,107 @@ div.carousel-container {
   //   }
   // }
 }
+// --------------- Max-Width 950px ---------------- //
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 53.5%;
+  }
+}
+
+// --------------- Max-Width 940px ---------------- //
+
+@media screen and (max-width: 940px) {
+  html {
+    font-size: 53%;
+  }
+}
+
+// --------------- Max-Width 940px ---------------- //
+
+@media screen and (max-width: 930px) {
+  html {
+    font-size: 52.5%;
+  }
+}
 
 // --------------- Max-Width 920px ---------------- //
 
 @media screen and (max-width: 920px) {
   html {
-    font-size: 68.7%;
+    font-size: 51.9%;
     }
+}
 
-  // div.carousel-container {
-    
-  //   .controls {
-  //     margin-top: 0.5rem;
-  //     margin-bottom: 4.8dvh;
-  //   }
-  // }
+// --------------- Max-Width 910px ---------------- //
+
+@media screen and (max-width: 910px) {
+  html {
+    font-size: 51.3%;
+  }
+}
+
+// --------------- Max-Width 900px ---------------- //
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 50.8%;
+  }
+}
+
+// --------------- Max-Width 880px ---------------- //
+
+@media screen and (max-width: 880px) {
+  html {
+    font-size: 49.7%;
+  }
 }
 
 // --------------- Max-Width 870px ---------------- //
 
 @media screen and (max-width: 870px) {
   html {
-    font-size: 64.3%;
+    font-size: 49.1%;
+  }
+}
+
+// --------------- Max-Width 860px ---------------- //
+
+@media screen and (max-width: 860px) {
+  html {
+    font-size: 48.6%;
+  }
+}
+
+// --------------- Max-Width 850px ---------------- //
+
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 48%;
+  }
+}
+
+// --------------- Max-Width 840px ---------------- //
+
+@media screen and (max-width: 840px) {
+  html {
+    font-size: 47.4%;
+  }
+}
+
+// --------------- Max-Width 830px ---------------- //
+
+@media screen and (max-width: 830px) {
+  html {
+    font-size: 46.8%;
+  }
+}
+
+// --------------- Max-Width 820px ---------------- //
+
+@media screen and (max-width: 820px) {
+  html {
+    font-size: 46.3%;
   }
 }
 
@@ -2918,45 +2997,94 @@ div.carousel-container {
 
 @media screen and (max-width: 810px) {
   html {
-    font-size: 60.2%;
+    font-size: 45.7%;
   }
+}
+
+// --------------- Max-Width 800px ---------------- //
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 45.2%;
+  }
+}
+
+// --------------- Max-Width 790px ---------------- //
+
+@media screen and (max-width: 790px) {
+  html {
+    font-size: 44.6%;
+    }
 }
 
 // --------------- Max-Width 780px ---------------- //
 
 @media screen and (max-width: 780px) {
   html {
-    font-size: 58.5%;
+    font-size: 44.1%;
+    }
+}
+
+// --------------- Max-Width 770px ---------------- //
+
+@media screen and (max-width: 770px) {
+  html {
+    font-size: 43.5%;
+    }
+}
+
+// --------------- Max-Width 760px ---------------- //
+
+@media screen and (max-width: 760px) {
+  html {
+    font-size: 42.9%;
     }
 
   .border-shadow-lg {
     box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.3);
   }
 
-  div.carousel-container {
+  // div.carousel-container {
     
-    .controls {
-      margin-top: 4.5dvh;
-      margin-bottom: 3.6dvh;
+  //   .controls {
+  //     margin-top: 4.5dvh;
+  //     margin-bottom: 3.6dvh;
 
-      .arrow {
-        padding-bottom: 0.6rem;
-        font-size: 2.2rem;
-      }
+  //     .arrow {
+  //       padding-bottom: 0.6rem;
+  //       font-size: 2.2rem;
+  //     }
 
-      .page-button {
-        margin: 0 0.75rem;
-        font-size: 1.5rem;
-      }
+  //     .page-button {
+  //       margin: 0 0.75rem;
+  //       font-size: 1.5rem;
+  //     }
+  //   }
+  // }
+}
+
+// --------------- Max-Width 750px ---------------- //
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 42.3%;
     }
-  }
 }
 
 // --------------- Max-Width 740px ---------------- //
 
 @media screen and (max-width: 740px) {
   html {
-    font-size: 56.3%;
+    font-size: 41.7%;
+    }
+}
+
+
+// --------------- Max-Width 730px ---------------- //
+
+@media screen and (max-width: 730px) {
+  html {
+    font-size: 41.1%;
     }
 }
 
@@ -2964,23 +3092,104 @@ div.carousel-container {
 
 @media screen and (max-width: 725px) {
   html {
-    font-size: 54.4%;
+    font-size: 40.8%;
     }
+}
 
-  // div.carousel-container {
-    
-  //   .controls {
-  //     margin-top: 7dvh;
-  //     margin-bottom: 4dvh;
-  //   }
-  // }
+// --------------- Max-Width 720px ---------------- //
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 40.5%;
+    }
+}
+
+// --------------- Max-Width 710px ---------------- //
+
+@media screen and (max-width: 710px) {
+  html {
+    font-size: 39.9%;
+    }
+}
+
+
+// --------------- Max-Width 700px ---------------- //
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 39.3%;
+    }
+}
+
+// --------------- Max-Width 690px ---------------- //
+
+@media screen and (max-width: 690px) {
+  html {
+    font-size: 38.7%;
+    }
 }
 
 // --------------- Max-Width 680px ---------------- //
 
 @media screen and (max-width: 680px) {
   html {
-    font-size: 50%;
+    font-size: 38.2%;
+    }
+}
+
+// --------------- Max-Width 670px ---------------- //
+
+@media screen and (max-width: 670px) {
+  html {
+    font-size: 37.6%;
+    }
+}
+
+// --------------- Max-Width 660px ---------------- //
+
+@media screen and (max-width: 660px) {
+  html {
+    font-size: 37.1%;
+    }
+}
+
+// --------------- Max-Width 650px ---------------- //
+
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 36.5%;
+    }
+}
+
+// --------------- Max-Width 640px ---------------- //
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 36%;
+    }
+}
+
+// --------------- Max-Width 630px ---------------- //
+
+@media screen and (max-width: 630px) {
+  html {
+    font-size: 35.4%;
+    }
+}
+
+// --------------- Max-Width 620px ---------------- //
+
+@media screen and (max-width: 620px) {
+  html {
+    font-size: 34.8%;
+    }
+}
+
+// --------------- Max-Width 610px ---------------- //
+
+@media screen and (max-width: 610px) {
+  html {
+    font-size: 34.2%;
     }
 }
 
@@ -2988,6 +3197,46 @@ div.carousel-container {
 
 @media screen and (max-width: 600px) {
   html {
-    font-size: 44.7%;
+    font-size: 33.6%;
+    }
+}
+
+// --------------- Max-Width 590px ---------------- //
+
+@media screen and (max-width: 590px) {
+  html {
+    font-size: 33%;
+    }
+}
+
+// --------------- Max-Width 580px ---------------- //
+
+@media screen and (max-width: 580px) {
+  html {
+    font-size: 32.4%;
+    }
+}
+
+// --------------- Max-Width 575px ---------------- //
+
+@media screen and (max-width: 575px) {
+  html {
+    font-size: 32.1%;
+    }
+}
+
+// --------------- Max-Width 570px ---------------- //
+
+@media screen and (max-width: 570px) {
+  html {
+    font-size: 31.8%;
+    }
+}
+
+// --------------- Max-Width 560px ---------------- //
+
+@media screen and (max-width: 560px) {
+  html {
+    font-size: 31.2%;
     }
 }
