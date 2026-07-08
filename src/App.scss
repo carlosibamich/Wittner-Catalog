@@ -943,7 +943,7 @@
   }
 }
 
-// ---------------- Min-Height: 691px and Max-Width: 1028px --------------- //
+// ---------------- Min-Height: 640px and Max-Width: 1028px --------------- //
 
 @media screen and (min-height: 640px) and (max-width: 1028px) {
   .horizontal-layout {
@@ -1069,33 +1069,154 @@
 //   }
 // }
 
-// ---------------- Max-Height: 700px and Max-Width: 1035px --------------- //
+// ---------------- Min-Height: 630px and Max-Width: 998px --------------- //
 
-// @media screen and (max-height: 700px) and (max-width: 1035px) {
+@media screen and (min-height: 630px) and (max-width: 998px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 14.8dvh;
+
+        .footer-box {
+          width: 100%;
+
+          .logo {
+            height: 5.3rem;
+          }
+  
+          .copyrights {
+
+            .copyright {
+              font-size: 2.2rem;
+            }
+          
+            p {
+              font-size: 1.48rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 1.48rem;
+            }
+
+            .rocket {
+              font-size: 2.18rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Min-Height: 740px and Max-Width: 998px --------------- //
+
+@media screen and (min-height: 740px) and (max-width: 998px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+        height: 13.8dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 6rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Min-Height: 630px and Max-Width: 800px --------------- //
+
+@media screen and (min-height: 630px) and (max-width: 800px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+
+        .footer-box {
+
+          .logo {
+            height: 5.85rem;
+          }
+  
+          .copyrights {
+
+            .copyright {
+              font-size: 2.45rem;
+            }
+          
+            p {
+              font-size: 1.58rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 1.58rem;
+            }
+
+            .rocket {
+              font-size: 2.45rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Min-Height: 510px and Max-Width: 960px --------------- //
+
+// @media screen and (min-height: 510px) and (max-width: 960px) {
+//   .horizontal-layout {
+
+//     .footer-container {
+//       display: none;
+//     }
+//   }
+// }
+
+// ---------------- Max-Width: 780px --------------- //
+
+// @media screen and (max-width: 780px) {
 //   .horizontal-layout {
 
 //     .footer-container {
 
 //       .footer {
-//         height: 12.8dvh;
+//         height: 13dvh;
+//         border-top: 3px solid var(--copper-yellow);
 
 //         .footer-box {
+//           width: 98.5%;
 
 //           .logo {
-//             height: 4.2rem;
+//             height: 4.1rem;
 //           }
   
 //           .copyrights {
           
 //             p {
-//               font-size: 1.18rem;
+//               font-size: 1.14rem;
 //             }     
 //           }
   
 //           .address {
         
 //             p {
-//               font-size: 1.18rem;
+//               font-size: 1.14rem;
 //             }
 
 //             .rocket {
@@ -1107,55 +1228,3 @@
 //     }
 //   }
 // }
-
-// ---------------- Min-Height: 510px and Max-Width: 960px --------------- //
-
-@media screen and (min-height: 510px) and (max-width: 960px) {
-  .horizontal-layout {
-
-    .footer-container {
-      display: none;
-    }
-  }
-}
-
-// ---------------- Max-Width: 780px --------------- //
-
-@media screen and (max-width: 780px) {
-  .horizontal-layout {
-
-    .footer-container {
-
-      .footer {
-        height: 13dvh;
-        border-top: 3px solid var(--copper-yellow);
-
-        .footer-box {
-          width: 98.5%;
-
-          .logo {
-            height: 4.1rem;
-          }
-  
-          .copyrights {
-          
-            p {
-              font-size: 1.14rem;
-            }     
-          }
-  
-          .address {
-        
-            p {
-              font-size: 1.14rem;
-            }
-
-            .rocket {
-              font-size: 1.9rem;
-            }
-          }
-        }
-      }
-    }
-  }
-}

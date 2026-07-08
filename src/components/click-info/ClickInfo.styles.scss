@@ -996,13 +996,130 @@
   }
 }
 
-// ----------------- Min-Height: 640px and Max-Width 998px ----------------- //
+// ----------------- Min-Height: 630px and Max-Width 998px ----------------- //
 
-@media screen and (min-height: 640px) and (max-width: 998px) {
+@media screen and (min-height: 630px) and (max-width: 998px) {
   .click-info-container {
+    bottom: 14.8dvh;
 
     .click-info {
       height: 7.5dvh;
+    }
+  }
+}
+
+// ----------------- Min-Height: 740px and Max-Width 998px ----------------- //
+
+@media screen and (min-height: 740px) and (max-width: 998px) {
+  .click-info-container {
+    bottom: 13.8dvh;
+
+    .click-info {
+      // height: 7.5dvh;
+    }
+  }
+}
+
+// ----------------- Max-Width 940px ----------------- //
+
+@media screen and (max-width: 940px) {
+  .click-info-container {
+    // bottom: 0;
+
+    .click-info {
+      height: 12.8dvh;
+
+      .fish {
+        font-size: 2.4rem;
+      }
+
+      .line {
+        width: 16.7rem;
+      }
+
+      p {
+        font-size: 2.15rem;
+      }
+    }
+  }
+}
+
+// ----------------- Min-Height: 430px and Max-Width 940px ----------------- //
+
+@media screen and (min-height: 430px) and (max-width: 940px) {
+  .click-info-container {
+
+    .click-info {
+      height: 15dvh;
+    }
+  }
+}
+
+// ----------------- Min-Height: 630px and Max-Width 940px ----------------- //
+
+@media screen and (min-height: 630px) and (max-width: 940px) {
+  .click-info-container {
+    bottom: 14.8dvh;
+
+    .click-info {
+      height: 7.5dvh;
+    }
+  }
+}
+
+// --------------- Max-Height: 960px and Max-Width 880px ---------------- //
+
+@media screen and (max-height: 960px) and (max-width: 880px) {
+  .click-info-container {
+
+    .click-info {
+      height: 13.5dvh;
+
+      .fish {
+        font-size: 2.46rem;
+      }
+
+      .line {
+        width: 16.5rem;
+      }
+
+      p {
+        font-size: 2.24rem;
+      }
+    }
+  }
+}
+
+// --------------- Min-Height: 630px and Max-Width 880px ---------------- //
+
+@media screen and (min-height: 630px) and (max-width: 880px) {
+  .click-info-container {
+    bottom: 14.8dvh;
+
+    .click-info {
+      height: 7.5dvh;
+    }
+  }
+}
+
+// --------------- Max-Width 880px ---------------- //
+
+@media screen and (max-width: 800px) {
+  .click-info-container {
+
+    .click-info {
+
+      .fish {
+        font-size: 2.45rem;
+      }
+
+      .line {
+        width: 16.2rem;
+      }
+
+      p {
+        font-size: 2.33rem;
+      }
     }
   }
 }
