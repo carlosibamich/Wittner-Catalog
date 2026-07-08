@@ -1149,3 +1149,49 @@
 //     }
 //   }
 // }
+
+// --------------- Max-Width 760px ---------------- //
+
+@media screen and (max-width: 760px) {
+  .click-info-container {
+
+    .click-info {
+
+      .fish {
+        font-size: 2.58rem;
+      }
+
+      .line {
+        width: 16.8rem;
+      }
+
+      p {
+        font-size: 2.45rem;
+      }
+    }
+  }
+}
+
+// --------------- Min-Height: 355px and Max-Width 760px ---------------- //
+
+@media screen and (min-height: 355px) and (max-width: 760px) {
+  .click-info-container {
+
+    .click-info {
+      height: 16.8dvh;
+      
+    }
+  }
+}
+
+// --------------- Min-Height: 630px and Max-Width 760px ---------------- //
+
+@media screen and (min-height: 630px) and (max-width: 760px) {
+  .click-info-container {
+
+    .click-info {
+      height: 8.5dvh;
+      
+    }
+  }
+}

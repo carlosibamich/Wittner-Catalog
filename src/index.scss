@@ -3022,6 +3022,24 @@ div.carousel-container {
   html {
     font-size: 47.4%;
   }
+
+  div.carousel-container {
+    
+    .controls {
+      width: 68rem;
+      margin-top: 4.8dvh;
+      margin-left: 2dvw;
+
+      .arrow {
+        font-size: 2.8rem;
+      }
+
+      .page-button {
+        margin: 0 0.9rem;
+        font-size: 1.9rem;
+      }
+    }
+  }
 }
 
 // --------------- Max-Width 830px ---------------- //
@@ -3040,6 +3058,83 @@ div.carousel-container {
   }
 }
 
+// --------------- Min-Height: 380px and Max-Width 820px ---------------- //
+
+@media screen and (min-height: 380px) and (max-width: 820px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 6.8dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 400px and Max-Width 820px ---------------- //
+
+@media screen and (min-height: 400px) and (max-width: 820px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 8.8dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 425px and Max-Width 820px ---------------- //
+
+@media screen and (min-height: 425px) and (max-width: 820px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 11dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 450px and Max-Width 820px ---------------- //
+
+@media screen and (min-height: 450px) and (max-width: 820px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 13dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 500px and Max-Width 820px ---------------- //
+
+@media screen and (min-height: 500px) and (max-width: 820px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 16.2dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 560px and Max-Width 820px ---------------- //
+
+@media screen and (min-height: 560px) and (max-width: 820px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 18.8dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 630px and Max-Width 820px ---------------- //
+
+@media screen and (min-height: 630px) and (max-width: 820px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 16.3dvh;
+    }
+  }
+}
+
 // --------------- Max-Width 810px ---------------- //
 
 @media screen and (max-width: 810px) {
@@ -3054,23 +3149,20 @@ div.carousel-container {
   html {
     font-size: 45.2%;
   }
-}
 
-// --------------- Max-Height: 690px and Max-Width 800px ---------------- //
-
-@media screen and (max-height: 690px) and (max-width: 800px) {
   div.carousel-container {
     
     .controls {
       margin-top: 4.8dvh;
       margin-bottom: 5.4dvh;
+      margin-left: 2.5dvw;
 
       .arrow {
         font-size: 2.8rem;
       }
 
       .page-button {
-        margin: 0 0.9rem;
+        margin: 0 0.86rem;
         font-size: 1.93rem;
       }
     }
@@ -3179,6 +3271,110 @@ div.carousel-container {
   html {
     font-size: 44.1%;
     }
+
+    div.carousel-container {
+    
+    .controls {
+      margin-left: 2.8dvw;
+
+      .arrow {
+        font-size: 2.9rem;
+      }
+
+      .page-button {
+        margin: 0 0.72rem;
+        font-size: 1.98rem;
+      }
+    }
+  }
+}
+
+// --------------- Min-Height: 370px and Max-Width 780px ---------------- //
+
+@media screen and (min-height: 370px) and (max-width: 780px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 7.4dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 390px and Max-Width 780px ---------------- //
+
+@media screen and (min-height: 390px) and (max-width: 780px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 9.8dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 410px and Max-Width 780px ---------------- //
+
+@media screen and (min-height: 410px) and (max-width: 780px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 11.4dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 430px and Max-Width 780px ---------------- //
+
+@media screen and (min-height: 430px) and (max-width: 780px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 13dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 465px and Max-Width 780px ---------------- //
+
+@media screen and (min-height: 465px) and (max-width: 780px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 15.8dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 510px and Max-Width 780px ---------------- //
+
+@media screen and (min-height: 510px) and (max-width: 780px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 18dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 600px and Max-Width 780px ---------------- //
+
+@media screen and (min-height: 600px) and (max-width: 780px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 20.8dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 630px and Max-Width 780px ---------------- //
+
+@media screen and (min-height: 630px) and (max-width: 780px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 15.8dvh;
+    }
+  }
 }
 
 // --------------- Max-Width 770px ---------------- //
@@ -3195,28 +3391,6 @@ div.carousel-container {
   html {
     font-size: 42.9%;
     }
-
-  .border-shadow-lg {
-    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.3);
-  }
-
-  // div.carousel-container {
-    
-  //   .controls {
-  //     margin-top: 4.5dvh;
-  //     margin-bottom: 3.6dvh;
-
-  //     .arrow {
-  //       padding-bottom: 0.6rem;
-  //       font-size: 2.2rem;
-  //     }
-
-  //     .page-button {
-  //       margin: 0 0.75rem;
-  //       font-size: 1.5rem;
-  //     }
-  //   }
-  // }
 }
 
 // --------------- Max-Width 750px ---------------- //
@@ -3234,7 +3408,6 @@ div.carousel-container {
     font-size: 41.7%;
     }
 }
-
 
 // --------------- Max-Width 730px ---------------- //
 
@@ -3258,6 +3431,105 @@ div.carousel-container {
   html {
     font-size: 40.5%;
     }
+}
+
+// --------------- Min-Height: 330px and Max-Width 720px ---------------- //
+
+@media screen and (min-height: 330px) and (max-width: 720px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 6.6dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 340px and Max-Width 720px ---------------- //
+
+@media screen and (min-height: 340px) and (max-width: 720px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 8dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 360px and Max-Width 720px ---------------- //
+
+@media screen and (min-height: 360px) and (max-width: 720px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 10dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 380px and Max-Width 720px ---------------- //
+
+@media screen and (min-height: 380px) and (max-width: 720px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 12dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 465px and Max-Width 720px ---------------- //
+
+@media screen and (min-height: 420px) and (max-width: 720px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 14.5dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 460px and Max-Width 720px ---------------- //
+
+@media screen and (min-height: 460px) and (max-width: 720px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 16.8dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 500px and Max-Width 720px ---------------- //
+
+@media screen and (min-height: 500px) and (max-width: 720px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 19.5dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 580px and Max-Width 720px ---------------- //
+
+@media screen and (min-height: 580px) and (max-width: 720px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 21.4dvh;
+    }
+  }
+}
+
+// --------------- Min-Height: 630px and Max-Width 720px ---------------- //
+
+@media screen and (min-height: 630px) and (max-width: 720px) {
+  div.carousel-container {
+    
+    .controls {
+      margin-bottom: 16dvh;
+    }
+  }
 }
 
 // --------------- Max-Width 710px ---------------- //

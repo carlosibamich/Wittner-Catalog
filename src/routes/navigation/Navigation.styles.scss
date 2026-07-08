@@ -1955,19 +1955,6 @@
   }
 }
 
-// ----------------------------- Min-Height: 691px ------------------------------ //
-// ---- Dropdown menu on screen heights 691px or higher will not be displayed --- //
-
-@media screen and (min-height: 691px) {
-  .dropdown {
-    display: none;
-  }
-
-  .screen-toggle-button {
-    display: none;
-  }
-}
-
 // -------------- Max-Width 920px -------------- //
 
 @media screen and (max-height: 690px) and (max-width: 920px) {
@@ -1993,7 +1980,7 @@
   }
 }
 
-// -------------- Max-Width 880px -------------- //
+// -------------- Max-Height: 690px and Max-Width 880px -------------- //
 
 @media screen and (max-height: 690px) and (max-width: 880px) {
   .dropdown {
@@ -2017,17 +2004,71 @@
   }
 }
 
+
+// ---- Dropdown menu on screen heights 691px or higher and 841px or wider will not be displayed --- //
+
+@media screen and (min-height: 691px) and (min-width: 841px){
+  .dropdown {
+    display: none;
+  }
+
+  .screen-toggle-button {
+    display: none;
+  }
+}
+
+
+// -------------- Max-Width 840px -------------- //
+
+@media screen and (max-width: 840px) {
+  .navigation-container {
+    display: none;
+  }
+
+  .dropdown {
+    left: 3rem;
+  }
+
+  .screen-toggle-button {
+    right: 3.5rem;
+  }
+}
+
+// --------------- Max-Height: 500px and Max-Width 840px ---------------- //
+
+@media screen and (min-height: 500px) and (max-width: 840px) {
+  .dropdown {
+    top: 2.6dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.4dvh;
+  }
+}
+
+// --------------- Max-Height: 580px and Max-Width 840px ---------------- //
+
+@media screen and (min-height: 580px) and (max-width: 840px) {
+  .dropdown {
+    top: 3dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.8dvh;
+  }
+}
+
 // --------------- Max-Height: 690px and Max-Width 820px ---------------- //
 
 @media screen and (max-height: 690px) and (max-width: 820px) {
   .dropdown {
     top: 2dvh;
-    left: 3rem;
+    // left: 3rem;
   }
 
   .screen-toggle-button {
     top: 3.2dvh;
-    right: 3.5rem;
+    // right: 3.5rem;
   }
 }
 
