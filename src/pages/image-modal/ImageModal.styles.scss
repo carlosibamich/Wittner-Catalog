@@ -729,6 +729,11 @@
 
     .modal-body {
 
+      .modal-img-constrained {
+        height: 77dvh;
+        max-width: 85dvw;
+      }
+
       .modal-title {
         height: 3rem;
 

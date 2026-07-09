@@ -4,6 +4,7 @@ import { directory } from '../../pages/directory/directory';
 import Audio from '../../components/audio/Audio'
 import ImageModal from '../../pages/image-modal/ImageModal';
 import { RxSpeakerLoud } from "react-icons/rx";
+import WittnerLogo from '../../assets/logo/wittner-logo.PNG';
 import './Catalog.styles.scss';
 
 
@@ -26,7 +27,11 @@ const Catalog = () => {
   const location = useLocation();
 
   return (
+    
    <div key={location.path === "catalog-list" ? "catalog" : "other"} className="list-container page-fade-in">
+    <div className="wittner-logo">
+      <img src={WittnerLogo} alt="Museum Logo" />
+    </div>
     <ul className="list-grid">
       {directory.map((item, i) => (
         <li key={item.id}>
