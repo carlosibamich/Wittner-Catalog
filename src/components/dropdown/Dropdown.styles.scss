@@ -568,7 +568,162 @@
 
       .menu-option {
         padding: 1.12rem 1.5rem;
-        // font-size: 2.12rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 720px ---------------- //
+
+@media screen and (max-width: 720px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .burger-btn {
+        width: 33px;
+        height: 33px;
+
+        .burger-line {
+          width: 23px;
+        }
+      }
+
+      .current-title-box {
+
+        h2 {
+          font-size: 2.56rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      .menu-option {
+        padding: 1.1rem 1.5rem;
+        font-size: 2.2rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 680px ---------------- //
+
+@media screen and (max-width: 680px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .burger-btn {
+        width: 32px;
+        height: 33px;
+        gap: 4px;
+
+        .burger-line {
+          width: 22px;
+        }
+
+        &.is-open {
+
+          .line-top {
+            transform: translateY(6px) rotate(45deg);
+          }
+          
+          .line-bottom {
+            transform: translateY(-6px) rotate(-45deg);
+          }
+        }
+      }
+
+      .current-title-box {
+
+        h2 {
+          font-size: 2.56rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 15.5dvh;
+      }
+
+      .menu-option {
+        padding: 1.15rem 1.5rem;
+        font-size: 2.2rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 620px ---------------- //
+
+@media screen and (max-width: 620px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .burger-btn {
+        gap: 3px;
+
+        &.is-open {
+
+          .line-top {
+            transform: translateY(5px) rotate(45deg);
+          }
+          
+          .line-bottom {
+            transform: translateY(-5px) rotate(-45deg);
+          }
+        }
+      }
+
+      .current-title-box {
+
+        h2 {
+          font-size: 2.6rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      // .spacer {
+      //   height: 15.5dvh;
+      // }
+
+      .menu-option {
+        padding: 1.25rem 1.5rem;
+        font-size: 2.26rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 600px ---------------- //
+
+@media screen and (max-width: 600px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .current-title-box {
+
+        h2 {
+          font-size: 2.65rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 15.8dvh;
+      }
+
+      .menu-option {
+        font-size: 2.3rem;
       }
     }
   }

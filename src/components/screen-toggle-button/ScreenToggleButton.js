@@ -73,8 +73,8 @@ const ScreenToggleButton = () => {
         <div className="screen-toggle">
           <AiOutlineExpand className="screen-icon" />
           <div className="screen-text">
-            <p>EXIT FULL</p>
-            <p>SCREEN!!!</p>
+            <p>FULL</p>
+            <p>SCREEN</p>
           </div>
         </div>
       )}

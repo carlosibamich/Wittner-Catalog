@@ -1249,3 +1249,107 @@
     }
   }
 }
+
+// ---------------- Max-Width: 760px --------------- //
+
+@media screen and (max-width: 760px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+
+        .footer-box {
+
+          .logo {
+            height: 6.6rem;
+          }
+  
+          .copyrights {
+
+            .copyright {
+              font-size: 2.75rem;
+            }
+          
+            p {
+              font-size: 1.76rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 1.76rem;
+            }
+
+            .rocket {
+              font-size: 2.75rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Min-height: 700px and Max-Width: 760px --------------- //
+
+@media screen and (min-height: 700px) and (max-width: 760px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+
+        .footer-box {
+
+          .logo {
+            height: 6.8rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Max-Width: 700px --------------- //
+
+@media screen and (max-width: 700px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+
+        .footer-box {
+
+          .logo {
+            height: 6.8rem;
+          }
+  
+          .copyrights {
+
+            .copyright {
+              font-size: 2.9rem;
+            }
+          
+            p {
+              font-size: 1.84rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 1.84rem;
+            }
+
+            .rocket {
+              font-size: 2.83rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

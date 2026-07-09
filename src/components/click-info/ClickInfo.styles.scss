@@ -1195,3 +1195,113 @@
     }
   }
 }
+
+// --------------- Max-Width 700px ---------------- //
+
+@media screen and (max-width: 700px) {
+  .click-info-container {
+
+    .click-info {
+
+      .fish {
+        font-size: 2.65rem;
+      }
+
+      .line {
+        width: 17.2rem;
+      }
+
+      p {
+        font-size: 2.58rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 660px ---------------- //
+
+@media screen and (max-width: 660px) {
+  .click-info-container {
+
+    .click-info {
+
+      .fish {
+        font-size: 2.75rem;
+      }
+
+      .line {
+        width: 17rem;
+      }
+
+      p {
+        font-size: 2.68rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 640px ---------------- //
+
+@media screen and (max-width: 640px) {
+  .click-info-container {
+
+    .click-info {
+
+      .fish {
+        font-size: 2.82rem;
+      }
+
+      .line {
+        width: 18rem;
+      }
+
+      p {
+        font-size: 2.75rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 620px ---------------- //
+
+@media screen and (max-width: 620px) {
+  .click-info-container {
+
+    .click-info {
+
+      .fish {
+        font-size: 2.88rem;
+      }
+
+      .line {
+        width: 17.8rem;
+      }
+
+      p {
+        font-size: 2.86rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 580px ---------------- //
+
+@media screen and (max-width: 580px) {
+  .click-info-container {
+
+    .click-info {
+
+      .fish {
+        font-size: 2.88rem;
+      }
+
+      .line {
+        width: 17.8rem;
+      }
+
+      p {
+        font-size: 2.9rem;
+      }
+    }
+  }
+}
