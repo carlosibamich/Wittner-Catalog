@@ -14,6 +14,10 @@
 }
 
 .horizontal-layout {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
   overflow-y: hidden;
   overflow-x: auto;
   height: 100dvh;
@@ -64,6 +68,52 @@
 
     .footer-container {
       display: none;
+    }
+  }
+}
+
+// ---------------- Min-Height: 960px and Min-Width: 1930px --------------- //
+
+@media screen and (min-height: 960px) and (min-width: 1930px) {
+  .horizontal-layout {
+
+    .footer-container {
+      display: block;
+
+      .footer {
+        height: 10.8dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 4rem;
+          }
+    
+          .copyrights {
+
+            .copyright {
+              // margin-right: 0.2rem;
+              margin-top: 0.2rem;
+              font-size: 1.58rem;
+            }
+            
+            p {
+              font-size: 1rem;
+            }     
+          }
+    
+          .address {
+          
+            p {
+              font-size: 1rem;
+            }
+
+            .rocket {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
     }
   }
 }

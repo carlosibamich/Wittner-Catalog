@@ -49,7 +49,7 @@
 
 // ======================== Media Queries ========================= //
 
-// --------------Max-Width 1930px -------------- //
+// --------------Max-Width 1940px -------------- //
 
 @media screen and (max-width: 1940px){
   .click-info-container {
@@ -599,12 +599,6 @@
   }
 }
 
-// ----------------- Max-Width 1380px ----------------- //
-
-// @media screen and (max-width: 1380px) {
-  
-// }
-
 // -------------- Min-Height: 760px and Max-Width 1380px -------------- //
 
 @media screen and (min-height: 754px) and (max-width: 1380px) {
@@ -686,29 +680,6 @@
     }
   }
 }
-
-// ----------------- Max-Width 1280px ----------------- //
-
-// @media screen and (max-width: 1280px) {
-//   .click-info-container {
-
-//     .click-info {
-//       height: 12dvh;
-
-//       .fish {
-//         font-size: 1.8rem;
-//       }
-
-//       .line {
-//         width: 18.5rem;
-//       }
-
-//       p {
-//         font-size: 1.55rem;
-//       }
-//     }
-//   }
-// }
 
 // --------------- Min-Height: 650px and Max-Width 1280px ---------------- //
 
@@ -827,17 +798,6 @@
     }
   }
 }
-
-// ----------------- Min-Height: 720px and Max-Width 1185px ----------------- //
-
-// @media screen and (min-height: 720px) and (max-width: 1185px) {
-//   .click-info-container {
-
-//     .click-info {
-//       height: 7.2dvh;
-//     }
-//   }
-// }
 
 // ----------------- Max-Width 1140px ----------------- //
 
@@ -1123,32 +1083,6 @@
     }
   }
 }
-
-// ----------------- Max-Width 780px ----------------- //
-
-// @media screen and (max-width: 780px) {
-//   .click-info-container {
-//     bottom: 0;
-//     border-bottom: 1px solid var(--dark-grey);
-
-//     .click-info {
-//       height: 11dvh;
-
-//       .line {
-//         width: 14.5rem;
-//         // margin: 0 0.9rem;
-//       }
-
-//       .fish {
-//         font-size: 1.9rem;
-//       }
-
-//       p {
-//         font-size: 1.55rem;
-//       }
-//     }
-//   }
-// }
 
 // --------------- Max-Width 760px ---------------- //
 
