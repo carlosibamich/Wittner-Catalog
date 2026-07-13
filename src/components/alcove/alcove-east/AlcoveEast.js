@@ -83,6 +83,7 @@ const AlcoveEast = () => {
             <img 
               src={directory[75].imgSrc}
               onClick={() => handleOpen(directory[75].imgSrc, directory[75].title)}
+              alt={directory[75].title}
               loading="lazy"
             />
           </div>
@@ -90,30 +91,35 @@ const AlcoveEast = () => {
             <img 
               src={directory[76].imgSrc}
               onClick={() => handleOpen(directory[76].imgSrc, directory[76].title)}
+              alt={directory[76].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-3">
             <img
               src={directory[77].imgSrc}
               onClick={() => handleOpen(directory[77].imgSrc, directory[77].title)}
+              alt={directory[77].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-4">
             <img 
               src={directory[78].imgSrc}
               onClick={() => handleOpen(directory[78].imgSrc, directory[78].title)}
+              alt={directory[78].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-5">
             <img 
               src={directory[79].imgSrc}
               onClick={() => handleOpen(directory[79].imgSrc, directory[79].title)}
+              alt={directory[79].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-6">
             <img 
               src={directory[80].imgSrc}
               onClick={() => handleOpen(directory[80].imgSrc, directory[80].title)}
+              alt={directory[80].title}
             />
           </div> 
         </div>

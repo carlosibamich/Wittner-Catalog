@@ -17,9 +17,6 @@ const EntryRoom = () => {
     prev,
     next,
     activePageIndex,
-    hasPrevPage,
-    hasNextPage,
-    snapPointIndexes,
     refresh,
   } = useSnapCarousel();
 

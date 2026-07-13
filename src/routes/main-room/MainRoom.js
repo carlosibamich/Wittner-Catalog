@@ -18,9 +18,6 @@ const MainRoom = () => {
     prev,
     next,
     activePageIndex,
-    hasPrevPage,
-    hasNextPage,
-    snapPointIndexes,
     refresh,
   } = useSnapCarousel();
 
@@ -76,7 +73,7 @@ const MainRoom = () => {
         </button>
 
         { /* -------- Pagination -------- */}
-        <div classname="labels-container">
+        <div className="labels-container">
           {labels.map((word, i) => (
             <button 
               key={i} 

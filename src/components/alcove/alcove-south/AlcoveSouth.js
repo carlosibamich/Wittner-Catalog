@@ -63,6 +63,7 @@ const AlcoveSouth = () => {
             <img 
               src={directory[81].imgSrc}
               onClick={() => handleOpen(directory[81].imgSrc, directory[81].title)}
+              alt={directory[81].title}
               loading="lazy"
             />
           </div>

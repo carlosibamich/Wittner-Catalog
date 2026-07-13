@@ -10,32 +10,32 @@ const NavBar = ({ isActive }) => {
     <nav className="main-nav-options">
       <div className="navlink-container">
         <NavLink to="/entry" end className={`nav-link ${isActive ? 'active' : ''}`} >
-          <a>ENTRY</a>
+          ENTRY
         </NavLink>
       </div>
       <div className="navlink-container">
         <NavLink to="/" end className={`nav-link ${isActive ? 'active' : ''}`} >
-          <a>MAIN ROOM</a>
+          MAIN ROOM
         </NavLink>
       </div>
       <div className="navlink-container">
         <NavLink to="/alcove" end className={`nav-link ${isActive ? 'active' : ''}`} >
-          <a>ALCOVE</a>
+          ALCOVE
         </NavLink>
       </div>
       <div className="navlink-container">
         <NavLink to="/stairwell" end className={`nav-link ${isActive ? 'active' : ''}`} >
-          <a>STAIRWELL</a>
+          STAIRWELL
         </NavLink>
       </div>
       <div className="navlink-container">
         <NavLink to="/green-room" end className={`nav-link ${isActive ? 'active' : ''}`} >
-          <a>GREEN ROOM</a>
+          GREEN ROOM
         </NavLink>
       </div>
       <div className="navlink-container">
         <NavLink to="/catalog-list" end className={`nav-link ${isActive ? 'active' : ''}`} >
-          <a>CATALOG</a>
+          CATALOG
         </NavLink>
       </div>
    </nav>

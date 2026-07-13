@@ -28,6 +28,7 @@ const EntryWest = () => {
           <img 
             src={directory[10].imgSrc}
             onClick={() => handleOpen(directory[10].imgSrc, directory[10].title)} 
+            alt={directory[10].title}
             loading="lazy"
           />
         </div>
@@ -40,6 +41,7 @@ const EntryWest = () => {
           <img 
             src={directory[11].imgSrc} 
             onClick={() => handleOpen(directory[11].imgSrc, directory[11].title)}
+            alt={directory[11].title}
             loading="lazy"
           />
         </div>
@@ -52,6 +54,7 @@ const EntryWest = () => {
             <img 
               src={directory[12].imgSrc}
               onClick={() => handleOpen(directory[12].imgSrc, directory[12].title)}
+              alt={directory[12].title}
               loading="lazy"
             />
           </div>
@@ -63,7 +66,8 @@ const EntryWest = () => {
           <div className="border-shadow-lg sub-section-4-1">
             <img 
               src={directory[13].imgSrc}
-              onClick={() => handleOpen(directory[13].imgSrc, directory[13].title)} 
+              onClick={() => handleOpen(directory[13].imgSrc, directory[13].title)}
+              alt={directory[13].title} 
               loading="lazy"
             />
           </div>
@@ -76,6 +80,7 @@ const EntryWest = () => {
             <img
               src={directory[14].imgSrc}
               onClick={() => handleOpen(directory[14].imgSrc, directory[14].title)}
+              alt={directory[14].title}
               loading="lazy"
             />  
           </div>

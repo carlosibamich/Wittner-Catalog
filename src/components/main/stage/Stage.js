@@ -32,7 +32,7 @@ const Stage = () => {
               <img 
                 src={directory[88].imgSrc} 
                 onClick={() => handleOpen(directory[88].imgSrc, directory[88].title)}
-                loading="lazy"
+                alt={directory[88].title}
               />
             </div>
           </div>
@@ -60,24 +60,28 @@ const Stage = () => {
             <img 
               src={directory[89].imgSrc}
               onClick={() => handleOpen(directory[89].imgSrc, directory[89].title)}
+              alt={directory[89].title}
             />          
           </div>
           <div className="border-shadow-sm sub-section-2-2">
             <img 
               src={directory[90].imgSrc} 
               onClick={() => handleOpen(directory[90].imgSrc, directory[90].title)}
+              alt={directory[90].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-3">
             <img 
               src={directory[91].imgSrc} 
               onClick={() => handleOpen(directory[91].imgSrc, directory[91].title)}
+              alt={directory[91].title}
             />         
           </div>
           <div className="border-shadow-lg sub-section-2-4">
             <img 
               src={directory[92].imgSrc} 
               onClick={() => handleOpen(directory[92].imgSrc, directory[92].title)}
+              alt={directory[92].title}
               loading="lazy"
             />
           </div>
@@ -85,6 +89,7 @@ const Stage = () => {
             <img 
               src={directory[93].imgSrc} 
               onClick={() => handleOpen(directory[93].imgSrc, directory[93].title)}
+              alt={directory[93].title}
               loading="lazy"
             />
           </div>
@@ -92,7 +97,7 @@ const Stage = () => {
             <img 
               src={directory[94].imgSrc} 
               onClick={() => handleOpen(directory[94].imgSrc, directory[94].title)}
-              loading="lazy"
+              alt={directory[94].title}
             />
           </div>
           <div className="alcove-entrance-container">
@@ -158,6 +163,7 @@ const Stage = () => {
             <img 
               src={directory[95].imgSrc} 
               onClick={() => handleOpen(directory[95].imgSrc, directory[95].title)}
+              alt={directory[95].title}
               loading="lazy"
             />
           </div>
@@ -170,6 +176,7 @@ const Stage = () => {
             <img
               src={directory[96].imgSrc} 
               onClick={() => handleOpen(directory[96].imgSrc, directory[96].title)}
+              alt={directory[96].title}
               loading="lazy"
             />
           </div>
@@ -177,38 +184,42 @@ const Stage = () => {
             <img 
               src={directory[97].imgSrc} 
               onClick={() => handleOpen(directory[97].imgSrc, directory[97].title)}
-              loading="lazy"
+              alt={directory[97].title}
             />
           </div>
           <div className="border-shadow-lg sub-section-4-3">
             <img 
               src={directory[98].imgSrc} 
               onClick={() => handleOpen(directory[98].imgSrc, directory[98].title)}
-              loading="lazy"
+              alt={directory[98].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-4-4">
             <img 
               src={directory[99].imgSrc} 
               onClick={() => handleOpen(directory[99].imgSrc, directory[99].title)}
+              alt={directory[99].title}
             /> 
           </div>
           <div className="border-shadow-sm sub-section-4-5">
             <img 
               src={directory[100].imgSrc} 
               onClick={() => handleOpen(directory[100].imgSrc, directory[100].title)}
+              alt={directory[100].title}
             />          
           </div>
           <div className="border-shadow-sm sub-section-4-6">
             <img 
               src={directory[101].imgSrc} 
               onClick={() => handleOpen(directory[101].imgSrc, directory[101].title)}
+              alt={directory[101].title}
             />           
           </div>
           <div className="border-shadow-sm sub-section-4-7">
             <img 
               src={directory[102].imgSrc} 
               onClick={() => handleOpen(directory[102].imgSrc, directory[102].title)}
+              alt={directory[102].title}
             />            
           </div>
         </div>
@@ -220,14 +231,14 @@ const Stage = () => {
             <img 
               src={directory[103].imgSrc} 
               onClick={() => handleOpen(directory[103].imgSrc, directory[103].title)}
-              loading="lazy"
+              alt={directory[103].title}
             />
           </div>
           <div className="border-shadow-lg sub-section-5-2">
             <img 
               src={directory[104].imgSrc} 
               onClick={() => handleOpen(directory[104].imgSrc, directory[104].title)}
-              loading="lazy"
+              alt={directory[104].title}
             />
           </div>
         </div>

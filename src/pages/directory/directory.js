@@ -299,10 +299,6 @@ import OtherSideAudio from '../../assets/audio/green-room/the-other-side.mp3'
 
 //------------------------------------ End ------------------------------------ //
 
-import PlaceholderHorz from '../../assets/placeholder-horz.jpg';
-import PlaceholderSq from '../../assets/placeholder-sq.jpg';
-import PlaceholderVert from '../../assets/placeholder-vert.jpg';
-
 export const directory = [
     {
       id: 1,

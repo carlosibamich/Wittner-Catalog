@@ -62,60 +62,70 @@ const AlcoveNorth = () => {
             <img 
               src={directory[65].imgSrc}
               onClick={() => handleOpen(directory[65].imgSrc, directory[65].title)}
+              alt={directory[65].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-2">
             <img 
               src={directory[66].imgSrc}
               onClick={() => handleOpen(directory[66].imgSrc, directory[66].title)}
+              alt={directory[66].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-3">
             <img
               src={directory[67].imgSrc}
               onClick={() => handleOpen(directory[67].imgSrc, directory[67].title)}
+              alt={directory[67].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-4">
             <img 
               src={directory[68].imgSrc}
               onClick={() => handleOpen(directory[68].imgSrc, directory[68].title)}
+              alt={directory[68].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-5">
             <img 
               src={directory[69].imgSrc}
               onClick={() => handleOpen(directory[69].imgSrc, directory[69].title)}
+              alt={directory[69].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-6">
             <img 
               src={directory[70].imgSrc}
               onClick={() => handleOpen(directory[70].imgSrc, directory[70].title)}
+              alt={directory[70].title}
             />
           </div>
           <div className="border-shadow-lg sub-section-2-7">
             <img 
               src={directory[71].imgSrc}
               onClick={() => handleOpen(directory[71].imgSrc, directory[71].title)}
+              alt={directory[71].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-8">
             <img 
               src={directory[72].imgSrc}
               onClick={() => handleOpen(directory[72].imgSrc, directory[72].title)}
+              alt={directory[72].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-9">
             <img 
               src={directory[73].imgSrc}
               onClick={() => handleOpen(directory[73].imgSrc, directory[73].title)}
+              alt={directory[73].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-10">
             <img 
               src={directory[74].imgSrc}
               onClick={() => handleOpen(directory[74].imgSrc, directory[74].title)}
+              alt={directory[74].title}
             />
           </div>
         </div>

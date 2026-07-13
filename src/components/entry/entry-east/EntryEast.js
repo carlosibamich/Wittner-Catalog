@@ -27,9 +27,8 @@ const EntryEast = () => {
            <img 
             src={directory[2].imgSrc}
             onClick={() => handleOpen(directory[2].imgSrc, directory[2].title)} 
+            alt={directory[2].title}
             loading="lazy"
-            draggable="false"
-            className="no-drag-img"
           />
         </div>
       </div>
@@ -41,6 +40,7 @@ const EntryEast = () => {
           <img 
             src={directory[3].imgSrc} 
             onClick={() => handleOpen(directory[3].imgSrc, directory[3].title)}
+            alt={directory[3].title}
             loading="lazy"
           />
         </div>
@@ -53,7 +53,7 @@ const EntryEast = () => {
             <img 
               src={directory[4].imgSrc}
               onClick={() => handleOpen(directory[4].imgSrc, directory[4].title)}
-              loading="lazy"
+              alt={directory[4].title}
             />
           </div>
         </div>
@@ -65,6 +65,7 @@ const EntryEast = () => {
             <img 
               src={directory[5].imgSrc}
               onClick={() => handleOpen(directory[5].imgSrc, directory[5].title)} 
+              alt={directory[5].title}
               loading="lazy"
             />
           </div>
@@ -77,6 +78,7 @@ const EntryEast = () => {
             <img
               src={directory[6].imgSrc}
               onClick={() => handleOpen(directory[6].imgSrc, directory[6].title)}
+              alt={directory[6].title}
               loading="lazy"
             />  
           </div>
@@ -109,7 +111,7 @@ const EntryEast = () => {
             <img
               src={directory[7].imgSrc}
               onClick={() => handleOpen(directory[7].imgSrc, directory[7].title)}
-              loading="lazy"
+              alt={directory[7].title}
             />  
           </div>
           <div className="window-frame">
@@ -120,7 +122,7 @@ const EntryEast = () => {
             <img
               src={directory[8].imgSrc}
               onClick={() => handleOpen(directory[8].imgSrc, directory[8].title)}
-              loading="lazy"
+              alt={directory[8].title}
             />  
           </div>
         </div>

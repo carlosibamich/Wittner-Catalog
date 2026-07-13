@@ -98,6 +98,7 @@ const StairwellEast = () => {
             <img 
               src={directory[161].imgSrc}
               onClick={() => handleOpen(directory[161].imgSrc, directory[161].title)}
+              alt={directory[161].title}
               loading="lazy"
             />
           </div>
@@ -105,24 +106,28 @@ const StairwellEast = () => {
             <img 
               src={directory[162].imgSrc}
               onClick={() => handleOpen(directory[162].imgSrc, directory[162].title)}
+              alt={directory[162].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-5">
             <img
               src={directory[163].imgSrc}
               onClick={() => handleOpen(directory[163].imgSrc, directory[163].title)}
+              alt={directory[163].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-6">
             <img 
               src={directory[164].imgSrc}
               onClick={() => handleOpen(directory[164].imgSrc, directory[164].title)}
+              alt={directory[164].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-2-7">
             <img 
               src={directory[165].imgSrc}
               onClick={() => handleOpen(directory[165].imgSrc, directory[165].title)}
+              alt={directory[165].title}
             />
           </div>
         </div>

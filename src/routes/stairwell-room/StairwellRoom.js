@@ -16,9 +16,6 @@ const StairwellRoom = () => {
     prev,
     next,
     activePageIndex,
-    hasPrevPage,
-    hasNextPage,
-    snapPointIndexes,
     refresh,
   } = useSnapCarousel();
 
@@ -70,7 +67,7 @@ const StairwellRoom = () => {
           </button>
   
           { /* -------- Pagination -------- */}
-          <div classname="labels-container">
+          <div className="labels-container">
             {labels.map((word, i) => (
               <button 
                 key={i} 

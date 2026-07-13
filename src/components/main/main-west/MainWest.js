@@ -27,6 +27,7 @@ const MainWest = () => {
             <img 
               src={directory[137].imgSrc} 
               onClick={() => handleOpen(directory[137].imgSrc, directory[137].title)}
+              alt={directory[137].title}
               loading="lazy"
             />
             
@@ -40,6 +41,7 @@ const MainWest = () => {
             <img 
               src={directory[138].imgSrc}
               onClick={() => handleOpen(directory[138].imgSrc, directory[138].title)}
+              alt={directory[138].title}
               loading="lazy" 
             />
           </div>
@@ -58,6 +60,7 @@ const MainWest = () => {
             <img 
               src={directory[139].imgSrc} 
               onClick={() => handleOpen(directory[139].imgSrc, directory[139].title)}
+              alt={directory[139].title}
             />
           </div>
         </div>
@@ -69,6 +72,7 @@ const MainWest = () => {
             <img 
               src={directory[140].imgSrc} 
               onClick={() => handleOpen(directory[140].imgSrc, directory[140].title)}
+              alt={directory[140].title}
               loading="lazy"
             />
           </div>
@@ -81,6 +85,7 @@ const MainWest = () => {
             <img 
               src={directory[141].imgSrc} 
               onClick={() => handleOpen(directory[141].imgSrc, directory[141].title)}
+              alt={directory[141].title}
               loading="lazy"
             />  
           </div>

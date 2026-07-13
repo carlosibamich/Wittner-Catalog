@@ -42,7 +42,6 @@ const EntrySouth = () => {
         <div className="border-shadow-lg sub-section-1-3">
            <img 
             src={directory[8].imgSrc}
-            loading="lazy"
           />
         </div>
       </div>
@@ -54,7 +53,7 @@ const EntrySouth = () => {
           <img 
             src={directory[9].imgSrc} 
             onClick={() => handleOpen(directory[9].imgSrc, directory[9].title)}
-            loading="lazy"
+            alt={directory[9].title}
           />
         </div>
       </div>

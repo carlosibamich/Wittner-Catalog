@@ -91,24 +91,28 @@ const StairwellWest = () => {
             <img 
               src={directory[183].imgSrc}
               onClick={() => handleOpen(directory[183].imgSrc, directory[183].title)}
+              alt={directory[183].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-3-2">
             <img
               src={directory[184].imgSrc}
               onClick={() => handleOpen(directory[184].imgSrc, directory[184].title)}
+              alt={directory[184].title}
             />
           </div>
           <div className="border-shadow-sm sub-section-3-3">
             <img
               src={directory[185].imgSrc}
-              onClick={() => handleOpen(directory[185].imgSrc, directory[185].title)}           
+              onClick={() => handleOpen(directory[185].imgSrc, directory[185].title)}
+              alt={directory[185].title}          
             />
           </div>
           <div className="border-shadow-sm sub-section-3-4">
             <img 
               src={directory[186].imgSrc}
               onClick={() => handleOpen(directory[186].imgSrc, directory[186].title)}
+              alt={directory[186].title}
             />
           </div>
           <div className="sub-section-3-5">

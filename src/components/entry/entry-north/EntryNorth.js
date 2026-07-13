@@ -46,12 +46,14 @@ const EntryNorth = () => {
           <img 
             src={directory[0].imgSrc} 
             onClick={() => handleOpen(directory[0].imgSrc, directory[0].title)}
+            alt={directory[0].title}
           />
         </div>
         <div className="border-shadow-lg sub-section-2-2">
           <img 
             src={directory[1].imgSrc} 
             onClick={() => handleOpen(directory[1].imgSrc, directory[1].title)}
+            alt={directory[1].title}
           />
         </div>
       </div>

@@ -65,12 +65,14 @@ const NorthExit = () => {
             <img 
               src={directory[61].imgSrc} 
               onClick={() => handleOpen(directory[61].imgSrc, directory[61].title)}
+              alt={directory[61].title}
             />
           </div>
           <div className="border-shadow-lg sub-section-2-2">
             <img 
               src={directory[62].imgSrc} 
               onClick={() => handleOpen(directory[62].imgSrc, directory[62].title)}
+              alt={directory[62].title}
             />
           </div>
         </div>
@@ -82,12 +84,14 @@ const NorthExit = () => {
             <img 
               src={directory[63].imgSrc} 
               onClick={() => handleOpen(directory[63].imgSrc, directory[63].title)}
+              alt={directory[63].title}
             />
           </div>
           <div className="border-shadow-lg sub-section-3-2">
             <img 
               src={directory[64].imgSrc} 
               onClick={() => handleOpen(directory[64].imgSrc, directory[64].title)}
+              alt={directory[64].title}
             />  
           </div>
         </div>
