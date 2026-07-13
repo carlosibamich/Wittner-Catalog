@@ -19,7 +19,6 @@ function ImageModal({ show, onHide, title, imageSrc }) {
         onHide={onHide} 
         centered
         size="lg"
-        // className="custom-modal"
         dialogClassName="custom-modal-width"
       >
         <Modal.Header className="border-0 flex-wrap" closeButton closeVariant="white"></Modal.Header>

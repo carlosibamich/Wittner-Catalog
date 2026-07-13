@@ -17,7 +17,6 @@ const EntryRoom = () => {
     prev,
     next,
     activePageIndex,
-    refresh,
   } = useSnapCarousel();
 
   const labels = ['NORTH', 'EAST', 'SOUTH', 'WEST'];

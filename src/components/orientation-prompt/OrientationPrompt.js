@@ -9,7 +9,8 @@ const OrientationPrompt = ({ children }) => {
         <div className="rotate-icon-container">
           <W className="rotate-svg"/>
           <div className="orientation-text">
-            <h2>TAP ANYWHERE AND ROTATE YOUR DEVICE</h2>
+            {/* <h2>TAP ANYWHERE AND ROTATE YOUR DEVICE</h2> */}
+            <h2>PLEASE ROTATE YOUR DEVICE</h2>
           </div>
         </div>
       </div>
