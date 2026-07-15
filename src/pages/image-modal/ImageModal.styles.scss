@@ -92,8 +92,16 @@
           }
 
           .audio-card button {
+            position: relative;
             width: 3.5rem;
             height: auto;
+            z-index: 500;
+            -webkit-appearance: none;
+            appearance: none;
+            visibility: visible !important;
+            opacity: 1 !important;
+            display: inline-block !important; // Forces Safari to calculate dimensions
+            isolation: isolate;
           }
         }
       }

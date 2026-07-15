@@ -72,9 +72,9 @@
   }
 }
 
-// ---------------- Min-Height: 960px and Min-Width: 1930px --------------- //
+// ---------------- Min-Height: 990px and Min-Width: 1940px --------------- //
 
-@media screen and (min-height: 960px) and (min-width: 1930px) {
+@media screen and (min-height: 990px) and (max-width: 1940px) {
   .horizontal-layout {
 
     .footer-container {
@@ -92,7 +92,6 @@
           .copyrights {
 
             .copyright {
-              // margin-right: 0.2rem;
               margin-top: 0.2rem;
               font-size: 1.58rem;
             }
@@ -118,53 +117,18 @@
   }
 }
 
-// ---------------- Min-Height: 940px and Min-Width: 1850px --------------- //
+// ---------------- Min-Height: 980px and Min-Width: 1850px --------------- //
 
-@media screen and (min-height: 940px) and (min-width: 1850px) {
+@media screen and (min-height: 980px) and (max-width: 1850px) {
   .horizontal-layout {
 
     .footer-container {
       display: block;
-
-      .footer {
-        height: 10.8dvh;
-
-        .footer-box {
-
-          .logo {
-            height: 4rem;
-          }
-    
-          .copyrights {
-
-            .copyright {
-              // margin-right: 0.2rem;
-              margin-top: 0.2rem;
-              font-size: 1.58rem;
-            }
-            
-            p {
-              font-size: 1rem;
-            }     
-          }
-    
-          .address {
-          
-            p {
-              font-size: 1rem;
-            }
-
-            .rocket {
-              font-size: 1.6rem;
-            }
-          }
-        }
-      }
     }
   }
 }
 
-// ---------------- Min-Height: 930px and Min-Width: 1800px --------------- //
+// ---------------- Min-Height: 980px and Min-Width: 1800px --------------- //
 
 @media screen and (min-height: 980px) and (max-width: 1800px) {
   .horizontal-layout {
@@ -208,7 +172,7 @@
   }
 }
 
-// ---------------- Min-Height: 930px and Min-Width: 1760px --------------- //
+// ---------------- Min-Height: 980px and Min-Width: 1760px --------------- //
 
 @media screen and (min-height: 980px) and (max-width: 1760px) {
   .horizontal-layout {
@@ -217,29 +181,7 @@
       display: block;
 
       .footer {
-        height: 10.5dvh;
-
-        .footer-box {
-
-          .logo {
-            height: 3.9rem;
-          }
-        }
-      }
-    }
-  }
-}
-
-// ---------------- Min-Height: 1075px and Min-Width: 1730px --------------- //
-
-@media screen and (min-height: 1075px) and (max-width: 1730px) {
-  .horizontal-layout {
-
-    .footer-container {
-      display: block;
-
-      .footer {
-        height: 11.3dvh;
+        height: 11.2dvh;
 
         .footer-box {
 
@@ -296,43 +238,21 @@
   }
 }
 
-// --------------- Min-Height: 960px and Max-Width 1650px ---------------- //
+// --------------- Min-Height: 950px and Max-Width 1690px ---------------- //
 
-@media screen and (min-height: 961px) and (max-width: 1650px) {
+@media screen and (min-height: 950px) and (max-width: 1650px) {
   .horizontal-layout {
 
     .footer-container {
       display: block;
 
       .footer {
-        height: 12dvh;
+        height: 12.5dvh;
 
         .footer-box {
 
           .logo {
-            height: 4.14rem;
-          }
-
-          .copyrights {
-
-            .copyright {
-              font-size: 1.65rem;
-            }
-            
-            p {
-              font-size: 1.08rem;
-            }     
-          }
-    
-          .address {
-          
-            p {
-              font-size: 1.08rem;
-            }
-
-            .rocket {
-              font-size: 1.65rem;
-            }
+            height: 4.28rem;
           }
         }
       }
@@ -354,7 +274,7 @@
         .footer-box {
 
           .logo {
-            height: 4.6rem;
+            height: 4.55rem;
           }
 
           .copyrights {
@@ -386,32 +306,21 @@
   }
 }
 
-// ---------------- Max-Width: 1550px --------------- //
+// ---------------- Min-Height: 910px and Max-Width: 1550px --------------- //
 
-@media screen and (max-width: 1550px) {
-  .horizontal-layout {
-
-    .footer-container {
-      display: none;
-    }
-  }
-}
-
-// ---------------- Min-Height: 920px and Max-Width: 1550px --------------- //
-
-@media screen and (min-height: 920px) and (max-width: 1550px) {
+@media screen and (min-height: 910px) and (max-width: 1550px) {
   .horizontal-layout {
 
     .footer-container {
       display: block;
 
       .footer {
-        height: 12.1dvh;
+        height: 12.5dvh;
 
         .footer-box {
 
           .logo {
-            height: 4.6rem;
+            height: 4.5rem;
           }
 
           .copyrights {
@@ -435,50 +344,6 @@
             .rocket {
               margin-left: 0.6rem;
               font-size: 2rem;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-// ---------------- Min-Height: 1050px and Max-Width: 1550px --------------- //
-
-@media screen and (min-height: 1050px) and (max-width: 1550px) {
-  .horizontal-layout {
-
-    .footer-container {
-      display: block;
-
-      .footer {
-        height: 13dvh;
-
-        .footer-box {
-
-          .logo {
-            height: 5.65rem;
-          }
-    
-          .copyrights {
-
-            .copyright {
-              font-size: 2.15rem;
-            }
-            
-            p {
-              font-size: 1.28rem;
-            }     
-          }
-    
-          .address {
-          
-            p {
-              font-size: 1.28rem;
-            }
-
-            .rocket {
-              font-size: 2.1rem;
             }
           }
         }
@@ -527,17 +392,6 @@
   }
 }
 
-// ---------------- Max-Width: 1440px --------------- //
-
-@media screen and (max-width: 1440px) {
-  .horizontal-layout {
-
-    .footer-container {
-      display: none;
-    }
-  }
-}
-
 // ---------------- Min-Height: 870px and Max-Width: 1440px --------------- //
 
 @media screen and (min-height: 870px) and (max-width: 1440px) {
@@ -548,6 +402,27 @@
 
       .footer {
         height: 12.8dvh;
+
+        .footer-box {
+
+          .logo {
+            height: 4.53rem;
+          }
+
+          .copyrights {
+        
+            p {
+              font-size: 1.22rem;
+            }
+          }
+
+          .address {
+      
+            p {
+              font-size: 1.22rem;
+            }
+          }
+        }
       }
     }
   }
@@ -568,18 +443,7 @@
   }
 }
 
-// ---------------- Max-Width: 1380px --------------- //
-
-@media screen and (max-width: 1380px) {
-  .horizontal-layout {
-
-    .footer-container {
-      display: none;
-    }
-  }
-}
-
-// ---------------- Min-Height: 840px and Max-Width: 1380px --------------- //
+// ---------------- Min-Height: 820px and Max-Width: 1380px --------------- //
 
 @media screen and (min-height: 820px) and (max-width: 1380px) {
   .horizontal-layout {
@@ -625,14 +489,14 @@
 
 // ---------------- Max-Width: 1370px --------------- //
 
-@media screen and (max-width: 1370px) {
-  .horizontal-layout {
+// @media screen and (max-width: 1370px) {
+//   .horizontal-layout {
 
-    .footer-container {
-      display: none;
-    }
-  }
-}
+//     .footer-container {
+//       display: none;
+//     }
+//   }
+// }
 
 // ---------------- Min-Height: 820px and Max-Width: 1370px --------------- //
 
@@ -680,14 +544,14 @@
 
 // ---------------- Max-Width: 1280px --------------- //
 
-@media screen and (max-width: 1280px) {
-  .horizontal-layout {
+// @media screen and (max-width: 1280px) {
+//   .horizontal-layout {
 
-    .footer-container {
-      display: none;
-    }
-  }
-}
+//     .footer-container {
+//       display: none;
+//     }
+//   }
+// }
 
 // ---------------- Min-Height: 770px and Max-Width: 1280px --------------- //
 
