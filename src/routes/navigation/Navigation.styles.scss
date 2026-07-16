@@ -1235,11 +1235,11 @@
 
 @media screen and (max-height: 690px) and (max-width: 1220px) {
   .dropdown {
-    top: 3.4dvh;
+    top: 2.9dvh;
   }
 
   .screen-toggle-button {
-    top: 3.3dvh;
+    top: 3.1dvh;
   }
 }
 
@@ -1320,10 +1320,12 @@
 @media screen and (max-height: 690px) and (max-width: 1180px) {
 
   .dropdown {
+    top: 2.6dvh;
     left: 4.1rem;
   }
 
   .screen-toggle-button {
+    top: 2.9dvh;
     right: 5rem;
   }
 }
@@ -1480,9 +1482,9 @@
   }
 }
 
-// -------------- Max-Width 998px -------------- //
+// -------------- Max-Width 1000px -------------- //
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 1000px) {
   .navigation-container {
 
     .navigation {
@@ -1521,22 +1523,22 @@
   }
 }
 
-// -------------- Max-Height: 690px and Max-Width: 998px -------------- //
+// -------------- Max-Height: 690px and Max-Width: 1000px -------------- //
 
-@media screen and (max-height: 690px) and (max-width: 998px) {
+@media screen and (max-height: 690px) and (max-width: 1000px) {
 
   .dropdown {
     top: 3dvh;
   }
 
   .screen-toggle-button {
-    top: 3.4dvh;
+    top: 3.5dvh;
   }
 }
 
-// -------------- Min-Height: 740px and Max-Width 998px -------------- //
+// -------------- Min-Height: 740px and Max-Width 1000px -------------- //
 
-@media screen and (min-height: 740px) and (max-width: 998px) {
+@media screen and (min-height: 740px) and (max-width: 1000px) {
   .navigation-container {
 
     .navigation {
@@ -1552,9 +1554,9 @@
   }
 }
 
-// -------------- Min-Height: 820px and Max-Width 998px -------------- //
+// -------------- Min-Height: 820px and Max-Width 1000px -------------- //
 
-@media screen and (min-height: 820px) and (max-width: 998px) {
+@media screen and (min-height: 820px) and (max-width: 1000px) {
   .navigation-container {
 
     .navigation {
@@ -1570,7 +1572,7 @@
   }
 }
 
-// ----------------------------- Max-Height: 514px ------------------------------ //
+// ----------------------------- Max-Height: 690px ------------------------------ //
 // ---- Full Navigation bar will not be displayed on screen heights 690px or lower--- //
 
 @media screen and (max-height: 690px) {

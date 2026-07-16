@@ -167,13 +167,6 @@
 // ====================== Media Queries ====================== //
 
 // --------- Mobile Menu is restricted on larger screens inside of the Navigation Styles -------- //
-// ---------------- Min-Width: 960px ---------------- //
-
-// @media screen and (min-width: 960px) {
-//   .mobile-menu-container {
-//     display: none;
-//   }
-// }
 
 // --------------- Max-Height: 690px and Max-Width 1470px ---------------- //
 
@@ -409,9 +402,9 @@
   }
 }
 
-// --------------- Max-Height: 690px and Max-Width 998px ---------------- //
+// --------------- Max-Height: 690px and Max-Width 1000px ---------------- //
 
-@media screen and (max-height: 690px) and (max-width: 998px) {
+@media screen and (max-height: 690px) and (max-width: 1000px) {
   .mobile-menu-container {
 
     .burger-menu-box {
