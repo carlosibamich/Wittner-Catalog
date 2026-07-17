@@ -64,7 +64,8 @@ const Dropdown = () => {
           <span className="burger-line line-bottom"></span>
         </button>
         <div className="current-title-box">
-          <h2>{currentPageTitle}</h2>
+          <h2 className="title">{currentPageTitle}</h2>
+          <h2 className="menu">MENU</h2>
         </div>
         
       </div>

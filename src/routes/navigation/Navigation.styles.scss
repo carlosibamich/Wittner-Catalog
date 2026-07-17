@@ -1077,11 +1077,11 @@
 @media screen and (max-height: 690px) and (max-width: 1370px) {
 
   .dropdown {
-    top: 3.5dvh;
+    top: 3.3dvh;
   }
 
   .screen-toggle-button {
-    top: 3.5dvh;
+    top: 3.3dvh;
   }
 }
 
@@ -1896,11 +1896,11 @@
 
 @media screen and (max-height: 369px) and (max-width: 620px) {
   .dropdown {
-    top: 1.8dvh;
+    top: 2dvh;
   }
 
   .screen-toggle-button {
-    top: 2.8dvh;
+    top: 3.4dvh;
   }
 }
 
@@ -1908,11 +1908,11 @@
 
 @media screen and (min-height: 370px) and (max-width: 620px) {
   .dropdown {
-    top: 2.3dvh;
+    top: 2.5dvh;
   }
 
   .screen-toggle-button {
-    top: 2.7dvh;
+    top: 3.4dvh;
   }
 }
 
@@ -1920,11 +1920,11 @@
 
 @media screen and (min-height: 430px) and (max-width: 620px) {
   .dropdown {
-    top: 2.7dvh;
+    top: 3dvh;
   }
 
   .screen-toggle-button {
-    top: 2.9dvh;
+    top: 3.7dvh;
   }
 }
 
@@ -1932,10 +1932,169 @@
 
 @media screen and (min-height: 500px) and (max-width: 620px) {
   .dropdown {
+    top: 3.4dvh;
+  }
+
+  .screen-toggle-button {
+    top: 4dvh;
+  }
+}
+
+// --------------- Max-Width 600px ---------------- //
+
+@media screen and (max-width: 600px) {
+  .dropdown {
+    top: 2.2dvh;
+    left: 3.5rem;
+  }
+
+  .screen-toggle-button {
+    top: 2.9dvh;
+    right: 3.5rem;
+  }
+}
+
+// --------------- Min-Height: 280px and Max-Width 600px ---------------- //
+
+@media screen and (min-height: 280px) and (max-width: 600px) {
+  .dropdown {
+    top: 2.5dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.1dvh;
+  }
+}
+
+// --------------- Min-Height: 310px and Max-Width 600px ---------------- //
+
+@media screen and (min-height: 310px) and (max-width: 600px) {
+  .dropdown {
+    top: 2.6dvh;
+  }
+
+  .screen-toggle-button {
+    top: 2.9dvh;
+  }
+}
+
+// --------------- Min-Height: 350px and Max-Width 600px ---------------- //
+
+@media screen and (min-height: 350px) and (max-width: 600px) {
+  .dropdown {
     top: 2.9dvh;
   }
 
   .screen-toggle-button {
+    top: 3.5dvh;
+  }
+}
+
+// --------------- Min-Height: 400px and Max-Width 600px ---------------- //
+
+@media screen and (min-height: 400px) and (max-width: 600px) {
+  .dropdown {
+    top: 3.2dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.5dvh;
+  }
+}
+
+// --------------- Min-Height: 450px and Max-Width 600px ---------------- //
+
+@media screen and (min-height: 450px) and (max-width: 600px) {
+  .dropdown {
+    top: 3.5dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.6dvh;
+  }
+}
+
+
+// --------------- Max-Height: 279px and Max-Width 560px ---------------- //
+
+@media screen and (max-height: 279px) and (max-width: 560px) {
+  .dropdown {
+    top: 2.2dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.6dvh;
+  }
+}
+
+// --------------- Min-Height: 280px and Max-Width 560px ---------------- //
+
+@media screen and (min-height: 280px) and (max-width: 560px) {
+  .dropdown {
+    top: 2.4dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.5dvh;
+  }
+}
+
+// --------------- Min-Height: 310px and Max-Width 560px ---------------- //
+
+@media screen and (min-height: 310px) and (max-width: 560px) {
+  .dropdown {
+    top: 2.7dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.7dvh;
+  }
+}
+
+// --------------- Min-Height: 350px and Max-Width 560px ---------------- //
+
+@media screen and (min-height: 350px) and (max-width: 560px) {
+  .dropdown {
     top: 3dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3.9dvh;
+  }
+}
+
+// --------------- Min-Height: 400px and Max-Width 560px ---------------- //
+
+@media screen and (min-height: 400px) and (max-width: 560px) {
+  .dropdown {
+    top: 3.3dvh;
+  }
+
+  .screen-toggle-button {
+    top: 4dvh;
+  }
+}
+
+// --------------- Min-Height: 450px and Max-Width 560px ---------------- //
+
+@media screen and (min-height: 450px) and (max-width: 560px) {
+  .dropdown {
+    top: 3.6dvh;
+  }
+
+  .screen-toggle-button {
+    top: 4.2dvh;
+  }
+}
+
+// --------------- Min-Height: 510px and Max-Width 560px ---------------- //
+
+@media screen and (min-height: 510px) and (max-width: 560px) {
+  .dropdown {
+    top: 3.9dvh;
+  }
+
+  .screen-toggle-button {
+    top: 4.5dvh;
   }
 }

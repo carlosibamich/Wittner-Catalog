@@ -702,7 +702,6 @@
 
 @media screen and (max-width: 780px) {
   .click-info-container {
-    // border-top: 1px solid var(--dark-grey);
     display: block;
   }
 }
@@ -741,7 +740,6 @@
 
 @media screen and (max-width: 740px) {
   .click-info-container {
-    // border-top: 1px solid var(--dark-grey);
     display: block;
   }
 }
@@ -842,6 +840,7 @@
 
 @media screen and (max-width: 620px) {
   .click-info-container {
+    display: block;
 
     .click-info {
 
@@ -850,13 +849,21 @@
       }
 
       .line {
-        width: 17.8rem;
+        width: 17.3rem;
       }
 
       p {
-        font-size: 2.86rem;
+        font-size: 2.82rem;
       }
     }
+  }
+}
+
+// ----------------- Max-Height: 255px and Max-Width 620px ----------------- //
+
+@media screen and (max-height: 255px) and (max-width: 620px) {
+  .click-info-container {
+    display: none;
   }
 }
 
@@ -864,20 +871,104 @@
 
 @media screen and (max-width: 580px) {
   .click-info-container {
+    display: block;
 
     .click-info {
 
       .fish {
-        font-size: 2.88rem;
+        font-size: 2.86rem;
       }
 
       .line {
-        width: 17.8rem;
+        width: 17rem;
       }
 
       p {
-        font-size: 2.9rem;
+        font-size: 2.8rem;
       }
     }
   }
 }
+
+// ----------------- Max-Height: 242px and Max-Width 580px ----------------- //
+
+@media screen and (max-height: 242px) and (max-width: 580px) {
+  .click-info-container {
+    display: none;
+  }
+}
+
+// --------------- Max-Width 550px ---------------- //
+
+@media screen and (max-width: 550px) {
+  .click-info-container {
+    display: block;
+  }
+}
+
+// ----------------- Max-Height: 228px and Max-Width 550px ----------------- //
+
+@media screen and (max-height: 228px) and (max-width: 550px) {
+  .click-info-container {
+    display: none;
+  }
+}
+
+// --------------- Max-Width 520px ---------------- //
+
+@media screen and (max-width: 520px) {
+  .click-info-container {
+    display: block;
+  }
+}
+
+// ----------------- Max-Height: 218px and Max-Width 520px ----------------- //
+
+@media screen and (max-height: 218px) and (max-width: 520px) {
+  .click-info-container {
+    display: none;
+  }
+}
+
+// --------------- Max-Width 500px ---------------- //
+
+@media screen and (max-width: 500px) {
+  .click-info-container {
+    display: block;
+  }
+}
+
+// ----------------- Max-Height: 210px and Max-Width 500px ----------------- //
+
+@media screen and (max-height: 210px) and (max-width: 500px) {
+  .click-info-container {
+    display: none;
+  }
+}
+
+// --------------- Max-Width 490px ---------------- //
+
+@media screen and (max-height: 210px) and (max-width: 490px) {
+  .click-info-container {
+    display: none;
+  }
+}
+
+// --------------- Max-Width 480px ---------------- //
+
+@media screen and (max-width: 480px) {
+  .click-info-container {
+    // border-top: 1px solid var(--dark-grey);
+    // border-bottom: 1px solid var(--dark-grey);
+    // display: block;
+    // display: none;
+  }
+}
+
+// ----------------- Max-Height: 205px and Max-Width 480px ----------------- //
+
+// @media screen and (max-height: 205px) and (max-width: 480px) {
+//   .click-info-container {
+//     display: none;
+//   }
+// }

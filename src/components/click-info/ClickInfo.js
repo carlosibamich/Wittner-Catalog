@@ -11,7 +11,6 @@ const ClickInfo = () => {
         <hr className="line" />
         <IoFishOutline className="fish" />
       </div>
-      <div className="color-base"></div>
     </div>
   )
 };

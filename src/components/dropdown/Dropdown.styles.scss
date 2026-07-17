@@ -19,9 +19,6 @@
       background: transparent;
       border: none;
       position: relative;
-      // position: absolute;
-      // top: 0;
-      // left: 1rem;
       z-index: 50;
       outline: none;
       transition: transform 0.25s ease-in-out;
@@ -61,14 +58,16 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      // height: 40px;
-      // margin-left: 0.25rem;
+      color: var(--copper-yellow);
 
-      h2 {
+      .title {
         margin: 0rem;
         font-size: 1.95rem;
         font-weight: 500;
-        color: var(--copper-yellow);
+      }
+
+      .menu {
+        display: none;
       }
     }
   }
@@ -177,7 +176,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 1.72rem;
         }
       }
@@ -201,7 +200,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 1.73rem;
         }
       }
@@ -247,7 +246,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 1.79rem;
         }
       }
@@ -275,7 +274,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 1.82rem;
         }
       }
@@ -299,7 +298,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 1.86rem;
         }
       }
@@ -327,7 +326,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 1.95rem;
         }
       }
@@ -362,7 +361,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 1.98rem;
         }
       }
@@ -387,7 +386,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 2.1rem;
         }
       }
@@ -418,7 +417,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 2.23rem;
         }
       }
@@ -451,7 +450,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 2.28rem;
         }
       }
@@ -484,7 +483,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 2.28rem;
         }
       }
@@ -522,7 +521,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 2.4rem;
         }
       }
@@ -547,7 +546,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 2.48rem;
         }
       }
@@ -584,7 +583,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 2.56rem;
         }
       }
@@ -630,8 +629,8 @@
 
       .current-title-box {
 
-        h2 {
-          font-size: 2.56rem;
+        .title {
+          font-size: 2.53rem;
         }
       }
     }
@@ -674,7 +673,7 @@
 
       .current-title-box {
 
-        h2 {
+        .title {
           font-size: 2.6rem;
         }
       }
@@ -701,10 +700,24 @@
 
     .burger-menu-box {
 
+      .burger-btn {
+
+        &.is-open {
+          transform: translateX(14rem);
+        }
+      }
+
       .current-title-box {
 
-        h2 {
-          font-size: 2.65rem;
+        .title {
+          display: none
+        }
+
+        .menu {
+          display: block;
+          margin: 0rem;
+          font-size: 2.75rem;
+          font-weight: 500;
         }
       }
     }
@@ -717,6 +730,122 @@
 
       .menu-option {
         font-size: 2.3rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 580px ---------------- //
+
+@media screen and (max-width: 580px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .current-title-box {
+
+        .menu {
+          font-size: 3rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 17dvh;
+      }
+
+      .menu-option {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 520px ---------------- //
+
+@media screen and (max-width: 520px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .burger-btn {
+
+        &.is-open {
+          transform: translateX(13.5rem);
+        }
+      }
+
+      .current-title-box {
+
+        .menu {
+          font-size: 3.1rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      .spacer {
+        // height: 18.2dvh;
+      }
+
+      .menu-option {
+        padding: 1.1rem 1.5rem;
+        font-size: 2.5rem;
+
+        &.active {
+
+          &::before {
+            top: 5px;
+            bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// --------------- Max-Width 480px ---------------- //
+
+@media screen and (max-width: 480px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .burger-btn {
+
+        &.is-open {
+          transform: translateX(13.2rem);
+        }
+      }
+
+      .current-title-box {
+
+        .menu {
+          // font-size: 3.1rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 16.2dvh;
+      }
+
+      .menu-option {
+        padding: 1rem 1.5rem;
+        font-size: 2.55rem;
+
+        &.active {
+
+          &::before {
+            top: 6px;
+            bottom: 6px;
+          }
+        }
       }
     }
   }
