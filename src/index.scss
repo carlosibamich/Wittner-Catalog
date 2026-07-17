@@ -2716,7 +2716,7 @@ div.carousel-container {
 
 @media screen and (max-width: 520px) {
   html {
-    font-size: 29.2%;
+    font-size: 29.1%;
   }
 
   div.carousel-container {
@@ -2736,7 +2736,7 @@ div.carousel-container {
 
 @media screen and (max-width: 515px) {
   html {
-    font-size: 28.9%;
+    font-size: 28.8%;
   }
 }
 
@@ -2744,7 +2744,7 @@ div.carousel-container {
 
 @media screen and (max-width: 510px) {
   html {
-    font-size: 28.7%;
+    font-size: 28.5%;
   }
 }
 
@@ -2752,7 +2752,7 @@ div.carousel-container {
 
 @media screen and (max-width: 505px) {
   html {
-    font-size: 28.4%;
+    font-size: 28.2%;
   }
 }
 
@@ -2761,7 +2761,7 @@ div.carousel-container {
 
 @media screen and (max-width: 500px) {
   html {
-    font-size: 28.2%;
+    font-size: 27.9%;
   }
 
   div.carousel-container {
@@ -2789,7 +2789,7 @@ div.carousel-container {
 
 @media screen and (max-width: 495px) {
   html {
-    font-size: 27.9%;
+    font-size: 27.6%;
     }
 }
 
@@ -2797,7 +2797,7 @@ div.carousel-container {
 
 @media screen and (max-width: 490px) {
   html {
-    font-size: 27.7%;
+    font-size: 27.4%;
   }
 }
 
@@ -2814,7 +2814,7 @@ div.carousel-container {
 
 @media screen and (max-width: 485px) {
   html {
-    font-size: 27.4%;
+    font-size: 27.1%;
     }
 }
 
@@ -2822,12 +2822,11 @@ div.carousel-container {
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 27.2%;
+    font-size: 26.8%;
   }
 
   div.carousel-container {
-    // min-height: 91.8dvh;
-    // min-height: 100dvh;
+    min-height: 100dvh;
     
     .controls {
       margin-top: 7dvh;
@@ -2845,17 +2844,33 @@ div.carousel-container {
 
 // ----------------- Max-Height: 205px and Max-Width 480px ----------------- //
 
-// @media screen and (max-height: 205px) and (max-width: 480px) {
-//   div.carousel-container {
-//     min-height: 100dvh;
-//   }
-// }
+@media screen and (min-height: 221px) and (max-width: 480px) {
+  div.carousel-container {
+    min-height: 91.8dvh;
+  }
+}
+
+// --------------- Max-Width 475px ---------------- //
+
+@media screen and (max-width: 475px) {
+  html {
+    font-size: 26.5%;
+    }
+}
+
+// --------------- Max-Width 470px ---------------- //
+
+@media screen and (max-width: 470px) {
+  html {
+    font-size: 26.2%;
+    }
+}
 
 // --------------- Max-Width 465px ---------------- //
 
 @media screen and (max-width: 465px) {
   html {
-    font-size: 26.9%;
+    font-size: 25.9%;
     }
 }
 
@@ -2863,7 +2878,7 @@ div.carousel-container {
 
 @media screen and (max-width: 460px) {
   html {
-    font-size: 26.7%;
+    font-size: 25.6%;
     }
 }
 
@@ -2871,7 +2886,7 @@ div.carousel-container {
 
 @media screen and (max-width: 455px) {
   html {
-    font-size: 26.4%;
+    font-size: 25.3%;
     }
 }
 
@@ -2879,7 +2894,7 @@ div.carousel-container {
 
 @media screen and (max-width: 450px) {
   html {
-    font-size: 26.2%;
+    font-size: 25%;
     }
 }
 
@@ -2887,7 +2902,7 @@ div.carousel-container {
 
 @media screen and (max-width: 445px) {
   html {
-    font-size: 25.9%;
+    font-size: 24.7%;
     }
 }
 
@@ -2895,7 +2910,7 @@ div.carousel-container {
 
 @media screen and (max-width: 440px) {
   html {
-    font-size: 25.7%;
+    font-size: 24.4%;
     }
 }
 
@@ -2903,7 +2918,7 @@ div.carousel-container {
 
 @media screen and (max-width: 435px) {
   html {
-    font-size: 25.4%;
+    font-size: 24.1%;
     }
 }
 
@@ -2911,7 +2926,7 @@ div.carousel-container {
 
 @media screen and (max-width: 430px) {
   html {
-    font-size: 25.2%;
+    font-size: 23.8%;
     }
 }
 
@@ -2919,7 +2934,7 @@ div.carousel-container {
 
 @media screen and (max-width: 425px) {
   html {
-    font-size: 24.9%;
+    font-size: 23.5%;
     }
 }
 
@@ -2927,7 +2942,7 @@ div.carousel-container {
 
 @media screen and (max-width: 420px) {
   html {
-    font-size: 24.7%;
+    font-size: 23.2%;
     }
 }
 
@@ -2935,7 +2950,7 @@ div.carousel-container {
 
 @media screen and (max-width: 415px) {
   html {
-    font-size: 24.4%;
+    font-size: 22.9%;
     }
 }
 
@@ -2943,7 +2958,7 @@ div.carousel-container {
 
 @media screen and (max-width: 410px) {
   html {
-    font-size: 24.2%;
+    font-size: 22.6%;
     }
 }
 
@@ -2951,7 +2966,7 @@ div.carousel-container {
 
 @media screen and (max-width: 405px) {
   html {
-    font-size: 23.9%;
+    font-size: 22.3%;
     }
 }
 
@@ -2959,7 +2974,7 @@ div.carousel-container {
 
 @media screen and (max-width: 400px) {
   html {
-    font-size: 23.7%;
+    font-size: 22%;
     }
 }
 
@@ -2967,7 +2982,7 @@ div.carousel-container {
 
 @media screen and (max-width: 395px) {
   html {
-    font-size: 23.4%;
+    font-size: 21.7%;
     }
 }
 
@@ -2975,7 +2990,7 @@ div.carousel-container {
 
 @media screen and (max-width: 390px) {
   html {
-    font-size: 23.2%;
+    font-size: 21.4%;
     }
 }
 
@@ -2983,7 +2998,7 @@ div.carousel-container {
 
 @media screen and (max-width: 385px) {
   html {
-    font-size: 22.9%;
+    font-size: 21.1%;
     }
 }
 
@@ -2991,7 +3006,7 @@ div.carousel-container {
 
 @media screen and (max-width: 380px) {
   html {
-    font-size: 22.7%;
+    font-size: 20.8%;
     }
 }
 
@@ -2999,7 +3014,7 @@ div.carousel-container {
 
 @media screen and (max-width: 375px) {
   html {
-    font-size: 22.4%;
+    font-size: 20.5%;
     }
 }
 
@@ -3007,7 +3022,7 @@ div.carousel-container {
 
 @media screen and (max-width: 370px) {
   html {
-    font-size: 22.2%;
+    font-size: 20.2%;
     }
 }
 
@@ -3015,7 +3030,7 @@ div.carousel-container {
 
 @media screen and (max-width: 365px) {
   html {
-    font-size: 21.9%;
+    font-size: 19.9%;
     }
 }
 
@@ -3023,7 +3038,7 @@ div.carousel-container {
 
 @media screen and (max-width: 360px) {
   html {
-    font-size: 21.7%;
+    font-size: 19.6%;
     }
 }
 
@@ -3031,7 +3046,7 @@ div.carousel-container {
 
 @media screen and (max-width: 355px) {
   html {
-    font-size: 21.4%;
+    font-size: 19.3%;
     }
 }
 
@@ -3039,6 +3054,22 @@ div.carousel-container {
 
 @media screen and (max-width: 350px) {
   html {
-    font-size: 21.2%;
+    font-size: 19%;
+    }
+}
+
+// --------------- Max-Width 345px ---------------- //
+
+@media screen and (max-width: 345px) {
+  html {
+    font-size: 18.7%;
+    }
+}
+
+// --------------- Max-Width 340px ---------------- //
+
+@media screen and (max-width: 340px) {
+  html {
+    font-size: 18.4%;
     }
 }

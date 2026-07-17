@@ -934,6 +934,7 @@
 
 @media screen and (max-width: 500px) {
   .click-info-container {
+    // border-top: 1px solid var(--dark-grey);
     display: block;
   }
 }
@@ -948,20 +949,19 @@
 
 // --------------- Max-Width 490px ---------------- //
 
-@media screen and (max-height: 210px) and (max-width: 490px) {
-  .click-info-container {
-    display: none;
-  }
-}
+// @media screen and (max-height: 210px) and (max-width: 490px) {
+//   .click-info-container {
+//     display: none;
+//   }
+// }
 
-// --------------- Max-Width 480px ---------------- //
+// --------------- Max-Height: 220px and Max-Width 480px ---------------- //
 
-@media screen and (max-width: 480px) {
+@media screen and (max-height: 220px) and (max-width: 480px) {
   .click-info-container {
     // border-top: 1px solid var(--dark-grey);
     // border-bottom: 1px solid var(--dark-grey);
-    // display: block;
-    // display: none;
+    display: none;
   }
 }
 
