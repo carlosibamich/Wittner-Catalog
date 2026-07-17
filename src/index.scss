@@ -45,6 +45,10 @@ code {
 
 /* ----------------- Utility Styles ----------------- */
 
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 ul li {
   list-style-type: none;
 }
