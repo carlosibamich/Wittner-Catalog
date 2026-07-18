@@ -47,34 +47,75 @@ const ScreenToggleButton = () => {
   //   }
   // };
 
+  // const toggleFullscreen = async () => {
+  //   try {
+  //     const rootElement = document.documentElement;
+
+  //     // 1. Check if the browser supports any form of native Fullscreen API
+  //     const supportsNativeFullscreen = !!(rootElement.requestFullscreen || rootElement.webkitRequestFullscreen);
+
+  //     if (supportsNativeFullscreen) {
+  //       // --- NATIVE FULLSCREEN LOGIC (Android, Desktop, iPad) ---
+  //       const isCurrentlyFull = document.fullscreenElement || document.webkitFullscreenElement;
+        
+  //       if (isCurrentlyFull) {
+  //         if (document.exitFullscreen) {
+  //           await document.exitFullscreen();
+  //         } else if (document.webkitExitFullscreen) {
+  //           await document.webkitExitFullscreen();
+  //         }
+  //       } else {
+  //         if (rootElement.requestFullscreen) {
+  //           await rootElement.requestFullscreen();
+  //         } else if (rootElement.webkitRequestFullscreen) {
+  //           await rootElement.webkitRequestFullscreen();
+  //         }
+  //       }
+  //     } else {
+  //       // --- FAUX FULLSCREEN FALLBACK (iPhone / iOS WebKit) ---
+  //       // Toggle a class on the root element to trigger the CSS override
+  //       rootElement.classList.toggle('ios-faux-fullscreen');
+  //     }
+  //   } catch (error) {
+  //     console.warn("Fullscreen toggle failed or blocked by browser security:", error);
+  //   }
+  // };
+
   const toggleFullscreen = async () => {
     try {
       const rootElement = document.documentElement;
+      const wrapper = document.getElementById('app-viewport-wrapper');
+      
+      if (!wrapper) {
+        console.warn("Required wrapper element '#app-viewport-wrapper' not found.");
+        return;
+      }
 
-      // 1. Check if the browser supports any form of native Fullscreen API
+      // Check for native browser engine support (True for Desktop, Android, iPad)
       const supportsNativeFullscreen = !!(rootElement.requestFullscreen || rootElement.webkitRequestFullscreen);
 
       if (supportsNativeFullscreen) {
-        // --- NATIVE FULLSCREEN LOGIC (Android, Desktop, iPad) ---
         const isCurrentlyFull = document.fullscreenElement || document.webkitFullscreenElement;
         
         if (isCurrentlyFull) {
-          if (document.exitFullscreen) {
-            await document.exitFullscreen();
-          } else if (document.webkitExitFullscreen) {
-            await document.webkitExitFullscreen();
-          }
+          if (document.exitFullscreen) { await document.exitFullscreen(); }
+          else if (document.webkitExitFullscreen) { await document.webkitExitFullscreen(); }
         } else {
-          if (rootElement.requestFullscreen) {
-            await rootElement.requestFullscreen();
-          } else if (rootElement.webkitRequestFullscreen) {
-            await rootElement.webkitRequestFullscreen();
-          }
+          if (rootElement.requestFullscreen) { await rootElement.requestFullscreen(); }
+          else if (rootElement.webkitRequestFullscreen) { await rootElement.webkitRequestFullscreen(); }
         }
       } else {
-        // --- FAUX FULLSCREEN FALLBACK (iPhone / iOS WebKit) ---
-        // Toggle a class on the root element to trigger the CSS override
-        rootElement.classList.toggle('ios-faux-fullscreen');
+        // --- IPHONE SPECIFIC FALLBACK ENGINE ---
+        // Toggle a data-attribute directly on the HTML tag for high-specificity SCSS styling
+        const isFauxFull = rootElement.getAttribute('data-fullscreen') === 'true';
+        
+        if (isFauxFull) {
+          rootElement.removeAttribute('data-fullscreen');
+          window.scrollTo(0, 0); // Forces iOS to redraw layout correctly
+        } else {
+          rootElement.setAttribute('data-fullscreen', 'true');
+          window.scrollTo(0, 0); // Minimizes the dynamic address bar context
+        }
       }
     } catch (error) {
       console.warn("Fullscreen toggle failed or blocked by browser security:", error);
