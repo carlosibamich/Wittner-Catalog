@@ -24,19 +24,6 @@ html body {
   -webkit-text-size-adjust: 100%;
 }
 
-// html.ios-faux-fullscreen,
-// html.ios-faux-fullscreen body {
-//   position: fixed !important;
-//   top: 0 !important;
-//   left: 0 !important;
-//   width: 100vw !important;
-//   height: 100dvh !important;
-//   overflow: hidden !important;
-//   margin: 0 !important;
-//   padding: 0 !important;
-//   z-index: 999999 !important;
-// }
-
 html[data-fullscreen="true"] {
   overflow: hidden !important;
   height: 100dvh !important;
@@ -45,6 +32,7 @@ html[data-fullscreen="true"] {
     overflow: hidden !important;
     height: 100dvh !important;
     margin: 0 !important;
+    background: #fff !important; /* Forces the root canvas back to white */
   }
 
   #app-viewport-wrapper {
@@ -52,23 +40,12 @@ html[data-fullscreen="true"] {
     top: 0 !important;
     left: 0 !important;
     width: 100vw !important;
-    height: 100dvh !important; /* Hooks into your dynamic height configurations */
+    height: 101dvh !important; /* Set slightly past the viewport edge to force an iOS toolbar push */
     z-index: 999999 !important;
-    background: #000; /* Prevent background bleeding */
-    overflow-y: auto !important; /* Maintains site scrolling capability inside full view */
-    -webkit-transform: translate3d(0, 0, 0); /* Forces iOS WebKit hardware acceleration */
-
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: stretch !important;
-    justify-content: flex-start !important;
-
-    /* Targets your main sections (e.g., <main>, <section>, .page-content) */
-    > * {
-      flex: 1 0 auto !important; /* Forces components to stretch vertically */
-      width: 100% !important;     /* Forces components to stretch horizontally */
-      box-sizing: border-box !important;
-    }
+    background: #fff !important; /* Matches your core white theme design */
+    overflow-y: scroll !important; /* Forces standard inertia scrolling container inside fullscreen */
+    -webkit-overflow-scrolling: touch !important; /* Re-enables smooth mobile momentum scrolling */
+    -webkit-transform: translate3d(0, 0, 0); 
   }
 }
 

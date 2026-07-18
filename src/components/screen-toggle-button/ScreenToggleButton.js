@@ -106,15 +106,22 @@ const ScreenToggleButton = () => {
         }
       } else {
         // --- IPHONE SPECIFIC FALLBACK ENGINE ---
-        // Toggle a data-attribute directly on the HTML tag for high-specificity SCSS styling
         const isFauxFull = rootElement.getAttribute('data-fullscreen') === 'true';
         
         if (isFauxFull) {
           rootElement.removeAttribute('data-fullscreen');
-          window.scrollTo(0, 0); // Forces iOS to redraw layout correctly
+          window.scrollTo(0, 0);
         } else {
           rootElement.setAttribute('data-fullscreen', 'true');
-          window.scrollTo(0, 0); // Minimizes the dynamic address bar context
+          
+          // Micro-Scroll execution window: Forces WebKit to scroll 1px down inside 
+          // the newly generated 101dvh wrapper container, sliding the browser headers away
+          setTimeout(() => {
+            const wrapper = document.getElementById('app-viewport-wrapper');
+            if (wrapper) {
+              wrapper.scrollTop = 1; // Shifts layout scroll context by 1 pixel
+            }
+          }, 80);
         }
       }
     } catch (error) {
@@ -140,7 +147,7 @@ const ScreenToggleButton = () => {
         <div className="screen-toggle">
           <AiOutlineExpand className="screen-icon" />
           <div className="screen-text">
-            <p>FULL!!</p>
+            <p>FULL</p>
             <p>SCREEN</p>
           </div>
         </div>
