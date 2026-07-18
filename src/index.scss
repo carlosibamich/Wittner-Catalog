@@ -3144,3 +3144,9 @@ div.carousel-container {
     font-size: 18.4%;
     }
 }
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: purple !important;
+  }
+}
