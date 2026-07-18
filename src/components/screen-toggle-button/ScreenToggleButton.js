@@ -22,25 +22,59 @@ const ScreenToggleButton = () => {
     };
   }, []);
 
+  // const toggleFullscreen = async () => {
+  //   try {
+  //     const isCurrentlyFull = document.fullscreenElement || document.webkitFullscreenElement;
+
+  //     if (isCurrentlyFull) {
+  //       // Exit Fullscreen
+  //       if (document.exitFullscreen) {
+  //         await document.exitFullscreen();
+  //       } else if (document.webkitExitFullscreen) {
+  //         await document.webkitExitFullscreen(); // Safari
+  //       }
+  //     } else {
+  //       // Enter Fullscreen (Targeting the root page element)
+  //       const rootElement = document.documentElement;
+  //       if (rootElement.requestFullscreen) {
+  //         await rootElement.requestFullscreen();
+  //       } else if (rootElement.webkitRequestFullscreen) {
+  //         await rootElement.webkitRequestFullscreen(); // Safari
+  //       }
+  //     }
+  //   } catch (error) {
+  //     console.warn("Fullscreen toggle failed or blocked by browser security:", error);
+  //   }
+  // };
+
   const toggleFullscreen = async () => {
     try {
-      const isCurrentlyFull = document.fullscreenElement || document.webkitFullscreenElement;
+      const rootElement = document.documentElement;
 
-      if (isCurrentlyFull) {
-        // Exit Fullscreen
-        if (document.exitFullscreen) {
-          await document.exitFullscreen();
-        } else if (document.webkitExitFullscreen) {
-          await document.webkitExitFullscreen(); // Safari
+      // 1. Check if the browser supports any form of native Fullscreen API
+      const supportsNativeFullscreen = !!(rootElement.requestFullscreen || rootElement.webkitRequestFullscreen);
+
+      if (supportsNativeFullscreen) {
+        // --- NATIVE FULLSCREEN LOGIC (Android, Desktop, iPad) ---
+        const isCurrentlyFull = document.fullscreenElement || document.webkitFullscreenElement;
+        
+        if (isCurrentlyFull) {
+          if (document.exitFullscreen) {
+            await document.exitFullscreen();
+          } else if (document.webkitExitFullscreen) {
+            await document.webkitExitFullscreen();
+          }
+        } else {
+          if (rootElement.requestFullscreen) {
+            await rootElement.requestFullscreen();
+          } else if (rootElement.webkitRequestFullscreen) {
+            await rootElement.webkitRequestFullscreen();
+          }
         }
       } else {
-        // Enter Fullscreen (Targeting the root page element)
-        const rootElement = document.documentElement;
-        if (rootElement.requestFullscreen) {
-          await rootElement.requestFullscreen();
-        } else if (rootElement.webkitRequestFullscreen) {
-          await rootElement.webkitRequestFullscreen(); // Safari
-        }
+        // --- FAUX FULLSCREEN FALLBACK (iPhone / iOS WebKit) ---
+        // Toggle a class on the root element to trigger the CSS override
+        rootElement.classList.toggle('ios-faux-fullscreen');
       }
     } catch (error) {
       console.warn("Fullscreen toggle failed or blocked by browser security:", error);
@@ -66,7 +100,7 @@ const ScreenToggleButton = () => {
           <AiOutlineExpand className="screen-icon" />
           <div className="screen-text">
             <p>FULL</p>
-            <p>SCREEN</p>
+            <p>SCREEN!!</p>
           </div>
         </div>
       )}
