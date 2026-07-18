@@ -349,9 +349,9 @@ button.toggle-box {
   }
 }
 
-// ----------------  Max-Width: 720px ---------------- //
+// ----------------  Max-Width: 740px ---------------- //
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
   button.toggle-box {
 
     .screen-toggle {
@@ -377,9 +377,9 @@ button.toggle-box {
   }
 }
 
-// ----------------  Max-Width: 640px ---------------- //
+// ----------------  Max-Width: 660px ---------------- //
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 660px) {
   button.toggle-box {
 
     .screen-toggle {
@@ -399,9 +399,9 @@ button.toggle-box {
   }
 }
 
-// ----------------  Max-Width: 600px ---------------- //
+// ----------------  Max-Width: 620px ---------------- //
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   button.toggle-box {
 
     .screen-toggle {
@@ -452,6 +452,27 @@ button.toggle-box {
           font-size: 2.2rem;
           line-height: 2.1rem;
         }
+      }
+    }
+  }
+}
+
+// ----------------  Max-Width: 440px ---------------- //
+
+@media screen and (max-width: 440px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      height: 5.4rem;
+
+      .screen-icon {
+        width: 5.4rem;
+        height: 5.4rem;
+        font-size: 5.3rem;
+      }
+
+      .screen-text {
+        display: none;
       }
     }
   }
