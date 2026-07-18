@@ -25,6 +25,7 @@ html body {
 }
 
 html[data-fullscreen="true"] {
+  /* Lock the base document to prevent iOS rubber-banding bounce */
   overflow: hidden !important;
   height: 100dvh !important;
 
@@ -32,20 +33,30 @@ html[data-fullscreen="true"] {
     overflow: hidden !important;
     height: 100dvh !important;
     margin: 0 !important;
-    background: #fff !important; /* Forces the root canvas back to white */
+    padding: 0 !important;
   }
 
   #app-viewport-wrapper {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
     width: 100vw !important;
-    height: 101dvh !important; /* Set slightly past the viewport edge to force an iOS toolbar push */
-    z-index: 999999 !important;
-    background: #fff !important; /* Matches your core white theme design */
-    overflow-y: scroll !important; /* Forces standard inertia scrolling container inside fullscreen */
-    -webkit-overflow-scrolling: touch !important; /* Re-enables smooth mobile momentum scrolling */
-    -webkit-transform: translate3d(0, 0, 0); 
+    
+    /* Fits the element between the browser bars */
+    height: 100dvh !important; 
+    
+    /* Keeps your presentation layer above all else */
+    z-index: 999999 !important; 
+    background: var(--off-white) !important; 
+    
+    /* Allows user to scroll naturally *inside* your app layout box */
+    overflow-y: auto !important; 
+    -webkit-overflow-scrolling: touch !important; 
+    
+    /* Fixes iOS subpixel calculation lag */
+    box-sizing: border-box !important; 
   }
 }
 

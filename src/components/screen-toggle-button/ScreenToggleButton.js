@@ -81,22 +81,66 @@ const ScreenToggleButton = () => {
   //   }
   // };
 
+  // const toggleFullscreen = async () => {
+  //   try {
+  //     const rootElement = document.documentElement;
+  //     const wrapper = document.getElementById('app-viewport-wrapper');
+      
+  //     if (!wrapper) {
+  //       console.warn("Required wrapper element '#app-viewport-wrapper' not found.");
+  //       return;
+  //     }
+
+  //     // Check for native browser engine support (True for Desktop, Android, iPad)
+  //     const supportsNativeFullscreen = !!(rootElement.requestFullscreen || rootElement.webkitRequestFullscreen);
+
+  //     if (supportsNativeFullscreen) {
+  //       const isCurrentlyFull = document.fullscreenElement || document.webkitFullscreenElement;
+        
+  //       if (isCurrentlyFull) {
+  //         if (document.exitFullscreen) { await document.exitFullscreen(); }
+  //         else if (document.webkitExitFullscreen) { await document.webkitExitFullscreen(); }
+  //       } else {
+  //         if (rootElement.requestFullscreen) { await rootElement.requestFullscreen(); }
+  //         else if (rootElement.webkitRequestFullscreen) { await rootElement.webkitRequestFullscreen(); }
+  //       }
+  //     } else {
+  //       // --- IPHONE SPECIFIC FALLBACK ENGINE ---
+  //       const isFauxFull = rootElement.getAttribute('data-fullscreen') === 'true';
+        
+  //       if (isFauxFull) {
+  //         rootElement.removeAttribute('data-fullscreen');
+  //         window.scrollTo(0, 0);
+  //       } else {
+  //         rootElement.setAttribute('data-fullscreen', 'true');
+          
+  //         // Micro-Scroll execution window: Forces WebKit to scroll 1px down inside 
+  //         // the newly generated 101dvh wrapper container, sliding the browser headers away
+  //         setTimeout(() => {
+  //           const wrapper = document.getElementById('app-viewport-wrapper');
+  //           if (wrapper) {
+  //             wrapper.scrollTop = 1; // Shifts layout scroll context by 1 pixel
+  //           }
+  //         }, 80);
+  //       }
+  //     }
+  //   } catch (error) {
+  //     console.warn("Fullscreen toggle failed or blocked by browser security:", error);
+  //   }
+  // };
+
   const toggleFullscreen = async () => {
     try {
       const rootElement = document.documentElement;
       const wrapper = document.getElementById('app-viewport-wrapper');
       
-      if (!wrapper) {
-        console.warn("Required wrapper element '#app-viewport-wrapper' not found.");
-        return;
-      }
+      if (!wrapper) return;
 
-      // Check for native browser engine support (True for Desktop, Android, iPad)
+      // Standard native check (Desktop, Android, iPad)
       const supportsNativeFullscreen = !!(rootElement.requestFullscreen || rootElement.webkitRequestFullscreen);
 
       if (supportsNativeFullscreen) {
         const isCurrentlyFull = document.fullscreenElement || document.webkitFullscreenElement;
-        
         if (isCurrentlyFull) {
           if (document.exitFullscreen) { await document.exitFullscreen(); }
           else if (document.webkitExitFullscreen) { await document.webkitExitFullscreen(); }
@@ -105,27 +149,16 @@ const ScreenToggleButton = () => {
           else if (rootElement.webkitRequestFullscreen) { await rootElement.webkitRequestFullscreen(); }
         }
       } else {
-        // --- IPHONE SPECIFIC FALLBACK ENGINE ---
+        // iPhone Viewport Toggle
         const isFauxFull = rootElement.getAttribute('data-fullscreen') === 'true';
-        
         if (isFauxFull) {
           rootElement.removeAttribute('data-fullscreen');
-          window.scrollTo(0, 0);
         } else {
           rootElement.setAttribute('data-fullscreen', 'true');
-          
-          // Micro-Scroll execution window: Forces WebKit to scroll 1px down inside 
-          // the newly generated 101dvh wrapper container, sliding the browser headers away
-          setTimeout(() => {
-            const wrapper = document.getElementById('app-viewport-wrapper');
-            if (wrapper) {
-              wrapper.scrollTop = 1; // Shifts layout scroll context by 1 pixel
-            }
-          }, 80);
         }
       }
     } catch (error) {
-      console.warn("Fullscreen toggle failed or blocked by browser security:", error);
+      console.warn("Fullscreen toggle failed:", error);
     }
   };
 
@@ -147,7 +180,7 @@ const ScreenToggleButton = () => {
         <div className="screen-toggle">
           <AiOutlineExpand className="screen-icon" />
           <div className="screen-text">
-            <p>FULL</p>
+            <p>FULL!!!</p>
             <p>SCREEN</p>
           </div>
         </div>
