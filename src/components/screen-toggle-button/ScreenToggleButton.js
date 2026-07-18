@@ -130,7 +130,6 @@ const ScreenToggleButton = () => {
   // };
 
   const toggleFullscreen = async () => {
-    alert("Button was physically tapped on iOS!");
     try {
       const rootElement = document.documentElement;
       const wrapper = document.getElementById('app-viewport-wrapper');
@@ -181,7 +180,7 @@ const ScreenToggleButton = () => {
         <div className="screen-toggle">
           <AiOutlineExpand className="screen-icon" />
           <div className="screen-text">
-            <p>FULL!!!</p>
+            <p>FULL</p>
             <p>SCREEN</p>
           </div>
         </div>
