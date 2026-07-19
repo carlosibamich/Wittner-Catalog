@@ -18,10 +18,6 @@
 }
 
 .horizontal-layout {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  // justify-content: center;
   overflow-y: hidden;
   overflow-x: auto;
   height: 100dvh;
@@ -708,6 +704,49 @@
       }
     }
   }
+}
+
+// ---------------- Min-Height: 691px and Max-Width: 1140px --------------- //
+
+@media screen and (min-height: 691px) and (max-width: 1130px) {
+  .horizontal-layout {
+
+  .footer-container {
+
+    .footer {
+      height: 13.8dvh;
+
+      .footer-box {
+
+        .logo {
+          height: 3.15rem;
+        }
+  
+        .copyrights {
+
+          .copyright {
+            font-size: 1.5rem;
+          }
+          
+          p {
+            font-size: 0.92rem;
+          }     
+        }
+  
+        .address {
+        
+          p {
+            font-size: 0.92rem;
+          }
+
+          .rocket {
+            font-size: 1.43rem;
+          }
+        }
+      }
+    }
+  }
+}
 }
 
 // ---------------- Min-Height: 691px and Max-Width: 1115px --------------- //

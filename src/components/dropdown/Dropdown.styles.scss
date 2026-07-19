@@ -177,7 +177,7 @@
       .current-title-box {
 
         .title {
-          font-size: 1.72rem;
+          font-size: 1.84rem;
         }
       }
     }
@@ -201,7 +201,7 @@
       .current-title-box {
 
         .title {
-          font-size: 1.73rem;
+          font-size: 1.8rem;
         }
       }
     }
@@ -247,7 +247,7 @@
       .current-title-box {
 
         .title {
-          font-size: 1.79rem;
+          font-size: 1.85rem;
         }
       }
     }
@@ -275,7 +275,7 @@
       .current-title-box {
 
         .title {
-          font-size: 1.82rem;
+          font-size: 1.88rem;
         }
       }
     }
@@ -299,7 +299,7 @@
       .current-title-box {
 
         .title {
-          font-size: 1.86rem;
+          font-size: 1.93rem;
         }
       }
     }
@@ -327,7 +327,7 @@
       .current-title-box {
 
         .title {
-          font-size: 1.95rem;
+          font-size: 1.99rem;
         }
       }
     }
@@ -345,7 +345,7 @@
   }
 }
 
-// --------------- Max-Height: 690px and Max-Width 1140px ---------------- //
+// --------------- Max-Height: 690px and Max-Width 1180px ---------------- //
 
 @media screen and (max-height: 690px) and (max-width: 1180px) {
   .mobile-menu-container {
@@ -362,7 +362,7 @@
       .current-title-box {
 
         .title {
-          font-size: 1.98rem;
+          font-size: 2.1rem;
         }
       }
     }
@@ -372,6 +372,70 @@
 
       .menu-option {
         font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Height: 690px and Max-Width 1130px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1130px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+      // gap: 3px;
+
+      .burger-btn {
+        width: 40px;
+        height: 40px;
+        gap: 5px;
+
+
+        .burger-line {
+          width: 28px;
+          height: 2px;
+        }
+
+        &.is-open {
+          transform: translateX(8.2rem);
+
+          .line-top {
+            // transform: translateY(7px) rotate(45deg);
+          }
+          
+          .line-bottom {
+            // transform: translateY(-7px) rotate(-45deg);
+          }
+        }
+      }
+
+      .current-title-box {
+
+        .title {
+          font-size: 1.32rem;
+        }
+      }
+    }
+
+    .dropdown-menu {
+      width: 14.75rem;
+      padding: 0.4rem 1rem;
+
+      .spacer {
+        height: 20.2dvh;
+      }
+
+      .menu-option {
+        padding: 0.64rem 1.12rem;
+        font-size: 1.12rem;
+
+        &.active {
+
+          &::before {
+            top: 9px;
+            bottom: 9px;
+          }
+        }
       }
     }
   }

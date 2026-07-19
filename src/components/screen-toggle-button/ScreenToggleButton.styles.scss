@@ -24,7 +24,6 @@ button.toggle-box {
       justify-content: center;
       align-items: flex-start;
       width: 5.8rem;
-      padding-top: 0.2rem;
 
       p {
         margin: 0rem;
@@ -47,27 +46,28 @@ button.toggle-box {
 
     .screen-toggle {
       flex-direction: row-reverse;
-      width: 10.2rem;
-      gap: 1px;
+      width: 11rem;
+      height: 3.4rem;
+      gap: 2px;
 
       .screen-icon {
         color: var(--dark-grey);
         font-size: 2.75rem;
-        width: 3.2rem;
+        width: 3.4rem;
+        font-size: 3.2rem;
         opacity: 0.9;
       }
 
       .screen-text {
         align-items: flex-end;
-        width: 7rem;
-        padding-top: 0rem;
+        width: 7.6rem;
 
         p {
           margin: 0rem;
           color: var(--copper-yellow);
-          font-size: 1.33rem;
+          font-size: 1.5rem;
           font-weight: 500;
-          line-height: 1.38rem;
+          line-height: 1.4rem;
           opacity: 1;
         }
       }
@@ -104,18 +104,20 @@ button.toggle-box {
 
     .screen-toggle {
       width: 11rem;
+      height: 3.4rem;
+      gap: 2px;
 
       .screen-icon {
         width: 3.4rem;
-        font-size: 2.8rem;
+        font-size: 3.2rem;
       }
 
       .screen-text {
         width: 7.6rem;
 
         p {
-          font-size: 1.38rem;
-          line-height: 1.33rem;
+          font-size: 1.5rem;
+          line-height: 1.4rem;
         }
       }
     }
@@ -153,16 +155,20 @@ button.toggle-box {
   button.toggle-box {
 
     .screen-toggle {
+      width: 11.2rem;
+      height: 3.5rem;
 
       .screen-icon {
-        font-size: 2.98rem;
+        width: 3.5rem;
+        font-size: 3.4rem;
       }
 
       .screen-text {
+        width: 7.7rem;
 
         p {
-          font-size: 1.43rem;
-          line-height: 1.37rem;
+          font-size: 1.55rem;
+          line-height: 1.45rem;
         }
       }
     }
@@ -197,18 +203,77 @@ button.toggle-box {
   button.toggle-box {
 
     .screen-toggle {
+      width: 11.6rem;
+      height: 3.5rem;
 
       .screen-icon {
-        font-size: 3.05rem;
+        width: 3.5rem;
+        font-size: 3.4rem;
       }
 
       .screen-text {
+        width: 8.1rem;
 
         p {
-          font-size: 1.48rem;
-          line-height: 1.48rem;
+          font-size: 1.6rem;
+          line-height: 1.5rem;
         }
       }
+    }
+  }
+}
+
+// ---------------- Max-Width: 1130px ---------------- //
+
+@media screen and (max-width: 1130px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      width: 6.6rem;
+      height: 2.2rem;
+      gap: 3px;
+
+      .screen-icon {
+        width: 2.1rem;
+        font-size: 2.15rem;
+      }
+
+      .screen-text {
+        width: 4.5rem;
+
+        p {
+          font-size: 0.9rem;
+          line-height: 0.88rem;
+          opacity: 0.88;
+        }
+      } 
+    }
+  }
+}
+
+// ---------------- Max-Width: 1130px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1130px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      width: 7.99rem;
+      height: 2.4rem;
+      gap: 2px;
+
+      .screen-icon {
+        width: 2.4rem;
+        font-size: 2.3rem;
+      }
+
+      .screen-text {
+        width: 5.5rem;
+
+        p {
+          font-size: 1.05rem;
+          line-height: 1rem;
+        }
+      } 
     }
   }
 }

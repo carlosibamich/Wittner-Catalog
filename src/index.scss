@@ -1286,6 +1286,7 @@ div.carousel-container {
   div.carousel-container {
 
     .controls {
+      margin-top: 4.3dvh;
 
       .page-button {
         margin: 0 1.05rem;
@@ -1519,15 +1520,69 @@ div.carousel-container {
 
 @media screen and (max-width: 1130px) {
   html {
-    font-size: 63.2%;
+    font-size: 100%;
+  }
+
+  div.carousel-container {
+    // min-height: 80dvh;
+
+    .controls {
+      width: 55rem;
+      height: 2.4rem;
+      
+      .arrow {
+        padding: 0rem;
+        font-size: 1.42rem;
+      }
+
+      .page-button {
+        margin: 0 0.75rem;
+        font-size: 0.97rem;
+      }
     }
+
+    ul.gallery-container {
+      // width: 100vw;
+      // padding: 0rem;
+    }
+  }
+}
+
+// --------------- Max-Width 1130px ---------------- //
+
+@media screen and (max-height: 690px) and (max-width: 1130px) {
+
+  div.carousel-container {
+    // min-height: 80dvh;
+
+    .controls {
+      margin-top: 2.9dvh;
+      width: 55rem;
+      height: 2.4rem;
+      
+      .arrow {
+        padding: 0rem;
+        font-size: 1.5rem;
+      }
+
+      .page-button {
+        margin: 0 0.78rem;
+        font-size: 1.05rem;
+      }
+    }
+
+    ul.gallery-container {
+      // width: 100vw;
+      // padding: 0rem;
+    }
+  }
 }
 
 // --------------- Max-Width 1120px ---------------- //
 
 @media screen and (max-width: 1120px) {
   html {
-    font-size: 62.6%;
+    font-size: 99.5%;
     }
 }
 
@@ -1535,7 +1590,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1115px) {
   html {
-    font-size: 62.3%;
+    font-size: 99.2%;
     }
 
   div.carousel-container {
@@ -1577,7 +1632,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1110px) {
   html {
-    font-size: 62.1%;
+    font-size: 99%;
     }
 }
 

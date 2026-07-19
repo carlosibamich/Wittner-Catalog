@@ -347,6 +347,24 @@
   }
 }
 
+// -------------- Max-Width 1130px -------------- //
+
+@media screen and (max-width: 1130px) {
+  .main-nav-options {
+    width: 38.3rem;
+    height: 8.7dvh;
+    padding-top: 0rem;
+
+    .navlink-container {
+      margin: 0 1rem;
+      
+      .nav-link {
+        font-size: 0.92rem;
+      }
+    }
+  }
+}
+
 // -------------- Max-Width 1115px -------------- //
 
 @media screen and (max-width: 1115px) {
