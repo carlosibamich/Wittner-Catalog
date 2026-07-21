@@ -598,10 +598,6 @@
     .main-room-north-grid {
       grid-template-columns: 1.8fr 5.5fr 5.8fr 5.5fr 5.9fr 4.85fr 1.5fr 4.65fr;
 
-      // .section {
-      //   border: 1px solid #c3c3c3;
-      // }
-
       //----------------- COLUMN 8 ------------------/
 
       .north-column-8 {
@@ -624,7 +620,6 @@
 
 @media screen and (max-width: 1400px) {
   .main-room-north-container {
-    // margin-top: 1.8dvh;
   
     .main-room-north-grid {
       width: 90%;
@@ -885,6 +880,10 @@
   
     .main-room-north-grid {
       width: 90.8%;
+
+      // .section {
+      //   border: 1px solid #d3d3d3;
+      // }
     }
   }
 }
@@ -895,9 +894,10 @@
   .main-room-north-container {
   
     .main-room-north-grid {
-      width: 81.5%;
-      height: 35.6rem;
-      grid-template-columns: 1.5fr 5.5fr 5.8fr 5.6fr 6fr 5.05fr 1.45fr 4.6fr;
+      width: 85%;
+      height: 24rem;
+      grid-template-columns: 1.6fr 5.5fr 5.8fr 5.6fr 6fr 5.1fr 1.45fr 4.55fr;
+      gap: 0.35rem;
 
       // .section {
       //   border: 1px solid #d3d3d3;
@@ -909,34 +909,34 @@
 
         // ---------- Sam --------- //
         .sub-section-1-1 {
-          top: 3.4rem;
+          top: 1.8rem;
           left: 0.5rem;
-          width: 2.4rem;
+          width: 1.7rem;
         }
 
         // ---------- Undershirt --------- //  
         .sub-section-1-2 {
-          top: 7.3rem;
+          top: 4.6rem;
           left: 0.5rem;
-          width: 2.4rem;
+          width: 1.7rem;
         }
 
         // ---------- Strength --------- //
         .sub-section-1-3 {
-          top: 11.3rem;
-          width: 3.6rem;
+          top: 7.42rem;
+          width: 2.35rem;
         }
 
         // ---------- Working --------- //
         .sub-section-1-4 {
-          top: 15.8rem;
-          width: 2.7rem;
+          top: 10.35rem;
+          width: 1.96rem;
         }
 
         // ---------- Dispatch --------- //
         .sub-section-1-5 {
-          top: 20rem;
-          width: 4.1rem;
+          top: 13.4rem;
+          width: 2.75rem;
         }
       }
 
@@ -946,34 +946,34 @@
 
         // ---------- Chicken --------- //
         .sub-section-2-1 {
-          width: 12rem;
+          width: 8.1rem;
         }
         
         // ---------- Hermit --------- //
         .sub-section-2-2 {
-          top: 15.65rem;
-          left: 0.6rem;
-          width: 3.2rem;
+          top: 10.45rem;
+          left: 0.4rem;
+          width: 2.35rem;
         }
         
         // ---------- Empress --------- //
         .sub-section-2-3 {
-          top: 15.65rem;
-          left: 4.8rem;
-          width: 3.3rem;
+          top: 10.45rem;
+          // left: 3.07rem;
+          width: 2.35rem;
         }
         
         // ---------- Emperor --------- //
         .sub-section-2-4 {
-          top: 15.65rem;
-          right: 0.5rem;
-          width: 3.5rem;
+          top: 10.45rem;
+          right: 0.35rem;
+          width: 2.45rem;
         }
       
        // ---------- Divine --------- //
         .sub-section-2-5 {
-          bottom: 2.55rem;
-          width: 12.9rem;
+          bottom: 1.75rem;
+          width: 8.75rem;
         }  
       }
     
@@ -983,57 +983,61 @@
       
         // ---------- Cupid --------- //
         .sub-section-3-1 {
-          width: 13.7rem;
+          width: 9.2rem;
         }
         
         // ---------- Magician --------- //
         .sub-section-3-2 {
-          top: 12.1rem;
-          width: 3.15rem;
+          top: 8.1rem;
+          left: 0.05rem;
+          width: 2.1rem;
         }
         
         // ---------- Ed --------- //
         .sub-section-3-3 {
-          top: 15.75rem;
-          width: 2.05rem;
+          top: 10.6rem;
+          left: 0.35rem;
+          width: 1.45rem;
         }
         
         // ---------- Crayolas --------- //
         .sub-section-3-4 {
-          top: 19rem;
-          width: 3.15rem;
+          top: 12.95rem;
+          left: 0.05rem;
+          width: 2.15rem;
         }
         
         // ---------- Launch --------- //
         .sub-section-3-5 {
-          top: 12.3rem;
-          // left: 3.35rem;
-          width: 5.95rem;
+          top: 8.3rem;
+          left: 2.7rem;
+          width: 4.15rem;
         }
         
         // ---------- Reflection --------- //
         .sub-section-3-6 {
-          top: 12rem;
-          width: 2.75rem;
+          top: 8.1rem;
+          width: 1.95rem;
         }
         
         // ---------- Violin Angel --------- //
         .sub-section-3-7 {
-          top: 15.55rem;
-          right: 0.2rem;
-          width: 2.15rem;
+          top: 10.55rem;
+          right: 0.35rem;
+          width: 1.45rem;
         }
         
         // ---------- Priestess --------- //
         .sub-section-3-8 {
-          top: 18.9rem;
-          width: 2.95rem;
+          top: 12.95rem;
+          width: 1.95rem;
         }
       
         // ---------- Smile --------- //
         .sub-section-3-9 {
-          bottom: 1.3rem;
-          width: 14.1rem;
+          bottom: 0.9rem;
+          right: -0.2rem;
+          width: 9.35rem;
         }
       }
     
@@ -1043,20 +1047,21 @@
       
         // ---------- IceCream --------- //
         .sub-section-4-1 {
-          width: 12.8rem;
+          width: 8.6rem;
         }
       
         // ---------- DrowningDevil --------- //
         .sub-section-4-2 {
-          top: 10.35rem;
-          width: 13.5rem;
+          top: 7rem;
+          left: 0rem;
+          width: 8.9rem;
         }
       
         // ---------- RetellingExodus --------- //
         .sub-section-4-3 {
-          bottom: 1.2rem;
+          bottom: 0.9rem;
           right: 0rem;
-          width: 12.7rem;
+          width: 8.6rem;
         }
       }
     
@@ -1066,46 +1071,46 @@
         
         // ---------- Down --------- //
         .sub-section-5-1 {
-          width: 5.95rem;
+          width: 4.05rem;
         }
         
         // ---------- Jaded --------- //
         .sub-section-5-2 {
-          left: 6.6rem;
-          width: 3.7rem;
+          left: 4.45rem;
+          width: 2.6rem;
         }
         
         // ---------- BlackRabbi --------- //
         .sub-section-5-3 {
-          top: 5.6rem;
-          left: 6.9rem;
-          width: 3rem;
+          top: 3.8rem;
+          left: 4.64rem;
+          width: 2.15rem;
         }
         
         // ---------- NeverFeel --------- //
         .sub-section-5-4 {
-          top: 0.9rem;
-          right: 0.4rem;
-          width: 2.8rem;
+          top: 0.6rem;
+          right: 0.2rem;
+          width: 2rem;
         }
         
         // ---------- Mystic --------- //
         .sub-section-5-5 {
-          top: 4.8rem;
-          width: 3.4rem;
+          top: 3.15rem;
+          width: 2.4rem;
         }
       
         // ---------- LiftOff --------- //
         .sub-section-5-6 {
-          top: 9.9rem;
-          width: 14.2rem;
+          top: 6.7rem;
+          width: 9.65rem;
         }
       
         // ---------- Parallel --------- //
         .sub-section-5-7 {
-          bottom: 1.7rem;
-          right: -0.3rem;
-          width: 14.3rem;
+          bottom: 1.35rem;
+          right: -0.05rem;
+          width: 9.45rem;
         }
       }
 
@@ -1115,21 +1120,21 @@
 
         // ---------- GoldenEgg --------- //
         .sub-section-6-1 {
-          left: 0rem;
-          width: 12rem;
+          left: 0.08rem;
+          width: 8.05rem;
         }
       
         // ---------- Identity --------- //
         .sub-section-6-2 {
-          top: 9.45rem;
-          width: 11.9rem;
+          top: 6.3rem;
+          width: 7.95rem;
         }
       
         // ---------- Summer --------- //
         .sub-section-6-3 {
-          bottom: 1.1rem;
-          right: 0.6rem;
-          width: 10.6rem;
+          bottom: 0.9rem;
+          right: 0.5rem;
+          width: 7.15rem;
         }
       }
 
@@ -1139,44 +1144,44 @@
 
         // ---------- Actor --------- //
         .sub-section-7-1 {
-          width: 3.2rem;
+          width: 2.3rem;
         }
       
         // ---------- KissMe --------- //
         .sub-section-7-2 {
-          top: 5.2rem;
-          width: 2.7rem;
+          top: 3.5rem;
+          width: 1.85rem;
         }
       
         // ---------- Remembering --------- //
         .sub-section-7-3 {
-          top: 9.2rem;
-          width: 3.2rem;
+          top: 6.15rem;
+          width: 2.2rem;
         }
 
         // ---------- The First Day Job --------- //
         .sub-section-7-4 {
-          top: 14.3rem;
-          width: 2.8rem;
+          top: 9.5rem;
+          width: 1.9rem;
         }
 
         // ---------- First Note --------- //
         .sub-section-7-5 {
-          top: 18.4rem;
-          width: 2.8rem;
+          top: 12.15rem;
+          width: 1.9rem;
         }
 
         // ---------- Vacation --------- //
         .sub-section-7-6 {
-          top: 22.5rem;
-          width: 2.8rem;
+          top: 14.8rem;
+          width: 1.9rem;
         }
 
         // ---------- JadedClown --------- //
         .sub-section-7-7 {
-          bottom: 3.7rem;
+          bottom: 2.7rem;
           left: 0rem;
-          width: 3.3rem;
+          width: 2.25rem;
         }
       }
 
@@ -1187,50 +1192,51 @@
 
         // ---------- Premonition --------- //
         .sub-section-8-1 {
-          top: 2.4rem;
-          width: 6.8rem;
+          top: 1.6rem;
+          left: 0.4rem;
+          width: 4.6rem;
         }
       
         // ---------- DessertChef --------- //
         .sub-section-8-2 {
-          top: 10.1rem;
-          left: 1.1rem;
-          width: 2.4rem;
+          top: 6.8rem;
+          left: 1.05rem;
+          width: 1.45rem;
         }
       
         // ---------- WhiteClown --------- //
         .sub-section-8-3 {
-          top: 10.1rem;
-          right: 4.1rem;
-          width: 2.4rem;
+          top: 6.8rem;
+          right: 2.95rem;
+          width: 1.45rem;
         }
 
         // ---------- GalleryHeaven --------- //
         .sub-section-8-4 {
-          top: 14.2rem;
-          left: -0.4rem;
-          width: 9.2rem;
+          top: 9.5rem;
+          left: -0.2rem;
+          width: 6.1rem;
         }
 
         // ---------- StopFollowing --------- //
         .sub-section-8-5 {
-          bottom: 3.2rem;
-          left: 0.2rem;
-          width: 3.7rem;
+          bottom: 2.43rem;
+          left: 0.28rem;
+          width: 2.45rem;
         }
         
         // ---------- Caryatids --------- //
         .sub-section-8-6 {
-          bottom: 4rem;
-          right: 0.4rem;
-          width: 5.3rem;
+          bottom: 2.85rem;
+          right: 0.35rem;
+          width: 3.6rem;
         }
 
         // ---------- Dad and Three Eggs --------- //
         .sub-section-8-7 {
-          bottom: 11.4rem;
-          right: -2.1rem;
-          width: 3.4rem;
+          bottom: 8rem;
+          right: -1.4rem;
+          width: 2.25rem;
         }
       }
     }

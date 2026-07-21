@@ -706,15 +706,16 @@
   }
 }
 
-// ---------------- Min-Height: 691px and Max-Width: 1140px --------------- //
+// ---------------- Min-Height: 660px and Max-Width: 1140px --------------- //
 
-@media screen and (min-height: 691px) and (max-width: 1130px) {
+@media screen and (min-height: 660px) and (max-width: 1130px) {
   .horizontal-layout {
 
   .footer-container {
+    display: block;
 
     .footer {
-      height: 13.8dvh;
+      height: 14dvh;
 
       .footer-box {
 
@@ -725,7 +726,8 @@
         .copyrights {
 
           .copyright {
-            font-size: 1.5rem;
+            margin-right: 0.15rem;
+            font-size: 1.45rem;
           }
           
           p {
@@ -740,6 +742,7 @@
           }
 
           .rocket {
+            margin-left: 0.3rem;
             font-size: 1.43rem;
           }
         }

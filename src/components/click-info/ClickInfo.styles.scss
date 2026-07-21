@@ -480,6 +480,7 @@
     height: 9.2dvh;
     
     .click-info {
+      // border-top: 1px solid var(--dark-grey);
 
       .fish {
         font-size: 1.25rem;
@@ -497,110 +498,110 @@
   }
 }
 
-// ----------------- Min-Height: 691px and Max-Width 1130px ----------------- //
+// ----------------- Min-Height: 660px and Max-Width 1130px ----------------- //
 
-@media screen and (min-height: 691px) and (max-width: 1130px) {
+@media screen and (min-height: 660px) and (max-width: 1130px) {
   .click-info-container {
-    bottom: 13.8dvh;
+    bottom: 14dvh;
     height: 6.8dvh;
   }
 }
 
 // ----------------- Min-Height: 691px and Max-Width 1115px ----------------- //
 
-@media screen and (min-height: 691px) and (max-width: 1115px) {
-  .click-info-container {
-    bottom: 14dvh;
-    height: 6.2dvh;
-  }
-}
+// @media screen and (min-height: 691px) and (max-width: 1115px) {
+//   .click-info-container {
+//     bottom: 14dvh;
+//     height: 6.2dvh;
+//   }
+// }
 
 // ----------------- Max-Width 1040px ----------------- //
 
-@media screen and (max-width: 1040px) {
-  .click-info-container {
+// @media screen and (max-width: 1040px) {
+//   .click-info-container {
 
-    .click-info {
+//     .click-info {
 
-      .fish {
-        font-size: 2.15rem;
-      }
+//       .fish {
+//         font-size: 2.15rem;
+//       }
 
-      .line {
-        width: 17.2rem;
-      }
+//       .line {
+//         width: 17.2rem;
+//       }
 
-      p {
-        font-size: 2.05rem;
-      }
-    }
-  }
-}
+//       p {
+//         font-size: 2.05rem;
+//       }
+//     }
+//   }
+// }
 
 // ----------------- Min-Height: 640px and Max-Width 1040px ----------------- //
 
-@media screen and (min-height: 640px) and (max-width: 1040px) {
-  .click-info-container {
-    bottom: 14dvh;
-    height: 6.5dvh;
-  }
-}
+// @media screen and (min-height: 640px) and (max-width: 1040px) {
+//   .click-info-container {
+//     bottom: 14dvh;
+//     height: 6.5dvh;
+//   }
+// }
 
 // ----------------- Max-Width 1000px ----------------- //
 
-@media screen and (max-width: 1000px) {
-  .click-info-container {
-    height: 11dvh;
+// @media screen and (max-width: 1000px) {
+//   .click-info-container {
+//     height: 11dvh;
 
-    .click-info {
+//     .click-info {
 
-      .fish {
-        font-size: 2.28rem;
-      }
+//       .fish {
+//         font-size: 2.28rem;
+//       }
 
-      .line {
-        width: 17rem;
-      }
+//       .line {
+//         width: 17rem;
+//       }
 
-      p {
-        font-size: 2.1rem;
-      }
-    }
-  }
-}
+//       p {
+//         font-size: 2.1rem;
+//       }
+//     }
+//   }
+// }
 
 // ----------------- Max-Height: 413px and Max-Width 1000px ----------------- //
 
-@media screen and (max-height: 413px) and (max-width: 1000px) {
-  .click-info-container {
-    display: none;
-  }
-}
+// @media screen and (max-height: 413px) and (max-width: 1000px) {
+//   .click-info-container {
+//     display: none;
+//   }
+// }
 
 // ----------------- Min-Height: 630px and Max-Width 1000px ----------------- //
 
-@media screen and (min-height: 630px) and (max-width: 1000px) {
-  .click-info-container {
-    bottom: 14.8dvh;
-    height: 6.8dvh;
-  }
-}
+// @media screen and (min-height: 630px) and (max-width: 1000px) {
+//   .click-info-container {
+//     bottom: 14.8dvh;
+//     height: 6.8dvh;
+//   }
+// }
 
 // ----------------- Max-Width 980px ----------------- //
 
-@media screen and (max-width: 980px) {
-  .click-info-container {
-    display: block;
-  }
-}
+// @media screen and (max-width: 980px) {
+//   .click-info-container {
+//     display: block;
+//   }
+// }
 
 // ----------------- Max-Width 980px ----------------- //
 
-@media screen and (max-height: 404px) and (max-width: 980px) {
-  .click-info-container {
-    display: none;
-  }
-}
+// @media screen and (max-height: 404px) and (max-width: 980px) {
+//   .click-info-container {
+//     display: none;
+//   }
+// }
 
 // ----------------- Max-Width 940px ----------------- //
 
