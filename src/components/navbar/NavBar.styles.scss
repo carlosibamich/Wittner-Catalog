@@ -367,31 +367,31 @@
 
 // -------------- Max-Width 1115px -------------- //
 
-@media screen and (max-width: 1115px) {
-  .main-nav-options {
-    width: 60rem;
+// @media screen and (max-width: 1115px) {
+//   .main-nav-options {
+//     width: 60rem;
 
-    .navlink-container {
-      margin: 0 1.5rem;
+//     .navlink-container {
+//       margin: 0 1.5rem;
 
-      .nav-link {
-        font-size: 1.48rem;
-      }
-    }
-  }
-}
+//       .nav-link {
+//         font-size: 1.48rem;
+//       }
+//     }
+//   }
+// }
 
 // -------------- Max-Width 1080px -------------- //
 
 @media screen and (max-width: 1080px) {
   .main-nav-options {
-    width: 61rem;
+    // width: 61rem;
 
     .navlink-container {
-      margin: 0 1.45rem;
+      margin: 0 0.9rem;
 
       .nav-link {
-        font-size: 1.53rem;
+        font-size: 0.95rem;
       }
     }
   }

@@ -1418,7 +1418,6 @@
         .instagram-icon-box {
           width: 2.2rem;
           height: 2.2rem;
-          // padding-top: 0rem;
 
           .instagram {
             width: 100%;
@@ -1448,34 +1447,6 @@
     right: 3.1rem;
   }
 }
-
-// -------------- Max-Width 1115px -------------- //
-
-// @media screen and (max-width: 1115px) {
-//   .navigation-container {
-
-//     .navigation {
-//       width: 92.2rem;
-
-//       .nav-center {
-//         width: 60rem;
-//       }
-//     }
-//   }
-// }
-
-// -------------- Max-Height: 690px and Max-Width: 1115px -------------- //
-
-// @media screen and (max-height: 690px) and (max-width: 1115px) {
-
-//   .dropdown {
-//     top: 3dvh;
-//   }
-
-//   .screen-toggle-button {
-//     top: 3.2dvh;
-//   }
-// }
 
 // -------------- Max-Width 1080px -------------- //
 
@@ -1514,16 +1485,16 @@
 
 // -------------- Max-Height: 690px and Max-Width: 1115px -------------- //
 
-// @media screen and (max-height: 690px) and (max-width: 1080px) {
+@media screen and (max-height: 690px) and (max-width: 1080px) {
 
-//   .dropdown {
-//     top: 2.7dvh;
-//   }
+  .dropdown {
+    top: 2.6dvh;
+  }
 
-//   .screen-toggle-button {
-//     top: 3.3dvh;
-//   }
-// }
+  .screen-toggle-button {
+    top: 2.5dvh;
+  }
+}
 
 // --------------- Max-Height: 505px and Max-Width 1040px ---------------- //
 

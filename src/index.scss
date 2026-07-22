@@ -1537,8 +1537,8 @@ div.carousel-container {
       }
 
       .page-button {
-        margin: 0 0.75rem;
-        font-size: 0.97rem;
+        margin: 0 0.72rem;
+        font-size: 1.03rem;
       }
     }
 
@@ -1575,12 +1575,12 @@ div.carousel-container {
 
   /* --------- Windows --------- */
   .window-frame {
-    width: 19.5rem;
+    width: 20.2rem;
     height: 12.8rem;
 
     .window-pane {
       bottom: 0.45rem;
-      width: 9.07rem;
+      width: 9.42rem;
       height: 11.9rem;
     }
 
@@ -1598,33 +1598,33 @@ div.carousel-container {
   .door-frame-container {
 
     .door-frame {
-      width: 11rem;
+      width: 11.3rem;
       height: 14.8rem;
 
       .door-window-pane-top {
         top: 0.45rem;
         left: 0.45rem;
-        width: 10.1rem;
+        width: 10.4rem;
         height: 2rem;
       }
 
       .door-window-pane-left {
         bottom: 0.55rem;
         left: 0.45rem;
-        width: 4.8rem;
+        width: 4.95rem;
         height: 11.4rem;
       }
 
       .door-window-pane-right {
         bottom: 0.55rem;
         right: 0.45rem;
-        width: 4.8rem;
+        width: 4.95rem;
         height: 11.4rem;
       }
 
       .door-crossbar {
         bottom: 6.2rem;
-        width: 11rem;
+        width: 11.3rem;
         height: 0.4rem;
       }
     }
@@ -1653,6 +1653,14 @@ div.carousel-container {
   }
 }
 
+// --------------- Max-Width 1125px ---------------- //
+
+@media screen and (max-width: 1125px) {
+  html {
+    font-size: 99.6%;
+    }
+}
+
 // --------------- Max-Width 1120px ---------------- //
 
 @media screen and (max-width: 1120px) {
@@ -1665,41 +1673,41 @@ div.carousel-container {
 
 @media screen and (max-width: 1115px) {
   html {
-    font-size: 98.8%;
+    font-size: 98.6%;
     }
 
   div.carousel-container {
-    min-height: 70.2dvh;
+    // min-height: 70.2dvh;
     
     .controls {
 
       .page-button {
-        margin: 0 0.95rem;
-        font-size: 1.6rem;
+        // margin: 0 0.95rem;
+        // font-size: 1.6rem;
       }
     }
   }
 }
 
-// --------------- Max-Height: 690px and Max-Width 1115px ---------------- //
+// --------------- Max-Height: 660px and Max-Width 1115px ---------------- //
 
-@media screen and (max-height: 690px) and (max-width: 1115px) {
+@media screen and (max-height: 660px) and (max-width: 1115px) {
 
   div.carousel-container {
-    min-height: 92.2dvh;
+    // min-height: 92.2dvh;
     
-    .controls {
-      width: 56rem;
+    // .controls {
+    //   width: 56rem;
 
-      .arrow {
-        font-size: 2.35rem;
-      }
+    //   .arrow {
+    //     font-size: 2.35rem;
+    //   }
 
-      .page-button {
-        margin: 0 0.85rem;
-        font-size: 1.8rem;
-      }
-    }
+    //   .page-button {
+    //     margin: 0 0.85rem;
+    //     font-size: 1.8rem;
+    //   }
+    // }
   }
 }
 
@@ -1708,6 +1716,14 @@ div.carousel-container {
 @media screen and (max-width: 1110px) {
   html {
     font-size: 98.4%;
+    }
+}
+
+// --------------- Max-Width 1105px ---------------- //
+
+@media screen and (max-width: 1105px) {
+  html {
+    font-size: 98%;
     }
 }
 
@@ -1735,11 +1751,27 @@ div.carousel-container {
     }
 }
 
+// --------------- Max-Width 1085px ---------------- //
+
+@media screen and (max-width: 1085px) {
+  html {
+    font-size: 96.4%;
+    }
+}
+
 // --------------- Max-Width 1080px ---------------- //
 
 @media screen and (max-width: 1080px) {
   html {
-    font-size: 96%;
+    font-size: 95.9%;
+    }
+}
+
+// --------------- Max-Width 1075px ---------------- //
+
+@media screen and (max-width: 1075px) {
+  html {
+    font-size: 95.5%;
     }
 }
 
@@ -1747,7 +1779,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1070px) {
   html {
-    font-size: 95.2%;
+    font-size: 95%;
     }
 }
 
@@ -1755,7 +1787,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1065px) {
   html {
-    font-size: 94.8%;
+    font-size: 94.6%;
     }
 }
 
@@ -1763,7 +1795,15 @@ div.carousel-container {
 
 @media screen and (max-width: 1060px) {
   html {
-    font-size: 94.4%;
+    font-size: 94.2%;
+    }
+}
+
+// --------------- Max-Width 1055px ---------------- //
+
+@media screen and (max-width: 1055px) {
+  html {
+    font-size: 93.6%;
     }
 }
 
@@ -1771,7 +1811,15 @@ div.carousel-container {
 
 @media screen and (max-width: 1050px) {
   html {
-    font-size: 93.6%;
+    font-size: 93.2%;
+    }
+}
+
+// --------------- Max-Width 1045px ---------------- //
+
+@media screen and (max-width: 1045px) {
+  html {
+    font-size: 92.8%;
     }
 }
 
@@ -1779,7 +1827,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1040px) {
   html {
-    font-size: 92.8%;
+    font-size: 92.4%;
     }
 }
 
@@ -1805,7 +1853,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1035px) {
   html {
-    font-size: 92.4%;
+    font-size: 92%;
   }
 }
 
@@ -1813,7 +1861,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1030px) {
   html {
-    font-size: 92%;
+    font-size: 91.4%;
   }
 }
 
@@ -1821,7 +1869,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1025px) {
   html {
-    font-size: 91.6%;
+    font-size: 91%;
     }
 }
 
@@ -1829,7 +1877,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1020px) {
   html {
-    font-size: 91.2%;
+    font-size: 90.5%;
     }
 
 }
@@ -1838,7 +1886,7 @@ div.carousel-container {
 
 @media screen and (max-width: 1015px) {
   html {
-    font-size: 90.8%;
+    font-size: 90.2%;
     }
 
 }
@@ -1847,7 +1895,16 @@ div.carousel-container {
 
 @media screen and (max-width: 1010px) {
   html {
-    font-size: 90.4%;
+    font-size: 89.8%;
+    }
+
+}
+
+// --------------- Max-Width 1005px ---------------- //
+
+@media screen and (max-width: 1005px) {
+  html {
+    font-size: 89.2%;
     }
 
 }
@@ -1877,71 +1934,71 @@ div.carousel-container {
 
   // ------------------ Gallery White Door Styles ------------------ //
 
-  .white-door-frame {
-    width: 14.8rem;
-    height: 24.6rem;
+  // .white-door-frame {
+  //   width: 14.8rem;
+  //   height: 24.6rem;
 
-    .white-door {
-      width: 11.6rem;
-      height: 23rem;
-    }
-  }
+  //   .white-door {
+  //     width: 11.6rem;
+  //     height: 23rem;
+  //   }
+  // }
 
   /* --------- Windows --------- */
-  .window-frame {
-    width: 29rem;
-    height: 19.6rem;
+  // .window-frame {
+  //   width: 29rem;
+  //   height: 19.6rem;
 
-    .window-pane {
-      bottom: 0.6rem;
-      width: 13.6rem;
-      height: 18.4rem;
-    }
+  //   .window-pane {
+  //     bottom: 0.6rem;
+  //     width: 13.6rem;
+  //     height: 18.4rem;
+  //   }
 
-    .pane-left {
-      left: 0.6rem;
-    }
+  //   .pane-left {
+  //     left: 0.6rem;
+  //   }
 
-    .pane-right {
-      right: 0.6rem;
-    }
-  }
+  //   .pane-right {
+  //     right: 0.6rem;
+  //   }
+  // }
 
   /* --------- Grey Entrance/Exit Door Styles --------- */
 
-  .door-frame-container {
+  // .door-frame-container {
 
-    .door-frame {
-      width: 17rem;
-      height: 22.6rem;
+  //   .door-frame {
+  //     width: 17rem;
+  //     height: 22.6rem;
 
-      .door-window-pane-top {
-        top: 0.6rem;
-        left: 0.6rem;
-        width: 15.8rem;
-        height: 2.6rem;
-      }
+  //     .door-window-pane-top {
+  //       top: 0.6rem;
+  //       left: 0.6rem;
+  //       width: 15.8rem;
+  //       height: 2.6rem;
+  //     }
 
-      .door-window-pane-left {
-        bottom: 0.7rem;
-        left: 0.6rem;
-        width: 7.6rem;
-        height: 18.2rem;
-      }
+  //     .door-window-pane-left {
+  //       bottom: 0.7rem;
+  //       left: 0.6rem;
+  //       width: 7.6rem;
+  //       height: 18.2rem;
+  //     }
 
-      .door-window-pane-right {
-        bottom: 0.7rem;
-        right: 0.6rem;
-        width: 7.6rem;
-        height: 18.2rem;
-      }
+  //     .door-window-pane-right {
+  //       bottom: 0.7rem;
+  //       right: 0.6rem;
+  //       width: 7.6rem;
+  //       height: 18.2rem;
+  //     }
 
-      .door-crossbar {
-        bottom: 9.4rem;
-        width: 17rem;
-      }
-    }
-  }
+  //     .door-crossbar {
+  //       bottom: 9.4rem;
+  //       width: 17rem;
+  //     }
+  //   }
+  // }
 }
 
 // ----------------- Max-Height: 413px and Max-Width 1000px ----------------- //
@@ -1990,6 +2047,14 @@ div.carousel-container {
   }
 }
 
+// --------------- Max-Width 995px ---------------- //
+
+@media screen and (max-width: 995px) {
+  html {
+    font-size: 89.6%;
+    }
+}
+
 // --------------- Max-Width 990px ---------------- //
 
 @media screen and (max-width: 990px) {
@@ -1998,12 +2063,20 @@ div.carousel-container {
     }
 }
 
+// --------------- Max-Width 985px ---------------- //
+
+@media screen and (max-width: 985px) {
+  html {
+    font-size: 88.8%;
+  }
+}
+
 // --------------- Max-Width 980px ---------------- //
 
 @media screen and (max-width: 980px) {
   html {
     font-size: 88.4%;
-    }
+  }
 
   div.carousel-container {
     min-height: 92dvh;
@@ -2033,19 +2106,35 @@ div.carousel-container {
   }
 }
 
-// --------------- Max-Width 979px ---------------- //
+// --------------- Max-Width 975px ---------------- //
+
+@media screen and (max-width: 975px) {
+  html {
+    font-size: 88%;
+  }
+}
+
+// --------------- Max-Width 970px ---------------- //
 
 @media screen and (max-width: 970px) {
   html {
-    font-size: 87.6%;
-    }
+    font-size: 86%;
+  }
+}
+
+// --------------- Max-Width 965px ---------------- //
+
+@media screen and (max-width: 965px) {
+  html {
+    font-size: 85.7%;
+  }
 }
 
 // --------------- Max-Width 960px ---------------- //
 
 @media screen and (max-width: 960px) {
   html {
-    font-size: 84%;
+    font-size: 85.4%;
   }
 }
 
@@ -2053,7 +2142,7 @@ div.carousel-container {
 
 @media screen and (max-width: 955px) {
   html {
-    font-size: 83.6%;
+    font-size: 85.1%;
   }
 }
 
@@ -2061,7 +2150,15 @@ div.carousel-container {
 
 @media screen and (max-width: 950px) {
   html {
-    font-size: 83.2%;
+    font-size: 84.9%;
+  }
+}
+
+// --------------- Max-Width 945px ---------------- //
+
+@media screen and (max-width: 945px) {
+  html {
+    font-size: 84.6%;
   }
 }
 
@@ -2069,7 +2166,7 @@ div.carousel-container {
 
 @media screen and (max-width: 940px) {
   html {
-    font-size: 90.5%;
+    font-size: 84.3%;
   }
 
   div.carousel-container {
@@ -2124,6 +2221,15 @@ div.carousel-container {
     }
   }
 }
+
+
+
+
+
+
+
+
+
 
 // --------------- Max-Width 930px ---------------- //
 
