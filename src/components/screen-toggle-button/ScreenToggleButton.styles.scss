@@ -307,92 +307,102 @@ button.toggle-box {
 
 // ---------------- Max-Height: 690px and Max-Width: 1000px ---------------- //
 
-@media screen and (max-height: 690px) and (max-width: 1000px) {
-  button.toggle-box {
+// @media screen and (max-height: 690px) and (max-width: 1000px) {
+//   button.toggle-box {
 
-    .screen-toggle {
-      width: 12.6rem;
-      height: 3.6rem;
-      gap: 3px;
+//     .screen-toggle {
+//       width: 12.6rem;
+//       height: 3.6rem;
+//       gap: 3px;
 
-      .screen-icon {
-        width: 3.6rem;
-        height: 3.6rem;
-        font-size: 3.3rem;
-      }
+//       .screen-icon {
+//         width: 3.6rem;
+//         height: 3.6rem;
+//         font-size: 3.3rem;
+//       }
 
-      .screen-text {
-        width: 9.2rem;
-        height: 3.6rem;
+//       .screen-text {
+//         width: 9.2rem;
+//         height: 3.6rem;
 
-        p {
-          font-size: 1.63rem;
-          line-height: 1.5rem;
-        }
-      }
-    }
-  }
-}
+//         p {
+//           font-size: 1.63rem;
+//           line-height: 1.5rem;
+//         }
+//       }
+//     }
+//   }
+// }
 
 // ---------------- Max-Height: 690px and Max-Width: 920px ---------------- //
 
-@media screen and (max-height: 690px) and (max-width: 920px) {
+// @media screen and (max-height: 690px) and (max-width: 920px) {
+//   button.toggle-box {
+
+//     .screen-toggle {
+//       width: 13.3rem;
+//       height: 3.8rem;
+
+//       .screen-icon {
+//         width: 3.8rem;
+//         height: 3.8rem;
+//         font-size: 3.5rem;
+//       }
+
+//       .screen-text {
+//         width: 9.5rem;
+//         height: 3.8rem;
+
+//         p {
+//           font-size: 1.68rem;
+//           line-height: 1.65rem;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// ----------------  Max-Width: 880px ---------------- //
+
+@media screen and (max-width: 880px) {
   button.toggle-box {
 
     .screen-toggle {
-      width: 13.3rem;
-      height: 3.8rem;
+      width: 8.6rem;
+      height: 2.8rem;
 
       .screen-icon {
-        width: 3.8rem;
-        height: 3.8rem;
-        font-size: 3.5rem;
+        width: 2.6rem;
+        font-size: 2.5rem;
       }
 
       .screen-text {
-        width: 9.5rem;
-        height: 3.8rem;
+        width: 6rem;
+        height: 5.3rem;
 
         p {
-          font-size: 1.68rem;
-          line-height: 1.65rem;
+          font-size: 1.18rem;
+          line-height: 1.15rem;
         }
       }
     }
   }
 }
 
-// ----------------  Max-Width: 840px ---------------- //
 
-@media screen and (max-width: 840px) {
-  button.toggle-box {
 
-    .screen-toggle {
-      flex-direction: row-reverse;
-      width: 13.3rem;
-      height: 3.8rem;
 
-      .screen-icon {
-        color: var(--dark-grey);
-        width: 3.8rem;
-        height: 3.8rem;
-        font-size: 3.5rem;
-      }
 
-      .screen-text {
-        align-items: flex-end;
-        width: 9.5rem;
-        height: 3.8rem;
 
-        p {
-          color: var(--copper-yellow);
-          font-size: 1.8rem;
-          line-height: 1.7rem;
-        }
-      }
-    }
-  }
-}
+
+
+
+
+
+
+
+
+
 
 // ----------------  Max-Width: 740px ---------------- //
 

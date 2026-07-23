@@ -327,6 +327,14 @@
   }
 }
 
+// -------------- Max-height: 620px and Max-Width 1280px -------------- //
+
+@media screen and (max-height: 620px) and (max-width: 1280px) {
+  .custom-modal-width {
+    margin-top: 2dvh;
+  }
+}
+
 // -------------- Max-Width 1200px -------------- //
 
 @media screen and (max-width: 1200px) {
@@ -412,20 +420,82 @@
   }
 }
 
-// -------------- Max-Width 1090px -------------- //
+// -------------- Max-Width 1130px -------------- //
 
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1130px) {
+  .custom-modal-width {
+    margin-top: 1.9dvh;
+
+    .modal-header {
+      height: 1.5rem;
+
+      button.btn-close {
+        top: 0.47rem;
+        right: 1.4rem;
+        font-size: 1.05rem;
+      }
+    }
+
+    .modal-body {
+      padding: 0.55rem;
+      padding-top: 0;
+    
+      .modal-img-constrained {
+        height: 79.5dvh;
+        max-width: 90dvw;
+      }
+      
+      .modal-title {
+        height: 1.8rem;
+        margin-top: 0.13rem;
+        margin-bottom: 0.13rem;
+        margin-left: 0rem;
+        
+        p {
+          margin-left: 0.6rem;
+          font-size: 1.24rem;
+          
+          span {
+            margin-right: 0.5rem;
+            font-size: 1.14rem;
+            letter-spacing: 0.04rem;
+          }
+        }
+
+        span.audio {
+          margin-right: 0.1rem;
+
+          .audio-content {
+
+            p {
+              font-size: 1.21rem;
+            }
+
+            .audio-card button {
+              width: 3.1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// -------------- Max-Width 1080px -------------- //
+
+@media screen and (max-width: 1080px) {
   .custom-modal-width {
 
     .modal-body {
 
       .modal-title {
+        height: 1.85rem;
 
         p {
-        font-size: 1.82rem;
+        font-size: 1.26rem;
 
           span {
-            font-size: 1.72rem;
+            font-size: 1.16rem;
           }
         }
 
@@ -434,11 +504,11 @@
           .audio-content {
 
             p {
-            font-size: 2rem;
+            font-size: 1.25rem;
             }
 
             .audio-card button {
-              width: 4.8rem;
+              width: 3.12rem;
             }
           }
         }
@@ -451,16 +521,18 @@
 
 @media screen and (max-width: 1050px) {
   .custom-modal-width {
+    margin-top: 3dvh;
 
     .modal-body {
 
       .modal-title {
+        height: 1.9rem;
 
         p {
-        font-size: 1.88rem;
+        font-size: 1.28rem;
 
           span {
-            font-size: 1.78rem;
+            font-size: 1.18rem;
           }
         }
 
@@ -469,16 +541,24 @@
           .audio-content {
 
             p {
-            font-size: 2.1rem;
+            font-size: 1.3rem;
             }
 
             .audio-card button {
-              width: 4.85rem;
+              width: 3.25rem;
             }
           }
         }
       }
     }
+  }
+}
+
+// -------------- Max-Width 1050px -------------- //
+
+@media screen and (max-height: 580px) and (max-width: 1050px) {
+  .custom-modal-width {
+    margin-top: 1.8dvh;
   }
 }
 
@@ -490,8 +570,8 @@
     .modal-header {
 
       button.btn-close {
-        top: 0.85rem;
-        font-size: 1.68rem;
+        // top: 0.85rem;
+        font-size: 1.1rem;
       }
     }
 
@@ -500,10 +580,10 @@
       .modal-title {
 
         p {
-        font-size: 1.95rem;
+        font-size: 1.3rem;
 
           span {
-            font-size: 1.85rem;
+            font-size: 1.2rem;
           }
         }
 
@@ -512,11 +592,11 @@
           .audio-content {
 
             p {
-            font-size: 2.16rem;
+            font-size: 1.37rem;
             }
 
             .audio-card button {
-              width: 5rem;
+              width: 3.3rem;
             }
           }
         }
@@ -529,66 +609,59 @@
 
 @media screen and (max-width: 1000px) {
   .custom-modal-width {
-    margin-top: 1.5dvh;
-
-    .modal-body {
-
-      .modal-title {
-
-        span.audio {
-
-          .audio-content {
-
-            p {
-            font-size: 2.06rem;
-            }
-          }
-        }
-      }
-    }
+    margin-top: 1.7dvh;
   }
 }
 
 // -------------- Max-Width 960px -------------- //
 
-@media screen and (max-width: 960px) {
-  .custom-modal-width {
-    margin-top: 1.7dvh;
+// @media screen and (max-width: 960px) {
+//   .custom-modal-width {
+//     margin-top: 1.7dvh;
 
-    .modal-body {
+//     .modal-body {
 
-      .modal-img-constrained {
-        height: 79dvh;
-        max-width: 86dvw;
-      }
+//       .modal-img-constrained {
+//         height: 79dvh;
+//         max-width: 86dvw;
+//       }
 
-      .modal-title {
+//       .modal-title {
 
-        p {
-        font-size: 2rem;
+//         p {
+//         font-size: 2rem;
 
-          span {
-            font-size: 1.9rem;
-          }
-        }
+//           span {
+//             font-size: 1.9rem;
+//           }
+//         }
 
-        span.audio {
+//         span.audio {
 
-          .audio-content {
+//           .audio-content {
 
-            p {
-            font-size: 2.04rem;
-            }
+//             p {
+//             font-size: 2.04rem;
+//             }
 
-            .audio-card button {
-              width: 5.1rem;
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//             .audio-card button {
+//               width: 5.1rem;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+
+
+
+
+
+
+
 
 // -------------- Max-Width 880px -------------- //
 

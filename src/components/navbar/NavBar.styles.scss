@@ -365,22 +365,6 @@
   }
 }
 
-// -------------- Max-Width 1115px -------------- //
-
-// @media screen and (max-width: 1115px) {
-//   .main-nav-options {
-//     width: 60rem;
-
-//     .navlink-container {
-//       margin: 0 1.5rem;
-
-//       .nav-link {
-//         font-size: 1.48rem;
-//       }
-//     }
-//   }
-// }
-
 // -------------- Max-Width 1080px -------------- //
 
 @media screen and (max-width: 1080px) {
@@ -401,13 +385,13 @@
 
 @media screen and (max-width: 1000px) {
   .main-nav-options {
-    width: 64rem;
+    width: 39.8rem;
 
     .navlink-container {
-      margin: 0 1.55rem;
-
+      margin: 0 0.98rem;
+      
       .nav-link {
-        font-size: 1.6rem;
+        font-size: 0.98rem;
       }
     }
   }

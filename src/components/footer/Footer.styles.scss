@@ -337,40 +337,81 @@
   }
 }
 
-// ------------------- Max-Width: 1080px ------------------- //
+// ------------------- Max-Width: 1130px ------------------- //
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1130px) {
   .footer-container {
 
     .footer {
-      height: 13.8rem;
+      height: 8.8rem;
       border-top: 4px solid var(--copper-yellow);
 
       .footer-box {
 
         .logo {
-          height: 6.5rem;
+          height: 3.95rem;
         }
 
         .copyrights {
   
           .copyright {
-            font-size: 2.5rem;
+            margin-right: 0.2rem;
+            font-size: 1.5rem;
           }
   
           p {
-            font-size: 1.55rem;
+            font-size: 0.98rem;
           }
         }
 
         .address {
   
           p {
-            font-size: 1.55rem;
+            font-size: 0.98rem;
           }
   
           .rocket {
-            font-size: 2.5rem;
+            margin-left: 0.35rem;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ------------------- Max-Width: 1080px ------------------- //
+
+@media screen and (max-width: 1080px) {
+  .footer-container {
+
+    .footer {
+
+      .footer-box {
+
+        .logo {
+          height: 4.1rem;
+        }
+
+        .copyrights {
+  
+          .copyright {
+            font-size: 1.6rem;
+          }
+  
+          p {
+            font-size: 1rem;
+          }
+        }
+
+        .address {
+  
+          p {
+            font-size: 1rem;
+          }
+  
+          .rocket {
+            font-size: 1.6rem;
           }
         }
       }
