@@ -1396,7 +1396,6 @@
 
       .logo-container {
         width: 8.3rem;
-        // padding-top: 4.8dvh;
 
         img {
           max-width: 97%;
@@ -1556,6 +1555,18 @@
   }
 }
 
+// -------------- Max-Width 870px -------------- //
+
+@media screen and (max-height: 690px) and (max-width: 870px) {
+  .dropdown {
+    top: 2.1dvh;
+  }
+
+  .screen-toggle-button {
+    top: 2.3dvh;
+  }
+}
+
 // ---- Dropdown menu on screen heights 691px or higher and 841px or wider will not be displayed --- //
 
 @media screen and (min-height: 691px) and (min-width: 841px){
@@ -1577,7 +1588,7 @@
   }
 
   .dropdown {
-    // left: 3rem;
+    left: 3.6rem;
   }
 
   .screen-toggle-button {
@@ -1587,175 +1598,90 @@
 
 // --------------- Max-Height: 500px and Max-Width 840px ---------------- //
 
-// @media screen and (min-height: 500px) and (max-width: 840px) {
-//   .dropdown {
-//     top: 2.6dvh;
-//   }
-
-//   .screen-toggle-button {
-//     top: 3.4dvh;
-//   }
-// }
-
-// --------------- Max-Height: 580px and Max-Width 840px ---------------- //
-
-// @media screen and (min-height: 580px) and (max-width: 840px) {
-//   .dropdown {
-//     top: 3dvh;
-//   }
-
-//   .screen-toggle-button {
-//     top: 3.8dvh;
-//   }
-// }
-
-// --------------- Max-Height: 690px and Max-Width 820px ---------------- //
-
-@media screen and (max-height: 690px) and (max-width: 820px) {
-  .dropdown {
-    top: 2dvh;
-    // left: 3rem;
-  }
-
-  .screen-toggle-button {
-    top: 3.2dvh;
-    // right: 3.5rem;
-  }
-}
-
-// -------------- Min-Height: 480px and Max-Width 820px -------------- //
-
-@media screen and (min-height: 480px) and (max-width: 820px) {
+@media screen and (min-height: 500px) and (max-width: 840px) {
   .dropdown {
     top: 2.5dvh;
   }
 
   .screen-toggle-button {
-    top: 3.5dvh;
-  }
-}
-
-// -------------- Min-Height: 520px and Max-Width 820px -------------- //
-
-@media screen and (min-height: 520px) and (max-width: 820px) {
-  .dropdown {
-    top: 3dvh;
-  }
-
-  .screen-toggle-button {
-    top: 3.8dvh;
-  }
-}
-
-// --------------- Max-Height: 435px and Max-Width 800px ---------------- //
-
-@media screen and (max-height: 435px) and (max-width: 800px) {
-  .dropdown {
-    top: 1.8dvh;
-    // left: 3rem;
-  }
-
-  .screen-toggle-button {
-    top: 3dvh;
-    // right: 3.5rem;
-  }
-}
-
-// -------------- Min-Height: 436px and Max-Width 800px -------------- //
-
-@media screen and (min-height: 436px) and (max-width: 800px) {
-  .dropdown {
-    top: 2.3dvh;
-  }
-
-  .screen-toggle-button {
-    top: 3.3dvh;
-  }
-}
-
-// -------------- Min-Height: 520px and Max-Width 800px -------------- //
-
-@media screen and (min-height: 520px) and (max-width: 800px) {
-  .dropdown {
     top: 2.8dvh;
   }
-
-  .screen-toggle-button {
-    top: 3.5dvh;
-  }
 }
 
-// -------------- Min-Height: 730px and Max-Width 800px -------------- //
+// --------------- Max-Height: 630px and Max-Width 840px ---------------- //
 
-@media screen and (min-height: 730px) and (max-width: 800px) {
-  .dropdown {
-    top: 3.1dvh;
-  }
-
-  .screen-toggle-button {
-    top: 3.7dvh;
-  }
-}
-
-// --------------- Max-Width 720px ---------------- //
-
-@media screen and (max-width: 720px) {
-  .dropdown {
-    left: 2.6rem;
-  }
-
-  .screen-toggle-button {
-    right: 3rem;
-  }
-}
-
-// --------------- Max-Height: 399px and Max-Width 720px ---------------- //
-
-@media screen and (max-height: 399px) and (max-width: 720px) {
-  .dropdown {
-    top: 2.1dvh;
-  }
-
-  .screen-toggle-button {
-    top: 3.1dvh;
-  }
-}
-
-// --------------- Min-Height: 400px and Max-Width 720px ---------------- //
-
-@media screen and (min-height: 400px) and (max-width: 720px) {
+@media screen and (min-height: 630px) and (max-width: 840px) {
   .dropdown {
     top: 2.7dvh;
   }
 
   .screen-toggle-button {
-    top: 3.1dvh;
+    top: 2.9dvh;
   }
 }
 
-// -------------- Min-Height: 480px and Max-Width 720px -------------- //
+// --------------- Max-Width 720px ---------------- //
 
-@media screen and (min-height: 480px) and (max-width: 720px) {
+@media screen and (max-width: 780px) {
   .dropdown {
-    top: 3.2dvh;
+    left: 3.4rem;
   }
 
   .screen-toggle-button {
-    top: 3.3dvh;
+    right: 3.4rem;
   }
 }
 
-// -------------- Min-Height: 570px and Max-Width 720px -------------- //
+// --------------- Max-Height: 399px and Max-Width 760px ---------------- //
 
-@media screen and (min-height: 570px) and (max-width: 720px) {
+@media screen and (max-height: 399px) and (max-width: 760px) {
   .dropdown {
-    top: 3.6dvh;
+    top: 1.6dvh;
   }
 
   .screen-toggle-button {
-    top: 3.6dvh;
+    top: 2.5dvh;
   }
 }
+
+// -------------- Min-Height: 500px and Max-Width 760px -------------- //
+
+@media screen and (min-height: 500px) and (max-width: 760px) {
+  .dropdown {
+    top: 2.2dvh;
+  }
+
+  .screen-toggle-button {
+    top: 2.8dvh;
+  }
+}
+
+// -------------- Min-Height: 570px and Max-Width 760px -------------- //
+
+@media screen and (min-height: 570px) and (max-width: 760px) {
+  .dropdown {
+    top: 2.4dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3dvh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // --------------- Max-Height: 369px and Max-Width 700px ---------------- //
 

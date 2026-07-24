@@ -85,6 +85,7 @@
           align-items: center;
 
           p {
+            margin-left: 1.2rem;
             font-family: 'Story Script', sans-serif;
             font-size: 1.4rem;
             font-weight: 500;
@@ -257,14 +258,9 @@
 @media screen and (max-width: 1330px) {
   .custom-modal-width {
 
-    .modal-header {
-      // height: 2.6rem;
-    }
-
     .modal-body {
 
       .modal-title {
-        // height: 2.1rem;
 
         p {
         font-size: 1.62rem;
@@ -456,7 +452,7 @@
           font-size: 1.24rem;
           
           span {
-            margin-right: 0.5rem;
+            margin-right: 0.4rem;
             font-size: 1.14rem;
             letter-spacing: 0.04rem;
           }
@@ -495,6 +491,7 @@
         font-size: 1.26rem;
 
           span {
+            margin-right: 0.3rem;
             font-size: 1.16rem;
           }
         }
@@ -580,10 +577,11 @@
       .modal-title {
 
         p {
-        font-size: 1.3rem;
+        font-size: 1.28rem;
 
           span {
-            font-size: 1.2rem;
+            margin-right: 0.2rem;
+            font-size: 1.18rem;
           }
         }
 
@@ -592,7 +590,7 @@
           .audio-content {
 
             p {
-            font-size: 1.37rem;
+            font-size: 1.33rem;
             }
 
             .audio-card button {
@@ -610,58 +608,75 @@
 @media screen and (max-width: 1000px) {
   .custom-modal-width {
     margin-top: 1.7dvh;
+
+    .modal-body {
+
+      .modal-img-constrained {
+        height: 79.2dvh;
+      }
+
+      .modal-title {
+        height: 2rem;
+        margin-left: 0.1rem;
+
+        p {
+        font-size: 1.25rem;
+
+          span {
+            display: none;
+          }
+        }
+
+        span.audio {
+          margin-right: 0.18rem;
+
+          .audio-content {
+
+            p {
+            font-size: 1.28rem;
+            }
+
+            .audio-card button {
+              width: 3.3rem;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
-// -------------- Max-Width 960px -------------- //
+// -------------- Max-Width 920px -------------- //
 
-// @media screen and (max-width: 960px) {
-//   .custom-modal-width {
-//     margin-top: 1.7dvh;
+@media screen and (max-width: 920px) {
+  .custom-modal-width {
 
-//     .modal-body {
+    .modal-body {
 
-//       .modal-img-constrained {
-//         height: 79dvh;
-//         max-width: 86dvw;
-//       }
+      .modal-img-constrained {
+        height: 79dvh;
+      }
 
-//       .modal-title {
+      .modal-title {
 
-//         p {
-//         font-size: 2rem;
+        span.audio {
 
-//           span {
-//             font-size: 1.9rem;
-//           }
-//         }
+          .audio-content {
 
-//         span.audio {
+            p {
+              padding-top: 0.7dvh;
+              font-size: 1.25rem;
+            }
 
-//           .audio-content {
-
-//             p {
-//             font-size: 2.04rem;
-//             }
-
-//             .audio-card button {
-//               width: 5.1rem;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
-
-
-
-
-
-
-
-
+            .audio-card button {
+              width: 3.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 // -------------- Max-Width 880px -------------- //
 
@@ -673,24 +688,15 @@
       .modal-title {
 
         p {
-        font-size: 2.05rem;
-
-          span {
-            display: none;
-          }
+        font-size: 1.3rem;
         }
 
         span.audio {
-          margin-right: 0.7rem;
 
           .audio-content {
 
             p {
-            font-size: 2.1rem;
-            }
-
-            .audio-card button {
-              width: 5.18rem;
+            font-size: 1.35rem;
             }
           }
         }
@@ -711,24 +717,18 @@
       }
 
       .modal-title {
-        height: 2.9rem;
-        margin-left: 1rem;
+        height: 2.1rem;
 
         p {
-        font-size: 2.08rem;
+          font-size: 1.35rem;
         }
 
         span.audio {
-          margin-right: 0rem;
 
           .audio-content {
 
-            p {
-            font-size: 2.14rem;
-            }
-
             .audio-card button {
-              width: 5.45rem;
+              width: 3.6rem;
             }
           }
         }
@@ -747,7 +747,7 @@
       .modal-title {
 
         p {
-        font-size: 2.16rem;
+          font-size: 1.42rem;
         }
 
         span.audio {
@@ -759,7 +759,7 @@
             }
 
             .audio-card button {
-              width: 5.7rem;
+              width: 3.85rem;
             }
           }
         }
@@ -767,6 +767,19 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // -------------- Max-Width 740px -------------- //
 
