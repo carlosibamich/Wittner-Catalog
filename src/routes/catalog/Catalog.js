@@ -25,56 +25,68 @@ const Catalog = () => {
 
   const location = useLocation();
 
-  return (
-    
-   <div key={location.path === "catalog-list" ? "catalog" : "other"} className="list-container page-fade-in">
-    <div className="wittner-logo">
-      <img src={WittnerLogo} alt="Museum Logo" />
-    </div>
-    <ul className="list-grid">
-      {directory.map((item, i) => (
-        <li key={item.id}>
-          <div className="list-items-container">
-            <div className="audio-label">
-              {item.audio && <span className="label-text">audio</span>}
-            </div>
-            <span className="audio-icon">
-              {item.audio && (
-                <Audio
-                  item={item}
-                  isPlaying={playingId === item.id}
-                  onToggle={() => setPlayingId(playingId === item.id ? null : item.id)}
-                  onEnded={handleAudioEnded}
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  return ( 
+    <div key={location.path === "catalog-list" ? "catalog" : "other"} className="list-container page-fade-in">
+      <div className="wittner-logo">
+        <img src={WittnerLogo} alt="Museum Logo" />
+      </div>
+      <ul className="list-grid">
+        {directory.map((item, i) => (
+          <li key={item.id}>
+            <div className="list-items-container">
+              <div className="audio-label">
+                {item.audio && <span className="label-text">audio</span>}
+              </div>
+              <span className="audio-icon">
+                {item.audio && (
+                  <Audio
+                    item={item}
+                    isPlaying={playingId === item.id}
+                    onToggle={() => setPlayingId(playingId === item.id ? null : item.id)}
+                    onEnded={handleAudioEnded}
+                  />
+                )}
+              </span>
+              <div className="image-container">
+                <img 
+                  src={item.imgSrc} 
+                  onClick={() => handleOpen(directory[i].imgSrc, directory[i].title)} 
+                  className="border-shadow-lg image" 
+                  alt={item.title}
                 />
-              )}
-            </span>
-            <div className="image-container">
-              <img 
-                src={item.imgSrc} 
-                onClick={() => handleOpen(directory[i].imgSrc, directory[i].title)} 
-                className="border-shadow-lg image" 
-                alt={item.title}
-              />
-            </div>
-            <div className="info-container">
-              <div className="id-area">
-                <h3>{item.id}</h3>
               </div>
-              <div className="title-area">
-                <p>{item.title}</p>
+              <div className="info-container">
+                <div className="id-area">
+                  <h3>{item.id}</h3>
+                </div>
+                <div className="title-area">
+                  <p>{item.title}</p>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-      ))}
-    </ul>
-    <ImageModal 
-      show={showModal}
-      onHide={handleClose}
-      imageSrc={selectedImg}
-      title={selectedTitle}
-    />
-   </div>
+          </li>
+        ))}
+      </ul>
+      <div className="scroll-button-container border-shadow-sm">
+        <button onClick={scrollToTop} className="scroll-button">
+          BACK TO TOP
+        </button>
+      </div>
+      <ImageModal 
+        show={showModal}
+        onHide={handleClose}
+        imageSrc={selectedImg}
+        title={selectedTitle}
+      />
+    </div>
   );
 };
 

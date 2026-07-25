@@ -425,39 +425,46 @@
   .footer-container {
 
     .footer {
-      border-top: 4px solid var(--copper-yellow);
 
       .footer-box {
 
         .logo {
-          height: 6.55rem;
+          height: 4.05rem;
         }
 
         .copyrights {
   
           .copyright {
-            font-size: 2.68rem;
+            font-size: 1.65rem;
           }
   
           p {
-            font-size: 1.6rem;
+            font-size: 1.02rem;
           }
         }
 
         .address {
   
           p {
-            font-size: 1.6rem;
+            font-size: 1.02rem;
           }
   
           .rocket {
-            font-size: 2.65rem;
+            font-size: 1.68rem;
           }
         }
       }
     }
   }
 }
+
+
+
+
+
+
+
+
 
 // ------------------- Max-Width: 920px ------------------- //
 
@@ -673,4 +680,4 @@
   }
 }
 
-// ----------------- In gallery pages Footer displayed conditionally on smaller screens. Styles situated in App.scss ------------- // 
+// ----------------- In gallery pages Footer displayed conditionally on smaller screens. Styles located in App.scss ------------- // 

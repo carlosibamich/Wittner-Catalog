@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 
   .wittner-logo {
     width: 26rem;
@@ -22,6 +22,7 @@
     column-gap: 1.5rem;
     flex-grow: 1;
     width: 84%;
+    margin-bottom: 1.8rem;
     padding-left: 0;
     list-style-type: none;
 
@@ -138,6 +139,27 @@
       }
     }
   }
+  
+  .scroll-button-container {
+    background: var(--dark-grey);
+    border-top: 5px solid var(--copper-yellow);
+    border-radius: 5px;
+    transition: transform 0.5s ease, opacity 0.4s ease;
+    transform: scale(1);
+
+    .scroll-button {
+      background: none;
+      padding: 1.15rem 0.95rem;
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: var(--off-white);
+      border: none;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
 }
 
 // ======================== Media Queries ======================== //
@@ -146,10 +168,11 @@
 
 @media screen and (max-width: 1800px) {
   .list-container {
-    // margin-top: 5.5rem;
+    margin-bottom: 3.2rem;
     
     .list-grid {
       column-gap: 1.8rem;
+      margin-bottom: 2.5rem;
       
       li {
         
@@ -161,6 +184,14 @@
             
           }
         }
+      }
+    }
+
+    .scroll-button-container {
+
+      .scroll-button {
+        padding: 1.15rem 0.95rem;
+        font-size: 1.2rem;
       }
     }
   }
@@ -284,8 +315,10 @@
 
 @media screen and (max-width: 1550px) {
   .list-container {
+    margin-bottom: 3.1rem;
     
     .list-grid {
+      margin-bottom: 2.9rem;
 
       li {
 
@@ -315,6 +348,15 @@
       width: 22.2rem;
       margin-top: 1.4rem;
       margin-bottom: 4rem;
+    }
+
+
+    .scroll-button-container {
+
+      .scroll-button {
+        padding: 1.22rem 0.98rem;
+        font-size: 1.28rem;
+      }
     }
   }
 }
@@ -368,6 +410,7 @@
     
     .list-grid {
       width: 79%;
+      margin-bottom: 3.2rem;
 
       li {
 
@@ -414,7 +457,14 @@
           }
         }
       }
-      
+    }
+
+    .scroll-button-container {
+
+      .scroll-button {
+        padding: 1.25rem 1rem;
+        font-size: 1.32rem;
+      }
     }
   }
 }
@@ -464,7 +514,14 @@
           }
         }
       }
-      
+    }
+
+    .scroll-button-container {
+
+      .scroll-button {
+        padding: 1.38rem 1.05rem;
+        font-size: 1.39rem;
+      }
     }
   }
 }
@@ -475,7 +532,7 @@
   .list-container {
   
     .list-grid {
-      width: 82%;
+      width: 81.5%;
 
     li {
 
@@ -522,7 +579,7 @@
   .list-container {
 
     .wittner-logo {
-      width: 20.4rem;
+      width: 20rem;
     }
     
     .list-grid {
@@ -557,7 +614,14 @@
           }
         }
       }
-      
+    }
+
+    .scroll-button-container {
+
+      .scroll-button {
+        padding: 1.5rem 1.08rem;
+        font-size: 1.44rem;
+      }
     }
   }
 }
@@ -566,6 +630,7 @@
 
 @media screen and (max-width: 1130px) {
   .list-container {
+    margin-bottom: 2rem;
 
     .wittner-logo {
       width: 13rem;
@@ -575,6 +640,7 @@
     .list-grid {
       width: 88%;
       gap: 0rem;
+      margin-bottom: 2.05rem;
 
       li {
 
@@ -636,6 +702,15 @@
         }
       } 
     }
+
+    .scroll-button-container {
+      border-top: 4px solid var(--copper-yellow);
+
+      .scroll-button {
+        padding: 1.05rem 0.65rem;
+        font-size: 0.99rem;
+      }
+    }
   }
 }
 
@@ -689,6 +764,7 @@
 
 @media screen and (max-width: 1000px) {
   .list-container {
+    margin-bottom: 2.2rem;
 
     .wittner-logo {
       width: 13.2rem;
@@ -699,6 +775,7 @@
     .list-grid {
       width: 77%;
       grid-template-columns: repeat(2, 1fr);
+      margin-bottom: 2.5rem;
 
       li {
 

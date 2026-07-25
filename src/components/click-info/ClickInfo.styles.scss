@@ -74,7 +74,7 @@
       }
 
       p {
-        font-size: 1.42rem;
+        font-size: 1.46rem;
       }
     }
   }
@@ -85,7 +85,7 @@
 @media screen and (min-height: 980px) and (max-width: 1800px) {
   .click-info-container {
     bottom: 11dvh;
-    height: 6dvh;
+    height: 5.5dvh;
   }
 }
 
@@ -97,7 +97,7 @@
     .click-info {
 
       .fish {
-        font-size: 1.85rem;
+        font-size: 1.73rem;
       }
 
       p {
@@ -111,7 +111,7 @@
 
 @media screen and (min-height: 980px) and (max-width: 1760px) {
   .click-info-container {
-    bottom: 10.6dvh;
+    bottom: 11.2dvh;
   }
 }
 
@@ -123,11 +123,11 @@
     .click-info {
 
       .fish {
-        font-size: 1.75rem;
+        font-size: 1.69rem;
       }
 
       p {
-        font-size: 1.47rem;
+        font-size: 1.55rem;
       }
 
     }
@@ -156,7 +156,7 @@
 @media screen and (min-height: 950px) and (max-width: 1690px) {
   .click-info-container {
     bottom: 12dvh;
-    height: 5.7dvh;
+    height: 5.5dvh;
   }
 }
 
@@ -169,11 +169,11 @@
     .click-info {
 
       .fish {
-        font-size: 1.78rem;
+        font-size: 1.73rem;
       }
 
       p {
-        font-size: 1.56rem;
+        font-size: 1.6rem;
       }
     }
   }
@@ -184,7 +184,7 @@
 @media screen and (min-height: 950px) and (max-width: 1610px) {
   .click-info-container {
     bottom: 12.5dvh;
-    height: 6.2dvh;
+    height: 6dvh;
   }
 }
 
@@ -193,7 +193,7 @@
 @media screen and (min-height: 925px) and (max-width: 1580px) {
   .click-info-container {
     bottom: 12dvh;
-    height: 6.2dvh;
+    height: 6dvh;
   }
 }
 
@@ -205,11 +205,11 @@
     .click-info {
 
       .line {
-        width: 22rem;
+        width: 23.3rem;
       }
 
       p {
-        font-size: 1.55rem;
+        font-size: 1.62rem;
       }
 
     }
@@ -221,7 +221,7 @@
 @media screen and (min-height: 910px) and (max-width: 1550px) {
   .click-info-container {
     bottom: 12.5dvh;
-    height: 6.2dvh;
+    height: 5.8dvh;
   }
 }
 
@@ -233,8 +233,16 @@
 
     .click-info {
 
+      .fish {
+        font-size: 1.8rem;
+      }
+
+      .line {
+        width: 23rem;
+      }
+
       p {
-        font-size: 1.6rem;
+        font-size: 1.68rem;
       }
 
     }
@@ -246,7 +254,7 @@
 @media screen and (min-height: 900px) and (max-width: 1500px) {
   .click-info-container {
     bottom: 12.8dvh;
-    height: 6dvh;
+    height: 5.8dvh;
   }
 }
 
@@ -261,8 +269,12 @@
         font-size: 1.88rem;
       }
 
+      .line {
+        width: 22.8rem;
+      }
+
       p {
-        font-size: 1.66rem;
+        font-size: 1.72rem;
       }
     }
   }
@@ -283,6 +295,17 @@
 @media screen and (max-width: 1400px) {
   .click-info-container {
     height: 9dvh;
+
+    .click-info {
+
+      .line {
+        width: 22.6rem;
+      }
+
+      p {
+        font-size: 1.76rem;
+      }
+    }
   }
 }
 
@@ -316,23 +339,7 @@
 @media screen and (min-height: 820px) and (max-width: 1380px) {
   .click-info-container {
     bottom: 13dvh;
-    height: 6.8dvh;
-
-    .click-info {
-
-      .fish {
-        font-size: 1.88rem;
-      }
-
-      .line {
-        width: 20.5rem;
-      }
-
-      p {
-        font-size: 1.68rem;
-      }
-
-    }
+    height: 6.4dvh;
   }
 }
 
@@ -343,16 +350,12 @@
 
     .click-info {
 
-      .fish {
-        font-size: 1.8rem;
-      }
-
       .line {
-        width: 19.8rem;
+        width: 22.2rem;
       }
 
       p {
-        font-size: 1.75rem;
+        font-size: 1.78rem;
       }
     }
   }
@@ -808,20 +811,20 @@
   .click-info-container {
     display: block;
 
-    // .click-info {
+    .click-info {
 
-    //   .fish {
-    //     font-size: 2.58rem;
-    //   }
+      .fish {
+        font-size: 1.65rem;
+      }
 
-    //   .line {
-    //     width: 16.8rem;
-    //   }
+      .line {
+        width: 12rem;
+      }
 
-    //   p {
-    //     font-size: 2.45rem;
-    //   }
-    // }
+      p {
+        font-size: 1.6rem;
+      }
+    }
   }
 }
 
@@ -838,16 +841,54 @@
 @media screen and (max-width: 740px) {
   .click-info-container {
     display: block;
+    height: 10.3dvh;
   }
 }
 
-// ----------------- Max-Height: 305px and Max-Width 740px ----------------- //
+// ----------------- Max-Height: 323px and Max-Width 740px ----------------- //
 
-@media screen and (max-height: 305px) and (max-width: 740px) {
+@media screen and (max-height: 323px) and (max-width: 740px) {
   .click-info-container {
     display: none;
   }
 }
+
+// ----------------- Min-Height: 630px and Max-Width 740px ----------------- //
+
+@media screen and (min-height: 630px) and (max-width: 740px) {
+  .click-info-container {
+    height: 6.3dvh;
+  }
+}
+
+// ----------------- Max-Width 720px ----------------- //
+
+@media screen and (max-width: 720px) {
+  .click-info-container {
+    display: block;
+  }
+}
+
+// ----------------- Max-Height: 314px and Max-Width 720px ----------------- //
+
+@media screen and (max-height: 314px) and (max-width: 720px) {
+  .click-info-container {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // --------------- Max-Width 700px ---------------- //
 
