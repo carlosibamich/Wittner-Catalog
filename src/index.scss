@@ -9,6 +9,16 @@
   --shadow: inset 5px 5px 14px 10px rgba(0, 0, 0, 0.1);
 }
 
+// html {
+//   /* Minimum font size: 12px (75%) */
+//   /* Preferred size: 1% of viewport width + 0.5rem */
+//   /* Maximum font size: 16px (100%) */
+//   font-size: clamp(75%, 0.5rem + 1vw, 100%);
+  
+//   /* Crucial for mobile landscape */
+//   -webkit-text-size-adjust: 100%;
+// }
+
 html body {
   width: 100% !important;
   max-width: 100% !important;
@@ -25,41 +35,41 @@ html body {
   text-size-adjust: 100%;
 }
 
-html[data-fullscreen="true"] {
-  /* Lock the base document to prevent iOS rubber-banding bounce */
-  overflow: hidden !important;
-  height: 100dvh !important;
+// html[data-fullscreen="true"] {
+//   /* Lock the base document to prevent iOS rubber-banding bounce */
+//   overflow: hidden !important;
+//   height: 100dvh !important;
 
-  body {
-    overflow: hidden !important;
-    height: 100dvh !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
+//   body {
+//     overflow: hidden !important;
+//     height: 100dvh !important;
+//     margin: 0 !important;
+//     padding: 0 !important;
+//   }
 
-  #app-viewport-wrapper {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    width: 100vw !important;
+//   #app-viewport-wrapper {
+//     position: fixed !important;
+//     top: 0 !important;
+//     left: 0 !important;
+//     right: 0 !important;
+//     bottom: 0 !important;
+//     width: 100vw !important;
     
-    /* Fits the element between the browser bars */
-    height: 100dvh !important; 
+//     /* Fits the element between the browser bars */
+//     height: 100dvh !important; 
     
-    /* Keeps your presentation layer above all else */
-    z-index: 999999 !important; 
-    background: var(--off-white) !important; 
+//     /* Keeps your presentation layer above all else */
+//     z-index: 999999 !important; 
+//     background: var(--off-white) !important; 
     
-    /* Allows user to scroll naturally *inside* your app layout box */
-    overflow-y: auto !important; 
-    -webkit-overflow-scrolling: touch !important; 
+//     /* Allows user to scroll naturally *inside* your app layout box */
+//     overflow-y: auto !important; 
+//     -webkit-overflow-scrolling: touch !important; 
     
-    /* Fixes iOS subpixel calculation lag */
-    box-sizing: border-box !important; 
-  }
-}
+//     /* Fixes iOS subpixel calculation lag */
+//     box-sizing: border-box !important; 
+//   }
+// }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -2941,36 +2951,151 @@ div.carousel-container {
 
 // --------------- Max-Width 710px ---------------- //
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 710px) and (orientation: landscape) {
   html {
-    font-size: 63.1%;
+    font-size: 100%;
+  }
+
+  div.carousel-container {
+    min-height: 92.4dvh;
+    
+    .controls {
+      margin-top: 2.5dvh;
+
+      .arrow {
+        font-size: 1.2rem;
+      }
+
+      .page-button {
+        margin: 0 0.3rem;
+        font-size: 0.98rem;
+      }
+    }
+
+    ul.gallery-container {
+      height: 14.7rem;
+  }
+  }
+
+  /* ----------- Exit Sign Styles ------------- */
+
+.exit-sign-container {
+
+  .exit-sign {
+    width: 3rem;
+    height: 1.9rem;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.12);
+    font-size: 1.2rem;
   }
 }
 
+  // ------------------ Gallery White Door Styles ------------------ //
 
+  .white-door-frame {
+    width: 9.5rem;
+    height: 16.3rem;
 
+    .white-door {
+      width: 7.5rem;
+      height: 15.3rem;
+    }
+  }
 
+  /* --------- Windows --------- */
+  .window-frame {
+    width: 20.2rem;
+    height: 12.8rem;
 
+    .window-pane {
+      bottom: 0.45rem;
+      width: 9.42rem;
+      height: 11.9rem;
+    }
 
+    .pane-left {
+      left: 0.45rem;
+    }
 
+    .pane-right {
+      right: 0.45rem;
+    }
+  }
 
+  /* --------- Grey Entrance/Exit Door Styles --------- */
 
+  .door-frame-container {
 
+    .door-frame {
+      width: 11.3rem;
+      height: 14.8rem;
 
+      .door-window-pane-top {
+        top: 0.45rem;
+        left: 0.45rem;
+        width: 10.4rem;
+        height: 2rem;
+      }
 
+      .door-window-pane-left {
+        bottom: 0.55rem;
+        left: 0.45rem;
+        width: 4.95rem;
+        height: 11.4rem;
+      }
 
+      .door-window-pane-right {
+        bottom: 0.55rem;
+        right: 0.45rem;
+        width: 4.95rem;
+        height: 11.4rem;
+      }
 
+      .door-crossbar {
+        bottom: 6.2rem;
+        width: 11.3rem;
+        height: 0.4rem;
+      }
+    }
+  }
+}
 
+// ----------------- Max-Height: 310px and Max-Width 710px ----------------- //
 
+@media screen and (max-height: 310px) and (max-width: 710px) and (orientation: landscape) {
+  div.carousel-container {
+    min-height: 98dvh;
+  }
+}
 
+// ----------------- Max-Height: 291px and Max-Width 710px ----------------- //
 
+@media screen and (max-height: 291px) and (max-width: 710px) and (orientation: landscape) {
+  div.carousel-container {
+    min-height: 100dvh;
+  }
+}
 
+// --------------- Min-Height: 630px and Max-Width 710px ---------------- //
+
+@media screen and (min-height: 630px) and (max-width: 710px) and (orientation: landscape) {
+  div.carousel-container {
+    min-height: 80.4dvh;
+  }
+}
+
+// --------------- Max-Width 705px ---------------- //
+
+@media screen and (max-width: 705px) {
+  html {
+    font-size: 99.5%;
+  }
+}
 
 // --------------- Max-Width 700px ---------------- //
 
 @media screen and (max-width: 700px) {
   html {
-    font-size: 39.3%;
+    font-size: 99%;
     }
 
   div.carousel-container {
@@ -2994,11 +3119,26 @@ div.carousel-container {
   }
 }
 
+// --------------- Max-Width 695px ---------------- //
+
+@media screen and (max-width: 695px) {
+  html {
+    font-size: 98.5%;
+    }
+}
+
 // --------------- Max-Width 690px ---------------- //
 
 @media screen and (max-width: 690px) {
   html {
-    font-size: 38.7%;
+    font-size: 97.9%;
+    }
+}
+// --------------- Max-Width 685px ---------------- //
+
+@media screen and (max-width: 685px) {
+  html {
+    font-size: 97.2%;
     }
 }
 
@@ -3006,7 +3146,15 @@ div.carousel-container {
 
 @media screen and (max-width: 680px) {
   html {
-    font-size: 38.2%;
+    font-size: 96.5%;
+    }
+}
+
+// --------------- Max-Width 675px ---------------- //
+
+@media screen and (max-width: 675px) {
+  html {
+    font-size: 95.8%;
     }
 }
 
@@ -3014,7 +3162,15 @@ div.carousel-container {
 
 @media screen and (max-width: 670px) {
   html {
-    font-size: 37.6%;
+    font-size: 95.2%;
+    }
+}
+
+// --------------- Max-Width 665px ---------------- //
+
+@media screen and (max-width: 665px) {
+  html {
+    font-size: 94.4%;
     }
 }
 
@@ -3022,7 +3178,7 @@ div.carousel-container {
 
 @media screen and (max-width: 660px) {
   html {
-    font-size: 37.1%;
+    font-size: 94.4%;
   }
 
   .border-shadow-sm {

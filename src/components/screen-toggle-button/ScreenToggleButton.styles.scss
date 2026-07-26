@@ -391,6 +391,28 @@ button.toggle-box {
   }
 }
 
+// ----------------  Max-Width: 710px ---------------- //
+
+@media screen and (max-width: 710px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      width: 1.95rem;
+      height: 1.95rem;
+
+      .screen-icon {
+        width: 1.95rem;
+        height: 1.95rem;
+        font-size: 1.9rem;
+      }
+
+      .screen-text {
+        display: none;
+      }
+    }
+  }
+}
+
 // ----------------  Max-Width: 660px ---------------- //
 
 @media screen and (max-width: 660px) {

@@ -635,8 +635,8 @@
 
       .current-title-box {
 
-        .title {
-          font-size: 2.56rem;
+        .menu {
+          font-size: 1.9rem;
         }
       }
     }
@@ -655,7 +655,57 @@
   }
 }
 
+// --------------- Max-Width 710px ---------------- //
 
+@media screen and (max-width: 710px) {
+  .mobile-menu-container {
+
+    .burger-menu-box {
+
+      .burger-btn {
+        width: 28px;
+        height: 25px;
+        gap: 6px;
+
+        .burger-line {
+          width: 27px;
+        }
+
+        &.is-open {
+          transform: translateX(4.5rem);
+
+          .line-top {
+            transform: translateY(8px) rotate(45deg);
+          }
+          
+          .line-bottom {
+            transform: translateY(-8px) rotate(-45deg);
+          }
+        }
+      }
+
+      .current-title-box {
+
+        .menu {
+          display: none;
+        }
+      }
+    }
+
+    .dropdown-menu {
+      width: 11rem;
+
+      .spacer {
+        height: 14.8dvh;
+      }
+
+      .menu-option {
+        padding: 0.35em 0.6em;
+        font-size: 1rem;
+      }
+    }
+  }
+}
 
 
 

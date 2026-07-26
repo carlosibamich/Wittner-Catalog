@@ -1702,7 +1702,17 @@
   }
 }
 
+// -------------- Max-Width 720px -------------- //
 
+@media screen and (max-width: 710px) {
+  .dropdown {
+    top: 4.5dvh;
+  }
+
+  .screen-toggle-button {
+    top: 3dvh;
+  }
+}
 
 
 
