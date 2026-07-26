@@ -4,6 +4,7 @@ import { directory } from '../../pages/directory/directory';
 import Audio from '../../components/audio/Audio'
 import ImageModal from '../../pages/image-modal/ImageModal';
 import WittnerLogo from '../../assets/logo/wittner-logo.PNG';
+import { BiSolidUpArrow } from "react-icons/bi";
 import './Catalog.styles.scss';
 
 
@@ -77,7 +78,10 @@ const Catalog = () => {
       </ul>
       <div className="scroll-button-container border-shadow-sm">
         <button onClick={scrollToTop} className="scroll-button">
-          BACK TO TOP
+          <span className="arrow-top">
+            <BiSolidUpArrow />
+          </span>
+          Back to top
         </button>
       </div>
       <ImageModal 
