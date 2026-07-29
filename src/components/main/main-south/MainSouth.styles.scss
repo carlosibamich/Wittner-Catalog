@@ -1238,269 +1238,264 @@
   }
 }
 
-// --------------- Max-Width: 1000px ----------------- //
+// --------------- Max-Width: 710px ----------------- //
 
-// @media screen and (max-width: 1000px) {
-//   .main-room-south-container {
-//     margin-top: 0dvh;
+@media screen and (max-width: 710px) {
+  .main-room-south-container {
 
-//     .main-room-south-grid {
-//       width: 78.5%;
-//       height: 36.6rem;
-//       grid-template-columns: 1.7fr 4.35fr 4.7fr 5.3fr 7.14fr 6.2fr;
-//       gap: 2px;
+    .main-room-south-grid {
+      width: 80%;
+      height: 14.6rem;
+      grid-template-columns: 1.55fr 4.35fr 4.65fr 5.25fr 7.3fr 6.35fr;
 
-//       // .section {
-//       //   border: 1px solid #d5d5d5;
-//       // }
+      //----------------- COLUMN 1 ------------------//
 
-//       //----------------- COLUMN 1 ------------------//
+    .south-column-1 {
 
-//     .south-column-1 {
-
-//       // ---------- Purification --------- //
-//       .sub-section-1-1 {
-//         top: 3rem;
-//         left: -0.4rem;
-//         width: 5rem;
-//       }
+      // ---------- Purification --------- //
+      .sub-section-1-1 {
+        top: 1.2rem;
+        left: -0.2rem;
+        width: 1.95rem;
+      }
       
-//       // ---------- Resist --------- //  
-//       .sub-section-1-2 {
-//         top: 9.2rem;
-//         left: -0.4rem;
-//         width: 5rem;
-//       }
-//     }
-//     //----------------- COLUMN 2 ------------------//
+      // ---------- Resist --------- //  
+      .sub-section-1-2 {
+        top: 3.7rem;
+        left: -0.2rem;
+        width: 1.95rem;
+      }
+    }
+    //----------------- COLUMN 2 ------------------//
 
-//     .south-column-2 {
+    .south-column-2 {
 
-//       // ---------- Reconstructive Surgery 2 --------- //
-//       .sub-section-2-1 {
-//         width: 12rem;
-//       }
+      // ---------- Reconstructive Surgery 2 --------- //
+      .sub-section-2-1 {
+        width: 4.8rem;
+      }
         
-//       // ---------- Meeting the Devil With My Cello --------- //
-//       .sub-section-2-2 {
-//         top: 13rem;
-//         left: 1.05rem;
-//         width: 6.1rem;
-//       }
+      // ---------- Meeting the Devil With My Cello --------- //
+      .sub-section-2-2 {
+        top: 5.25rem;
+        left: 0.25rem;
+        width: 2.55rem;
+      }
         
-//       // ---------- Retired From Bull Ring --------- //
-//       .sub-section-2-3 {
-//         top: 12.1rem;
-//         right: 1.3rem;
-//         width: 3.2rem;
-//       }
+      // ---------- Retired From Bull Ring --------- //
+      .sub-section-2-3 {
+        top: 4.85rem;
+        right: 0.4rem;
+        width: 1.4rem;
+      }
         
-//       // ----------King of Cats --------- //
-//       .sub-section-2-4 {
-//         top: 16.7rem;
-//         right: 3rem;
-//         width: 1.5rem;
-//       }
+      // ----------King of Cats --------- //
+      .sub-section-2-4 {
+        top: 6.85rem;
+        right: 1.2rem;
+        width: 0.6rem;
+      }
       
-//       // ---------- Egged On --------- //
-//       .sub-section-2-5 {
-//         top: 16.7rem;
-//         right: 1.2rem;
-//         width: 1.6rem;
-//      }  
+      // ---------- Egged On --------- //
+      .sub-section-2-5 {
+        top: 6.85rem;
+        right: 0.4rem;
+        width: 0.65rem;
+      }  
 
-//       // ---------- You've Gone Too far --------- //
-//       .sub-section-2-6 {
-//         bottom: 1.5rem;
-//         left: -0.2rem;
-//         width: 12.5rem;
-//      }  
-//     }
+      // ---------- You've Gone Too far --------- //
+      .sub-section-2-6 {
+        bottom: 0.55rem;
+        left: -0.1rem;
+        width: 4.9rem;
+      }  
+    }
     
-//     //----------------- COLUMN 3 ------------------//
+    //----------------- COLUMN 3 ------------------//
     
-//     .south-column-3 {
+    .south-column-3 {
       
-//       // ---------- Looking Ahead --------- //
-//       .sub-section-3-1 {
-//         top: 0;
-//         right: 0.6rem;
-//         width: 12.2rem;
-//       }
+      // ---------- Looking Ahead --------- //
+      .sub-section-3-1 {
+        top: 0;
+        right: 0.2rem;
+        width: 5.1rem;
+      }
         
-//       // ---------- Opera --------- //
-//       .sub-section-3-2 {
-//         top: 16.3rem;
-//         left: 0.3rem;
-//         width: 3.2rem;
-//       }
+      // ---------- Opera --------- //
+      .sub-section-3-2 {
+        top: 6.75rem;
+        left: 0.06rem;
+        width: 1.25rem;
+      }
         
-//       // ---------- State of the World --------- //
-//       .sub-section-3-3 {
-//         top: 16.6rem;
-//         left: 4.4rem;
-//         width: 4.5rem;
-//       }
+      // ---------- State of the World --------- //
+      .sub-section-3-3 {
+        top: 6.85rem;
+        left: 1.75rem;
+        width: 1.75rem;
+      }
         
-//       // ---------- Giant Egg --------- //
-//       .sub-section-3-4 {
-//         top: 16.3rem;
-//         right: -0.2rem;
-//         width: 3.8rem;
-//       }
+      // ---------- Giant Egg --------- //
+      .sub-section-3-4 {
+        top: 6.75rem;
+        right: -0.02rem;
+        width: 1.5rem;
+      }
         
-//       // ---------- I'm Outta Here --------- //
-//       .sub-section-3-5 {
-//         bottom: 2.7rem;
-//         left: 0.4rem;
-//         width: 13.4rem;
-//       }
-//     }
+      // ---------- I'm Outta Here --------- //
+      .sub-section-3-5 {
+        bottom: 0.8rem;
+        left: 0.06rem;
+        width: 5.4rem;
+      }
+    }
 
-//       // ---------- Column 4 --------- //
-//       .south-column-4 {
+    // ---------- Column 4 --------- //
+    .south-column-4 {
       
-//         // ---------- Painter's Museum --------- //
-//         .sub-section-4-1 {
-//           left: 0.3rem;
-//           width: 14.6rem;
-//         }
+        // ---------- Painter's Museum --------- //
+        .sub-section-4-1 {
+          left: 0.04rem;
+          width: 5.9rem;
+        }
       
-//         // ---------- Private Showing --------- //
-//         .sub-section-4-2 {
-//           top: 12.4rem;
-//           left: 1.1rem;
-//           width: 13.35rem;
-//         }
+        // ---------- Private Showing --------- //
+        .sub-section-4-2 {
+          top: 4.95rem;
+          left: 0.3rem;
+          width: 5.4rem;
+        }
       
-//         // ---------- Roadhouse at the Full Moon --------- //
-//         .sub-section-4-3 {
-//           bottom: 1.5rem;
-//           left: 0.8rem;
-//           width: 15.8rem;
-//         }
-//       }
+        // ---------- Roadhouse at the Full Moon --------- //
+        .sub-section-4-3 {
+          bottom: 0.55rem;
+          left: 0.3rem;
+          width: 6.35rem;
+        }
+      }
 
-//       //----------------- COLUMN 5 ------------------/
+      //----------------- COLUMN 5 ------------------/
     
-//       .south-column-5 {
+      .south-column-5 {
 
-//         // ---------- Center Stage --------- //
-//         .sub-section-5-1 {
-//           left: 0.3rem;
-//           width: 13.45rem;
-//         }
+        // ---------- Center Stage --------- //
+        .sub-section-5-1 {
+          top: 0rem;
+          left: 0.05rem;
+          width: 5.3rem;
+        }
         
-//         // ---------- Conservationist --------- //
-//         .sub-section-5-2 {
-//           top: 1.7rem;
-//           right: 1.9rem;
-//           width: 4rem;
-//         }
+        // ---------- Conservationist --------- //
+        .sub-section-5-2 {
+          top: 0.4rem;
+          right: 0.85rem;
+          width: 1.6rem;
+        }
         
-//         // ---------- Spiritual Traveler --------- //
-//         .sub-section-5-3 {
-//           top: 11rem;
-//           left: 0rem;
-//           width: 9rem;
-//         }
+        // ---------- Spiritual Traveler --------- //
+        .sub-section-5-3 {
+          top: 4.2rem;
+          left: -0.1rem;
+          width: 3.6rem;
+        }
         
-//         // ---------- Be of Good Cheer --------- //
-//         .sub-section-5-4 {
-//           top: 11.1rem;
-//           left: 10.2rem;
-//           width: 3.2rem;
-//         }
+        // ---------- Be of Good Cheer --------- //
+        .sub-section-5-4 {
+          top: 4.2rem;
+          left: 4.1rem;
+          width: 1.1rem;
+        }
         
-//         // ---------- Years Later He Lit Up A Cigarette --------- //
-//         .sub-section-5-5 {
-//           top: 7.8rem;
-//           right: 1.9rem;
-//           width: 4rem;
-//         }
+        // ---------- Years Later He Lit Up A Cigarette --------- //
+        .sub-section-5-5 {
+          top: 2.7rem;
+          right: 0.85rem;
+          width: 1.6rem;
+        }
       
-//         // ---------- Bob --------- //
-//         .sub-section-5-6 {
-//           top: 14rem;
-//           left: 9.65rem;
-//           width: 4.2rem;
-//         }
+        // ---------- Bob --------- //
+        .sub-section-5-6 {
+          top: 5.2rem;
+          left: 3.78rem;
+          width: 1.85rem;
+        }
 
-//         // ---------- Questionable Moves --------- //
-//         .sub-section-5-7 {
-//           top: 14rem;
-//           right: -0.2rem;
-//           width: 6.6rem;
-//         }
+        // ---------- Questionable Moves --------- //
+        .sub-section-5-7 {
+          top: 5.2rem;
+          right: -0.4rem;
+          width: 2.9rem;
+        }
 
-//         // ---------- Go Back To sea --------- //
-//         .sub-section-5-8 {
-//           top: 20.1rem;
-//           left: 10.7rem;
-//           width: 2.6rem;
-//         }
+        // ---------- Go Back To sea --------- //
+        .sub-section-5-8 {
+          top: 7.9rem;
+          left: 4.6rem;
+          width: 1.1rem;
+        }
 
-//         // ---------- Dubious --------- //
-//         .sub-section-5-9 {
-//           top: 20.3rem;
-//           left: -0.3rem;
-//           width: 2.5rem;
-//         }
+        // ---------- Dubious --------- //
+        .sub-section-5-9 {
+          top: 7.95rem;
+          left: -0.1rem;
+          width: 1.1rem;
+        }
 
-//         // ---------- Dervish 1 --------- //
-//         .sub-section-5-10 {
-//           top: 20.3rem;
-//           left: 4.9rem;
-//           width: 1.4rem;
-//         }
+        // ---------- Dervish 1 --------- //
+        .sub-section-5-10 {
+          top: 7.95rem;
+          left: 2.2rem;
+          width: 0.7rem;
+        }
 
-//         // ---------- Dervish 2 --------- //
-//         .sub-section-5-11 {
-//           top: 20.3rem;
-//           left: 3.1rem;
-//           width: 1.4rem;
-//         }
+        // ---------- Dervish 2 --------- //
+        .sub-section-5-11 {
+          top: 7.95rem;
+          left: 1.35rem;
+          width: 0.7rem;
+        }
 
-//         // ---------- Helena --------- //
-//         .sub-section-5-12 {
-//           top: 20.3rem;
-//           left: 7.1rem;
-//           width: 2.4rem;
-//         }
+        // ---------- Helena --------- //
+        .sub-section-5-12 {
+          top: 7.95rem;
+          left: 3.2rem;
+          width: 1.1rem;
+        }
 
-//         // ---------- The Soul Breaks the Deal --------- //
-//         .sub-section-5-13 {
-//           bottom: 2rem;
-//           left: 2.3rem;
-//           width: 6.9rem;
-//         }
+        // ---------- The Soul Breaks the Deal --------- //
+        .sub-section-5-13 {
+          bottom: 0.6rem;
+          left: 0.98rem;
+          width: 2.95rem;
+        }
 
-//         // ---------- Waiting for the Parting --------- //
-//         .sub-section-5-14 {
-//           bottom: 1.4rem;
-//           right: 0.5rem;
-//           width: 9.9rem;
-//         }
-//       }
+        // ---------- Waiting for the Parting --------- //
+        .sub-section-5-14 {
+          bottom: 0.55rem;
+          right: -0.15rem;
+          width: 4rem;
+        }
+      }
 
-//       //----------------- COLUMN 6 ------------------/
+      //----------------- COLUMN 6 ------------------/
 
-//       .south-column-6 {
+      .south-column-6 {
 
-//         // ---------- Higher --------- //
-//         .sub-section-6-1 {
-//           top: 1.4rem;
-//           left: -0.9rem;
-//           width: 14.7rem;
-//         }
+        // ---------- Higher --------- //
+        .sub-section-6-1 {
+          top: 0.15rem;
+          left: -0.45rem;
+          width: 5.9rem;
+        }
       
-//         // ---------- Oh Jesus Christ --------- //
-//         .sub-section-6-2 {
-//           bottom: 1.4rem;
-//           right: -0.2rem;
-//           width: 17.7rem;
-//         }
-//       }
-//     }
-//   }
-// }
+        // ---------- Oh Jesus Christ --------- //
+        .sub-section-6-2 {
+          bottom: 0.6rem;
+          right: -0.3rem;
+          width: 7.2rem;
+        }
+      }
+    }
+  }
+}

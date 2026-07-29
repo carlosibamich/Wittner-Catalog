@@ -357,98 +357,102 @@
   }
 }
 
-// --------------- Max-Width: 1000px ----------------- //
 
-// @media (max-width: 1000px) {
-//   .main-room-west-container {
-//     margin-top: 0dvh;
+// --------------- Max-Width: 710px ----------------- //
 
-//     .main-room-west-grid {
-//       width: 74.5%;
-//       height: 36rem;
-//       grid-template-rows: 13.2rem 22.8rem;
+@media (max-width: 710px) {
+  .main-room-west-container {
 
-//       // -------------------- Column 1 --------------------- //
+    .main-room-west-grid {
+      width: 82%;
+      height: 14.6rem;
+      grid-template-rows: 5.6rem 9rem;
 
-//       .west-column-1 {
+      // .section {
+      //   border: 1px solid #d5d5d5;
+      // }
 
-//         // ---------- Probed --------- //
-//         .sub-section-1-1 {
-//           left: 3rem;
-//           width: 9.8rem;
-//         }
-//       }
+      // -------------------- Column 1 --------------------- //
 
-//       // -------------------- Column 2 --------------------- //
+      .west-column-1 {
 
-//       .west-column-2 {
+        // ---------- Probed --------- //
+        .sub-section-1-1 {
+          left: 1.6rem;
+          width: 4.2rem;
+        }
+      }
 
-//       // ---------- Playing for the Devil's Ring --------- //
-//         .sub-section-2-1 {
-//           left: -0.2rem;
-//           width: 14.9rem;
-//         }
-//       }
+      // -------------------- Column 2 --------------------- //
 
-//       // -------------------- Column 3 --------------------- //
+      .west-column-2 {
+
+      // ---------- Playing for the Devil's Ring --------- //
+        .sub-section-2-1 {
+          left: 0rem;
+          width: 6.4rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
       
-//       .west-column-3 {
-//         .exit-sign-container {
-//           top: 10.1rem;
-//           left: 6.8rem;
-//         }
+      .west-column-3 {
 
-//         // ---------- Another Day at the Beach --------- //
-//         .sub-section-3-1 {
-//           width: 12.5rem;
-//         }
-//       }
+        .exit-sign-container {
+          display: none;
+        }
 
-//       // -------------------- Column 4 --------------------- //
+        // ---------- Another Day at the Beach --------- //
+        .sub-section-3-1 {
+          top: 0.3rem;
+          width: 5.7rem;
+        }
+      }
 
-//       .west-column-4 {
+      // -------------------- Column 4 --------------------- //
 
-//         // ---------- Mutiny --------- //
-//         .sub-section-4-1 {
-//           right: -0.9rem;
-//           width: 15.7rem;
-//         }
-//       }
+      .west-column-4 {
 
-//       // -------------------- Column 5 --------------------- //
+        // ---------- Mutiny --------- //
+        .sub-section-4-1 {
+          right: -0.45rem;
+          width: 6.75rem;
+        }
+      }
 
-//       .west-column-5 {
+      // -------------------- Column 5 --------------------- //
 
-//         // ---------- Catch and Release --------- //
-//         .sub-section-5-1 {
-//           right: 2.4rem;
-//           width: 9.7rem;
-//         }
-//       }
+      .west-column-5 {
 
-//       // -------------------- Column 6 --------------------- //
+        // ---------- Catch and Release --------- //
+        .sub-section-5-1 {
+          right: 1.3rem;
+          width: 4.15rem;
+        }
+      }
 
-//       .west-column-6 {
+      // -------------------- Column 6 --------------------- //
 
-//         .window-frame {
-//           left: 0.6rem;
-//         }
-//       }
+      .west-column-6 {
 
-//       // -------------------- Column 7 --------------------- //
+        .window-frame {
+          left: 1rem;
+        }
+      }
 
-//       // Door Frame Styles applied globally in index.scss //
+      // -------------------- Column 7 --------------------- //
+
+      // Door Frame Styles applied globally in index.scss //
     
-//       // -------------------- Column 8 --------------------- //
+      // -------------------- Column 8 --------------------- //
 
-//       .west-column-8 {
+      .west-column-8 {
 
-//         .window-frame {
-//           right: 0.6rem;
-//         }
-//       }
-//     }
-//   }
-// }
-
+        .window-frame {
+          right: 1rem;
+        }
+      }
+    }
+  }
+}
 

@@ -794,6 +794,7 @@
 @media screen and (max-width: 780px) {
   .click-info-container {
     display: block;
+    height: 10dvh;
   }
 }
 
@@ -802,6 +803,15 @@
 @media screen and (max-height: 340px) and (max-width: 780px) {
   .click-info-container {
     display: none;
+  }
+}
+
+// ----------------- Max-Width 780px ----------------- //
+
+@media screen and (min-height: 630px) and (max-width: 780px) {
+  .click-info-container {
+    display: block;
+    height: 6dvh;
   }
 }
 
@@ -842,6 +852,21 @@
   .click-info-container {
     display: block;
     height: 10.3dvh;
+
+    .click-info {
+
+      .fish {
+        font-size: 1.68rem;
+      }
+
+      .line {
+        width: 11.8rem;
+      }
+
+      p {
+        font-size: 1.66rem;
+      }
+    }
   }
 }
 
@@ -857,7 +882,7 @@
 
 @media screen and (min-height: 630px) and (max-width: 740px) {
   .click-info-container {
-    height: 6.3dvh;
+    height: 6dvh;
   }
 }
 

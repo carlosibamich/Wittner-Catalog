@@ -807,7 +807,52 @@
   }
 }
 
+// -------------- Max-Width 710px -------------- //
 
+@media screen and (max-width: 710px) {
+  .custom-modal-width {
+
+    .modal-header {
+      height: 0.9rem;
+
+      button.btn-close {
+        top: 0.3rem;
+        right: 1.25rem;
+        font-size: 0.8rem;
+      }
+    }
+
+    .modal-body {
+      padding: 0.35rem;
+      padding-top: 0;
+
+      .modal-img-constrained {
+        height: 76dvh;
+        margin-bottom: 0;
+      }
+
+      .modal-title {
+        height: 2.05rem;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        p {
+        font-size: 1.07rem;
+        }
+
+        span.audio {
+
+          .audio-content {
+
+            .audio-card button {
+              width: 2.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 
 
@@ -821,92 +866,92 @@
 
 // -------------- Max-Width 700px -------------- //
 
-@media screen and (max-width: 700px) {
-  .custom-modal-width {
+// @media screen and (max-width: 700px) {
+//   .custom-modal-width {
 
-    .modal-body {
+//     .modal-body {
 
-      .modal-img-constrained {
-        height: 77dvh;
-        max-width: 85dvw;
-      }
+//       .modal-img-constrained {
+//         height: 77dvh;
+//         max-width: 85dvw;
+//       }
 
-      .modal-title {
-        height: 3rem;
+//       .modal-title {
+//         height: 3rem;
 
-        p {
-        font-size: 2.35rem;
-        }
+//         p {
+//         font-size: 2.35rem;
+//         }
 
-        span.audio {
+//         span.audio {
 
-          .audio-content {
+//           .audio-content {
 
-            .audio-card button {
-              width: 6.25rem;
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//             .audio-card button {
+//               width: 6.25rem;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 // -------------- Max-Width 650px -------------- //
 
-@media screen and (max-width: 650px) {
-  .custom-modal-width {
+// @media screen and (max-width: 650px) {
+//   .custom-modal-width {
 
-    .modal-body {
+//     .modal-body {
 
-      .modal-title {
+//       .modal-title {
 
-        p {
-        font-size: 2.38rem;
-        }
+//         p {
+//         font-size: 2.38rem;
+//         }
 
-        span.audio {
+//         span.audio {
 
-          .audio-content {
+//           .audio-content {
 
-            .audio-card button {
-              width: 6.3rem;
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//             .audio-card button {
+//               width: 6.3rem;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 // -------------- Max-Width 600px -------------- //
 
-@media screen and (max-width: 600px) {
-  .custom-modal-width {
+// @media screen and (max-width: 600px) {
+//   .custom-modal-width {
 
-    .modal-header {
-      height: 3.2rem;
-    }
+//     .modal-header {
+//       height: 3.2rem;
+//     }
 
-    .modal-body {
+//     .modal-body {
 
-      .modal-title {
-        height: 3.2rem;
+//       .modal-title {
+//         height: 3.2rem;
 
-        p {
-        font-size: 2.45rem;
-        }
+//         p {
+//         font-size: 2.45rem;
+//         }
 
-        span.audio {
+//         span.audio {
 
-          .audio-content {
+//           .audio-content {
 
-            .audio-card button {
-              width: 6.5rem;
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//             .audio-card button {
+//               width: 6.5rem;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
