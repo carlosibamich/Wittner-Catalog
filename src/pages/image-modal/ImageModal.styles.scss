@@ -837,7 +837,7 @@
         margin-left: 0;
 
         p {
-        font-size: 1.07rem;
+        font-size: 1.05rem;
         }
 
         span.audio {
@@ -854,7 +854,45 @@
   }
 }
 
+// -------------- Max-Width 660px -------------- //
 
+@media screen and (max-width: 660px) {
+  .custom-modal-width {
+    margin-top: 2dvh;
+
+    .modal-header {
+      height: 1rem;
+
+      button.btn-close {
+        font-size: 0.9rem;
+      }
+    }
+
+    .modal-body {
+      padding: 0.25rem;
+      padding-top: 0;
+
+      .modal-title {
+        height: 2.1rem;
+        margin-top: 0;
+
+        p {
+        font-size: 1.1rem;
+        }
+
+        span.audio {
+
+          .audio-content {
+
+            .audio-card button {
+              width: 2.77rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 
 

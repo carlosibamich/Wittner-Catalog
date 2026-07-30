@@ -1131,20 +1131,9 @@
   }
 }
 
+// ---------------- Min-Height: 630px and Max-Width: 710px --------------- //
 
-
-
-
-
-
-
-
-
-
-
-// ---------------- Max-Width: 700px --------------- //
-
-@media screen and (max-width: 700px) {
+@media screen and (min-height: 630px) and (max-width: 710px) {
   .horizontal-layout {
 
     .footer-container {
@@ -1154,28 +1143,28 @@
         .footer-box {
 
           .logo {
-            height: 6.9rem;
+            height: 2.6rem;
           }
   
           .copyrights {
 
             .copyright {
-              font-size: 2.95rem;
+              font-size: 1.2rem;
             }
           
             p {
-              font-size: 1.88rem;
+              font-size: 0.8rem;
             }     
           }
   
           .address {
         
             p {
-              font-size: 1.88rem;
+              font-size: 0.8rem;
             }
 
             .rocket {
-              font-size: 2.95rem;
+              font-size: 1.2rem;
             }
           }
         }
@@ -1183,3 +1172,45 @@
     }
   }
 }
+
+// ---------------- Max-Width: 700px --------------- //
+
+// @media screen and (max-width: 700px) {
+//   .horizontal-layout {
+
+//     .footer-container {
+
+//       .footer {
+
+//         .footer-box {
+
+//           .logo {
+//             height: 6.9rem;
+//           }
+  
+//           .copyrights {
+
+//             .copyright {
+//               font-size: 2.95rem;
+//             }
+          
+//             p {
+//               font-size: 1.88rem;
+//             }     
+//           }
+  
+//           .address {
+        
+//             p {
+//               font-size: 1.88rem;
+//             }
+
+//             .rocket {
+//               font-size: 2.95rem;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }s

@@ -357,7 +357,6 @@
   }
 }
 
-
 // --------------- Max-Width: 710px ----------------- //
 
 @media (max-width: 710px) {
@@ -368,17 +367,13 @@
       height: 14.6rem;
       grid-template-rows: 5.6rem 9rem;
 
-      // .section {
-      //   border: 1px solid #d5d5d5;
-      // }
-
       // -------------------- Column 1 --------------------- //
 
       .west-column-1 {
 
         // ---------- Probed --------- //
         .sub-section-1-1 {
-          left: 1.6rem;
+          left: 1.3rem;
           width: 4.2rem;
         }
       }
@@ -389,7 +384,7 @@
 
       // ---------- Playing for the Devil's Ring --------- //
         .sub-section-2-1 {
-          left: 0rem;
+          left: -0.1rem;
           width: 6.4rem;
         }
       }
@@ -415,7 +410,7 @@
 
         // ---------- Mutiny --------- //
         .sub-section-4-1 {
-          right: -0.45rem;
+          right: -0.5rem;
           width: 6.75rem;
         }
       }
@@ -426,7 +421,7 @@
 
         // ---------- Catch and Release --------- //
         .sub-section-5-1 {
-          right: 1.3rem;
+          right: 1.15rem;
           width: 4.15rem;
         }
       }
@@ -436,7 +431,7 @@
       .west-column-6 {
 
         .window-frame {
-          left: 1rem;
+          left: 0.9rem;
         }
       }
 
@@ -449,7 +444,7 @@
       .west-column-8 {
 
         .window-frame {
-          right: 1rem;
+          right: 0.9rem;
         }
       }
     }

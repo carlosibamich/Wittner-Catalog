@@ -1710,7 +1710,7 @@
   }
 
   .screen-toggle-button {
-    top: 2.7dvh;
+    top: 2.3dvh;
   }
 }
 
@@ -1728,11 +1728,11 @@
 
 @media screen and (max-width: 640px) {
   .dropdown {
-    left: 2.3rem;
+    left: 3.1rem;
   }
 
   .screen-toggle-button {
-    right: 2.7rem;
+    right: 2.8rem;
   }
 }
 
@@ -1740,11 +1740,11 @@
 
 @media screen and (max-height: 369px) and (max-width: 620px) {
   .dropdown {
-    top: 2dvh;
+    top: 2.8dvh;
   }
 
   .screen-toggle-button {
-    top: 3.2dvh;
+    top: 2.8dvh;
   }
 }
 

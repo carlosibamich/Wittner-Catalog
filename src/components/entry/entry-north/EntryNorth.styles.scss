@@ -339,9 +339,9 @@
   .entry-room-container {
 
     .entry-north-grid {
-      width: 85%;
-      height: 24rem;
-      grid-template-columns: 2.1fr 1.2fr 2.1fr;
+      width: 84.5%;
+      height: 14.6rem;
+      grid-template-columns: 2.1fr 1.25fr 2.1fr;
 
       // -------------------- Column 1 --------------------- //
 
@@ -349,20 +349,20 @@
 
         // ---------- Art--------- //
         .sub-section-1-1 {
-          top: 0.7rem;
-          left: 1.8rem;
-          width: 7.2rem;
+          top: 0.4rem;
+          left: 1.25rem;
+          width: 4.4rem;
         }
         
         // ---------- Mother's Turn --------- //
         .sub-section-1-2 {
-          top: 0.7rem;
-          right: 1.6rem;
-          width: 10.2rem;
+          top: 0.4rem;
+          right: 1.1rem;
+          width: 6.2rem;
         }
 
         .window-frame {
-          top: 10.5rem;
+          top: 6.3rem;
         }
       }
 
@@ -372,14 +372,14 @@
 
      // ---------- Intelligence, Beauty, Love --------- //
       .sub-section-2-1 {
-        top: 2.3rem;
-        width: 8.8rem;
+        top: 1.3rem;
+        width: 5.4rem;
       }
 
      // ---------- Dogs Rule the World --------- //
       .sub-section-2-2 {
-        top: 12.2rem;
-        width: 7.9rem;
+        top: 7.5rem;
+        width: 4.95rem;
       }
     }
 
@@ -389,20 +389,20 @@
 
         // ---------- Challenges --------- //
         .sub-section-3-1 {
-          top: 0.9rem;
-          left: 1.8rem;
-          width: 7rem;
+          top: 0.5rem;
+          left: 1.2rem;
+          width: 4.2rem;
         }
         
         // ---------- Marriage of Art and Science --------- //
         .sub-section-3-2 {
-          top: 0.9rem;
-          right: 1.6rem;
-          width: 11rem;
+          top: 0.5rem;
+          right: 1.15rem;
+          width: 6.65rem;
         }
 
         .window-frame {
-          top: 10.5rem;
+          top: 6.3rem;
         }
       }
     }

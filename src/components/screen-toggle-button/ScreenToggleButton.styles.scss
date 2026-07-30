@@ -397,13 +397,13 @@ button.toggle-box {
   button.toggle-box {
 
     .screen-toggle {
-      width: 1.95rem;
-      height: 1.95rem;
+      width: 1.9rem;
+      height: 1.9rem;
 
       .screen-icon {
-        width: 1.95rem;
-        height: 1.95rem;
-        font-size: 1.9rem;
+        width: 1.9rem;
+        height: 1.9rem;
+        font-size: 1.85rem;
       }
 
       .screen-text {
@@ -415,54 +415,54 @@ button.toggle-box {
 
 // ----------------  Max-Width: 660px ---------------- //
 
-@media screen and (max-width: 660px) {
-  button.toggle-box {
+// @media screen and (max-width: 660px) {
+//   button.toggle-box {
 
-    .screen-toggle {
+//     .screen-toggle {
 
-      .screen-icon {
-        font-size: 4rem;
-      }
+//       .screen-icon {
+//         font-size: 4rem;
+//       }
 
-      .screen-text {
+//       .screen-text {
 
-        p {
-          font-size: 2rem;
-          line-height: 1.86rem;
-        }
-      }
-    }
-  }
-}
+//         p {
+//           font-size: 2rem;
+//           line-height: 1.86rem;
+//         }
+//       }
+//     }
+//   }
+// }
 
 // ----------------  Max-Width: 620px ---------------- //
 
-@media screen and (max-width: 620px) {
-  button.toggle-box {
+// @media screen and (max-width: 620px) {
+//   button.toggle-box {
 
-    .screen-toggle {
-      width: 15.8rem;
-      height: 4.7rem;
-      gap: 2px;
+//     .screen-toggle {
+//       width: 15.8rem;
+//       height: 4.7rem;
+//       gap: 2px;
 
-      .screen-icon {
-        width: 4.7rem;
-        height: 4.7rem;
-        font-size: 4.2rem;
-      }
+//       .screen-icon {
+//         width: 4.7rem;
+//         height: 4.7rem;
+//         font-size: 4.2rem;
+//       }
 
-      .screen-text {
-        width: 11.1rem;
-        height: 4.7rem;
+//       .screen-text {
+//         width: 11.1rem;
+//         height: 4.7rem;
 
-        p {
-          font-size: 2.13rem;
-          line-height: 1.98rem;
-        }
-      }
-    }
-  }
-}
+//         p {
+//           font-size: 2.13rem;
+//           line-height: 1.98rem;
+//         }
+//       }
+//     }
+//   }
+// }
 
 // ----------------  Max-Width: 540px ---------------- //
 
