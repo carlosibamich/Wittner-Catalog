@@ -877,10 +877,12 @@
         margin-top: 0;
 
         p {
-        font-size: 1.1rem;
+          margin-left: 0.4rem;
+          font-size: 1.08rem;
         }
 
         span.audio {
+          margin-right: 0rem;
 
           .audio-content {
 
@@ -894,102 +896,28 @@
   }
 }
 
-
-
-
-
-
-
-
-
-// -------------- Max-Width 700px -------------- //
-
-// @media screen and (max-width: 700px) {
-//   .custom-modal-width {
-
-//     .modal-body {
-
-//       .modal-img-constrained {
-//         height: 77dvh;
-//         max-width: 85dvw;
-//       }
-
-//       .modal-title {
-//         height: 3rem;
-
-//         p {
-//         font-size: 2.35rem;
-//         }
-
-//         span.audio {
-
-//           .audio-content {
-
-//             .audio-card button {
-//               width: 6.25rem;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
-// -------------- Max-Width 650px -------------- //
-
-// @media screen and (max-width: 650px) {
-//   .custom-modal-width {
-
-//     .modal-body {
-
-//       .modal-title {
-
-//         p {
-//         font-size: 2.38rem;
-//         }
-
-//         span.audio {
-
-//           .audio-content {
-
-//             .audio-card button {
-//               width: 6.3rem;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
 // -------------- Max-Width 600px -------------- //
 
-// @media screen and (max-width: 600px) {
-//   .custom-modal-width {
+@media screen and (max-width: 600px) {
+  .custom-modal-width {
 
-//     .modal-header {
-//       height: 3.2rem;
-//     }
+    .modal-body {
 
-//     .modal-body {
+      .modal-title {
 
-//       .modal-title {
-//         height: 3.2rem;
+        p {
+          font-size: 1.12rem;
+        }
+      }
+    }
+  }
+}
 
-//         p {
-//         font-size: 2.45rem;
-//         }
+// -------------- Max-Width 575px -------------- //
 
-//         span.audio {
-
-//           .audio-content {
-
-//             .audio-card button {
-//               width: 6.5rem;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+@media screen and (max-width: 575px) {
+  .custom-modal-width {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

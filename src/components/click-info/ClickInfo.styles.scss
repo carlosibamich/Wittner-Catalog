@@ -935,7 +935,6 @@
   }
 }
 
-
 // --------------- Max-Width 700px ---------------- //
 
 @media screen and (max-width: 700px) {
@@ -1038,9 +1037,41 @@
   }
 }
 
-// ----------------- Max-Height: 271px and Max-Width 620px ----------------- //
+// ----------------- Max-Height: 276px and Max-Width 620px ----------------- //
 
-@media screen and (max-height: 271px) and (max-width: 620px) {
+@media screen and (max-height: 276px) and (max-width: 620px) {
+  .click-info-container {
+    display: none;
+  }
+}
+
+// --------------- Max-Width 600px ---------------- //
+
+@media screen and (max-width: 600px) {
+  .click-info-container {
+    display: block;
+    height: 11.5dvh;
+
+    .click-info {
+
+      .fish {
+        font-size: 1.26rem;
+      }
+
+      .line {
+        width: 6.7rem;
+      }
+
+      p {
+        font-size: 1.18rem;
+      }
+    }
+  }
+}
+
+// ----------------- Max-Height: 268px and Max-Width 600px ----------------- //
+
+@media screen and (max-height: 268px) and (max-width: 600px) {
   .click-info-container {
     display: none;
   }
@@ -1051,31 +1082,43 @@
 @media screen and (max-width: 580px) {
   .click-info-container {
     display: block;
-
-    .click-info {
-
-      .fish {
-        font-size: 2.86rem;
-      }
-
-      .line {
-        width: 17rem;
-      }
-
-      p {
-        font-size: 2.8rem;
-      }
-    }
   }
 }
 
-// ----------------- Max-Height: 242px and Max-Width 580px ----------------- //
+// ----------------- Max-Height: 263px and Max-Width 580px ----------------- //
 
-@media screen and (max-height: 242px) and (max-width: 580px) {
+@media screen and (max-height: 263px) and (max-width: 580px) {
   .click-info-container {
     display: none;
   }
 }
+
+// --------------- Max-Width 560px ---------------- //
+
+@media screen and (max-width: 560px) {
+  .click-info-container {
+    display: block;
+  }
+}
+
+// ----------------- Max-Height: 253px and Max-Width 560px ----------------- //
+
+@media screen and (max-height: 253px) and (max-width: 560px) {
+  .click-info-container {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 // --------------- Max-Width 550px ---------------- //
 

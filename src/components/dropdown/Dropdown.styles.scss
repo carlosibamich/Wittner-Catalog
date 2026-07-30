@@ -704,72 +704,18 @@
       .menu-option {
         padding: 0.4em 0.6em;
         font-size: 0.96rem;
+
+        &.active {
+
+          &::before {
+            top: 8px;
+            bottom: 8px;
+          }
+        }
       }
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// --------------- Max-Width 680px ---------------- //
-
-// @media screen and (max-width: 680px) {
-//   .mobile-menu-container {
-
-//     .burger-menu-box {
-
-//       .burger-btn {
-//         width: 32px;
-//         height: 33px;
-//         gap: 4px;
-
-//         .burger-line {
-//           width: 22px;
-//         }
-
-//         &.is-open {
-
-//           .line-top {
-//             transform: translateY(6px) rotate(45deg);
-//           }
-          
-//           .line-bottom {
-//             transform: translateY(-6px) rotate(-45deg);
-//           }
-//         }
-//       }
-
-//       .current-title-box {
-
-//         .title {
-//           font-size: 2.53rem;
-//         }
-//       }
-//     }
-
-//     .dropdown-menu {
-
-//       .spacer {
-//         height: 15.5dvh;
-//       }
-
-//       .menu-option {
-//         padding: 1.15rem 1.5rem;
-//         font-size: 2.2rem;
-//       }
-//     }
-//   }
-// }
 
 // --------------- Max-Width 640px ---------------- //
 
@@ -782,7 +728,6 @@
 
         &.is-open {
           transform: translateX(4.4rem);
-          
         }
       }
     }
@@ -796,122 +741,65 @@
       .menu-option {
         padding: 0.35rem 0.6rem;
         font-size: 0.98rem;
+
+        &.active {
+
+          &::before {
+            top: 7px;
+            bottom: 7px;
+          }
+        }
       }
     }
   }
 }
 
-// --------------- Max=Height: 255px and Max-Width 620px ---------------- //
+// --------------- Max-Width 620px ---------------- //
 
-// @media screen and (max-height: 255px) and (max-width: 620px) {
-//   .mobile-menu-container {
+@media screen and (max-width: 620px) {
+  .mobile-menu-container {
 
+    .dropdown-menu {
 
-//     .dropdown-menu {
-
-//       .menu-option {
-//         padding: 1.12rem 1.5rem;
-//       }
-//     }
-//   }
-// }
+      .spacer {
+        height: 17.5dvh;
+      }
+    }
+  }
+}
 
 // --------------- Max-Width 600px ---------------- //
 
 @media screen and (max-width: 600px) {
   .mobile-menu-container {
 
-    .burger-menu-box {
+    .dropdown-menu {
 
-      .burger-btn {
+      .menu-option {
+        padding: 0.32rem 0.6rem;
+        font-size: 1.02rem;
 
-        &.is-open {
-          transform: translateX(14rem);
-        }
-      }
+        &.active {
 
-      .current-title-box {
-
-        .menu {
-          display: block;
-          margin: 0rem;
-          font-size: 2.75rem;
-          font-weight: 500;
+          &::before {
+            top: 6px;
+            bottom: 6px;
+          }
         }
       }
     }
-
-    .dropdown-menu {
-
-      .spacer {
-        height: 15.8dvh;
-      }
-
-      .menu-option {
-        font-size: 2.3rem;
-      }
-    }
   }
 }
 
-// --------------- Max=Height: 255px and Max-Width 600px ---------------- //
-
-@media screen and (max-height: 255px) and (max-width: 600px) {
-  .mobile-menu-container {
 
 
-    .dropdown-menu {
-
-      .menu-option {
-        padding: 1rem 1.5rem;
-      }
-    }
-  }
-}
-
-// --------------- Max-Width 580px ---------------- //
-
-@media screen and (max-width: 580px) {
-  .mobile-menu-container {
-
-    .burger-menu-box {
-
-      .current-title-box {
-
-        .menu {
-          font-size: 3rem;
-        }
-      }
-    }
-
-    .dropdown-menu {
-
-      .spacer {
-        height: 17dvh;
-      }
-
-      .menu-option {
-        padding: 1.2rem 1.5rem;
-        font-size: 2.4rem;
-      }
-    }
-  }
-}
-
-// --------------- Max=Height: 242px and Max-Width 580px ---------------- //
-
-@media screen and (max-height: 242px) and (max-width: 580px) {
-  .mobile-menu-container {
 
 
-    .dropdown-menu {
 
-      .menu-option {
-        padding: 1rem 1.5rem;
-      }
-    }
-  }
-}
+
+
+
+
 
 // --------------- Max-Width 540px ---------------- //
 
