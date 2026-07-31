@@ -38,8 +38,8 @@ const App = () => {
 
   return (
     <OrientationPrompt>
-    <div className={`app-container ${isCatalogPage ? 'vertical-layout' : 'horizontal-layout'}`} id="app-viewport-wrapper">
-      <main className="main-content">
+    <div className={`app-container ${isCatalogPage ? 'vertical-layout' : 'horizontal-layout'}`}>
+      <main className="main-content" id="app-viewport-wrapper">
         <Routes>
           <Route path="/" element={<Navigation />}>
             <Route index element={<PageWrapper><MainRoom /></PageWrapper>} />
