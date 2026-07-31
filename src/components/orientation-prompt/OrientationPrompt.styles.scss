@@ -68,7 +68,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-bottom: 2dvh;
+      margin-bottom: 4dvh;
 
       .orientation-text {
         margin: 6rem 0 0.5rem 0;
@@ -97,6 +97,7 @@
   .orientation-overlay {
 
     .rotate-icon-container {
+      margin-bottom: 6dvh;
 
       .orientation-text {
         margin-top: 5rem;
@@ -259,10 +260,9 @@
   .orientation-overlay {
 
     .rotate-icon-container {
-      margin-bottom: 3dvh;
+      margin-bottom: 8dvh;
       
       .orientation-text {
-        // width: 90%;
         margin-top: 3rem;
   
         h2 {
@@ -329,6 +329,7 @@
   .orientation-overlay {
 
     .rotate-icon-container {
+      margin-bottom: 9dvh;
       
       .orientation-text {
   
@@ -378,7 +379,7 @@
       .orientation-text {
   
         h2 {
-          font-size: 1.66rem;
+          font-size: 1.63rem;
         }
       }    
     }
@@ -401,7 +402,7 @@
         margin-top: 2.3rem;
   
         h2 {
-          font-size: 1.62rem;
+          font-size: 1.58rem;
         }
       }    
     }
@@ -423,7 +424,7 @@
       .orientation-text {
   
         h2 {
-          font-size: 1.59rem;
+          font-size: 1.52rem;
         }
       }    
     }
@@ -446,7 +447,7 @@
         margin-top: 2.2rem;
   
         h2 {
-          font-size: 1.56rem;
+          font-size: 1.46rem;
         }
       }    
     }
@@ -464,11 +465,12 @@
   .orientation-overlay {
 
     .rotate-icon-container {
+      margin-bottom: 9.5dvh;
       
       .orientation-text {
   
         h2 {
-          font-size: 1.53rem;
+          font-size: 1.44rem;
         }
       }    
     }
@@ -491,7 +493,7 @@
         margin-top: 2rem;
   
         h2 {
-          font-size: 1.48rem;
+          font-size: 1.38rem;
         }
       }    
     }
@@ -502,8 +504,8 @@
 
 @media screen and (max-width: 360px) {
   .rotate-svg {
-    width: 6.8rem;
-    height: 6.8rem;
+    width: 6.6rem;
+    height: 6.6rem;
   }
 
   .orientation-overlay {
@@ -513,7 +515,7 @@
       .orientation-text {
   
         h2 {
-          font-size: 1.42rem;
+          font-size: 1.32rem;
         }
       }    
     }
@@ -524,8 +526,8 @@
 
 @media screen and (max-width: 350px) {
   .rotate-svg {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 6.4rem;
+    height: 6.4rem;
   }
 
   .orientation-overlay {
@@ -536,7 +538,7 @@
         margin-top: 1.9rem;
   
         h2 {
-          font-size: 1.38rem;
+          font-size: 1.29rem;
         }
       }    
     }
@@ -547,8 +549,8 @@
 
 @media screen and (max-width: 335px) {
   .rotate-svg {
-    width: 6.3rem;
-    height: 6.3rem;
+    width: 6.2rem;
+    height: 6.2rem;
   }
 
   .orientation-overlay {
@@ -558,7 +560,7 @@
       .orientation-text {
   
         h2 {
-          font-size: 1.33rem;
+          font-size: 1.25rem;
         }
       }    
     }
@@ -568,28 +570,6 @@
 // -------------------- Max-Width: 320px -------------------- //
 
 @media screen and (max-width: 320px) {
-  .rotate-svg {
-    width: 6.1rem;
-    height: 6.1rem;
-  }
-
-  .orientation-overlay {
-
-    .rotate-icon-container {
-      
-      .orientation-text {
-  
-        h2 {
-          font-size: 1.28rem;
-        }
-      }    
-    }
-  }
-}
-
-// -------------------- Max-Width: 310px -------------------- //
-
-@media screen and (max-width: 310px) {
   .rotate-svg {
     width: 6rem;
     height: 6rem;
@@ -602,16 +582,16 @@
       .orientation-text {
   
         h2 {
-          font-size: 1.24rem;
+          font-size: 1.22rem;
         }
       }    
     }
   }
 }
 
-// -------------------- Max-Width: 300px -------------------- //
+// -------------------- Max-Width: 310px -------------------- //
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 310px) {
   .rotate-svg {
     width: 5.8rem;
     height: 5.8rem;
@@ -622,10 +602,33 @@
     .rotate-icon-container {
       
       .orientation-text {
+  
+        h2 {
+          font-size: 1.18rem;
+        }
+      }    
+    }
+  }
+}
+
+// -------------------- Max-Width: 300px -------------------- //
+
+@media screen and (max-width: 300px) {
+  .rotate-svg {
+    width: 5.6rem;
+    height: 5.6rem;
+  }
+
+  .orientation-overlay {
+
+    .rotate-icon-container {
+      margin-bottom: 10dvh;
+      
+      .orientation-text {
         margin-top: 1.8rem;
   
         h2 {
-          font-size: 1.2rem;
+          font-size: 1.15rem;
         }
       }    
     }
@@ -636,8 +639,8 @@
 
 @media screen and (max-width: 290px) {
   .rotate-svg {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 5.4rem;
+    height: 5.4rem;
   }
 
   .orientation-overlay {
@@ -647,7 +650,7 @@
       .orientation-text {
   
         h2 {
-          font-size: 1.14rem;
+          font-size: 1.11rem;
         }
       }    
     }
@@ -669,7 +672,7 @@
       .orientation-text {
   
         h2 {
-          font-size: 1.08rem;
+          font-size: 1.05rem;
         }
       }    
     }
@@ -691,7 +694,7 @@
       .orientation-text {
   
         h2 {
-          font-size: 1.04rem;
+          font-size: 1rem;
         }
       }    
     }
@@ -711,10 +714,9 @@
     .rotate-icon-container {
       
       .orientation-text {
-        // margin-top: 1.8rem;
   
         h2 {
-          font-size: 1rem;
+          font-size: 0.98rem;
         }
       }    
     }
