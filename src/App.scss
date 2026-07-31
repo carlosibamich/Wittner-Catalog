@@ -1172,3 +1172,87 @@
     }
   }
 }
+
+// ---------------- Min-Height: 630px and Max-Width: 680px --------------- //
+
+@media screen and (min-height: 630px) and (max-width: 680px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+
+        .footer-box {
+
+          .logo {
+            height: 2.85rem;
+          }
+  
+          .copyrights {
+
+            .copyright {
+              font-size: 1.23rem;
+            }
+          
+            p {
+              font-size: 0.83rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 0.83rem;
+            }
+
+            .rocket {
+              font-size: 1.23rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ---------------- Min-Height: 630px and Max-Width: 640px --------------- //
+
+@media screen and (min-height: 630px) and (max-width: 640px) {
+  .horizontal-layout {
+
+    .footer-container {
+
+      .footer {
+
+        .footer-box {
+
+          .logo {
+            height: 2.9rem;
+          }
+  
+          .copyrights {
+
+            .copyright {
+              font-size: 1.28rem;
+            }
+          
+            p {
+              font-size: 0.85rem;
+            }     
+          }
+  
+          .address {
+        
+            p {
+              font-size: 0.85rem;
+            }
+
+            .rocket {
+              font-size: 1.28rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
