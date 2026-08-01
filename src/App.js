@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import PageWrapper from './pages/page-wrapper/PageWrapper';
 import Navigation from './routes/navigation/Navigation';
@@ -34,14 +34,49 @@ const App = () => {
     return () => mediaQuery.removeEventListener('change', handleResize);
   }, []);
 
+  // ---------- Fullscreen Toggle button logic ---------- //
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const appContainerRef = useRef(null);
+
+  const toggleFullscreen = async () => {
+    const element = appContainerRef.current;
+    if (!element) return;
+
+    if (!isFullscreen) {
+      if (element.requestFullscreen) {
+        try { await element.requestFullscreen(); } catch (err) { }
+      }
+      setIsFullscreen(true);
+    } else {
+      if (document.exitFullscreen && document.fullscreenElement) {
+        try { await document.exitFullscreen(); } catch (err) { }
+      }
+      setIsFullscreen(false);
+    }
+  };
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
+  }, []);
+
+  // -------- Show footer conditionally at bottom of Gallery pages -------- // 
   const showFooter = !isTargetPage || isTabletViewport;
 
   return (
     <OrientationPrompt>
-    <div className={`app-container ${isCatalogPage ? 'vertical-layout' : 'horizontal-layout'}`}>
-      <main className="main-content" id="app-viewport-wrapper">
+    {/* <div className={`app-container ${isCatalogPage ? 'vertical-layout' : 'horizontal-layout'}`}> */}
+    <div 
+      ref={appContainerRef}
+      className={`app-container ${isCatalogPage ? 'vertical-layout' : 'horizontal-layout'} ${isFullscreen ? 'faux-fullscreen-active' : ''}`}
+    >
+      {/* <main className="main-content" id="app-viewport-wrapper"> */}
+      <main className="main-content">
         <Routes>
-          <Route path="/" element={<Navigation />}>
+          <Route path="/" element={<Navigation isFullscreen={isFullscreen} onToggleFullscreen={toggleFullscreen} />}>
             <Route index element={<PageWrapper><MainRoom /></PageWrapper>} />
             <Route path="entry" element={<PageWrapper><EntryRoom /></PageWrapper>} />
             <Route path="alcove" element={<PageWrapper><AlcoveRoom /></PageWrapper>} />

@@ -482,6 +482,24 @@
   }
 }
 
+// --------------- Max-Height: 382px and Max-Width 1000px ---------------- //
+
+@media screen and (max-height: 382px) and (max-width: 1000px) {
+  .mobile-menu-container {
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 15dvh;
+      }
+
+      .menu-option {
+        padding: 0.45rem 1.12rem;
+      }
+    }
+  }
+}
+
 // --------------- Max-Height: 690px and Max-Width 940px ---------------- //
 
 @media screen and (max-height: 690px) and (max-width: 940px) {
@@ -494,6 +512,35 @@
         .title {
           font-size: 1.53rem;
         }
+      }
+    }
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 20.2dvh;
+      }
+
+      .menu-option {
+        padding: 0.64rem 1.12rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Height: 360px and Max-Width 940px ---------------- //
+
+@media screen and (max-height: 360px) and (max-width: 940px) {
+  .mobile-menu-container {
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 15dvh;
+      }
+
+      .menu-option {
+        padding: 0.43rem 1.12rem;
       }
     }
   }
@@ -562,6 +609,25 @@
   }
 }
 
+// --------------- Max-Height: 321px and Max-Width 840px ---------------- //
+
+@media screen and (max-height: 321px) and (max-width: 840px) {
+  .mobile-menu-container {
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 15dvh;
+      }
+
+      .menu-option {
+        padding: 0.38rem 1.11rem;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
 // --------------- Max-Width 800px ---------------- //
 
 @media screen and (max-width: 800px) {
@@ -615,6 +681,25 @@
   }
 }
 
+// --------------- Max-Height: 300px and Max-Width 780px ---------------- //
+
+@media screen and (max-height: 300px) and (max-width: 780px) {
+  .mobile-menu-container {
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 15.5dvh;
+      }
+
+      .menu-option {
+        padding: 0.35rem 1.1rem;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
 // --------------- Max-Width 720px ---------------- //
 
 @media screen and (max-width: 720px) {
@@ -652,6 +737,25 @@
       .menu-option {
         padding: 0.68rem 1.05rem;
         font-size: 1.45rem;
+      }
+    }
+  }
+}
+
+// --------------- Max-Height: 275px and Max-Width 720px ---------------- //
+
+@media screen and (max-height: 275px) and (max-width: 720px) {
+  .mobile-menu-container {
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 15.5dvh;
+      }
+
+      .menu-option {
+        padding: 0.35rem 1.1rem;
+        font-size: 1.3rem;
       }
     }
   }
@@ -702,7 +806,7 @@
       }
 
       .menu-option {
-        padding: 0.4em 0.6em;
+        padding: 0.4rem 0.6rem;
         font-size: 0.96rem;
 
         &.active {
@@ -712,6 +816,25 @@
             bottom: 8px;
           }
         }
+      }
+    }
+  }
+}
+
+// --------------- Max-Height: 272px and Max-Width 710px ---------------- //
+
+@media screen and (max-height: 272px) and (max-width: 710px) {
+  .mobile-menu-container {
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 15dvh;
+      }
+
+      .menu-option {
+        padding: 0.22rem 0.6rem;
+        font-size: 0.85rem;
       }
     }
   }
@@ -754,6 +877,25 @@
   }
 }
 
+// --------------- Max-Height: 244px and Max-Width 640px ---------------- //
+
+@media screen and (max-height: 244px) and (max-width: 640px) {
+  .mobile-menu-container {
+
+    .dropdown-menu {
+
+      .spacer {
+        height: 15dvh;
+      }
+
+      .menu-option {
+        padding: 0.22rem 0.6rem;
+        font-size: 0.85rem;
+      }
+    }
+  }
+}
+
 // --------------- Max-Width 620px ---------------- //
 
 @media screen and (max-width: 620px) {
@@ -791,40 +933,20 @@
   }
 }
 
+// --------------- Max-Height: 229px and Max-Width 600px ---------------- //
 
-
-
-
-
-
-
-
-
-
-// --------------- Max-Width 540px ---------------- //
-
-@media screen and (max-width: 540px) {
+@media screen and (max-height: 229px) and (max-width: 600px) {
   .mobile-menu-container {
 
     .dropdown-menu {
 
-      .menu-option {
-        padding: 1.2rem 1.5rem;
+      .spacer {
+        height: 15dvh;
       }
-    }
-  }
-}
-
-// --------------- Max=Height: 228px and Max-Width 540px ---------------- //
-
-@media screen and (max-height: 228px) and (max-width: 540px) {
-  .mobile-menu-container {
-
-
-    .dropdown-menu {
 
       .menu-option {
-        padding: 1rem 1.5rem;
+        padding: 0.22rem 0.6rem;
+        font-size: 0.85rem;
       }
     }
   }

@@ -7,7 +7,7 @@ import WittnerLogo from '../../assets/logo/wittner-logo.PNG';
 import { FaInstagram } from 'react-icons/fa6';
 import './Navigation.styles.scss';
 
-const Navigation = () => {
+const Navigation = ({ isFullscreen, onToggleFullscreen }) => {
   return (
     
     <Fragment>
@@ -27,7 +27,7 @@ const Navigation = () => {
             </div>
             <div className="toggle-icon-box">
               <div className="screen-toggle-nav">
-                <ScreenToggleButton />
+                <ScreenToggleButton isFullscreen={isFullscreen} onToggleFullscreen={onToggleFullscreen} />
               </div>
             </div>
           </div>

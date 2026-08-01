@@ -1,15 +1,26 @@
 .app-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
   min-height: 100dvh;
-  // padding-top: env(safe-area-inset-top);
-  // padding-bottom: env(safe-area-inset-bottom);
-  // padding-left: env(safe-area-inset-left);
-  // padding-right: env(safe-area-inset-right);
+  box-sizing: border-box;
 
   .main-content {
     flex-grow: 1;
   }
+}
+
+/* Faux Fullscreen Fallback (Triggered on iPhone, harmless on native devices) */
+.app-root-container.faux-fullscreen-active {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  /* dvh adapts if the iOS Safari address bar shifts sizes */
+  height: 100dvh !important; 
+  z-index: 99999 !important;
+  background-color: #000; /* Forces background color to cover system gaps */
+  overflow: auto; /* Keeps your custom scroll behaviors working inside */
 }
 
 .vertical-layout {
