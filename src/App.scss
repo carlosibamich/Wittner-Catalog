@@ -11,17 +11,17 @@
 }
 
 /* Faux Fullscreen Fallback (Triggered on iPhone, harmless on native devices) */
-.app-root-container.faux-fullscreen-active {
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100vw !important;
-  /* dvh adapts if the iOS Safari address bar shifts sizes */
-  height: 100dvh !important; 
-  z-index: 99999 !important;
-  background-color: var(--off-white); /* Forces background color to cover system gaps */
-  overflow: auto; /* Keeps your custom scroll behaviors working inside */
-}
+// .app-root-container.faux-fullscreen-active {
+//   position: fixed !important;
+//   top: 0 !important;
+//   left: 0 !important;
+//   width: 100vw !important;
+//   /* dvh adapts if the iOS Safari address bar shifts sizes */
+//   height: 100dvh !important; 
+//   z-index: 99999 !important;
+//   background-color: var(--off-white); /* Forces background color to cover system gaps */
+//   overflow: auto; /* Keeps your custom scroll behaviors working inside */
+// }
 
 .vertical-layout {
   overflow-y: auto;
