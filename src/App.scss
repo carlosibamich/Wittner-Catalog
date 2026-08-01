@@ -19,7 +19,7 @@
   /* dvh adapts if the iOS Safari address bar shifts sizes */
   height: 100dvh !important; 
   z-index: 99999 !important;
-  background-color: #000; /* Forces background color to cover system gaps */
+  background-color: var(--off-white); /* Forces background color to cover system gaps */
   overflow: auto; /* Keeps your custom scroll behaviors working inside */
 }
 

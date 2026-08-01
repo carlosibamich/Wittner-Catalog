@@ -38,7 +38,7 @@ const Navigation = ({ isFullscreen, onToggleFullscreen }) => {
         <Dropdown />
       </div>
       <div className="screen-toggle-button">
-        <ScreenToggleButton />
+        <ScreenToggleButton isFullscreen={isFullscreen} onToggleFullscreen={onToggleFullscreen} />
       </div>
     </Fragment>
   );
