@@ -1,0 +1,169 @@
+.green-room-east-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .green-room-east-grid {
+    width: 81%;
+    height: 35rem;
+    display: grid;
+    grid-template-columns: 2fr 0.55fr 2fr 0.55fr 2fr 0.55fr 2.2fr;
+
+    // .section {
+    //   border: 1px solid #d2d2d2;
+    // }
+
+    // -------------------- Column 1 --------------------- //
+
+    .green-room-east-column-1 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+     // ---------- The Other Side--------- //
+      .sub-section-1-1 {
+        position: absolute;
+        top: 9.6rem;
+        // left: 3rem;
+        width: 14rem;
+      }
+    }
+
+    // -------------------- Column 2 --------------------- //
+
+    .green-room-east-column-2 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Rise Above --------- //
+      .sub-section-2-1 {
+        position: absolute;
+        top: 8rem;
+        // left: 2.3rem;
+        width: 3.4rem;
+      }
+
+      // ---------- Misgivings --------- //
+      .sub-section-2-2 {
+        position: absolute;
+        top: 11.4rem;
+        // right: 2.1rem;
+        width: 5rem;
+      }
+
+      // ---------- Take Your medicine --------- //
+      .sub-section-2-3 {
+        position: absolute;
+        top: 16rem;
+        // right: 2.1rem;
+        width: 3.3rem;
+      }
+    }
+
+    // -------------------- Column 3 --------------------- //
+
+    .green-room-east-column-3 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- The Song of Love --------- //
+      .sub-section-3-1 {
+        position: absolute;
+        top: 8.4rem;
+        // left: 2.3rem;
+        width: 13.5rem;
+      }
+    }
+
+    // -------------------- Column 4 --------------------- //
+
+    .green-room-east-column-4 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Dashed Dreams --------- //
+      .sub-section-4-1 {
+        position: absolute;
+        top: 7.8rem;
+        left: 1.2rem;
+        width: 3.6rem;
+      }
+
+      // ---------- Too Late --------- //
+      .sub-section-4-2 {
+        position: absolute;
+        top: 11.4rem;
+        // right: 2.1rem;
+        width: 5rem;
+      }
+
+      // ---------- Beatrice --------- //
+      .sub-section-4-3 {
+        position: absolute;
+        top: 16rem;
+        // right: 2.1rem;
+        width: 3.3rem;
+      }
+    }
+
+    // -------------------- Column 5 --------------------- //
+
+    .green-room-east-column-5 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Danger --------- //
+      .sub-section-5-1 {
+        position: absolute;
+        top: 6.7rem;
+        // left: 2.3rem;
+        width: 14rem;
+      }
+    }
+
+    // -------------------- Column 6 --------------------- //
+
+    .green-room-east-column-6 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Midnight Rendezvous --------- //
+      .sub-section-6-1 {
+        position: absolute;
+        top: 7.8rem;
+        // left: 1.2rem;
+        width: 3.6rem;
+      }
+
+      // ---------- Cooks on Break --------- //
+      .sub-section-6-2 {
+        position: absolute;
+        top: 11.4rem;
+        // right: 2.1rem;
+        width: 5rem;
+      }
+    }
+
+    // -------------------- Column 7 --------------------- //
+
+    .green-room-east-column-7 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Autumn of '33 --------- //
+      .sub-section-7-1 {
+        position: absolute;
+        top: 8.8rem;
+        // left: 2.3rem;
+        width: 17rem;
+      }
+    }
+  }
+}

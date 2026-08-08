@@ -1,0 +1,152 @@
+.green-room-south-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .green-room-south-grid {
+    width: 76%;
+    height: 35rem;
+    display: grid;
+    grid-template-columns: 6fr 1fr 3fr;
+
+    // .section {
+    //   border: 1px solid #d2d2d2;
+    // }
+
+    // -------------------- Column 1 --------------------- //
+
+    .green-room-south-column-1 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Window --------- //
+      .sub-section-1-1 {
+        .window-frame {
+          top: 3rem;
+          right: 0.2rem;
+          width: 46.8rem;
+          height: 19rem;
+          background-color: #f2f2f2;
+          box-shadow: 1px 2px 10px 4px rgba(0, 0, 0, 0.14);
+
+          .window-pane {
+            bottom: 2.4rem;
+            width: 19.8rem;
+            box-shadow: inset 4px 1px 12px 2px rgba(0, 0, 0, 0.23);
+          }
+
+          .pane-left {
+            top: 2.4rem;
+            left: 2.4rem;
+            height: 14.3rem;
+          }
+
+          .pane-right.top {
+            top: 2.4rem;
+            right: 2.4rem;
+            height: 6.8rem;
+          }
+
+          .pane-right.bottom {
+            right: 2.4rem;
+            height: 6.8rem;
+          }
+        }
+      }
+
+     // ---------- Entertainment at Climate Change --------- //
+      .sub-section-1-2 {
+        position: absolute;
+        top: 14rem;
+        right: 15.8rem;
+        width: 6.5rem;
+      }
+
+     // ---------- T0 Mexico --------- //
+      .sub-section-1-3 {
+        position: absolute;
+        top: 13.2rem;
+        right: 8.4rem;
+        width: 6.7rem;
+      }
+
+     // ---------- Marathon to Gold Mountain --------- //
+      .sub-section-1-4 {
+        position: absolute;
+        top: 14.6rem;
+        right: 2.7rem;
+        width: 5rem;
+      }
+    }
+
+    // -------------------- Column 2 --------------------- //
+
+    .green-room-south-column-2 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      
+      // ---------- Climate Change on Your Vacation--------- //
+      .sub-section-2-1 {
+        position: absolute;
+        top: 6rem;
+        // left: 3rem;
+        width: 5.8rem;
+      }
+
+     // ---------- Untitled 4 --------- //
+      .sub-section-2-2 {
+        position: absolute;
+        top: 12.9rem;
+        // right: 2.9rem;
+        width: 6rem;
+      }
+
+     // ---------- Marge --------- //
+      .sub-section-2-3 {
+        position: absolute;
+        top: 20rem;
+        // right: 2.9rem;
+        width: 3.8rem;
+      }
+     
+    }
+
+    // -------------------- Column 3 --------------------- //
+
+    .green-room-south-column-3 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      .exit-door-container {
+        position: absolute;
+        bottom: 0rem;
+        left: 0.2rem;
+        width: 17.4rem;
+
+        .white-door-frame {
+          width: 17.4rem;
+          height: 31.8rem;
+          margin: 0rem;
+          background-color: #f2f2f2;
+          box-shadow: 1px 2px 10px 4px rgba(0, 0, 0, 0.14);
+          border-radius: 3px;
+
+          .white-door {
+            bottom: 2.6rem;
+            width: 12.5rem;
+            height: 26.8rem;
+            background-color: #bababa;
+            border-top: none;
+            border-left: none;
+            border-radius: 2px;
+            box-shadow: inset 4px 0px 15px 3px rgba(0, 0, 0, 0.23);
+          }
+        }
+      }
+    }
+  }
+}
