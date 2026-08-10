@@ -1,0 +1,193 @@
+.green-room-west-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .green-room-west-grid {
+    width: 81%;
+    height: 35rem;
+    display: grid;
+    grid-template-columns: 2.3fr 2.76fr 2.1fr 0.64fr 2.63fr 0.64fr 2.63fr;
+
+    // .section {
+    //   border: 1px solid #d2d2d2;
+    // }
+
+    // -------------------- Column 1 --------------------- //
+
+    .green-room-west-column-1 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      .exit-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+        .exit-door-container {
+          position: absolute;
+          bottom: 0rem;
+          // left: 1rem;
+
+          .white-door-frame {
+            width: 14.4rem;
+            height: 27rem;
+            margin: 0rem;
+            background-color: #f2f2f2;
+            box-shadow: 1px 2px 10px 4px rgba(0, 0, 0, 0.12);
+            border-radius: 3px;
+
+            .white-door {
+              width: 11.5rem;
+              height: 25.6rem;
+              background-color: #f2f2f2;
+              border-top: none;
+              border-left: none;
+              border-radius: 2px;
+              box-shadow: inset 4px 0px 15px 3px rgba(0, 0, 0, 0.15);
+            }
+          }
+        }
+      }
+
+     // ---------- Untitled 5 --------- //
+      .sub-section-1-1 {
+        position: absolute;
+        top: 1.8rem;
+        left: 1.8rem;
+        width: 5rem;
+      }
+    }
+
+    // -------------------- Column 2 --------------------- //
+
+    .green-room-west-column-2 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Untitled 6 --------- //
+      .sub-section-2-1 {
+        position: absolute;
+        top: 7rem;
+        left: 3.4rem;
+        width: 2.8rem;
+      }
+
+      // ---------- Transparent --------- //
+      .sub-section-2-2 {
+        position: absolute;
+        top: 10.2rem;
+        left: 7.3rem;
+        width: 2.7rem;
+      }
+
+      // ---------- Stunned by the Beauty --------- //
+      .sub-section-2-3 {
+        position: absolute;
+        top: 7.9rem;
+        right: 3.75rem;
+        width: 3.3rem;
+      }
+
+      // ---------- Transport to a Better Place --------- //
+      .sub-section-2-4 {
+        position: absolute;
+        top: 12rem;
+        right: 2.5rem;
+        width: 5.9rem;
+      }
+    }
+
+    // -------------------- Column 3 --------------------- //
+
+    .green-room-west-column-3 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- What Was That Sound --------- //
+      .sub-section-3-1 {
+        position: absolute;
+        top: 4rem;
+        // left: 2.3rem;
+        width: 10.5rem;
+      }
+    }
+
+    // -------------------- Column 4 --------------------- //
+
+    .green-room-west-column-4 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Death --------- //
+      .sub-section-4-1 {
+        position: absolute;
+        top: 9.6rem;
+        // left: 1.2rem;
+        width: 3.8rem;
+      }
+    }
+
+    // -------------------- Column 5 --------------------- //
+
+    .green-room-west-column-5 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Sherpa --------- //
+      .sub-section-5-1 {
+        position: absolute;
+        top: 8.8rem;
+        // left: 2.3rem;
+        width: 14.9rem;
+      }
+    }
+
+    // -------------------- Column 6 --------------------- //
+
+    .green-room-west-column-6 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Flocking to the Museum --------- //
+      .sub-section-6-1 {
+        position: absolute;
+        top: 9.6rem;
+        // left: 1.2rem;
+        width: 4rem;
+      }
+
+      // ---------- Paint Me Happy --------- //
+      .sub-section-6-2 {
+        position: absolute;
+        top: 15.8rem;
+        // right: 2.1rem;
+        width: 3rem;
+      }
+    }
+
+    // -------------------- Column 7 --------------------- //
+
+    .green-room-west-column-7 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      // ---------- Go! --------- //
+      .sub-section-7-1 {
+        position: absolute;
+        top: 7.5rem;
+        // left: 2.3rem;
+        width: 15rem;
+      }
+    }
+  }
+}

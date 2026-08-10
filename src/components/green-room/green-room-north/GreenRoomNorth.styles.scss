@@ -10,10 +10,6 @@
     display: grid;
     grid-template-columns: 0.95fr 2fr 0.95fr 5.15fr 0.95fr;
 
-    // .section {
-    //   border: 1px solid #d2d2d2;
-    // }
-
     // -------------------- Column 1 --------------------- //
 
     .green-room-north-column-1 {
@@ -54,28 +50,28 @@
       justify-content: center;
 
      .exit-door-container {
-          position: absolute;
-          bottom: 0rem;
-          right: 0.3rem;
+        position: absolute;
+        bottom: 0rem;
+        right: 0.3rem;
 
-          .white-door-frame {
-            width: 17.4rem;
-            height: 31.8rem;
-            background-color: #f2f2f2;
-            box-shadow: 1px 2px 10px 4px rgba(0, 0, 0, 0.14);
-            border-radius: 3px;
+        .white-door-frame {
+          width: 17.4rem;
+          height: 31.8rem;
+          background-color: #f2f2f2;
+          box-shadow: 1px 2px 10px 4px rgba(0, 0, 0, 0.14);
+          border-radius: 3px;
 
-            .white-door {
-              width: 12.5rem;
-              height: 29.3rem;
-              background-color: #bababa;
-              border-top: none;
-              border-left: none;
-              border-radius: 2px;
-              box-shadow: inset 4px 0px 15px 3px rgba(0, 0, 0, 0.23);
-            }
+          .white-door {
+            width: 12.5rem;
+            height: 29.3rem;
+            background-color: #bababa;
+            border-top: none;
+            border-left: none;
+            border-radius: 2px;
+            box-shadow: inset 4px 0px 15px 3px rgba(0, 0, 0, 0.23);
           }
         }
+      }
     }
 
     // -------------------- Column 3 --------------------- //
@@ -182,6 +178,93 @@
         top: 13.9rem;
         // left: 2.3rem;
         width: 4.3rem;
+      }
+    }
+  }
+}
+
+// ============================= Media Queries ============================ //
+
+// -------------------- Max-Width: 1910px --------------------- //
+
+@media screen and (max-width: 1910px) {
+  .green-room-north-container {
+
+    .green-room-north-grid {
+      width: 76.6%;
+    }
+  }
+}
+
+// -------------------- Max-Width: 1800px --------------------- //
+
+@media screen and (max-width: 1800px) {
+  .green-room-north-container {
+
+    .green-room-north-grid {
+      width: 77.8%;
+      grid-template-columns: 0.95fr 1.95fr 0.95fr 5.25fr 0.95fr;
+
+      // .section {
+      //   border: 1px solid #d2d2d2;
+      // }
+
+      // -------------------- Column 2 --------------------- //
+
+      .green-room-north-column-2 {
+
+        .exit-door-container {
+          bottom: 0rem;
+          right: 0.1rem;
+
+          .white-door-frame {
+            width: 17rem;
+            height: 31.8rem;
+
+            .white-door {
+              width: 12.4rem;
+              height: 29.5rem;
+            }
+          }
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .green-room-north-column-4 {
+
+        // ---------- Window --------- //
+        .sub-section-4-1 {
+
+          .window-frame {
+            top: 3rem;
+            right: 0rem;
+            width: 46.5rem;
+            height: 19rem;
+
+            .window-pane {
+              bottom: 2.3rem;
+              width: 19.8rem;
+            }
+
+            .pane-left {
+              top: 2.3rem;
+              left: 2.3rem;
+              height: 14.4rem;
+            }
+
+            .pane-right.top {
+              top: 2.3rem;
+              right: 2.3rem;
+              height: 6.9rem;
+            }
+
+            .pane-right.bottom {
+              right: 2.3rem;
+              height: 6.9rem;
+            }
+          }
+        }
       }
     }
   }

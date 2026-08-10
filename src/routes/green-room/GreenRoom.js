@@ -5,6 +5,8 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
 import GreenRoomNorth from '../../components/green-room/green-room-north/GreenRoomNorth';
 import GreenRoomEast from '../../components/green-room/green-room-east/GreenRoomEast';
 import GreenRoomSouth from '../../components/green-room/green-room-south/GreenRoomSouth';
+import GreenRoomWest from '../../components/green-room/green-room-west/GreenRoomWest';
+import GreenRoomColumn from '../../components/green-room/green-room-column/GreenRoomColumn';
 import './GreenRoom.styles.scss';
 
 const GreenRoom = () => {
@@ -33,10 +35,14 @@ const GreenRoom = () => {
       id: 3,
       content: <GreenRoomSouth />
     }, 
-    // {
-    //   id: 4,
-    //   content: <EntryWest />
-    // },
+    {
+      id: 4,
+      content: <GreenRoomWest />
+    },
+    {
+      id: 5,
+      content: <GreenRoomColumn />
+    },
   ];
 
   const handleNext = useCallback(() => {
