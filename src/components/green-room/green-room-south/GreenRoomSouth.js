@@ -24,12 +24,12 @@ const GreenRoomSouth = () => {
 
       <div className="section green-room-south-column-1">
         <div className="border-shadow-lg sub-section-1-1">
-            <div className="window-frame">
-              <div className="window-pane pane-left"></div>
-              <div className="window-pane pane-right top"></div>
-              <div className="window-pane pane-right bottom"></div>
-            </div>
+          <div className="window-frame">
+            <div className="window-pane pane-left"></div>
+            <div className="window-pane pane-right top"></div>
+            <div className="window-pane pane-right bottom"></div>
           </div>
+        </div>
         <div className="border-shadow-sm sub-section-1-2">
           <img 
             src={directory[208].imgSrc} 

@@ -220,7 +220,7 @@ import Demo from '../../assets/images/stairwell/182-demo.webp';
 import BentNote from '../../assets/images/stairwell/183-the-bent-note.webp';
 
 // ----------------- Stairwell West ------------------ //
-import NoSmoking from '../../assets/images/stairwell/184-no-smoking-here.webp';
+import WhatSound from '../../assets/images/stairwell/184-what-was-that-sound.webp';
 import Downstairs from '../../assets/images/stairwell/185-going-downstairs-for-ideas.webp';
 import Gossip from '../../assets/images/stairwell/186-paint-hadnt-even-dried.webp';
 import Heirophant from '../../assets/images/stairwell/187-the-heirophant-tarot.webp';
@@ -267,7 +267,7 @@ import Untitled6 from '../../assets/images/green-room/216-untitled-6.webp';
 import Transparent from '../../assets/images/green-room/217-transparent.webp';
 import Stunned from '../../assets/images/green-room/218-stunned-by-the-beauty-of-night.webp';
 import Transport from '../../assets/images/green-room/219-transport-to-a-better-place.webp';
-import WhatSound from '../../assets/images/green-room/220-what-was-that-sound.webp';
+import NoSmoking from '../../assets/images/green-room/220-no-smoking-here.webp';
 import Death from '../../assets/images/green-room/221-death-from-the-tarot.webp';
 import Sherpa from '../../assets/images/green-room/222-sherpa-carrying-the-burden.webp';
 import Flocking from '../../assets/images/green-room/223-people-flocking-to-the-painters-museum.webp';
@@ -1456,8 +1456,8 @@ export const directory = [
     },
     {
       id: 184,
-      imgSrc: NoSmoking,
-      title: "No Smoking Here",
+      imgSrc: WhatSound,
+      title: "What Was That Sound",
       audio: null,
     },
     {
@@ -1672,8 +1672,8 @@ export const directory = [
     },
     {
       id: 220,
-      imgSrc: WhatSound,
-      title: "What Was That Sound",
+      imgSrc: NoSmoking,
+      title: "No Smoking Here",
       audio: null,
     },
     {

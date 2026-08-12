@@ -1512,19 +1512,23 @@ div.carousel-container {
         font-size: 1.01rem;
       }
     }
+
+    ul.gallery-container {
+      height: 24rem;
+    }
   }
 
-/* ----------- Exit Sign Styles ------------- */
+  /* ----------- Exit Sign Styles ------------- */
 
-.exit-sign-container {
+  .exit-sign-container {
 
-  .exit-sign {
-    width: 3rem;
-    height: 1.9rem;
-    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.12);
-    font-size: 1.2rem;
+    .exit-sign {
+      width: 3rem;
+      height: 1.9rem;
+      box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.12);
+      font-size: 1.2rem;
+    }
   }
-}
 
   // ------------------ Gallery White Door Styles ------------------ //
 

@@ -8,7 +8,7 @@
     width: 81%;
     height: 35rem;
     display: grid;
-    grid-template-columns: 2.3fr 2.76fr 2.1fr 0.64fr 2.63fr 0.64fr 2.63fr;
+    grid-template-columns: 2.3fr 2.28fr 1.73fr 0.55fr 2.74fr 0.55fr 2.74fr;
 
     // .section {
     //   border: 1px solid #d2d2d2;
@@ -56,9 +56,9 @@
      // ---------- Untitled 5 --------- //
       .sub-section-1-1 {
         position: absolute;
-        top: 1.8rem;
+        top: 2rem;
         left: 1.8rem;
-        width: 5rem;
+        width: 5.1rem;
       }
     }
 
@@ -72,32 +72,32 @@
       // ---------- Untitled 6 --------- //
       .sub-section-2-1 {
         position: absolute;
-        top: 7rem;
-        left: 3.4rem;
+        top: 6.7rem;
+        left: 2.3rem;
         width: 2.8rem;
       }
 
       // ---------- Transparent --------- //
       .sub-section-2-2 {
         position: absolute;
-        top: 10.2rem;
-        left: 7.3rem;
+        top: 10rem;
+        left: 5.9rem;
         width: 2.7rem;
       }
 
       // ---------- Stunned by the Beauty --------- //
       .sub-section-2-3 {
         position: absolute;
-        top: 7.9rem;
-        right: 3.75rem;
+        top: 7.7rem;
+        right: 3rem;
         width: 3.3rem;
       }
 
       // ---------- Transport to a Better Place --------- //
       .sub-section-2-4 {
         position: absolute;
-        top: 12rem;
-        right: 2.5rem;
+        top: 11.8rem;
+        right: 1.8rem;
         width: 5.9rem;
       }
     }
@@ -109,12 +109,11 @@
       display: flex;
       justify-content: center;
 
-      // ---------- What Was That Sound --------- //
+      // ---------- No Smoking --------- //
       .sub-section-3-1 {
         position: absolute;
-        top: 4rem;
-        // left: 2.3rem;
-        width: 10.5rem;
+        top: 5.2rem;
+        width: 8.2rem;
       }
     }
 
@@ -128,8 +127,7 @@
       // ---------- Death --------- //
       .sub-section-4-1 {
         position: absolute;
-        top: 9.6rem;
-        // left: 1.2rem;
+        top: 10.4rem;
         width: 3.8rem;
       }
     }
@@ -144,8 +142,7 @@
       // ---------- Sherpa --------- //
       .sub-section-5-1 {
         position: absolute;
-        top: 8.8rem;
-        // left: 2.3rem;
+        top: 9.6rem;
         width: 14.9rem;
       }
     }
@@ -160,16 +157,14 @@
       // ---------- Flocking to the Museum --------- //
       .sub-section-6-1 {
         position: absolute;
-        top: 9.6rem;
-        // left: 1.2rem;
+        top: 10.5rem;
         width: 4rem;
       }
 
       // ---------- Paint Me Happy --------- //
       .sub-section-6-2 {
         position: absolute;
-        top: 15.8rem;
-        // right: 2.1rem;
+        top: 16.6rem;
         width: 3rem;
       }
     }
@@ -184,9 +179,406 @@
       // ---------- Go! --------- //
       .sub-section-7-1 {
         position: absolute;
-        top: 7.5rem;
-        // left: 2.3rem;
+        top: 8.5rem;
         width: 15rem;
+      }
+    }
+  }
+}
+
+// ============================= Media Queries ============================ //
+
+// -------------------- Max-Width: 1890px --------------------- //
+
+@media screen and (max-width: 1890px) {
+  .green-room-west-container {
+
+    .green-room-west-grid {
+
+      // -------------------- Column 2 --------------------- //
+
+      .green-room-west-column-2 {
+
+        // ---------- Untitled 6 --------- //
+        .sub-section-2-1 {
+          left: 2.1rem;
+        }
+
+        // ---------- Transparent --------- //
+        .sub-section-2-2 {
+          left: 5.7rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 1800px --------------------- //
+
+@media screen and (max-width: 1800px) {
+  .green-room-west-container {
+
+    .green-room-west-grid {
+      grid-template-columns: 2.3fr 2.6fr 2.16fr 0.55fr 2.74fr 0.55fr 2.74fr;
+
+      // -------------------- Column 2 --------------------- //
+
+      .green-room-west-column-2 {
+
+        // ---------- Untitled 6 --------- //
+        .sub-section-2-1 {
+          left: 2.8rem;
+        }
+
+        // ---------- Transparent --------- //
+        .sub-section-2-2 {
+          left: 6.4rem;
+        }
+      }
+
+      // -------------------- Column 6 --------------------- //
+
+      .green-room-west-column-6 {
+
+        // ---------- Flocking to the Museum --------- //
+        .sub-section-6-1 {
+          width: 3.8rem;
+        }
+
+        // ---------- Paint Me Happy --------- //
+        .sub-section-6-2 {
+          top: 16.5rem;
+          width: 2.9rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 1760px --------------------- //
+
+@media screen and (max-width: 1760px) {
+  .green-room-west-container {
+
+    .green-room-west-grid {
+      width: 82.5%;
+
+      // -------------------- Column 2 --------------------- //
+
+      .green-room-west-column-2 {
+
+        // ---------- Stunned by the Beauty --------- //
+      .sub-section-2-3 {
+        right: 2.8rem;
+      }
+
+      // ---------- Transport to a Better Place --------- //
+      .sub-section-2-4 {
+        right: 1.6rem;
+      }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 1670px --------------------- //
+
+@media screen and (max-width: 1670px) {
+  .green-room-west-container {
+
+    .green-room-west-grid {
+
+      // -------------------- Column 2 --------------------- //
+
+      .green-room-west-column-2 {
+
+        // ---------- Transparent --------- //
+        .sub-section-2-2 {
+          left: 6.6rem;
+        }
+
+        // ---------- Stunned by the Beauty --------- //
+        .sub-section-2-3 {
+          right: 2.4rem;
+        }
+
+        // ---------- Transport to a Better Place --------- //
+        .sub-section-2-4 {
+          right: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 1130px --------------------- //
+
+@media screen and (max-width: 1130px) {
+  .green-room-west-container {
+
+    .green-room-west-grid {
+      height: 22.2rem;
+
+      // -------------------- Column 1 --------------------- //
+
+      .green-room-west-column-1 {
+
+        .exit-container {
+
+          .exit-door-container {
+            // left: 1rem;
+
+            .white-door-frame {
+              width: 9.4rem;
+              height: 17.4rem;
+
+              .white-door {
+                width: 7.2rem;
+                height: 16.4rem;
+              }
+            }
+          }
+        }
+
+      // ---------- Untitled 5 --------- //
+        .sub-section-1-1 {
+          top: 1rem;
+          left: 1rem;
+          width: 3.3rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .green-room-west-column-2 {
+
+        // ---------- Untitled 6 --------- //
+        .sub-section-2-1 {
+          top: 4rem;
+          left: 1.9rem;
+          width: 1.8rem;
+        }
+
+        // ---------- Transparent --------- //
+        .sub-section-2-2 {
+          top: 6.2rem;
+          left: 4.2rem;
+          width: 1.7rem;
+        }
+
+        // ---------- Stunned by the Beauty --------- //
+        .sub-section-2-3 {
+          top: 4.7rem;
+          right: 1.5rem;
+          width: 2.1rem;
+        }
+
+        // ---------- Transport to a Better Place --------- //
+        .sub-section-2-4 {
+          top: 7.3rem;
+          right: 0.8rem;
+          width: 3.7rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
+
+      .green-room-west-column-3 {
+
+        // ---------- No Smoking --------- //
+        .sub-section-3-1 {
+          top: 3.1rem;
+          width: 5.2rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .green-room-west-column-4 {
+
+        // ---------- Death --------- //
+        .sub-section-4-1 {
+          top: 6.4rem;
+          width: 2.3rem;
+        }
+      }
+
+      // -------------------- Column 5 --------------------- //
+
+      .green-room-west-column-5 {
+
+        // ---------- Sherpa --------- //
+        .sub-section-5-1 {
+          top: 5.8rem;
+          width: 9.6rem;
+        }
+      }
+
+      // -------------------- Column 6 --------------------- //
+
+      .green-room-west-column-6 {
+
+        // ---------- Flocking to the Museum --------- //
+        .sub-section-6-1 {
+          top: 6.4rem;
+          width: 2.3rem;
+        }
+
+        // ---------- Paint Me Happy --------- //
+        .sub-section-6-2 {
+          top: 10.1rem;
+          width: 1.9rem;
+        }
+      }
+
+      // -------------------- Column 7 --------------------- //
+
+      .green-room-west-column-7 {
+
+        // ---------- Go! --------- //
+        .sub-section-7-1 {
+          top: 5.1rem;
+          width: 9.6rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 710px --------------------- //
+
+@media screen and (max-width: 710px) {
+  .green-room-west-container {
+
+    .green-room-west-grid {
+      height: 14rem;
+
+      // .section {
+      //   border: 1px solid #d2d2d2;
+      // }
+
+      // -------------------- Column 1 --------------------- //
+
+      .green-room-west-column-1 {
+
+        .exit-container {
+
+          .exit-door-container {
+            // left: 1rem;
+
+            .white-door-frame {
+            width: 6rem;
+            height: 11rem;
+
+            .white-door {
+              // bottom: 1rem;
+              width: 4.6rem;
+              height: 10.3rem;
+            }
+          }
+          }
+        }
+
+      // ---------- Untitled 5 --------- //
+        .sub-section-1-1 {
+          top: 0.6rem;
+          left: 0.6rem;
+          width: 2.1rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .green-room-west-column-2 {
+
+        // ---------- Untitled 6 --------- //
+        .sub-section-2-1 {
+          top: 2.5rem;
+          left: 1.3rem;
+          width: 1.1rem;
+        }
+
+        // ---------- Transparent --------- //
+        .sub-section-2-2 {
+          top: 3.9rem;
+          left: 2.8rem;
+          width: 1.1rem;
+        }
+
+        // ---------- Stunned by the Beauty --------- //
+        .sub-section-2-3 {
+          top: 2.9rem;
+          right: 0.7rem;
+          width: 1.35rem;
+        }
+
+        // ---------- Transport to a Better Place --------- //
+        .sub-section-2-4 {
+          top: 4.6rem;
+          right: 0.2rem;
+          width: 2.4rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
+
+      .green-room-west-column-3 {
+
+        // ---------- No Smoking --------- //
+        .sub-section-3-1 {
+          top: 2rem;
+          width: 3.3rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .green-room-west-column-4 {
+
+        // ---------- Death --------- //
+        .sub-section-4-1 {
+          top: 4rem;
+          width: 1.5rem;
+        }
+      }
+
+      // -------------------- Column 5 --------------------- //
+
+      .green-room-west-column-5 {
+
+        // ---------- Sherpa --------- //
+        .sub-section-5-1 {
+          top: 3.6rem;
+          width: 6.1rem;
+        }
+      }
+
+      // -------------------- Column 6 --------------------- //
+
+      .green-room-west-column-6 {
+
+        // ---------- Flocking to the Museum --------- //
+        .sub-section-6-1 {
+          top: 4rem;
+          width: 1.5rem;
+        }
+
+        // ---------- Paint Me Happy --------- //
+        .sub-section-6-2 {
+          top: 6.4rem;
+          width: 1.2rem;
+        }
+      }
+
+      // -------------------- Column 7 --------------------- //
+
+      .green-room-west-column-7 {
+
+        // ---------- Go! --------- //
+        .sub-section-7-1 {
+          top: 3.2rem;
+          width: 6.1rem;
+        }
       }
     }
   }

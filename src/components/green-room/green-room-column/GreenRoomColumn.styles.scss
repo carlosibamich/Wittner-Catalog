@@ -10,10 +10,6 @@
     display: grid;
     grid-template-columns: 3.35fr 1fr 1fr 3.35fr;
 
-    // .section {
-    //   border: 1px solid #d2d2d2;
-    // }
-
     // -------------------- Column 1 --------------------- //
 
     .green-room-column-column-1 {
@@ -302,6 +298,639 @@
         top: 12.6rem;
         left: -2.2rem;
         width: 6rem;
+      }
+    }
+  }
+}
+
+// ============================= Media Queries ============================ //
+
+// -------------------- Max-Width: 1900px --------------------- //
+
+@media screen and (max-width: 1900px) {
+  .green-room-column-container {
+
+    .green-room-column-grid {
+      width: 78.8%;
+    }
+  }
+}
+
+// -------------------- Max-Width: 1800px --------------------- //
+
+@media screen and (max-width: 1800px) {
+  .green-room-column-container {
+
+    .green-room-column-grid {
+      width: 80%;
+
+      // -------------------- Column 1 --------------------- //
+
+      .green-room-column-column-1 {
+
+        .exit-door-container {
+          left: 5.9rem;
+
+          .white-door-frame {
+            width: 15rem;
+
+            .white-door {
+              width: 10.9rem;
+            }
+          }
+        }
+
+        // ---------- Put a Woman in Charge --------- //
+        .sub-section-1-2 {
+          left: 1.15rem;
+          width: 4.3rem;
+        }
+
+        // ---------- The Devil --------- //
+        .sub-section-1-3 {
+          left: 0.7rem;
+          width: 5.2rem;
+        }
+
+        // ---------- Untitled 2 --------- //
+        .sub-section-1-4 {
+          left: 1.9rem;
+          width: 3rem;
+        }
+
+        // ---------- Wheel of Fortune --------- //
+        .sub-section-1-5 {
+          right: 8rem;
+          width: 4.4rem;
+        }
+
+        // ---------- Justice --------- //
+        .sub-section-1-6 {
+          right: 7.7rem;
+          width: 5.1rem;
+        }
+
+        // ---------- Untitled 3 --------- //
+        .sub-section-1-7 {
+          right: 8.8rem;
+          width: 3.1rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .green-room-column-column-4 {
+
+        .exit-door-container {
+        right: 1.8rem;
+
+          .white-door-frame {
+            width: 15.6rem;
+            height: 31.7rem;
+
+            .white-door {
+              bottom: 2.6rem;
+              width: 11.5rem;
+              height: 26.8rem;
+            }
+          }
+        }
+
+        // ---------- Climate Change on Your Vacation --------- //
+        .sub-section-4-2 {
+          top: 6.6rem;
+          right: 18.6rem;
+          width: 4.2rem;
+        }
+
+        // ---------- Untitled --------- //
+        .sub-section-4-3 {
+          top: 11.7rem;
+          right: 18.5rem;
+          width: 4.5rem;
+        }
+
+        // ---------- Marge --------- //
+        .sub-section-4-4 {
+          top: 17.4rem;
+          right: 19.3rem;
+          width: 3rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 1760px --------------------- //
+
+@media screen and (max-width: 1760px) {
+  .green-room-column-container {
+
+    .green-room-column-grid {
+      width: 81%;
+      grid-template-columns: 3.5fr 1fr 1fr 3.5fr;
+    }
+  }
+}
+
+// -------------------- Max-Width: 1730px --------------------- //
+
+@media screen and (max-width: 1730px) {
+  .green-room-column-container {
+
+    .green-room-column-grid {
+      width: 81.5%;
+
+      // -------------------- Column 1 --------------------- //
+
+      .green-room-column-column-1 {
+
+        // ---------- Window --------- //
+        .sub-section-1-1 {
+          .window-frame {
+            width: 6.5rem;
+
+            .window-pane {
+              width: 4.4rem;
+            }
+          }
+        }
+
+      // ---------- Wheel of Fortune --------- //
+        .sub-section-1-5 {
+          right: 7.7rem;
+        }
+
+      // ---------- Justice --------- //
+        .sub-section-1-6 {
+          right: 7.4rem;
+        }
+
+      // ---------- Untitled 3 --------- //
+        .sub-section-1-7 {
+          right: 8.4rem;
+        }
+
+      // ---------- help Arrives --------- //
+        .sub-section-1-8 {
+          right: -14.8rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .green-room-column-column-4 {
+
+        .exit-door-container {
+          right: 1.2rem;
+        }
+
+        // ---------- Climate Change on Your Vacation --------- //
+        .sub-section-4-2 {
+          right: 18.2rem;
+        }
+
+        // ---------- Untitled --------- //
+        .sub-section-4-3 {
+          right: 18.1rem;
+        }
+
+        // ---------- Marge --------- //
+        .sub-section-4-4 {
+          right: 18.8rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 1130px --------------------- //
+
+@media screen and (max-width: 1130px) {
+  .green-room-column-container {
+
+    .green-room-column-grid {
+      height: 22.2rem;
+
+      // -------------------- Column 1 --------------------- //
+
+      .green-room-column-column-1 {
+
+        .exit-door-container {
+          left: 3.4rem;
+
+          .white-door-frame {
+            width: 9.7rem;
+            height: 20rem;
+
+            .white-door {
+              width: 7.1rem;
+              height: 18.7rem;
+            }
+          }
+        }
+
+        // ---------- Window --------- //
+        .sub-section-1-1 {
+          .window-frame {
+            top: 2.2rem;
+            width: 4rem;
+            height: 11.1rem;
+
+            .window-pane {
+              width: 2.6rem;
+            }
+
+            .pane-right.top {
+              top: 1.4rem;
+              height: 8.3rem;
+            }
+          }
+        }
+
+      // ---------- Put a Woman in Charge --------- //
+        .sub-section-1-2 {
+          top: 4.3rem;
+          left: 0.75rem;
+          width: 2.7rem;
+        }
+
+      // ---------- The Devil --------- //
+        .sub-section-1-3 {
+          top: 7.6rem;
+          left: 0.4rem;
+          width: 3.3rem;
+        }
+
+      // ---------- Untitled 2 --------- //
+        .sub-section-1-4 {
+          top: 11.6rem;
+          left: 1.1rem;
+          width: 1.9rem;
+        }
+
+      // ---------- Wheel of Fortune --------- //
+        .sub-section-1-5 {
+          top: 4.2rem;
+          right: 4.8rem;
+          width: 2.7rem;
+        }
+
+      // ---------- Justice --------- //
+        .sub-section-1-6 {
+          top: 7.6rem;
+          right: 4.6rem;
+          width: 3.2rem;
+        }
+
+      // ---------- Untitled 3 --------- //
+        .sub-section-1-7 {
+          top: 11.9rem;
+          right: 5.2rem;
+          width: 2rem;
+        }
+
+      // ---------- help Arrives --------- //
+        .sub-section-1-8 {
+          top: 2.2rem;
+          right: -9.6rem;
+          width: 13.3rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .green-room-column-column-2 {
+
+        // ---------- Don't Worry --------- //
+        .sub-section-2-1 {
+          top: 0.9rem;
+          width: 2.3rem;
+        }
+
+        // ---------- Advice --------- //
+        .sub-section-2-2 {
+          top: 3.8rem;
+          width: 5rem;
+        }
+
+        // ---------- Natural History --------- //
+        .sub-section-2-3 {
+          top: 8.1rem;
+          width: 4.2rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
+
+      .green-room-column-column-3 {
+
+        // ---------- Untitled 7 --------- //
+        .sub-section-3-1 {
+          top: 2.1rem;
+          width: 3.1rem;
+        }
+
+        // ---------- Quarantined --------- //
+        .sub-section-3-2 {
+          top: 6rem;
+          width: 5.1rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .green-room-column-column-4 {
+
+        .exit-door-container {
+          right: 0.8rem;
+
+          .white-door-frame {
+            width: 10rem;
+            height: 20.2rem;
+
+            .white-door {
+              bottom: 1.6rem;
+              width: 7.4rem;
+              height: 17.3rem;
+            }
+          }
+        }
+
+        // ---------- Window --------- //
+        .sub-section-4-1 {
+          .window-frame {
+            top: 1.8rem;
+            width: 7rem;
+            height: 11.1rem;
+
+            .window-pane {
+              bottom: 1.4rem;
+              width: 5.6rem;
+            }
+
+            .pane-right.top {
+              top: 1.4rem;
+              // left: 0rem;
+              height: 4rem;
+            }
+
+            .pane-right.bottom {
+              // left: 0rem;
+              height: 4rem;
+            }
+          }
+        }
+
+        // ---------- Climate Change on Your Vacation --------- //
+        .sub-section-4-2 {
+          top: 3.9rem;
+          right: 11.6rem;
+          width: 2.7rem;
+        }
+
+        // ---------- Untitled --------- //
+        .sub-section-4-3 {
+          top: 7.2rem;
+          right: 11.5rem;
+          width: 2.9rem;
+        }
+
+        // ---------- Marge --------- //
+        .sub-section-4-4 {
+          top: 10.8rem;
+          right: 12rem;
+          width: 1.9rem;
+        }
+
+        // ---------- Marathon to Gold Mountain --------- //
+        .sub-section-4-5 {
+          top: 8.4rem;
+          left: 2.5rem;
+          width: 3rem;
+        }
+
+        // ---------- To Mexico --------- //
+        .sub-section-4-6 {
+          top: 7.7rem;
+          left: -1.7rem;
+          width: 3.9rem;
+        }
+      }
+    }
+  }
+}
+
+// -------------------- Max-Width: 710px --------------------- //
+
+@media screen and (max-width: 710px) {
+  .green-room-column-container {
+
+    .green-room-column-grid {
+      height: 14rem;
+
+      // -------------------- Column 1 --------------------- //
+
+      .green-room-column-column-1 {
+
+        .exit-door-container {
+          left: 1.85rem;
+
+          .white-door-frame {
+            width: 6rem;
+            height: 12.6rem;
+
+            .white-door {
+              width: 4.4rem;
+              height: 11.8rem;
+            }
+          }
+        }
+
+        // ---------- Window --------- //
+        .sub-section-1-1 {
+          .window-frame {
+            top: 1.4rem;
+            width: 2.6rem;
+            height: 6.9rem;
+
+            .window-pane {
+              width: 1.8rem;
+            }
+
+            .pane-right.top {
+              top: 0.8rem;
+              height: 5.3rem;
+            }
+          }
+        }
+
+      // ---------- Put a Woman in Charge --------- //
+        .sub-section-1-2 {
+          top: 2.7rem;
+          left: 0.5rem;
+          width: 1.7rem;
+        }
+
+      // ---------- The Devil --------- //
+        .sub-section-1-3 {
+          top: 4.8rem;
+          left: 0.25rem;
+          width: 2.1rem;
+        }
+
+      // ---------- Untitled 2 --------- //
+        .sub-section-1-4 {
+          top: 7.3rem;
+          left: 0.7rem;
+          width: 1.2rem;
+        }
+
+      // ---------- Wheel of Fortune --------- //
+        .sub-section-1-5 {
+          top: 2.6rem;
+          right: 3.1rem;
+          width: 1.7rem;
+        }
+
+      // ---------- Justice --------- //
+        .sub-section-1-6 {
+          top: 4.8rem;
+          right: 3rem;
+          width: 2rem;
+        }
+
+      // ---------- Untitled 3 --------- //
+        .sub-section-1-7 {
+          top: 7.5rem;
+          right: 3.4rem;
+          width: 1.3rem;
+        }
+
+      // ---------- help Arrives --------- //
+        .sub-section-1-8 {
+          top: 1.4rem;
+          right: -6.1rem;
+          width: 8.5rem;
+        }
+      }
+
+      // -------------------- Column 2 --------------------- //
+
+      .green-room-column-column-2 {
+
+        // ---------- Don't Worry --------- //
+        .sub-section-2-1 {
+          top: 0.5rem;
+          width: 1.5rem;
+        }
+
+        // ---------- Advice --------- //
+        .sub-section-2-2 {
+          top: 2.4rem;
+          width: 3.1rem;
+        }
+
+        // ---------- Natural History --------- //
+        .sub-section-2-3 {
+          top: 5.1rem;
+          width: 2.7rem;
+        }
+      }
+
+      // -------------------- Column 3 --------------------- //
+
+      .green-room-column-column-3 {
+
+        // ---------- Untitled 7 --------- //
+        .sub-section-3-1 {
+          top: 1.3rem;
+          width: 2rem;
+        }
+
+        // ---------- Quarantined --------- //
+        .sub-section-3-2 {
+          top: 3.8rem;
+          width: 3.2rem;
+        }
+      }
+
+      // -------------------- Column 4 --------------------- //
+
+      .green-room-column-column-4 {
+
+        .exit-door-container {
+          right: 0.4rem;
+
+          .white-door-frame {
+            width: 6.4rem;
+            height: 12.8rem;
+
+            .white-door {
+              bottom: 1rem;
+              width: 4.8rem;
+              height: 11rem;
+            }
+          }
+        }
+
+        // ---------- Window --------- //
+        .sub-section-4-1 {
+          .window-frame {
+            top: 1.2rem;
+            width: 4.4rem;
+            height: 6.9rem;
+
+            .window-pane {
+              bottom: 0.8rem;
+              width: 3.6rem;
+            }
+
+            .pane-right.top {
+              top: 0.8rem;
+              height: 2.5rem;
+            }
+
+            .pane-right.bottom {
+              height: 2.5rem;
+            }
+          }
+        }
+
+        // ---------- Climate Change on Your Vacation --------- //
+        .sub-section-4-2 {
+          top: 2.4rem;
+          right: 7.35rem;
+          width: 1.7rem;
+        }
+
+        // ---------- Untitled --------- //
+        .sub-section-4-3 {
+          top: 4.5rem;
+          right: 7.3rem;
+          width: 1.8rem;
+        }
+
+        // ---------- Marge --------- //
+        .sub-section-4-4 {
+          top: 6.9rem;
+          right: 7.55rem;
+          width: 1.2rem;
+        }
+
+        // ---------- Marathon to Gold Mountain --------- //
+        .sub-section-4-5 {
+          top: 5.4rem;
+          left: 1.7rem;
+          width: 1.8rem;
+        }
+
+        // ---------- To Mexico --------- //
+        .sub-section-4-6 {
+          top: 4.9rem;
+          left: -0.9rem;
+          width: 2.4rem;
+        }
       }
     }
   }
