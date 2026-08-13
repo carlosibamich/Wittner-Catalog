@@ -5,14 +5,10 @@
   overflow: hidden;
 
   .green-room-east-grid {
-    width: 81%;
-    height: 35rem;
     display: grid;
+    width: 97.2rem;
+    height: 35rem;
     grid-template-columns: 2fr 0.55fr 2fr 0.55fr 2fr 0.55fr 2.2fr;
-
-    // .section {
-    //   border: 1px solid #d2d2d2;
-    // }
 
     // -------------------- Column 1 --------------------- //
 
@@ -158,24 +154,13 @@
 
 // ============================= Media Queries ============================ //
 
-// -------------------- Max-Width: 1800px --------------------- //
-
-@media screen and (max-width: 1800px) {
-  .green-room-east-container {
-
-    .green-room-east-grid {
-      width: 82%;
-    }
-  }
-}
-
 // -------------------- Max-Width: 1130px --------------------- //
 
 @media screen and (max-width: 1130px) {
   .green-room-east-container {
 
     .green-room-east-grid {
-      width: 82%;
+      width: 57.9rem;
       height: 22.2rem;
       grid-template-columns: 2fr 0.55fr 2fr 0.55fr 2fr 0.55fr 2.2fr;
 
@@ -295,6 +280,7 @@
   .green-room-east-container {
 
     .green-room-east-grid {
+      width: 36.4rem;
       height: 14rem;
 
       // -------------------- Column 1 --------------------- //

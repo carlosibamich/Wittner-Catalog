@@ -3,11 +3,12 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 2dvh;
 
   .green-room-column-grid {
-    width: 78%;
-    height: 35rem;
     display: grid;
+    width: 93.6rem;
+    height: 35rem;
     grid-template-columns: 3.35fr 1fr 1fr 3.35fr;
 
     // -------------------- Column 1 --------------------- //
@@ -305,211 +306,13 @@
 
 // ============================= Media Queries ============================ //
 
-// -------------------- Max-Width: 1900px --------------------- //
-
-@media screen and (max-width: 1900px) {
-  .green-room-column-container {
-
-    .green-room-column-grid {
-      width: 78.8%;
-    }
-  }
-}
-
-// -------------------- Max-Width: 1800px --------------------- //
-
-@media screen and (max-width: 1800px) {
-  .green-room-column-container {
-
-    .green-room-column-grid {
-      width: 80%;
-
-      // -------------------- Column 1 --------------------- //
-
-      .green-room-column-column-1 {
-
-        .exit-door-container {
-          left: 5.9rem;
-
-          .white-door-frame {
-            width: 15rem;
-
-            .white-door {
-              width: 10.9rem;
-            }
-          }
-        }
-
-        // ---------- Put a Woman in Charge --------- //
-        .sub-section-1-2 {
-          left: 1.15rem;
-          width: 4.3rem;
-        }
-
-        // ---------- The Devil --------- //
-        .sub-section-1-3 {
-          left: 0.7rem;
-          width: 5.2rem;
-        }
-
-        // ---------- Untitled 2 --------- //
-        .sub-section-1-4 {
-          left: 1.9rem;
-          width: 3rem;
-        }
-
-        // ---------- Wheel of Fortune --------- //
-        .sub-section-1-5 {
-          right: 8rem;
-          width: 4.4rem;
-        }
-
-        // ---------- Justice --------- //
-        .sub-section-1-6 {
-          right: 7.7rem;
-          width: 5.1rem;
-        }
-
-        // ---------- Untitled 3 --------- //
-        .sub-section-1-7 {
-          right: 8.8rem;
-          width: 3.1rem;
-        }
-      }
-
-      // -------------------- Column 4 --------------------- //
-
-      .green-room-column-column-4 {
-
-        .exit-door-container {
-        right: 1.8rem;
-
-          .white-door-frame {
-            width: 15.6rem;
-            height: 31.7rem;
-
-            .white-door {
-              bottom: 2.6rem;
-              width: 11.5rem;
-              height: 26.8rem;
-            }
-          }
-        }
-
-        // ---------- Climate Change on Your Vacation --------- //
-        .sub-section-4-2 {
-          top: 6.6rem;
-          right: 18.6rem;
-          width: 4.2rem;
-        }
-
-        // ---------- Untitled --------- //
-        .sub-section-4-3 {
-          top: 11.7rem;
-          right: 18.5rem;
-          width: 4.5rem;
-        }
-
-        // ---------- Marge --------- //
-        .sub-section-4-4 {
-          top: 17.4rem;
-          right: 19.3rem;
-          width: 3rem;
-        }
-      }
-    }
-  }
-}
-
-// -------------------- Max-Width: 1760px --------------------- //
-
-@media screen and (max-width: 1760px) {
-  .green-room-column-container {
-
-    .green-room-column-grid {
-      width: 81%;
-      grid-template-columns: 3.5fr 1fr 1fr 3.5fr;
-    }
-  }
-}
-
-// -------------------- Max-Width: 1730px --------------------- //
-
-@media screen and (max-width: 1730px) {
-  .green-room-column-container {
-
-    .green-room-column-grid {
-      width: 81.5%;
-
-      // -------------------- Column 1 --------------------- //
-
-      .green-room-column-column-1 {
-
-        // ---------- Window --------- //
-        .sub-section-1-1 {
-          .window-frame {
-            width: 6.5rem;
-
-            .window-pane {
-              width: 4.4rem;
-            }
-          }
-        }
-
-      // ---------- Wheel of Fortune --------- //
-        .sub-section-1-5 {
-          right: 7.7rem;
-        }
-
-      // ---------- Justice --------- //
-        .sub-section-1-6 {
-          right: 7.4rem;
-        }
-
-      // ---------- Untitled 3 --------- //
-        .sub-section-1-7 {
-          right: 8.4rem;
-        }
-
-      // ---------- help Arrives --------- //
-        .sub-section-1-8 {
-          right: -14.8rem;
-        }
-      }
-
-      // -------------------- Column 4 --------------------- //
-
-      .green-room-column-column-4 {
-
-        .exit-door-container {
-          right: 1.2rem;
-        }
-
-        // ---------- Climate Change on Your Vacation --------- //
-        .sub-section-4-2 {
-          right: 18.2rem;
-        }
-
-        // ---------- Untitled --------- //
-        .sub-section-4-3 {
-          right: 18.1rem;
-        }
-
-        // ---------- Marge --------- //
-        .sub-section-4-4 {
-          right: 18.8rem;
-        }
-      }
-    }
-  }
-}
-
 // -------------------- Max-Width: 1130px --------------------- //
 
 @media screen and (max-width: 1130px) {
   .green-room-column-container {
 
     .green-room-column-grid {
+      width: 58rem;
       height: 22.2rem;
 
       // -------------------- Column 1 --------------------- //
@@ -727,6 +530,7 @@
   .green-room-column-container {
 
     .green-room-column-grid {
+      width: 36.8rem;
       height: 14rem;
 
       // -------------------- Column 1 --------------------- //

@@ -3,15 +3,10 @@
   justify-content: center;
 
   .entry-north-grid {
-    width: 84%;
-    height: 40rem;
     display: grid;
+    width: 101rem;
+    height: 40rem;
     grid-template-columns: 2fr 1.3fr 2fr;
-
-    // .section {
-    //   background-color: #fff;
-    //   border: 1px solid #f3f3f3;
-    // }
 
     // -------------------- Column 1 --------------------- //
 
@@ -153,7 +148,7 @@
   .entry-room-container {
 
     .entry-north-grid {
-      width: 83%;
+      width: 95rem;
 
       // -------------------- Column 2 --------------------- //
 
@@ -181,8 +176,6 @@
   .entry-room-container {
 
     .entry-north-grid {
-      width: 82.5%;
-      height: 39rem;
 
       // -------------------- Column 1 --------------------- //
 
@@ -246,24 +239,13 @@
   }
 }
 
-// ---------------- Max-Width: 1380px ---------------- //
-
-@media screen and (max-width: 1380px) {
-  .entry-room-container {
-
-    .entry-north-grid {
-      width: 85%;
-    }
-  }
-}
-
 // ---------------- Max-Width: 1130px ---------------- //
 
 @media screen and (max-width: 1130px) {
   .entry-room-container {
 
     .entry-north-grid {
-      width: 85%;
+      width: 60rem;
       height: 24rem;
       grid-template-columns: 2.1fr 1.2fr 2.1fr;
 
@@ -339,7 +321,7 @@
   .entry-room-container {
 
     .entry-north-grid {
-      width: 84.5%;
+      width: 37.5rem;
       height: 14.6rem;
       grid-template-columns: 2.1fr 1.25fr 2.1fr;
 

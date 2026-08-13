@@ -3,12 +3,13 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 3dvh;
 
   .green-room-north-grid {
-    width: 76%;
-    height: 35rem;
     display: grid;
-    grid-template-columns: 0.95fr 2fr 0.95fr 5.15fr 0.95fr;
+    width: 91.2rem;
+    height: 35rem;
+    grid-template-columns: 1fr 1.95fr 0.95fr 5.15fr 0.95fr;
 
     // -------------------- Column 1 --------------------- //
 
@@ -49,18 +50,18 @@
      .exit-door-container {
         position: absolute;
         bottom: 0rem;
-        right: 0.3rem;
 
         .white-door-frame {
           width: 17.4rem;
           height: 31.8rem;
+          margin: 0;
           background-color: #f2f2f2;
           box-shadow: 1px 2px 10px 4px rgba(0, 0, 0, 0.14);
           border-radius: 3px;
 
           .white-door {
-            width: 12.5rem;
-            height: 29.3rem;
+            width: 12.7rem;
+            height: 29.5rem;
             background-color: #bababa;
             border-top: none;
             border-left: none;
@@ -109,10 +110,12 @@
 
       // ---------- Window --------- //
       .sub-section-4-1 {
+
         .window-frame {
           top: 3rem;
           right: 0rem;
-          width: 46.8rem;
+          // width: 46.8rem;
+          width: 100%;
           height: 19rem;
           background-color: #f2f2f2;
           box-shadow: 1px 2px 10px 4px rgba(0, 0, 0, 0.14);
@@ -177,249 +180,13 @@
 
 // ============================= Media Queries ============================ //
 
-// -------------------- Max-Width: 1910px --------------------- //
-
-@media screen and (max-width: 1910px) {
-  .green-room-north-container {
-
-    .green-room-north-grid {
-      width: 76.6%;
-    }
-  }
-}
-
-// -------------------- Max-Width: 1800px --------------------- //
-
-@media screen and (max-width: 1800px) {
-  .green-room-north-container {
-
-    .green-room-north-grid {
-      width: 77.8%;
-      grid-template-columns: 0.95fr 1.95fr 0.95fr 5.25fr 0.95fr;
-
-      // -------------------- Column 2 --------------------- //
-
-      .green-room-north-column-2 {
-
-        .exit-door-container {
-          right: 0.1rem;
-
-          .white-door-frame {
-            width: 17rem;
-            height: 31.8rem;
-
-            .white-door {
-              width: 12.4rem;
-              height: 29.5rem;
-            }
-          }
-        }
-      }
-
-      // -------------------- Column 4 --------------------- //
-
-      .green-room-north-column-4 {
-
-        // ---------- Window --------- //
-        .sub-section-4-1 {
-
-          .window-frame {
-            top: 3rem;
-            right: 0rem;
-            width: 46.5rem;
-            height: 19rem;
-
-            .window-pane {
-              bottom: 2.3rem;
-              width: 19.8rem;
-            }
-
-            .pane-left {
-              top: 2.3rem;
-              left: 2.3rem;
-              height: 14.4rem;
-            }
-
-            .pane-right.top {
-              top: 2.3rem;
-              right: 2.3rem;
-              height: 6.9rem;
-            }
-
-            .pane-right.bottom {
-              right: 2.3rem;
-              height: 6.9rem;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-// -------------------- Max-Width: 1760px --------------------- //
-
-@media screen and (max-width: 1760px) {
-  .green-room-north-container {
-
-    .green-room-north-grid {
-      width: 79%;
-      grid-template-columns: 0.95fr 1.94fr 0.95fr 5.29fr 0.93fr;
-
-      // .section {
-      //   border: 1px solid #d2d2d2;
-      // }
-
-      // -------------------- Column 2 --------------------- //
-
-      .green-room-north-column-2 {
-
-        .exit-door-container {
-          right: 0rem;
-
-          .white-door-frame {
-            width: 17rem;
-            height: 31.8rem;
-
-            .white-door {
-              width: 12.4rem;
-              height: 29.5rem;
-            }
-          }
-        }
-      }
-
-      // -------------------- Column 3 --------------------- //
-
-      .green-room-north-column-3 {
-
-        // ---------- The Wheel of Fortune --------- //
-        .sub-section-3-1 {
-          top: 5.8rem;
-          width: 5.6rem;
-        }
-
-        // ---------- Justice --------- //
-        .sub-section-3-2 {
-          top: 12.4rem;
-          width: 6.1rem;
-        }
-
-        // ---------- Untitled 3 --------- //
-        .sub-section-3-3 {
-          top: 20.2rem;
-          width: 4rem;
-        }
-      }
-    }
-  }
-}
-
-// -------------------- Max-Width: 1680px --------------------- //
-
-@media screen and (max-width: 1680px) {
-  .green-room-north-container {
-
-    .green-room-north-grid {
-      width: 80%;
-      grid-template-columns: 0.95fr 1.94fr 0.95fr 5.29fr 0.93fr;
-    }
-  }
-}
-
-// -------------------- Max-Width: 1655px --------------------- //
-
-@media screen and (max-width: 1655px) {
-  .green-room-north-container {
-
-    .green-room-north-grid {
-
-      .green-room-north-column-4 {
-
-        // ---------- Window --------- //
-        .sub-section-4-1 {
-          .window-frame {
-            width: 46.3rem;
-
-            .window-pane {
-              width: 19.7rem;
-            }
-          }
-        }
-
-        // ---------- Help Arrives --------- //
-        .sub-section-4-2 {
-          left: 1.1rem;
-          width: 21.9rem;
-        }
-      }
-    }
-  }
-}
-
-// -------------------- Max-Width: 1420px --------------------- //
-
-@media screen and (max-width: 1420px) {
-  .green-room-north-container {
-
-    .green-room-north-grid {
-      width: 79.2%;
-    }
-  }
-}
-
-// -------------------- Max-Width: 1230px --------------------- //
-
-@media screen and (max-width: 1230px) {
-  .green-room-north-container {
-
-    .green-room-north-grid {
-      width: 80%;
-    }
-  }
-}
-
-// -------------------- Max-Width: 1170px --------------------- //
-
-@media screen and (max-width: 1170px) {
-  .green-room-north-container {
-
-    .green-room-north-grid {
-
-      // .section {
-      //   border: 1px solid #d2d2d2;
-      // }
-
-      .green-room-north-column-4 {
-
-        // ---------- Window --------- //
-        .sub-section-4-1 {
-          .window-frame {
-            width: 47rem;
-
-            .window-pane {
-              width: 20rem;
-            }
-          }
-        }
-
-        // ---------- Help Arrives --------- //
-        .sub-section-4-2 {
-          left: 1.3rem;
-          width: 22rem;
-        }
-      }
-    }
-  }
-}
-
 // -------------------- Max-Width: 1130px --------------------- //
 
 @media screen and (max-width: 1130px) {
   .green-room-north-container {
 
     .green-room-north-grid {
-      width: 80%;
+      width: 56.5rem;
       height: 22.2rem;
       grid-template-columns: 0.97fr 2fr 0.97fr 5.16fr 0.95fr;
 
@@ -559,6 +326,7 @@
   .green-room-north-container {
 
     .green-room-north-grid {
+      width: 35.5rem;
       height: 14rem;
 
       // -------------------- Column 1 --------------------- //

@@ -3,16 +3,13 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 2dvh;
 
   .green-room-west-grid {
-    width: 81%;
-    height: 35rem;
     display: grid;
+    width: 97.2rem;
+    height: 35rem;
     grid-template-columns: 2.3fr 2.28fr 1.73fr 0.55fr 2.74fr 0.55fr 2.74fr;
-
-    // .section {
-    //   border: 1px solid #d2d2d2;
-    // }
 
     // -------------------- Column 1 --------------------- //
 
@@ -188,135 +185,13 @@
 
 // ============================= Media Queries ============================ //
 
-// -------------------- Max-Width: 1890px --------------------- //
-
-@media screen and (max-width: 1890px) {
-  .green-room-west-container {
-
-    .green-room-west-grid {
-
-      // -------------------- Column 2 --------------------- //
-
-      .green-room-west-column-2 {
-
-        // ---------- Untitled 6 --------- //
-        .sub-section-2-1 {
-          left: 2.1rem;
-        }
-
-        // ---------- Transparent --------- //
-        .sub-section-2-2 {
-          left: 5.7rem;
-        }
-      }
-    }
-  }
-}
-
-// -------------------- Max-Width: 1800px --------------------- //
-
-@media screen and (max-width: 1800px) {
-  .green-room-west-container {
-
-    .green-room-west-grid {
-      grid-template-columns: 2.3fr 2.6fr 2.16fr 0.55fr 2.74fr 0.55fr 2.74fr;
-
-      // -------------------- Column 2 --------------------- //
-
-      .green-room-west-column-2 {
-
-        // ---------- Untitled 6 --------- //
-        .sub-section-2-1 {
-          left: 2.8rem;
-        }
-
-        // ---------- Transparent --------- //
-        .sub-section-2-2 {
-          left: 6.4rem;
-        }
-      }
-
-      // -------------------- Column 6 --------------------- //
-
-      .green-room-west-column-6 {
-
-        // ---------- Flocking to the Museum --------- //
-        .sub-section-6-1 {
-          width: 3.8rem;
-        }
-
-        // ---------- Paint Me Happy --------- //
-        .sub-section-6-2 {
-          top: 16.5rem;
-          width: 2.9rem;
-        }
-      }
-    }
-  }
-}
-
-// -------------------- Max-Width: 1760px --------------------- //
-
-@media screen and (max-width: 1760px) {
-  .green-room-west-container {
-
-    .green-room-west-grid {
-      width: 82.5%;
-
-      // -------------------- Column 2 --------------------- //
-
-      .green-room-west-column-2 {
-
-        // ---------- Stunned by the Beauty --------- //
-      .sub-section-2-3 {
-        right: 2.8rem;
-      }
-
-      // ---------- Transport to a Better Place --------- //
-      .sub-section-2-4 {
-        right: 1.6rem;
-      }
-      }
-    }
-  }
-}
-
-// -------------------- Max-Width: 1670px --------------------- //
-
-@media screen and (max-width: 1670px) {
-  .green-room-west-container {
-
-    .green-room-west-grid {
-
-      // -------------------- Column 2 --------------------- //
-
-      .green-room-west-column-2 {
-
-        // ---------- Transparent --------- //
-        .sub-section-2-2 {
-          left: 6.6rem;
-        }
-
-        // ---------- Stunned by the Beauty --------- //
-        .sub-section-2-3 {
-          right: 2.4rem;
-        }
-
-        // ---------- Transport to a Better Place --------- //
-        .sub-section-2-4 {
-          right: 1.2rem;
-        }
-      }
-    }
-  }
-}
-
 // -------------------- Max-Width: 1130px --------------------- //
 
 @media screen and (max-width: 1130px) {
   .green-room-west-container {
 
     .green-room-west-grid {
+      width: 58rem;
       height: 22.2rem;
 
       // -------------------- Column 1 --------------------- //
@@ -354,15 +229,15 @@
 
         // ---------- Untitled 6 --------- //
         .sub-section-2-1 {
-          top: 4rem;
-          left: 1.9rem;
-          width: 1.8rem;
+          top: 4.1rem;
+          left: 1.3rem;
+          width: 1.7rem;
         }
 
         // ---------- Transparent --------- //
         .sub-section-2-2 {
           top: 6.2rem;
-          left: 4.2rem;
+          left: 3.5rem;
           width: 1.7rem;
         }
 
@@ -451,6 +326,7 @@
   .green-room-west-container {
 
     .green-room-west-grid {
+      width: 36.5rem;
       height: 14rem;
 
       // -------------------- Column 1 --------------------- //
@@ -490,14 +366,14 @@
         // ---------- Untitled 6 --------- //
         .sub-section-2-1 {
           top: 2.5rem;
-          left: 1.3rem;
+          left: 0.9rem;
           width: 1.1rem;
         }
 
         // ---------- Transparent --------- //
         .sub-section-2-2 {
           top: 3.9rem;
-          left: 2.8rem;
+          left: 2.3rem;
           width: 1.1rem;
         }
 

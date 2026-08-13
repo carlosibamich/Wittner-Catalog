@@ -3,9 +3,9 @@
   justify-content: center;
 
   .entry-east-grid {
-    width: 81%;
-    height: 40rem;
     display: grid;
+    width: 97.2rem;
+    height: 40rem;
     grid-template: 16rem 24rem / repeat(5, 1fr);
 
     // -------------------- Column 1 --------------------- //
@@ -141,7 +141,7 @@
   .entry-room-container {
     
     .entry-east-grid {
-      width: 83.3%;
+      width: 95.5rem;
       margin-left: -3.5rem;
 
        // -------------------- Column 1 --------------------- //
@@ -205,81 +205,8 @@
 
         // ---------- Evan --------- //
         .sub-section-8-2 {
-          right: -5rem;
-          width: 6.2rem;
-        }
-      }
-    }
-  }
-}
-
-// ---------------- Max-Width: 1760px ---------------- //
-
-@media screen and (max-width: 1760px) {
-  .entry-room-container {
-    
-    .entry-east-grid {
-      
-      // -------------------- Column 8 --------------------- //
-
-      .entry-east-column-8 {
-
-        // ---------- The Dream --------- //
-        .sub-section-8-1 {
-          left: 0.15rem;
-          width: 3.1rem;
-        }
-      }
-    }
-  }
-}
-
-// ---------------- Max-Width: 1730px ---------------- //
-
-@media screen and (max-width: 1730px) {
-  .entry-room-container {
-    
-    .entry-east-grid {
-      width: 85%;
-      
-      // -------------------- Column 5 --------------------- //
-      
-      .entry-east-column-5 {
-        
-        // ---- Neptunes Confront Us About the Pollution ----- //
-        .sub-section-5-1 {
-          right: -0.6rem;
-        }
-      }
-      
-      // -------------------- Column 8 --------------------- //
-
-      .entry-east-column-8 {
-
-        // ---------- Evan --------- //
-        .sub-section-8-2 {
-          right: -4.8rem;
-          width: 6.1rem;
-        }
-      }
-    }
-  }
-}
-
-// --------------- Max-Width: 1650px ---------------- //
-
-@media screen and (max-width: 1650px) {
-  .entry-room-container {
-    
-    .entry-east-grid {
-      
-      // -------------------- Column 8 --------------------- //
-
-      .entry-east-column-8 {
-
-        // ---------- The Dream --------- //
-        .sub-section-8-1 {
-          left: 0.1rem;
+          right: -4.7rem;
+          width: 6rem;
         }
       }
     }
@@ -292,107 +219,7 @@
   .entry-room-container {
     
     .entry-east-grid {
-      width: 83.5%;
-      height: 39rem;
-      grid-template: 15.2rem 23.8rem / repeat(5, 1fr);
-
-       // -------------------- Column 1 --------------------- //
-
-      .entry-east-column-1 {
-
-       // ---------- Challenges --------- //
-        .sub-section-1-1 {
-          left: 4rem;
-          width: 11.1rem;
-        }
-      }
-
-      // -------------------- Column 2 --------------------- //
-
-      .entry-east-column-2 {
-
-      // ---------- Marriage of Art and Science --------- //
-        .sub-section-2-1 {
-          left: -0.5rem;
-          width: 17.6rem;
-        }
-      }
-
-      // -------------------- Column 3 --------------------- //
-
-      .entry-east-column-3 {
-
-        // ---------- Venus --------- //
-        .sub-section-3-1 {
-          top: 1.7rem;
-          width: 14.5rem;
-        }
-      }
-
-      // -------------------- Column 4 --------------------- //
-      
-      .entry-east-column-4 {
-        
-        // ---------- It's Time --------- //
-        .sub-section-4-1 {
-          right: 0rem;
-          width: 17.3rem;
-        }
-      }
-      
-      // -------------------- Column 5 --------------------- //
-      
-      .entry-east-column-5 {
-        
-        // ---- Neptunes Confront Us About the Pollution ----- //
-        .sub-section-5-1 {
-          right: -1rem;
-          width: 17.5rem;
-        }
-      }
-      
-      // -------------------- Column 8 --------------------- //
-
-      .entry-east-column-8 {
-
-        // ---------- Evan --------- //
-        .sub-section-8-2 {
-          right: -5.1rem;
-          width: 6.2rem;
-        }
-      }
-    }
-  }
-}
-
-// ---------------- Max-Width: 1380px ---------------- //
-
-@media screen and (max-width: 1380px) {
-  .entry-room-container {
-    
-    .entry-east-grid {
-    
-      // -------------------- Column 6 --------------------- //
-      
-      .entry-east-column-6 {
-        padding-right: 1.7rem;
-      }
-      
-      // -------------------- Column 8 --------------------- //
-
-      .entry-east-column-8 {
-        padding-left: 1.7rem;
-
-        // ---------- The Dream --------- //
-        .sub-section-8-1 {
-          left: 0.2rem;
-        }
-
-        // ---------- Evan --------- //
-        .sub-section-8-2 {
-          right: -5.5rem;
-        }
-      }
+      width: 94.7rem;
     }
   }
 }
@@ -403,7 +230,7 @@
   .entry-room-container {
     
     .entry-east-grid {
-      width: 82%;
+      width: 57.9rem;
       height: 24rem;
       grid-template: 9.2rem 14.8rem / repeat(5, 1fr);
 
@@ -507,7 +334,7 @@
   .entry-room-container {
     
     .entry-east-grid {
-      width: 82%;
+      width: 36.5rem;
       height: 14.6rem;
       grid-template: 5.6rem 9rem / repeat(5, 1fr);
 

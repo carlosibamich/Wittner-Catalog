@@ -3,15 +3,10 @@
   justify-content: center;
 
   .entry-west-grid {
-    width: 82%;
-    height: 40rem;
     display: grid;
+    width: 98.2rem;
+    height: 40rem;
     grid-template: 16rem 24rem / repeat(5, 1fr);
-
-    // .section {
-    //   background-color: #fff;
-    //   border: 1px solid #f3f3f3;
-    // }
 
     // -------------------- Column 1 --------------------- //
 
@@ -127,7 +122,7 @@
   .entry-room-container {
 
     .entry-west-grid {
-      width: 83%;
+      width: 95.3rem;
 
       // -------------------- Column 1 --------------------- //
 
@@ -135,9 +130,7 @@
 
       // ---------- Arrival Through the Black Hole --------- //
         .sub-section-1-1 {
-          top: 0.1rem;
           left: 2.4rem;
-          width: 18rem;
         }
       }
 
@@ -147,9 +140,7 @@
 
         // ---------- Fast Getaway --------- //
         .sub-section-2-1 {
-          top: 1.2rem;
           left: 3.2rem;
-          width: 14.5rem;
         }
       }
 
@@ -160,7 +151,6 @@
         // ---------- Art --------- //
         .sub-section-4-1 {
           right: 5.7rem;
-          width: 11.7rem;
         }
       }
 
@@ -177,138 +167,13 @@
   }
 }
 
-// ---------------- Max-Width: 1760px ---------------- //
-
-@media screen and (max-width: 1760px) {
-  .entry-room-container {
-
-    .entry-west-grid {
-      width: 84.5%;
-
-      // -------------------- Column 2 --------------------- //
-
-      .entry-west-column-2 {
-
-        // ---------- Fast Getaway --------- //
-        .sub-section-2-1 {
-          top: 1.4rem;
-          left: 3.4rem;
-          width: 14.3rem;
-        }
-      }
-
-      // -------------------- Column 5 --------------------- //
-
-      .entry-west-column-5 {
-
-        // ---------- Mother's Turn --------- //
-        .sub-section-5-1 {
-          right: 4.7rem;
-        }
-      }
-    }
-  }
-}
-
-// ---------------- Max-Width: 1730px ---------------- //
-
-@media screen and (max-width: 1730px) {
-  .entry-room-container {
-
-    .entry-west-grid {
-      width: 85%;
-    }
-  }
-}
-
-// ---------------- Max-Width: 1400px ---------------- //
-
-@media screen and (max-width: 1400px) {
-  .entry-room-container {
-
-    .entry-west-grid {
-      height: 39rem;
-      grid-template: 15.2rem 23.8rem / repeat(5, 1fr);
-
-      // -------------------- Column 1 --------------------- //
-
-      .entry-west-column-1 {
-
-      // ---------- Arrival Through the Black Hole --------- //
-        .sub-section-1-1 {
-          top: 0rem;
-          left: 2rem;
-          width: 17.6rem;
-        }
-      }
-
-      // -------------------- Column 2 --------------------- //
-
-      .entry-west-column-2 {
-
-        // ---------- Fast Getaway --------- //
-        .sub-section-2-1 {
-          top: 1.2rem;
-          left: 3.1rem;
-          width: 14.5rem;
-        }
-      }
-
-      // -------------------- Column 3 --------------------- //
-
-    .entry-west-column-3 {
-
-      // ---------- Moving the Spotlight --------- //
-      .sub-section-3-1 {
-        top: 0.4rem;
-        width: 13.4rem;
-      }
-    }
-
-      // -------------------- Column 4 --------------------- //
-
-      .entry-west-column-4 {
-
-        // ---------- Art --------- //
-        .sub-section-4-1 {
-          top: 0rem;
-          right: 5.5rem;
-          width: 11.4rem;
-        }
-      }
-
-      // -------------------- Column 5 --------------------- //
-
-      .entry-west-column-5 {
-
-        // ---------- Mother's Turn --------- //
-        .sub-section-5-1 {
-          right: 4.5rem;
-          width: 16.1rem;
-        }
-      }
-    }
-  }
-}
-
-// ---------------- Max-Width: 1380px ---------------- //
-
-@media screen and (max-width: 1380px) {
-  .entry-room-container {
-
-    .entry-west-grid {
-      width: 85.7%;
-    }
-  }
-}
-
 // ---------------- Max-Width: 1130px ---------------- //
 
 @media screen and (max-width: 1130px) {
   .entry-room-container {
 
     .entry-west-grid {
-      width: 82%;
+      width: 57.8rem;
       height: 24rem;
       grid-template: 9.2rem 14.8rem / repeat(5, 1fr);
 
@@ -395,7 +260,7 @@
   .entry-room-container {
 
     .entry-west-grid {
-      width: 81.5%;
+      width: 36.2rem;
       height: 14.6rem;
       grid-template: 5.6rem 9rem / repeat(5, 1fr);
 

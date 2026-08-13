@@ -5,15 +5,11 @@
   align-items: center;
   
   .alcove-south-grid {
-    width: 74%;
-    height: 39rem;
     display: grid;
+    width: 88.7rem;
+    height: 39rem;
     grid-template-columns: 1fr 1.27fr 1fr;
     gap: 0;
-
-    // .section {
-    //   border: 1px solid #d5d5d5;
-    // }
 
     //----------------- COLUMN 1 ------------------//
 
@@ -236,59 +232,13 @@
 
 // ======================= Media Queries ======================= //
 
-// --------------- Max-Width: 1800px --------------- //
-
-@media screen and (max-width: 1800px) {
-  .alcove-south-container {
-
-    .alcove-south-grid {
-      width: 75%;
-
-    }
-  }
-}
-
-// --------------- Max-Width: 1760px --------------- //
-
-@media screen and (max-width: 1760px) {
-  .alcove-south-container {
-
-    .alcove-south-grid {
-      // width: 75%;
-
-      .alcove-south-column-3 { 
-        // ---------- You Have to do Better than That --------- //
-        .sub-section-3-5 {
-          left: 15.4rem;
-        }
-            
-          // ---------- Choose A Direction --------- //
-          .sub-section-3-6 {
-          left: 15.4rem;
-        }
-      }
-    }
-  }
-}
-
-// --------------- Max-Width: 1400px --------------- //
-
-@media screen and (max-width: 1400px) {
-  .alcove-south-container {
-
-    .alcove-south-grid {
-      width: 74.5%;
-    }
-  }
-}
-
 // --------------- Max-Width: 1130px --------------- //
 
 @media screen and (max-width: 1130px) {
   .alcove-south-container {
 
     .alcove-south-grid {
-      width: 75%;
+      width: 53rem;
       height: 24rem;
       grid-template-columns: 1fr 1.15fr 1fr;
 
@@ -464,7 +414,7 @@
   .alcove-south-container {
 
     .alcove-south-grid {
-      width: 76%;
+      width: 33.8rem;
       height: 14.6rem;
       grid-template-columns: 1fr 1.15fr 1fr;
 
