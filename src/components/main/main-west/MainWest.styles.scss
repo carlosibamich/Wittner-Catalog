@@ -6,7 +6,7 @@
   .main-room-west-grid {
     display: grid;
     grid-template: 16rem 24rem / repeat(5, 1fr);
-    width: 81%;
+    width: 97.2rem;
     height: 40rem;
 
     // -------------------- Column 1 --------------------- //
@@ -131,7 +131,7 @@
   .main-room-west-container {
     
     .main-room-west-grid {
-      width: 83.5%;
+      width: 95.8rem;
     }
   }
 }
@@ -142,7 +142,6 @@
   .main-room-west-container {
     
     .main-room-west-grid {
-      width: 84%;
 
       // -------------------- Column 1 --------------------- //
 
@@ -150,7 +149,7 @@
 
       // ---------- Probed --------- //
         .sub-section-1-1 {
-          left: 4.6rem;
+          left: 4.3rem;
         }
       }
 
@@ -160,92 +159,7 @@
 
         // ---------- Catch and Release --------- //
         .sub-section-5-1 {
-          right: 4.3rem;
-        }
-      }
-    }
-  }
-}
-
-// --------------- Max-Width: 1728px ----------------- //
-
-@media screen and (max-width: 1728px) {
-  .main-room-west-container {
-    
-    .main-room-west-grid {
-      width: 87%;
-    }
-  }
-}
-
-// --------------- Max-Width: 1400px ----------------- //
-
-@media screen and (max-width: 1400px) {
-  .main-room-west-container {
-    
-    .main-room-west-grid {
-      width: 86%;
-      height: 39rem;
-      grid-template: 15.2rem 23.8rem / repeat(5, 1fr);
-
-      // -------------------- Column 1 --------------------- //
-
-      .west-column-1 {
-
-      // ---------- Probed --------- //
-        .sub-section-1-1 {
-          left: 4.8rem;
-          width: 11.3rem;
-        }
-      }
-
-      // -------------------- Column 2 --------------------- //
-
-      .west-column-2 {
-
-      // ---------- Playing for the Devil's Ring --------- //
-        .sub-section-2-1 {
-          left: 0.4rem;
-          width: 17.3rem;
-        }
-      }
-
-      // -------------------- Column 3 --------------------- //
-
-      .west-column-3 {
-
-        .exit-sign-container {
-          top: 11.5rem;
-        }
-        
-
-        // ---------- Another Day at the Beach --------- //
-        .sub-section-3-1 {
-          width: 14.4rem;
-        }
-      }
-
-      // -------------------- Column 4 --------------------- //
-
-      .west-column-4 {
-
-
-        // ---------- Mutiny --------- //
-        .sub-section-4-1 {
-          right: -0.7rem;
-          width: 18.2rem;
-        }
-      }
-
-      // -------------------- Column 5 --------------------- //
-
-      .west-column-5 {
-
-
-        // ---------- Catch and Release --------- //
-        .sub-section-5-1 {
-          right: 4.2rem;
-          width: 11.18rem;
+          right: 4rem;
         }
       }
     }
@@ -256,16 +170,11 @@
 
 @media (max-width: 1130px) {
   .main-room-west-container {
-    margin-top: 0dvh;
 
     .main-room-west-grid {
-      width: 82%;
+      width: 57.8rem;
       height: 24rem;
       grid-template-rows: 9.2rem 14.8rem;
-
-      // .section {
-      //   border: 1px solid #d5d5d5;
-      // }
 
       // -------------------- Column 1 --------------------- //
 
@@ -363,7 +272,7 @@
   .main-room-west-container {
 
     .main-room-west-grid {
-      width: 82%;
+      width: 36.2rem;
       height: 14.6rem;
       grid-template-rows: 5.6rem 9rem;
 
@@ -450,4 +359,3 @@
     }
   }
 }
-

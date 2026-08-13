@@ -6,16 +6,10 @@
   overflow: hidden;
 
   .main-room-north-exit-grid {
-    position: relative;
-    width: 82%;
-    height: 38rem;
     display: grid;
+    width: 98.4rem;
+    height: 38rem;
     grid-template-columns: 2.4fr 1fr 1fr 1.9fr;
-
-    // .section {
-    //   background-color: #fff;
-    //   border: 1px solid #f3f3f3;
-    // }
 
     // -------------------- Column 1 --------------------- //
 
@@ -309,11 +303,13 @@
   }
 }
 
+// -------------------- Max-Width: 1728px --------------------- //
+
 @media screen and (max-width: 1728px) {
   .main-room-container {
 
     .main-room-north-exit-grid {
-      width: 85%;
+      width: 94.6rem;
 
       // -------------------- Column 1 --------------------- //
 
@@ -343,10 +339,9 @@
 
 @media screen and (max-width: 1400px) {
   .main-room-container {
-    margin-top: 1.5dvh;
 
     .main-room-north-exit-grid {
-      width: 83%;
+      width: 93.3rem;
 
       .north-exit-column-2 {
 
@@ -408,10 +403,9 @@
 
 @media screen and (max-width: 1130px) {
   .main-room-container {
-    margin-top: 0dvh;
 
     .main-room-north-exit-grid {
-      width: 81%;
+      width: 57.2rem;
       height: 24rem;
 
       // -------------------- Column 1 --------------------- //
@@ -554,7 +548,7 @@
   .main-room-container {
 
     .main-room-north-exit-grid {
-      width: 83%;
+      width: 36.8rem;
       height: 14.6rem;
 
       // -------------------- Column 1 --------------------- //

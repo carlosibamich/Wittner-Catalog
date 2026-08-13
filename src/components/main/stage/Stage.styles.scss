@@ -4,9 +4,9 @@
   justify-content: center;
 
   .main-room-stage-grid {
-    width: 89%;
-    height: 39rem;
     display: grid;
+    width: 106.8rem;
+    height: 39rem;
     grid-template: 30rem 9rem / 1.6fr 6.2fr 3.5fr 5.4fr 1.3fr;
 
     //----------------- COLUMN 1 ------------------//
@@ -373,6 +373,7 @@
   .main-room-stage-container {
 
     .main-room-stage-grid {
+      width: 106rem;
       grid-template-columns: 1.6fr 6.3fr 3.5fr 5.4fr 1.2fr;
 
       .stage-column-4 {
@@ -454,6 +455,7 @@
   .main-room-stage-container {
 
     .main-room-stage-grid {
+      width: 105rem;
 
       //----------------- COLUMN 2 ------------------//
     
@@ -489,6 +491,7 @@
   .main-room-stage-container {
 
     .main-room-stage-grid {
+      width: 103.8rem;
 
       //----------------- COLUMN 2 ------------------//
     
@@ -544,7 +547,7 @@
   .main-room-stage-container {
 
     .main-room-stage-grid {
-      width: 88%;
+      width: 99rem;
 
       //----------------- COLUMN 2 ------------------//
     
@@ -647,17 +650,6 @@
   }
 }
 
-// -------------------- Max-Width: 1380px --------------------- //
-
-@media screen and (max-width: 1380px) {
-  .main-room-stage-container {
-
-    .main-room-stage-grid {
-      width: 88.8%;
-    }
-  }
-}
-
 // -------------------- Max-Width: 1185px --------------------- //
 
 @media screen and (max-width: 1185px) {
@@ -670,7 +662,7 @@
 
         // ---------- River Styx --------- //
         .sub-section-2-5 {
-          right: 7rem;
+          right: 7.1rem;
         }
 
         // ---------- Dorothy --------- //
@@ -679,29 +671,10 @@
         }
 
         .alcove-entrance-container {
-          right: 5rem;
+          right: 5.2rem;
         }
       }
       
-    }
-  }
-}
-
-// -------------------- Max-Width: 1035px --------------------- //
-
-@media screen and (max-width: 1035px) {
-  .main-room-stage-container {
-
-    .main-room-stage-grid {
-
-      //----------------- COLUMN 2 ------------------//
-    
-      .stage-column-2 {
-
-        .alcove-entrance-container {
-          top: 11.8rem;
-        }
-      }
     }
   }
 }
@@ -712,7 +685,7 @@
   .main-room-stage-container {
     
     .main-room-stage-grid {
-      width: 85%;
+      width: 60rem;
       height: 24rem;
       grid-template: 18.8rem 5.2rem / 1.6fr 6.3fr 3.4fr 5.5fr 1.1fr;
 
@@ -784,7 +757,7 @@
       
         // ---------- River Styx --------- //
         .sub-section-2-5 {
-          top: 0.8rem;
+          top: 1rem;
           right: 4.3rem;
           width: 7.2rem;
         }
@@ -797,7 +770,7 @@
         }
 
         .alcove-entrance-container {
-          top: 7.5rem;
+          top: 7.4rem;
           right: 3.15rem;
           width: 9.6rem;
           height: 12rem;
@@ -970,7 +943,7 @@
   .main-room-stage-container {
     
     .main-room-stage-grid {
-      width: 86%;
+      width: 38.2rem;
       height: 14.6rem;
       grid-template: 11.4rem 3.2rem / 1.6fr 6.3fr 3.4fr 5.5fr 1.1fr;
 
