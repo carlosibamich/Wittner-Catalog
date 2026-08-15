@@ -19,7 +19,8 @@
       background: transparent;
       border: none;
       position: relative;
-      z-index: 50;
+      // z-index: 50;
+      z-index: 9999;
       outline: none;
       transition: transform 0.25s ease-in-out;
 
@@ -80,7 +81,8 @@
     bottom: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 30;
+    // z-index: 30;
+    z-index: 9997;
     
     background-color: rgba(0, 0, 0, 0.4); // Dark tint overlay layer
     -webkit-backdrop-filter: blur(4px);    // Blurs everything under the layer
@@ -111,7 +113,8 @@
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 3px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    z-index: 40;
+    // z-index: 40;
+    z-index: 9998;
     transform-origin: top;
     transition: transform 0.25s ease-out, opacity 0.25s ease-out, visibility 0.25s ease-out;
     display: block !important;
@@ -397,7 +400,7 @@
         }
 
         &.is-open {
-          transform: translateX(8.2rem);
+          transform: translateX(7.4rem);
         }
       }
 
@@ -443,7 +446,7 @@
       .burger-btn {
 
         &.is-open {
-          transform: translateX(8.5rem);
+          transform: translateX(7.8rem);
         }
       }
 
@@ -467,7 +470,7 @@
 
 // --------------- Max-Height: 690px and Max-Width 1000px ---------------- //
 
-@media screen and (max-height: 690px) and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .mobile-menu-container {
 
     .burger-menu-box {
@@ -500,9 +503,9 @@
   }
 }
 
-// --------------- Max-Height: 690px and Max-Width 940px ---------------- //
+// --------------- Max-Width 940px ---------------- //
 
-@media screen and (max-height: 690px) and (max-width: 940px) {
+@media screen and (max-width: 940px) {
   .mobile-menu-container {
 
     .burger-menu-box {
@@ -546,9 +549,9 @@
   }
 }
 
-// --------------- Max-Height: 690px and Max-Width 920px ---------------- //
+// --------------- Max-Width 920px ---------------- //
 
-@media screen and (max-height: 690px) and (max-width: 920px) {
+@media screen and (max-width: 920px) {
   .mobile-menu-container {
 
     .burger-menu-box {
@@ -557,7 +560,7 @@
       .burger-btn {
 
         &.is-open {
-          transform: translateX(7.6rem);
+          transform: translateX(7.5rem);
         }
       }
     }
@@ -582,7 +585,7 @@
         width: 3rem;
 
         &.is-open {
-          transform: translateX(8rem);
+          // transform: translateX(8rem);
         }
       }
 
@@ -716,7 +719,7 @@
         }
 
         &.is-open {
-          transform: translateX(7.7rem);
+          transform: translateX(8rem);
         }
       }
 
@@ -778,7 +781,7 @@
         }
 
         &.is-open {
-          transform: translateX(4.2rem);
+          transform: translateX(4.8rem);
 
           .line-top {
             transform: translateY(7px) rotate(45deg);
@@ -840,9 +843,9 @@
   }
 }
 
-// --------------- Max-Width 640px ---------------- //
+// --------------- Max-Width 660px ---------------- //
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 660px) {
   .mobile-menu-container {
 
     .burger-menu-box {
@@ -854,6 +857,13 @@
         }
       }
     }
+  }
+}
+
+// --------------- Max-Width 640px ---------------- //
+
+@media screen and (max-width: 640px) {
+  .mobile-menu-container {
 
     .dropdown-menu {
 

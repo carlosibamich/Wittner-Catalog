@@ -305,9 +305,39 @@ button.toggle-box {
   }
 }
 
+// ---------------- Max-Width: 1000px ---------------- //
+
+@media screen and (max-width: 1000px) {
+  button.toggle-box {
+
+    .screen-toggle {
+      flex-direction: row-reverse;
+      width: 7.8rem;
+      height: 2.5rem;
+
+      .screen-icon {
+        color: var(--dark-grey);
+        width: 2.5rem;
+        font-size: 2.4rem;
+      }
+
+      .screen-text {
+        align-items: flex-end;
+        width: 5.3rem;
+
+        p {
+          font-size: 1.06rem;
+          color: var(--copper-yellow);
+          line-height: 1.05rem;
+        }
+      } 
+    }
+  }
+}
+
 // ----------------  Max-Width: 880px ---------------- //
 
-@media screen and (max-height: 690px) and (max-width: 880px) {
+@media screen and (max-width: 880px) {
   button.toggle-box {
 
     .screen-toggle {

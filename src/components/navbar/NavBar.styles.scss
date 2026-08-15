@@ -47,14 +47,6 @@
 
 // ===================== Media Queries ===================== //
 
-// -------------- Min-Height: 940px and Max-Width 1930px -------------- //
-
-@media screen and (min-height: 940px) and (max-width: 1930px){
-  .main-nav-options {
-    height: 8dvh;
-  }
-}
-
 // -------------- Max-Width 1800px -------------- //
 
 @media screen and (max-width: 1800px) {
@@ -71,147 +63,11 @@
   }
 }
 
-// -------------- Min-Height: 980px and Max-Width 1800px -------------- //
-
-@media screen and (min-height: 980px) and (max-width: 1800px) {
-  .main-nav-options {
-    height: 6.8rem;
-    padding-top: 1.2rem;
-
-
-    .navlink-container {
-      margin: 0 1.76rem;
-
-      .nav-link {
-        font-size: 1.22rem;
-      }
-    }
-  }
-}
-
-// --------------- Max-Width 1760px ---------------- //
-
-@media screen and (max-width: 1760px) {
-  .main-nav-options {
-    width: 54rem;
-    height: 6.1dvh;
-    padding-top: 0dvh;
-    padding-bottom: 1.1dvh;
-
-    .navlink-container {
-      margin: 0 1.6rem;
-
-      .nav-link {
-        font-size: 1.23rem;
-      }
-    }
-  }
-}
-
-// -------------- Max-Width 1730px -------------- //
-
-@media screen and (max-width: 1730px) {
-  .main-nav-options {
-    width: 56rem;
-    height: 8.5dvh;
-    padding-top: 0.5dvh;
-    padding-bottom: 0dvh;
-
-    .navlink-container {
-      margin: 0 1.65rem;
-
-      .nav-link {
-        font-size: 1.28rem;
-      }
-    }
-  }
-}
-
-// --------------- Min-Height: 1000px and Max-Width 1730px ---------------- //
-
-@media screen and (min-height: 1000px) and (max-width: 1730px) {
-  .main-nav-options {
-    padding-top: 0.8dvh;
-  }
-}
-
-// -------------- Max-Width 1610px -------------- //
-
-@media screen and (max-width: 1610px) {
-  .main-nav-options {
-
-    .navlink-container {
-      margin: 0 1.65rem;
-
-      .nav-link {
-        font-size: 1.27rem;
-      }
-    }
-  }
-}
-
-// --------------- Min-Height: 980px and Max-Width 1610px ---------------- //
-
-@media screen and (min-height: 980px) and (max-width: 1610px) {
-  .main-nav-options {
-    height: 8dvh;
-    padding-top: 0.8dvh;
-  }
-}
-
-// -------------- Max-Width 1550px -------------- //
-
-@media screen and (max-width: 1550px) {
-  .main-nav-options {
-    height: 8.3dvh;
-
-    .navlink-container {
-
-      .nav-link {
-        font-size: 1.29rem;
-      }
-    }
-  }
-}
-
-// -------------- Min-Height: 850px and Max-Width 1550px -------------- //
-
-@media screen and (min-height: 850px) and (max-width: 1550px) {
-  .main-nav-options {
-    height: 8.8dvh;
-    padding-top: 1dvh;
-  }
-}
-
-// -------------- Min-Height: 940px and Max-Width 1550px -------------- //
-
-@media screen and (min-height: 940px) and (max-width: 1550px) {
-  .main-nav-options {
-    height: 8.2dvh;
-  }
-}
-
-// --------------  Max-Width 1500px -------------- //
-
-@media screen and (max-width: 1500px) {
-  .main-nav-options {
-    height: 8.1dvh;
-  }
-}
-
-// --------------  Min-Height 830px and Max-Width 1500px -------------- //
-
-@media screen and (min-height: 830px) and (max-width: 1500px) {
-  .main-nav-options {
-    height: 8.5dvh;
-  }
-}
-
 // -------------- Max-Width 1440px -------------- //
 
 @media screen and (max-width: 1440px) {
   .main-nav-options {
-    width: 57rem;
+    width: 58rem;
 
     .navlink-container {
 
@@ -222,81 +78,11 @@
   }
 }
 
-// -------------- Max-Width 1400px -------------- //
-
-@media screen and (max-width: 1400px) {
-  .main-nav-options {
-    width: 58rem;
-    // border-bottom: 2px solid var(--copper-yellow);
-
-    .navlink-container {
-
-      .nav-link {
-        font-size: 1.35rem;
-      }
-    }
-  }
-}
-
-// -------------- Min-Height: 755px and Max-Width: 1400px -------------- //
-
-@media screen and (min-height: 755px) and (max-width: 1400px) {
-  .main-nav-options {
-    height: 8.6dvh;
-  }
-}
-
-// -------------- Min-Height: 855px and Max-Width: 1400px -------------- //
-
-@media screen and (min-height: 855px) and (max-width: 1400px) {
-  .main-nav-options {
-    height: 8dvh;
-  }
-}
-
-// -------------- Max-Width 1380px -------------- //
-
-@media screen and (max-width: 1380px) {
-  .main-nav-options {
-    width: 57rem;
-    height: 8.2dvh;
-    border-bottom: 2.5px solid var(--copper-yellow);
-
-    .navlink-container {
-      margin: 0 1.6rem;
-      padding-top: 0.4rem;
-    }
-  }
-}
-
-// -------------- Min-Height: 960px and Max-Width 1380px -------------- //
-
-@media screen and (min-height: 960px) and (max-width: 1380px) {
-  .main-nav-options {
-
-    .navlink-container {
-      padding-top: 0.4rem;
-    }
-  }
-}
-
-// -------------- Min-Height: 1000px and Max-Width 1380px -------------- //
-
-@media screen and (min-height: 1000px) and (max-width: 1380px) {
-  .main-nav-options {
-    // height: 7.5dvh;
-
-    .navlink-container {
-      padding-top: 0.7rem;
-    }
-  }
-}
-
 // -------------- Max-Width 1280px -------------- //
 
 @media screen and (max-width: 1280px) {
   .main-nav-options {
-    width: 58rem;
+    width: 59rem;
 
     .navlink-container {
       margin: 0 1.55rem;
@@ -308,19 +94,10 @@
   }
 }
 
-// --------------- Min-Height: 770px and Max-Width 1280px ---------------- //
-
-@media screen and (min-height: 770px) and (max-width: 1280px) {
-  .main-nav-options {
-    height: 8.2dvh;
-  }
-}
-
 // -------------- Max-Width 1220px -------------- //
 
 @media screen and (max-width: 1220px) {
   .main-nav-options {
-    height: 8.8dvh;
 
     .navlink-container {
       margin: 0 1.45rem;
@@ -341,7 +118,7 @@
     .navlink-container {
 
       .nav-link {
-        font-size: 1.45rem;
+        font-size: 1.46rem;
       }
     }
   }
@@ -369,28 +146,14 @@
 
 @media screen and (max-width: 1080px) {
   .main-nav-options {
+    width: 39rem;
+    padding-top: 0.3rem;
 
     .navlink-container {
-      margin: 0 0.9rem;
+      margin: 0 0.92rem;
 
       .nav-link {
-        font-size: 0.95rem;
-      }
-    }
-  }
-}
-
-// -------------- Max-Width 1000px -------------- //
-
-@media screen and (max-width: 1000px) {
-  .main-nav-options {
-    width: 39.8rem;
-
-    .navlink-container {
-      margin: 0 0.98rem;
-      
-      .nav-link {
-        font-size: 0.98rem;
+        font-size: 0.97rem;
       }
     }
   }

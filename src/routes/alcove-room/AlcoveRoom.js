@@ -59,7 +59,7 @@ const AlcoveRoom = () => {
   const location = useLocation();
   
   return (
-    <div key={location.path === "alove" ? "alcove-room" : "other"} className="page-fade-in carousel-container">
+    <div key={location.path === "alcove" ? "alcove-room" : "other"} className="page-fade-in carousel-container">
       <div className="controls">
         {/* ----------- < Previous Button ---------- */}
         <button className="arrow" onClick={handlePrev}>

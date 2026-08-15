@@ -2,6 +2,8 @@ import { useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useSnapCarousel } from 'react-snap-carousel';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
+import Dropdown from '../../components/dropdown/Dropdown';
+import ScreenToggleButton from '../../components/screen-toggle-button/ScreenToggleButton';
 import MainNorth from '../../components/main/main-north/MainNorth';
 import NorthExit from '../../components/main/main-north-exit/NorthExit';
 import Stage from '../../components/main/stage/Stage';
@@ -65,13 +67,11 @@ const MainRoom = () => {
   
   return (
     <div key={location.index} className="page-fade-in carousel-container">
-      <div className="controls">
-        {/* ----------- < Previous Button ---------- */}
+      {/* <div className="controls">
         <button className="arrow" onClick={handlePrev}>
           <FaAngleLeft />
         </button>
 
-        { /* -------- Pagination -------- */}
         <div className="labels-container">
           {labels.map((word, i) => (
             <button 
@@ -83,12 +83,41 @@ const MainRoom = () => {
             </button>
           ))}
         </div>
-        {/* -------- End Pagination -------- */}
 
-        {/* ----------- Next Button ---------- */}
         <button className="arrow" onClick={handleNext}>
           <FaAngleRight />
         </button>
+      </div> */}
+      <div className="controls-bar">
+        <div className="dropdown">
+          <Dropdown />
+        </div>
+        <div className="controls">
+          {/* ----------- < Previous Button ---------- */}
+          <button className="arrow" onClick={handlePrev}>
+            <FaAngleLeft />
+          </button>
+
+          { /* -------- Pagination -------- */}
+          <div className="labels-container">
+            {labels.map((word, i) => (
+              <button 
+                key={i} 
+                onClick={() => goTo(i)}
+                className={`page-button ${activePageIndex === i ? 'active-button' : ''}`}
+              >
+                {word}
+              </button>
+            ))}
+          </div>
+          {/* ----------- Next Button ---------- */}
+          <button className="arrow" onClick={handleNext}>
+            <FaAngleRight />
+          </button>
+        </div>
+        <div className="screen-toggle-button">
+          <ScreenToggleButton />
+        </div>
       </div>
       <ul ref={scrollRef} className="gallery-container">
         {mainRoomSlides.map((item) => (
