@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect } from 'react';
 import { directory } from '../../pages/directory/directory';
 import { ReactComponent as Play } from '../../assets/svg/play.svg'
 import { ReactComponent as Pause } from '../../assets/svg/pause.svg'
@@ -6,6 +6,31 @@ import './Audio.styles.scss';
 
 const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
   const audioRef = useRef(null);
+
+  const handleToggleClick = (e) => {
+    // Prevent the click event from bubbling up and breaking your grid layouts
+    e.stopPropagation(); 
+
+    if (!audioRef.current) return;
+
+    if (isPlaying) {
+      // 1. If currently playing, stop it immediately
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    } else {
+      // 2. iOS UNLOCK: Call .play() immediately inside the main user-gesture execution stack!
+      const playPromise = audioRef.current.play();
+      
+      if (playPromise !== undefined) {
+        playPromise.catch((error) => {
+          console.log("iOS Audio Engine caught restriction:", error);
+        });
+      }
+    }
+
+    // 3. Notify the parent grid state tracker to flip the UI icon safely
+    onToggle();
+  };
 
   useEffect (() => {
     if (!audioRef.current) return;
@@ -19,8 +44,16 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
 
   return (
     <span className="audio-card">
-      <audio ref={audioRef} src={item.audio} onEnded={onEnded} />
-      <button onClick={onToggle}>
+      <audio 
+        ref={audioRef} 
+        src={item.audio} 
+        onEnded={onEnded}
+        preload="auto"
+      />
+      {/* <button onClick={onToggle}>
+        {isPlaying ? <Pause /> : <Play />}
+      </button> */}
+      <button onClick={handleToggleClick}>
         {isPlaying ? <Pause /> : <Play />}
       </button>
     </span>

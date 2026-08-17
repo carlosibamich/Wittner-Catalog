@@ -189,7 +189,9 @@
   }
 }
 
-// ====================== Media Queries ====================== //
+// ============================================
+// --------------- Media Queries --------------
+// ============================================
 
 // --------- Mobile Menu is restricted on larger screens inside of the Navigation Styles -------- //
 
@@ -635,18 +637,6 @@
         .burger-line {
           width: 27px;
         }
-
-        &.is-open {
-          transform: translateX(4.5rem);
-
-          .line-top {
-            transform: translateY(7px) rotate(45deg);
-          }
-          
-          .line-bottom {
-            transform: translateY(-7px) rotate(-45deg);
-          }
-        }
       }
 
       .current-title-box {
@@ -656,16 +646,22 @@
         }
       }
     }
+  }
 
-    .dropdown-menu {
+  .is-open-portal {
+    top: 1.6rem;
+    transform: translateX(2.2rem);
+  }
+
+  .dropdown-menu {
       width: 10.8rem;
 
       .spacer {
-        height: 16.2dvh;
+        height: 18.6dvh;
       }
 
       .menu-option {
-        padding: 0.4rem 0.6rem;
+        padding: 2dvh 0.6rem;
         font-size: 0.96rem;
 
         &.active {
@@ -677,83 +673,26 @@
         }
       }
     }
-  }
-}
-
-// --------------- Max-Height: 240px and Max-Width 710px ---------------- //
-
-@media screen and (max-height: 240px) and (max-width: 710px) {
-  .mobile-menu-container {
-
-    .dropdown-menu {
-
-      .spacer {
-        height: 15dvh;
-      }
-
-      .menu-option {
-        padding: 0.22rem 0.6rem;
-        font-size: 0.85rem;
-      }
-    }
-  }
 }
 
 // --------------- Max-Width 640px ---------------- //
 
 @media screen and (max-width: 640px) {
-  .mobile-menu-container {
+  .is-open-portal {
+    transform: translateX(2rem);
+  }
 
-    .dropdown-menu {
+  .dropdown-menu {
 
-      .spacer {
-        height: 17.2dvh;
-      }
+    .menu-option {
+      font-size: 0.98rem;
 
-      .menu-option {
-        padding: 0.35rem 0.6rem;
-        font-size: 0.98rem;
+      &.active {
 
-        &.active {
-
-          &::before {
-            top: 7px;
-            bottom: 7px;
-          }
+        &::before {
+          top: 7px;
+          bottom: 7px;
         }
-      }
-    }
-  }
-}
-
-// --------------- Max-Height: 216px and Max-Width 640px ---------------- //
-
-@media screen and (max-height: 216px) and (max-width: 640px) {
-  .mobile-menu-container {
-
-    .dropdown-menu {
-
-      .spacer {
-        height: 15dvh;
-      }
-
-      .menu-option {
-        padding: 0.22rem 0.6rem;
-        font-size: 0.85rem;
-      }
-    }
-  }
-}
-
-// --------------- Max-Width 620px ---------------- //
-
-@media screen and (max-width: 620px) {
-  .mobile-menu-container {
-
-    .dropdown-menu {
-
-      .spacer {
-        height: 17.5dvh;
       }
     }
   }
@@ -762,40 +701,17 @@
 // --------------- Max-Width 600px ---------------- //
 
 @media screen and (max-width: 600px) {
-  .mobile-menu-container {
+  .dropdown-menu {
 
-    .dropdown-menu {
+    .menu-option {
+      font-size: 1.02rem;
 
-      .menu-option {
-        padding: 0.32rem 0.6rem;
-        font-size: 1.02rem;
+      &.active {
 
-        &.active {
-
-          &::before {
-            top: 6px;
-            bottom: 6px;
-          }
+        &::before {
+          top: 6px;
+          bottom: 6px;
         }
-      }
-    }
-  }
-}
-
-// --------------- Max-Height: 202px and Max-Width 600px ---------------- //
-
-@media screen and (max-height: 202px) and (max-width: 600px) {
-  .mobile-menu-container {
-
-    .dropdown-menu {
-
-      .spacer {
-        height: 15dvh;
-      }
-
-      .menu-option {
-        padding: 0.22rem 0.6rem;
-        font-size: 0.85rem;
       }
     }
   }
