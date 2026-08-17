@@ -843,20 +843,25 @@ div.carousel-container {
     min-height: 93.3dvh;
 
     .controls-bar {
+      position: relative;
       display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
       height: 4rem;
       margin-top: 2.5dvh;
 
       .dropdown {
+        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
+        left: 5rem;
         height: 4rem;
         width: auto;
       }
 
       .controls {
-        width: 76rem;
 
         .arrow {
           font-size: 2.25rem;
@@ -872,10 +877,11 @@ div.carousel-container {
       }
 
       .screen-toggle-button {
+        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: auto;
+        right: 5rem;
         height: 4rem;
       }
     }
@@ -1289,7 +1295,7 @@ div.carousel-container {
     .controls-bar {
 
       .controls {
-        width: 75rem;
+        width: 58rem;
       }
     }
   }
@@ -1528,7 +1534,6 @@ div.carousel-container {
       height: 3rem;
 
       .controls {
-        width: 45rem;
         height: 3rem;
         
         .arrow {
@@ -1650,7 +1655,13 @@ div.carousel-container {
 
     .controls-bar {
 
+      .dropdown {
+        left: 4.7rem;
+        height: 3rem;
+      }
+
       .controls {
+        margin-left: 2dvw;
 
         .arrow {
           font-size: 1.48rem;
@@ -1663,6 +1674,11 @@ div.carousel-container {
             font-size: 1.12rem;
           }
         }
+      }
+
+      .screen-toggle-button {
+        right: 4.7rem;
+        height: 3rem;
       }
     }
   }
@@ -1766,7 +1782,6 @@ div.carousel-container {
     .controls-bar {
 
       .controls {
-        width: 44rem;
 
         .arrow {
           font-size: 1.6rem;
@@ -1775,7 +1790,7 @@ div.carousel-container {
         .labels-container {
 
           .page-button {
-            margin: 0 0.72rem;
+            margin: 0 0.68rem;
             font-size: 1.18rem;
           }
         }
@@ -1939,7 +1954,8 @@ div.carousel-container {
       margin-top: 1rem;
 
       .controls {
-        width: 43.8rem;
+        width: 41rem;
+        margin-left: 3.3dvw;
 
         .arrow {
           font-size: 1.6rem;
@@ -2132,7 +2148,7 @@ div.carousel-container {
     .controls-bar {
 
       .controls {
-        width: 43rem;
+        width: 40rem;
 
         .arrow {
           font-size: 1.7rem;
@@ -2412,8 +2428,8 @@ div.carousel-container {
       margin-top: 3.2dvh;
 
       .controls {
-        width: 39rem;
-        margin-left: 1.8rem;
+        width: 39.5rem;
+        margin-left: 4dvw;
 
         .arrow {
           font-size: 1.8rem;
@@ -2537,7 +2553,7 @@ div.carousel-container {
 
       .controls {
         width: 45rem;
-        margin-left: 0rem;
+        margin-left: 0;
 
         .arrow {
           font-size: 2rem;
@@ -2823,6 +2839,11 @@ div.carousel-container {
       height: 2rem;
       margin-top: 0.5rem;
 
+      .dropdown {
+        left: 3.2rem;
+        height: 2rem;
+      }
+
       .controls {
         width: 34.5rem;
         height: 2rem;
@@ -2838,6 +2859,11 @@ div.carousel-container {
             font-size: 0.98rem;
           }
         }
+      }
+
+      .screen-toggle-button {
+        right: 3.2rem;
+        height: 2rem;
       }
     }
 
@@ -3076,7 +3102,7 @@ div.carousel-container {
     .controls-bar {
 
       .controls {
-        width: 33.5rem;
+        width: 32rem;
 
         .arrow {
           font-size: 1.35rem;

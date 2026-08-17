@@ -67,27 +67,6 @@ const MainRoom = () => {
   
   return (
     <div key={location.index} className="page-fade-in carousel-container">
-      {/* <div className="controls">
-        <button className="arrow" onClick={handlePrev}>
-          <FaAngleLeft />
-        </button>
-
-        <div className="labels-container">
-          {labels.map((word, i) => (
-            <button 
-              key={i} 
-              onClick={() => goTo(i)}
-              className={`page-button ${activePageIndex === i ? 'active-button' : ''}`}
-            >
-              {word}
-            </button>
-          ))}
-        </div>
-
-        <button className="arrow" onClick={handleNext}>
-          <FaAngleRight />
-        </button>
-      </div> */}
       <div className="controls-bar">
         <div className="dropdown">
           <Dropdown />

@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { directory } from '../../pages/directory/directory';
+import Dropdown from '../../components/dropdown/Dropdown';
+import ScreenToggleButton from '../../components/screen-toggle-button/ScreenToggleButton';
 import Audio from '../../components/audio/Audio'
 import ImageModal from '../../pages/image-modal/ImageModal';
 import WittnerLogo from '../../assets/logo/wittner-logo.PNG';
@@ -36,8 +38,18 @@ const Catalog = () => {
 
   return ( 
     <div key={location.path === "catalog-list" ? "catalog" : "other"} className="list-container page-fade-in">
-      <div className="wittner-logo">
-        <img src={WittnerLogo} alt="Museum Logo" />
+      <div className="catalog-controls-bar">
+        <div className="catalog-dropdown">
+          <Dropdown />
+        </div>
+        <div className="logo-container">
+          <div className="wittner-logo">
+            <img src={WittnerLogo} alt="Museum Logo" />
+          </div>
+        </div>
+        <div className="catalog-screen-toggle">
+          <ScreenToggleButton />
+        </div>
       </div>
       <ul className="list-grid">
         {directory.map((item, i) => (

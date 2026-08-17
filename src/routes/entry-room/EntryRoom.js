@@ -2,6 +2,8 @@ import { useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useSnapCarousel } from 'react-snap-carousel';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
+import Dropdown from '../../components/dropdown/Dropdown';
+import ScreenToggleButton from '../../components/screen-toggle-button/ScreenToggleButton';
 import EntryNorth from '../../components/entry/entry-north/EntryNorth';
 import EntryEast from '../../components/entry/entry-east/EntryEast';
 import EntrySouth from '../../components/entry/entry-south/EntrySouth';
@@ -60,30 +62,37 @@ const EntryRoom = () => {
 
   return (
     <div key={location.path === "entry" ? "entry-room" : "other"} className="page-fade-in carousel-container">
-      <div className="controls">
-        {/* ----------- < Previous Button ---------- */}
-        <button className="arrow" onClick={handlePrev}>
-          <FaAngleLeft />
-        </button>
-
-        { /* -------- Pagination -------- */}
-        <div classname="labels-container">
-          {labels.map((word, i) => (
-            <button 
-              key={i} 
-              onClick={() => goTo(i)}
-              className={`page-button ${activePageIndex === i ? 'active-button' : ''}`}
-            >
-              {word}
-            </button>
-          ))}
+      <div className="controls-bar">
+        <div className="dropdown">
+          <Dropdown />
         </div>
-        {/* -------- End Pagination -------- */}
+        <div className="controls">
+          {/* ----------- < Previous Button ---------- */}
+          <button className="arrow" onClick={handlePrev}>
+            <FaAngleLeft />
+          </button>
 
-        {/* ----------- Next Button > ---------- */}
-        <button className="arrow" onClick={handleNext}>
-          <FaAngleRight />
-        </button>
+          { /* -------- Pagination -------- */}
+          <div className="labels-container">
+            {labels.map((word, i) => (
+              <button 
+                key={i} 
+                onClick={() => goTo(i)}
+                className={`page-button ${activePageIndex === i ? 'active-button' : ''}`}
+              >
+                {word}
+              </button>
+            ))}
+          </div>
+
+          {/* ----------- Next Button > ---------- */}
+          <button className="arrow" onClick={handleNext}>
+            <FaAngleRight />
+          </button>
+        </div>
+        <div className="screen-toggle-button">
+          <ScreenToggleButton />
+        </div>
       </div>
       <ul ref={scrollRef} className="gallery-container">
         {entrySlides.map((item) => (

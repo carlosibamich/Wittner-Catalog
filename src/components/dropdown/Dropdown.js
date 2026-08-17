@@ -67,14 +67,12 @@ const Dropdown = () => {
           <h2 className="title">{currentPageTitle}</h2>
           <h2 className="menu">MENU</h2>
         </div>
-        
       </div>
 
       <div 
         className={`menu-scrim ${isOpen ? 'is-open' : ''}`} 
         onClick={() => setIsOpen(false)}
       />
-
       <div className={`dropdown-menu ${isOpen ? 'is-visible' : ''}`}>
         <div className="spacer"></div>
         {options.map((option) => {
