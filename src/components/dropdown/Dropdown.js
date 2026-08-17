@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Dropdown.styles.scss';
 
@@ -6,6 +7,7 @@ const Dropdown = () => {
   const [ isOpen, setIsOpen ] = useState(false);
   const [ currentPageTitle, setCurrentPageTitle ] = useState('');
   const dropdownRef = useRef(null);
+  const menuPortalRef = useRef(null);
   const navigate = useNavigate();
   const thisLocation = useLocation();
 
@@ -20,15 +22,19 @@ const Dropdown = () => {
 
   const handleNavigation = (path) => {
     navigate(path);
-    setIsOpen(false);
+    setTimeout (() => {
+      setIsOpen(false);
+    }, 50);
   };
 
   // To exit the dropdown by clicking outside the dropdown menu
   useEffect(() => {
     const handleOutsideClick = (e) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
-        setIsOpen(false);
-      }
+      if (dropdownRef.current && dropdownRef.current.contains(e.target)) return;
+      
+      if (menuPortalRef.current && menuPortalRef.current.contains(e.target)) return;
+
+      setIsOpen(false);
     };
 
     if (isOpen) {
@@ -53,41 +59,65 @@ const Dropdown = () => {
 
   return (
     <div ref={dropdownRef} className="mobile-menu-container">
+
       <div className="burger-menu-box">
         <button
-          onClick={() => setIsOpen(!isOpen)}
-          className={`burger-btn ${isOpen ? 'is-open' : ''}`}
-          aria-label='Toggle Menu'
+          onClick={() => setIsOpen(true)}
+          className="burger-btn"
+          aria-label='Open Menu'
+          style={{ visibility: isOpen ? 'hidden' : 'visible' }}
         >
           <span className="burger-line line-top"></span>
           <span className="burger-line line-middle"></span>
           <span className="burger-line line-bottom"></span>
         </button>
+
         <div className="current-title-box">
           <h2 className="title">{currentPageTitle}</h2>
           <h2 className="menu">MENU</h2>
         </div>
       </div>
 
-      <div 
-        className={`menu-scrim ${isOpen ? 'is-open' : ''}`} 
-        onClick={() => setIsOpen(false)}
-      />
-      <div className={`dropdown-menu ${isOpen ? 'is-visible' : ''}`}>
-        <div className="spacer"></div>
-        {options.map((option) => {
-          const isActive = thisLocation.pathname === option.path;
-          return (
+      {createPortal(
+        <>
+          <div 
+            className={`menu-scrim ${isOpen ? 'is-open' : ''}`}
+            onClick={() => setIsOpen(false)}
+          />
+
+          <div 
+            ref={menuPortalRef} 
+            className={`dropdown-menu ${isOpen ? 'is-visible' : ''}`}
+            onClick={(e) => e.stopPropagation()}
+          >
+
             <button
-              key={option.path}
-              onClick={() => handleNavigation(option.path)}
-              className={`menu-option ${isActive ? 'active' : ''}`}
+            onClick={() => setIsOpen(false)}
+            className={`burger-btn is-open-portal ${isOpen ? 'animate-x' : ''}`}
+            aria-label='Close Menu'
             >
-              {option.label}
+              <span className="burger-line line-top"></span>
+              <span className="burger-line line-middle"></span>
+              <span className="burger-line line-bottom"></span>
             </button>
-          ); 
-        })}
-      </div>
+
+            <div className="spacer"></div>
+            {options.map((option) => {
+              const isActive = thisLocation.pathname === option.path;
+              return (
+                <button
+                  key={option.path}
+                  onClick={() => handleNavigation(option.path)}
+                  className={`menu-option ${isActive ? 'active' : ''}`}
+                >
+                  {option.label}
+                </button>
+              ); 
+            })}
+          </div>
+        </>,
+        document.getElementById('portal-root') || document.body
+      )}
     </div>
   );
 };

@@ -1,6 +1,8 @@
 .mobile-menu-container {
   position: relative;
-  display: block;
+  display: flex;
+  align-items: center;
+  z-index: 100001;
 
   .burger-menu-box {
     display: flex;
@@ -16,13 +18,12 @@
       width: 40px;
       height: 40px;
       gap: 5px;
-      background: transparent;
+      background: none;
       border: none;
       position: relative;
-      // z-index: 50;
-      z-index: 9999;
+      z-index: 100002;
       outline: none;
-      transition: transform 0.25s ease-in-out;
+      transition: transform 0.3s ease-in-out;
 
 
       .burger-line {
@@ -32,26 +33,6 @@
         background-color: var(--dark-grey);
         border-radius: 6px;
         transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-      }
-
-      // Active morphing states when open
-      &.is-open {
-        transform: translateX(11.5rem);
-
-        .line-top {
-          transform: translateY(7px) rotate(45deg);
-          background-color: var(--copper-yellow);
-        }
-        
-        .line-middle {
-          opacity: 0;
-          transform: scaleX(0);
-        }
-        
-        .line-bottom {
-          transform: translateY(-7px) rotate(-45deg);
-          background-color: var(--copper-yellow);
-        }
       }
     }
 
@@ -72,95 +53,137 @@
       }
     }
   }
+}
 
-  .menu-scrim {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100vw;
-    height: 100vh;
-    // z-index: 30;
-    z-index: 9997;
-    
-    background-color: rgba(0, 0, 0, 0.4); // Dark tint overlay layer
-    -webkit-backdrop-filter: blur(4px);    // Blurs everything under the layer
-    backdrop-filter: blur(4px);
-    
-    transition: opacity 0.3s ease, visibility 0.3s;
-    
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+.is-open-portal {
+  position: fixed;
+  top: 3rem;
+  left: 5rem;
+  background: none;
+  border: none;
+  z-index: 200001;
+  transform: translateX(11.4rem);
+  cursor: pointer;
 
-    &.is-open {
-      opacity: 1;
-      visibility: visible;
-      pointer-events: auto;
-    }
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+
+   &.animate-x {
+    opacity: 1;
+    visibility: visible;
   }
 
-  .dropdown-menu {
-    position: fixed;
-    top: 0rem;
-    left: 0rem;
-    bottom: 0rem;
-    width: 21.8rem;
-    height: 100vh;
-    margin: 0rem;
-    padding: 0.4rem 1.4rem;
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 3px;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    // z-index: 40;
-    z-index: 9998;
-    transform-origin: top;
-    transition: transform 0.25s ease-out, opacity 0.25s ease-out, visibility 0.25s ease-out;
-    display: block !important;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateX(-20px) scale(1);
+  .burger-line {
+    display: block;
+    width: 28px;
+    height: 2px;
+    background-color: var(--dark-grey);
+    border-radius: 6px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
 
-    &.is-visible {
-      opacity: 1;
-      visibility: visible;
-      transform: translateX(0) scale(1);
+  &.animate-x {
+    .line-top {
+      transform: translateY(2.5px) rotate(45deg);
+      background-color: var(--copper-yellow);
+    }
+          
+    .line-middle {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+    
+    .line-bottom {
+      transform: translateY(-2.5px) rotate(-45deg);
+      background-color: var(--copper-yellow);
+    }
+  }
+}
+
+.menu-scrim {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99990;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+}
+
+.dropdown-menu {
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  bottom: 0rem;
+  width: 21.8rem;
+  height: 100vh;
+  margin: 0rem;
+  padding: 0.4rem 1.4rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  z-index: 99995;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-21.8rem) scale(1);
+  transition: transform 0.25s ease-out, opacity 0.25s ease-out, visibility 0.25s ease-out;
+
+  &.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0) scale(1);
+  }
+
+  .spacer {
+    height: 19.5dvh;
+  }
+
+  .menu-option {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 1rem 1.5rem;
+    color: var(--off-white);
+    background: transparent;
+    border: none;
+    font-size: 1.55rem;
+    transition: color 0.25s ease;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--copper-yellow);
     }
 
-    .spacer {
-      height: 19.5dvh;
-    }
+    &.active {
+      color: var(--copper-yellow);
+      font-weight: 500;
 
-    .menu-option {
-      position: relative;
-      display: block;
-      width: 100%;
-      text-align: right;
-      padding: 1rem 1.5rem;
-      color: var(--off-white);
-      background: transparent;
-      border: none;
-      font-size: 1.55rem;
-      transition: color 0.25s ease;
-
-      &:hover {
-        color: var(--copper-yellow);
-      }
-
-      &.active {
-        color: var(--copper-yellow);
-        font-weight: 500;
-
-        &::before {
-          content: '';
-          position: absolute;
-          top: 9px;
-          right: 0;
-          bottom: 9px;
-          width: 2px;
-          background-color: var(--copper-yellow);
-        }
+      &::before {
+        content: '';
+        position: absolute;
+        top: 9px;
+        right: 0;
+        bottom: 9px;
+        width: 2px;
+        background-color: var(--copper-yellow);
       }
     }
   }
