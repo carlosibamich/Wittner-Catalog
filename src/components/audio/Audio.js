@@ -8,17 +8,14 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
   const audioRef = useRef(null);
 
   const handleToggleClick = (e) => {
-    // Prevent the click event from bubbling up and breaking your grid layouts
     e.stopPropagation(); 
 
     if (!audioRef.current) return;
 
     if (isPlaying) {
-      // 1. If currently playing, stop it immediately
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
     } else {
-      // 2. iOS UNLOCK: Call .play() immediately inside the main user-gesture execution stack!
       const playPromise = audioRef.current.play();
       
       if (playPromise !== undefined) {
@@ -28,7 +25,6 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
       }
     }
 
-    // 3. Notify the parent grid state tracker to flip the UI icon safely
     onToggle();
   };
 
@@ -50,9 +46,6 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
         onEnded={onEnded}
         preload="auto"
       />
-      {/* <button onClick={onToggle}>
-        {isPlaying ? <Pause /> : <Play />}
-      </button> */}
       <button onClick={handleToggleClick}>
         {isPlaying ? <Pause /> : <Play />}
       </button>
