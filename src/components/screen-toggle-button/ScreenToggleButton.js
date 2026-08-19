@@ -71,7 +71,7 @@ const ScreenToggleButton = () => {
     return (
       <div className="toggle-box">
         <div className="screen-toggle">
-          <Yolk className="screen-icon"/>
+          <Yolk className="screen-icon" style={{ display: 'block'}}/>
         </div>
       </div>
     );
