@@ -56,20 +56,34 @@ import './Audio.styles.scss';
 const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
   const audioRef = useRef(null);
 
-  // CRITICAL IOS CHROME & SAFARI HOTFIX:
-  // The moment the user's finger touches the play button, we instantly run .load()
-  // on this specific track. This forces the iOS media gateway to open before the click fires.
+  // THE ULTIMATE MOBILE HOTFIX:
+  // Fires the absolute microsecond a finger touches the play icon on iOS.
   const handleTouchStartPrime = (e) => {
     e.stopPropagation();
-    if (audioRef.current && audioRef.current.paused) {
-      try {
-        audioRef.current.load(); // Primes the audio buffer on the hardware level
-      } catch (err) {
-        console.log("Audio touch-prime bypassed:", err);
+    
+    // CRITICAL LINE: Tells iOS Safari/Chrome to skip the ghost mouse click event 
+    // that usually follows a finger tap. This stops the double-triggering.
+    e.preventDefault(); 
+
+    if (!audioRef.current) return;
+
+    if (!isPlaying) {
+      const playPromise = audioRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.catch((error) => {
+          console.log("iOS Touch-Prime Playback Restriction:", error);
+        });
       }
+      onToggle(); // Changes icon to Pause
+    } else {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      onToggle(); // Changes icon to Play
     }
   };
 
+  // DESKTOP / MOUSE FALLBACK:
+  // This handles standard mouse clicks on computers, where onTouchStart never runs.
   const handleToggleClick = (e) => {
     e.stopPropagation(); 
 
@@ -80,21 +94,23 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
       audioRef.current.currentTime = 0;
     } else {
       const playPromise = audioRef.current.play();
-      
       if (playPromise !== undefined) {
         playPromise.catch((error) => {
-          console.log("iOS Audio Engine caught restriction:", error);
+          console.log("Desktop Click Restriction:", error);
         });
       }
     }
-
     onToggle();
   };
 
-  useEffect (() => {
+  // Keeps the audio engine aligned with any background or global state switches
+  useEffect(() => {
     if (!audioRef.current) return;
+    
     if (isPlaying) {
-      audioRef.current.play().catch(e => console.log("Playback error: ", e));
+      if (audioRef.current.paused) {
+        audioRef.current.play().catch(e => console.log("Playback sync error: ", e));
+      }
     } else {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
@@ -111,7 +127,7 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
       />
       <button 
         onClick={handleToggleClick}
-        onTouchStart={handleTouchStartPrime} // Intercepts finger touch to open iOS browser gates
+        onTouchStart={handleTouchStartPrime} // Mobile finger tap lane
       >
         {isPlaying ? <Pause /> : <Play />}
       </button>
