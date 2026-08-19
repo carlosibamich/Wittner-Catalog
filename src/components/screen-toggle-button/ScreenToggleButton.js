@@ -66,12 +66,11 @@ const ScreenToggleButton = () => {
   };
 
   // IF DEVICE IS IPHONE: Render nothing. Prevents repeated button spam/app freezes.
-  // if (!isSupported) return null;
   if (!isSupported) {
     return (
       <button className="toggle-box">
-        <div className="screen-toggle">
-          <Yolk className="screen-icon" style={{ display: 'block'}}/>
+        <div className="screen-toggle border-shadow">
+          <Yolk className="screen-icon yw"/>
         </div>
       </button>
     );

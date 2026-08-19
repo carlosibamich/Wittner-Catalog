@@ -18,6 +18,11 @@ button.toggle-box {
       color: var(--copper-yellow);
     }
 
+    .screen-icon.yw {
+      width: 3.2rem;
+      font-size: 3.2rem;
+    }
+
     .screen-text {
       display: flex;
       flex-direction: column;
@@ -56,6 +61,11 @@ button.toggle-box {
         width: 3.4rem;
         font-size: 3.2rem;
         opacity: 0.9;
+      }
+
+      .screen-icon.yw {
+        width: 3.4rem;
+        font-size: 3.4rem;
       }
 
       .screen-text {
@@ -112,6 +122,11 @@ button.toggle-box {
         font-size: 3.2rem;
       }
 
+      .screen-icon.yw {
+        width: 3.4rem;
+        font-size: 3.4rem;
+      }
+
       .screen-text {
         width: 7.6rem;
 
@@ -161,6 +176,11 @@ button.toggle-box {
       .screen-icon {
         width: 3.5rem;
         font-size: 3.4rem;
+      }
+
+      .screen-icon.yw {
+        width: 3.5rem;
+        font-size: 3.5rem;
       }
 
       .screen-text {
@@ -266,6 +286,11 @@ button.toggle-box {
         font-size: 2.3rem;
       }
 
+      .screen-icon.yw {
+        width: 2.4rem;
+        font-size: 2.4rem;
+      }
+
       .screen-text {
         width: 5.5rem;
 
@@ -291,6 +316,11 @@ button.toggle-box {
       .screen-icon {
         width: 2.5rem;
         font-size: 2.4rem;
+      }
+
+      .screen-icon.yw {
+        width: 2.5rem;
+        font-size: 2.5rem;
       }
 
       .screen-text {
@@ -321,6 +351,11 @@ button.toggle-box {
         font-size: 2.4rem;
       }
 
+      .screen-icon.yw {
+        width: 2.5rem;
+        font-size: 2.5rem;
+      }
+
       .screen-text {
         align-items: flex-end;
         width: 5.3rem;
@@ -347,6 +382,11 @@ button.toggle-box {
       .screen-icon {
         width: 2.6rem;
         font-size: 2.5rem;
+      }
+
+      .screen-icon.yw {
+        width: 2.6rem;
+        font-size: 2.6rem;
       }
 
       .screen-text {
@@ -379,6 +419,11 @@ button.toggle-box {
         font-size: 2.6rem;
       }
 
+      .screen-icon.yw {
+        width: 2.7rem;
+        font-size: 2.7rem;
+      }
+
       .screen-text {
         width: 6.1rem;
         height: 2.8rem;
@@ -406,6 +451,11 @@ button.toggle-box {
         width: 2.9rem;
         height: 3rem;
         font-size: 2.8rem;
+      }
+
+      .screen-icon.yw {
+        width: 2.9rem;
+        font-size: 2.9rem;
       }
 
       .screen-text {
@@ -436,6 +486,11 @@ button.toggle-box {
         font-size: 1.85rem;
       }
 
+      .screen-icon.yw {
+        width: 1.9rem;
+        font-size: 1.9rem;
+      }
+
       .screen-text {
         display: none;
       }
@@ -456,6 +511,11 @@ button.toggle-box {
         width: 2.1rem;
         height: 2.1rem;
         font-size: 2rem;
+      }
+
+      .screen-icon.yw {
+        width: 2.1rem;
+        font-size: 2.1rem;
       }
     }
   }
