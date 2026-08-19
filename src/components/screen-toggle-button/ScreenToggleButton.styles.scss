@@ -6,7 +6,6 @@ button.toggle-box {
   .screen-toggle {
     display: flex;
     align-items: center;
-    justify-content: center;
     overflow: visible;
     width: 9rem;
     height: 3.2rem;
@@ -21,9 +20,8 @@ button.toggle-box {
     }
 
     .screen-icon.yw {
-      height: 130%;
+      height: 125%;
       width: auto;
-      // font-size: 3.2rem;
     }
 
     .screen-text {
