@@ -6,7 +6,7 @@ const OrientationPrompt = ({ children }) => {
     <div className="orientation-wrapper">
       <div className="orientation-overlay">
         <div className="rotate-icon-container">
-          <W className="rotate-svg"/>
+          <W className="rotate-svg" />
           <div className="orientation-text">
             <h2>PLEASE ROTATE YOUR DEVICE</h2>
           </div>

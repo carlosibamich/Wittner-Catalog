@@ -18,30 +18,6 @@ const Catalog = () => {
   const [ playingId, setPlayingId ] = useState(null);
   const handleAudioEnded = () => setPlayingId(null);
 
-  // const handleIOSAudioPrime = () => {
-  //   window.removeEventListener('click', handleIOSAudioPrime);
-  //   window.removeEventListener('touchstart', handleIOSAudioPrime);
-
-  //   try {
-  //     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  //     if (audioCtx.state === 'suspended') {
-  //       audioCtx.resume();
-  //     }
-  //   } catch (e) {
-  //     console.log('Audio Context prime bypassed:', e);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener('click', handleIOSAudioPrime);
-  //   window.addEventListener('touchstart', handleIOSAudioPrime);
-
-  //   return () => {
-  //     window.removeEventListener('click', handleIOSAudioPrime);
-  //     window.removeEventListener('touchstart', handleIOSAudioPrime);
-  //   };
-  // }, []);
-
   const handleOpen = ( imgUrl, title, item ) => {
     setSelectedImg(imgUrl);
     setSelectedTitle(title);
@@ -127,6 +103,7 @@ const Catalog = () => {
         onHide={handleClose}
         imageSrc={selectedImg}
         title={selectedTitle}
+        onModalPlay={() => setPlayingId(null)}
       />
     </div>
   );
