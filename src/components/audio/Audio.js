@@ -107,20 +107,14 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
         onEnded={onEnded}
         preload="auto"
       />
-      
-      {/* 
-        FIX: Use a generic div styled as a button with pointer-events handled cleanly.
-        This drops native button 'ghost click conversions' on mobile touch screens entirely.
-      */}
-      <div 
+      <button 
         role="button"
         tabIndex={0}
         onClick={handleToggleClick}
-        style={{ cursor: 'pointer', display: 'inline-flex', alignItems: 'center' }}
         aria-label={isPlaying ? "Pause Audio" : "Play Audio"}
       >
         {isPlaying ? <Pause /> : <Play />}
-      </div>
+      </button>
     </span>
   );
 };
