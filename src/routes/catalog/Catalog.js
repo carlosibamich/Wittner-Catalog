@@ -70,7 +70,7 @@ const Catalog = () => {
               </span>
               <div className="image-container">
                 <img 
-                  src={item.imgSrc} 
+                  src={item.thumbSrc} 
                   onClick={() => handleOpen(directory[i].imgSrc, directory[i].title)} 
                   className="border-shadow-lg image" 
                   alt={item.title}
