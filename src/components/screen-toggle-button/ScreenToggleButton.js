@@ -69,11 +69,13 @@ const ScreenToggleButton = () => {
   // if (!isSupported) return null;
   if (!isSupported) {
     return (
-      <div>
-        <div className="screen-toggle">
-          <W className="screen-icon" />
+      <button className="toggle-box">
+        <div>
+          <div className="screen-toggle">
+            <W className="screen-icon" />
+          </div>
         </div>
-      </div>
+      </button>
     );
   }
 
