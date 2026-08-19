@@ -69,11 +69,11 @@ const ScreenToggleButton = () => {
   // if (!isSupported) return null;
   if (!isSupported) {
     return (
-      <div className="toggle-box">
+      <button className="toggle-box">
         <div className="screen-toggle">
           <Yolk className="screen-icon" style={{ display: 'block'}}/>
         </div>
-      </div>
+      </button>
     );
   }
 
