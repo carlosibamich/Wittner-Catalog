@@ -6,6 +6,8 @@ button.toggle-box {
   .screen-toggle {
     display: flex;
     align-items: center;
+    justify-content: center;
+    overflow: visible;
     width: 9rem;
     height: 3.2rem;
     gap: 4px;
@@ -19,8 +21,9 @@ button.toggle-box {
     }
 
     .screen-icon.yw {
-      width: 3.2rem;
-      font-size: 3.2rem;
+      height: 130%;
+      width: auto;
+      // font-size: 3.2rem;
     }
 
     .screen-text {
@@ -63,10 +66,10 @@ button.toggle-box {
         opacity: 0.9;
       }
 
-      .screen-icon.yw {
-        width: 3.4rem;
-        font-size: 3.4rem;
-      }
+      // .screen-icon.yw {
+      //   width: 3.4rem;
+      //   font-size: 3.4rem;
+      // }
 
       .screen-text {
         align-items: flex-end;
@@ -122,10 +125,10 @@ button.toggle-box {
         font-size: 3.2rem;
       }
 
-      .screen-icon.yw {
-        width: 3.4rem;
-        font-size: 3.4rem;
-      }
+      // .screen-icon.yw {
+      //   width: 3.4rem;
+      //   font-size: 3.4rem;
+      // }
 
       .screen-text {
         width: 7.6rem;
@@ -178,10 +181,10 @@ button.toggle-box {
         font-size: 3.4rem;
       }
 
-      .screen-icon.yw {
-        width: 3.5rem;
-        font-size: 3.5rem;
-      }
+      // .screen-icon.yw {
+      //   width: 3.5rem;
+      //   font-size: 3.5rem;
+      // }
 
       .screen-text {
         width: 7.7rem;
@@ -286,10 +289,10 @@ button.toggle-box {
         font-size: 2.3rem;
       }
 
-      .screen-icon.yw {
-        width: 2.4rem;
-        font-size: 2.4rem;
-      }
+      // .screen-icon.yw {
+      //   width: 2.4rem;
+      //   font-size: 2.4rem;
+      // }
 
       .screen-text {
         width: 5.5rem;
@@ -318,10 +321,10 @@ button.toggle-box {
         font-size: 2.4rem;
       }
 
-      .screen-icon.yw {
-        width: 2.5rem;
-        font-size: 2.5rem;
-      }
+      // .screen-icon.yw {
+      //   width: 2.5rem;
+      //   font-size: 2.5rem;
+      // }
 
       .screen-text {
         width: 5.3rem;
@@ -351,10 +354,10 @@ button.toggle-box {
         font-size: 2.4rem;
       }
 
-      .screen-icon.yw {
-        width: 2.5rem;
-        font-size: 2.5rem;
-      }
+      // .screen-icon.yw {
+      //   width: 2.5rem;
+      //   font-size: 2.5rem;
+      // }
 
       .screen-text {
         align-items: flex-end;
@@ -384,10 +387,10 @@ button.toggle-box {
         font-size: 2.5rem;
       }
 
-      .screen-icon.yw {
-        width: 2.6rem;
-        font-size: 2.6rem;
-      }
+      // .screen-icon.yw {
+      //   width: 2.6rem;
+      //   font-size: 2.6rem;
+      // }
 
       .screen-text {
         width: 6rem;
@@ -419,10 +422,10 @@ button.toggle-box {
         font-size: 2.6rem;
       }
 
-      .screen-icon.yw {
-        width: 2.7rem;
-        font-size: 2.7rem;
-      }
+      // .screen-icon.yw {
+      //   width: 2.7rem;
+      //   font-size: 2.7rem;
+      // }
 
       .screen-text {
         width: 6.1rem;
@@ -453,10 +456,10 @@ button.toggle-box {
         font-size: 2.8rem;
       }
 
-      .screen-icon.yw {
-        width: 2.9rem;
-        font-size: 2.9rem;
-      }
+      // .screen-icon.yw {
+      //   width: 2.9rem;
+      //   font-size: 2.9rem;
+      // }
 
       .screen-text {
         width: 6.5rem;
@@ -486,10 +489,10 @@ button.toggle-box {
         font-size: 1.85rem;
       }
 
-      .screen-icon.yw {
-        width: 1.9rem;
-        font-size: 1.9rem;
-      }
+      // .screen-icon.yw {
+      //   width: 1.9rem;
+      //   font-size: 1.9rem;
+      // }
 
       .screen-text {
         display: none;
@@ -513,10 +516,10 @@ button.toggle-box {
         font-size: 2rem;
       }
 
-      .screen-icon.yw {
-        width: 2.1rem;
-        font-size: 2.1rem;
-      }
+      // .screen-icon.yw {
+      //   width: 2.1rem;
+      //   font-size: 2.1rem;
+      // }
     }
   }
 }
