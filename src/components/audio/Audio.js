@@ -55,20 +55,20 @@ import './Audio.styles.scss';
 
 const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
   const audioRef = useRef(null);
+  
+  // Track the actual playback intent to prevent double-firing state updates
+  const lockRef = useRef(false);
 
-  // A UNIFIED ACTION HANDLER:
-  // Handles both mobile touches and desktop clicks instantly without double-triggering.
-  const handleMediaTrigger = (e) => {
-    e.stopPropagation();
-
-    // UNLOCK GHOST CLICKS:
-    // If the event is a touch event, we explicitly block the fake 300ms 'click' 
-    // event that mobile browsers try to fire afterwards.
-    if (e.type === 'touchstart') {
-      e.preventDefault();
-    }
+  const handleToggleClick = (e) => {
+    e.preventDefault();
+    e.stopPropagation(); 
 
     if (!audioRef.current) return;
+
+    // Prevent immediate double-clicks from running within a 200ms window
+    if (lockRef.current) return;
+    lockRef.current = true;
+    setTimeout(() => { lockRef.current = false; }, 200);
 
     if (isPlaying) {
       audioRef.current.pause();
@@ -77,7 +77,7 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
       const playPromise = audioRef.current.play();
       if (playPromise !== undefined) {
         playPromise.catch((error) => {
-          console.log("iOS Audio Engine core exception:", error);
+          console.log("iOS Audio Engine caught restriction:", error);
         });
       }
     }
@@ -85,13 +85,13 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
     onToggle();
   };
 
-  // Keeps the layout in perfect sync with any unexpected state unmounts
+  // Purely handles state synchronization when toggled by parent resets or track completions
   useEffect(() => {
     if (!audioRef.current) return;
     
     if (isPlaying) {
       if (audioRef.current.paused) {
-        audioRef.current.play().catch(e => console.log("Playback engine sync error: ", e));
+        audioRef.current.play().catch(e => console.log("Playback error: ", e));
       }
     } else {
       audioRef.current.pause();
@@ -107,17 +107,20 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
         onEnded={onEnded}
         preload="auto"
       />
+      
       {/* 
-        Bind the unified handler to both events. 
-        On phone screens, 'onTouchStart' fires first, runs the code, and cancels the click.
-        On computer screens, 'onClick' handles everything normally.
+        FIX: Use a generic div styled as a button with pointer-events handled cleanly.
+        This drops native button 'ghost click conversions' on mobile touch screens entirely.
       */}
-      <button 
-        onClick={handleMediaTrigger}
-        onTouchStart={handleMediaTrigger}
+      <div 
+        role="button"
+        tabIndex={0}
+        onClick={handleToggleClick}
+        style={{ cursor: 'pointer', display: 'inline-flex', alignItems: 'center' }}
+        aria-label={isPlaying ? "Pause Audio" : "Play Audio"}
       >
         {isPlaying ? <Pause /> : <Play />}
-      </button>
+      </div>
     </span>
   );
 };
