@@ -1,7 +1,7 @@
 import{ useState, useEffect } from 'react';
 import { AiOutlineExpand } from "react-icons/ai";
 import { CgMinimize } from "react-icons/cg";
-import { ReactComponent as W } from '../../assets/svg/w.svg';
+import { ReactComponent as Yolk } from '../../assets/svg/yolk.svg';
 import'./ScreenToggleButton.styles.scss';
 
 const ScreenToggleButton = () => {
@@ -69,13 +69,11 @@ const ScreenToggleButton = () => {
   // if (!isSupported) return null;
   if (!isSupported) {
     return (
-      <button className="toggle-box">
-        <div>
-          <div className="screen-toggle">
-            <W className="screen-icon" />
-          </div>
+      <div className="toggle-box">
+        <div className="screen-toggle">
+          <Yolk className="screen-icon" style={{ width: '100%', height: '100%' }}/>
         </div>
-      </button>
+      </div>
     );
   }
 
