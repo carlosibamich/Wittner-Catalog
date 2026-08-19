@@ -122,25 +122,90 @@ import './Audio.styles.scss';
 //   );
 // };
 
+// const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
+//   const audioRef = useRef(null);
+
+//   const handleToggleClick = (e) => {
+    
+//     e.stopPropagation(); 
+//     e.preventDefault();
+
+//     if (!audioRef.current) return;
+
+//     const isCurrentlyPaused = audioRef.current.paused;
+
+//     if (!isCurrentlyPaused || isPlaying) {
+      
+//       audioRef.current.pause();
+//       audioRef.current.currentTime = 0;
+//       if (isPlaying) onToggle(); // Sync the state icon back to Play
+//     } else {
+    
+//       const playPromise = audioRef.current.play();
+      
+//       if (playPromise !== undefined) {
+//         playPromise.catch((error) => {
+//           console.log("iOS Audio Engine caught restriction:", error);
+//         });
+//       }
+//       if (!isPlaying) onToggle(); // Sync the state icon over to Pause
+//     }
+//   };
+
+//   // Handles state synchronization if the track ends naturally or gets reset by the parent page
+//   useEffect(() => {
+//     if (!audioRef.current) return;
+    
+//     if (isPlaying) {
+//       if (audioRef.current.paused) {
+//         audioRef.current.play().catch(e => console.log("Playback error: ", e));
+//       }
+//     } else {
+//       audioRef.current.paused || audioRef.current.pause();
+//     }
+//   }, [isPlaying]);
+
+//   return (
+//     <span className="audio-card">
+//       <audio 
+//         ref={audioRef} 
+//         src={item.audio} 
+//         onEnded={onEnded}
+//         preload="auto"
+//       />
+//       <button 
+//         onClick={handleToggleClick}
+//         aria-label={isPlaying ? "Pause Audio" : "Play Audio"}
+//       >
+//         {isPlaying ? <Pause /> : <Play />}
+//       </button>
+//     </span>
+//   );
+// };
+
 const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
   const audioRef = useRef(null);
 
+  const handleTouchStartPrime = (e) => {
+    e.stopPropagation();
+    if (audioRef.current && audioRef.current.paused) {
+      try {
+        audioRef.current.load();
+      } catch (err) {
+        console.log("Audio touch-prime bypassed:", err);
+      }
+    }
+  };
+
   const handleToggleClick = (e) => {
-    
     e.stopPropagation(); 
-    e.preventDefault();
 
     if (!audioRef.current) return;
 
-    const isCurrentlyPaused = audioRef.current.paused;
-
-    if (!isCurrentlyPaused || isPlaying) {
-      
+    if (isPlaying) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
-      if (isPlaying) onToggle(); // Sync the state icon back to Play
     } else {
-    
       const playPromise = audioRef.current.play();
       
       if (playPromise !== undefined) {
@@ -148,20 +213,18 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
           console.log("iOS Audio Engine caught restriction:", error);
         });
       }
-      if (!isPlaying) onToggle(); // Sync the state icon over to Pause
     }
+
+    onToggle();
   };
 
-  // Handles state synchronization if the track ends naturally or gets reset by the parent page
-  useEffect(() => {
+  useEffect (() => {
     if (!audioRef.current) return;
-    
     if (isPlaying) {
-      if (audioRef.current.paused) {
-        audioRef.current.play().catch(e => console.log("Playback error: ", e));
-      }
+      audioRef.current.play().catch(e => console.log("Playback error: ", e));
     } else {
-      audioRef.current.paused || audioRef.current.pause();
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
     }
   }, [isPlaying]);
 
@@ -175,13 +238,12 @@ const Audio = ({ item, isPlaying, onToggle, onEnded }) => {
       />
       <button 
         onClick={handleToggleClick}
-        aria-label={isPlaying ? "Pause Audio" : "Play Audio"}
+        onTouchStart={handleTouchStartPrime} gates
       >
         {isPlaying ? <Pause /> : <Play />}
       </button>
     </span>
   );
 };
-
 
 export default Audio;
