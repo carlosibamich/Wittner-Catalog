@@ -83,12 +83,12 @@ img {
 }
 
 /* --------- Painting Shadows --------- */
-.border-shadow-sm {
-  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.3);
-}
+// .border-shadow-sm {
+//   box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+// }
 
-.border-shadow-lg {
-  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+.border-shadow {
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* --------- Windows --------- */
@@ -309,6 +309,7 @@ div.carousel-container {
     display: flex;
     align-items: center;
     overflow-x: auto;
+    // content-visibility: auto;
     flex-wrap: nowrap;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
@@ -2619,10 +2620,6 @@ div.carousel-container {
     font-size: 69.2%;
   }
 
-  .border-shadow-lg {
-    box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.3);
-  }
-
   div.carousel-container {
     min-height: 92.5dvh;
   }
@@ -3087,14 +3084,6 @@ div.carousel-container {
 @media screen and (max-width: 660px) and (orientation: landscape) {
   html {
     font-size: 93.2%;
-  }
-
-  .border-shadow-sm {
-    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.3);
-  }
-
-  .border-shadow-lg {
-    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
   }
 
   div.carousel-container {

@@ -7,6 +7,7 @@ const StairwellNorth = () => {
   const [ showModal, setShowModal] = useState(false);
   const [ selectedImg, setSelectedImg ] = useState(null);
   const [ selectedTitle, setSelectedTitle ] = useState(null);
+  const [ selectedAudio, setSelectedAudio ] = useState(null);
 
   const handleOpen = (imgUrl, title) => {
     setSelectedImg(imgUrl);
@@ -14,7 +15,12 @@ const StairwellNorth = () => {
     setShowModal(true);
   }
 
-  const handleClose = () => setShowModal(false);
+  const handleClose = () => {
+    setShowModal(false);
+    setSelectedImg(null);
+    setSelectedTitle(null);
+    setSelectedAudio(null);
+  };
 
   return (
     <div className="stairwell-north-container">
@@ -23,24 +29,24 @@ const StairwellNorth = () => {
         {/* // ---------------- Column 1 ----------------- // */}
 
         <div className="section stairwell-north-column-1">
-          <div className="border-shadow-sm sub-section-1-1">
+          <div className="sub-section-1-1">
             <img 
-              src={directory[183].imgSrc}
+              src={directory[183].thumbSrc}
             />
           </div>
-          <div className="border-shadow-sm sub-section-1-2">
+          <div className="sub-section-1-2">
             <img
-              src={directory[184].imgSrc}
+              src={directory[184].thumbSrc}
             />
           </div>
-          <div className="border-shadow-sm sub-section-1-3">
+          <div className="sub-section-1-3">
             <img
-              src={directory[185].imgSrc}            
+              src={directory[185].thumbSrc}            
             />
           </div>
-          <div className="border-shadow-sm sub-section-1-4">
+          <div className="sub-section-1-4">
             <img 
-              src={directory[186].imgSrc}
+              src={directory[186].thumbSrc}
             />
           </div>
           <div className="sub-section-1-5">
@@ -52,58 +58,58 @@ const StairwellNorth = () => {
         {/* // ---------------- Column 2 ----------------- // */}
 
         <div className="section stairwell-north-column-2">
-          <div className="border-shadow-sm sub-section-2-1">
+          <div className="border-shadow sub-section-2-1">
             <img 
-              src={directory[142].imgSrc}
+              src={directory[142].thumbSrc}
               onClick={() => handleOpen(directory[142].imgSrc, directory[142].title)}
               alt={directory[142].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-2-2">
+          <div className="border-shadow sub-section-2-2">
             <img
-              src={directory[143].imgSrc}
+              src={directory[143].thumbSrc}
               onClick={() => handleOpen(directory[143].imgSrc, directory[143].title)}
               alt={directory[143].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-2-3">
+          <div className="border-shadow sub-section-2-3">
             <img
-              src={directory[144].imgSrc}
+              src={directory[144].thumbSrc}
               onClick={() => handleOpen(directory[144].imgSrc, directory[144].title)}
               alt={directory[144].title}           
             />
           </div>
-          <div className="border-shadow-sm sub-section-2-4">
+          <div className="border-shadow sub-section-2-4">
             <img 
-              src={directory[145].imgSrc}
+              src={directory[145].thumbSrc}
               onClick={() => handleOpen(directory[145].imgSrc, directory[145].title)}
               alt={directory[145].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-2-5">
+          <div className="border-shadow sub-section-2-5">
             <img 
-              src={directory[146].imgSrc}
+              src={directory[146].thumbSrc}
               onClick={() => handleOpen(directory[146].imgSrc, directory[146].title)}
               alt={directory[146].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-2-6">
+          <div className="border-shadow sub-section-2-6">
             <img 
-              src={directory[147].imgSrc}
+              src={directory[147].thumbSrc}
               onClick={() => handleOpen(directory[147].imgSrc, directory[147].title)}
               alt={directory[147].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-2-7">
+          <div className="border-shadow sub-section-2-7">
             <img 
-              src={directory[148].imgSrc}
+              src={directory[148].thumbSrc}
               onClick={() => handleOpen(directory[148].imgSrc, directory[148].title)}
               alt={directory[148].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-2-8">
+          <div className="border-shadow sub-section-2-8">
             <img 
-              src={directory[149].imgSrc}
+              src={directory[149].thumbSrc}
               onClick={() => handleOpen(directory[149].imgSrc, directory[149].title)}
               alt={directory[149].title}
             />
@@ -113,9 +119,9 @@ const StairwellNorth = () => {
         {/* // ---------------- Column 3 ----------------- // */}
 
         <div className="section stairwell-north-column-3">
-          <div className="border-shadow-lg sub-section-3-1">
+          <div className="border-shadow sub-section-3-1">
             <img 
-              src={directory[150].imgSrc}
+              src={directory[150].thumbSrc}
               onClick={() => handleOpen(directory[150].imgSrc, directory[150].title)}
               alt={directory[150].title}
             />
@@ -130,72 +136,72 @@ const StairwellNorth = () => {
         {/* // ---------------- Column 4 ----------------- // */}
 
         <div className="section stairwell-north-column-4">
-          <div className="border-shadow-lg sub-section-4-1">
+          <div className="border-shadow sub-section-4-1">
             <img 
-              src={directory[151].imgSrc}
+              src={directory[151].thumbSrc}
               onClick={() => handleOpen(directory[151].imgSrc, directory[151].title)}
               alt={directory[151].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-4-2">
+          <div className="border-shadow sub-section-4-2">
             <img 
-              src={directory[152].imgSrc}
+              src={directory[152].thumbSrc}
               onClick={() => handleOpen(directory[152].imgSrc, directory[152].title)}
               alt={directory[152].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-4-3">
+          <div className="border-shadow sub-section-4-3">
             <img
-              src={directory[153].imgSrc}
+              src={directory[153].thumbSrc}
               onClick={() => handleOpen(directory[153].imgSrc, directory[153].title)}
               alt={directory[153].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-4-4">
+          <div className="border-shadow sub-section-4-4">
             <img 
-              src={directory[154].imgSrc}
+              src={directory[154].thumbSrc}
               onClick={() => handleOpen(directory[154].imgSrc, directory[154].title)}
               alt={directory[154].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-4-5">
+          <div className="border-shadow sub-section-4-5">
             <img 
-              src={directory[155].imgSrc}
+              src={directory[155].thumbSrc}
               onClick={() => handleOpen(directory[155].imgSrc, directory[155].title)}
               alt={directory[155].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-4-6">
+          <div className="border-shadow sub-section-4-6">
             <img 
-              src={directory[156].imgSrc}
+              src={directory[156].thumbSrc}
               onClick={() => handleOpen(directory[156].imgSrc, directory[156].title)}
               alt={directory[156].title}
             />
           </div>
-          <div className="border-shadow-lg sub-section-4-7">
+          <div className="border-shadow sub-section-4-7">
             <img 
-              src={directory[157].imgSrc}
+              src={directory[157].thumbSrc}
               onClick={() => handleOpen(directory[157].imgSrc, directory[157].title)}
               alt={directory[157].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-4-8">
+          <div className="border-shadow sub-section-4-8">
             <img 
-              src={directory[158].imgSrc}
+              src={directory[158].thumbSrc}
               onClick={() => handleOpen(directory[158].imgSrc, directory[158].title)}
               alt={directory[158].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-4-9">
+          <div className="border-shadow sub-section-4-9">
             <img 
-              src={directory[159].imgSrc}
+              src={directory[159].thumbSrc}
               onClick={() => handleOpen(directory[159].imgSrc, directory[159].title)}
               alt={directory[159].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-4-10">
+          <div className="border-shadow sub-section-4-10">
             <img 
-              src={directory[160].imgSrc}
+              src={directory[160].thumbSrc}
               onClick={() => handleOpen(directory[160].imgSrc, directory[160].title)}
               alt={directory[160].title}
             />
@@ -221,29 +227,29 @@ const StairwellNorth = () => {
             </div>
           </div>
 
-          <div className="border-shadow-lg sub-section-5-3">
+          <div className="sub-section-5-3">
             <img 
-              src={directory[161].imgSrc}
+              src={directory[161].thumbSrc}
             />
           </div>
-          <div className="border-shadow-sm sub-section-5-4">
+          <div className="sub-section-5-4">
             <img 
-              src={directory[162].imgSrc}
+              src={directory[162].thumbSrc}
             />
           </div>
-          <div className="border-shadow-sm sub-section-5-5">
+          <div className="sub-section-5-5">
             <img
-              src={directory[163].imgSrc}
+              src={directory[163].thumbSrc}
             />
           </div>
-          <div className="border-shadow-sm sub-section-5-6">
+          <div className="sub-section-5-6">
             <img 
-              src={directory[164].imgSrc}
+              src={directory[164].thumbSrc}
             />
           </div>
-          <div className="border-shadow-sm sub-section-5-7">
+          <div className="sub-section-5-7">
             <img 
-              src={directory[165].imgSrc}
+              src={directory[165].thumbSrc}
             />
           </div>
         </div>

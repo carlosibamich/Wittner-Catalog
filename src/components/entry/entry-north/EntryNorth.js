@@ -7,6 +7,7 @@ const EntryNorth = () => {
   const [ showModal, setShowModal] = useState(false);
   const [ selectedImg, setSelectedImg ] = useState(null);
   const [ selectedTitle, setSelectedTitle ] = useState(null);
+  const [ selectedAudio, setSelectedAudio ] = useState(null);
 
   const handleOpen = (imgUrl, title) => {
     setSelectedImg(imgUrl);
@@ -14,7 +15,12 @@ const EntryNorth = () => {
     setShowModal(true);
   }
 
-  const handleClose = () => setShowModal(false);
+  const handleClose = () => {
+    setShowModal(false);
+    setSelectedImg(null);
+    setSelectedTitle(null);
+    setSelectedAudio(null);
+  };
 
   return (
     <div className="entry-room-container">
@@ -23,14 +29,14 @@ const EntryNorth = () => {
       {/* ---------------------- Column 1 ------------------------ */}
 
       <div className="section entry-north-column-1">
-        <div className="border-shadow-lg sub-section-1-1">
+        <div className="sub-section-1-1">
            <img 
-            src={directory[13].imgSrc}
+            src={directory[13].thumbSrc}
           />
         </div>
-        <div className="border-shadow-lg sub-section-1-2">
+        <div className="sub-section-1-2">
            <img 
-            src={directory[14].imgSrc}
+            src={directory[14].thumbSrc}
           />
         </div>
         <div className="window-frame">
@@ -42,16 +48,16 @@ const EntryNorth = () => {
       {/* ---------------------- Column 2 ------------------------ */}
 
       <div className="section entry-north-column-2">
-        <div className="border-shadow-lg sub-section-2-1">
+        <div className="border-shadow sub-section-2-1">
           <img 
-            src={directory[0].imgSrc} 
+            src={directory[0].thumbSrc} 
             onClick={() => handleOpen(directory[0].imgSrc, directory[0].title)}
             alt={directory[0].title}
           />
         </div>
-        <div className="border-shadow-lg sub-section-2-2">
+        <div className="border-shadow sub-section-2-2">
           <img 
-            src={directory[1].imgSrc} 
+            src={directory[1].thumbSrc} 
             onClick={() => handleOpen(directory[1].imgSrc, directory[1].title)}
             alt={directory[1].title}
           />
@@ -61,14 +67,14 @@ const EntryNorth = () => {
       {/* ---------------------- Column 3 ------------------------ */}
 
         <div className="section entry-north-column-3">
-          <div className="border-shadow-lg sub-section-3-1">
+          <div className="sub-section-3-1">
             <img 
-              src={directory[2].imgSrc}
+              src={directory[2].thumbSrc}
             />
           </div>
-          <div className="border-shadow-lg sub-section-3-2">
+          <div className="sub-section-3-2">
             <img 
-              src={directory[3].imgSrc}
+              src={directory[3].thumbSrc}
             />
           </div>
           <div className="window-frame">

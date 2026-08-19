@@ -7,6 +7,7 @@ const MainWest = () => {
   const [ showModal, setShowModal] = useState(false);
   const [ selectedImg, setSelectedImg ] = useState(null);
   const [ selectedTitle, setSelectedTitle ] = useState(null);
+  const [ selectedAudio, setSelectedAudio ] = useState(null);
     
   const handleOpen = (imgUrl, title) => {
     setSelectedImg(imgUrl);
@@ -14,7 +15,12 @@ const MainWest = () => {
     setShowModal(true);
   }
     
-  const handleClose = () => setShowModal(false);
+  const handleClose = () => {
+    setShowModal(false);
+    setSelectedImg(null);
+    setSelectedTitle(null);
+    setSelectedAudio(null);
+  };
 
  return (
     <div className="main-room-west-container">
@@ -23,23 +29,22 @@ const MainWest = () => {
         {/* ---------------------- Column 1 ------------------------ */}
 
         <div className="section west-column-1">
-          <div className="border-shadow-lg sub-section-1-1">
+          <div className="border-shadow sub-section-1-1">
             <img 
-              src={directory[137].imgSrc} 
+              src={directory[137].thumbSrc} 
               onClick={() => handleOpen(directory[137].imgSrc, directory[137].title)}
               alt={directory[137].title}
               loading="lazy"
             />
-            
           </div>
         </div>
 
         {/* ---------------------- Column 2 ------------------------ */}
 
         <div className="section west-column-2">
-          <div className="border-shadow-lg sub-section-2-1">
+          <div className="border-shadow sub-section-2-1">
             <img 
-              src={directory[138].imgSrc}
+              src={directory[138].thumbSrc}
               onClick={() => handleOpen(directory[138].imgSrc, directory[138].title)}
               alt={directory[138].title}
               loading="lazy" 
@@ -56,9 +61,9 @@ const MainWest = () => {
             </div>
             <div className="exit-door-frame"></div>
           </div>
-          <div className="border-shadow-lg sub-section-3-1">
+          <div className="border-shadow sub-section-3-1">
             <img 
-              src={directory[139].imgSrc} 
+              src={directory[139].thumbSrc} 
               onClick={() => handleOpen(directory[139].imgSrc, directory[139].title)}
               alt={directory[139].title}
             />
@@ -68,9 +73,9 @@ const MainWest = () => {
         {/* ---------------------- Column 4 ------------------------ */}
 
         <div className="section west-column-4">
-          <div className="border-shadow-lg sub-section-4-1">
+          <div className="border-shadow sub-section-4-1">
             <img 
-              src={directory[140].imgSrc} 
+              src={directory[140].thumbSrc} 
               onClick={() => handleOpen(directory[140].imgSrc, directory[140].title)}
               alt={directory[140].title}
               loading="lazy"
@@ -81,9 +86,9 @@ const MainWest = () => {
         {/* ---------------------- Column 5 ------------------------ */}
 
         <div className="section west-column-5">
-          <div className="border-shadow-sm sub-section-5-1">
+          <div className="border-shadow sub-section-5-1">
             <img 
-              src={directory[141].imgSrc} 
+              src={directory[141].thumbSrc} 
               onClick={() => handleOpen(directory[141].imgSrc, directory[141].title)}
               alt={directory[141].title}
               loading="lazy"
@@ -123,9 +128,9 @@ const MainWest = () => {
         onHide={handleClose}
         imageSrc={selectedImg}
         title={selectedTitle}
-      /> 
+      />
     </div>
- );
+  );
 };
 
 export default MainWest;

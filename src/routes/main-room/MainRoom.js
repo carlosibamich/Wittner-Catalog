@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { useCallback, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useSnapCarousel } from 'react-snap-carousel';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
@@ -12,6 +12,7 @@ import MainWest from '../../components/main/main-west/MainWest';
 // import './MainRoom.styles.scss';
 
 const MainRoom = () => {
+  const location = useLocation();
 
   const {
     scrollRef,
@@ -25,27 +26,13 @@ const MainRoom = () => {
   const labels = ['NORTH', 'NORTH/EXIT', 'STAGE', 'SOUTH', 'WEST'];
 
   const mainRoomSlides = [
-    {
-      id: 1,
-      content: <MainNorth />
-    }, 
-    { 
-      id: 2,
-      content: <NorthExit />
-    }, 
-    { 
-      id: 3,
-      content: <Stage />
-    }, 
-    {
-      id: 4,
-      content: <MainSouth />
-    }, 
-    {
-      id: 5,
-      content: <MainWest />
-    },
+    { id: 1, content: <MainNorth /> }, 
+    { id: 2, content: <NorthExit /> }, 
+    { id: 3, content: <Stage /> }, 
+    { id: 4, content: <MainSouth /> }, 
+    { id: 5, content: <MainWest /> },
   ];
+
 
   const handleNext = useCallback(() => {
     if (activePageIndex === pages.length - 1) {
@@ -62,8 +49,6 @@ const MainRoom = () => {
       prev();
    }
   }, [activePageIndex, pages.length, goTo, prev]);
-
-  const location = useLocation();
   
   return (
     <div key={location.index} className="page-fade-in carousel-container">
@@ -106,7 +91,7 @@ const MainRoom = () => {
         ))};
       </ul> 
     </div>
-  )
+  );
 };
 
 export default MainRoom;

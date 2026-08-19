@@ -7,6 +7,7 @@ const GreenRoomSouth = () => {
   const [ showModal, setShowModal] = useState(false);
   const [ selectedImg, setSelectedImg ] = useState(null);
   const [ selectedTitle, setSelectedTitle ] = useState(null);
+  const [ selectedAudio, setSelectedAudio ] = useState(null);
 
   const handleOpen = (imgUrl, title) => {
     setSelectedImg(imgUrl);
@@ -14,7 +15,12 @@ const GreenRoomSouth = () => {
     setShowModal(true);
   }
 
-  const handleClose = () => setShowModal(false);
+  const handleClose = () => {
+    setShowModal(false);
+    setSelectedImg(null);
+    setSelectedTitle(null);
+    setSelectedAudio(null);
+  };
 
   return (
     <div className="green-room-south-container">
@@ -30,23 +36,23 @@ const GreenRoomSouth = () => {
             <div className="window-pane pane-right bottom"></div>
           </div>
         </div>
-        <div className="border-shadow-sm sub-section-1-2">
+        <div className="border-shadow sub-section-1-2">
           <img 
-            src={directory[208].imgSrc} 
+            src={directory[208].thumbSrc} 
             onClick={() => handleOpen(directory[208].imgSrc, directory[208].title)}
             alt={directory[208].title}
           />
         </div>
-        <div className="border-shadow-sm sub-section-1-3">
+        <div className="border-shadow sub-section-1-3">
           <img 
-            src={directory[209].imgSrc} 
+            src={directory[209].thumbSrc} 
             onClick={() => handleOpen(directory[209].imgSrc, directory[209].title)}
             alt={directory[209].title}
           />
         </div>
-        <div className="border-shadow-sm sub-section-1-4">
+        <div className="border-shadow sub-section-1-4">
           <img 
-            src={directory[210].imgSrc} 
+            src={directory[210].thumbSrc} 
             onClick={() => handleOpen(directory[210].imgSrc, directory[210].title)}
             alt={directory[210].title}
           />
@@ -56,23 +62,23 @@ const GreenRoomSouth = () => {
       {/* ---------------------- Column 2 ------------------------ */}
 
         <div className="section green-room-south-column-2">
-          <div className="border-shadow-sm sub-section-2-1">
+          <div className="border-shadow sub-section-2-1">
           <img 
-            src={directory[211].imgSrc} 
+            src={directory[211].thumbSrc} 
             onClick={() => handleOpen(directory[211].imgSrc, directory[211].title)}
             alt={directory[211].title}
           />
         </div>
-        <div className="border-shadow-sm sub-section-2-2">
+        <div className="border-shadow sub-section-2-2">
           <img 
-            src={directory[212].imgSrc} 
+            src={directory[212].thumbSrc} 
             onClick={() => handleOpen(directory[212].imgSrc, directory[212].title)}
             alt={directory[212].title}
           />
         </div>
-        <div className="border-shadow-sm sub-section-2-3">
+        <div className="border-shadow sub-section-2-3">
           <img 
-            src={directory[213].imgSrc} 
+            src={directory[213].thumbSrc} 
             onClick={() => handleOpen(directory[213].imgSrc, directory[213].title)}
             alt={directory[213].title}
           />
