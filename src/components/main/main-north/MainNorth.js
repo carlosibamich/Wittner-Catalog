@@ -30,35 +30,35 @@ const MainNorth = () => {
         {/* // ---------------- Column 1 ----------------- // */}
 
         <div className="section north-column-1">
-          <div className="border-shadow-sm sub-section-1-1">
+          <div className="border-shadow sub-section-1-1">
             <img 
               src={directory[15].thumbSrc}
               onClick={() => handleOpen(directory[15].imgSrc, directory[15].title)}
               alt={directory[15].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-1-2">
+          <div className="border-shadow sub-section-1-2">
             <img
               src={directory[16].thumbSrc}
               onClick={() => handleOpen(directory[16].imgSrc, directory[16].title)}
               alt={directory[16].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-1-3">
+          <div className="border-shadow sub-section-1-3">
             <img
               src={directory[17].thumbSrc}
               onClick={() => handleOpen(directory[17].imgSrc, directory[17].title)} 
               alt={directory[17].title}           
             />
           </div>
-          <div className="border-shadow-sm sub-section-1-4">
+          <div className="border-shadow sub-section-1-4">
             <img 
               src={directory[18].thumbSrc}
               onClick={() => handleOpen(directory[18].imgSrc, directory[18].title)}
               alt={directory[18].title}
             />
           </div>
-          <div className="border-shadow-sm sub-section-1-5">
+          <div className="border-shadow sub-section-1-5">
             <img 
               src={directory[19].thumbSrc}
               onClick={() => handleOpen(directory[19].imgSrc, directory[19].title)}
