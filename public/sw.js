@@ -1,4 +1,4 @@
-const CACHE_NAME = 'wittner-museum-cache-v1';
+const CACHE_NAME = 'wittner-museum-cache-v2';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
@@ -34,17 +34,27 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch Event - Serves assets from cache offline, updates online
+// Fetch Event - Dynamic caching strategies
 self.addEventListener('fetch', (event) => {
-  // Skip cross-origin or non-GET requests (like router loops)
   if (event.request.method !== 'GET') return;
 
-  event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-      return fetch(event.request);
-    })
-  );
+  const url = new URL(event.request.url);
+
+
+  if (event.request.mode === 'navigate' || url.pathname === '/' || url.pathname === '/index.html') {
+    event.respondWith(
+      fetch(event.request).then((response) => {
+        if (response.status === 200) {
+          const responseClone = response.clone();caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
+        }
+      return response;
+      }) .catch(() => caches.match(event.request)));
+    return;
+  }
+  event.respondWith(caches.match(event.request).then((cachedResponse) => {
+    if (cachedResponse) {
+      return cachedResponse;
+    }
+    return fetch(event.request);
+  }));
 });

@@ -2,6 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script>
+      window.addEventListener('error', (e) =>{
+        const errorMessage = e.message || '';
+        if(errorMessage.includes('Loading chunk') || errorMessage.includes('Script error')) {
+          window.location.reload();
+        }
+      }, true);
+    </script>
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover, maximum-scale=5.0, user-scalable=yes" />
     <meta name="theme-color" content="#000000" />

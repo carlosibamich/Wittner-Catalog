@@ -352,6 +352,7 @@ import MutinyAudio from '../../assets/audio/main-room/mutiny.mp3'
 import AutumnAudio from '../../assets/audio/green-room/autumn-of-33.mp3'
 import SongOfLoveAudio from '../../assets/audio/green-room/song-of-love.mp3'
 import OtherSideAudio from '../../assets/audio/green-room/the-other-side.mp3'
+import TheSherpaAudio from '../../assets/audio/green-room/the-sherpa.mp3'
 
 //------------------------------------ End ------------------------------------ //
 
@@ -1102,7 +1103,7 @@ export const directory = [
       id: 107,
       imgSrc: Resist,
       thumbSrc: `/.netlify/images?url=${Resist}&w=400`,
-      title: "Resist",
+      title: "Resistance",
       audio: ResistanceAudio,
     },
     {
@@ -1907,8 +1908,8 @@ export const directory = [
       id: 222,
       imgSrc: Sherpa,
       thumbSrc: `/.netlify/images?url=${Sherpa}&w=400`,
-      title: "Carrying the Burden of Their World",
-      audio: null,
+      title: "The Sherpa",
+      audio: TheSherpaAudio,
     },
     {
       id: 223,
