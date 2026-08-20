@@ -9,7 +9,7 @@ import Challenges from '../../assets/images/entry-east/3-challenges.webp';
 import ArtScience from '../../assets/images/entry-east/4-marriage-art-science.webp';
 import Venus from '../../assets/images/entry-east/5-venus.webp';
 import ItsTime from '../../assets/images/entry-east/6-its-time.webp';
-import Neptunes1 from '../../assets/images/entry-east/7-neptunes-confront-pollution.webp';
+import Neptunes2 from '../../assets/images/entry-east/7-neptunes-confront-pollution.webp';
 import TheDream from '../../assets/images/entry-east/8-the-dream.webp';
 import Evan from '../../assets/images/entry-east/9-evan.webp';
 
@@ -98,7 +98,7 @@ import Flip from '../../assets/images/stage-alcove/77-flip.webp';
 import YouFirst from '../../assets/images/stage-alcove/78-you-first.webp';
 import Afternoon from '../../assets/images/stage-alcove/79-another-afternoon.webp';
 import BirdSanctuary from '../../assets/images/stage-alcove/80-bird-sanctuary.webp';
-import Neptunes2 from '../../assets/images/stage-alcove/81-neptunes-confront-us-2.webp';
+import Neptunes1 from '../../assets/images/stage-alcove/81-neptunes-confront-us-2.webp';
 import Wrestling from '../../assets/images/stage-alcove/82-jacob-wrestling-angel.webp';
 import LastVoyage from '../../assets/images/stage-alcove/83-last-voyage.webp';
 import Enlightenment from '../../assets/images/stage-alcove/84-moment-of-enlightenment.webp';
@@ -262,7 +262,7 @@ import Untitled4 from '../../assets/images/green-room/213-untitled-4.webp';
 import Marge from '../../assets/images/green-room/214-marge.webp';
 
 // ----------------- Green Room West ------------------ //
-import Untitled5 from '../../assets/images/green-room/215-untitled-5.webp';
+import Judgement from '../../assets/images/green-room/215-judgement.webp';
 import Untitled6 from '../../assets/images/green-room/216-untitled-6.webp';
 import Transparent from '../../assets/images/green-room/217-transparent.webp';
 import Stunned from '../../assets/images/green-room/218-stunned-by-the-beauty-of-night.webp';
@@ -279,7 +279,7 @@ import Go from '../../assets/images/green-room/225-go.webp';
 import DontWorry from '../../assets/images/green-room/226-dont-worry-be-happy.webp';
 import Advice from '../../assets/images/green-room/227-we-could-use-some-advice.webp';
 import NaturalHistory from '../../assets/images/green-room/228-the-museum-of-natural-history.webp';
-import Untitled7 from '../../assets/images/green-room/229-untitled-7.webp';
+import Conclave from '../../assets/images/green-room/229-conclave.webp';
 import Quarantined from '../../assets/images/green-room/230-quarantined.webp';
 
 // ---------------------------------------- Audio Files ------------------------------------------ //
@@ -401,10 +401,10 @@ export const directory = [
     },
     {
       id: 7,
-      imgSrc: Neptunes1,
-      thumbSrc: `/.netlify/images?url=${Neptunes1}&w=400`,
-      title: "The Neptunes Confront Us About the Pollution",
-      audio: null,
+      imgSrc: Neptunes2,
+      thumbSrc: `/.netlify/images?url=${Neptunes2}&w=400`,
+      title: "Once Again the Neptunes Confront Us About the Pollution",
+      audio: Neptunes2Audio,
     },
     {
       id: 8,
@@ -919,10 +919,10 @@ export const directory = [
     },
     {
       id: 81,
-      imgSrc: Neptunes2,
-      thumbSrc: `/.netlify/images?url=${Neptunes2}&w=400`,
-      title: "Once Again the Neptunes Confront Us About the Pollution",
-      audio: Neptunes2Audio,
+      imgSrc: Neptunes1,
+      thumbSrc: `/.netlify/images?url=${Neptunes1}&w=400`,
+      title: "The Neptunes Confront Us About the Pollution",
+      audio: null,
     },
     {
       id: 82,
@@ -1857,9 +1857,9 @@ export const directory = [
     },
     {
       id: 215,
-      imgSrc: Untitled5,
-      thumbSrc: `/.netlify/images?url=${Untitled5}&w=400`,
-      title: "Untitled",
+      imgSrc: Judgement,
+      thumbSrc: `/.netlify/images?url=${Judgement}&w=400`,
+      title: "Judgement",
       audio: null,
     },
     {
@@ -1955,9 +1955,9 @@ export const directory = [
     },
     {
       id: 229,
-      imgSrc: Untitled7,
-      thumbSrc: `/.netlify/images?url=${Untitled7}&w=400`,
-      title: "Untitled",
+      imgSrc: Conclave,
+      thumbSrc: `/.netlify/images?url=${Conclave}&w=400`,
+      title: "Conclave",
       audio: null,
     },
     {
