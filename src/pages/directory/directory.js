@@ -1859,7 +1859,7 @@ export const directory = [
       id: 215,
       imgSrc: Judgement,
       thumbSrc: `/.netlify/images?url=${Judgement}&w=400`,
-      title: "Judgement",
+      title: "Judgement (from the Tarot)",
       audio: null,
     },
     {
