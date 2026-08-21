@@ -70,7 +70,7 @@ const ScreenToggleButton = () => {
     return (
       <button className="toggle-box">
         <div className="screen-toggle">
-          <Yolk className="screen-icon yw border-shadow"/>
+          <Yolk className="screen-icon yw"/>
         </div>
       </button>
     );
