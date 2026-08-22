@@ -480,7 +480,7 @@ export const directory = [
       id: 18,
       imgSrc: Strength,
       thumbSrc: `/.netlify/images?url=${Strength}&w=400`,
-      title: "Strength (from the Tarot)",
+      title: "Strength (From the Tarot)",
       audio: null,
     },
     {
@@ -508,21 +508,21 @@ export const directory = [
       id: 22,
       imgSrc: Hermit,
       thumbSrc: `/.netlify/images?url=${Hermit}&w=400`,
-      title: "The Hermit (from the Tarot)",
+      title: "The Hermit (From the Tarot)",
       audio: null,
     },
     {
       id: 23,
       imgSrc: Empress,
       thumbSrc: `/.netlify/images?url=${Empress}&w=400`,
-      title: "The Empress (from the Tarot)",
+      title: "The Empress (From the Tarot)",
       audio: null,
     },
     {
       id: 24,
       imgSrc: Emperor,
       thumbSrc: `/.netlify/images?url=${Emperor}&w=400`,
-      title: "The Emperor (from the Tarot)",
+      title: "The Emperor (From the Tarot)",
       audio: null,
     },
     {
@@ -543,7 +543,7 @@ export const directory = [
       id: 27,
       imgSrc: Magician,
       thumbSrc: `/.netlify/images?url=${Magician}&w=400`,
-      title: "The Magician (from the Tarot)",
+      title: "The Magician (From the Tarot)",
       audio: null,
     },
     {
@@ -585,7 +585,7 @@ export const directory = [
       id: 33,
       imgSrc: PriestessThumb,
       thumbSrc: `/.netlify/images?url=${PriestessThumb}&w=400`,
-      title: "The High Priestess (from the Tarot)",
+      title: "The High Priestess (From the Tarot)",
       audio: null,
     },
   {
@@ -1859,7 +1859,7 @@ export const directory = [
       id: 215,
       imgSrc: Judgement,
       thumbSrc: `/.netlify/images?url=${Judgement}&w=400`,
-      title: "Judgement (from the Tarot)",
+      title: "Judgement (From the Tarot)",
       audio: null,
     },
     {
